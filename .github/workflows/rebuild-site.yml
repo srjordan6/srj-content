@@ -3,19 +3,25 @@ name: Rebuild site on content change
 # main branch. Any push here must therefore trigger the site build. Same
 # mechanism as srj-site's own workflow: POST the Cloudflare deploy hook,
 # stored in this repo's secret CLOUDFLARE_DEPLOY_HOOK (same hook URL).
+# The secret value is whitespace-stripped before use: it was saved with a
+# trailing newline, which curl rejects as a malformed URL (exit 3).
 
 on:
   push:
     branches: [main]
+  workflow_dispatch:
 
 jobs:
   trigger:
     runs-on: ubuntu-latest
     steps:
       - name: Call deploy hook
+        env:
+          RAW_HOOK: ${{ secrets.CLOUDFLARE_DEPLOY_HOOK }}
         run: |
-          if [ -z "${{ secrets.CLOUDFLARE_DEPLOY_HOOK }}" ]; then
+          HOOK="$(printf '%s' "$RAW_HOOK" | tr -d '[:space:]')"
+          if [ -z "$HOOK" ]; then
             echo "CLOUDFLARE_DEPLOY_HOOK secret is not set"; exit 1
           fi
-          curl -sf -X POST "${{ secrets.CLOUDFLARE_DEPLOY_HOOK }}"
+          curl -sf -X POST "$HOOK"
           echo "Site rebuild triggered."
