@@ -1,0 +1,21 @@
+name: Rebuild site on content change
+# Content lives here; the site builds in srj-site by fetching this repo's
+# main branch. Any push here must therefore trigger the site build. Same
+# mechanism as srj-site's own workflow: POST the Cloudflare deploy hook,
+# stored in this repo's secret CLOUDFLARE_DEPLOY_HOOK (same hook URL).
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call deploy hook
+        run: |
+          if [ -z "${{ secrets.CLOUDFLARE_DEPLOY_HOOK }}" ]; then
+            echo "CLOUDFLARE_DEPLOY_HOOK secret is not set"; exit 1
+          fi
+          curl -sf -X POST "${{ secrets.CLOUDFLARE_DEPLOY_HOOK }}"
+          echo "Site rebuild triggered."
