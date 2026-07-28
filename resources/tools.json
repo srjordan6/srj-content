@@ -1,0 +1,2665 @@
+{
+ "source": {
+  "name": "SRJ AI Tools seed (wp-content/mu-plugins/srj-ai-tools-data.php)",
+  "generated": "2026-07-24",
+  "origin_csv": "SRJ_AI_Tool_Inventory_Tracker.csv"
+ },
+ "converted": "2026-07-28",
+ "count": 320,
+ "categories": [
+  {
+   "name": "AI Governance & Risk Management Platforms",
+   "slug": "ai-governance-and-risk-management-platforms"
+  },
+  {
+   "name": "Automation & Agents",
+   "slug": "automation-and-agents"
+  },
+  {
+   "name": "Chat & General LLMs",
+   "slug": "chat-and-general-llms"
+  },
+  {
+   "name": "Chinese Foundation Models",
+   "slug": "chinese-foundation-models"
+  },
+  {
+   "name": "Cloud AI Services & Model APIs",
+   "slug": "cloud-ai-services-and-model-apis"
+  },
+  {
+   "name": "Coding & Developer Tools",
+   "slug": "coding-and-developer-tools"
+  },
+  {
+   "name": "Data & Analytics AI",
+   "slug": "data-and-analytics-ai"
+  },
+  {
+   "name": "Education & Research AI",
+   "slug": "education-and-research-ai"
+  },
+  {
+   "name": "Emerging / Frontier AI",
+   "slug": "emerging-frontier-ai"
+  },
+  {
+   "name": "Enterprise AI Platforms & Agent Orchestration",
+   "slug": "enterprise-ai-platforms-and-agent-orchestration"
+  },
+  {
+   "name": "ERP & Business Application AI",
+   "slug": "erp-and-business-application-ai"
+  },
+  {
+   "name": "Finance & Legal AI",
+   "slug": "finance-and-legal-ai"
+  },
+  {
+   "name": "Healthcare & Life Sciences AI",
+   "slug": "healthcare-and-life-sciences-ai"
+  },
+  {
+   "name": "HR & Talent AI",
+   "slug": "hr-and-talent-ai"
+  },
+  {
+   "name": "Image & Graphic Design",
+   "slug": "image-and-graphic-design"
+  },
+  {
+   "name": "Notes, Knowledge & Meetings",
+   "slug": "notes-knowledge-and-meetings"
+  },
+  {
+   "name": "Open Source & Self-Hosted Models",
+   "slug": "open-source-and-self-hosted-models"
+  },
+  {
+   "name": "Search, Research, Translation & Other",
+   "slug": "search-research-translation-and-other"
+  },
+  {
+   "name": "Security & Identity AI",
+   "slug": "security-and-identity-ai"
+  },
+  {
+   "name": "Slides & Presentations",
+   "slug": "slides-and-presentations"
+  },
+  {
+   "name": "Video Generation & Editing",
+   "slug": "video-generation-and-editing"
+  },
+  {
+   "name": "Voice & Audio",
+   "slug": "voice-and-audio"
+  },
+  {
+   "name": "Writing & Editing",
+   "slug": "writing-and-editing"
+  }
+ ],
+ "tools": [
+  {
+   "name": "Arize AI",
+   "category": "AI Governance & Risk Management Platforms",
+   "vendor": "Arize AI",
+   "jurisdiction": "US",
+   "note": "ML observability; LLM tracing; evaluation framework; prompt monitoring",
+   "url": "https://arize.com/"
+  },
+  {
+   "name": "Arthur AI",
+   "category": "AI Governance & Risk Management Platforms",
+   "vendor": "Arthur AI",
+   "jurisdiction": "US",
+   "note": "Model monitoring and governance; bias mitigation; fairness metrics; compliance reporting",
+   "url": "https://www.arthur.ai/"
+  },
+  {
+   "name": "Credo AI",
+   "category": "AI Governance & Risk Management Platforms",
+   "vendor": "Credo AI",
+   "jurisdiction": "US",
+   "note": "Purpose-built AI governance; policy packs for EU AI Act, NIST AI RMF; clean interface; fast deployment",
+   "url": "https://www.credo.ai/"
+  },
+  {
+   "name": "Fiddler AI",
+   "category": "AI Governance & Risk Management Platforms",
+   "vendor": "Fiddler",
+   "jurisdiction": "US",
+   "note": "Model performance management; explainability; bias detection; drift monitoring; LLM observability",
+   "url": "https://www.fiddler.ai/"
+  },
+  {
+   "name": "Holistic AI",
+   "category": "AI Governance & Risk Management Platforms",
+   "vendor": "Holistic AI",
+   "jurisdiction": "UK",
+   "note": "Bias auditing, risk management, compliance; strong technical depth; mid-market focus",
+   "url": "https://www.holisticai.com/"
+  },
+  {
+   "name": "IBM OpenPages with Watson",
+   "category": "AI Governance & Risk Management Platforms",
+   "vendor": "IBM",
+   "jurisdiction": "US",
+   "note": "Full GRC platform with AI-specific modules; risk assessment; regulatory mapping; Watson AI automated documentation",
+   "url": "https://www.ibm.com/products/openpages"
+  },
+  {
+   "name": "IBM watsonx.governance",
+   "category": "AI Governance & Risk Management Platforms",
+   "vendor": "IBM",
+   "jurisdiction": "US",
+   "note": "AI lifecycle governance; model evaluation, monitoring, and documentation; EU AI Act accelerators; named a Leader in Gartner's first AI Governance Platforms Magic Quadrant (June 2026)",
+   "url": "https://www.ibm.com/products/watsonx-governance"
+  },
+  {
+   "name": "Jamf AI Governance",
+   "category": "AI Governance & Risk Management Platforms",
+   "vendor": "Jamf",
+   "jurisdiction": "US",
+   "note": "Native AI control plane for macOS fleets, GA July 1, 2026; discovery and policy enforcement for on-device and cloud AI use on Mac endpoints",
+   "url": "https://www.jamf.com/"
+  },
+  {
+   "name": "Monitaur",
+   "category": "AI Governance & Risk Management Platforms",
+   "vendor": "Monitaur",
+   "jurisdiction": "US",
+   "note": "Model monitoring with built-in governance; unified monitoring + governance platform",
+   "url": "https://www.monitaur.ai/"
+  },
+  {
+   "name": "OneTrust AI Governance",
+   "category": "AI Governance & Risk Management Platforms",
+   "vendor": "OneTrust",
+   "jurisdiction": "US",
+   "note": "Privacy-first approach; strong data governance; compliance automation; good for privacy-primary orgs",
+   "url": "https://www.onetrust.com/"
+  },
+  {
+   "name": "ServiceNow AI Governance",
+   "category": "AI Governance & Risk Management Platforms",
+   "vendor": "ServiceNow",
+   "jurisdiction": "US",
+   "note": "Built into Now Platform; model inventory; risk scoring; approval workflows; AI Control Tower expanded June 2026 to discover, observe, govern, secure, and measure AI deployed across any system; best for existing ServiceNow shops",
+   "url": "https://www.servicenow.com/"
+  },
+  {
+   "name": "Truyo",
+   "category": "AI Governance & Risk Management Platforms",
+   "vendor": "Truyo",
+   "jurisdiction": "US",
+   "note": "AI governance platform grown out of consent and privacy automation; automated AI inventory, risk assessment, and compliance workflows; recognized in Gartner's 2026 AI Governance Platforms Magic Quadrant",
+   "url": "https://truyo.com/"
+  },
+  {
+   "name": "WhyLabs",
+   "category": "AI Governance & Risk Management Platforms",
+   "vendor": "WhyLabs",
+   "jurisdiction": "US",
+   "note": "Data-centric AI observability; statistical profiling; privacy-preserving monitoring",
+   "url": "https://whylabs.ai/"
+  },
+  {
+   "name": "Apify",
+   "category": "Automation & Agents",
+   "vendor": "Apify",
+   "jurisdiction": "Czech Republic",
+   "note": "Web scraping platform; actor marketplace; automation; EU-hosted; GDPR",
+   "url": "https://apify.com/"
+  },
+  {
+   "name": "Automation Anywhere",
+   "category": "Automation & Agents",
+   "vendor": "Automation Anywhere",
+   "jurisdiction": "US",
+   "note": "Intelligent automation platform; AI-powered bots; control room governance; credential vault",
+   "url": "https://www.automationanywhere.com/"
+  },
+  {
+   "name": "Bardeen",
+   "category": "Automation & Agents",
+   "vendor": "Bardeen",
+   "jurisdiction": "US",
+   "note": "Browser automation AI; web scraping; personal productivity; data exposure risk",
+   "url": "https://www.bardeen.ai/"
+  },
+  {
+   "name": "Blue Prism",
+   "category": "Automation & Agents",
+   "vendor": "SS&C Blue Prism",
+   "jurisdiction": "UK",
+   "note": "Enterprise RPA; digital workforce; centralized control; UK-hosted; GDPR relevant",
+   "url": "https://www.blueprism.com/"
+  },
+  {
+   "name": "Browse AI",
+   "category": "Automation & Agents",
+   "vendor": "Browse AI",
+   "jurisdiction": "Canada",
+   "note": "Web scraping automation; data extraction; monitoring; terms-of-service compliance risk",
+   "url": "https://www.browse.ai/"
+  },
+  {
+   "name": "Make (Integromat) AI",
+   "category": "Automation & Agents",
+   "vendor": "Make",
+   "jurisdiction": "Czech Republic",
+   "note": "Visual automation platform; AI integrations; EU-hosted options; GDPR workflow compliance",
+   "url": "https://www.make.com/"
+  },
+  {
+   "name": "Manus",
+   "category": "Automation & Agents",
+   "vendor": "Manus AI",
+   "jurisdiction": "Singapore",
+   "note": "Autonomous agent; high decision-influence",
+   "url": "https://manus.im/"
+  },
+  {
+   "name": "Microsoft Power Automate AI",
+   "category": "Automation & Agents",
+   "vendor": "Microsoft",
+   "jurisdiction": "US",
+   "note": "Enterprise workflow automation; Copilot integration; M365 data access; DLP integration",
+   "url": "https://www.microsoft.com/en-us/power-platform/products/power-automate"
+  },
+  {
+   "name": "n8n",
+   "category": "Automation & Agents",
+   "vendor": "n8n",
+   "jurisdiction": "Germany",
+   "note": "Workflow automation; agentic actions",
+   "url": "https://n8n.io/"
+  },
+  {
+   "name": "UiPath AI",
+   "category": "Automation & Agents",
+   "vendor": "UiPath",
+   "jurisdiction": "US",
+   "note": "RPA + AI platform; document understanding; process mining; enterprise automation governance",
+   "url": "https://www.uipath.com/"
+  },
+  {
+   "name": "Zapier AI",
+   "category": "Automation & Agents",
+   "vendor": "Zapier",
+   "jurisdiction": "US",
+   "note": "Workflow automation with AI; 7000+ app integrations; data flow governance; cross-app exposure",
+   "url": "https://zapier.com/ai"
+  },
+  {
+   "name": "Zapier Central",
+   "category": "Automation & Agents",
+   "vendor": "Zapier",
+   "jurisdiction": "US",
+   "note": "Workflow automation; agentic actions",
+   "url": "https://zapier.com/agents"
+  },
+  {
+   "name": "01.AI Yi",
+   "category": "Chat & General LLMs",
+   "vendor": "01.AI",
+   "jurisdiction": "China",
+   "note": "Chinese open-source LLM; Kai-Fu Lee founded; cross-border data review advised",
+   "url": "https://www.01.ai/"
+  },
+  {
+   "name": "AI2 OLMo",
+   "category": "Chat & General LLMs",
+   "vendor": "Allen Institute for AI",
+   "jurisdiction": "US",
+   "note": "Open-source language model; fully open training data; research transparency; nonprofit",
+   "url": "https://allenai.org/"
+  },
+  {
+   "name": "Aleph Alpha",
+   "category": "Chat & General LLMs",
+   "vendor": "Aleph Alpha",
+   "jurisdiction": "Germany",
+   "note": "European sovereign LLM; EU-hosted; GDPR-first; multilingual; Luminous model family",
+   "url": "https://aleph-alpha.com/"
+  },
+  {
+   "name": "Apple Intelligence",
+   "category": "Chat & General LLMs",
+   "vendor": "Apple",
+   "jurisdiction": "US",
+   "note": "On-device LLM; Private Cloud Compute; Apple silicon; minimal data exposure; privacy-first",
+   "url": "https://www.apple.com/apple-intelligence/"
+  },
+  {
+   "name": "Baichuan",
+   "category": "Chat & General LLMs",
+   "vendor": "Baichuan AI",
+   "jurisdiction": "China",
+   "note": "Chinese open-source LLM; medical and legal fine-tunes; cross-border data review advised",
+   "url": "https://www.baichuan-ai.com/"
+  },
+  {
+   "name": "Cerebras",
+   "category": "Chat & General LLMs",
+   "vendor": "Cerebras",
+   "jurisdiction": "US",
+   "note": "Wafer-scale AI compute; inference API; on-prem options; high-performance computing",
+   "url": "https://www.cerebras.ai/"
+  },
+  {
+   "name": "Character.ai",
+   "category": "Chat & General LLMs",
+   "vendor": "Character.AI",
+   "jurisdiction": "US",
+   "note": "Persona chat; HR/appropriate-use risk",
+   "url": "https://character.ai/"
+  },
+  {
+   "name": "ChatGPT",
+   "category": "Chat & General LLMs",
+   "vendor": "OpenAI",
+   "jurisdiction": "US",
+   "note": "General LLM assistant",
+   "url": "https://chatgpt.com/"
+  },
+  {
+   "name": "Claude",
+   "category": "Chat & General LLMs",
+   "vendor": "Anthropic",
+   "jurisdiction": "US",
+   "note": "General LLM assistant",
+   "url": "https://claude.ai/"
+  },
+  {
+   "name": "Cohere Coral",
+   "category": "Chat & General LLMs",
+   "vendor": "Cohere",
+   "jurisdiction": "Canada",
+   "note": "Enterprise chat AI; RAG-native; data privacy focus; Canadian vendor",
+   "url": "https://cohere.com/"
+  },
+  {
+   "name": "Databricks DBRX",
+   "category": "Chat & General LLMs",
+   "vendor": "Databricks",
+   "jurisdiction": "US",
+   "note": "Open-source general LLM; Mixture-of-Experts; enterprise training; already noted in Data & Analytics",
+   "url": "https://www.databricks.com/"
+  },
+  {
+   "name": "DeepSeek",
+   "category": "Chat & General LLMs",
+   "vendor": "DeepSeek AI",
+   "jurisdiction": "China",
+   "note": "Open-weight MoE; cross-border data review advised",
+   "url": "https://www.deepseek.com/"
+  },
+  {
+   "name": "Falcon (TII)",
+   "category": "Chat & General LLMs",
+   "vendor": "Technology Innovation Institute",
+   "jurisdiction": "UAE",
+   "note": "UAE-hosted open-source LLM; sovereign AI; Apache 2.0; Middle East data residency",
+   "url": "https://falconllm.tii.ae/"
+  },
+  {
+   "name": "Fireworks AI",
+   "category": "Chat & General LLMs",
+   "vendor": "Fireworks AI",
+   "jurisdiction": "US",
+   "note": "Fast inference API; open-source models; enterprise deployment; cost optimization",
+   "url": "https://fireworks.ai/"
+  },
+  {
+   "name": "Gemini",
+   "category": "Chat & General LLMs",
+   "vendor": "Google",
+   "jurisdiction": "US",
+   "note": "General LLM assistant",
+   "url": "https://gemini.google.com/"
+  },
+  {
+   "name": "Grok",
+   "category": "Chat & General LLMs",
+   "vendor": "xAI",
+   "jurisdiction": "US",
+   "note": "General LLM assistant",
+   "url": "https://grok.com/"
+  },
+  {
+   "name": "Huawei PanGu",
+   "category": "Chat & General LLMs",
+   "vendor": "Huawei",
+   "jurisdiction": "China",
+   "note": "Chinese foundation model; cross-border data review advised; Ascend chip optimization",
+   "url": "https://www.huawei.com/"
+  },
+  {
+   "name": "HyperWrite",
+   "category": "Chat & General LLMs",
+   "vendor": "HyperWrite",
+   "jurisdiction": "US",
+   "note": "Writing assistant + agent",
+   "url": "https://www.hyperwriteai.com/"
+  },
+  {
+   "name": "iFlytek Spark",
+   "category": "Chat & General LLMs",
+   "vendor": "iFlytek",
+   "jurisdiction": "China",
+   "note": "Chinese voice+language AI; speech recognition; cross-border data review advised",
+   "url": "https://www.iflytek.com/"
+  },
+  {
+   "name": "InternLM (Shanghai AI Lab)",
+   "category": "Chat & General LLMs",
+   "vendor": "Shanghai AI Laboratory",
+   "jurisdiction": "China",
+   "note": "Chinese open-source LLM; academic research; cross-border data review advised",
+   "url": "https://www.shlab.org.cn/"
+  },
+  {
+   "name": "JAIS (G42 / Inception)",
+   "category": "Chat & General LLMs",
+   "vendor": "G42 / Inception",
+   "jurisdiction": "UAE",
+   "note": "Arabic-centric LLM; UAE sovereign AI; cultural alignment; Middle East data governance",
+   "url": "https://www.g42.ai/"
+  },
+  {
+   "name": "Janitor AI",
+   "category": "Chat & General LLMs",
+   "vendor": "Janitor AI",
+   "jurisdiction": "US",
+   "note": "Persona chat; HR/appropriate-use risk",
+   "url": "https://janitorai.com/"
+  },
+  {
+   "name": "Kimi",
+   "category": "Chat & General LLMs",
+   "vendor": "Moonshot AI",
+   "jurisdiction": "China",
+   "note": "Long-context reasoning; cross-border data review advised",
+   "url": "https://www.moonshot.ai/"
+  },
+  {
+   "name": "Llama (Meta)",
+   "category": "Chat & General LLMs",
+   "vendor": "Meta",
+   "jurisdiction": "US",
+   "note": "Open-weight model family; often self-hosted",
+   "url": "https://www.llama.com/"
+  },
+  {
+   "name": "LMSYS Arena Models",
+   "category": "Chat & General LLMs",
+   "vendor": "LMSYS",
+   "jurisdiction": "US",
+   "note": "Model evaluation platform; crowdsourced benchmarking; research transparency; no production use",
+   "url": "https://lmarena.ai/"
+  },
+  {
+   "name": "Microsoft Copilot",
+   "category": "Chat & General LLMs",
+   "vendor": "Microsoft",
+   "jurisdiction": "US",
+   "note": "Embedded across M365",
+   "url": "https://copilot.microsoft.com/"
+  },
+  {
+   "name": "Mistral / Le Chat",
+   "category": "Chat & General LLMs",
+   "vendor": "Mistral AI",
+   "jurisdiction": "France",
+   "note": "EU-hosted option; GDPR relevant",
+   "url": "https://mistral.ai/"
+  },
+  {
+   "name": "Notion AI",
+   "category": "Chat & General LLMs",
+   "vendor": "Notion Labs",
+   "jurisdiction": "US",
+   "note": "Embedded in workspace/knowledge base",
+   "url": "https://www.notion.com/product/ai"
+  },
+  {
+   "name": "NVIDIA Nemotron",
+   "category": "Chat & General LLMs",
+   "vendor": "NVIDIA",
+   "jurisdiction": "US",
+   "note": "Enterprise LLM family; synthetic data generation; GPU-optimized; self-hosted options",
+   "url": "https://www.nvidia.com/en-us/ai-data-science/foundation-models/nemotron/"
+  },
+  {
+   "name": "Perplexity AI",
+   "category": "Chat & General LLMs",
+   "vendor": "Perplexity",
+   "jurisdiction": "US",
+   "note": "Search-augmented LLM",
+   "url": "https://www.perplexity.ai/"
+  },
+  {
+   "name": "Pi",
+   "category": "Chat & General LLMs",
+   "vendor": "Inflection AI",
+   "jurisdiction": "US",
+   "note": "Conversational assistant",
+   "url": "https://inflection.ai/"
+  },
+  {
+   "name": "Poe",
+   "category": "Chat & General LLMs",
+   "vendor": "Quora",
+   "jurisdiction": "US",
+   "note": "Multi-model aggregator",
+   "url": "https://poe.com/"
+  },
+  {
+   "name": "Replicate",
+   "category": "Chat & General LLMs",
+   "vendor": "Replicate",
+   "jurisdiction": "US",
+   "note": "Model hosting and inference API; open-source models; community models; content policy",
+   "url": "https://replicate.com/"
+  },
+  {
+   "name": "SambaNova",
+   "category": "Chat & General LLMs",
+   "vendor": "SambaNova Systems",
+   "jurisdiction": "US",
+   "note": "Enterprise AI hardware+software; DataScale platform; on-prem deployment; sovereign AI",
+   "url": "https://sambanova.ai/"
+  },
+  {
+   "name": "Samsung Gauss",
+   "category": "Chat & General LLMs",
+   "vendor": "Samsung",
+   "jurisdiction": "South Korea",
+   "note": "On-device LLM; Galaxy AI; personal data processing; Korean vendor; local processing",
+   "url": "https://www.samsung.com/"
+  },
+  {
+   "name": "SaulLM (Saul)",
+   "category": "Chat & General LLMs",
+   "vendor": "Saul",
+   "jurisdiction": "France",
+   "note": "French legal-domain LLM; specialized training; EU data governance",
+   "url": "https://www.counsel.com/"
+  },
+  {
+   "name": "SenseTime SenseChat",
+   "category": "Chat & General LLMs",
+   "vendor": "SenseTime",
+   "jurisdiction": "China",
+   "note": "Chinese multimodal LLM; computer vision integration; cross-border data review advised",
+   "url": "https://www.sensetime.com/"
+  },
+  {
+   "name": "Slack AI",
+   "category": "Chat & General LLMs",
+   "vendor": "Salesforce",
+   "jurisdiction": "US",
+   "note": "Embedded in messaging; message-corpus exposure",
+   "url": "https://slack.com/features/ai"
+  },
+  {
+   "name": "Snowflake Arctic",
+   "category": "Chat & General LLMs",
+   "vendor": "Snowflake",
+   "jurisdiction": "US",
+   "note": "Enterprise-focused LLM; Apache 2.0 license; data cloud integration; commercial use",
+   "url": "https://www.snowflake.com/"
+  },
+  {
+   "name": "Together AI",
+   "category": "Chat & General LLMs",
+   "vendor": "Together AI",
+   "jurisdiction": "US",
+   "note": "Decentralized cloud for open models; inference API; model hub; data residency options",
+   "url": "https://www.together.ai/"
+  },
+  {
+   "name": "You.com",
+   "category": "Chat & General LLMs",
+   "vendor": "You.com",
+   "jurisdiction": "US",
+   "note": "Search-augmented LLM",
+   "url": "https://you.com/"
+  },
+  {
+   "name": "Zoom AI Companion",
+   "category": "Chat & General LLMs",
+   "vendor": "Zoom",
+   "jurisdiction": "US",
+   "note": "Meeting summarization; recording consent relevant",
+   "url": "https://www.zoom.com/en/products/ai-assistant/"
+  },
+  {
+   "name": "Doubao / Seed (ByteDance)",
+   "category": "Chinese Foundation Models",
+   "vendor": "ByteDance",
+   "jurisdiction": "China",
+   "note": "Cross-border data review advised",
+   "url": "https://www.doubao.com/"
+  },
+  {
+   "name": "ERNIE (Baidu)",
+   "category": "Chinese Foundation Models",
+   "vendor": "Baidu",
+   "jurisdiction": "China",
+   "note": "Cross-border data review advised",
+   "url": "https://ernie.baidu.com/"
+  },
+  {
+   "name": "GLM / Z.AI (Zhipu AI)",
+   "category": "Chinese Foundation Models",
+   "vendor": "Zhipu AI",
+   "jurisdiction": "China",
+   "note": "Cross-border data review advised",
+   "url": "https://www.zhipuai.cn/"
+  },
+  {
+   "name": "Hunyuan (Tencent)",
+   "category": "Chinese Foundation Models",
+   "vendor": "Tencent",
+   "jurisdiction": "China",
+   "note": "Cross-border data review advised",
+   "url": "https://hunyuan.tencent.com/"
+  },
+  {
+   "name": "MiMo (Xiaomi)",
+   "category": "Chinese Foundation Models",
+   "vendor": "Xiaomi",
+   "jurisdiction": "China",
+   "note": "Cross-border data review advised",
+   "url": "https://www.mi.com/"
+  },
+  {
+   "name": "MiniMax",
+   "category": "Chinese Foundation Models",
+   "vendor": "MiniMax",
+   "jurisdiction": "China",
+   "note": "Cross-border data review advised",
+   "url": "https://www.minimax.io/"
+  },
+  {
+   "name": "Qwen / Tongyi Qianwen (Alibaba)",
+   "category": "Chinese Foundation Models",
+   "vendor": "Alibaba Cloud",
+   "jurisdiction": "China",
+   "note": "Cross-border data review advised",
+   "url": "https://qwen.ai/"
+  },
+  {
+   "name": "AI21 Labs API",
+   "category": "Cloud AI Services & Model APIs",
+   "vendor": "AI21 Labs",
+   "jurisdiction": "Israel",
+   "note": "Jurassic models; enterprise API; data retention controls; compliance-focused",
+   "url": "https://www.ai21.com/"
+  },
+  {
+   "name": "Amazon SageMaker",
+   "category": "Cloud AI Services & Model APIs",
+   "vendor": "Amazon Web Services",
+   "jurisdiction": "US",
+   "note": "Full ML lifecycle management; model monitoring; bias detection; explainability tools",
+   "url": "https://aws.amazon.com/sagemaker/"
+  },
+  {
+   "name": "AWS Bedrock",
+   "category": "Cloud AI Services & Model APIs",
+   "vendor": "Amazon Web Services",
+   "jurisdiction": "US",
+   "note": "Managed foundation model API service; IAM integration; VPC support; model evaluation tools; AgentCore for agent orchestration",
+   "url": "https://aws.amazon.com/bedrock/"
+  },
+  {
+   "name": "Azure Machine Learning",
+   "category": "Cloud AI Services & Model APIs",
+   "vendor": "Microsoft",
+   "jurisdiction": "US",
+   "note": "MLOps platform; AutoML; model registry; responsible AI toolkit integration",
+   "url": "https://azure.microsoft.com/en-us/products/machine-learning"
+  },
+  {
+   "name": "Azure OpenAI Service",
+   "category": "Cloud AI Services & Model APIs",
+   "vendor": "Microsoft",
+   "jurisdiction": "US",
+   "note": "OpenAI models in Azure regions; enterprise content filtering; Entra ID integration; data residency controls",
+   "url": "https://azure.microsoft.com/en-us/products/ai-services/openai-service"
+  },
+  {
+   "name": "Cohere API",
+   "category": "Cloud AI Services & Model APIs",
+   "vendor": "Cohere",
+   "jurisdiction": "Canada",
+   "note": "Enterprise-focused LLM API; strong on data privacy; RAG-optimized; multi-language support",
+   "url": "https://docs.cohere.com/"
+  },
+  {
+   "name": "Google Vertex AI",
+   "category": "Cloud AI Services & Model APIs",
+   "vendor": "Google Cloud",
+   "jurisdiction": "US",
+   "note": "Unified ML platform; Model Garden; AutoML; MLOps lifecycle; BigQuery integration; TPU support",
+   "url": "https://cloud.google.com/vertex-ai"
+  },
+  {
+   "name": "IBM watsonx",
+   "category": "Cloud AI Services & Model APIs",
+   "vendor": "IBM",
+   "jurisdiction": "US",
+   "note": "Enterprise AI platform; watsonx.governance for agent inventory, behavior monitoring, hallucination detection; model-agnostic",
+   "url": "https://www.ibm.com/watsonx"
+  },
+  {
+   "name": "NVIDIA NIM",
+   "category": "Cloud AI Services & Model APIs",
+   "vendor": "NVIDIA",
+   "jurisdiction": "US",
+   "note": "Inference microservices for deploying foundation models; enterprise GPU optimization; self-hosted options",
+   "url": "https://build.nvidia.com/"
+  },
+  {
+   "name": "Anthropic Console",
+   "category": "Coding & Developer Tools",
+   "vendor": "Anthropic",
+   "jurisdiction": "US",
+   "note": "API management console; prompt testing; evaluation tools; usage monitoring; cost controls",
+   "url": "https://console.anthropic.com/"
+  },
+  {
+   "name": "AutoGen (Microsoft)",
+   "category": "Coding & Developer Tools",
+   "vendor": "Microsoft",
+   "jurisdiction": "US",
+   "note": "Multi-agent conversation framework; agent orchestration; code generation; Microsoft Research",
+   "url": "https://microsoft.github.io/autogen/"
+  },
+  {
+   "name": "Bolt.new",
+   "category": "Coding & Developer Tools",
+   "vendor": "StackBlitz",
+   "jurisdiction": "US",
+   "note": "App generation",
+   "url": "https://bolt.new/"
+  },
+  {
+   "name": "Chroma",
+   "category": "Coding & Developer Tools",
+   "vendor": "Chroma",
+   "jurisdiction": "US",
+   "note": "Open-source embedding database; local-first; lightweight RAG; self-hosted option",
+   "url": "https://www.trychroma.com/"
+  },
+  {
+   "name": "Claude Code",
+   "category": "Coding & Developer Tools",
+   "vendor": "Anthropic",
+   "jurisdiction": "US",
+   "note": "Agentic coding; source-code exposure",
+   "url": "https://www.anthropic.com/claude-code"
+  },
+  {
+   "name": "Comet ML",
+   "category": "Coding & Developer Tools",
+   "vendor": "Comet",
+   "jurisdiction": "US",
+   "note": "ML experiment management; model monitoring; production tracking; team collaboration",
+   "url": "https://www.comet.com/"
+  },
+  {
+   "name": "CrewAI",
+   "category": "Coding & Developer Tools",
+   "vendor": "CrewAI",
+   "jurisdiction": "US",
+   "note": "Multi-agent framework; agent collaboration; task delegation; emerging governance patterns",
+   "url": "https://www.crewai.com/"
+  },
+  {
+   "name": "Cursor",
+   "category": "Coding & Developer Tools",
+   "vendor": "Anysphere",
+   "jurisdiction": "US",
+   "note": "AI IDE; source-code exposure",
+   "url": "https://cursor.com/"
+  },
+  {
+   "name": "Dify",
+   "category": "Coding & Developer Tools",
+   "vendor": "Dify",
+   "jurisdiction": "China",
+   "note": "LLM app development platform; workflow orchestration; open-source; cross-border data review advised",
+   "url": "https://dify.ai/"
+  },
+  {
+   "name": "DSPy",
+   "category": "Coding & Developer Tools",
+   "vendor": "Stanford NLP",
+   "jurisdiction": "US",
+   "note": "Prompt optimization framework; Stanford research; systematic prompt engineering; reproducibility",
+   "url": "https://github.com/stanford-oval/storm"
+  },
+  {
+   "name": "Flowise",
+   "category": "Coding & Developer Tools",
+   "vendor": "Flowise",
+   "jurisdiction": "Open Source",
+   "note": "Visual LLM workflow builder; low-code RAG; self-hosted; no-code agent building",
+   "url": "https://flowiseai.com/"
+  },
+  {
+   "name": "GitHub Copilot",
+   "category": "Coding & Developer Tools",
+   "vendor": "Microsoft/GitHub",
+   "jurisdiction": "US",
+   "note": "Code completion; source-code exposure",
+   "url": "https://github.com/features/copilot"
+  },
+  {
+   "name": "Google AI Studio",
+   "category": "Coding & Developer Tools",
+   "vendor": "Google",
+   "jurisdiction": "US",
+   "note": "Model prototyping",
+   "url": "https://aistudio.google.com/"
+  },
+  {
+   "name": "Hugging Face",
+   "category": "Coding & Developer Tools",
+   "vendor": "Hugging Face",
+   "jurisdiction": "US",
+   "note": "Model hub; supply-chain/AIBOM relevant",
+   "url": "https://huggingface.co/"
+  },
+  {
+   "name": "LangChain",
+   "category": "Coding & Developer Tools",
+   "vendor": "LangChain",
+   "jurisdiction": "US",
+   "note": "LLM application framework; agent orchestration; supply-chain risk; rapid breaking changes",
+   "url": "https://www.langchain.com/"
+  },
+  {
+   "name": "LlamaIndex",
+   "category": "Coding & Developer Tools",
+   "vendor": "LlamaIndex",
+   "jurisdiction": "US",
+   "note": "RAG framework; data connectors; indexing strategies; enterprise RAG governance",
+   "url": "https://www.llamaindex.ai/"
+  },
+  {
+   "name": "Lovable",
+   "category": "Coding & Developer Tools",
+   "vendor": "Lovable",
+   "jurisdiction": "Sweden",
+   "note": "App generation",
+   "url": "https://lovable.dev/"
+  },
+  {
+   "name": "Neptune.ai",
+   "category": "Coding & Developer Tools",
+   "vendor": "Neptune",
+   "jurisdiction": "Poland",
+   "note": "ML metadata store; experiment tracking; model registry; EU-hosted options",
+   "url": "https://neptune.ai/"
+  },
+  {
+   "name": "OpenAI API / GPT models",
+   "category": "Coding & Developer Tools",
+   "vendor": "OpenAI",
+   "jurisdiction": "US",
+   "note": "Direct API; usage-based cost escalation risk",
+   "url": "https://platform.openai.com/"
+  },
+  {
+   "name": "OpenAI Playground / Dashboard",
+   "category": "Coding & Developer Tools",
+   "vendor": "OpenAI",
+   "jurisdiction": "US",
+   "note": "API testing environment; fine-tuning; usage tracking; team management; cost escalation risk",
+   "url": "https://platform.openai.com/playground"
+  },
+  {
+   "name": "Pinecone",
+   "category": "Coding & Developer Tools",
+   "vendor": "Pinecone",
+   "jurisdiction": "US",
+   "note": "Vector database; RAG infrastructure; data residency options; enterprise security",
+   "url": "https://www.pinecone.io/"
+  },
+  {
+   "name": "Relevance AI",
+   "category": "Coding & Developer Tools",
+   "vendor": "Relevance AI",
+   "jurisdiction": "Australia",
+   "note": "No-code AI workforce; agent teams; task automation; APAC data residency",
+   "url": "https://relevanceai.com/"
+  },
+  {
+   "name": "Replit Agent",
+   "category": "Coding & Developer Tools",
+   "vendor": "Replit",
+   "jurisdiction": "US",
+   "note": "Agentic coding; source-code exposure",
+   "url": "https://replit.com/"
+  },
+  {
+   "name": "Stack AI",
+   "category": "Coding & Developer Tools",
+   "vendor": "Stack AI",
+   "jurisdiction": "US",
+   "note": "No-code AI app builder; enterprise deployment; workflow automation; data connector governance",
+   "url": "https://www.stack-ai.com/"
+  },
+  {
+   "name": "Tabnine",
+   "category": "Coding & Developer Tools",
+   "vendor": "Tabnine",
+   "jurisdiction": "Israel",
+   "note": "Code completion; self-host option",
+   "url": "https://www.tabnine.com/"
+  },
+  {
+   "name": "v0 (Vercel)",
+   "category": "Coding & Developer Tools",
+   "vendor": "Vercel",
+   "jurisdiction": "US",
+   "note": "UI generation",
+   "url": "https://v0.dev/"
+  },
+  {
+   "name": "Voiceflow",
+   "category": "Coding & Developer Tools",
+   "vendor": "Voiceflow",
+   "jurisdiction": "Canada",
+   "note": "Conversational AI design; voice/chat agent builder; enterprise team features",
+   "url": "https://www.voiceflow.com/"
+  },
+  {
+   "name": "Weaviate",
+   "category": "Coding & Developer Tools",
+   "vendor": "Weaviate",
+   "jurisdiction": "Netherlands",
+   "note": "Open-source vector DB; GraphQL interface; EU-hosted; GDPR; hybrid search",
+   "url": "https://weaviate.io/"
+  },
+  {
+   "name": "Weights & Biases",
+   "category": "Coding & Developer Tools",
+   "vendor": "Weights & Biases",
+   "jurisdiction": "US",
+   "note": "ML experiment tracking; model registry; artifact lineage; MLOps governance",
+   "url": "https://wandb.ai/"
+  },
+  {
+   "name": "Windsurf",
+   "category": "Coding & Developer Tools",
+   "vendor": "Cognition",
+   "jurisdiction": "US",
+   "note": "AI IDE; source-code exposure",
+   "url": "https://cognition.ai/"
+  },
+  {
+   "name": "Alteryx AI",
+   "category": "Data & Analytics AI",
+   "vendor": "Alteryx",
+   "jurisdiction": "US",
+   "note": "Analytics automation with AI; data blending; workflow governance; self-service analytics risk",
+   "url": "https://www.alteryx.com/"
+  },
+  {
+   "name": "Databricks AI / DBRX",
+   "category": "Data & Analytics AI",
+   "vendor": "Databricks",
+   "jurisdiction": "US",
+   "note": "Lakehouse AI; DBRX open model; MLflow governance; Unity Catalog data governance; strong lineage tracking",
+   "url": "https://www.databricks.com/"
+  },
+  {
+   "name": "Dataiku",
+   "category": "Data & Analytics AI",
+   "vendor": "Dataiku",
+   "jurisdiction": "France",
+   "note": "Collaborative data science platform; MLOps; governance workflows; EU-hosted options; GDPR relevant",
+   "url": "https://www.dataiku.com/"
+  },
+  {
+   "name": "Palantir AIP",
+   "category": "Data & Analytics AI",
+   "vendor": "Palantir",
+   "jurisdiction": "US",
+   "note": "Enterprise AI platform; Ontology-based governance; defense/intel focus; high-stakes decision influence",
+   "url": "https://www.palantir.com/"
+  },
+  {
+   "name": "Snowflake Cortex",
+   "category": "Data & Analytics AI",
+   "vendor": "Snowflake",
+   "jurisdiction": "US",
+   "note": "Native AI in data cloud; LLM functions; vector search; data residency controls; governance via Snowflake Horizon",
+   "url": "https://www.snowflake.com/"
+  },
+  {
+   "name": "Tableau AI (Einstein)",
+   "category": "Data & Analytics AI",
+   "vendor": "Salesforce",
+   "jurisdiction": "US",
+   "note": "BI embedded AI; natural language queries; CRM data integration; Trust Layer governance",
+   "url": "https://www.tableau.com/products/tableau-ai"
+  },
+  {
+   "name": "CheggMate",
+   "category": "Education & Research AI",
+   "vendor": "Chegg",
+   "jurisdiction": "US",
+   "note": "Study AI assistant; academic help; student data; content accuracy; honor code implications",
+   "url": "https://www.chegg.com/"
+  },
+  {
+   "name": "Grammarly for Education",
+   "category": "Education & Research AI",
+   "vendor": "Grammarly",
+   "jurisdiction": "US",
+   "note": "Institutional writing support; student data; FERPA compliance; generative AI features",
+   "url": "https://www.grammarly.com/"
+  },
+  {
+   "name": "Khanmigo (Khan Academy)",
+   "category": "Education & Research AI",
+   "vendor": "Khan Academy",
+   "jurisdiction": "US",
+   "note": "Educational AI tutor; student interaction data; COPPA compliance; pedagogical bias",
+   "url": "https://www.khanacademy.org/"
+  },
+  {
+   "name": "Turnitin AI Detection",
+   "category": "Education & Research AI",
+   "vendor": "Turnitin",
+   "jurisdiction": "US",
+   "note": "AI writing detection; academic integrity; false positive risk; student data privacy (FERPA)",
+   "url": "https://www.turnitin.com/"
+  },
+  {
+   "name": "Cohere Command R+",
+   "category": "Emerging / Frontier AI",
+   "vendor": "Cohere",
+   "jurisdiction": "Canada",
+   "note": "Enterprise RAG-optimized model; tool use; autonomous retrieval; data grounding verification",
+   "url": "https://cohere.com/command"
+  },
+  {
+   "name": "Computer Use (Anthropic)",
+   "category": "Emerging / Frontier AI",
+   "vendor": "Anthropic",
+   "jurisdiction": "US",
+   "note": "Computer control agent; desktop automation; system access; high-privilege operation risk",
+   "url": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+  },
+  {
+   "name": "Devin (Cognition)",
+   "category": "Emerging / Frontier AI",
+   "vendor": "Cognition",
+   "jurisdiction": "US",
+   "note": "Autonomous software engineer; full codebase access; high decision-influence; security critical",
+   "url": "https://cognition.ai/"
+  },
+  {
+   "name": "Figure AI",
+   "category": "Emerging / Frontier AI",
+   "vendor": "Figure AI",
+   "jurisdiction": "US",
+   "note": "Humanoid robotics AI; physical world interaction; safety-critical; embodied AI governance",
+   "url": "https://www.figure.ai/"
+  },
+  {
+   "name": "Mistral Large 2",
+   "category": "Emerging / Frontier AI",
+   "vendor": "Mistral AI",
+   "jurisdiction": "France",
+   "note": "Advanced EU-hosted LLM; multilingual; GDPR-first design; sovereign AI option",
+   "url": "https://mistral.ai/"
+  },
+  {
+   "name": "Operator (OpenAI)",
+   "category": "Emerging / Frontier AI",
+   "vendor": "OpenAI",
+   "jurisdiction": "US",
+   "note": "Autonomous web agent; browser control; credential exposure; action authorization risk",
+   "url": "https://openai.com/operator/"
+  },
+  {
+   "name": "Physical Intelligence (pi0)",
+   "category": "Emerging / Frontier AI",
+   "vendor": "Physical Intelligence",
+   "jurisdiction": "US",
+   "note": "General-purpose robot AI; physical task learning; safety-critical; emerging governance standards",
+   "url": "https://www.physicalintelligence.company/"
+  },
+  {
+   "name": "Tesla Optimus",
+   "category": "Emerging / Frontier AI",
+   "vendor": "Tesla",
+   "jurisdiction": "US",
+   "note": "Humanoid robot; factory automation; physical safety; worker interaction; liability",
+   "url": "https://www.tesla.com/"
+  },
+  {
+   "name": "Aisera",
+   "category": "Enterprise AI Platforms & Agent Orchestration",
+   "vendor": "Aisera",
+   "jurisdiction": "US",
+   "note": "AI service management platform; autonomous service desk; enterprise governance features",
+   "url": "https://aisera.com/"
+  },
+  {
+   "name": "Cognigy",
+   "category": "Enterprise AI Platforms & Agent Orchestration",
+   "vendor": "Cognigy",
+   "jurisdiction": "Germany",
+   "note": "Conversational AI platform for customer service; GDPR-compliant; EU-hosted options",
+   "url": "https://www.cognigy.com/"
+  },
+  {
+   "name": "Decagon",
+   "category": "Enterprise AI Platforms & Agent Orchestration",
+   "vendor": "Decagon",
+   "jurisdiction": "US",
+   "note": "Customer support agent platform; omnichannel; model-agnostic; Watchtower monitoring",
+   "url": "https://decagon.ai/"
+  },
+  {
+   "name": "Glean",
+   "category": "Enterprise AI Platforms & Agent Orchestration",
+   "vendor": "Glean",
+   "jurisdiction": "US",
+   "note": "Enterprise knowledge search AI; 100+ connectors; permission-aware retrieval; data access governance",
+   "url": "https://www.glean.com/"
+  },
+  {
+   "name": "Kore.ai",
+   "category": "Enterprise AI Platforms & Agent Orchestration",
+   "vendor": "Kore.ai",
+   "jurisdiction": "US",
+   "note": "Enterprise agentic AI platform; multi-agent orchestration; comprehensive governance dashboard with audit logs, RBAC, and guardrails; 400+ Fortune 2000 customers",
+   "url": "https://kore.ai/"
+  },
+  {
+   "name": "Moveworks",
+   "category": "Enterprise AI Platforms & Agent Orchestration",
+   "vendor": "Moveworks",
+   "jurisdiction": "US",
+   "note": "Employee support automation; IT service desk agent; enterprise-grade access controls",
+   "url": "https://www.moveworks.com/"
+  },
+  {
+   "name": "Sierra",
+   "category": "Enterprise AI Platforms & Agent Orchestration",
+   "vendor": "Sierra",
+   "jurisdiction": "US",
+   "note": "Conversational AI for customer experience; enterprise agent platform",
+   "url": "https://sierra.ai/"
+  },
+  {
+   "name": "Vellum",
+   "category": "Enterprise AI Platforms & Agent Orchestration",
+   "vendor": "Vellum",
+   "jurisdiction": "US",
+   "note": "Personal AI assistant; on-device Mac app or cloud; cross-app memory; privacy-first design",
+   "url": "https://www.vellum.ai/"
+  },
+  {
+   "name": "Oracle Fusion AI",
+   "category": "ERP & Business Application AI",
+   "vendor": "Oracle",
+   "jurisdiction": "US",
+   "note": "Embedded AI across ERP, HCM, SCM; autonomous database; enterprise data governance",
+   "url": "https://www.oracle.com/"
+  },
+  {
+   "name": "SAP Joule",
+   "category": "ERP & Business Application AI",
+   "vendor": "SAP",
+   "jurisdiction": "Germany",
+   "note": "ERP copilot across S/4HANA, SuccessFactors, Ariba; Joule Studio for custom agents; Knowledge Graph integration; ledger-modification risk",
+   "url": "https://www.sap.com/"
+  },
+  {
+   "name": "ServiceNow Now Assist",
+   "category": "ERP & Business Application AI",
+   "vendor": "ServiceNow",
+   "jurisdiction": "US",
+   "note": "ITSM/HRSD embedded AI; workflow automation; enterprise process governance",
+   "url": "https://www.servicenow.com/"
+  },
+  {
+   "name": "Workday AI",
+   "category": "ERP & Business Application AI",
+   "vendor": "Workday",
+   "jurisdiction": "US",
+   "note": "HR and finance AI; skills-based talent; predictive analytics; sensitive HR data exposure",
+   "url": "https://www.workday.com/"
+  },
+  {
+   "name": "AlphaSense",
+   "category": "Finance & Legal AI",
+   "vendor": "AlphaSense",
+   "jurisdiction": "US",
+   "note": "Market intelligence AI; financial research; insider information risk; MNPI controls needed",
+   "url": "https://www.alpha-sense.com/"
+  },
+  {
+   "name": "Bloomberg GPT",
+   "category": "Finance & Legal AI",
+   "vendor": "Bloomberg",
+   "jurisdiction": "US",
+   "note": "Finance-specific LLM; market data integration; proprietary data handling; trading decision risk",
+   "url": "https://www.bloomberg.com/"
+  },
+  {
+   "name": "CoCounsel (Casetext)",
+   "category": "Finance & Legal AI",
+   "vendor": "Thomson Reuters",
+   "jurisdiction": "US",
+   "note": "Legal research AI; litigation support; Westlaw integration; attorney work product risk",
+   "url": "https://www.thomsonreuters.com/"
+  },
+  {
+   "name": "Harvey AI",
+   "category": "Finance & Legal AI",
+   "vendor": "Harvey",
+   "jurisdiction": "US",
+   "note": "Legal AI assistant; contract drafting; case research; law firm data exposure; privilege concerns",
+   "url": "https://www.harvey.ai/"
+  },
+  {
+   "name": "Kira Systems",
+   "category": "Finance & Legal AI",
+   "vendor": "Litera",
+   "jurisdiction": "US",
+   "note": "Contract analysis AI; legal document review; attorney-client privilege risk; confidential data",
+   "url": "https://www.litera.com/"
+  },
+  {
+   "name": "Vanta",
+   "category": "Finance & Legal AI",
+   "vendor": "Vanta",
+   "jurisdiction": "US",
+   "note": "Security compliance automation; SOC 2, ISO 27001; continuous monitoring; audit automation",
+   "url": "https://www.vanta.com/"
+  },
+  {
+   "name": "Epic AI (SlicerDicer, etc.)",
+   "category": "Healthcare & Life Sciences AI",
+   "vendor": "Epic Systems",
+   "jurisdiction": "US",
+   "note": "Clinical decision support; patient data exposure; HIPAA critical; FDA SaMD considerations",
+   "url": "https://www.epic.com/"
+  },
+  {
+   "name": "Google Med-PaLM / MedLM",
+   "category": "Healthcare & Life Sciences AI",
+   "vendor": "Google",
+   "jurisdiction": "US",
+   "note": "Medical LLM; clinical reasoning; healthcare data; HIPAA BAA required; diagnostic liability",
+   "url": "https://sites.research.google/med-palm/"
+  },
+  {
+   "name": "Insilico Medicine",
+   "category": "Healthcare & Life Sciences AI",
+   "vendor": "Insilico Medicine",
+   "jurisdiction": "Hong Kong",
+   "note": "Drug discovery AI; molecular design; IP generation; cross-border data (China/HK)",
+   "url": "https://insilico.com/"
+  },
+  {
+   "name": "Merative (formerly Watson Health)",
+   "category": "Healthcare & Life Sciences AI",
+   "vendor": "Merative",
+   "jurisdiction": "US",
+   "note": "Healthcare data analytics; clinical AI; population health; PHI governance",
+   "url": "https://www.merative.com/"
+  },
+  {
+   "name": "Tempus AI",
+   "category": "Healthcare & Life Sciences AI",
+   "vendor": "Tempus",
+   "jurisdiction": "US",
+   "note": "Precision medicine AI; genomic data; clinical trial matching; genetic privacy (GINA)",
+   "url": "https://www.tempus.com/"
+  },
+  {
+   "name": "Beamery",
+   "category": "HR & Talent AI",
+   "vendor": "Beamery",
+   "jurisdiction": "UK",
+   "note": "Talent lifecycle management AI; skills ontology; DEI analytics; UK-hosted; GDPR relevant",
+   "url": "https://beamery.com/"
+  },
+  {
+   "name": "Eightfold AI",
+   "category": "HR & Talent AI",
+   "vendor": "Eightfold",
+   "jurisdiction": "US",
+   "note": "Talent intelligence platform; skills matching; DEI bias risk; high-stakes employment decisions",
+   "url": "https://eightfold.ai/"
+  },
+  {
+   "name": "HireVue",
+   "category": "HR & Talent AI",
+   "vendor": "HireVue",
+   "jurisdiction": "US",
+   "note": "Video interviewing AI; facial analysis controversy; algorithmic hiring bias; regulatory scrutiny",
+   "url": "https://www.hirevue.com/"
+  },
+  {
+   "name": "LinkedIn Recruiter AI",
+   "category": "HR & Talent AI",
+   "vendor": "Microsoft/LinkedIn",
+   "jurisdiction": "US",
+   "note": "Talent acquisition AI; candidate matching; bias risk in hiring; GDPR for EU candidates",
+   "url": "https://business.linkedin.com/talent-solutions/recruiter"
+  },
+  {
+   "name": "Paradox (Olivia)",
+   "category": "HR & Talent AI",
+   "vendor": "Paradox",
+   "jurisdiction": "US",
+   "note": "Conversational recruiting AI; candidate screening; automated scheduling; hiring bias risk",
+   "url": "https://www.paradox.ai/"
+  },
+  {
+   "name": "Adobe Express AI",
+   "category": "Image & Graphic Design",
+   "vendor": "Adobe",
+   "jurisdiction": "US",
+   "note": "Lightweight design AI; quick content creation; Adobe Firefly integration; commercial-safe",
+   "url": "https://www.adobe.com/express/"
+  },
+  {
+   "name": "Adobe Firefly",
+   "category": "Image & Graphic Design",
+   "vendor": "Adobe",
+   "jurisdiction": "US",
+   "note": "Image generation; commercial-safe training claim",
+   "url": "https://www.adobe.com/products/firefly.html"
+  },
+  {
+   "name": "Blender AI Add-ons",
+   "category": "Image & Graphic Design",
+   "vendor": "Blender Foundation",
+   "jurisdiction": "Netherlands",
+   "note": "3D creation AI plugins; open-source; local processing; model provenance varies by plugin",
+   "url": "https://www.blender.org/"
+  },
+  {
+   "name": "Canva AI",
+   "category": "Image & Graphic Design",
+   "vendor": "Canva",
+   "jurisdiction": "Australia",
+   "note": "Design generation",
+   "url": "https://www.canva.com/ai-assistant/"
+  },
+  {
+   "name": "Clipdrop (Stability AI)",
+   "category": "Image & Graphic Design",
+   "vendor": "Stability AI",
+   "jurisdiction": "UK",
+   "note": "Image editing AI suite; Stability AI ecosystem; open-weight tools; commercial licensing",
+   "url": "https://clipdrop.co/"
+  },
+  {
+   "name": "DALL-E (OpenAI)",
+   "category": "Image & Graphic Design",
+   "vendor": "OpenAI",
+   "jurisdiction": "US",
+   "note": "Image generation; IP provenance relevant",
+   "url": "https://openai.com/dall-e-3/"
+  },
+  {
+   "name": "DeepAI",
+   "category": "Image & Graphic Design",
+   "vendor": "DeepAI",
+   "jurisdiction": "US",
+   "note": "Image generation",
+   "url": "https://deepai.org/"
+  },
+  {
+   "name": "Figma AI",
+   "category": "Image & Graphic Design",
+   "vendor": "Figma",
+   "jurisdiction": "US",
+   "note": "Design AI; auto-layout; content generation; design system governance; Adobe acquisition context",
+   "url": "https://www.figma.com/"
+  },
+  {
+   "name": "Freepik AI",
+   "category": "Image & Graphic Design",
+   "vendor": "Freepik",
+   "jurisdiction": "Spain",
+   "note": "Stock image AI generation; commercial licensing; EU-hosted; content moderation",
+   "url": "https://www.freepik.com/"
+  },
+  {
+   "name": "Ideogram",
+   "category": "Image & Graphic Design",
+   "vendor": "Ideogram",
+   "jurisdiction": "Canada",
+   "note": "Text-in-image generation; typography AI; commercial use; IP and copyright considerations",
+   "url": "https://ideogram.ai/"
+  },
+  {
+   "name": "Jasper Art",
+   "category": "Image & Graphic Design",
+   "vendor": "Jasper",
+   "jurisdiction": "US",
+   "note": "Marketing image generation; brand asset creation; commercial use; same vendor as Jasper copy",
+   "url": "https://www.jasper.ai/art"
+  },
+  {
+   "name": "Krita AI",
+   "category": "Image & Graphic Design",
+   "vendor": "Krita Foundation",
+   "jurisdiction": "Netherlands",
+   "note": "Open-source digital art; local AI plugins; no cloud dependency; community governance",
+   "url": "https://krita.org/"
+  },
+  {
+   "name": "Leonardo.ai",
+   "category": "Image & Graphic Design",
+   "vendor": "Canva",
+   "jurisdiction": "Australia",
+   "note": "Image generation",
+   "url": "https://leonardo.ai/"
+  },
+  {
+   "name": "Microsoft Designer",
+   "category": "Image & Graphic Design",
+   "vendor": "Microsoft",
+   "jurisdiction": "US",
+   "note": "Image/design generation",
+   "url": "https://designer.microsoft.com/"
+  },
+  {
+   "name": "Midjourney",
+   "category": "Image & Graphic Design",
+   "vendor": "Midjourney",
+   "jurisdiction": "US",
+   "note": "Image generation; IP provenance relevant",
+   "url": "https://www.midjourney.com/"
+  },
+  {
+   "name": "Miro AI",
+   "category": "Image & Graphic Design",
+   "vendor": "Miro",
+   "jurisdiction": "US",
+   "note": "Collaborative whiteboard AI; diagram generation; sticky note synthesis; creative IP risk",
+   "url": "https://miro.com/"
+  },
+  {
+   "name": "Photoroom",
+   "category": "Image & Graphic Design",
+   "vendor": "Photoroom",
+   "jurisdiction": "France",
+   "note": "AI photo editing; background removal; e-commerce focus; EU data handling",
+   "url": "https://www.photoroom.com/"
+  },
+  {
+   "name": "Recraft",
+   "category": "Image & Graphic Design",
+   "vendor": "Recraft",
+   "jurisdiction": "UK",
+   "note": "Vector image generation; brand consistency; commercial design; UK-hosted",
+   "url": "https://www.recraft.ai/"
+  },
+  {
+   "name": "Remove.bg",
+   "category": "Image & Graphic Design",
+   "vendor": "Canva",
+   "jurisdiction": "Australia",
+   "note": "Image processing",
+   "url": "https://www.remove.bg/"
+  },
+  {
+   "name": "Sketch AI",
+   "category": "Image & Graphic Design",
+   "vendor": "Sketch",
+   "jurisdiction": "Netherlands",
+   "note": "Design tool AI; macOS native; local processing option; EU design data",
+   "url": "https://www.sketch.com/"
+  },
+  {
+   "name": "Stable Diffusion",
+   "category": "Image & Graphic Design",
+   "vendor": "Stability AI",
+   "jurisdiction": "UK",
+   "note": "Open-weight image model",
+   "url": "https://stability.ai/stable-image"
+  },
+  {
+   "name": "Asana AI",
+   "category": "Notes, Knowledge & Meetings",
+   "vendor": "Asana",
+   "jurisdiction": "US",
+   "note": "Work management AI; goal tracking; team productivity analytics; data residency options",
+   "url": "https://asana.com/"
+  },
+  {
+   "name": "Avoma",
+   "category": "Notes, Knowledge & Meetings",
+   "vendor": "Avoma",
+   "jurisdiction": "US",
+   "note": "Meeting intelligence AI; conversation analytics; coaching; revenue team data",
+   "url": "https://www.avoma.com/"
+  },
+  {
+   "name": "Box AI",
+   "category": "Notes, Knowledge & Meetings",
+   "vendor": "Box",
+   "jurisdiction": "US",
+   "note": "Enterprise content AI; metadata; governance; compliance; retention policies",
+   "url": "https://www.box.com/"
+  },
+  {
+   "name": "Cisco Webex AI",
+   "category": "Notes, Knowledge & Meetings",
+   "vendor": "Cisco",
+   "jurisdiction": "US",
+   "note": "Meeting intelligence; real-time translation; noise removal; enterprise security",
+   "url": "https://www.cisco.com/"
+  },
+  {
+   "name": "ClickUp AI",
+   "category": "Notes, Knowledge & Meetings",
+   "vendor": "ClickUp",
+   "jurisdiction": "US",
+   "note": "All-in-one productivity AI; document generation; task automation; broad data access",
+   "url": "https://clickup.com/"
+  },
+  {
+   "name": "Coda AI",
+   "category": "Notes, Knowledge & Meetings",
+   "vendor": "Coda",
+   "jurisdiction": "US",
+   "note": "All-in-one doc AI; automation; team data; enterprise governance features",
+   "url": "https://coda.io/"
+  },
+  {
+   "name": "Confluence AI",
+   "category": "Notes, Knowledge & Meetings",
+   "vendor": "Atlassian",
+   "jurisdiction": "Australia",
+   "note": "Team wiki AI; smart links; automation; Atlassian Cloud governance",
+   "url": "https://www.atlassian.com/"
+  },
+  {
+   "name": "Dropbox AI",
+   "category": "Notes, Knowledge & Meetings",
+   "vendor": "Dropbox",
+   "jurisdiction": "US",
+   "note": "Cloud storage AI; document summaries; team data; sharing controls",
+   "url": "https://www.dropbox.com/"
+  },
+  {
+   "name": "Fathom",
+   "category": "Notes, Knowledge & Meetings",
+   "vendor": "Fathom",
+   "jurisdiction": "US",
+   "note": "Meeting notetaker AI; auto-summaries; CRM sync; consent and privacy",
+   "url": "https://fathom.video/"
+  },
+  {
+   "name": "Fireflies.ai",
+   "category": "Notes, Knowledge & Meetings",
+   "vendor": "Fireflies.ai",
+   "jurisdiction": "US",
+   "note": "Meeting transcription; consent relevant",
+   "url": "https://fireflies.ai/"
+  },
+  {
+   "name": "Gong",
+   "category": "Notes, Knowledge & Meetings",
+   "vendor": "Gong",
+   "jurisdiction": "US",
+   "note": "Revenue intelligence AI; call analysis; deal coaching; sensitive sales data exposure",
+   "url": "https://www.gong.io/"
+  },
+  {
+   "name": "Google Drive AI",
+   "category": "Notes, Knowledge & Meetings",
+   "vendor": "Google",
+   "jurisdiction": "US",
+   "note": "Cloud storage AI; Gemini integration; Workspace data; sharing governance",
+   "url": "https://workspace.google.com/"
+  },
+  {
+   "name": "Google Meet AI",
+   "category": "Notes, Knowledge & Meetings",
+   "vendor": "Google",
+   "jurisdiction": "US",
+   "note": "Meeting summaries; live captions; note-taking; Google Workspace data",
+   "url": "https://workspace.google.com/products/meet/"
+  },
+  {
+   "name": "Grain",
+   "category": "Notes, Knowledge & Meetings",
+   "vendor": "Grain",
+   "jurisdiction": "US",
+   "note": "Meeting recording AI; highlight clips; CRM integration; consent and sharing",
+   "url": "https://grain.com/"
+  },
+  {
+   "name": "Logseq AI",
+   "category": "Notes, Knowledge & Meetings",
+   "vendor": "Logseq",
+   "jurisdiction": "Open Source",
+   "note": "Open-source knowledge base; local-first; graph database; privacy-focused",
+   "url": "https://logseq.com/"
+  },
+  {
+   "name": "Mem",
+   "category": "Notes, Knowledge & Meetings",
+   "vendor": "Mem Labs",
+   "jurisdiction": "US",
+   "note": "Personal knowledge base",
+   "url": "https://get.mem.ai/"
+  },
+  {
+   "name": "Microsoft Teams AI",
+   "category": "Notes, Knowledge & Meetings",
+   "vendor": "Microsoft",
+   "jurisdiction": "US",
+   "note": "Meeting recaps; intelligent recap; Copilot integration; M365 data exposure",
+   "url": "https://www.microsoft.com/en-us/microsoft-teams/premium"
+  },
+  {
+   "name": "Monday.com AI",
+   "category": "Notes, Knowledge & Meetings",
+   "vendor": "monday.com",
+   "jurisdiction": "Israel",
+   "note": "Work OS AI; project automation; cross-functional data; Israeli data transfer considerations",
+   "url": "https://monday.com/"
+  },
+  {
+   "name": "NotebookLM",
+   "category": "Notes, Knowledge & Meetings",
+   "vendor": "Google",
+   "jurisdiction": "US",
+   "note": "Document grounding; ingests uploaded corpora",
+   "url": "https://notebooklm.google.com/"
+  },
+  {
+   "name": "Notion Q&A",
+   "category": "Notes, Knowledge & Meetings",
+   "vendor": "Notion Labs",
+   "jurisdiction": "US",
+   "note": "Knowledge base AI Q&A; workspace corpus access; permission-aware but broad exposure risk",
+   "url": "https://www.notion.com/product/ai"
+  },
+  {
+   "name": "Obsidian AI",
+   "category": "Notes, Knowledge & Meetings",
+   "vendor": "Obsidian",
+   "jurisdiction": "Canada",
+   "note": "Local-first knowledge AI; plugins; privacy-focused; no cloud dependency",
+   "url": "https://obsidian.md/"
+  },
+  {
+   "name": "Otter.ai",
+   "category": "Notes, Knowledge & Meetings",
+   "vendor": "Otter.ai",
+   "jurisdiction": "US",
+   "note": "Meeting transcription; consent relevant",
+   "url": "https://otter.ai/"
+  },
+  {
+   "name": "Read.ai",
+   "category": "Notes, Knowledge & Meetings",
+   "vendor": "Read",
+   "jurisdiction": "US",
+   "note": "Meeting analytics AI; engagement scoring; wellness insights; behavioral data privacy",
+   "url": "https://www.read.ai/"
+  },
+  {
+   "name": "SharePoint AI",
+   "category": "Notes, Knowledge & Meetings",
+   "vendor": "Microsoft",
+   "jurisdiction": "US",
+   "note": "Enterprise content AI; Copilot integration; M365 governance; DLP",
+   "url": "https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration"
+  },
+  {
+   "name": "Supernormal",
+   "category": "Notes, Knowledge & Meetings",
+   "vendor": "Supernormal",
+   "jurisdiction": "US",
+   "note": "Meeting notes AI; action items; CRM sync; team productivity data",
+   "url": "https://supernormal.com/"
+  },
+  {
+   "name": "tl;dv",
+   "category": "Notes, Knowledge & Meetings",
+   "vendor": "tl;dv",
+   "jurisdiction": "Germany",
+   "note": "Meeting recorder AI; timestamped notes; EU-hosted; GDPR; consent management",
+   "url": "https://tldv.io/"
+  },
+  {
+   "name": "Trello AI (Atlassian)",
+   "category": "Notes, Knowledge & Meetings",
+   "vendor": "Atlassian",
+   "jurisdiction": "Australia",
+   "note": "Project management AI; workflow automation; team data exposure; Atlassian Cloud governance",
+   "url": "https://www.atlassian.com/"
+  },
+  {
+   "name": "Hugging Face Transformers",
+   "category": "Open Source & Self-Hosted Models",
+   "vendor": "Hugging Face",
+   "jurisdiction": "US",
+   "note": "Model hub and inference library; supply-chain/AIBOM critical; model card verification; security scanning",
+   "url": "https://huggingface.co/"
+  },
+  {
+   "name": "llama.cpp",
+   "category": "Open Source & Self-Hosted Models",
+   "vendor": "Georgi Gerganov",
+   "jurisdiction": "Open Source",
+   "note": "Lightweight LLM inference; C++ implementation; edge deployment; model provenance tracking",
+   "url": "https://github.com/ggml-org/llama.cpp"
+  },
+  {
+   "name": "Ollama",
+   "category": "Open Source & Self-Hosted Models",
+   "vendor": "Ollama",
+   "jurisdiction": "US",
+   "note": "Local LLM runner; self-hosted; no data exfiltration; model supply-chain verification needed",
+   "url": "https://ollama.com/"
+  },
+  {
+   "name": "PyTorch",
+   "category": "Open Source & Self-Hosted Models",
+   "vendor": "Meta / Linux Foundation",
+   "jurisdiction": "US",
+   "note": "Deep learning framework; model checkpoint governance; TorchServe deployment; research-to-production lineage",
+   "url": "https://pytorch.org/"
+  },
+  {
+   "name": "TensorFlow / Keras",
+   "category": "Open Source & Self-Hosted Models",
+   "vendor": "Google",
+   "jurisdiction": "US",
+   "note": "ML framework; model serialization risks; custom model governance; TensorFlow Extended (TFX) for MLOps",
+   "url": "https://www.tensorflow.org/"
+  },
+  {
+   "name": "vLLM",
+   "category": "Open Source & Self-Hosted Models",
+   "vendor": "UC Berkeley / vLLM Team",
+   "jurisdiction": "US",
+   "note": "High-throughput inference engine; open-source; self-hosted; no external data sharing",
+   "url": "https://github.com/vllm-project/vllm"
+  },
+  {
+   "name": "Connected Papers",
+   "category": "Search, Research, Translation & Other",
+   "vendor": "Connected Papers",
+   "jurisdiction": "Israel",
+   "note": "Visual paper graph; literature discovery; academic research; Israeli vendor",
+   "url": "https://www.connectedpapers.com/"
+  },
+  {
+   "name": "Consensus",
+   "category": "Search, Research, Translation & Other",
+   "vendor": "Consensus",
+   "jurisdiction": "US",
+   "note": "Research search",
+   "url": "https://consensus.app/"
+  },
+  {
+   "name": "DeepL",
+   "category": "Search, Research, Translation & Other",
+   "vendor": "DeepL",
+   "jurisdiction": "Germany",
+   "note": "Translation; EU-hosted",
+   "url": "https://www.deepl.com/"
+  },
+  {
+   "name": "Elicit",
+   "category": "Search, Research, Translation & Other",
+   "vendor": "Elicit",
+   "jurisdiction": "US",
+   "note": "Research assistant AI; paper analysis; systematic review; academic integrity",
+   "url": "https://elicit.com/"
+  },
+  {
+   "name": "Groq",
+   "category": "Search, Research, Translation & Other",
+   "vendor": "Groq",
+   "jurisdiction": "US",
+   "note": "Inference acceleration",
+   "url": "https://groq.com/"
+  },
+  {
+   "name": "Lokalise AI",
+   "category": "Search, Research, Translation & Other",
+   "vendor": "Lokalise",
+   "jurisdiction": "UK",
+   "note": "Localization AI; continuous translation; developer workflow; UK-hosted",
+   "url": "https://lokalise.com/"
+  },
+  {
+   "name": "Perplexity Enterprise Pro",
+   "category": "Search, Research, Translation & Other",
+   "vendor": "Perplexity",
+   "jurisdiction": "US",
+   "note": "Enterprise search AI; internal knowledge search; data indexing; SSO; audit logs",
+   "url": "https://www.perplexity.ai/"
+  },
+  {
+   "name": "Phrase (Memsource)",
+   "category": "Search, Research, Translation & Other",
+   "vendor": "Phrase",
+   "jurisdiction": "Czech Republic",
+   "note": "Enterprise localization AI; TMS; machine translation; EU-hosted; GDPR",
+   "url": "https://phrase.com/"
+  },
+  {
+   "name": "ResearchRabbit",
+   "category": "Search, Research, Translation & Other",
+   "vendor": "ResearchRabbit",
+   "jurisdiction": "US",
+   "note": "Research discovery AI; paper recommendations; collaboration features; academic data",
+   "url": "https://www.researchrabbit.ai/"
+  },
+  {
+   "name": "Salesforce Einstein / Agentforce",
+   "category": "Search, Research, Translation & Other",
+   "vendor": "Salesforce",
+   "jurisdiction": "US",
+   "note": "CRM-embedded AI + agents",
+   "url": "https://www.salesforce.com/agentforce/"
+  },
+  {
+   "name": "Scite",
+   "category": "Search, Research, Translation & Other",
+   "vendor": "Scite",
+   "jurisdiction": "US",
+   "note": "Smart citation analysis; claim verification; research quality; academic trust",
+   "url": "https://scite.ai/"
+  },
+  {
+   "name": "Semantic Scholar",
+   "category": "Search, Research, Translation & Other",
+   "vendor": "Allen Institute for AI",
+   "jurisdiction": "US",
+   "note": "Academic search AI; paper summaries; citation graphs; nonprofit research focus",
+   "url": "https://allenai.org/"
+  },
+  {
+   "name": "Smartcat",
+   "category": "Search, Research, Translation & Other",
+   "vendor": "Smartcat",
+   "jurisdiction": "US",
+   "note": "Translation management AI; CAT tool; vendor marketplace; translation memory governance",
+   "url": "https://www.smartcat.com/"
+  },
+  {
+   "name": "Unbabel",
+   "category": "Search, Research, Translation & Other",
+   "vendor": "Unbabel",
+   "jurisdiction": "Portugal",
+   "note": "AI-human translation; quality estimation; enterprise localization; EU vendor",
+   "url": "https://unbabel.com/"
+  },
+  {
+   "name": "Wayground",
+   "category": "Search, Research, Translation & Other",
+   "vendor": "Wayground",
+   "jurisdiction": "US",
+   "note": "Education tooling",
+   "url": "https://wayground.com/"
+  },
+  {
+   "name": "You.com Enterprise",
+   "category": "Search, Research, Translation & Other",
+   "vendor": "You.com",
+   "jurisdiction": "US",
+   "note": "Private search AI; no tracking; enterprise deployment; data privacy focus",
+   "url": "https://you.com/business"
+  },
+  {
+   "name": "CrowdStrike Charlotte AI",
+   "category": "Security & Identity AI",
+   "vendor": "CrowdStrike",
+   "jurisdiction": "US",
+   "note": "Security operations AI; threat detection; autonomous response; high-privilege access",
+   "url": "https://www.crowdstrike.com/"
+  },
+  {
+   "name": "Darktrace",
+   "category": "Security & Identity AI",
+   "vendor": "Darktrace",
+   "jurisdiction": "UK",
+   "note": "Self-learning AI security; anomaly detection; autonomous response; UK-hosted; GDPR relevant",
+   "url": "https://www.darktrace.com/"
+  },
+  {
+   "name": "Okta AI",
+   "category": "Security & Identity AI",
+   "vendor": "Okta",
+   "jurisdiction": "US",
+   "note": "Identity AI; risk-based authentication; privileged access; identity threat detection",
+   "url": "https://www.okta.com/"
+  },
+  {
+   "name": "Palo Alto Networks Precision AI",
+   "category": "Security & Identity AI",
+   "vendor": "Palo Alto Networks",
+   "jurisdiction": "US",
+   "note": "Network security AI; Zero Trust integration; autonomous threat response; critical infrastructure",
+   "url": "https://www.paloaltonetworks.com/"
+  },
+  {
+   "name": "SentinelOne Purple AI",
+   "category": "Security & Identity AI",
+   "vendor": "SentinelOne",
+   "jurisdiction": "US",
+   "note": "Endpoint security AI; autonomous response; XDR platform; kill-switch capabilities",
+   "url": "https://www.sentinelone.com/"
+  },
+  {
+   "name": "Zscaler AI",
+   "category": "Security & Identity AI",
+   "vendor": "Zscaler",
+   "jurisdiction": "US",
+   "note": "Cloud security AI; SSE platform; data loss prevention; AI traffic inspection",
+   "url": "https://www.zscaler.com/"
+  },
+  {
+   "name": "Beautiful.ai",
+   "category": "Slides & Presentations",
+   "vendor": "Beautiful.ai",
+   "jurisdiction": "US",
+   "note": "Presentation generation",
+   "url": "https://www.beautiful.ai/"
+  },
+  {
+   "name": "Decktopus",
+   "category": "Slides & Presentations",
+   "vendor": "Decktopus",
+   "jurisdiction": "US",
+   "note": "AI presentation maker; automated design; content generation; data exposure",
+   "url": "https://www.decktopus.com/"
+  },
+  {
+   "name": "Gamma",
+   "category": "Slides & Presentations",
+   "vendor": "Gamma",
+   "jurisdiction": "US",
+   "note": "Presentation generation",
+   "url": "https://gamma.app/"
+  },
+  {
+   "name": "Pitch AI",
+   "category": "Slides & Presentations",
+   "vendor": "Pitch",
+   "jurisdiction": "Germany",
+   "note": "Presentation software AI; collaboration; template generation; EU-hosted",
+   "url": "https://pitch.com/"
+  },
+  {
+   "name": "Presentations.AI",
+   "category": "Slides & Presentations",
+   "vendor": "Presentations.AI",
+   "jurisdiction": "US",
+   "note": "Text-to-presentation AI; automated layouts; brand templates; content governance",
+   "url": "https://www.presentations.ai/"
+  },
+  {
+   "name": "SlidesAI",
+   "category": "Slides & Presentations",
+   "vendor": "SlidesAI",
+   "jurisdiction": "India",
+   "note": "Presentation generation",
+   "url": "https://www.slidesai.io/"
+  },
+  {
+   "name": "Tome",
+   "category": "Slides & Presentations",
+   "vendor": "Tome",
+   "jurisdiction": "US",
+   "note": "AI storytelling; presentation generation; narrative design; creative IP",
+   "url": ""
+  },
+  {
+   "name": "2short.ai",
+   "category": "Video Generation & Editing",
+   "vendor": "2short",
+   "jurisdiction": "US",
+   "note": "YouTube shorts AI; clip extraction; content automation; platform dependency",
+   "url": "https://2short.ai/"
+  },
+  {
+   "name": "CapCut",
+   "category": "Video Generation & Editing",
+   "vendor": "ByteDance",
+   "jurisdiction": "China",
+   "note": "Video editing; cross-border data review advised",
+   "url": "https://www.capcut.com/"
+  },
+  {
+   "name": "Captions AI",
+   "category": "Video Generation & Editing",
+   "vendor": "Captions",
+   "jurisdiction": "US",
+   "note": "AI video editing; eye contact correction; dubbing; likeness manipulation consent",
+   "url": "https://www.captions.ai/"
+  },
+  {
+   "name": "Colossyan",
+   "category": "Video Generation & Editing",
+   "vendor": "Colossyan",
+   "jurisdiction": "UK",
+   "note": "AI video avatars; enterprise training; consent management; UK-hosted",
+   "url": "https://www.colossyan.com/"
+  },
+  {
+   "name": "D-ID",
+   "category": "Video Generation & Editing",
+   "vendor": "D-ID",
+   "jurisdiction": "Israel",
+   "note": "Talking head AI; photo animation; likeness rights; deepfake risk; Israeli vendor",
+   "url": "https://www.d-id.com/"
+  },
+  {
+   "name": "DaVinci Resolve AI",
+   "category": "Video Generation & Editing",
+   "vendor": "Blackmagic Design",
+   "jurisdiction": "Australia",
+   "note": "Professional video AI; color grading; facial recognition; local processing option",
+   "url": "https://www.blackmagicdesign.com/"
+  },
+  {
+   "name": "Descript",
+   "category": "Video Generation & Editing",
+   "vendor": "Descript",
+   "jurisdiction": "US",
+   "note": "Audio/video editing + voice cloning",
+   "url": "https://www.descript.com/"
+  },
+  {
+   "name": "Elai.io",
+   "category": "Video Generation & Editing",
+   "vendor": "Elai",
+   "jurisdiction": "US",
+   "note": "AI avatar video; text-to-video; multilingual; enterprise training; consent",
+   "url": "https://elai.io/"
+  },
+  {
+   "name": "Filmora AI",
+   "category": "Video Generation & Editing",
+   "vendor": "Wondershare",
+   "jurisdiction": "China",
+   "note": "Video editing",
+   "url": "https://filmora.wondershare.com/"
+  },
+  {
+   "name": "Final Cut Pro AI",
+   "category": "Video Generation & Editing",
+   "vendor": "Apple",
+   "jurisdiction": "US",
+   "note": "Mac video editing AI; on-device processing; privacy-first; Apple silicon optimization",
+   "url": "https://www.apple.com/final-cut-pro/"
+  },
+  {
+   "name": "Fliki",
+   "category": "Video Generation & Editing",
+   "vendor": "Fliki",
+   "jurisdiction": "US",
+   "note": "Video + voice generation",
+   "url": "https://fliki.ai/"
+  },
+  {
+   "name": "Hailuo AI (MiniMax)",
+   "category": "Video Generation & Editing",
+   "vendor": "MiniMax",
+   "jurisdiction": "China",
+   "note": "Video generation; cross-border data review advised; same vendor as MiniMax LLM",
+   "url": "https://www.minimax.io/"
+  },
+  {
+   "name": "Headliner",
+   "category": "Video Generation & Editing",
+   "vendor": "Headliner",
+   "jurisdiction": "US",
+   "note": "Podcast/video promotion; audiogram generation; social media; content marketing",
+   "url": "https://www.headliner.app/"
+  },
+  {
+   "name": "HeyGen",
+   "category": "Video Generation & Editing",
+   "vendor": "HeyGen",
+   "jurisdiction": "US",
+   "note": "AI avatars; likeness/consent risk",
+   "url": "https://www.heygen.com/"
+  },
+  {
+   "name": "Hour One",
+   "category": "Video Generation & Editing",
+   "vendor": "Hour One",
+   "jurisdiction": "Israel",
+   "note": "AI avatar video; virtual presenters; enterprise video; likeness consent; Israeli vendor",
+   "url": "https://hourone.ai/"
+  },
+  {
+   "name": "iMovie AI",
+   "category": "Video Generation & Editing",
+   "vendor": "Apple",
+   "jurisdiction": "US",
+   "note": "Consumer video editing; trailer templates; on-device; Apple privacy",
+   "url": "https://www.apple.com/imovie/"
+  },
+  {
+   "name": "InShot AI",
+   "category": "Video Generation & Editing",
+   "vendor": "InShot",
+   "jurisdiction": "China",
+   "note": "Mobile video editing AI; social content; cross-border data review advised",
+   "url": "https://inshot.com/"
+  },
+  {
+   "name": "InVideo",
+   "category": "Video Generation & Editing",
+   "vendor": "InVideo",
+   "jurisdiction": "India",
+   "note": "Video generation",
+   "url": "https://invideo.io/"
+  },
+  {
+   "name": "Kling AI (Kuaishou)",
+   "category": "Video Generation & Editing",
+   "vendor": "Kuaishou",
+   "jurisdiction": "China",
+   "note": "Video generation model; cross-border data review advised; content moderation; Chinese vendor",
+   "url": "https://www.kuaishou.com/"
+  },
+  {
+   "name": "Krea AI",
+   "category": "Video Generation & Editing",
+   "vendor": "Krea",
+   "jurisdiction": "US",
+   "note": "Real-time video generation; creative tool; content moderation; emerging platform",
+   "url": "https://www.krea.ai/"
+  },
+  {
+   "name": "Loom AI",
+   "category": "Video Generation & Editing",
+   "vendor": "Loom",
+   "jurisdiction": "US",
+   "note": "Async video AI; auto-chapters; summaries; transcription; Atlassian acquisition context",
+   "url": "https://www.loom.com/"
+  },
+  {
+   "name": "Luma AI",
+   "category": "Video Generation & Editing",
+   "vendor": "Luma AI",
+   "jurisdiction": "US",
+   "note": "3D/video generation",
+   "url": "https://lumalabs.ai/"
+  },
+  {
+   "name": "Lumen5",
+   "category": "Video Generation & Editing",
+   "vendor": "Lumen5",
+   "jurisdiction": "Canada",
+   "note": "Video generation",
+   "url": "https://lumen5.com/"
+  },
+  {
+   "name": "Microsoft Clipchamp AI",
+   "category": "Video Generation & Editing",
+   "vendor": "Microsoft",
+   "jurisdiction": "US",
+   "note": "Video editing AI; M365 integration; auto-caption; text-to-speech; enterprise data",
+   "url": "https://clipchamp.com/"
+  },
+  {
+   "name": "Munch",
+   "category": "Video Generation & Editing",
+   "vendor": "Munch",
+   "jurisdiction": "Israel",
+   "note": "Content repurposing AI; auto-editing; social clips; trend analysis; Israeli vendor",
+   "url": "https://www.getmunch.com/"
+  },
+  {
+   "name": "OpusClip",
+   "category": "Video Generation & Editing",
+   "vendor": "OpusClip",
+   "jurisdiction": "US",
+   "note": "Video repurposing",
+   "url": "https://www.opus.pro/"
+  },
+  {
+   "name": "Pictory",
+   "category": "Video Generation & Editing",
+   "vendor": "Pictory",
+   "jurisdiction": "US",
+   "note": "Video generation",
+   "url": "https://pictory.ai/"
+  },
+  {
+   "name": "Pika Labs",
+   "category": "Video Generation & Editing",
+   "vendor": "Pika Labs",
+   "jurisdiction": "US",
+   "note": "Video generation; meme/creative focus; content policy; IP provenance",
+   "url": "https://pika.art/"
+  },
+  {
+   "name": "Premiere Pro AI (Adobe)",
+   "category": "Video Generation & Editing",
+   "vendor": "Adobe",
+   "jurisdiction": "US",
+   "note": "Professional video AI; generative extend; color match; commercial-safe training",
+   "url": "https://www.adobe.com/products/premiere.html"
+  },
+  {
+   "name": "Repurpose.io",
+   "category": "Video Generation & Editing",
+   "vendor": "Repurpose",
+   "jurisdiction": "US",
+   "note": "Content distribution automation; multi-platform; workflow automation; API access",
+   "url": "https://repurpose.io/"
+  },
+  {
+   "name": "Runway",
+   "category": "Video Generation & Editing",
+   "vendor": "Runway",
+   "jurisdiction": "US",
+   "note": "Video generation",
+   "url": "https://runwayml.com/"
+  },
+  {
+   "name": "Sora (OpenAI)",
+   "category": "Video Generation & Editing",
+   "vendor": "OpenAI",
+   "jurisdiction": "US",
+   "note": "Video generation; provenance/disclosure relevant",
+   "url": "https://sora.com/"
+  },
+  {
+   "name": "Splice",
+   "category": "Video Generation & Editing",
+   "vendor": "Splice",
+   "jurisdiction": "US",
+   "note": "Mobile video editing; music licensing; content creation; GoPro ownership",
+   "url": "https://splice.com/"
+  },
+  {
+   "name": "Submagic",
+   "category": "Video Generation & Editing",
+   "vendor": "Submagic",
+   "jurisdiction": "France",
+   "note": "Auto-caption AI; video subtitles; emoji/sticker automation; EU vendor",
+   "url": "https://www.submagic.co/"
+  },
+  {
+   "name": "Synthesia",
+   "category": "Video Generation & Editing",
+   "vendor": "Synthesia",
+   "jurisdiction": "UK",
+   "note": "AI avatars; likeness/consent risk",
+   "url": "https://www.synthesia.io/"
+  },
+  {
+   "name": "Veed.io AI",
+   "category": "Video Generation & Editing",
+   "vendor": "Veed",
+   "jurisdiction": "UK",
+   "note": "Online video editing AI; auto-subtitle; text-to-speech; UK-hosted",
+   "url": "https://www.veed.io/"
+  },
+  {
+   "name": "Videoleap",
+   "category": "Video Generation & Editing",
+   "vendor": "Lightricks",
+   "jurisdiction": "Israel",
+   "note": "Mobile video editing AI; effects; templates; Israeli vendor",
+   "url": "https://www.lightricks.com/"
+  },
+  {
+   "name": "Vidu (Tsinghua / Shengshu)",
+   "category": "Video Generation & Editing",
+   "vendor": "Shengshu Technology",
+   "jurisdiction": "China",
+   "note": "Video generation model; academic spin-off; cross-border data review advised",
+   "url": "https://www.vidu.studio/"
+  },
+  {
+   "name": "Vizard AI",
+   "category": "Video Generation & Editing",
+   "vendor": "Vizard",
+   "jurisdiction": "US",
+   "note": "Video repurposing; auto-clipping; social media; content strategy AI",
+   "url": "https://vizard.ai/"
+  },
+  {
+   "name": "Wavve",
+   "category": "Video Generation & Editing",
+   "vendor": "Wavve",
+   "jurisdiction": "US",
+   "note": "Audio-to-video AI; podcast clips; waveform videos; social media content",
+   "url": "https://wavve.co/"
+  },
+  {
+   "name": "Wistia",
+   "category": "Video Generation & Editing",
+   "vendor": "Wistia",
+   "jurisdiction": "US",
+   "note": "Video hosting AI; analytics; marketing video; data privacy; engagement tracking",
+   "url": "https://wistia.com/"
+  },
+  {
+   "name": "Wondershare Virbo",
+   "category": "Video Generation & Editing",
+   "vendor": "Wondershare",
+   "jurisdiction": "China",
+   "note": "AI avatar video; cross-border data review advised; likeness consent; Chinese vendor",
+   "url": "https://virbo.wondershare.com/"
+  },
+  {
+   "name": "Zeemo",
+   "category": "Video Generation & Editing",
+   "vendor": "Zeemo",
+   "jurisdiction": "US",
+   "note": "Video captioning AI; translation; subtitle styling; content accessibility",
+   "url": "https://zeemo.ai/"
+  },
+  {
+   "name": "Adobe Podcast AI",
+   "category": "Voice & Audio",
+   "vendor": "Adobe",
+   "jurisdiction": "US",
+   "note": "Audio enhancement AI; speech enhancement; microphone check; commercial-safe training claim",
+   "url": "https://podcast.adobe.com/"
+  },
+  {
+   "name": "AIVA",
+   "category": "Voice & Audio",
+   "vendor": "AIVA Technologies",
+   "jurisdiction": "Luxembourg",
+   "note": "Classical music AI composer; copyright assignment; EU-hosted; commercial licensing",
+   "url": "https://www.aiva.ai/"
+  },
+  {
+   "name": "Altered",
+   "category": "Voice & Audio",
+   "vendor": "Altered",
+   "jurisdiction": "UK",
+   "note": "Professional voice editing; voice morphing; dubbing; consent management; UK-hosted",
+   "url": "https://www.altered.ai/"
+  },
+  {
+   "name": "AssemblyAI",
+   "category": "Voice & Audio",
+   "vendor": "AssemblyAI",
+   "jurisdiction": "US",
+   "note": "Speech AI API; transcription; summarization; PII redaction; enterprise security",
+   "url": "https://www.assemblyai.com/"
+  },
+  {
+   "name": "Deepgram",
+   "category": "Voice & Audio",
+   "vendor": "Deepgram",
+   "jurisdiction": "US",
+   "note": "Speech recognition API; real-time transcription; model customization; on-prem option",
+   "url": "https://deepgram.com/"
+  },
+  {
+   "name": "Descript Overdub",
+   "category": "Voice & Audio",
+   "vendor": "Descript",
+   "jurisdiction": "US",
+   "note": "Voice cloning for editing; consent recording required; deepfake risk; media integrity",
+   "url": "https://www.descript.com/"
+  },
+  {
+   "name": "ElevenLabs",
+   "category": "Voice & Audio",
+   "vendor": "ElevenLabs",
+   "jurisdiction": "US",
+   "note": "Voice cloning; likeness/consent risk",
+   "url": "https://elevenlabs.io/"
+  },
+  {
+   "name": "Krisp",
+   "category": "Voice & Audio",
+   "vendor": "Krisp",
+   "jurisdiction": "US",
+   "note": "Audio processing",
+   "url": "https://krisp.ai/"
+  },
+  {
+   "name": "Lovo (Genny)",
+   "category": "Voice & Audio",
+   "vendor": "Lovo",
+   "jurisdiction": "US",
+   "note": "Voice cloning and synthesis; likeness consent; commercial voiceover; synthetic media disclosure",
+   "url": "https://lovo.ai/"
+  },
+  {
+   "name": "Murf.ai",
+   "category": "Voice & Audio",
+   "vendor": "Murf",
+   "jurisdiction": "India",
+   "note": "Voice synthesis",
+   "url": "https://murf.ai/"
+  },
+  {
+   "name": "Play.ht",
+   "category": "Voice & Audio",
+   "vendor": "PlayAI",
+   "jurisdiction": "US",
+   "note": "Voice synthesis",
+   "url": ""
+  },
+  {
+   "name": "Resemble AI",
+   "category": "Voice & Audio",
+   "vendor": "Resemble AI",
+   "jurisdiction": "US",
+   "note": "Voice cloning; likeness/consent risk",
+   "url": "https://www.resemble.ai/"
+  },
+  {
+   "name": "Respeecher",
+   "category": "Voice & Audio",
+   "vendor": "Respeecher",
+   "jurisdiction": "Ukraine",
+   "note": "Voice cloning for media; entertainment focus; likeness rights; Ukrainian vendor",
+   "url": "https://www.respeecher.com/"
+  },
+  {
+   "name": "Rev AI",
+   "category": "Voice & Audio",
+   "vendor": "Rev",
+   "jurisdiction": "US",
+   "note": "Speech-to-text API; transcription; captioning; human + AI hybrid; data confidentiality",
+   "url": "https://www.rev.com/"
+  },
+  {
+   "name": "Soundraw",
+   "category": "Voice & Audio",
+   "vendor": "Soundraw",
+   "jurisdiction": "Japan",
+   "note": "Royalty-free AI music; commercial license; JASRAC considerations for Japan use",
+   "url": "https://soundraw.io/"
+  },
+  {
+   "name": "Speechmatics",
+   "category": "Voice & Audio",
+   "vendor": "Speechmatics",
+   "jurisdiction": "UK",
+   "note": "Speech-to-text; real-time translation; accent-agnostic; UK-hosted; GDPR",
+   "url": "https://www.speechmatics.com/"
+  },
+  {
+   "name": "Suno",
+   "category": "Voice & Audio",
+   "vendor": "Suno",
+   "jurisdiction": "US",
+   "note": "Music generation; IP provenance relevant",
+   "url": "https://suno.com/"
+  },
+  {
+   "name": "Udio",
+   "category": "Voice & Audio",
+   "vendor": "Udio",
+   "jurisdiction": "US",
+   "note": "AI music generation; copyright risk; likeness in vocals; RIAA litigation context",
+   "url": "https://www.udio.com/"
+  },
+  {
+   "name": "Voicemod",
+   "category": "Voice & Audio",
+   "vendor": "Voicemod",
+   "jurisdiction": "Spain",
+   "note": "Real-time voice changing; gaming/streaming; content moderation; EU vendor",
+   "url": "https://www.voicemod.net/"
+  },
+  {
+   "name": "Whisper API (OpenAI)",
+   "category": "Voice & Audio",
+   "vendor": "OpenAI",
+   "jurisdiction": "US",
+   "note": "Speech recognition; transcription; translation; API data retention policy",
+   "url": "https://platform.openai.com/docs/guides/speech-to-text"
+  },
+  {
+   "name": "Anyword",
+   "category": "Writing & Editing",
+   "vendor": "Anyword",
+   "jurisdiction": "US",
+   "note": "Predictive performance AI copy; marketing optimization; data-driven; performance claims",
+   "url": "https://www.anyword.com/"
+  },
+  {
+   "name": "Clearscope",
+   "category": "Writing & Editing",
+   "vendor": "Clearscope",
+   "jurisdiction": "US",
+   "note": "Content optimization AI; readability scoring; competitor content analysis",
+   "url": "https://www.clearscope.io/"
+  },
+  {
+   "name": "Copy.ai",
+   "category": "Writing & Editing",
+   "vendor": "Copy.ai",
+   "jurisdiction": "US",
+   "note": "Marketing copy / GTM workflows",
+   "url": "https://www.copy.ai/"
+  },
+  {
+   "name": "Frase",
+   "category": "Writing & Editing",
+   "vendor": "Frase",
+   "jurisdiction": "US",
+   "note": "SEO content AI; SERP analysis; competitive data scraping; search algorithm dependency",
+   "url": "https://www.frase.io/"
+  },
+  {
+   "name": "Grammarly",
+   "category": "Writing & Editing",
+   "vendor": "Grammarly",
+   "jurisdiction": "US",
+   "note": "Reads document text broadly",
+   "url": "https://www.grammarly.com/"
+  },
+  {
+   "name": "Jasper",
+   "category": "Writing & Editing",
+   "vendor": "Jasper",
+   "jurisdiction": "US",
+   "note": "Marketing copy",
+   "url": "https://www.jasper.ai/"
+  },
+  {
+   "name": "Jasper Campaigns",
+   "category": "Writing & Editing",
+   "vendor": "Jasper",
+   "jurisdiction": "US",
+   "note": "End-to-end marketing campaigns AI; brand voice; cross-channel content; governance dashboard",
+   "url": "https://www.jasper.ai/"
+  },
+  {
+   "name": "MarketMuse",
+   "category": "Writing & Editing",
+   "vendor": "MarketMuse",
+   "jurisdiction": "US",
+   "note": "Content strategy AI; topic modeling; site-wide content audit; competitive intelligence",
+   "url": "https://www.marketmuse.com/"
+  },
+  {
+   "name": "QuillBot",
+   "category": "Writing & Editing",
+   "vendor": "Course Hero",
+   "jurisdiction": "US",
+   "note": "Paraphrasing",
+   "url": "https://www.coursehero.com/"
+  },
+  {
+   "name": "Rytr",
+   "category": "Writing & Editing",
+   "vendor": "Rytr",
+   "jurisdiction": "US",
+   "note": "Marketing copy",
+   "url": "https://rytr.me/"
+  },
+  {
+   "name": "Surfer SEO",
+   "category": "Writing & Editing",
+   "vendor": "Surfer",
+   "jurisdiction": "Poland",
+   "note": "SEO optimization AI; content scoring; NLP analysis; EU-hosted options",
+   "url": "https://surferseo.com/"
+  },
+  {
+   "name": "Typeface",
+   "category": "Writing & Editing",
+   "vendor": "Typeface",
+   "jurisdiction": "US",
+   "note": "Enterprise content AI; brand-customized models; marketing asset generation; high decision-influence",
+   "url": "https://www.typeface.ai/"
+  },
+  {
+   "name": "Wordtune",
+   "category": "Writing & Editing",
+   "vendor": "AI21 Labs",
+   "jurisdiction": "Israel",
+   "note": "Rewriting",
+   "url": "https://www.ai21.com/"
+  },
+  {
+   "name": "Writer.com",
+   "category": "Writing & Editing",
+   "vendor": "Writer",
+   "jurisdiction": "US",
+   "note": "Enterprise writing AI; brand governance; style guide enforcement; hallucination detection; PALMYRA models",
+   "url": "https://writer.com/"
+  },
+  {
+   "name": "WriteSonic",
+   "category": "Writing & Editing",
+   "vendor": "Writesonic",
+   "jurisdiction": "US",
+   "note": "Marketing copy",
+   "url": "https://writesonic.com/"
+  }
+ ]
+}
