@@ -1,0 +1,783 @@
+{
+ "source": "SRJ editorial profiles, written from durable public knowledge",
+ "as_of": "2026-05",
+ "caveat": "Pricing, version numbers, context-window sizes, and compliance certifications change frequently. Where stated they are accurate as of the as_of date and should be confirmed with the vendor before any procurement or compliance decision. Where they could not be stated confidently they are omitted rather than guessed.",
+ "count": 10,
+ "profiles": {
+  "chatgpt": {
+   "name": "ChatGPT",
+   "vendor": "OpenAI",
+   "catalog_name": "ChatGPT",
+   "tagline": "The general-purpose assistant that made conversational AI a business tool.",
+   "tags": [
+    "LLM",
+    "General Assistant",
+    "Agents",
+    "Data Analysis"
+   ],
+   "status": "Active",
+   "access": [
+    "Web App",
+    "API",
+    "Desktop Client",
+    "Mobile"
+   ],
+   "value": "The broadest general-purpose assistant available, and the default most organizations encounter first. Its advantage is coverage rather than any single capability: text, code, images, voice, file analysis, and web browsing in one place, with the largest ecosystem of third-party familiarity around it.",
+   "use_cases": [
+    "Drafting and revising business writing, from board memos to customer email",
+    "Ad-hoc analysis of uploaded spreadsheets and documents without building a pipeline",
+    "Prototyping and debugging code, including for people who are not primarily developers"
+   ],
+   "audience": [
+    "Solopreneurs",
+    "Marketing",
+    "Enterprise Operations",
+    "Dev Teams"
+   ],
+   "engine": "OpenAI's proprietary GPT model family. Not open weight.",
+   "files": "Accepts documents, spreadsheets, images, and code files in the paid tiers. Long context, though the exact window varies by model tier and changes frequently.",
+   "latency": "Fast on the standard models. Reasoning-oriented models trade noticeably longer response times for better multi-step work.",
+   "quality": "Strong general fluency and broad world knowledge. Like all LLMs it will state incorrect facts confidently, and it is weakest on recent events, niche technical detail, and anything requiring precise citation.",
+   "pricing": [
+    {
+     "tier": "Free",
+     "model": "$0",
+     "includes": "Standard model access",
+     "limits": "Message caps, limited access to newer models"
+    },
+    {
+     "tier": "Plus / Pro",
+     "model": "Per-seat monthly",
+     "includes": "Priority access, advanced models, higher limits",
+     "limits": "Usage caps by model"
+    },
+    {
+     "tier": "Team / Enterprise",
+     "model": "Per-seat, annual",
+     "includes": "Admin controls, SSO, workspace data controls",
+     "limits": "Contract-based"
+    },
+    {
+     "tier": "API",
+     "model": "Pay per token",
+     "includes": "Direct model access, system prompts",
+     "limits": "Rate tiers by spend history"
+    }
+   ],
+   "training_optout": "Configurable. Business and enterprise tiers are not used to train models by default; consumer tiers require changing a setting. Verify the current terms for your specific tier before putting regulated data through it.",
+   "governance_note": "The consumer-versus-business distinction here is the single most common AI governance gap found in practice: staff use the free tier with company data under different terms than the enterprise agreement legal reviewed.",
+   "integrations": [
+    "Direct connectors to common storage and productivity suites",
+    "Zapier and similar automation platforms",
+    "Third-party apps via the API"
+   ],
+   "api": "REST API with official Python and TypeScript SDKs. Widely supported by every major orchestration framework.",
+   "pros": [
+    "Broadest capability coverage in one product",
+    "Largest ecosystem and integration surface",
+    "Strong at the general business writing and analysis most staff actually need"
+   ],
+   "cons": [
+    "Consumer and enterprise data terms differ, which is a real governance trap",
+    "Model behaviour and limits change without much notice",
+    "Not the strongest at long-document reasoning or coding fidelity"
+   ],
+   "alternatives": [
+    "Claude",
+    "Gemini",
+    "Microsoft Copilot"
+   ]
+  },
+  "claude": {
+   "name": "Claude",
+   "vendor": "Anthropic",
+   "catalog_name": "Claude",
+   "tagline": "The assistant most often chosen for long-document work and writing quality.",
+   "tags": [
+    "LLM",
+    "General Assistant",
+    "Long Context",
+    "Code Generation"
+   ],
+   "status": "Active",
+   "access": [
+    "Web App",
+    "API",
+    "Desktop Client",
+    "Mobile"
+   ],
+   "value": "Strongest of the general assistants at sustained reasoning over long documents and at producing prose that does not need heavy editing. Frequently the choice where the input is a contract, a filing, or a full codebase rather than a short prompt.",
+   "use_cases": [
+    "Reviewing long contracts, policies, and regulatory filings in a single pass",
+    "Drafting substantial written work where tone and structure matter",
+    "Codebase-level engineering work rather than snippet completion"
+   ],
+   "audience": [
+    "Compliance/Audit Professionals",
+    "Dev Teams",
+    "Enterprise Operations",
+    "Marketing"
+   ],
+   "engine": "Anthropic's proprietary Claude model family. Not open weight.",
+   "files": "Accepts documents, spreadsheets, images, and code. Large context window, which is the specific reason it is chosen for long-document work.",
+   "latency": "Comparable to peers on standard models. Extended-reasoning modes are markedly slower and markedly better on hard multi-step problems.",
+   "quality": "Notably strong at instruction-following, long-context retrieval, and writing that reads as intended. Still subject to confident error, and like all LLMs should not be trusted for citations without checking them.",
+   "pricing": [
+    {
+     "tier": "Free",
+     "model": "$0",
+     "includes": "Standard access",
+     "limits": "Daily message caps"
+    },
+    {
+     "tier": "Pro / Max",
+     "model": "Per-seat monthly",
+     "includes": "Higher limits, priority access, advanced models",
+     "limits": "Usage caps"
+    },
+    {
+     "tier": "Team / Enterprise",
+     "model": "Per-seat, annual",
+     "includes": "Admin controls, SSO, expanded context",
+     "limits": "Contract-based"
+    },
+    {
+     "tier": "API",
+     "model": "Pay per token",
+     "includes": "Direct model access, batch and caching options",
+     "limits": "Rate tiers by spend"
+    }
+   ],
+   "training_optout": "Anthropic does not train its models on business or API customer data by default. Confirm the terms attached to your specific plan.",
+   "integrations": [
+    "Model Context Protocol connectors to third-party systems",
+    "Available through major cloud model marketplaces",
+    "Automation platforms"
+   ],
+   "api": "REST API with official SDKs. Also distributed through major cloud providers, which matters for organizations that need the data to stay inside an existing cloud agreement.",
+   "pros": [
+    "Best-in-class long-document reasoning",
+    "Writing quality needs the least editing",
+    "Strong safety posture and clear enterprise data terms"
+   ],
+   "cons": [
+    "Smaller third-party app ecosystem than OpenAI's",
+    "Usage caps on consumer tiers bite quickly under heavy use",
+    "Fewer built-in modalities, with image generation notably absent"
+   ],
+   "alternatives": [
+    "ChatGPT",
+    "Gemini",
+    "Mistral / Le Chat"
+   ]
+  },
+  "gemini": {
+   "name": "Gemini",
+   "vendor": "Google",
+   "catalog_name": "Gemini",
+   "tagline": "Google's assistant, strongest where the work already lives in Google Workspace.",
+   "tags": [
+    "LLM",
+    "General Assistant",
+    "Multimodal",
+    "Workspace"
+   ],
+   "status": "Active",
+   "access": [
+    "Web App",
+    "API",
+    "Mobile",
+    "Embedded in Google Workspace"
+   ],
+   "value": "The most natural choice for organizations already standardised on Google Workspace, because it reaches directly into Docs, Sheets, Gmail, and Drive rather than requiring content to be pasted into a separate tool.",
+   "use_cases": [
+    "Summarising and drafting inside Gmail, Docs, and Sheets without leaving them",
+    "Analysing very large documents and long video or audio inputs",
+    "Building on Google Cloud through Vertex AI with existing IAM and data residency controls"
+   ],
+   "audience": [
+    "Enterprise Operations",
+    "Marketing",
+    "Dev Teams"
+   ],
+   "engine": "Google's proprietary Gemini model family. Not open weight.",
+   "files": "Broad multimodal input including text, images, audio, and video. Very large context windows on the higher tiers, which is one of its genuine differentiators.",
+   "latency": "Fast on the lighter models, slower on the largest. Generally competitive.",
+   "quality": "Strong multimodal handling and very long context. Quality across text tasks is competitive but not consistently ahead of its peers.",
+   "pricing": [
+    {
+     "tier": "Free",
+     "model": "$0",
+     "includes": "Standard model access",
+     "limits": "Rate limits"
+    },
+    {
+     "tier": "Consumer subscription",
+     "model": "Per-seat monthly",
+     "includes": "Advanced models, larger limits, storage bundle",
+     "limits": "Usage caps"
+    },
+    {
+     "tier": "Workspace add-on",
+     "model": "Per-seat, annual",
+     "includes": "In-app AI across Workspace, admin controls",
+     "limits": "Contract-based"
+    },
+    {
+     "tier": "Vertex AI",
+     "model": "Pay per token",
+     "includes": "Enterprise controls, data residency, IAM",
+     "limits": "Quota by project"
+    }
+   ],
+   "training_optout": "Enterprise Workspace and Vertex AI customer data is not used to train models. Consumer terms differ. As with ChatGPT, the tier distinction is where governance problems start.",
+   "integrations": [
+    "Native across Google Workspace",
+    "Vertex AI for cloud deployment",
+    "Standard automation platforms"
+   ],
+   "api": "REST API and SDKs, plus Vertex AI for enterprise deployment with cloud-native controls.",
+   "pros": [
+    "Deepest Workspace integration of any assistant",
+    "Very large context windows",
+    "Enterprise controls and data residency through Vertex AI"
+   ],
+   "cons": [
+    "Product naming and tiering are genuinely confusing",
+    "Quality less consistent than its top peers on hard text tasks",
+    "Best value depends on already being a Google shop"
+   ],
+   "alternatives": [
+    "Microsoft Copilot",
+    "ChatGPT",
+    "Claude"
+   ]
+  },
+  "microsoft-copilot": {
+   "name": "Microsoft Copilot",
+   "vendor": "Microsoft",
+   "catalog_name": "Microsoft Copilot",
+   "tagline": "AI embedded in Microsoft 365, where most enterprise work already happens.",
+   "tags": [
+    "LLM",
+    "General Assistant",
+    "Microsoft 365",
+    "Enterprise"
+   ],
+   "status": "Active",
+   "access": [
+    "Web App",
+    "Embedded in Microsoft 365",
+    "Desktop Client",
+    "Mobile"
+   ],
+   "value": "Reaches into Outlook, Word, Excel, Teams, and SharePoint with the organization's own content, under existing Microsoft tenancy, identity, and compliance controls. For most large enterprises that governance continuity matters more than raw model quality.",
+   "use_cases": [
+    "Summarising Teams meetings and long Outlook threads",
+    "Drafting and analysing directly inside Word and Excel against internal documents",
+    "Surfacing answers from SharePoint and internal knowledge under existing permissions"
+   ],
+   "audience": [
+    "Enterprise Operations",
+    "Compliance/Audit Professionals",
+    "Marketing"
+   ],
+   "engine": "Primarily OpenAI models running under Microsoft's enterprise infrastructure, with Microsoft's own models in some surfaces.",
+   "files": "Works against the organization's existing Microsoft 365 content, which is the point. Standard document and spreadsheet handling.",
+   "latency": "Adequate. Perceived speed varies considerably by host application.",
+   "quality": "Model quality is competitive. The differentiator is grounding in the tenant's own data with permissions respected, not standalone reasoning.",
+   "pricing": [
+    {
+     "tier": "Free",
+     "model": "$0",
+     "includes": "Consumer chat",
+     "limits": "Rate limits, no tenant grounding"
+    },
+    {
+     "tier": "Microsoft 365 Copilot",
+     "model": "Per-seat, annual",
+     "includes": "In-app AI across Microsoft 365, tenant grounding, admin controls",
+     "limits": "Requires qualifying M365 licence"
+    },
+    {
+     "tier": "Azure OpenAI",
+     "model": "Pay per token",
+     "includes": "Direct model access under Azure controls",
+     "limits": "Quota by subscription"
+    }
+   ],
+   "training_optout": "Commercial data protection applies to licensed enterprise use: prompts and responses are not used to train foundation models. The free consumer tier operates under different terms.",
+   "governance_note": "Because it inherits existing Microsoft 365 permissions, it will surface anything a user already had access to. Organizations with permissive legacy SharePoint permissions frequently discover the problem only after deployment. Fix permissions before rollout, not after.",
+   "integrations": [
+    "Native across the Microsoft 365 suite",
+    "Power Platform and Power Automate",
+    "Azure services"
+   ],
+   "api": "Available through Azure OpenAI for direct model access, and extensible via Copilot Studio.",
+   "pros": [
+    "Governance and identity continuity with existing Microsoft tenancy",
+    "Grounded in the organization's own content",
+    "Easiest enterprise procurement path for Microsoft shops"
+   ],
+   "cons": [
+    "Expensive per seat, and value varies widely by role",
+    "Exposes pre-existing permission sprawl",
+    "Quality inconsistent across host applications"
+   ],
+   "alternatives": [
+    "Gemini",
+    "ChatGPT",
+    "Claude"
+   ]
+  },
+  "github-copilot": {
+   "name": "GitHub Copilot",
+   "vendor": "Microsoft/GitHub",
+   "catalog_name": "GitHub Copilot",
+   "tagline": "The most widely deployed AI coding assistant, and the default in most enterprises.",
+   "tags": [
+    "Code Generation",
+    "Developer Tools",
+    "IDE"
+   ],
+   "status": "Active",
+   "access": [
+    "IDE Extension",
+    "Web App",
+    "CLI"
+   ],
+   "value": "The safest institutional choice for AI-assisted coding: broad IDE support, mature enterprise administration, and an established procurement path. Rarely the most capable option, usually the easiest to approve.",
+   "use_cases": [
+    "Inline code completion across the editors teams already use",
+    "Generating unit tests and boilerplate",
+    "Explaining unfamiliar code and assisting review"
+   ],
+   "audience": [
+    "Dev Teams",
+    "Enterprise Operations"
+   ],
+   "engine": "Multiple underlying models, primarily OpenAI, with other model options in some tiers.",
+   "files": "Works against the open repository and editor context. Repository-wide awareness varies by tier and editor.",
+   "latency": "Low latency for completion, which is the property that matters most for inline use.",
+   "quality": "Strong at idiomatic completion and boilerplate. Weaker at large multi-file refactors, where dedicated agentic tools have moved ahead.",
+   "pricing": [
+    {
+     "tier": "Free",
+     "model": "$0",
+     "includes": "Limited completions and chat",
+     "limits": "Monthly caps"
+    },
+    {
+     "tier": "Pro",
+     "model": "Per-seat monthly",
+     "includes": "Unlimited completions, chat, model choice",
+     "limits": "Premium request caps"
+    },
+    {
+     "tier": "Business / Enterprise",
+     "model": "Per-seat, annual",
+     "includes": "Policy controls, audit logs, IP indemnity",
+     "limits": "Contract-based"
+    }
+   ],
+   "training_optout": "Business and enterprise tiers exclude customer code from model training. A public-code filter is available. Confirm current terms for your tier.",
+   "governance_note": "The enterprise tiers carry IP indemnity for suggestions, which is usually the deciding factor for legal review rather than any capability difference.",
+   "integrations": [
+    "VS Code, Visual Studio, JetBrains IDEs, Neovim",
+    "GitHub pull requests and CLI",
+    "Azure DevOps"
+   ],
+   "api": "Not a general-purpose API product. Extensibility is through editor extensions and GitHub.",
+   "pros": [
+    "Broadest IDE coverage",
+    "Mature enterprise administration and audit",
+    "IP indemnity on business tiers"
+   ],
+   "cons": [
+    "Behind dedicated agentic editors on large refactors",
+    "Premium request caps can surprise heavy users",
+    "Quality varies by language and by editor"
+   ],
+   "alternatives": [
+    "Cursor",
+    "Claude Code",
+    "Tabnine"
+   ]
+  },
+  "cursor": {
+   "name": "Cursor",
+   "vendor": "Anysphere",
+   "catalog_name": "Cursor",
+   "tagline": "An AI-first code editor built around whole-codebase work rather than autocomplete.",
+   "tags": [
+    "Code Generation",
+    "Developer Tools",
+    "Agents",
+    "IDE"
+   ],
+   "status": "Active",
+   "access": [
+    "Desktop Client"
+   ],
+   "value": "A full editor rather than a plugin, which lets it reason across an entire codebase and apply multi-file changes. Where Copilot completes the line you are typing, Cursor is aimed at the change you are trying to make.",
+   "use_cases": [
+    "Multi-file refactors and feature work across a large repository",
+    "Understanding an unfamiliar codebase quickly",
+    "Agentic tasks where the tool edits, runs, and iterates"
+   ],
+   "audience": [
+    "Dev Teams",
+    "Solopreneurs"
+   ],
+   "engine": "Model-agnostic. Routes to frontier models from multiple vendors, with its own models for fast completion.",
+   "files": "Full repository context with its own indexing, which is the core of the product.",
+   "latency": "Fast for completion. Agentic multi-file work is necessarily slower.",
+   "quality": "Among the strongest available for substantial code changes. Agentic edits still need genuine review, and confident wrong changes across several files are harder to catch than a single bad line.",
+   "pricing": [
+    {
+     "tier": "Hobby",
+     "model": "$0",
+     "includes": "Limited completions and requests",
+     "limits": "Monthly caps"
+    },
+    {
+     "tier": "Pro",
+     "model": "Per-seat monthly",
+     "includes": "Expanded usage, frontier model access",
+     "limits": "Usage-based limits"
+    },
+    {
+     "tier": "Business / Enterprise",
+     "model": "Per-seat, annual",
+     "includes": "Privacy mode enforcement, SSO, admin controls",
+     "limits": "Contract-based"
+    }
+   ],
+   "training_optout": "A privacy mode prevents code being retained, and business tiers can enforce it across the organization. Verify current terms before regulated code goes near it.",
+   "governance_note": "Because it routes to multiple third-party model providers, the data path is worth mapping explicitly during vendor review. It is not a single-vendor relationship even though it is a single purchase.",
+   "integrations": [
+    "Forked from VS Code, so most VS Code extensions work",
+    "Git",
+    "Model Context Protocol"
+   ],
+   "api": "No general API. It is an editor, not a platform.",
+   "pros": [
+    "Best-in-class whole-codebase and multi-file work",
+    "Model choice rather than lock-in",
+    "Familiar to any VS Code user immediately"
+   ],
+   "cons": [
+    "Requires replacing the editor, not adding to it",
+    "Usage pricing can escalate unpredictably",
+    "Multi-vendor data path complicates vendor review"
+   ],
+   "alternatives": [
+    "GitHub Copilot",
+    "Claude Code",
+    "Windsurf"
+   ]
+  },
+  "perplexity-ai": {
+   "name": "Perplexity AI",
+   "vendor": "Perplexity",
+   "catalog_name": "Perplexity AI",
+   "tagline": "Search rebuilt as a citing answer engine rather than a list of links.",
+   "tags": [
+    "Search",
+    "Research",
+    "Citations",
+    "Answer Engine"
+   ],
+   "status": "Active",
+   "access": [
+    "Web App",
+    "API",
+    "Mobile",
+    "Browser Extension"
+   ],
+   "value": "Answers questions with inline citations to the sources used, which makes it materially more checkable than a general assistant. The right tool when the answer needs to be traced back rather than merely produced.",
+   "use_cases": [
+    "Fast market and competitor research with sources attached",
+    "Checking a current fact where a general model's knowledge would be stale",
+    "First-pass literature and regulatory scanning before deeper verification"
+   ],
+   "audience": [
+    "Marketing",
+    "Compliance/Audit Professionals",
+    "Solopreneurs",
+    "Enterprise Operations"
+   ],
+   "engine": "Model-agnostic, routing to frontier models from several vendors, layered over its own retrieval and ranking.",
+   "files": "Accepts document uploads on paid tiers, with web retrieval as the primary input.",
+   "latency": "Fast for a retrieval-augmented product.",
+   "quality": "Citations are the differentiator and the caveat. They make verification possible, but a citation is not a guarantee: the tool sometimes cites a source that does not fully support the sentence. Read the source, do not trust the footnote.",
+   "pricing": [
+    {
+     "tier": "Free",
+     "model": "$0",
+     "includes": "Standard answers, limited advanced searches",
+     "limits": "Daily caps"
+    },
+    {
+     "tier": "Pro",
+     "model": "Per-seat monthly",
+     "includes": "Advanced model choice, file upload, higher limits",
+     "limits": "Daily caps on premium searches"
+    },
+    {
+     "tier": "Enterprise Pro",
+     "model": "Per-seat, annual",
+     "includes": "SSO, admin controls, data retention controls",
+     "limits": "Contract-based"
+    },
+    {
+     "tier": "API",
+     "model": "Pay per request or token",
+     "includes": "Programmatic answers with citations",
+     "limits": "Rate tiers"
+    }
+   ],
+   "training_optout": "Enterprise tiers offer data controls and an AI training opt-out. Consumer tiers differ. Verify before regulated research goes through it.",
+   "governance_note": "For an audit or compliance workflow, treat its citations exactly as this site treats news: a lead to the primary source, never the evidence itself.",
+   "integrations": [
+    "Browser extension",
+    "API for embedding answers",
+    "Standard automation platforms"
+   ],
+   "api": "REST API returning answers with source citations.",
+   "pros": [
+    "Citations make answers checkable",
+    "Genuinely current, unlike static model knowledge",
+    "Model choice rather than lock-in"
+   ],
+   "cons": [
+    "A citation does not always support the claim attached to it",
+    "Weaker than dedicated assistants at writing and reasoning",
+    "Source quality varies with what ranks well"
+   ],
+   "alternatives": [
+    "ChatGPT",
+    "Gemini",
+    "Consensus"
+   ]
+  },
+  "hugging-face": {
+   "name": "Hugging Face",
+   "vendor": "Hugging Face",
+   "catalog_name": "Hugging Face",
+   "tagline": "The public infrastructure of open-weight AI: models, datasets, and the libraries around them.",
+   "tags": [
+    "Open Source",
+    "Model Hub",
+    "Developer Tools",
+    "Datasets"
+   ],
+   "status": "Active",
+   "access": [
+    "Web App",
+    "API",
+    "Open Source / Local Deployment"
+   ],
+   "value": "Where open-weight models and their datasets actually live. Less a product than the distribution layer the entire open-model ecosystem depends on, including the tooling most teams use to run models themselves.",
+   "use_cases": [
+    "Finding, comparing, and downloading open-weight models for self-hosting",
+    "Building on the Transformers library rather than a vendor API",
+    "Sourcing and publishing datasets, and reading model cards before adopting a model"
+   ],
+   "audience": [
+    "Dev Teams",
+    "Enterprise Operations"
+   ],
+   "engine": "Not a model itself. A hub and a set of libraries hosting models from many publishers.",
+   "files": "Hosts model weights, datasets, and demo applications.",
+   "latency": "Not applicable to the hub. Hosted inference performance depends on the model and tier.",
+   "quality": "Quality varies enormously by publisher, which is the nature of an open hub. Model cards and licences must be read individually.",
+   "pricing": [
+    {
+     "tier": "Free",
+     "model": "$0",
+     "includes": "Public model and dataset access, community features",
+     "limits": "Rate limits on hosted inference"
+    },
+    {
+     "tier": "Pro",
+     "model": "Per-seat monthly",
+     "includes": "Higher limits, private repositories",
+     "limits": "Usage caps"
+    },
+    {
+     "tier": "Enterprise",
+     "model": "Per-seat, annual",
+     "includes": "SSO, audit logs, access controls, region selection",
+     "limits": "Contract-based"
+    }
+   ],
+   "training_optout": "Self-hosted use means data never leaves the organization, which is the main governance argument for open weights in the first place.",
+   "governance_note": "The critical governance step here is licence review. Open weight does not mean open licence, and several widely used models carry commercial restrictions or acceptable-use terms that survive fine-tuning. Read the licence, not the headline.",
+   "integrations": [
+    "Transformers, Datasets, and related libraries",
+    "Major cloud platforms",
+    "Most orchestration frameworks"
+   ],
+   "api": "REST inference API plus the Python libraries that are the de facto standard for working with open models.",
+   "pros": [
+    "The definitive source for open-weight models",
+    "Self-hosting removes third-party data exposure entirely",
+    "Model cards support genuine due diligence"
+   ],
+   "cons": [
+    "Quality and licensing vary wildly by publisher",
+    "Self-hosting shifts the entire operational burden in-house",
+    "Requires real ML engineering capability"
+   ],
+   "alternatives": [
+    "Ollama",
+    "Mistral / Le Chat",
+    "Llama (Meta)"
+   ]
+  },
+  "llama-meta": {
+   "name": "Llama (Meta)",
+   "vendor": "Meta",
+   "catalog_name": "Llama (Meta)",
+   "tagline": "The most widely adopted open-weight model family, and the usual starting point for self-hosting.",
+   "tags": [
+    "LLM",
+    "Open Weight",
+    "Self-Hosted"
+   ],
+   "status": "Active",
+   "access": [
+    "Open Source / Local Deployment",
+    "API via third parties"
+   ],
+   "value": "Removes the third-party data path entirely: weights can be run on infrastructure the organization controls. For regulated environments that is frequently the deciding factor, irrespective of benchmark position.",
+   "use_cases": [
+    "Running a capable model entirely inside a controlled environment",
+    "Fine-tuning on proprietary data without sending it to a vendor",
+    "Avoiding per-token costs at high, predictable volume"
+   ],
+   "audience": [
+    "Dev Teams",
+    "Enterprise Operations",
+    "Compliance/Audit Professionals"
+   ],
+   "engine": "Meta's own open-weight model family, released in several sizes.",
+   "files": "Depends entirely on the serving stack chosen, not on the model distribution.",
+   "latency": "A function of the hardware it runs on. Smaller variants run acceptably on modest hardware; the largest need serious GPU capacity.",
+   "quality": "Competitive with proprietary models on many tasks, generally behind the frontier ones on the hardest reasoning. The trade is capability for control.",
+   "pricing": [
+    {
+     "tier": "Self-hosted",
+     "model": "Infrastructure cost only",
+     "includes": "Full weights, fine-tuning rights subject to licence",
+     "limits": "Bounded by your own hardware"
+    },
+    {
+     "tier": "Third-party hosted",
+     "model": "Pay per token",
+     "includes": "Managed inference from cloud and inference providers",
+     "limits": "Provider rate tiers"
+    }
+   ],
+   "training_optout": "Not applicable when self-hosted: the data never leaves your environment. That is the entire argument for this option.",
+   "governance_note": "The licence is a community licence, not a standard open-source licence. It carries conditions, including at very large user scale. Have counsel read it before building a commercial product on it rather than assuming MIT-style terms.",
+   "integrations": [
+    "Hugging Face, Ollama, llama.cpp",
+    "Every major cloud model marketplace",
+    "Standard orchestration frameworks"
+   ],
+   "api": "No first-party API. Served through whatever stack you choose or a third-party host.",
+   "pros": [
+    "Complete data control when self-hosted",
+    "No per-token cost at volume",
+    "Large ecosystem and abundant tooling"
+   ],
+   "cons": [
+    "Community licence is not standard open source and has real conditions",
+    "Behind the frontier on hardest reasoning",
+    "Self-hosting demands infrastructure and ML capability"
+   ],
+   "alternatives": [
+    "Mistral / Le Chat",
+    "Hugging Face",
+    "DeepSeek"
+   ]
+  },
+  "elevenlabs": {
+   "name": "ElevenLabs",
+   "vendor": "ElevenLabs",
+   "catalog_name": "ElevenLabs",
+   "tagline": "The quality leader in synthetic speech, and a live example of why voice needs governance.",
+   "tags": [
+    "Voice",
+    "Text to Speech",
+    "Voice Cloning",
+    "Dubbing"
+   ],
+   "status": "Active",
+   "access": [
+    "Web App",
+    "API"
+   ],
+   "value": "Produces synthetic speech convincing enough for commercial publication, with multilingual output and voice cloning from short samples. The realism is the product and the risk in equal measure.",
+   "use_cases": [
+    "Narration for training, marketing, and product content at scale",
+    "Dubbing existing content into other languages while keeping the speaker's voice",
+    "Accessibility, turning written material into audio"
+   ],
+   "audience": [
+    "Marketing",
+    "Solopreneurs",
+    "Enterprise Operations"
+   ],
+   "engine": "Proprietary speech synthesis and voice cloning models.",
+   "files": "Text in, audio out. Accepts reference audio for cloning and existing media for dubbing.",
+   "latency": "Fast enough for near real-time use in the low-latency modes.",
+   "quality": "The realism benchmark for the category. Long-form prosody and unusual proper nouns remain the weak points.",
+   "pricing": [
+    {
+     "tier": "Free",
+     "model": "$0",
+     "includes": "Limited monthly characters",
+     "limits": "Attribution required, no commercial use"
+    },
+    {
+     "tier": "Paid tiers",
+     "model": "Monthly by character volume",
+     "includes": "Commercial licence, cloning, more voices",
+     "limits": "Character quotas by tier"
+    },
+    {
+     "tier": "Enterprise",
+     "model": "Custom",
+     "includes": "SSO, higher limits, contractual terms",
+     "limits": "Contract-based"
+    }
+   ],
+   "training_optout": "Enterprise agreements address data use. Verify terms before uploading any voice you do not own.",
+   "governance_note": "This is the tool most likely to create legal exposure through ordinary use. Cloning a voice requires the speaker's consent, several jurisdictions now regulate synthetic likeness directly, and Tennessee's ELVIS Act is one example already covered in the governance library. Consent capture and provenance labelling belong in the workflow from day one, not after the first complaint.",
+   "integrations": [
+    "API for embedding in products",
+    "Common video and content platforms",
+    "Automation platforms"
+   ],
+   "api": "REST API with SDKs, including low-latency streaming.",
+   "pros": [
+    "Best-in-class output realism",
+    "Strong multilingual and dubbing capability",
+    "Straightforward API"
+   ],
+   "cons": [
+    "Voice cloning carries real and rising legal exposure",
+    "Character-based pricing escalates with long-form use",
+    "Free tier prohibits commercial use, which is easy to miss"
+   ],
+   "alternatives": [
+    "Whisper API (OpenAI)",
+    "Descript",
+    "Adobe Firefly"
+   ]
+  }
+ }
+}
