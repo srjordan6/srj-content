@@ -2,7 +2,7 @@
  "source": "SRJ editorial profiles, written from durable public knowledge",
  "as_of": "2026-05",
  "caveat": "Pricing, version numbers, context-window sizes, and compliance certifications change frequently. Where stated they are accurate as of the as_of date and should be confirmed with the vendor before any procurement or compliance decision. Where they could not be stated confidently they are omitted rather than guessed.",
- "count": 10,
+ "count": 20,
  "profiles": {
   "chatgpt": {
    "name": "ChatGPT",
@@ -777,6 +777,738 @@
     "Whisper API (OpenAI)",
     "Descript",
     "Adobe Firefly"
+   ]
+  },
+  "mistral-le-chat": {
+   "name": "Mistral / Le Chat",
+   "vendor": "Mistral AI",
+   "catalog_name": "Mistral / Le Chat",
+   "tagline": "The European frontier lab, and the usual answer when data must stay in the EU.",
+   "tags": [
+    "LLM",
+    "Open Weight",
+    "EU",
+    "Data Residency"
+   ],
+   "status": "Active",
+   "access": [
+    "Web App",
+    "API",
+    "Open Source / Local Deployment"
+   ],
+   "value": "A capable frontier model family from a European company, with several models released under open weights. For organizations whose constraint is where the data goes rather than which model scores highest, that combination is often decisive.",
+   "use_cases": [
+    "Deploying a capable assistant where EU data residency is a hard requirement",
+    "Self-hosting an open-weight model with a genuinely permissive licence",
+    "Reducing dependence on a single US model vendor"
+   ],
+   "audience": [
+    "Enterprise Operations",
+    "Compliance/Audit Professionals",
+    "Dev Teams"
+   ],
+   "engine": "Mistral's own model family. Several models are released under Apache 2.0; the largest are proprietary.",
+   "files": "Document and image handling on the hosted product. Self-hosted capability depends on the serving stack.",
+   "latency": "The smaller models are notably fast and cheap to run, which is a large part of their appeal for high-volume work.",
+   "quality": "Competitive, particularly for the size and cost. Generally behind the largest US frontier models on the hardest reasoning tasks.",
+   "pricing": [
+    {
+     "tier": "Free",
+     "model": "$0",
+     "includes": "Le Chat consumer access",
+     "limits": "Rate limits"
+    },
+    {
+     "tier": "Paid consumer / team",
+     "model": "Per-seat monthly",
+     "includes": "Higher limits, advanced models",
+     "limits": "Usage caps"
+    },
+    {
+     "tier": "API",
+     "model": "Pay per token",
+     "includes": "Full model range",
+     "limits": "Rate tiers"
+    },
+    {
+     "tier": "Self-hosted",
+     "model": "Infrastructure cost",
+     "includes": "Open-weight models under Apache 2.0",
+     "limits": "Bounded by your hardware"
+    }
+   ],
+   "training_optout": "Business and API terms address training use. Self-hosting removes the question entirely. Confirm the terms attached to your specific tier.",
+   "governance_note": "This is the clearest available answer to a GDPR transfer problem. Where a US vendor's data path forces a Chapter V transfer analysis, an EU-hosted or self-hosted European model avoids the question rather than mitigating it. Note the distinction between the Apache-licensed models and the proprietary ones, because only the former can actually be run on your own infrastructure.",
+   "integrations": [
+    "Hugging Face, Ollama, and standard self-hosting stacks",
+    "Major cloud marketplaces",
+    "Standard orchestration frameworks"
+   ],
+   "api": "REST API with SDKs, plus open weights for the models released that way.",
+   "pros": [
+    "Genuine EU alternative with real data residency options",
+    "Apache 2.0 on several capable models",
+    "Excellent cost and speed at the smaller sizes"
+   ],
+   "cons": [
+    "Behind the frontier on hardest reasoning",
+    "Smaller ecosystem than the US majors",
+    "Open and proprietary model split is easy to confuse"
+   ],
+   "alternatives": [
+    "Llama (Meta)",
+    "Claude",
+    "Hugging Face"
+   ]
+  },
+  "deepseek": {
+   "name": "DeepSeek",
+   "vendor": "DeepSeek AI",
+   "catalog_name": "DeepSeek",
+   "tagline": "Frontier-class capability at very low cost, from a Chinese vendor, which is the whole governance story.",
+   "tags": [
+    "LLM",
+    "Open Weight",
+    "China",
+    "Low Cost"
+   ],
+   "status": "Active",
+   "access": [
+    "Web App",
+    "API",
+    "Open Source / Local Deployment"
+   ],
+   "value": "Reasoning performance close to the frontier at a fraction of the cost, with open-weight releases. The capability is real. The governance considerations are equally real and are the reason it needs its own policy decision rather than a default allow.",
+   "use_cases": [
+    "High-volume reasoning workloads where per-token cost dominates",
+    "Self-hosting an open-weight reasoning model on controlled infrastructure",
+    "Benchmarking against incumbents to test whether premium pricing is justified"
+   ],
+   "audience": [
+    "Dev Teams",
+    "Solopreneurs"
+   ],
+   "engine": "DeepSeek's own models, with several released as open weights.",
+   "files": "Standard text and code handling on the hosted service.",
+   "latency": "Reasoning models trade latency for quality, as elsewhere in the category.",
+   "quality": "Genuinely strong at mathematics and code reasoning. Outputs reflect Chinese regulatory content requirements on politically sensitive subjects, which is a factual property of the model rather than a criticism.",
+   "pricing": [
+    {
+     "tier": "Web",
+     "model": "$0",
+     "includes": "Consumer chat",
+     "limits": "Rate limits"
+    },
+    {
+     "tier": "API",
+     "model": "Pay per token",
+     "includes": "Full model access",
+     "limits": "Rate tiers"
+    },
+    {
+     "tier": "Self-hosted",
+     "model": "Infrastructure cost",
+     "includes": "Open-weight releases",
+     "limits": "Bounded by your hardware"
+    }
+   ],
+   "training_optout": "The hosted service is operated from China and subject to Chinese law, including data access provisions. Self-hosting the open weights removes the data path entirely and is the only version most regulated organizations should consider.",
+   "governance_note": "Treat the hosted API and the open weights as two different decisions. The weights can be run on your own infrastructure with no data leaving; the hosted API sends prompts to servers under Chinese jurisdiction, which triggers cross-border transfer analysis, and in some sectors and government contexts an outright prohibition. Several jurisdictions have restricted it on government devices. See the China AI regulation and global AI laws pages in the reference library before approving either.",
+   "integrations": [
+    "Hugging Face and standard self-hosting stacks",
+    "OpenAI-compatible API surface",
+    "Common orchestration frameworks"
+   ],
+   "api": "REST API, largely OpenAI-compatible, which makes swapping it in unusually easy. That ease is itself a shadow-IT risk worth naming.",
+   "pros": [
+    "Frontier-adjacent reasoning at very low cost",
+    "Open weights available for self-hosting",
+    "Drop-in API compatibility"
+   ],
+   "cons": [
+    "Hosted service sits under Chinese jurisdiction",
+    "Restricted on government devices in several jurisdictions",
+    "Content behaviour reflects Chinese regulatory requirements"
+   ],
+   "alternatives": [
+    "Llama (Meta)",
+    "Mistral / Le Chat",
+    "Claude"
+   ]
+  },
+  "ollama": {
+   "name": "Ollama",
+   "vendor": "Ollama",
+   "catalog_name": "Ollama",
+   "tagline": "The simplest way to run open-weight models entirely on your own machine.",
+   "tags": [
+    "Open Source",
+    "Local Deployment",
+    "Privacy",
+    "Developer Tools"
+   ],
+   "status": "Active",
+   "access": [
+    "Desktop Client",
+    "Open Source / Local Deployment",
+    "API"
+   ],
+   "value": "Turns self-hosting from an infrastructure project into a single install. Pulls and runs open-weight models locally with an OpenAI-compatible endpoint, which means existing code usually points at it unchanged.",
+   "use_cases": [
+    "Running an assistant on confidential material with no network path at all",
+    "Local development against a model without per-token cost",
+    "Air-gapped or high-sensitivity environments where no external API is permitted"
+   ],
+   "audience": [
+    "Dev Teams",
+    "Compliance/Audit Professionals",
+    "Solopreneurs"
+   ],
+   "engine": "Not a model. A runtime and model manager that serves open-weight models locally.",
+   "files": "Depends on the model served. Text and, for multimodal models, images.",
+   "latency": "Bounded entirely by local hardware. Small models are fast on a modern laptop; large ones need serious GPU capacity.",
+   "quality": "Exactly the quality of whichever open-weight model is loaded. Ollama adds no capability and takes none away.",
+   "pricing": [
+    {
+     "tier": "Open source",
+     "model": "$0",
+     "includes": "Full local runtime and model library",
+     "limits": "Bounded by your hardware"
+    }
+   ],
+   "training_optout": "Not applicable. Nothing leaves the machine, which is the entire reason to use it.",
+   "governance_note": "This is the strongest available answer to 'we cannot send this data anywhere'. It converts an AI vendor risk assessment into an endpoint security question, which most organizations already know how to run. The residual risks move to the model licence and to unmanaged installs on staff laptops, so pair adoption with a licence review and an endpoint policy.",
+   "integrations": [
+    "OpenAI-compatible API surface",
+    "Most orchestration frameworks",
+    "Editor and desktop clients"
+   ],
+   "api": "Local REST API that is largely OpenAI-compatible, so most existing code can be repointed with a base-URL change.",
+   "pros": [
+    "Data never leaves the machine",
+    "Trivial to install compared with raw self-hosting",
+    "No per-token cost"
+   ],
+   "cons": [
+    "Capability limited by local hardware",
+    "Model licences still apply and still need review",
+    "Easy for staff to install without oversight"
+   ],
+   "alternatives": [
+    "Hugging Face",
+    "llama.cpp",
+    "Llama (Meta)"
+   ]
+  },
+  "midjourney": {
+   "name": "Midjourney",
+   "vendor": "Midjourney",
+   "catalog_name": "Midjourney",
+   "tagline": "The aesthetic leader in image generation, with the least clear commercial-use position.",
+   "tags": [
+    "Image Generation",
+    "Design",
+    "Creative"
+   ],
+   "status": "Active",
+   "access": [
+    "Web App",
+    "Discord"
+   ],
+   "value": "Consistently the strongest output aesthetics in the category. Chosen where the image has to look genuinely good rather than merely correct.",
+   "use_cases": [
+    "Concept art, mood boards, and campaign visual exploration",
+    "Marketing imagery where style consistency matters",
+    "Rapid visual iteration before commissioning real production"
+   ],
+   "audience": [
+    "Marketing",
+    "Solopreneurs"
+   ],
+   "engine": "Proprietary image models. Not open weight.",
+   "files": "Text prompts plus image references for style and composition control.",
+   "latency": "Seconds per generation, typically several variants at once.",
+   "quality": "Best-in-class aesthetics. Weaker than peers at rendering legible text in images and at precise, literal instruction-following.",
+   "pricing": [
+    {
+     "tier": "Basic",
+     "model": "Monthly subscription",
+     "includes": "Limited fast generation time",
+     "limits": "GPU-minute quotas"
+    },
+    {
+     "tier": "Standard / Pro",
+     "model": "Monthly subscription",
+     "includes": "More fast time, relaxed unlimited generation",
+     "limits": "Quota by tier"
+    },
+    {
+     "tier": "Mega / Enterprise",
+     "model": "Monthly subscription",
+     "includes": "Highest quotas, stealth mode on upper tiers",
+     "limits": "Quota by tier"
+    }
+   ],
+   "training_optout": "Generations are public by default on lower tiers. Private generation requires an upper tier. That default alone disqualifies it for confidential product work unless the tier is chosen deliberately.",
+   "governance_note": "Two live issues. First, the public-by-default behaviour: staff experimenting with an unreleased product name or design are publishing it. Second, the training-data provenance question that image generators face collectively, which is the subject of ongoing litigation and which Midjourney has not resolved through licensing the way Adobe has. Where indemnity matters more than aesthetics, Firefly is the safer choice, and the reference library's copyright material is the place to start.",
+   "integrations": [
+    "Discord",
+    "Web application",
+    "No formal public API"
+   ],
+   "api": "No official public API. Automation depends on unofficial routes, which carry their own terms-of-service risk.",
+   "pros": [
+    "Best output aesthetics in the category",
+    "Strong style consistency controls",
+    "Fast iteration"
+   ],
+   "cons": [
+    "Public-by-default generation on lower tiers",
+    "No official API",
+    "No commercial indemnity comparable to Adobe's"
+   ],
+   "alternatives": [
+    "Adobe Firefly",
+    "Stable Diffusion",
+    "ChatGPT"
+   ]
+  },
+  "stable-diffusion": {
+   "name": "Stable Diffusion",
+   "vendor": "Stability AI",
+   "catalog_name": "Stable Diffusion",
+   "tagline": "The open-weight image model that made local, private image generation possible.",
+   "tags": [
+    "Image Generation",
+    "Open Weight",
+    "Self-Hosted"
+   ],
+   "status": "Active",
+   "access": [
+    "Open Source / Local Deployment",
+    "API",
+    "Web App"
+   ],
+   "value": "Open-weight image generation that can run entirely on your own hardware. The only mainstream option where confidential visual work never leaves the building, and the base for most of the fine-tuning ecosystem.",
+   "use_cases": [
+    "Generating imagery on confidential product or brand material locally",
+    "Fine-tuning a model on an organization's own visual style",
+    "High-volume generation without per-image cost"
+   ],
+   "audience": [
+    "Dev Teams",
+    "Marketing",
+    "Enterprise Operations"
+   ],
+   "engine": "Stability AI's open-weight diffusion models, in several generations and sizes.",
+   "files": "Text prompts, image inputs, masks, and control inputs depending on the pipeline.",
+   "latency": "Hardware dependent. Fast on a capable GPU, slow on CPU.",
+   "quality": "Very good, and highly controllable through the surrounding tooling. Base output aesthetics generally trail Midjourney; controllability is far ahead.",
+   "pricing": [
+    {
+     "tier": "Self-hosted",
+     "model": "Infrastructure cost",
+     "includes": "Open weights, fine-tuning, full control",
+     "limits": "Bounded by your hardware"
+    },
+    {
+     "tier": "Hosted API",
+     "model": "Pay per image or credit",
+     "includes": "Managed inference",
+     "limits": "Rate tiers"
+    }
+   ],
+   "training_optout": "Self-hosted use means nothing leaves your infrastructure. Hosted use follows Stability's terms.",
+   "governance_note": "Licensing is the thing to check, not capability. Stability's model licences have changed across releases and some carry revenue-linked commercial conditions, so the licence attached to the specific checkpoint matters more than the family name. Separately, the training-data provenance litigation affecting the category applies here too: self-hosting removes the data-exposure risk but not the copyright question about outputs.",
+   "integrations": [
+    "Hugging Face",
+    "The broad open ecosystem of interfaces and fine-tuning tools",
+    "Hosted API"
+   ],
+   "api": "REST API for the hosted service; locally, whatever pipeline you build.",
+   "pros": [
+    "Fully self-hostable, nothing leaves your infrastructure",
+    "Unmatched controllability and fine-tuning ecosystem",
+    "No per-image cost when self-hosted"
+   ],
+   "cons": [
+    "Licence terms vary by release and need reading each time",
+    "Base aesthetics behind Midjourney",
+    "Requires real technical capability"
+   ],
+   "alternatives": [
+    "Adobe Firefly",
+    "Midjourney",
+    "Hugging Face"
+   ]
+  },
+  "adobe-firefly": {
+   "name": "Adobe Firefly",
+   "vendor": "Adobe",
+   "catalog_name": "Adobe Firefly",
+   "tagline": "Image generation built for commercial use, with indemnity, which is the point.",
+   "tags": [
+    "Image Generation",
+    "Design",
+    "Enterprise",
+    "Indemnity"
+   ],
+   "status": "Active",
+   "access": [
+    "Web App",
+    "Embedded in Adobe Creative Cloud",
+    "API"
+   ],
+   "value": "Trained on licensed and public-domain material rather than an undisclosed web scrape, and sold with enterprise indemnity. For organizations where legal review gates creative tooling, that provenance position matters more than output quality.",
+   "use_cases": [
+    "Commercial marketing imagery where provenance must survive legal review",
+    "Generative editing inside Photoshop and Illustrator workflows already in place",
+    "Brand-controlled generation using an organization's own approved assets"
+   ],
+   "audience": [
+    "Marketing",
+    "Enterprise Operations",
+    "Compliance/Audit Professionals"
+   ],
+   "engine": "Adobe's own Firefly models, positioned on licensed training data.",
+   "files": "Text prompts and image inputs, with deep integration into Adobe file formats.",
+   "latency": "Fast enough for interactive editing inside the Creative Cloud applications.",
+   "quality": "Good, and improving, though generally behind Midjourney on pure aesthetics. Its advantage is integration and legal posture rather than raw output.",
+   "pricing": [
+    {
+     "tier": "Included allowance",
+     "model": "Bundled with Creative Cloud",
+     "includes": "Generative credits inside existing apps",
+     "limits": "Monthly credit allowance"
+    },
+    {
+     "tier": "Firefly subscription",
+     "model": "Monthly",
+     "includes": "Higher credit allowance",
+     "limits": "Credit caps"
+    },
+    {
+     "tier": "Enterprise",
+     "model": "Custom",
+     "includes": "Indemnity, custom models, admin controls",
+     "limits": "Contract-based"
+    }
+   ],
+   "training_optout": "Enterprise agreements cover customer content use. Adobe's position on training data provenance is the product's central claim and should be read directly rather than taken second-hand.",
+   "governance_note": "This is the reference case for training-data provenance as a procurement criterion. Where a generator cannot say what it was trained on, the organization inherits that uncertainty on every asset it publishes. Firefly's commercial indemnity converts that uncertainty into a contractual allocation, which is exactly the sort of control an auditor can test. Content Credentials support also helps with the provenance-labelling obligations now appearing in AI law.",
+   "integrations": [
+    "Photoshop, Illustrator, Express, and the wider Creative Cloud",
+    "Firefly Services API",
+    "Content Credentials"
+   ],
+   "api": "Firefly Services API for enterprise automation.",
+   "pros": [
+    "Licensed training data and commercial indemnity",
+    "Native inside existing Adobe workflows",
+    "Content Credentials support provenance labelling"
+   ],
+   "cons": [
+    "Aesthetics behind the leaders",
+    "Credit-based pricing is easy to exhaust",
+    "Best value assumes you already pay for Creative Cloud"
+   ],
+   "alternatives": [
+    "Midjourney",
+    "Stable Diffusion",
+    "ChatGPT"
+   ]
+  },
+  "otter-ai": {
+   "name": "Otter.ai",
+   "vendor": "Otter.ai",
+   "catalog_name": "Otter.ai",
+   "tagline": "Meeting transcription and notes, and the tool most likely to create a consent problem.",
+   "tags": [
+    "Transcription",
+    "Meetings",
+    "Notes",
+    "Voice"
+   ],
+   "status": "Active",
+   "access": [
+    "Web App",
+    "Mobile",
+    "Meeting Platform Integration",
+    "API"
+   ],
+   "value": "Joins meetings, transcribes them, and produces searchable notes and summaries automatically. Removes note-taking overhead entirely, which is why adoption tends to spread through an organization without anyone approving it.",
+   "use_cases": [
+    "Automatic transcripts and summaries of recurring internal meetings",
+    "Searchable archive of decisions across many calls",
+    "Accessibility, live captioning for participants who need it"
+   ],
+   "audience": [
+    "Enterprise Operations",
+    "Marketing",
+    "Solopreneurs"
+   ],
+   "engine": "Proprietary speech recognition and summarisation models.",
+   "files": "Live meeting audio plus uploaded audio and video files.",
+   "latency": "Real-time captioning during the meeting; summaries follow shortly after.",
+   "quality": "Strong on clear audio and standard accents. Degrades with crosstalk, heavy accents, and specialised vocabulary, and summaries occasionally attribute a statement to the wrong speaker, which matters more than a plain transcription error.",
+   "pricing": [
+    {
+     "tier": "Basic",
+     "model": "$0",
+     "includes": "Limited monthly transcription minutes",
+     "limits": "Monthly minute cap"
+    },
+    {
+     "tier": "Pro / Business",
+     "model": "Per-seat monthly",
+     "includes": "More minutes, admin controls, integrations",
+     "limits": "Minute caps by tier"
+    },
+    {
+     "tier": "Enterprise",
+     "model": "Custom",
+     "includes": "SSO, retention controls, admin governance",
+     "limits": "Contract-based"
+    }
+   ],
+   "training_optout": "Business and enterprise tiers offer data controls. Consumer tiers differ. Verify before any privileged or regulated conversation is recorded.",
+   "governance_note": "The highest-risk tool in ordinary daily use, and the risk is legal rather than technical. Recording consent law varies by jurisdiction: several US states require all-party consent, and recording a call without it is a criminal matter in some of them, not a policy breach. Add legal privilege, HR investigations, and regulated client conversations and the exposure compounds. Any deployment needs an explicit consent practice, a retention policy, and a clear list of meeting types where it must never join. This is also the tool most often found in an AI inventory that nobody approved.",
+   "integrations": [
+    "Zoom, Microsoft Teams, Google Meet",
+    "Calendar systems for automatic joining",
+    "Storage and collaboration platforms"
+   ],
+   "api": "API available on higher tiers for transcript retrieval and workflow integration.",
+   "pros": [
+    "Removes meeting note-taking entirely",
+    "Strong searchable archive across many meetings",
+    "Live captioning aids accessibility"
+   ],
+   "cons": [
+    "Recording consent exposure is serious and jurisdiction-dependent",
+    "Speaker attribution errors carry real consequences",
+    "Spreads through organizations without approval"
+   ],
+   "alternatives": [
+    "Microsoft Copilot",
+    "Notion Q&A",
+    "Whisper API (OpenAI)"
+   ]
+  },
+  "grammarly": {
+   "name": "Grammarly",
+   "vendor": "Grammarly",
+   "catalog_name": "Grammarly",
+   "tagline": "Writing assistance almost everyone already has installed, reading almost everything they type.",
+   "tags": [
+    "Writing",
+    "Editing",
+    "Browser Extension",
+    "Enterprise"
+   ],
+   "status": "Active",
+   "access": [
+    "Browser Extension",
+    "Desktop Client",
+    "Web App",
+    "Mobile"
+   ],
+   "value": "Real-time correction and rewriting wherever text is typed, across browser, desktop, and mobile. Ubiquity is the product: it works everywhere without changing how anyone works.",
+   "use_cases": [
+    "Correctness and tone consistency across all business writing",
+    "Enforcing a house style guide across a large team",
+    "Non-native English speakers producing publication-quality writing"
+   ],
+   "audience": [
+    "Marketing",
+    "Enterprise Operations",
+    "Solopreneurs"
+   ],
+   "engine": "Proprietary language models, with third-party frontier models behind some generative features.",
+   "files": "Operates on text in place. Document upload in the web editor.",
+   "latency": "Real time, inline.",
+   "quality": "Excellent on mechanics and clarity. Style suggestions can flatten distinctive voice if accepted uncritically.",
+   "pricing": [
+    {
+     "tier": "Free",
+     "model": "$0",
+     "includes": "Core correctness suggestions",
+     "limits": "Limited generative use"
+    },
+    {
+     "tier": "Pro",
+     "model": "Per-seat monthly",
+     "includes": "Tone, clarity, and generative features",
+     "limits": "Prompt allowances"
+    },
+    {
+     "tier": "Business / Enterprise",
+     "model": "Per-seat, annual",
+     "includes": "Style guide, SSO, admin analytics, data controls",
+     "limits": "Contract-based"
+    }
+   ],
+   "training_optout": "Business and enterprise tiers carry stronger data commitments than the free tier. Verify which applies to the seats actually deployed.",
+   "governance_note": "The exposure here is breadth, not depth. A browser extension with permission to read and modify text sees drafts of everything: board material, legal correspondence, HR matters, client data, and anything typed into an internal system. It is frequently installed by individuals on the free tier and so never appears in a vendor review. Two practical controls: manage the extension through browser policy rather than leaving it to individuals, and confirm which tier the organization is actually running, because free and enterprise carry materially different terms.",
+   "integrations": [
+    "Browser extensions across major browsers",
+    "Microsoft Office and Google Docs",
+    "Desktop applications"
+   ],
+   "api": "Limited. Primarily an end-user product rather than a platform.",
+   "pros": [
+    "Works everywhere without workflow change",
+    "Genuinely effective on mechanics and clarity",
+    "Style guide enforcement at enterprise tier"
+   ],
+   "cons": [
+    "Extension sees an extremely broad slice of organizational text",
+    "Free-tier installs bypass vendor review entirely",
+    "Style suggestions can flatten voice"
+   ],
+   "alternatives": [
+    "Microsoft Copilot",
+    "ChatGPT",
+    "Notion AI"
+   ]
+  },
+  "notion-ai": {
+   "name": "Notion AI",
+   "vendor": "Notion Labs",
+   "catalog_name": "Notion AI",
+   "tagline": "AI inside the workspace, answering from the company's own pages.",
+   "tags": [
+    "Workspace",
+    "Knowledge",
+    "Writing",
+    "Search"
+   ],
+   "status": "Active",
+   "access": [
+    "Web App",
+    "Desktop Client",
+    "Mobile"
+   ],
+   "value": "Writes, summarises, and answers questions against the organization's own Notion content, respecting existing page permissions. Most useful precisely where a company has already committed its documentation to Notion.",
+   "use_cases": [
+    "Answering questions from internal documentation without hunting for the page",
+    "Drafting and summarising directly inside working documents",
+    "Turning meeting notes into structured, actionable records"
+   ],
+   "audience": [
+    "Enterprise Operations",
+    "Marketing",
+    "Solopreneurs"
+   ],
+   "engine": "Third-party frontier models operating over Notion workspace content.",
+   "files": "Workspace pages and databases, plus uploaded files and connected sources.",
+   "latency": "Fast for in-page work; retrieval across a large workspace is slower.",
+   "quality": "Good at summarising and drafting from source pages. Answer quality is bounded by documentation quality, so a messy workspace produces confident answers from stale pages.",
+   "pricing": [
+    {
+     "tier": "Included",
+     "model": "Bundled in paid Notion plans",
+     "includes": "AI features within the workspace",
+     "limits": "Usage allowances by plan"
+    },
+    {
+     "tier": "Business / Enterprise",
+     "model": "Per-seat, annual",
+     "includes": "Admin controls, SSO, audit log",
+     "limits": "Contract-based"
+    }
+   ],
+   "training_optout": "Notion states customer data is not used to train models. Because generation runs on third-party models, the sub-processor list is the thing to read, not just the headline commitment.",
+   "governance_note": "Two points. First, it inherits Notion page permissions, so it will answer from anything the asking user can already open, which turns permissive workspace sharing into an information-disclosure route. Second, answers are only as current as the pages behind them: a superseded policy page will be quoted back with full confidence. Documentation hygiene becomes a control, not just housekeeping.",
+   "integrations": [
+    "Native across Notion",
+    "Connectors to common storage and communication tools",
+    "Automation platforms"
+   ],
+   "api": "Notion API for workspace content; AI features are primarily in-product.",
+   "pros": [
+    "Answers from the organization's own documented knowledge",
+    "No context switch out of the working document",
+    "Respects existing page permissions"
+   ],
+   "cons": [
+    "Only as good as the documentation behind it",
+    "Inherits permissive sharing as a disclosure path",
+    "Depends on third-party models, so read the sub-processor list"
+   ],
+   "alternatives": [
+    "Microsoft Copilot",
+    "Notion Q&A",
+    "ChatGPT"
+   ]
+  },
+  "claude-code": {
+   "name": "Claude Code",
+   "vendor": "Anthropic",
+   "catalog_name": "Claude Code",
+   "tagline": "An agentic coding tool that works in the terminal against a whole repository.",
+   "tags": [
+    "Code Generation",
+    "Agents",
+    "Developer Tools",
+    "CLI"
+   ],
+   "status": "Active",
+   "access": [
+    "CLI",
+    "IDE Extension",
+    "Desktop Client"
+   ],
+   "value": "Operates on a repository the way a developer does: reads files, makes multi-file changes, runs commands, and iterates on the result. Suited to a described task rather than a completed line.",
+   "use_cases": [
+    "Multi-file refactors and feature implementation from a written description",
+    "Investigating and fixing a bug across an unfamiliar codebase",
+    "Automating repetitive engineering work such as migrations and test scaffolding"
+   ],
+   "audience": [
+    "Dev Teams",
+    "Solopreneurs"
+   ],
+   "engine": "Anthropic's Claude model family.",
+   "files": "Whole-repository access within the directory it is run in, subject to its permission prompts.",
+   "latency": "Slower than inline completion by design, because it is reading, editing, and verifying rather than predicting the next token.",
+   "quality": "Strong on substantial multi-file changes. As with any agentic tool, a confident wrong change spread across several files is harder to spot in review than a single bad line.",
+   "pricing": [
+    {
+     "tier": "Included with Claude plans",
+     "model": "Per-seat monthly",
+     "includes": "Usage within plan limits",
+     "limits": "Usage caps by tier"
+    },
+    {
+     "tier": "API",
+     "model": "Pay per token",
+     "includes": "Usage billed directly",
+     "limits": "Rate tiers"
+    }
+   ],
+   "training_optout": "Follows Anthropic's commercial terms: business and API data is not used for training by default.",
+   "governance_note": "Agentic coding tools change the control question from what the model reads to what it is allowed to do. It executes commands and edits files, so scope it deliberately: run it in a repository rather than a home directory, keep secrets out of the working tree, and require human review before merge. The corresponding audit evidence is the pull request history, which is where the record of what an agent changed actually lives.",
+   "integrations": [
+    "Git and standard developer tooling",
+    "Model Context Protocol for external systems",
+    "IDE extensions"
+   ],
+   "api": "Built on the Anthropic API; usage can be billed through it directly.",
+   "pros": [
+    "Genuinely effective on whole-repository work",
+    "Fits existing terminal and Git workflow",
+    "Clear enterprise data terms"
+   ],
+   "cons": [
+    "Executes commands, so scoping and review discipline are mandatory",
+    "Usage costs escalate on large tasks",
+    "Confident multi-file errors are hard to catch in review"
+   ],
+   "alternatives": [
+    "Cursor",
+    "GitHub Copilot",
+    "ChatGPT"
    ]
   }
  }
