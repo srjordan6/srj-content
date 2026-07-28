@@ -2,7 +2,7 @@
  "source": "SRJ editorial profiles, written from durable public knowledge",
  "as_of": "2026-05",
  "caveat": "Pricing, version numbers, context-window sizes, and compliance certifications change frequently. Where stated they are accurate as of the as_of date and should be confirmed with the vendor before any procurement or compliance decision. Where they could not be stated confidently they are omitted rather than guessed.",
- "count": 20,
+ "count": 63,
  "profiles": {
   "chatgpt": {
    "name": "ChatGPT",
@@ -1509,6 +1509,2749 @@
     "Cursor",
     "GitHub Copilot",
     "ChatGPT"
+   ]
+  },
+  "whisper-openai": {
+   "name": "Whisper API (OpenAI)",
+   "vendor": "OpenAI",
+   "catalog_name": "Whisper API (OpenAI)",
+   "tagline": "Open-weight speech recognition, accurate enough that every other vendor benchmarks against it.",
+   "tags": [
+    "Speech Recognition",
+    "Transcription",
+    "Open Weight",
+    "API"
+   ],
+   "status": "Active",
+   "access": [
+    "API",
+    "Open Source / Local Deployment"
+   ],
+   "value": "The strongest freely available speech-to-text model, and the reference benchmark for the category. Available both as an OpenAI API and as open weights you can run yourself, which is an unusual combination at this quality level.",
+   "use_cases": [
+    "Transcribing audio and video files at scale through the API",
+    "Self-hosting accurate speech recognition inside a controlled environment",
+    "Building voice interfaces or meeting-note pipelines on a reliable accuracy floor"
+   ],
+   "audience": [
+    "Dev Teams",
+    "Enterprise Operations",
+    "Compliance/Audit Professionals"
+   ],
+   "engine": "OpenAI's Whisper model family, released as open weights. The API runs a hosted version.",
+   "files": "Audio and video files in common formats.",
+   "latency": "Not real-time in the base form. The OpenAI API is fast for file transcription; real-time streaming requires the Realtime API endpoint.",
+   "quality": "Best-in-class across languages and accents for an open-weight model. Still degrades on heavy background noise and very domain-specific vocabulary.",
+   "pricing": [
+    {
+     "tier": "Self-hosted",
+     "model": "Infrastructure cost only",
+     "includes": "Open weights, full control, no data sent to OpenAI",
+     "limits": "Bounded by hardware"
+    },
+    {
+     "tier": "OpenAI API",
+     "model": "Pay per minute of audio",
+     "includes": "Managed inference, no hardware needed",
+     "limits": "Rate tiers"
+    }
+   ],
+   "training_optout": "Self-hosted: nothing leaves your infrastructure. API: follows OpenAI's commercial data terms for the tier in use.",
+   "governance_note": "The self-hosted path is the right answer wherever the audio is privileged, regulated, or involves recording consent issues. An HR investigation interview, a legal call, or a clinical encounter should not be sent through an external API. Open weights mean you get the same model quality on your own infrastructure. Pair with an explicit retention policy for the resulting transcripts, which are often more sensitive than the audio.",
+   "integrations": [
+    "OpenAI API ecosystem",
+    "Self-hosting via Hugging Face and common ML tooling",
+    "Most orchestration frameworks"
+   ],
+   "api": "REST API on OpenAI's platform. Open weights available for direct use.",
+   "pros": [
+    "Best-in-class open-weight accuracy",
+    "Self-hosted path removes external data exposure",
+    "Wide language coverage"
+   ],
+   "cons": [
+    "Not real-time in the standard form",
+    "API cost accumulates at high audio volume",
+    "Transcripts inherit the sensitivity of the underlying conversation"
+   ],
+   "alternatives": [
+    "ElevenLabs",
+    "Otter.ai",
+    "Microsoft Copilot"
+   ]
+  },
+  "llamaindex": {
+   "name": "LlamaIndex",
+   "vendor": "LlamaIndex",
+   "catalog_name": "LlamaIndex",
+   "tagline": "The framework for building retrieval-augmented applications on top of your own documents.",
+   "tags": [
+    "RAG",
+    "Developer Tools",
+    "Open Source",
+    "Data Pipelines"
+   ],
+   "status": "Active",
+   "access": [
+    "Open Source / Local Deployment",
+    "API"
+   ],
+   "value": "The standard framework for connecting language models to private document stores. Where LangChain is more general-purpose, LlamaIndex is specifically optimized for the ingest-index-retrieve-generate pattern that makes RAG work well in practice.",
+   "use_cases": [
+    "Building a knowledge assistant that answers questions from internal documents",
+    "Creating a retrieval layer that feeds context into a language model accurately",
+    "Ingesting heterogeneous sources (PDFs, databases, APIs) into a queryable index"
+   ],
+   "audience": [
+    "Dev Teams"
+   ],
+   "engine": "Framework, not a model. Orchestrates calls to whatever model and vector store you choose.",
+   "files": "Loaders for PDFs, Word documents, spreadsheets, databases, and web pages.",
+   "latency": "Framework overhead is minimal; latency is dominated by the model and vector store.",
+   "quality": "Retrieval quality depends heavily on chunking strategy and embedding model choice. LlamaIndex provides the plumbing; the quality decisions sit with the implementer.",
+   "pricing": [
+    {
+     "tier": "Open source",
+     "model": "$0",
+     "includes": "Full framework, all integrations",
+     "limits": "None on the framework itself"
+    },
+    {
+     "tier": "LlamaCloud",
+     "model": "Usage-based",
+     "includes": "Managed data pipelines and parsing",
+     "limits": "Volume tiers"
+    }
+   ],
+   "training_optout": "Framework only. Data handling depends entirely on the model and store chosen.",
+   "governance_note": "The governance surface of a RAG system is the index, not the model. Whatever documents go in can come out in model responses, including documents that were accessible to the indexing process but should not be surfaced to end users. Access control on the index is not automatic and must be designed explicitly. The most common failure is indexing a shared drive and discovering that everyone can now query everyone else's sensitive files.",
+   "integrations": [
+    "Every major vector store and embedding provider",
+    "All major LLM APIs",
+    "Hugging Face and local models"
+   ],
+   "api": "Python library, TypeScript available. Extensive integration surface.",
+   "pros": [
+    "The right tool for document-centric RAG specifically",
+    "Excellent integration coverage",
+    "Strong community and documentation"
+   ],
+   "cons": [
+    "Index access control is not automatic",
+    "Configuration choices strongly affect retrieval quality",
+    "TypeScript support lags Python"
+   ],
+   "alternatives": [
+    "Hugging Face",
+    "ChatGPT",
+    "Claude"
+   ]
+  },
+  "runway": {
+   "name": "Runway",
+   "vendor": "Runway",
+   "catalog_name": "Runway",
+   "tagline": "The professional video generation and editing suite used in real production.",
+   "tags": [
+    "Video Generation",
+    "Editing",
+    "Creative",
+    "Enterprise"
+   ],
+   "status": "Active",
+   "access": [
+    "Web App",
+    "API"
+   ],
+   "value": "The video AI tool with the most traction in professional film and commercial production. Not a toy generator but a production tool, with temporal consistency and control that distinguishes it from consumer video tools.",
+   "use_cases": [
+    "Generating video from text or image references for commercial production",
+    "In-painting, out-painting, and background replacement in existing footage",
+    "Rapid iteration on video concepts before committing to live production"
+   ],
+   "audience": [
+    "Marketing",
+    "Enterprise Operations",
+    "Solopreneurs"
+   ],
+   "engine": "Runway's proprietary video generation models (Gen series).",
+   "files": "Text prompts, image references, and existing video clips for editing and extension.",
+   "latency": "Generation takes minutes for longer clips. Fast enough for iterative creative work, not for real-time use.",
+   "quality": "The quality leader for temporal consistency and cinematic control among commercial video generators.",
+   "pricing": [
+    {
+     "tier": "Basic / Standard / Pro",
+     "model": "Monthly subscription by credit allowance",
+     "includes": "Generation credits, watermark removal on higher tiers",
+     "limits": "Credit caps"
+    },
+    {
+     "tier": "Enterprise",
+     "model": "Custom",
+     "includes": "Indemnity, private hosting, SSO, admin controls",
+     "limits": "Contract-based"
+    }
+   ],
+   "training_optout": "Enterprise terms address training use of customer content. Consumer tiers differ. Check before submitting proprietary production assets.",
+   "governance_note": "The same synthetic-likeness and training-provenance issues that apply to image generators apply here, compounded by video's ability to portray motion and speech. Using an identifiable person's likeness in generated video without consent is the clearest exposure: several jurisdictions regulate it, and the area is moving fast. The enterprise indemnity offering is the tier to evaluate where commercial publication is the end state.",
+   "integrations": [
+    "API for integration into production pipelines",
+    "Standard creative and storage platforms"
+   ],
+   "api": "REST API with SDKs for integrating generation into larger workflows.",
+   "pros": [
+    "Best-in-class temporal consistency and cinematic control",
+    "Enterprise tier with indemnity",
+    "Used in actual professional production"
+   ],
+   "cons": [
+    "Expensive at production volume",
+    "Synthetic likeness exposure is real and rising",
+    "Consumer tiers lack the data controls enterprises need"
+   ],
+   "alternatives": [
+    "Adobe Firefly",
+    "Stable Diffusion",
+    "ElevenLabs"
+   ]
+  },
+  "perplexity-enterprise": {
+   "name": "Perplexity Enterprise Pro",
+   "vendor": "Perplexity",
+   "catalog_name": "Perplexity Enterprise Pro",
+   "tagline": "The enterprise tier of the citing answer engine, with data controls and SSO.",
+   "tags": [
+    "Search",
+    "Research",
+    "Enterprise",
+    "Citations"
+   ],
+   "status": "Active",
+   "access": [
+    "Web App",
+    "API"
+   ],
+   "value": "Extends the Perplexity citing-answer model to enterprise requirements: SSO, admin controls, data retention controls, and prompts not used for training. The underlying product is the same, with the security envelope that regulated organizations need.",
+   "use_cases": [
+    "Organization-wide research capability with audit and admin oversight",
+    "Replacing ad-hoc web research with a citable, policy-compliant tool",
+    "Embedding sourced answers in internal workflows via the API"
+   ],
+   "audience": [
+    "Enterprise Operations",
+    "Compliance/Audit Professionals",
+    "Marketing"
+   ],
+   "engine": "Same as Perplexity AI: multi-model retrieval-augmented generation with citations.",
+   "files": "Web retrieval plus document uploads where supported.",
+   "latency": "Fast for a retrieval-augmented product.",
+   "quality": "Same quality characteristics as the consumer product. Citations require the same read-the-source discipline.",
+   "pricing": [
+    {
+     "tier": "Enterprise Pro",
+     "model": "Per-seat, annual",
+     "includes": "SSO, admin controls, data retention controls, no training opt-in",
+     "limits": "Contract-based"
+    }
+   ],
+   "training_optout": "Enterprise Pro explicitly excludes customer data from model training. Verify the current contract terms.",
+   "governance_note": "Same evidentiary point as the consumer product, now under admin control. The admin dashboard tells you which seats are active and what the usage looks like, which matters for the AI inventory. Citations are still leads, not evidence, and that rule does not change with the tier.",
+   "integrations": [
+    "SSO via standard identity providers",
+    "API for workflow embedding",
+    "Standard security tooling"
+   ],
+   "api": "REST API returning sourced answers.",
+   "pros": [
+    "Consumer product quality with enterprise data controls",
+    "Admin dashboard for inventory and governance",
+    "Data training opt-out by default"
+   ],
+   "cons": [
+    "Citations still require verification",
+    "Per-seat annual pricing can be hard to size ahead of adoption",
+    "Relies on web retrieval quality"
+   ],
+   "alternatives": [
+    "ChatGPT",
+    "Gemini",
+    "Microsoft Copilot"
+   ]
+  },
+  "grammarly-education": {
+   "name": "Grammarly for Education",
+   "vendor": "Grammarly",
+   "catalog_name": "Grammarly for Education",
+   "tagline": "The campus licence of Grammarly, and the centre of the academic integrity debate.",
+   "tags": [
+    "Writing",
+    "Education",
+    "Editing"
+   ],
+   "status": "Active",
+   "access": [
+    "Browser Extension",
+    "Web App"
+   ],
+   "value": "Writing assistance deployed at institutional scale across students and staff, with campus admin controls and reporting. The product itself is the same as the business edition; the conversation around it is not.",
+   "use_cases": [
+    "Improving student writing clarity and mechanics at scale",
+    "Identifying writing patterns across the student body through admin analytics",
+    "Non-native English speakers developing academic writing competence"
+   ],
+   "audience": [
+    "Enterprise Operations"
+   ],
+   "engine": "Same as Grammarly. Proprietary models, some generative features on third-party models.",
+   "files": "Text in place, in browsers and editors.",
+   "latency": "Real time.",
+   "quality": "Same as the commercial product.",
+   "pricing": [
+    {
+     "tier": "Education institutional",
+     "model": "Institutional licence, custom pricing",
+     "includes": "Campus-wide access, admin dashboard, reporting",
+     "limits": "Contract-based"
+    }
+   ],
+   "training_optout": "Institutional terms address data use. Confirm which terms apply to the specific agreement, not the product marketing.",
+   "governance_note": "The governance question in education is not the product, it is the policy. Grammarly corrects grammar; the moment its generative features write sentences, the academic integrity question is live. Institutions need a clear published policy on which features are within-bounds and which are not, before deploying a campus licence rather than after the first academic misconduct case. The admin analytics also surface usage patterns that have FERPA implications if the data is not handled as an education record.",
+   "integrations": [
+    "Browser extensions",
+    "Google Docs and Microsoft Word",
+    "Learning management system connectors on some tiers"
+   ],
+   "api": "Primarily an end-user product.",
+   "pros": [
+    "Meaningful help at scale for non-native English writers",
+    "Admin oversight not available on consumer tier",
+    "Proven at large institutional deployments"
+   ],
+   "cons": [
+    "Generative features blur the academic integrity line without an explicit policy",
+    "Admin analytics carry FERPA handling requirements",
+    "Free consumer installs can coexist with the campus licence and bypass controls"
+   ],
+   "alternatives": [
+    "Notion AI",
+    "ChatGPT",
+    "Microsoft Copilot"
+   ]
+  },
+  "mistral-large": {
+   "name": "Mistral Large 2",
+   "vendor": "Mistral AI",
+   "catalog_name": "Mistral Large 2",
+   "tagline": "Mistral's frontier model, the one in the proprietary tier, not the open-weight releases.",
+   "tags": [
+    "LLM",
+    "Frontier",
+    "EU",
+    "API"
+   ],
+   "status": "Active",
+   "access": [
+    "API"
+   ],
+   "value": "Mistral's strongest model, aimed at the tasks where the smaller open-weight models fall short: complex reasoning, long-document analysis, and demanding coding work. Retains the EU-residency argument of the Mistral family.",
+   "use_cases": [
+    "Demanding reasoning and analysis requiring frontier capability under EU data terms",
+    "Enterprise API deployment where EU residency is required and quality cannot be compromised",
+    "Tasks where Mistral's lighter models show limits"
+   ],
+   "audience": [
+    "Enterprise Operations",
+    "Compliance/Audit Professionals",
+    "Dev Teams"
+   ],
+   "engine": "Mistral's proprietary frontier model. Not open weight.",
+   "files": "Document and image handling via the API.",
+   "latency": "Competitive with peer frontier models.",
+   "quality": "Frontier-class. Competitive on reasoning and coding benchmarks with the US majors.",
+   "pricing": [
+    {
+     "tier": "API",
+     "model": "Pay per token",
+     "includes": "Full model access",
+     "limits": "Rate tiers"
+    },
+    {
+     "tier": "Enterprise",
+     "model": "Custom",
+     "includes": "Contractual terms, EU residency confirmation",
+     "limits": "Contract-based"
+    }
+   ],
+   "training_optout": "API and enterprise terms address training data use. Verify for your tier.",
+   "governance_note": "The EU-residency distinction that makes Mistral / Le Chat interesting applies equally here. The difference from the open-weight models is that this one cannot be self-hosted, so the data path runs through Mistral's infrastructure. That is still a significantly simpler transfer analysis than a US provider for a European organization, but it is not the same as self-hosting an Apache-licensed weight.",
+   "integrations": [
+    "Standard API ecosystem",
+    "Major cloud marketplaces",
+    "Orchestration frameworks"
+   ],
+   "api": "REST API with SDKs.",
+   "pros": [
+    "Frontier quality under EU data terms",
+    "Simpler GDPR transfer analysis than US providers for EU organizations",
+    "Competitive pricing at the API tier"
+   ],
+   "cons": [
+    "Not self-hostable, unlike the open-weight models",
+    "Smaller ecosystem than the US majors",
+    "Less third-party tooling and documentation"
+   ],
+   "alternatives": [
+    "Claude",
+    "Gemini",
+    "ChatGPT"
+   ]
+  },
+  "zapier-ai": {
+   "name": "Zapier AI",
+   "vendor": "Zapier",
+   "catalog_name": "Zapier AI",
+   "tagline": "AI layered on top of Zapier's automation network: 7,000 apps, text inputs, no code.",
+   "tags": [
+    "Automation",
+    "Agents",
+    "No-Code",
+    "Integrations"
+   ],
+   "status": "Active",
+   "access": [
+    "Web App",
+    "API"
+   ],
+   "value": "Adds text-driven automation and AI actions to the workflows most organizations already run in Zapier. The value is the integration surface, 7,000-plus apps, not any particular model capability.",
+   "use_cases": [
+    "Building AI-powered automations across SaaS tools without code",
+    "Routing, classifying, and acting on incoming data through natural language steps",
+    "Connecting AI outputs to downstream systems without building custom integrations"
+   ],
+   "audience": [
+    "Marketing",
+    "Solopreneurs",
+    "Enterprise Operations"
+   ],
+   "engine": "Routes to third-party models (primarily OpenAI) through Zapier's action layer.",
+   "files": "Handles the data formats and payloads of the connected apps.",
+   "latency": "Async by nature, suited to background automation rather than interactive use.",
+   "quality": "Quality of the AI step depends on the underlying model. Value is in the connectivity, not the model.",
+   "pricing": [
+    {
+     "tier": "Bundled with Zapier plans",
+     "model": "Per-task pricing within existing Zapier pricing",
+     "includes": "AI steps within automations",
+     "limits": "Task quotas by plan"
+    },
+    {
+     "tier": "Enterprise",
+     "model": "Custom",
+     "includes": "Admin controls, SSO, data controls",
+     "limits": "Contract-based"
+    }
+   ],
+   "training_optout": "Follows OpenAI and any other sub-processor's terms for the model step. Zapier itself operates under its own data terms. Both matter.",
+   "governance_note": "Automation tools have a specific failure mode: they keep running when the world changes. An AI automation approved in one context will continue executing months later when the data, the counterparties, or the policy have shifted. Human review checkpoints must be designed in from the start, not added when something goes wrong. The audit question is not whether the automation worked today but whether anyone would know if it stopped working correctly.",
+   "integrations": [
+    "7,000+ app integrations natively",
+    "Webhook and API support",
+    "Most major SaaS tools"
+   ],
+   "api": "Zapier API for programmatic Zap management.",
+   "pros": [
+    "Unmatched integration surface",
+    "No-code AI automation accessible to non-developers",
+    "Existing Zapier workflows gain AI steps without rebuilding"
+   ],
+   "cons": [
+    "Automation continues running when context changes",
+    "Sub-processor chain for the model step needs tracking",
+    "Quality depends on the model behind the AI step"
+   ],
+   "alternatives": [
+    "Microsoft Copilot",
+    "Notion AI",
+    "ChatGPT"
+   ]
+  },
+  "zapier-central": {
+   "name": "Zapier Central",
+   "vendor": "Zapier",
+   "catalog_name": "Zapier Central",
+   "tagline": "Zapier's agent layer: bots that observe and act across your connected apps.",
+   "tags": [
+    "Agents",
+    "Automation",
+    "No-Code",
+    "Integrations"
+   ],
+   "status": "Active",
+   "access": [
+    "Web App"
+   ],
+   "value": "Persistent AI agents that watch for conditions in connected apps and take actions when those conditions are met. Where Zapier AI is a step in a Zap, Central is a standing agent with memory and multi-step reasoning.",
+   "use_cases": [
+    "Monitoring inboxes, CRMs, and ticketing systems and acting when conditions are met",
+    "Cross-app workflows that require conditional logic beyond simple if-this-then-that",
+    "Delegating recurring multi-step operational tasks to a managed agent"
+   ],
+   "audience": [
+    "Marketing",
+    "Solopreneurs",
+    "Enterprise Operations"
+   ],
+   "engine": "Routes to frontier models via Zapier's infrastructure over the same app network.",
+   "files": "Same as Zapier AI.",
+   "latency": "Async. Agents run on a schedule or on trigger.",
+   "quality": "As an agentic product, output quality depends on prompt quality and how well edge cases are handled in the agent's instructions.",
+   "pricing": [
+    {
+     "tier": "Beta / paid tier",
+     "model": "Monthly or usage-based",
+     "includes": "Bot capacity, app connections",
+     "limits": "Quota by plan"
+    }
+   ],
+   "training_optout": "Same sub-processor chain as Zapier AI. Review both Zapier's terms and the underlying model provider's.",
+   "governance_note": "An agent that runs autonomously across your business data is a materially different risk profile from a one-shot automation. Two controls are essential: a minimum-permission posture (the agent should connect to only the apps and data it genuinely needs), and a clear escalation path for edge cases the agent encounters. The most common failure pattern is an agent handling an edge case by making a plausible-but-wrong decision, and no one noticing until the downstream consequence has propagated.",
+   "integrations": [
+    "Same 7,000+ app network as Zapier",
+    "Memory across sessions",
+    "Trigger-based and scheduled execution"
+   ],
+   "api": "In development; primarily a UI-driven product.",
+   "pros": [
+    "Standing agents over a vast integration network",
+    "No-code agent configuration",
+    "Memory and multi-step reasoning"
+   ],
+   "cons": [
+    "Autonomous action at scale requires deliberate scoping",
+    "Sub-processor chain must be tracked",
+    "Edge-case handling requires human escalation design"
+   ],
+   "alternatives": [
+    "Microsoft Copilot",
+    "ChatGPT",
+    "Notion AI"
+   ]
+  },
+  "ibm-openscale": {
+   "name": "IBM watsonx.governance",
+   "vendor": "IBM",
+   "catalog_name": "IBM watsonx.governance",
+   "tagline": "IBM's enterprise AI governance platform: model monitoring, explainability, and audit.",
+   "tags": [
+    "AI Governance",
+    "Model Monitoring",
+    "Explainability",
+    "Enterprise"
+   ],
+   "status": "Active",
+   "access": [
+    "Web App",
+    "API",
+    "Cloud or On-Premises"
+   ],
+   "value": "The most established enterprise governance platform from a traditional software vendor. Covers model monitoring, drift detection, fairness testing, and audit-trail generation across both IBM and third-party models. Sold to regulated industries on the strength of its on-premises deployment option and IBM's compliance track record.",
+   "use_cases": [
+    "Monitoring production ML models for drift, bias, and performance degradation",
+    "Generating explainability artifacts for regulator inquiries",
+    "Building a governed model lifecycle from training through retirement"
+   ],
+   "audience": [
+    "Enterprise Operations",
+    "Compliance/Audit Professionals"
+   ],
+   "engine": "Monitors models from any provider. Runs its own explainability and fairness algorithms.",
+   "files": "Integrates with model stores, feature stores, and data warehouses.",
+   "latency": "Background monitoring, not interactive. Dashboards update periodically.",
+   "quality": "Deep and auditable. Configuration complexity is real, and the investment in setup is proportional to the environment it is managing.",
+   "pricing": [
+    {
+     "tier": "Cloud (SaaS)",
+     "model": "Usage-based on Watson resources",
+     "includes": "Managed deployment, monitoring, and explainability features",
+     "limits": "Resource quotas"
+    },
+    {
+     "tier": "Enterprise (on-premises)",
+     "model": "Enterprise licence",
+     "includes": "On-premises deployment, full data control",
+     "limits": "Contract-based"
+    }
+   ],
+   "training_optout": "On-premises deployment means model and data stay on your infrastructure. Cloud deployment follows IBM's standard data terms.",
+   "governance_note": "This is what an AI audit of a regulated organization's model estate looks like in practice: continuous monitoring, explainability, and documented evidence rather than a point-in-time review. The EU AI Act's high-risk system requirements (Article 9 risk management, Article 17 quality management) describe exactly this kind of ongoing oversight. The product is expensive and complex, and the right question is whether your model estate is large enough to justify it, or whether lighter tooling covers the actual scope.",
+   "integrations": [
+    "IBM Watson Studio and the wider IBM data and AI stack",
+    "Third-party model frameworks via connectors",
+    "Enterprise data warehouses and feature stores"
+   ],
+   "api": "REST APIs for monitoring and metadata. SDK for integration.",
+   "pros": [
+    "Deepest governance feature set in the category",
+    "On-premises option removes cloud data exposure",
+    "IBM's regulated-industry track record"
+   ],
+   "cons": [
+    "Significant configuration and implementation investment",
+    "Best value inside an existing IBM stack",
+    "Complexity may exceed needs of smaller model estates"
+   ],
+   "alternatives": [
+    "Arize AI",
+    "Fiddler AI",
+    "Holistic AI"
+   ]
+  },
+  "arize-ai": {
+   "name": "Arize AI",
+   "vendor": "Arize AI",
+   "catalog_name": "Arize AI",
+   "tagline": "Model observability for ML and LLM applications, used by ML teams already in production.",
+   "tags": [
+    "Model Monitoring",
+    "LLM Observability",
+    "MLOps",
+    "Enterprise"
+   ],
+   "status": "Active",
+   "access": [
+    "Cloud",
+    "API"
+   ],
+   "value": "The practical choice for an ML team that needs model observability without the full enterprise governance stack. Handles traditional ML monitoring (drift, performance) and LLM tracing, evaluation, and prompt monitoring in one platform.",
+   "use_cases": [
+    "Monitoring deployed ML and LLM applications for performance and data drift",
+    "Tracing LLM applications to debug prompt failures and quality issues",
+    "Running automated evaluations on LLM outputs in CI/CD"
+   ],
+   "audience": [
+    "Dev Teams",
+    "Enterprise Operations"
+   ],
+   "engine": "Monitoring platform, not a model. Connects to model outputs and feature data.",
+   "files": "Accepts prediction logs, embeddings, and LLM traces.",
+   "latency": "Near-real-time monitoring with configurable alerting.",
+   "quality": "Strong on LLM tracing and evaluation, which is an area most governance platforms added late. Good ML monitoring depth.",
+   "pricing": [
+    {
+     "tier": "Startup / growth",
+     "model": "Usage-based",
+     "includes": "Core monitoring and tracing",
+     "limits": "Volume tiers"
+    },
+    {
+     "tier": "Enterprise",
+     "model": "Custom",
+     "includes": "SSO, data controls, dedicated support",
+     "limits": "Contract-based"
+    }
+   ],
+   "training_optout": "Monitoring platform, not a model host. Data retention and use terms govern what Arize stores from your prediction logs.",
+   "governance_note": "LLM observability is the gap in most organizations' AI risk management: they monitor traditional ML models and then deploy LLM applications with no production visibility at all. A hallucination rate, a prompt injection, or a quality regression in an LLM feature is invisible without tracing. The audit question to ask is which deployed AI features have monitoring, and which are running dark.",
+   "integrations": [
+    "Most ML frameworks and serving platforms",
+    "LangChain, LlamaIndex, and LLM orchestration tools",
+    "CI/CD pipelines for eval in deployment"
+   ],
+   "api": "REST API and Python SDK.",
+   "pros": [
+    "Strong LLM tracing alongside traditional ML monitoring",
+    "Practical tool built by practitioners",
+    "Good CI/CD integration for eval"
+   ],
+   "cons": [
+    "SaaS means prediction data leaves your infrastructure",
+    "Pricing can scale fast at high volume",
+    "Less enterprise compliance depth than IBM's offering"
+   ],
+   "alternatives": [
+    "IBM watsonx.governance",
+    "Fiddler AI",
+    "Hugging Face"
+   ]
+  },
+  "harvey-ai": {
+   "name": "Harvey AI",
+   "vendor": "Harvey AI",
+   "catalog_name": "Harvey AI",
+   "tagline": "AI for legal work, built specifically for law firms and legal departments.",
+   "tags": [
+    "Legal",
+    "AI for Law",
+    "Enterprise",
+    "Document Analysis"
+   ],
+   "status": "Active",
+   "access": [
+    "Web App",
+    "API"
+   ],
+   "value": "Legal-domain AI built for law firms rather than adapted from a general assistant. Handles legal research, document drafting, contract review, and due diligence in the contexts a lawyer actually works in, not the contexts a general AI was trained on.",
+   "use_cases": [
+    "Legal research and issue spotting across case law and statutes",
+    "First-pass contract review and redlining",
+    "Due diligence document review at scale"
+   ],
+   "audience": [
+    "Compliance/Audit Professionals",
+    "Enterprise Operations"
+   ],
+   "engine": "Built on frontier models (primarily OpenAI and Anthropic) with legal-domain fine-tuning and retrieval.",
+   "files": "Legal documents: contracts, filings, case documents, and statutory text.",
+   "latency": "Fast enough for interactive research. Document review at scale is batch.",
+   "quality": "Strongest for legal English and legal reasoning. Outputs still require lawyer review before any client-facing use.",
+   "pricing": [
+    {
+     "tier": "Firm / department licence",
+     "model": "Enterprise pricing, custom",
+     "includes": "Data controls, professional liability alignment, admin oversight",
+     "limits": "Contract-based"
+    }
+   ],
+   "training_optout": "Legal-grade data terms. Client matter data is not used to train models. Verify the DPA for your jurisdiction.",
+   "governance_note": "The legal professional responsibility question is the same regardless of tool: a lawyer cannot delegate judgment to an AI, and outputs must be reviewed before they touch client work. What changes is which tasks can be accelerated. The professional liability point is that if Harvey produces a flawed contract clause and a lawyer submits it without review, the lawyer's error, not the vendor's. On the data side, privilege must be maintained for client matter inputs, which requires a confirmed data path under the firm's privilege policy, not just the vendor's standard terms.",
+   "integrations": [
+    "Document management systems used in legal practice",
+    "Legal research databases",
+    "Enterprise collaboration tools"
+   ],
+   "api": "Available for firm-scale deployment.",
+   "pros": [
+    "Legal-domain specificity rather than general adaptation",
+    "Data terms designed for client matter sensitivity",
+    "Meaningful research and review acceleration"
+   ],
+   "cons": [
+    "Lawyer review remains mandatory before any client-facing use",
+    "Privilege policy must be confirmed for the specific data path",
+    "Enterprise-only pricing, no self-serve access"
+   ],
+   "alternatives": [
+    "CoCounsel (Casetext)",
+    "Microsoft Copilot",
+    "ChatGPT"
+   ]
+  },
+  "casetext-cocounsel": {
+   "name": "CoCounsel (Casetext)",
+   "vendor": "Casetext",
+   "catalog_name": "CoCounsel (Casetext)",
+   "tagline": "Legal AI from Thomson Reuters, strongest on US caselaw and legal research.",
+   "tags": [
+    "Legal",
+    "Legal Research",
+    "Enterprise",
+    "AI for Law"
+   ],
+   "status": "Active",
+   "access": [
+    "Web App"
+   ],
+   "value": "AI legal research and document analysis from Casetext, now part of Thomson Reuters. Deep integration with Westlaw and a long track record in US legal research distinguish it from newer entrants.",
+   "use_cases": [
+    "US caselaw research and citation checking",
+    "Deposition preparation and key issue extraction from document productions",
+    "Contract analysis and quick-turn research memos"
+   ],
+   "audience": [
+    "Compliance/Audit Professionals",
+    "Enterprise Operations"
+   ],
+   "engine": "Built on GPT-4 with legal-domain fine-tuning and Westlaw retrieval.",
+   "files": "Legal documents, contracts, deposition transcripts, and production sets.",
+   "latency": "Fast for research tasks.",
+   "quality": "Strongest on US common law. The Thomson Reuters integration gives it a sourcing depth other tools lack. Still requires lawyer review.",
+   "pricing": [
+    {
+     "tier": "Firm subscription",
+     "model": "Per-seat monthly or annual",
+     "includes": "Research, document analysis, Westlaw integration",
+     "limits": "Contract-based"
+    }
+   ],
+   "training_optout": "Thomson Reuters / Casetext terms govern customer data use. Verify under the current agreement.",
+   "governance_note": "Same professional responsibility framing as Harvey: the tool accelerates, the lawyer is still accountable. The Westlaw integration is specifically valuable for the sourcing chain, because a hallucinated citation is immediately checkable rather than requiring a separate lookup. Attorney-client privilege analysis for the data path applies as with any legal AI.",
+   "integrations": [
+    "Westlaw (Thomson Reuters)",
+    "Standard legal document management systems"
+   ],
+   "api": "Via Thomson Reuters platform.",
+   "pros": [
+    "Deep Westlaw integration for US law",
+    "Established trust record in law firms",
+    "Thomson Reuters data governance backing"
+   ],
+   "cons": [
+    "US caselaw focus limits international utility",
+    "Lawyer review still mandatory",
+    "Less generalist than Harvey for corporate transactional work"
+   ],
+   "alternatives": [
+    "Harvey AI",
+    "Microsoft Copilot",
+    "ChatGPT"
+   ]
+  },
+  "azure-openai": {
+   "name": "Azure OpenAI Service",
+   "vendor": "Microsoft",
+   "catalog_name": "Azure OpenAI Service",
+   "tagline": "OpenAI's models running in Azure, under Microsoft's enterprise data terms.",
+   "tags": [
+    "Cloud AI",
+    "LLM",
+    "Enterprise",
+    "API"
+   ],
+   "status": "Active",
+   "access": [
+    "API",
+    "Azure Portal"
+   ],
+   "value": "The OpenAI model family (GPT, Embeddings, Whisper, DALL-E) deployed inside Azure's infrastructure, under Azure's enterprise data terms, IAM, networking, and compliance controls. For organizations already on Azure, this is the path to OpenAI capabilities without the consumer data-handling question.",
+   "use_cases": [
+    "Enterprise AI applications where data must stay inside an existing Azure tenancy",
+    "Standardizing the organization on one model API with consistent billing and controls",
+    "Regulated industries requiring regional data residency and VNET integration"
+   ],
+   "audience": [
+    "Dev Teams",
+    "Enterprise Operations",
+    "Compliance/Audit Professionals"
+   ],
+   "engine": "OpenAI models: GPT series, embeddings, Whisper, DALL-E, deployed on Azure infrastructure.",
+   "files": "Same as the OpenAI API; the difference is where it runs.",
+   "latency": "Comparable to OpenAI's own endpoints.",
+   "quality": "Identical to OpenAI's models. The differentiation is the deployment environment.",
+   "pricing": [
+    {
+     "tier": "Pay-as-you-go",
+     "model": "Pay per token",
+     "includes": "Same models as OpenAI API under Azure billing",
+     "limits": "Quota by region and model"
+    },
+    {
+     "tier": "Provisioned throughput",
+     "model": "Reserved capacity, monthly",
+     "includes": "Guaranteed throughput, lower latency variance",
+     "limits": "Committed spend"
+    }
+   ],
+   "training_optout": "Microsoft's commercial data terms apply: Azure OpenAI does not use customer data to train models. This is the point. Verify via the Microsoft Product Terms, not the OpenAI terms, which do not govern here.",
+   "governance_note": "The governance case is simple: it is the same capability as the OpenAI API under Microsoft's enterprise compliance envelope. For organizations that have already approved Azure for sensitive data, this is usually the faster path to deployment than a separate OpenAI vendor review. The specific controls to confirm are VNET integration, private endpoints, and whether the region chosen satisfies any data residency requirements. One common mistake is deploying to a convenient region without checking residency.",
+   "integrations": [
+    "Full Azure service ecosystem: Cognitive Search, Azure AI Foundry, VNET, Log Analytics",
+    "Enterprise identity and access via Azure AD",
+    "Same SDK surface as the OpenAI API"
+   ],
+   "api": "OpenAI-compatible REST API plus Azure SDK. Same client libraries work with a base-URL change.",
+   "pros": [
+    "Enterprise data terms, not consumer terms",
+    "Azure compliance controls (residency, VNET, private endpoints)",
+    "Same models as OpenAI API, unified billing"
+   ],
+   "cons": [
+    "Regional availability lags OpenAI's model releases",
+    "Quota allocation requires a separate approval process",
+    "Adds Azure dependency for teams not already on the platform"
+   ],
+   "alternatives": [
+    "ChatGPT",
+    "Google Vertex AI",
+    "AWS Bedrock"
+   ]
+  },
+  "google-vertex-ai": {
+   "name": "Google Vertex AI",
+   "vendor": "Google",
+   "catalog_name": "Google Vertex AI",
+   "tagline": "Google's enterprise AI platform: model deployment, MLOps, and Gemini under GCP controls.",
+   "tags": [
+    "Cloud AI",
+    "MLOps",
+    "Enterprise",
+    "API"
+   ],
+   "status": "Active",
+   "access": [
+    "API",
+    "GCP Console"
+   ],
+   "value": "Google's unified ML platform for training, deployment, and management, with Gemini and third-party models available under GCP's enterprise controls. The enterprise answer when the organization is already on GCP and needs both the Gemini family and ML platform capabilities in one place.",
+   "use_cases": [
+    "Deploying and managing ML and generative AI at enterprise scale under GCP",
+    "Accessing Gemini models with GCP's IAM, VNET, and residency controls",
+    "Building end-to-end ML pipelines with managed training, evaluation, and serving"
+   ],
+   "audience": [
+    "Dev Teams",
+    "Enterprise Operations",
+    "Compliance/Audit Professionals"
+   ],
+   "engine": "Gemini model family plus third-party and open-source models available through Model Garden.",
+   "files": "Training data, models, and inference payloads in GCP storage formats.",
+   "latency": "Comparable to other cloud model endpoints.",
+   "quality": "Gemini models under GCP controls. Same quality characteristics, different data terms.",
+   "pricing": [
+    {
+     "tier": "Pay-as-you-go",
+     "model": "Pay per token and compute",
+     "includes": "Full platform access",
+     "limits": "Quota by project and region"
+    },
+    {
+     "tier": "Enterprise agreements",
+     "model": "Committed use discounts",
+     "includes": "Contractual controls and support",
+     "limits": "Contract-based"
+    }
+   ],
+   "training_optout": "GCP enterprise terms: customer data is not used to train Google's models. Verify via the GCP Data Processing Amendment.",
+   "governance_note": "Same data-path logic as Azure OpenAI: enterprise controls convert a consumer data-handling question into an enterprise compliance question. Residency and VNET are the controls to confirm. Model Garden also surfaces third-party and open-source models with their own licences, so licence review applies to those selections even though they are accessed through a managed platform.",
+   "integrations": [
+    "Full GCP ecosystem: BigQuery, Cloud Storage, IAM, VNET",
+    "Vertex AI Workbench, Pipelines, and Feature Store",
+    "Same Gemini API surface as the developer product"
+   ],
+   "api": "REST API and Google Cloud SDK.",
+   "pros": [
+    "Gemini family under enterprise GCP controls",
+    "End-to-end ML platform in one place",
+    "GCP residency and IAM controls for regulated industries"
+   ],
+   "cons": [
+    "Best value assumes GCP commitment",
+    "Platform complexity requires MLOps capability",
+    "Third-party model licences need independent review"
+   ],
+   "alternatives": [
+    "Azure OpenAI Service",
+    "AWS Bedrock",
+    "Hugging Face"
+   ]
+  },
+  "crowdstrike-charlotte": {
+   "name": "CrowdStrike Charlotte AI",
+   "vendor": "CrowdStrike",
+   "catalog_name": "CrowdStrike Charlotte AI",
+   "tagline": "AI across the CrowdStrike Falcon platform, answering security questions in natural language.",
+   "tags": [
+    "Security",
+    "AI for Cybersecurity",
+    "SOC",
+    "Enterprise"
+   ],
+   "status": "Active",
+   "access": [
+    "Web App",
+    "Embedded in Falcon Platform"
+   ],
+   "value": "Natural language access to the CrowdStrike Falcon telemetry: ask in English, get an answer grounded in your organization's own security data. Reduces the query burden on analysts and surfaces context that would otherwise require a specialist to retrieve.",
+   "use_cases": [
+    "Asking natural language questions against the organization's security telemetry",
+    "Summarising incidents and threat context for analysts under pressure",
+    "Accelerating triage by surfacing relevant context without manual hunting"
+   ],
+   "audience": [
+    "Enterprise Operations",
+    "Compliance/Audit Professionals"
+   ],
+   "engine": "Frontier models grounded on CrowdStrike Falcon telemetry and threat intelligence.",
+   "files": "Falcon platform telemetry: endpoint, identity, cloud, and network data.",
+   "latency": "Interactive for queries. Continuous monitoring is background.",
+   "quality": "Bounded by the quality and coverage of your Falcon deployment. Better data coverage produces better answers.",
+   "pricing": [
+    {
+     "tier": "Included in Falcon subscriptions",
+     "model": "Bundled",
+     "includes": "Charlotte AI features across licensed Falcon modules",
+     "limits": "Licence-dependent"
+    }
+   ],
+   "training_optout": "CrowdStrike's terms govern customer data use. Grounding on your own telemetry is the architectural pattern; verify the data retention and training terms in the customer agreement.",
+   "governance_note": "Security AI tools create an audit question that general AI tools do not: if the AI missed something, was it because the telemetry was incomplete, the model missed it, or the analyst did not ask the right question? Documenting which AI-assisted decisions were made and what they were grounded on matters for incident response and for regulator inquiries in sectors with notification obligations. The AI layer is not a substitute for human judgment on significant incidents; it is a retrieval accelerator.",
+   "integrations": [
+    "Deeply embedded in the Falcon platform",
+    "SIEM integrations via Falcon Fusion",
+    "Threat intelligence feeds"
+   ],
+   "api": "Falcon API with Charlotte AI capabilities.",
+   "pros": [
+    "Grounded on your organization's own security data",
+    "Natural language dramatically lowers analyst query friction",
+    "No data leaves the Falcon platform boundary"
+   ],
+   "cons": [
+    "Only useful if already running Falcon",
+    "Answer quality is limited by telemetry coverage",
+    "AI-assisted decisions still require human review for significant events"
+   ],
+   "alternatives": [
+    "Microsoft Copilot",
+    "SentinelOne Purple AI",
+    "Darktrace"
+   ]
+  },
+  "darktrace": {
+   "name": "Darktrace",
+   "vendor": "Darktrace",
+   "catalog_name": "Darktrace",
+   "tagline": "Autonomous cyber AI that detects and responds to threats by learning normal behaviour.",
+   "tags": [
+    "Security",
+    "AI for Cybersecurity",
+    "Autonomous Response",
+    "Enterprise"
+   ],
+   "status": "Active",
+   "access": [
+    "Appliance / Cloud / SaaS"
+   ],
+   "value": "Network and endpoint security that builds a model of normal behaviour for every device and user, then detects and responds to deviations autonomously. The autonomous-response capability is both the product's main differentiator and the clearest governance challenge.",
+   "use_cases": [
+    "Detecting novel attacks that signature-based tools miss",
+    "Autonomous containment of active threats without waiting for analyst action",
+    "Continuous monitoring across network, cloud, email, and identity"
+   ],
+   "audience": [
+    "Enterprise Operations",
+    "Compliance/Audit Professionals"
+   ],
+   "engine": "Proprietary unsupervised machine learning. Not an LLM product; it learns patterns rather than reasoning in language.",
+   "files": "Network traffic, endpoint telemetry, email, cloud, and identity logs.",
+   "latency": "Continuous real-time monitoring. Autonomous response triggers within seconds.",
+   "quality": "Sensitive detection across subtle behavioural deviation. False positive rate management is the primary implementation challenge.",
+   "pricing": [
+    {
+     "tier": "Enterprise licence",
+     "model": "Capacity-based, annual",
+     "includes": "Detection, investigation, and response modules",
+     "limits": "Contract-based"
+    }
+   ],
+   "training_optout": "The model learns your environment. Darktrace's terms govern what they retain. Autonomous action is taken on your infrastructure, which is the salient governance point.",
+   "governance_note": "Autonomous response is where AI governance and security governance converge. Darktrace can act: it can isolate a device, block a connection, or quarantine a user account without human approval, in seconds. That capability prevents damage, and it also carries risk if a false positive triggers it on a critical system during peak hours. The governance requirement is explicit policy on which autonomous actions are approved, under which conditions, with what notification, and who has the authority to override. Those decisions belong in a human-reviewed policy document, not in the tool's default settings.",
+   "integrations": [
+    "SIEM and SOAR platforms",
+    "Cloud providers",
+    "Email and identity systems"
+   ],
+   "api": "Darktrace API for SIEM integration and management.",
+   "pros": [
+    "Detects novel threats that rules miss",
+    "Sub-second autonomous response",
+    "Broad coverage across network, cloud, and identity"
+   ],
+   "cons": [
+    "Autonomous action requires explicit policy governance",
+    "False positive management is ongoing work",
+    "Premium pricing"
+   ],
+   "alternatives": [
+    "CrowdStrike Charlotte AI",
+    "SentinelOne Purple AI",
+    "Microsoft Copilot"
+   ]
+  },
+  "glean": {
+   "name": "Glean",
+   "vendor": "Glean",
+   "catalog_name": "Glean",
+   "tagline": "Enterprise search that connects every SaaS tool and answers from your own content.",
+   "tags": [
+    "Enterprise Search",
+    "Knowledge",
+    "AI Assistant",
+    "Enterprise"
+   ],
+   "status": "Active",
+   "access": [
+    "Web App",
+    "Desktop Client",
+    "Mobile"
+   ],
+   "value": "Unified search across an organization's entire SaaS stack, with a knowledge assistant that answers from the real content rather than generic training data. Particularly valuable in organizations where institutional knowledge is fragmented across many tools.",
+   "use_cases": [
+    "Finding anything across Slack, email, Confluence, Jira, Drive, and 100+ other sources",
+    "Answering questions from internal documentation without knowing where it lives",
+    "Reducing time spent finding information as a recurring daily tax"
+   ],
+   "audience": [
+    "Enterprise Operations",
+    "Dev Teams",
+    "Marketing"
+   ],
+   "engine": "Proprietary retrieval models plus frontier LLMs for answer generation, grounded on company content.",
+   "files": "Connects to and indexes SaaS tools via read-only connectors.",
+   "latency": "Search is near-instant. Generated answers take a few seconds.",
+   "quality": "Strong when the source content is well-maintained. As with all RAG systems, the answers are only as current as the indexed content.",
+   "pricing": [
+    {
+     "tier": "Enterprise",
+     "model": "Per-seat, annual",
+     "includes": "All connectors, AI assistant, admin controls",
+     "limits": "Contract-based"
+    }
+   ],
+   "training_optout": "Glean does not train its models on customer content. The data stays indexed in a dedicated tenant. Verify the current DPA.",
+   "governance_note": "The information-disclosure risk from Glean runs in the same direction as with Microsoft Copilot and Notion AI: it surfaces content the user already has permission to see, but it surfaces it faster and in response to natural language questions. If permission settings are permissive, previously obscure content becomes easily discoverable. Run a permission audit on the connected sources before deploying rather than after discovering that an AI answered a question with a confidential document the user technically had access to.",
+   "integrations": [
+    "100+ native SaaS connectors",
+    "Enterprise identity providers for permissions",
+    "Slack, Teams, and browser extensions"
+   ],
+   "api": "API for custom integrations.",
+   "pros": [
+    "Genuinely useful for organizations with fragmented knowledge",
+    "Respects existing permissions from connected systems",
+    "Broad connector coverage"
+   ],
+   "cons": [
+    "Permissive legacy permissions become easily discoverable",
+    "Per-seat enterprise pricing at scale",
+    "Answer quality depends on documentation quality"
+   ],
+   "alternatives": [
+    "Microsoft Copilot",
+    "Notion AI",
+    "Perplexity Enterprise Pro"
+   ]
+  },
+  "devin-cognition": {
+   "name": "Devin (Cognition)",
+   "vendor": "Cognition",
+   "catalog_name": "Devin (Cognition)",
+   "tagline": "The first commercially available AI software engineer, with its own computer.",
+   "tags": [
+    "Code Generation",
+    "Agents",
+    "Software Engineering",
+    "Emerging"
+   ],
+   "status": "Active",
+   "access": [
+    "Web App",
+    "API"
+   ],
+   "value": "An agent that operates like a developer: it has its own browser, terminal, and code editor, receives a task description, and works through it with minimal handholding. Positioned at longer-horizon autonomous engineering rather than inline assistance.",
+   "use_cases": [
+    "Autonomous feature development from a brief to a pull request",
+    "Bug investigation and fix across an unfamiliar codebase",
+    "Repetitive engineering tasks such as migrations and test generation at scale"
+   ],
+   "audience": [
+    "Dev Teams",
+    "Enterprise Operations"
+   ],
+   "engine": "Cognition's own model trained specifically for software engineering.",
+   "files": "Full repository access within its sandboxed environment.",
+   "latency": "Hours for substantial tasks. Not an interactive tool.",
+   "quality": "Capable on well-defined tasks with clear success criteria. Less reliable on ambiguous requirements or highly context-dependent design decisions.",
+   "pricing": [
+    {
+     "tier": "Teams / Enterprise",
+     "model": "Per-seat or usage-based",
+     "includes": "Task completion, PR generation, repository access",
+     "limits": "Contract-based"
+    }
+   ],
+   "training_optout": "Verify data terms before giving repository access containing sensitive code.",
+   "governance_note": "This tool makes the agentic governance question concrete: an AI that can commit code, open PRs, and execute commands at the repository level is performing actions with consequences that outlast the session. Three controls are not optional: branch and PR policies that prevent direct commits to main, mandatory human code review before merge, and secrets management that ensures credentials are never in the repository Devin can access. The audit evidence is the git history. If you cannot reconstruct what an agent changed and why, you do not have a defensible record.",
+   "integrations": [
+    "Git and GitHub",
+    "Standard developer tooling via its sandboxed environment"
+   ],
+   "api": "API for enterprise integration.",
+   "pros": [
+    "Genuine autonomous long-horizon engineering capability",
+    "Full development environment under the agent's control",
+    "Clear PR-based output for human review"
+   ],
+   "cons": [
+    "Requires branch protection and mandatory review to be safe",
+    "Less reliable on ambiguous or design-heavy tasks",
+    "Data terms require careful review before repository access"
+   ],
+   "alternatives": [
+    "Claude Code",
+    "Cursor",
+    "GitHub Copilot"
+   ]
+  },
+  "canva-ai": {
+   "name": "Canva AI",
+   "vendor": "Canva",
+   "catalog_name": "Canva AI",
+   "tagline": "AI design features embedded in the tool most marketing and operations teams already use.",
+   "tags": [
+    "Image Generation",
+    "Design",
+    "Marketing",
+    "No-Code"
+   ],
+   "status": "Active",
+   "access": [
+    "Web App",
+    "Desktop Client",
+    "Mobile"
+   ],
+   "value": "AI-powered image generation, background removal, text effects, and presentation assistance inside the design tool most non-designer teams already use. The value is accessibility rather than frontier quality.",
+   "use_cases": [
+    "Generating images and backgrounds for marketing collateral without a designer",
+    "Expanding, removing, or replacing image backgrounds in existing assets",
+    "Accelerating slide and social content production for marketing teams"
+   ],
+   "audience": [
+    "Marketing",
+    "Solopreneurs",
+    "Enterprise Operations"
+   ],
+   "engine": "Mix of Canva's own models and third-party providers. Text to image uses Stability AI and others.",
+   "files": "Images, presentation files, and design assets in Canva's format.",
+   "latency": "Fast enough for interactive design work.",
+   "quality": "Sufficient for internal use and social content. Below the specialist tools for fine art or production-quality commercial imagery.",
+   "pricing": [
+    {
+     "tier": "Free",
+     "model": "$0",
+     "includes": "Limited AI generation credits",
+     "limits": "Credit caps"
+    },
+    {
+     "tier": "Pro / Teams",
+     "model": "Per-seat monthly",
+     "includes": "Higher credit allowances, brand kit, admin controls",
+     "limits": "Credit caps"
+    },
+    {
+     "tier": "Enterprise",
+     "model": "Per-seat, annual",
+     "includes": "SSO, brand controls, data agreements",
+     "limits": "Contract-based"
+    }
+   ],
+   "training_optout": "Canva's terms and its sub-processors' terms both apply. The training-data provenance of the image generation models it uses is inherited from those providers. Enterprise agreements provide stronger data controls.",
+   "governance_note": "Two practical points. First, the training-provenance question follows the sub-processor, not just Canva: if the underlying image model carries provenance uncertainty, that uncertainty applies to your published assets. Second, the free tier has different data terms than the enterprise tier, and in many organizations both are in use simultaneously, with different staff operating under different agreements without knowing it.",
+   "integrations": [
+    "Google Workspace and Microsoft 365 connectors",
+    "Brand kit and asset management",
+    "Social publishing platforms"
+   ],
+   "api": "Canva API for integration and automation.",
+   "pros": [
+    "AI in a tool most teams already use without a learning curve",
+    "Broad capability across design tasks",
+    "Accessible to non-designers"
+   ],
+   "cons": [
+    "Training-data provenance inherited from sub-processors",
+    "Quality below specialist image tools",
+    "Free and enterprise tiers coexist with different data terms"
+   ],
+   "alternatives": [
+    "Adobe Firefly",
+    "Midjourney",
+    "Stable Diffusion"
+   ]
+  },
+  "dall-e": {
+   "name": "DALL-E (OpenAI)",
+   "vendor": "OpenAI",
+   "catalog_name": "DALL-E (OpenAI)",
+   "tagline": "OpenAI's image generation model, available in ChatGPT and directly via the API.",
+   "tags": [
+    "Image Generation",
+    "API",
+    "OpenAI"
+   ],
+   "status": "Active",
+   "access": [
+    "Web App",
+    "API"
+   ],
+   "value": "The image generation capability built into ChatGPT and available directly through the OpenAI API. Convenient where an organization already uses the OpenAI API and wants image generation under the same agreement and billing.",
+   "use_cases": [
+    "Image generation inside existing ChatGPT or API workflows",
+    "Rapid concept and placeholder image creation for content teams",
+    "Integrating image generation into an application via the OpenAI API"
+   ],
+   "audience": [
+    "Dev Teams",
+    "Marketing",
+    "Solopreneurs"
+   ],
+   "engine": "OpenAI's DALL-E model family.",
+   "files": "Text prompts and image inputs for editing.",
+   "latency": "Seconds per image.",
+   "quality": "Good general quality. Behind Midjourney on aesthetics, behind Stable Diffusion on fine-grained control. The advantage is integration with the OpenAI ecosystem.",
+   "pricing": [
+    {
+     "tier": "ChatGPT Plus/Pro",
+     "model": "Per-seat monthly",
+     "includes": "Image generation within ChatGPT limits",
+     "limits": "Generation caps"
+    },
+    {
+     "tier": "API",
+     "model": "Pay per image",
+     "includes": "Direct API access, resolution options",
+     "limits": "Rate tiers"
+    }
+   ],
+   "training_optout": "OpenAI's commercial API terms apply. Consumer ChatGPT terms differ. Verify the terms for the tier in use.",
+   "governance_note": "The training-data provenance and synthetic-likeness questions apply here as they do across the image generation category. OpenAI does not offer the same commercial indemnity as Adobe. The integration convenience is the argument for it; indemnity and provenance are the arguments against, for regulated commercial use.",
+   "integrations": [
+    "OpenAI API ecosystem",
+    "ChatGPT",
+    "Standard automation platforms"
+   ],
+   "api": "REST API as part of the OpenAI API.",
+   "pros": [
+    "Already within the OpenAI agreement for API users",
+    "Good general quality for most content uses",
+    "Easy integration into existing OpenAI workflows"
+   ],
+   "cons": [
+    "No commercial indemnity comparable to Adobe",
+    "Behind specialist tools on aesthetics and control",
+    "Consumer and enterprise terms differ"
+   ],
+   "alternatives": [
+    "Adobe Firefly",
+    "Midjourney",
+    "Stable Diffusion"
+   ]
+  },
+  "hirevue": {
+   "name": "HireVue",
+   "vendor": "HireVue",
+   "catalog_name": "HireVue",
+   "tagline": "Video interview and assessment AI, and the focus of more AI employment regulation than any other HR tool.",
+   "tags": [
+    "HR",
+    "Hiring",
+    "Video Interviews",
+    "Compliance"
+   ],
+   "status": "Active",
+   "access": [
+    "Web App",
+    "API"
+   ],
+   "value": "Automated video interview analysis and game-based assessments for high-volume hiring. Reduces recruiter time on initial screening and provides structured, documented scoring. The governance burden is proportional to the volume of hiring decisions it touches.",
+   "use_cases": [
+    "High-volume first-round screening without live recruiter time",
+    "Structured scoring across a large candidate pool with documented rationale",
+    "Reducing unstructured interview variance in hiring decisions"
+   ],
+   "audience": [
+    "Enterprise Operations"
+   ],
+   "engine": "Computer vision, NLP, and IO psychology-grounded assessment models for interview analysis.",
+   "files": "Video interview recordings and game assessment responses.",
+   "latency": "Analysis completes after the interview, not in real time.",
+   "quality": "Structured consistency is the proposition. The fairness and adverse impact questions are ongoing in both research and regulation, and are not resolved by any vendor.",
+   "pricing": [
+    {
+     "tier": "Enterprise",
+     "model": "Custom licence",
+     "includes": "Interview platform, assessments, integrations",
+     "limits": "Contract-based"
+    }
+   ],
+   "training_optout": "Candidate data terms require explicit legal review. This is regulated data in multiple jurisdictions.",
+   "governance_note": "The most regulated AI tool in the HR category, by a significant margin. NYC Local Law 144 requires a bias audit before deployment in New York City and candidate notification. Illinois requires disclosure of AI use in video interviews. The EU AI Act classifies AI used in employment decisions as high-risk under Annex III. Several US states are moving on similar rules. The compliance checklist before deployment is jurisdictional-law-first, not vendor-capabilities-first: know which rules apply to your hiring locations, complete required audits, and establish candidate disclosure before turning it on. See the employment law pages in the reference library.",
+   "integrations": [
+    "Major ATS platforms (Workday, SAP SuccessFactors, Taleo)",
+    "Background screening and offer management systems"
+   ],
+   "api": "API for ATS integration.",
+   "pros": [
+    "Structured, documented scoring reduces unstructured interview variance",
+    "Scales initial screening across high-volume hiring",
+    "Bias audit tooling is more mature than most HR AI tools"
+   ],
+   "cons": [
+    "Most regulated AI tool in the HR category",
+    "Jurisdictional compliance checklist is mandatory before deployment",
+    "Adverse impact questions are not resolved"
+   ],
+   "alternatives": [
+    "LinkedIn Recruiter AI",
+    "Eightfold AI",
+    "Microsoft Copilot"
+   ]
+  },
+  "turnitin-ai": {
+   "name": "Turnitin AI Detection",
+   "vendor": "Turnitin",
+   "catalog_name": "Turnitin AI Detection",
+   "tagline": "The leading academic integrity tool, now with AI detection, and the governance lessons that come with it.",
+   "tags": [
+    "Education",
+    "AI Detection",
+    "Academic Integrity"
+   ],
+   "status": "Active",
+   "access": [
+    "Web App",
+    "LMS Integration"
+   ],
+   "value": "Adds AI-generated content detection to Turnitin's established plagiarism infrastructure, giving institutions a single place for both questions. Used wherever academic integrity policy requires verification of whether writing is human-originated.",
+   "use_cases": [
+    "Institutional AI detection at scale alongside existing plagiarism checking",
+    "Providing instructors with a signal for academic integrity review",
+    "Policy enforcement where institutional rules prohibit AI-generated submission"
+   ],
+   "audience": [
+    "Enterprise Operations"
+   ],
+   "engine": "Turnitin's proprietary AI detection model.",
+   "files": "Submitted student writing in standard document formats.",
+   "latency": "Asynchronous, with the submission review workflow.",
+   "quality": "Probabilistic, not deterministic. Turnitin explicitly states scores should not be used as standalone evidence of misconduct.",
+   "pricing": [
+    {
+     "tier": "Institutional licence",
+     "model": "Custom, included with or added to Turnitin",
+     "includes": "AI detection across all submissions",
+     "limits": "Contract-based"
+    }
+   ],
+   "training_optout": "Institutional terms govern student submission data. FERPA classification of submission data requires careful review.",
+   "governance_note": "The hardest governance point is the reliability gap. AI detection tools, including Turnitin's, have documented false positive rates: they sometimes flag human writing as AI-generated, at higher rates for non-native English writers in some studies. Using a detection score as standalone evidence in a disciplinary proceeding is both a due-process problem and a potential disparate-impact one. Turnitin says explicitly not to do this. The policy question institutions must answer is how the score enters the misconduct process and what other evidence is required before a finding. That policy must exist before the tool is deployed, not be constructed case by case.",
+   "integrations": [
+    "LMS platforms: Canvas, Blackboard, Moodle, D2L",
+    "Assignment workflows within the LMS"
+   ],
+   "api": "Via LTI and institutional integration.",
+   "pros": [
+    "Integrated with existing Turnitin infrastructure most institutions already have",
+    "Scale: every submission gets a signal automatically",
+    "Explicit scoring guidance discourages misuse"
+   ],
+   "cons": [
+    "False positive rate is real and has disparate impact implications",
+    "Cannot be used as standalone evidence in disciplinary proceedings",
+    "FERPA data handling requires explicit institutional review"
+   ],
+   "alternatives": [
+    "Grammarly for Education",
+    "Microsoft Copilot",
+    "ChatGPT"
+   ]
+  },
+  "khanmigo": {
+   "name": "Khanmigo (Khan Academy)",
+   "vendor": "Khan Academy",
+   "catalog_name": "Khanmigo (Khan Academy)",
+   "tagline": "The AI tutor Khan Academy built with child safety and learning theory at the centre.",
+   "tags": [
+    "Education",
+    "Tutoring",
+    "AI for Learning",
+    "Safety"
+   ],
+   "status": "Active",
+   "access": [
+    "Web App"
+   ],
+   "value": "A Socratic tutor that helps rather than answers, with content moderation and safety guardrails designed for minors from the ground up. Positioned against the risk of a student using a general assistant to skip the thinking rather than do it.",
+   "use_cases": [
+    "Guided tutoring on Khan Academy's curriculum without direct answer provision",
+    "Safe AI assistance for K-12 students in a moderated environment",
+    "Teacher-facing features for lesson planning and student progress context"
+   ],
+   "audience": [
+    "Enterprise Operations"
+   ],
+   "engine": "Built on frontier models (primarily OpenAI) with Khan Academy's educational methodology and safety layer.",
+   "files": "Khan Academy's curriculum content and student progress data.",
+   "latency": "Interactive.",
+   "quality": "Pedagogically oriented: better at guiding a student to an answer than at producing one efficiently. That is the intention.",
+   "pricing": [
+    {
+     "tier": "Free for students",
+     "model": "$0",
+     "includes": "Khanmigo tutoring within Khan Academy",
+     "limits": "Interaction allowances"
+    },
+    {
+     "tier": "Teacher / institutional",
+     "model": "Subscription or institutional agreement",
+     "includes": "Expanded features, teacher dashboard",
+     "limits": "Contract-based"
+    }
+   ],
+   "training_optout": "Follows OpenAI's sub-processor terms plus Khan Academy's own student data terms. COPPA and FERPA compliance are explicit product requirements.",
+   "governance_note": "This is the reference case for child-safe AI deployment. The governance requirements for AI tools used by children are substantively different from adult deployment: COPPA (under 13), FERPA (student records), and the content moderation requirements that come with minors as users all apply. The product was designed with those constraints as requirements rather than afterthoughts. Institutions deploying any AI tool to K-12 students should use this as the comparison baseline for what a compliant product looks like.",
+   "integrations": [
+    "Khan Academy's own platform",
+    "District and school LMS integrations"
+   ],
+   "api": "Via institutional agreements.",
+   "pros": [
+    "Safety and pedagogy designed in, not bolted on",
+    "COPPA and FERPA compliance built from the start",
+    "Tutors rather than answers, which serves learning outcomes"
+   ],
+   "cons": [
+    "Only useful within Khan Academy's curriculum",
+    "Pedagogical approach frustrates students who want a direct answer",
+    "Not a general-purpose tool"
+   ],
+   "alternatives": [
+    "Grammarly for Education",
+    "Turnitin AI Detection",
+    "Microsoft Copilot"
+   ]
+  },
+  "aws-bedrock": {
+   "name": "AWS Bedrock",
+   "vendor": "Amazon",
+   "catalog_name": "AWS Bedrock",
+   "tagline": "Multiple frontier models available through a single AWS API, under enterprise data terms.",
+   "tags": [
+    "Cloud AI",
+    "API",
+    "Enterprise",
+    "Multi-Model"
+   ],
+   "status": "Active",
+   "access": [
+    "API",
+    "AWS Console"
+   ],
+   "value": "Access to models from Anthropic, Meta, Mistral, Stability, and others through a single AWS API, with AWS's enterprise data controls, IAM, and billing. The multi-model access under one contract is the differentiator.",
+   "use_cases": [
+    "Running multiple foundation models under a single enterprise agreement and billing model",
+    "Building model-agnostic applications that can switch providers without contract changes",
+    "Deploying Anthropic's Claude family inside an AWS-governed environment"
+   ],
+   "audience": [
+    "Dev Teams",
+    "Enterprise Operations"
+   ],
+   "engine": "Multiple: Anthropic Claude, Meta Llama, Mistral, Stability AI, and Amazon Titan.",
+   "files": "Text, images, and embeddings depending on the model selected.",
+   "latency": "Comparable to direct model APIs.",
+   "quality": "Same models as the direct APIs, under AWS data terms.",
+   "pricing": [
+    {
+     "tier": "Pay-as-you-go",
+     "model": "Pay per token by model",
+     "includes": "Multi-model access, no minimum",
+     "limits": "Service quotas"
+    },
+    {
+     "tier": "Provisioned throughput",
+     "model": "Reserved capacity, monthly",
+     "includes": "Guaranteed throughput",
+     "limits": "Committed spend"
+    }
+   ],
+   "training_optout": "AWS states that customer inputs and outputs are not used to train foundation models. Verify via the AWS service terms.",
+   "governance_note": "The multi-model architecture means the governance envelope (data terms, residency, IAM) is AWS's, while model capability and model-specific risks vary by the model selected. Switching models within Bedrock does not change the data terms but does change which model's characteristics and limitations apply. A policy that approves 'AWS Bedrock' without specifying which models is underspecified.",
+   "integrations": [
+    "Full AWS ecosystem: VPC, IAM, CloudWatch, S3",
+    "AWS Agents for Bedrock for agentic workflows",
+    "Same tooling as other AWS services"
+   ],
+   "api": "AWS SDK and REST. Largely compatible with existing SDK patterns.",
+   "pros": [
+    "Multi-model access under one enterprise agreement",
+    "AWS's enterprise compliance controls and regional deployment",
+    "No minimum commitment required to start"
+   ],
+   "cons": [
+    "Policy approval of Bedrock without specifying models is underspecified",
+    "Model availability lags direct provider releases",
+    "AWS dependency for organizations not already on the platform"
+   ],
+   "alternatives": [
+    "Azure OpenAI Service",
+    "Google Vertex AI",
+    "Anthropic API directly"
+   ]
+  },
+  "credo-ai": {
+   "name": "Credo AI",
+   "vendor": "Credo AI",
+   "catalog_name": "Credo AI",
+   "tagline": "AI governance platform built specifically for policy alignment and regulatory mapping.",
+   "tags": [
+    "AI Governance",
+    "Risk Management",
+    "Compliance",
+    "Enterprise"
+   ],
+   "status": "Active",
+   "access": [
+    "SaaS",
+    "API"
+   ],
+   "value": "Structured AI governance workflows: policy creation, risk assessment, AI inventory, and evidence collection for regulatory alignment. Built for organizations doing AI governance as a managed program rather than a one-time audit.",
+   "use_cases": [
+    "Building and maintaining an AI inventory with risk assessments per system",
+    "Mapping deployed AI against the EU AI Act, NIST AI RMF, or internal policy",
+    "Collecting and storing governance evidence for regulator inquiries"
+   ],
+   "audience": [
+    "Compliance/Audit Professionals",
+    "Enterprise Operations"
+   ],
+   "engine": "Governance workflow platform. Integrates with model monitoring tools for technical signals.",
+   "files": "Policy documents, risk assessments, and technical model metadata.",
+   "latency": "Async governance workflows, not interactive inference.",
+   "quality": "Deep policy-mapping and workflow depth. Less technical depth than Arize or Fiddler for model monitoring.",
+   "pricing": [
+    {
+     "tier": "Enterprise",
+     "model": "Custom per-seat or programme licence",
+     "includes": "Inventory, risk assessments, regulatory mapping, evidence storage",
+     "limits": "Contract-based"
+    }
+   ],
+   "training_optout": "Governance data platform. Not an AI model host. Data terms govern what Credo AI stores about your AI systems.",
+   "governance_note": "This is the dedicated answer to 'we need to do AI governance as a program, not case by case.' The EU AI Act's Article 9 risk management system and Article 17 quality management system both require exactly what this tool manages: documented risk assessment, ongoing monitoring, and retained evidence. The NIST AI RMF is also mappable through it. For an organization building a formal AI governance function, this is the category to evaluate alongside OneTrust AI Governance and IBM OpenPages.",
+   "integrations": [
+    "Model monitoring tools (Arize, Fiddler, etc.)",
+    "HRIS and identity for owner assignment",
+    "GRC platforms"
+   ],
+   "api": "API for integration with model pipelines.",
+   "pros": [
+    "Purpose-built for AI governance programs, not adapted from GRC",
+    "Regulatory mapping for EU AI Act and NIST AI RMF",
+    "Structured evidence collection for regulators"
+   ],
+   "cons": [
+    "Less technical model monitoring depth than dedicated MLOps tools",
+    "Enterprise-only pricing",
+    "Category is still maturing, product evolves frequently"
+   ],
+   "alternatives": [
+    "IBM watsonx.governance",
+    "OneTrust AI Governance",
+    "Arize AI"
+   ]
+  },
+  "onetrust-ai-governance": {
+   "name": "OneTrust AI Governance",
+   "vendor": "OneTrust",
+   "catalog_name": "OneTrust AI Governance",
+   "tagline": "AI governance as an extension of OneTrust's established privacy and risk platform.",
+   "tags": [
+    "AI Governance",
+    "Privacy",
+    "Risk Management",
+    "Enterprise"
+   ],
+   "status": "Active",
+   "access": [
+    "SaaS"
+   ],
+   "value": "For organizations already running OneTrust for privacy, this adds AI inventory, risk assessments, and regulatory mapping as an extension of the same platform. Avoids a second governance data silo.",
+   "use_cases": [
+    "AI inventory and risk classification alongside existing privacy asset inventory",
+    "EU AI Act readiness assessment inside the platform already used for GDPR",
+    "Centralising AI and privacy risk evidence in one tool for audit"
+   ],
+   "audience": [
+    "Compliance/Audit Professionals",
+    "Enterprise Operations"
+   ],
+   "engine": "Governance platform. Not an AI model. Extends OneTrust's existing workflow engine.",
+   "files": "AI system records, risk assessments, and policy documentation.",
+   "latency": "Async governance workflows.",
+   "quality": "Excellent integration with existing OneTrust privacy workflows. Less standalone depth than dedicated AI governance tools.",
+   "pricing": [
+    {
+     "tier": "Enterprise add-on",
+     "model": "Module licence on top of OneTrust",
+     "includes": "AI inventory, risk workflows, regulatory mapping",
+     "limits": "Contract-based"
+    }
+   ],
+   "training_optout": "Governance metadata platform. Not a model host.",
+   "governance_note": "The practical case is consolidation: an organization already maintaining GDPR data asset inventories in OneTrust can attach AI system inventories to the same platform without a second tool, vendor, and evidence silo. The cross-over between AI risk and privacy risk is significant enough that this consolidation is often the right decision for the first year of an AI governance program.",
+   "integrations": [
+    "OneTrust privacy and risk platform",
+    "SSO and enterprise identity",
+    "GRC and audit tools"
+   ],
+   "api": "Via OneTrust's existing API.",
+   "pros": [
+    "Extends existing OneTrust investment",
+    "Privacy and AI risk in one evidence store",
+    "No separate vendor relationship required"
+   ],
+   "cons": [
+    "Best value only for existing OneTrust customers",
+    "Less standalone capability than purpose-built AI governance tools",
+    "Module pricing adds to existing OneTrust cost"
+   ],
+   "alternatives": [
+    "Credo AI",
+    "IBM watsonx.governance",
+    "ServiceNow AI Governance"
+   ]
+  },
+  "vanta": {
+   "name": "Vanta",
+   "vendor": "Vanta",
+   "catalog_name": "Vanta",
+   "tagline": "Automated compliance for SOC 2, ISO 27001, and increasingly AI risk frameworks.",
+   "tags": [
+    "Compliance Automation",
+    "SOC 2",
+    "ISO 27001",
+    "Security"
+   ],
+   "status": "Active",
+   "access": [
+    "SaaS"
+   ],
+   "value": "Continuous compliance monitoring and evidence collection for security certifications. Now extending to AI risk frameworks including NIST AI RMF and EU AI Act readiness. The existing compliance automation model applied to AI governance.",
+   "use_cases": [
+    "Automated evidence collection for SOC 2 or ISO 27001 alongside AI compliance tracking",
+    "Continuous monitoring of security controls relevant to AI systems",
+    "NIST AI RMF readiness assessment with integrated control evidence"
+   ],
+   "audience": [
+    "Compliance/Audit Professionals",
+    "Enterprise Operations"
+   ],
+   "engine": "Compliance automation platform. Pulls evidence from cloud infrastructure and SaaS tools.",
+   "files": "Cloud configuration, access logs, security policies, and vendor risk data.",
+   "latency": "Continuous background monitoring.",
+   "quality": "Strong on security compliance automation. AI-specific depth is newer and still maturing.",
+   "pricing": [
+    {
+     "tier": "Growth / Enterprise",
+     "model": "Annual subscription",
+     "includes": "All supported frameworks, integrations, continuous monitoring",
+     "limits": "Contract-based"
+    }
+   ],
+   "training_optout": "Compliance automation platform. Pulls read-only signals from infrastructure.",
+   "governance_note": "The relevance to AI governance is the security compliance base: AI systems deployed on infrastructure that already passes SOC 2 have the access controls, logging, and change management documented. The AI-specific frameworks Vanta is adding are built on top of that base. Organizations running Vanta for security should evaluate whether the AI framework add-on covers their AI governance requirements before adding a second tool.",
+   "integrations": [
+    "AWS, Azure, GCP infrastructure monitoring",
+    "100+ SaaS integrations for evidence collection",
+    "HRIS and identity systems"
+   ],
+   "api": "API for custom evidence integration.",
+   "pros": [
+    "Established compliance automation with proven security framework depth",
+    "AI frameworks extending an existing evidence base",
+    "Continuous monitoring rather than point-in-time assessment"
+   ],
+   "cons": [
+    "AI-specific frameworks are newer and less mature than the security base",
+    "Best value for organizations needing both security and AI compliance",
+    "Annual pricing at meaningful cost"
+   ],
+   "alternatives": [
+    "OneTrust AI Governance",
+    "Credo AI",
+    "IBM watsonx.governance"
+   ]
+  },
+  "palantir-aip": {
+   "name": "Palantir AIP",
+   "vendor": "Palantir",
+   "catalog_name": "Palantir AIP",
+   "tagline": "AI layered on top of Palantir's operational data platform, targeting defense and critical infrastructure.",
+   "tags": [
+    "Enterprise AI",
+    "Data Platform",
+    "Defense",
+    "Operations"
+   ],
+   "status": "Active",
+   "access": [
+    "On-Premises",
+    "Cloud",
+    "Enterprise Licence"
+   ],
+   "value": "AI-enabled decision support built on top of Palantir's data integration and ontology layer. The proposition is that AI acting on structured, governed operational data is more defensible and controllable than AI acting on unstructured documents. Primarily used in defense, intelligence, and critical infrastructure.",
+   "use_cases": [
+    "AI-assisted decision support in defense and national security operations",
+    "Operational intelligence over complex multi-source data in critical infrastructure",
+    "Rapid scenario analysis over a governed enterprise data ontology"
+   ],
+   "audience": [
+    "Enterprise Operations",
+    "Compliance/Audit Professionals"
+   ],
+   "engine": "Frontier models (primarily OpenAI and Anthropic) operating over Palantir's data ontology and access-control layer.",
+   "files": "Structured operational data via Palantir's ontology. Not a document chat product.",
+   "latency": "Interactive for decision support. Complex analysis is longer.",
+   "quality": "High for well-structured operational data with a maintained ontology. The underlying models are the same frontier models available elsewhere; the differentiation is the data layer.",
+   "pricing": [
+    {
+     "tier": "Enterprise / Government",
+     "model": "Custom",
+     "includes": "Platform, AIP features, support",
+     "limits": "Contract-based"
+    }
+   ],
+   "training_optout": "On-premises deployment options mean data can remain fully within the customer's environment. Palantir's government contracts require FedRAMP or equivalent clearance in relevant contexts.",
+   "governance_note": "The most consequential AI governance question in the Palantir context is human oversight of AI-assisted decisions in high-stakes settings. The EU AI Act's highest-risk category and the US Executive Order on AI both specifically address AI in national security and critical infrastructure. The documentation requirement is not just 'what did the AI recommend' but 'what did the human decision-maker do, based on what information, and why.' The platform supports this documentation; the policy requirement is to actually use it.",
+   "integrations": [
+    "Palantir Foundry and the broader Palantir data platform",
+    "Government and enterprise data sources via Palantir connectors"
+   ],
+   "api": "Palantir's own API surfaces within the platform.",
+   "pros": [
+    "AI grounded on a governed, structured data ontology rather than unstructured documents",
+    "On-premises deployment available for the highest-sensitivity environments",
+    "Human oversight documented in the platform"
+   ],
+   "cons": [
+    "Significant platform investment required before AI adds value",
+    "Premium pricing, primarily accessible at enterprise and government scale",
+    "Complexity requires Palantir expertise"
+   ],
+   "alternatives": [
+    "AWS Bedrock",
+    "Azure OpenAI Service",
+    "IBM watsonx.governance"
+   ]
+  },
+  "databricks-ai": {
+   "name": "Databricks AI / DBRX",
+   "vendor": "Databricks",
+   "catalog_name": "Databricks AI / DBRX",
+   "tagline": "AI and LLM capabilities inside the data platform where ML teams already live.",
+   "tags": [
+    "Data Platform",
+    "MLOps",
+    "LLM",
+    "Enterprise"
+   ],
+   "status": "Active",
+   "access": [
+    "Cloud",
+    "Enterprise Licence"
+   ],
+   "value": "AI capabilities, including DBRX (Databricks' own model) and LLM access, embedded in the platform used for data engineering and ML. For organizations running Databricks, this means AI work stays in the same governed environment as the data it needs.",
+   "use_cases": [
+    "Fine-tuning and deploying models on your own data inside Databricks",
+    "Building RAG and AI applications on top of existing data pipelines",
+    "DBRX as an open-weight model option for organizations with Databricks investment"
+   ],
+   "audience": [
+    "Dev Teams",
+    "Enterprise Operations"
+   ],
+   "engine": "DBRX (Databricks' open-weight model) plus access to frontier models, all operating on the Databricks Lakehouse.",
+   "files": "Databricks data formats: Delta tables, Unity Catalog governed assets.",
+   "latency": "Batch and interactive depending on the workload type.",
+   "quality": "DBRX is competitive for its size. The platform advantage is governance of the data pipeline and model together, not the raw model quality.",
+   "pricing": [
+    {
+     "tier": "Databricks platform pricing",
+     "model": "DBU compute-based",
+     "includes": "AI features within existing Databricks",
+     "limits": "DBU quotas"
+    }
+   ],
+   "training_optout": "Databricks' enterprise terms apply. Unity Catalog governs data access for AI workloads within the platform.",
+   "governance_note": "The governance case here is data lineage: AI models trained or operating on Databricks data inherit the Unity Catalog access controls and lineage tracking. That is significantly easier to audit than AI models operating on data exfiltrated to an external API. For organizations with a Databricks investment, the governance case for keeping AI work inside the platform is often stronger than the pure model-quality case for moving outside it.",
+   "integrations": [
+    "Unity Catalog for governed data access",
+    "MLflow for model tracking and deployment",
+    "Delta Lake and the Databricks Lakehouse"
+   ],
+   "api": "Databricks REST API and SDKs.",
+   "pros": [
+    "AI and data governance unified in one platform",
+    "Unity Catalog lineage applies to AI workloads",
+    "DBRX as an open-weight option for Databricks customers"
+   ],
+   "cons": [
+    "Best value assumes significant existing Databricks investment",
+    "DBU pricing can be opaque for AI workloads specifically",
+    "DBRX trails frontier models on the hardest tasks"
+   ],
+   "alternatives": [
+    "Google Vertex AI",
+    "AWS Bedrock",
+    "Azure Machine Learning"
+   ]
+  },
+  "salesforce-einstein": {
+   "name": "Salesforce Einstein / Agentforce",
+   "vendor": "Salesforce",
+   "catalog_name": "Salesforce Einstein / Agentforce",
+   "tagline": "AI across the Salesforce platform, and the first major enterprise AI agent product at the CRM layer.",
+   "tags": [
+    "CRM",
+    "Enterprise AI",
+    "Agents",
+    "Sales",
+    "Customer Service"
+   ],
+   "status": "Active",
+   "access": [
+    "Embedded in Salesforce Platform"
+   ],
+   "value": "AI features across Salesforce: Einstein for predictions and recommendations within CRM data, and Agentforce for autonomous AI agents that can handle customer service, sales development, and support without human escalation. The integration with existing CRM data is the differentiation.",
+   "use_cases": [
+    "AI-powered sales forecasting and opportunity scoring within Salesforce",
+    "Autonomous customer service agents handling tier-one cases without escalation",
+    "AI summarisation and next-step recommendations within Sales Cloud workflows"
+   ],
+   "audience": [
+    "Enterprise Operations",
+    "Marketing"
+   ],
+   "engine": "Salesforce's own Einstein models plus frontier model access via Salesforce infrastructure.",
+   "files": "Salesforce CRM data: contacts, opportunities, cases, and activity history.",
+   "latency": "Interactive within the Salesforce UI.",
+   "quality": "Strong when the underlying CRM data is clean and well-structured. Autonomous agents are capable within well-scoped, high-repetition service workflows.",
+   "pricing": [
+    {
+     "tier": "Bundled and add-on",
+     "model": "Einstein features bundled in some clouds; Agentforce per conversation",
+     "includes": "Depends heavily on Salesforce edition",
+     "limits": "Usage-based for Agentforce"
+    }
+   ],
+   "training_optout": "Salesforce Zero Data Retention policy available for Einstein features. Agentforce interactions are stored in Salesforce under its data terms. Verify for your specific clouds and contracts.",
+   "governance_note": "Agentforce is the clearest example of an autonomous customer-facing AI agent deployed at scale by a mainstream enterprise platform. The governance questions are: what can the agent commit to on behalf of the company, what happens when it gets it wrong, and how is that escalation path tested. Consumer-protection and financial-product regulations in several sectors require disclosures when a customer is interacting with AI rather than a human, and Agentforce interactions qualify. The disclosure requirement must be built into the agent's opening interaction, not treated as optional.",
+   "integrations": [
+    "All Salesforce clouds: Sales, Service, Marketing, Commerce",
+    "Slack AI via Salesforce ownership",
+    "Data Cloud for unified customer data"
+   ],
+   "api": "Salesforce REST and Bulk API; Agentforce configurable via Salesforce Flow.",
+   "pros": [
+    "AI operating on existing CRM data without export or migration",
+    "Agentforce is capable at high-repetition customer service at scale",
+    "Zero Data Retention option for sensitive use cases"
+   ],
+   "cons": [
+    "Autonomous agents require explicit scope, disclosure, and escalation policy",
+    "Value highly dependent on CRM data quality",
+    "Pricing complexity is high across Salesforce's product portfolio"
+   ],
+   "alternatives": [
+    "Microsoft Copilot",
+    "Glean",
+    "ChatGPT"
+   ]
+  },
+  "sentinelone-purple-ai": {
+   "name": "SentinelOne Purple AI",
+   "vendor": "SentinelOne",
+   "catalog_name": "SentinelOne Purple AI",
+   "tagline": "Natural language threat hunting and investigation across the SentinelOne Singularity platform.",
+   "tags": [
+    "Security",
+    "AI for Cybersecurity",
+    "Threat Hunting",
+    "SOC"
+   ],
+   "status": "Active",
+   "access": [
+    "Embedded in Singularity Platform"
+   ],
+   "value": "AI threat hunting and incident response assistance across SentinelOne's endpoint, cloud, and identity data. Natural language queries return threat context grounded in your organization's telemetry, similar to CrowdStrike's Charlotte AI but on the SentinelOne platform.",
+   "use_cases": [
+    "Natural language threat hunting across SentinelOne telemetry",
+    "Incident summary and investigation path suggestions for SOC analysts",
+    "Reducing the expertise barrier for threat investigation on the Singularity platform"
+   ],
+   "audience": [
+    "Enterprise Operations",
+    "Compliance/Audit Professionals"
+   ],
+   "engine": "Frontier models grounded on SentinelOne Singularity telemetry.",
+   "files": "Endpoint, cloud, and identity telemetry within the Singularity platform.",
+   "latency": "Interactive.",
+   "quality": "Bounded by Singularity platform coverage in the environment.",
+   "pricing": [
+    {
+     "tier": "Included or add-on to Singularity",
+     "model": "Depends on existing SentinelOne agreement",
+     "includes": "Purple AI features across licensed Singularity modules",
+     "limits": "Licence-dependent"
+    }
+   ],
+   "training_optout": "SentinelOne's terms govern. Queries and telemetry stay within the platform.",
+   "governance_note": "Same AI-assisted SOC governance points as CrowdStrike Charlotte AI: document AI-assisted decisions and the evidence behind them. The specific SentinelOne governance question is autonomous response, which Singularity supports; ensure that policy is explicit about which autonomous actions are enabled and under what conditions, independent of the AI layer.",
+   "integrations": [
+    "Singularity endpoint, cloud, and identity modules",
+    "SIEM integrations via Singularity"
+   ],
+   "api": "Singularity API.",
+   "pros": [
+    "Natural language over SentinelOne's own telemetry",
+    "Reduces investigation barrier for less expert analysts",
+    "Single platform, no data leaves the Singularity boundary"
+   ],
+   "cons": [
+    "Only useful if already running SentinelOne",
+    "Autonomous response policy still requires explicit human design",
+    "Answer quality bounded by telemetry coverage"
+   ],
+   "alternatives": [
+    "CrowdStrike Charlotte AI",
+    "Darktrace",
+    "Microsoft Copilot"
+   ]
+  },
+  "palo-alto-precision-ai": {
+   "name": "Palo Alto Networks Precision AI",
+   "vendor": "Palo Alto Networks",
+   "catalog_name": "Palo Alto Networks Precision AI",
+   "tagline": "AI woven through the Palo Alto Networks security product suite, not a standalone tool.",
+   "tags": [
+    "Security",
+    "AI for Cybersecurity",
+    "Network Security",
+    "Enterprise"
+   ],
+   "status": "Active",
+   "access": [
+    "Embedded in Palo Alto products"
+   ],
+   "value": "AI capabilities integrated across the Palo Alto Networks portfolio: inline threat detection in firewalls, AI-powered analysis in XSIAM (the SOC platform), and AI-driven network security policy management. The value is the depth of integration across a large deployed base.",
+   "use_cases": [
+    "AI-enhanced threat detection across Palo Alto's network security products",
+    "XSIAM AI-powered SOC automation and incident response",
+    "AI-assisted firewall rule and policy management"
+   ],
+   "audience": [
+    "Enterprise Operations",
+    "Compliance/Audit Professionals"
+   ],
+   "engine": "Proprietary detection models plus frontier LLMs in XSIAM for investigation assistance.",
+   "files": "Network traffic, security events, and policy configuration.",
+   "latency": "Real-time for detection. Interactive for investigation.",
+   "quality": "Strong detection across network and cloud, backed by a large threat intelligence feed. SOC assistance quality depends on XSIAM deployment.",
+   "pricing": [
+    {
+     "tier": "Bundled in products",
+     "model": "Within existing Palo Alto product licensing",
+     "includes": "Precision AI features per product",
+     "limits": "Product-specific"
+    }
+   ],
+   "training_optout": "Palo Alto's data terms govern threat telemetry sharing, which is standard for threat intelligence. XSIAM case data terms require separate review.",
+   "governance_note": "Security AI governance across a multi-product portfolio like Palo Alto's requires consistency: the autonomous action policies that govern Cortex XDR responses, NGFW inline actions, and XSIAM playbooks need to be reviewed as a set, not managed product by product. The AI overlay across many products means AI decisions may interact across the stack in ways that are not visible from any single product's dashboard.",
+   "integrations": [
+    "Palo Alto Networks product suite: NGFW, Prisma, XSIAM, Cortex",
+    "Third-party SIEM and SOAR via integrations"
+   ],
+   "api": "Per-product APIs; XSIAM has its own integration surface.",
+   "pros": [
+    "Deep integration across a commonly deployed enterprise security stack",
+    "Large threat intelligence base behind detection models",
+    "Broad coverage without additional tool sprawl"
+   ],
+   "cons": [
+    "Value strictly within Palo Alto portfolio",
+    "Cross-product autonomous action policies require explicit governance",
+    "No standalone AI offering"
+   ],
+   "alternatives": [
+    "CrowdStrike Charlotte AI",
+    "SentinelOne Purple AI",
+    "Darktrace"
+   ]
+  },
+  "microsoft-power-automate-ai": {
+   "name": "Microsoft Power Automate AI",
+   "vendor": "Microsoft",
+   "catalog_name": "Microsoft Power Automate AI",
+   "tagline": "AI-powered automation inside the Microsoft 365 ecosystem, with no-code access.",
+   "tags": [
+    "Automation",
+    "No-Code",
+    "Microsoft 365",
+    "Enterprise"
+   ],
+   "status": "Active",
+   "access": [
+    "Web App",
+    "Embedded in M365"
+   ],
+   "value": "AI automation capabilities inside Power Automate, the automation layer that ships with Microsoft 365. AI Builder adds document parsing, form processing, prediction, and Copilot-assisted flow creation. The relevant point is that it is already in the M365 licence for many organizations.",
+   "use_cases": [
+    "Document and form extraction at scale from invoices, contracts, and forms",
+    "Building no-code automations with natural language in an M365 environment",
+    "AI-powered approval and routing workflows over M365 data"
+   ],
+   "audience": [
+    "Enterprise Operations",
+    "Compliance/Audit Professionals"
+   ],
+   "engine": "Azure AI services (Form Recognizer, prediction models) plus Copilot for flow authoring.",
+   "files": "M365 documents, forms, emails, and structured data in SharePoint and Dataverse.",
+   "latency": "Async for most automation workloads.",
+   "quality": "Strong for M365-native document and data workflows. Less general than Zapier but deeper inside the M365 boundary.",
+   "pricing": [
+    {
+     "tier": "Included in M365 plans (limited)",
+     "model": "Per flow run or per capacity unit for AI Builder",
+     "includes": "Basic automation; AI Builder requires additional credits",
+     "limits": "Credit consumption"
+    }
+   ],
+   "training_optout": "Microsoft's commercial data terms apply. AI Builder processing stays within the Azure tenant.",
+   "governance_note": "Power Automate is the automation layer most M365 organizations already have but rarely inventory. The governance gap is that any M365 user can build and run automations, including AI automations via AI Builder, without IT approval. A process that was manually reviewed yesterday can be automated today without any change record. The control requirement is an automation inventory and approval workflow, not just policy: automations that touch sensitive data or make business decisions need the same change management as any other system change.",
+   "integrations": [
+    "All Microsoft 365 services: SharePoint, Teams, Outlook, Dynamics",
+    "Azure services and third-party connectors",
+    "Power Platform ecosystem"
+   ],
+   "api": "Power Platform API; connectors for external systems.",
+   "pros": [
+    "Already licensed for most M365 organizations",
+    "No-code flow building with Copilot assistance",
+    "Stays within the M365 compliance boundary"
+   ],
+   "cons": [
+    "AI automations can be built by any user without approval",
+    "AI Builder credits are a separate cost",
+    "Complexity scales quickly beyond basic document processing"
+   ],
+   "alternatives": [
+    "Zapier AI",
+    "Zapier Central",
+    "Automation Anywhere"
+   ]
+  },
+  "uipath-ai": {
+   "name": "UiPath AI",
+   "vendor": "UiPath",
+   "catalog_name": "UiPath AI",
+   "tagline": "AI across the enterprise RPA platform, adding judgment to robotic process automation.",
+   "tags": [
+    "RPA",
+    "Automation",
+    "Enterprise",
+    "AI"
+   ],
+   "status": "Active",
+   "access": [
+    "Enterprise Platform",
+    "Cloud"
+   ],
+   "value": "AI capabilities embedded in UiPath's RPA platform: document understanding, process mining, and AI-powered decision steps within robotic workflows. For organizations already running UiPath for automation, this adds AI to the existing robot fleet without rebuilding the workflow layer.",
+   "use_cases": [
+    "Adding document understanding and extraction to existing RPA workflows",
+    "AI-powered exception handling in robotic processes that used to require human review",
+    "Process mining to identify automation opportunities using AI pattern detection"
+   ],
+   "audience": [
+    "Enterprise Operations",
+    "Compliance/Audit Professionals"
+   ],
+   "engine": "UiPath's own document AI models plus frontier model integration for unstructured tasks.",
+   "files": "Documents, forms, images, and process logs within the UiPath platform.",
+   "latency": "Async for batch document processing; near-real-time for inline robot decision steps.",
+   "quality": "Strong for document understanding at scale. AI exception handling requires careful accuracy testing before removing human review.",
+   "pricing": [
+    {
+     "tier": "Enterprise licence",
+     "model": "Per-robot or capacity-based",
+     "includes": "AI features within the UiPath platform licence",
+     "limits": "Contract-based"
+    }
+   ],
+   "training_optout": "UiPath's enterprise terms govern. Models are licensed and deployed within the customer's platform tenancy.",
+   "governance_note": "RPA governance predates AI governance, and for good reason: a robot that executes the wrong process at scale does damage faster than a human making the same mistake. Adding AI decision steps to an RPA workflow amplifies the risk: the robot now acts on an AI judgment, and if the AI is wrong, the robot acts on it thousands of times. The audit requirement is: which AI decision steps in which robots require human review before downstream action, and what is the fallback if the AI is uncertain. Those policies belong in the robot design, not the exception queue.",
+   "integrations": [
+    "Full UiPath platform: Studio, Orchestrator, Insights",
+    "Document Understanding marketplace",
+    "Enterprise systems via UiPath connectors"
+   ],
+   "api": "UiPath API for management and integration.",
+   "pros": [
+    "AI enhances existing robot fleet without rebuilding workflows",
+    "Strong document understanding for high-volume processing",
+    "Process mining identifies automation ROI before building"
+   ],
+   "cons": [
+    "AI exception handling requires accuracy testing before reducing human review",
+    "AI decision errors propagate at robot speed",
+    "Enterprise-only pricing"
+   ],
+   "alternatives": [
+    "Automation Anywhere",
+    "Microsoft Power Automate AI",
+    "Zapier AI"
+   ]
+  },
+  "computer-use-anthropic": {
+   "name": "Computer Use (Anthropic)",
+   "vendor": "Anthropic",
+   "catalog_name": "Computer Use (Anthropic)",
+   "tagline": "The capability that lets Claude control a computer, not just answer questions about one.",
+   "tags": [
+    "Agents",
+    "Computer Use",
+    "Emerging",
+    "Automation"
+   ],
+   "status": "Active",
+   "access": [
+    "API"
+   ],
+   "value": "Anthropic's computer use capability allows Claude to operate a computer: clicking, typing, reading screens, and navigating interfaces. It is the underlying capability for agentic desktop automation rather than a finished product.",
+   "use_cases": [
+    "Automating multi-step workflows that require interacting with GUIs rather than APIs",
+    "Operating software that has no API or programmatic interface",
+    "Building agentic tools that require desktop interaction as a primitive"
+   ],
+   "audience": [
+    "Dev Teams"
+   ],
+   "engine": "Claude's models with tool use for mouse, keyboard, and screen-capture actions.",
+   "files": "Operates on whatever the screen contains. No direct file access independent of the applications it opens.",
+   "latency": "Slower than API calls because each action requires a screen observation and decision.",
+   "quality": "Capable for well-defined workflows. Less reliable on novel interfaces or tasks requiring complex visual inference.",
+   "pricing": [
+    {
+     "tier": "API usage",
+     "model": "Pay per token, higher than standard Claude due to vision tokens",
+     "includes": "Computer use tool calls within the Claude API",
+     "limits": "Rate tiers"
+    }
+   ],
+   "training_optout": "Anthropic's commercial API terms apply. Screenshots are processed as images within the same terms.",
+   "governance_note": "An AI that can operate a computer is an AI that can take irreversible actions: send emails, execute trades, delete files, commit code, submit forms. The standard agentic governance requirements are at their most critical here. Minimum necessary permissions for the session, explicit human approval before any irreversible action, and a clear task scope are not optional design choices. The blast radius of a mistaken action on an unrestricted desktop is the entire desktop.",
+   "integrations": [
+    "Anthropic API",
+    "Containerized desktop environments for safer deployment"
+   ],
+   "api": "Claude API with computer use beta tool.",
+   "pros": [
+    "Enables automation of any GUI-based workflow",
+    "Same model quality as Claude across all tasks",
+    "No per-workflow programming for novel interfaces"
+   ],
+   "cons": [
+    "Irreversible actions require explicit human approval policy",
+    "Higher token cost due to vision",
+    "Less reliable on novel or visually complex interfaces"
+   ],
+   "alternatives": [
+    "Devin (Cognition)",
+    "Zapier Central",
+    "Claude Code"
+   ]
+  },
+  "operator-openai": {
+   "name": "Operator (OpenAI)",
+   "vendor": "OpenAI",
+   "catalog_name": "Operator (OpenAI)",
+   "tagline": "OpenAI's consumer computer-use agent, currently the widest-deployed agentic AI product.",
+   "tags": [
+    "Agents",
+    "Computer Use",
+    "Emerging",
+    "Automation"
+   ],
+   "status": "Active",
+   "access": [
+    "Web App",
+    "API"
+   ],
+   "value": "A web-browsing agent that completes tasks on the open web on behalf of the user: booking, ordering, form completion, and web-based research without the user typing each step. The first OpenAI product to take actions with real-world consequences by default.",
+   "use_cases": [
+    "Completing multi-step web tasks such as booking, ordering, and form submission",
+    "Web research that requires clicking through multiple sources rather than a single search",
+    "Automating repetitive web workflows on behalf of an individual user"
+   ],
+   "audience": [
+    "Solopreneurs",
+    "Enterprise Operations"
+   ],
+   "engine": "GPT models with computer use capabilities for browser control.",
+   "files": "Web content encountered during task execution.",
+   "latency": "Task completion takes minutes to hours depending on complexity.",
+   "quality": "Capable for well-defined web tasks. Less reliable on complex multi-step transactions or sites with unusual flows.",
+   "pricing": [
+    {
+     "tier": "ChatGPT Pro",
+     "model": "Per-seat monthly (Pro tier required)",
+     "includes": "Operator access within Pro subscription",
+     "limits": "Usage limits"
+    },
+    {
+     "tier": "API (Responses API)",
+     "model": "Pay per token",
+     "includes": "Web browsing tool integration in API applications",
+     "limits": "Rate tiers"
+    }
+   ],
+   "training_optout": "OpenAI's commercial and consumer terms differ. Consumer ChatGPT data terms apply unless the enterprise API is used. Operator actions are taken under the user's session on third-party sites.",
+   "governance_note": "The first mainstream product to make 'AI can do things on the web on your behalf' a consumer experience rather than a developer build. The governance questions are: what is it authorized to commit, what credentials does it access, and what happens if it completes the wrong transaction. For enterprise use, those are policy decisions. For consumer use, they are the user's problem, which is part of why the enterprise and consumer versions need different evaluations. Phishing attacks that impersonate Operator to capture credentials are an emerging threat model that comes with this capability.",
+   "integrations": [
+    "ChatGPT UI",
+    "OpenAI Responses API for developer embedding"
+   ],
+   "api": "OpenAI Responses API for embedding web browsing in applications.",
+   "pros": [
+    "Widest-deployed consumer agentic product",
+    "Web task completion without user interaction for each step",
+    "API available for developer integration"
+   ],
+   "cons": [
+    "Consumer data terms differ from enterprise",
+    "Real-world commitments require explicit authorization scope",
+    "Credential access creates phishing attack surface"
+   ],
+   "alternatives": [
+    "Computer Use (Anthropic)",
+    "Zapier Central",
+    "Microsoft Copilot"
+   ]
+  },
+  "epic-ai": {
+   "name": "Epic AI (SlicerDicer, etc.)",
+   "vendor": "Epic Systems",
+   "catalog_name": "Epic AI (SlicerDicer, etc.)",
+   "tagline": "AI across the EHR used by most major US health systems, with regulatory requirements that differ from any other sector.",
+   "tags": [
+    "Healthcare",
+    "EHR",
+    "Clinical AI",
+    "Regulated"
+   ],
+   "status": "Active",
+   "access": [
+    "Embedded in Epic EHR"
+   ],
+   "value": "AI capabilities across Epic's electronic health record, including clinical decision support, ambient documentation (ambient listening that drafts clinical notes), and analytics via SlicerDicer and a range of prediction models. Used by over 350 million patient records' worth of institutions.",
+   "use_cases": [
+    "Ambient clinical documentation reducing physician administrative burden",
+    "Predictive risk scoring for sepsis, readmission, and care escalation",
+    "Population health analytics via SlicerDicer across the patient panel"
+   ],
+   "audience": [
+    "Compliance/Audit Professionals",
+    "Enterprise Operations"
+   ],
+   "engine": "Epic's own models and Microsoft Azure AI Services, under Epic's development and validation processes.",
+   "files": "Patient records, clinical notes, and structured EHR data.",
+   "latency": "Real-time for clinical decision support; batch for analytics.",
+   "quality": "Quality is the sector's primary compliance question, not speed. Clinical AI models must be validated on the deployment population before clinical reliance, which is a regulatory requirement in addition to good practice.",
+   "pricing": [
+    {
+     "tier": "Bundled with Epic",
+     "model": "Within Epic contract, some AI features additional",
+     "includes": "Base AI features; ambient documentation is priced separately",
+     "limits": "Contract-based"
+    }
+   ],
+   "training_optout": "Epic's health data terms apply and are structured around HIPAA requirements. Data stays within the health system's Epic environment.",
+   "governance_note": "Healthcare AI operates under a regulatory framework that is categorically different from general enterprise AI: FDA oversight of Software as a Medical Device applies to clinical AI tools that are decision-support for diagnosis or treatment, HIPAA governs all patient data handling, and validation on the deployment population is both a regulatory expectation and a patient safety requirement. The EU AI Act classifies AI used in clinical contexts as high-risk. Before any Epic AI feature is enabled in a clinical setting, the governance question is whether the feature constitutes a SaMD and whether the appropriate validation has been performed. See the healthcare pages in the reference library.",
+   "integrations": [
+    "Epic EHR natively",
+    "Azure AI Services for model execution",
+    "HL7 FHIR for external data exchange"
+   ],
+   "api": "Epic FHIR API for external integration; AI features are embedded in the EHR workflow.",
+   "pros": [
+    "Embedded in the EHR clinicians already use, no workflow change required",
+    "HIPAA-structured data handling",
+    "Scale of patient data behind Epic's model training"
+   ],
+   "cons": [
+    "FDA regulatory requirements apply to clinical decision-support AI",
+    "Population-level validation required before clinical reliance",
+    "Locked into Epic's development and update timeline"
+   ],
+   "alternatives": [
+    "Microsoft Copilot",
+    "Nuance DAX (ambient documentation)",
+    "Google Med-PaLM / MedLM"
+   ]
+  },
+  "bloomberg-gpt": {
+   "name": "Bloomberg GPT",
+   "vendor": "Bloomberg",
+   "catalog_name": "Bloomberg GPT",
+   "tagline": "The finance-domain LLM, trained on Bloomberg's proprietary data, not publicly accessible.",
+   "tags": [
+    "Finance",
+    "LLM",
+    "Research",
+    "Enterprise"
+   ],
+   "status": "Active",
+   "access": [
+    "Embedded in Bloomberg Terminal"
+   ],
+   "value": "A large language model trained on Bloomberg's proprietary financial data, deployed within the Bloomberg Terminal and Bloomberg Intelligence. Provides finance-native NLP that outperforms general models on financial NLP tasks because it was trained on the actual data.",
+   "use_cases": [
+    "Financial NLP tasks: sentiment analysis, earnings call analysis, and regulatory filing review",
+    "Finance-domain question answering within Bloomberg's research ecosystem",
+    "Structured extraction from financial documents at scale"
+   ],
+   "audience": [
+    "Enterprise Operations",
+    "Compliance/Audit Professionals"
+   ],
+   "engine": "BloombergGPT, a 50B parameter model trained on Bloomberg's financial corpus, plus updates since that paper.",
+   "files": "Bloomberg Terminal data: news, filings, market data, and financial documents.",
+   "latency": "Interactive within Bloomberg products.",
+   "quality": "Stronger than general models on finance-specific NLP. Not publicly benchmarked against the current frontier on general tasks.",
+   "pricing": [
+    {
+     "tier": "Bloomberg Terminal",
+     "model": "Within Bloomberg Terminal subscription",
+     "includes": "AI features as part of the Terminal",
+     "limits": "Terminal-based"
+    }
+   ],
+   "training_optout": "Bloomberg's data terms govern. Customer queries stay within Bloomberg's infrastructure.",
+   "governance_note": "The material non-public information (MNPI) question is the first governance point for finance AI: a model that helps analyze earnings calls or regulatory filings must be operated under the firm's information barrier controls. Bloomberg's infrastructure is already designed around those controls for terminal users, which is an advantage over running a general AI against the same documents. The AI layer adds speed; the compliance layer requires that speed be bounded by the same information barriers that govern all Bloomberg data use.",
+   "integrations": [
+    "Bloomberg Terminal and Bloomberg Intelligence",
+    "Bloomberg Data License for enterprise data users"
+   ],
+   "api": "Bloomberg API for programmatic access within Terminal licences.",
+   "pros": [
+    "Finance-domain training on proprietary data produces better financial NLP",
+    "Information barrier controls designed into the platform",
+    "No data export or additional API contract required for Terminal users"
+   ],
+   "cons": [
+    "Only accessible within Bloomberg Terminal",
+    "Not benchmarked publicly against current frontier models",
+    "Terminal pricing is significant"
+   ],
+   "alternatives": [
+    "AlphaSense",
+    "Harvey AI",
+    "ChatGPT"
+   ]
+  },
+  "alphasense": {
+   "name": "AlphaSense",
+   "vendor": "AlphaSense",
+   "catalog_name": "AlphaSense",
+   "tagline": "AI search and analysis across earnings calls, filings, broker research, and news.",
+   "tags": [
+    "Finance",
+    "Research",
+    "Search",
+    "Enterprise"
+   ],
+   "status": "Active",
+   "access": [
+    "Web App",
+    "API"
+   ],
+   "value": "Market intelligence platform that searches and summarizes across a curated set of financial documents: earnings calls, SEC filings, broker research, news, and industry reports. AI synthesis across those sources is the primary value.",
+   "use_cases": [
+    "Rapid synthesis of earnings call themes across a sector",
+    "SEC filing and broker research search without reading every document",
+    "Competitive intelligence from public and premium financial sources"
+   ],
+   "audience": [
+    "Enterprise Operations",
+    "Compliance/Audit Professionals"
+   ],
+   "engine": "Proprietary search and summarization models, finance-domain tuned.",
+   "files": "AlphaSense's curated document library: filings, call transcripts, broker research.",
+   "latency": "Fast search. Synthesis of larger document sets takes more time.",
+   "quality": "Strong on the specific document types it indexes. Limited to its own corpus.",
+   "pricing": [
+    {
+     "tier": "Enterprise licence",
+     "model": "Annual subscription",
+     "includes": "Full platform access including premium content",
+     "limits": "Seat-based"
+    }
+   ],
+   "training_optout": "AlphaSense's terms govern. Queries stay within their platform.",
+   "governance_note": "The MNPI and information-barrier questions apply here as they do to all finance research AI. The specific AlphaSense risk is the premium content layer: broker research and licensed data sources require that usage stays within the permitted scope of the underlying content licences. Using AlphaSense outputs in ways that effectively redistribute licensed research without the underlying licence is a contractual issue that predates AI but that AI-speed synthesis makes easier to stumble into.",
+   "integrations": [
+    "Corporate research and financial analysis workflows",
+    "API for programmatic data access"
+   ],
+   "api": "API for data access and search integration.",
+   "pros": [
+    "Finance-specific document corpus already licensed and curated",
+    "Strong synthesis across earnings call and filing types",
+    "Faster than manual research across many documents"
+   ],
+   "cons": [
+    "Limited to documents in its corpus",
+    "Content licence terms govern downstream use of outputs",
+    "Enterprise-only pricing"
+   ],
+   "alternatives": [
+    "Bloomberg GPT",
+    "ChatGPT",
+    "Perplexity Enterprise Pro"
+   ]
+  },
+  "figure-ai": {
+   "name": "Figure AI",
+   "vendor": "Figure",
+   "catalog_name": "Figure AI",
+   "tagline": "Humanoid robotics powered by AI, the leading commercial deployment attempt.",
+   "tags": [
+    "Robotics",
+    "Physical AI",
+    "Emerging",
+    "Manufacturing"
+   ],
+   "status": "Active",
+   "access": [
+    "Commercial Partnership"
+   ],
+   "value": "Figure's humanoid robots, powered by AI vision and language models, are the furthest-along commercial attempt at general-purpose physical AI in industrial settings. Currently deployed in limited production environments.",
+   "use_cases": [
+    "Warehouse and manufacturing tasks currently requiring human dexterity",
+    "Physically demanding or repetitive industrial work without dedicated tooling",
+    "Long-horizon research into general-purpose physical AI capability"
+   ],
+   "audience": [
+    "Enterprise Operations"
+   ],
+   "engine": "Vision-language-action models trained on robot interaction data. OpenAI partnership for language capability.",
+   "files": "Camera feeds, sensor data, and verbal instruction.",
+   "latency": "Real-time physical control with AI-driven decision making.",
+   "quality": "Operational in limited production environments. Far from general-purpose capability at scale.",
+   "pricing": [
+    {
+     "tier": "Commercial partnership",
+     "model": "Custom enterprise arrangement",
+     "includes": "Robot deployment, integration, and service",
+     "limits": "Contract-based"
+    }
+   ],
+   "training_optout": "Physical operation data terms are governed by partnership agreements.",
+   "governance_note": "Physical AI is where AI governance, product liability, and workplace safety law converge. A robot that injures a worker is governed by OSHA, product liability, and potentially sector-specific safety regulations, not just AI policy. The EU AI Act specifically classifies AI in safety-critical physical environments as high-risk. The governance requirement before any physical AI deployment is a safety case: what are the failure modes, what is the physical consequence of each, and what are the guards against each mode. That safety case should be documented independently of the vendor's own safety claims.",
+   "integrations": [
+    "Industrial plant systems via partnership integration"
+   ],
+   "api": "Via commercial partnership.",
+   "pros": [
+    "Commercial production deployment, not purely research",
+    "General-purpose physical AI capability is the long-horizon value",
+    "BMW and other industrial partnerships validate commercial viability"
+   ],
+   "cons": [
+    "Far from general-purpose capability at current scale",
+    "Product liability and safety law requirements are significant",
+    "Commercial availability limited to partnership"
+   ],
+   "alternatives": [
+    "Tesla Optimus",
+    "Physical Intelligence (pi0)",
+    "Traditional industrial robotics"
+   ]
+  },
+  "langchain": {
+   "name": "LangChain",
+   "vendor": "LangChain",
+   "catalog_name": "LangChain",
+   "tagline": "The most widely used framework for building LLM applications, and the one most documentation assumes you are using.",
+   "tags": [
+    "Developer Tools",
+    "Open Source",
+    "LLM Applications",
+    "Orchestration"
+   ],
+   "status": "Active",
+   "access": [
+    "Open Source / Local Deployment",
+    "API"
+   ],
+   "value": "The dominant Python framework for building LLM-powered applications: chains, agents, RAG pipelines, and tool use. More general-purpose than LlamaIndex, with a broader integration surface. Most LLM application tutorials and patterns assume LangChain.",
+   "use_cases": [
+    "Building LLM applications that chain multiple model calls, tools, and data sources",
+    "Agent orchestration where the model selects which tools to call",
+    "RAG pipelines combining retrieval, reranking, and generation"
+   ],
+   "audience": [
+    "Dev Teams"
+   ],
+   "engine": "Framework. Orchestrates calls to models, vector stores, and tools from any provider.",
+   "files": "Loaders for PDF, web, code, and database content. Integrations for all major vector stores.",
+   "latency": "Framework overhead is minimal. Latency dominated by model and store calls.",
+   "quality": "Very broad integration coverage. Can become complex quickly; LlamaIndex is often simpler for pure RAG use cases.",
+   "pricing": [
+    {
+     "tier": "Open source",
+     "model": "$0",
+     "includes": "Full framework",
+     "limits": "None on the framework"
+    },
+    {
+     "tier": "LangSmith",
+     "model": "Usage-based",
+     "includes": "Tracing, evaluation, and monitoring for LLM applications",
+     "limits": "Volume tiers"
+    }
+   ],
+   "training_optout": "Framework only. Data handling is entirely determined by the model and store providers chosen.",
+   "governance_note": "LangChain is the plumbing, not the policy. The governance surface of an application built on LangChain is the model it calls, the data it retrieves, and the tools it executes. LangSmith is the monitoring layer that makes those calls visible. The audit question for a LangChain-based application is the same as for any LLM application: what can the agent call, what data can it access, and what is the review process before it takes actions with consequences.",
+   "integrations": [
+    "All major LLM providers",
+    "All major vector stores",
+    "Tool integrations across search, code execution, and external APIs"
+   ],
+   "api": "Python and JavaScript libraries. LangSmith for observability.",
+   "pros": [
+    "Dominant ecosystem with extensive documentation and community",
+    "Broadest integration surface in the category",
+    "LangSmith provides production monitoring and evaluation"
+   ],
+   "cons": [
+    "Can become complex and hard to debug for sophisticated agent patterns",
+    "LlamaIndex is often simpler for pure document RAG",
+    "Rapid release cadence means documentation can lag code"
+   ],
+   "alternatives": [
+    "LlamaIndex",
+    "CrewAI",
+    "Hugging Face"
+   ]
+  },
+  "notebooklm": {
+   "name": "NotebookLM",
+   "vendor": "Google",
+   "catalog_name": "NotebookLM",
+   "tagline": "Research assistant that reasons over documents you provide, not the web.",
+   "tags": [
+    "Research",
+    "Notes",
+    "Knowledge",
+    "Google"
+   ],
+   "status": "Active",
+   "access": [
+    "Web App"
+   ],
+   "value": "Upload documents, paste text, or link sources, and NotebookLM answers questions, summarizes, and generates content grounded only on what you gave it, not on general training data. The closed-source property is the point.",
+   "use_cases": [
+    "Analyzing a set of documents without the model reasoning outside them",
+    "Research synthesis across multiple sources with citations back to the exact passage",
+    "Generating audio overviews (podcast format) from uploaded source material"
+   ],
+   "audience": [
+    "Compliance/Audit Professionals",
+    "Solopreneurs",
+    "Marketing"
+   ],
+   "engine": "Google's Gemini models, operating over user-provided sources.",
+   "files": "PDF, Google Docs, Google Slides, web URLs, YouTube links, and pasted text.",
+   "latency": "Fast for question answering. Audio overview generation takes a few minutes.",
+   "quality": "Strong citation accuracy back to source passages. Stays within sources rather than hallucinating beyond them.",
+   "pricing": [
+    {
+     "tier": "Free",
+     "model": "$0",
+     "includes": "Notebooks up to 50 sources, 25M tokens per notebook",
+     "limits": "Notebook and source limits"
+    },
+    {
+     "tier": "NotebookLM Plus",
+     "model": "Per-seat monthly (Google One AI Premium or Workspace)",
+     "includes": "More notebooks, higher limits, team sharing",
+     "limits": "Higher caps"
+    }
+   ],
+   "training_optout": "Google's data terms apply. Consumer tier data handling differs from Workspace. Confirm before uploading confidential material.",
+   "governance_note": "The closed-source behavior is the main governance argument for it: the model's answers are grounded on what you uploaded and cite back to passages, which makes hallucination outside the source set much less likely. The remaining question is the data path: documents uploaded to the consumer product are under Google's consumer terms; the same documents in a Workspace deployment are under enterprise terms. Confidential material should only go into a Workspace-governed instance.",
+   "integrations": [
+    "Google Workspace (Docs, Drive, Slides)",
+    "Web and YouTube as source types"
+   ],
+   "api": "No public API.",
+   "pros": [
+    "Closed-source reasoning dramatically reduces hallucination beyond the source set",
+    "Citations back to exact passages support verification",
+    "Audio overviews are a genuinely novel output format"
+   ],
+   "cons": [
+    "Consumer and Workspace data terms differ significantly",
+    "No API for workflow integration",
+    "Source limit per notebook"
+   ],
+   "alternatives": [
+    "Perplexity AI",
+    "ChatGPT",
+    "Notion AI"
+   ]
+  },
+  "gong": {
+   "name": "Gong",
+   "vendor": "Gong",
+   "catalog_name": "Gong",
+   "tagline": "Revenue intelligence from call recordings, the most widely deployed sales AI.",
+   "tags": [
+    "Sales",
+    "Revenue Intelligence",
+    "Call Analysis",
+    "Enterprise"
+   ],
+   "status": "Active",
+   "access": [
+    "Web App",
+    "API"
+   ],
+   "value": "Records, transcribes, and analyzes sales calls and meetings, producing insights about deal risk, competitor mentions, talk ratios, and coaching opportunities. The dominant revenue intelligence platform in enterprise sales.",
+   "use_cases": [
+    "Analyzing sales call patterns to improve conversion and identify at-risk deals",
+    "Coaching salespeople based on AI-analyzed call quality metrics",
+    "Deal forecasting informed by AI analysis of engagement signals"
+   ],
+   "audience": [
+    "Enterprise Operations",
+    "Marketing"
+   ],
+   "engine": "Gong's proprietary speech, NLP, and prediction models.",
+   "files": "Call and meeting recordings, CRM data.",
+   "latency": "Analysis completes after the call.",
+   "quality": "Strong at pattern detection across many calls. Coaching insights are statistical rather than individually deterministic.",
+   "pricing": [
+    {
+     "tier": "Enterprise",
+     "model": "Per-seat annual + per-minute recording fees",
+     "includes": "Recording, transcription, analysis, and coaching features",
+     "limits": "Contract-based"
+    }
+   ],
+   "training_optout": "Gong's enterprise data terms apply. Verify whether customer data is used to improve Gong's models across customers.",
+   "governance_note": "Gong records calls. The recording consent question that applies to Otter.ai applies equally here. In enterprise sales, all-party consent disclosure is typically handled by the automated 'this call is being recorded' announcement, but the mechanism needs to be verified for each jurisdiction where sales calls originate or are received. The additional Gong-specific question is what happens to competitor-mention data that Gong surfaces: that data is drawn from customer calls, and the terms governing how Gong uses it across its customer base require reading.",
+   "integrations": [
+    "Salesforce, HubSpot, and major CRMs",
+    "Zoom, Teams, and Google Meet for recording",
+    "Slack for deal alerts"
+   ],
+   "api": "REST API for data export and CRM integration.",
+   "pros": [
+    "Most mature revenue intelligence platform in the category",
+    "Pattern analysis across many calls produces statistically reliable coaching signals",
+    "CRM integration closes the loop between call insights and opportunity data"
+   ],
+   "cons": [
+    "Per-seat plus per-minute pricing compounds at scale",
+    "Recording consent disclosure must be verified per jurisdiction",
+    "Cross-customer data use terms require reading"
+   ],
+   "alternatives": [
+    "Microsoft Copilot",
+    "Otter.ai",
+    "Salesforce Einstein / Agentforce"
    ]
   }
  }
