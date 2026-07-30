@@ -1,0 +1,180 @@
+{
+ "source": "srj_audit.press_books + press_book_isbns via srj-mcp /press.json",
+ "generated_at": "2026-07-30T02:26:41+00:00",
+ "count": 9,
+ "note": "Bibliographic facts only. The prose on each book page stays as migrated from WordPress; this file supplies the specs block and the Book/Offer schema, so a status, price, ISBN or page count can never drift from the database again. Regenerate by re-running the query against press_books.",
+ "books": [
+  {
+   "book_number": 1,
+   "title": "The AI Business Enablement Audit™",
+   "subtitle": "The Operating System for Running AI As a Permanent Business Function",
+   "pillar": "AI Business Services",
+   "status": "available",
+   "pages": 220,
+   "published_on": "2026-05-20",
+   "amazon_url": "https://www.amazon.com/dp/B0H5M4BSYR",
+   "url_path": "/books/ai-business-services/the-ai-business-enablement-audit/",
+   "isbns": [
+    {
+     "format": "Hardback",
+     "isbn": "979-8-9965658-2-5",
+     "list_price": 59.99
+    },
+    {
+     "format": "Paperback",
+     "isbn": "979-8-9965658-0-1",
+     "list_price": 22.99
+    },
+    {
+     "format": "Ebook",
+     "isbn": "979-8-9965658-1-8",
+     "list_price": 9.99
+    }
+   ]
+  },
+  {
+   "book_number": 2,
+   "title": "The AI Readiness & Performance Assessment™",
+   "subtitle": "A Practical Operating Discipline for Scaling AI in Small and Mid-Sized Businesses",
+   "pillar": "AI Business Services",
+   "status": "available",
+   "pages": 332,
+   "published_on": "2026-06-18",
+   "amazon_url": "https://www.amazon.com/dp/B0H5X83K31",
+   "url_path": "/books/ai-business-services/the-ai-readiness-performance-assessment/",
+   "isbns": [
+    {
+     "format": "Hardback",
+     "isbn": "979-8-9965658-5-6",
+     "list_price": 74.99
+    },
+    {
+     "format": "Paperback",
+     "isbn": "979-8-9965658-3-2",
+     "list_price": 24.99
+    },
+    {
+     "format": "Ebook",
+     "isbn": "979-8-9965658-4-9",
+     "list_price": 9.99
+    }
+   ]
+  },
+  {
+   "book_number": 3,
+   "title": "The AI Risk & Governance Review™",
+   "subtitle": "How Executives Defend Their AI Decisions When the Board, the Regulator, the Acquirer, or the Lawyer Asks",
+   "pillar": "AI Business Services",
+   "status": "available",
+   "pages": 400,
+   "published_on": "2026-07-02",
+   "amazon_url": "https://www.amazon.com/dp/B0H7DB6TBV",
+   "url_path": "/books/ai-business-services/the-ai-risk-governance-review/",
+   "isbns": [
+    {
+     "format": "Hardback",
+     "isbn": "979-8-9965658-8-7",
+     "list_price": 89.99
+    },
+    {
+     "format": "Paperback",
+     "isbn": "979-8-9965658-6-3",
+     "list_price": 44.99
+    },
+    {
+     "format": "Ebook",
+     "isbn": "979-8-9965658-7-0",
+     "list_price": 24.99
+    }
+   ]
+  },
+  {
+   "book_number": 4,
+   "title": "The AI Efficiency & Process Optimization™",
+   "subtitle": "How Leadership Teams Convert AI Adoption into Measurable Operating Performance and a Defensible Financial Return",
+   "pillar": "AI Business Services",
+   "status": "available",
+   "pages": 370,
+   "published_on": "2026-07-24",
+   "amazon_url": "https://www.amazon.com/dp/B0HBFVM7DG",
+   "url_path": "/books/ai-business-services/the-ai-efficiency-process-optimization/",
+   "isbns": [
+    {
+     "format": "Hardback",
+     "isbn": "979-8-9965658-9-4",
+     "list_price": 89.99
+    },
+    {
+     "format": "Paperback",
+     "isbn": "979-8-9969402-1-9",
+     "list_price": 44.99
+    },
+    {
+     "format": "Ebook",
+     "isbn": "979-8-9969402-0-2",
+     "list_price": 24.99
+    }
+   ]
+  },
+  {
+   "book_number": 5,
+   "title": "The AI IT Security Audit™",
+   "subtitle": null,
+   "pillar": "AI Risk Governance & Security",
+   "status": "forthcoming",
+   "pages": null,
+   "published_on": null,
+   "amazon_url": null,
+   "url_path": "/books/ai-risk-governance-security/the-ai-it-security-audit/",
+   "isbns": []
+  },
+  {
+   "book_number": 6,
+   "title": "The AI IT Security Implementation & Strategy™",
+   "subtitle": null,
+   "pillar": "AI Risk Governance & Security",
+   "status": "forthcoming",
+   "pages": null,
+   "published_on": null,
+   "amazon_url": null,
+   "url_path": "/books/ai-risk-governance-security/the-ai-it-security-implementation-strategy/",
+   "isbns": []
+  },
+  {
+   "book_number": 7,
+   "title": "Secure by Design in the Age of AI™",
+   "subtitle": null,
+   "pillar": "AI Risk Governance & Security",
+   "status": "forthcoming",
+   "pages": null,
+   "published_on": null,
+   "amazon_url": null,
+   "url_path": "/books/ai-risk-governance-security/the-secure-by-design/",
+   "isbns": []
+  },
+  {
+   "book_number": 8,
+   "title": "Application Security in the Age of AI™",
+   "subtitle": null,
+   "pillar": "AI Risk Governance & Security",
+   "status": "forthcoming",
+   "pages": null,
+   "published_on": null,
+   "amazon_url": null,
+   "url_path": "/books/ai-risk-governance-security/the-application-security/",
+   "isbns": []
+  },
+  {
+   "book_number": 9,
+   "title": "Cloud and Infrastructure Security in the Age of AI™",
+   "subtitle": null,
+   "pillar": "AI Risk Governance & Security",
+   "status": "forthcoming",
+   "pages": null,
+   "published_on": null,
+   "amazon_url": null,
+   "url_path": "/books/ai-risk-governance-security/the-cloud-infrastructure-security/",
+   "isbns": []
+  }
+ ]
+}
