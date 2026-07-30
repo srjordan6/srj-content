@@ -1,0 +1,24 @@
+{
+ "note": "Classes production's <main> element carries per path, harvested live from srjconsultingservices.com on 2026-07-30. The extractor strips the <main> wrapper as theme chrome, which also stripped these classes, and several page stylesheets scope every rule under them (about-page.css under .about-page-gutenberg; the book hero/body styles in migrated-theme.css under .book-detail), leaving those pages unstyled. The migrated wrapper re-applies them. Paths absent from this map are templates that emit no <main> at all: their styles bind to classes present in their own markup and need nothing. Regenerate by fetching each path with a browser User-Agent and reading <main class>.",
+ "classes": {
+  "/": "site-main homepage",
+  "/about/": "site-main about-page about-page-gutenberg",
+  "/books/": "books-page",
+  "/books/ai-business-services/": "pillar-page",
+  "/books/ai-business-services/the-ai-business-enablement-audit/": "books-page book-detail",
+  "/books/ai-business-services/the-ai-efficiency-process-optimization/": "books-page book-detail",
+  "/books/ai-business-services/the-ai-readiness-performance-assessment/": "books-page book-detail",
+  "/books/ai-business-services/the-ai-risk-governance-review/": "books-page book-detail",
+  "/books/ai-risk-governance-security/": "pillar-page",
+  "/books/ai-risk-governance-security/the-ai-it-security-audit/": "books-page book-detail",
+  "/books/ai-risk-governance-security/the-ai-it-security-implementation-strategy/": "books-page book-detail",
+  "/books/ai-risk-governance-security/the-application-security/": "books-page book-detail",
+  "/books/ai-risk-governance-security/the-cloud-infrastructure-security/": "books-page book-detail",
+  "/books/ai-risk-governance-security/the-secure-by-design/": "books-page book-detail",
+  "/newsletter/": "srj-newsletter",
+  "/press/": "srj-press",
+  "/services/business-services/": "svc-pillar-page",
+  "/services/risk-governance-security/": "svc-pillar-page",
+  "/welcome/": "site-main srj-welcome"
+ }
+}
