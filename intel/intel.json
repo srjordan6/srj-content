@@ -1,6 +1,636 @@
 {
-  "generated": "2026-08-10T11:32:49Z",
+  "generated": "2026-08-10T21:09:46Z",
   "items": [
+    {
+      "kind": "vendor-news",
+      "name": "KAIST President Vows 'AI-Native Campus' With AI-Grading for All Courses - Seoul Economic Daily",
+      "vendor": "en.sedaily.com",
+      "url": "https://en.sedaily.com/technology/2026/08/10/kaist-president-vows-ai-native-campus-with-ai-grading-for",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-10T21:03:21.672706+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "KAIST's New President Bae Choong-sik Declares Mission to Forge 'AI Warriors' in Unconventional Inauguration Featuring Humanoid Robots - finance.biggo.com",
+      "vendor": "finance.biggo.com",
+      "url": "https://finance.biggo.com/news/5cba13ab-1ea8-42c4-8414-0a5032f6940d",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-10T21:03:20.730582+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "KAIST’s programmable AI Semiconductor cuts prediction errors 40-fold - Innovation News Network",
+      "vendor": "innovationnewsnetwork.com",
+      "url": "https://www.innovationnewsnetwork.com/programmable-ai-semiconductor-cuts-prediction-errors/72504/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-10T21:03:17.02879+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "KAIST Develops Programmable Memtransistor for More Efficient Real-Time AI - HPCwire",
+      "vendor": "hpcwire.com",
+      "url": "https://www.hpcwire.com/aiwire/2026/08/10/kaist-develops-programmable-memtransistor-for-more-efficient-real-time-ai/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-10T21:03:14.253732+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Lidl owner and Bosch Ventures co-lead $500M Series B into German AI startup Aleph Alpha - TechCrunch",
+      "vendor": "techcrunch.com",
+      "url": "https://techcrunch.com/2023/11/06/lidl-owner-and-bosch-ventures-co-lead-500m-series-b-into-german-ai-start-up-aleph-alpha/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-10T21:03:12.93023+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Silicon Valley Trillion-Dollar AI Empire CEO Exposed: The Two-Faced \"Doomsday Cult Leader\" Unveiled - 36 Kr",
+      "vendor": "eu.36kr.com",
+      "url": "https://eu.36kr.com/en/p/3932865975631238",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-10T21:01:25.923714+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Silicon Valley AI Model Factories Compete to Build More Troublemaking Agents: Everything Behind Is Pre-Arranged Marketing Scripts - 36 Kr",
+      "vendor": "eu.36kr.com",
+      "url": "https://eu.36kr.com/en/p/3933141502868617",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-10T21:01:21.303769+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Top 10 Must-Watch Charts by Goldman Sachs Top Tech Traders: Unveiling the Profound Evolution of AI Investment Logic - 36 Kr",
+      "vendor": "eu.36kr.com",
+      "url": "https://eu.36kr.com/en/p/3933053591223682",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-10T21:01:19.446585+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "AI Computing Power Capital Expenditure Estimation: $3-4 Trillion Projection Is Calculable Yet Full Realization Faces Extremely Harsh Conditions - 36 Kr",
+      "vendor": "eu.36kr.com",
+      "url": "https://eu.36kr.com/en/p/3932939324914820",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-10T21:01:18.530607+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "The Biggest AI Risk in Education: Beyond Cheating – The Critical Erosion of Core Learning Processes - 36 Kr",
+      "vendor": "eu.36kr.com",
+      "url": "https://eu.36kr.com/en/p/3930612418992000",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-10T21:01:16.658554+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "SpaceX Bets Big on AI: Is This 100-Billion-Yuan Market Grand Pie Truly That Appealing? - 36 Kr",
+      "vendor": "eu.36kr.com",
+      "url": "https://eu.36kr.com/en/p/3930769213095298",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-10T21:01:15.721466+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "AI-Powered WeChat Moments Post Writing Trend: Why the Nostalgia for Old-Fashioned Handcrafted Texts Is Growing - 36 Kr",
+      "vendor": "eu.36kr.com",
+      "url": "https://eu.36kr.com/en/p/3933165490519175",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-10T21:01:14.775735+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "New Rust AI Programming Rules: AI Can Review Code But Not Write It, Triggers Circuit Breaker on Overuse - 36 Kr",
+      "vendor": "eu.36kr.com",
+      "url": "https://eu.36kr.com/en/p/3933064694971524",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-10T21:01:13.834637+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "What Are AI Video Generation Models Competing For? Key Drivers, Core Objectives \u0026 Industry Race Insights - 36 Kr",
+      "vendor": "eu.36kr.com",
+      "url": "https://eu.36kr.com/en/p/3930236944596099",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-10T21:01:12.91167+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "China introduces AI compliance framework for digital platforms - ITTC Network",
+      "vendor": "ittcnet.org",
+      "url": "https://ittcnet.org/insights/china-launches-new-ai-compliance-framework-for-digital-platforms/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-10T20:58:14.939129+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "AI Act : Ces règles et nouvelles exigences de transparence appliquées depuis le 2 août par la Commission européenne",
+      "vendor": "L'Usine Digitale",
+      "url": "https://www.usine-digitale.fr/intelligence-artificielle/ia-generative/ai-act-ces-regles-et-nouvelles-exigences-de-transparence-appliquees-depuis-le-2-aout-par-la-commission-europeenne.6WIMKTS2UNFOVDHPWWB35WNFLM.html",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-10T20:56:18.205516+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Promoting the Ethical Principles of the Artificial Intelligence at the 2nd Global Forum - UNESCO",
+      "vendor": "unesco.org",
+      "url": "https://www.unesco.org/en/articles/promoting-ethical-principles-artificial-intelligence-2nd-global-forum",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-10T20:55:11.185105+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "UNESCO AI Ethics Forum Highlights Saudi Arabia’s Global Standing, Culture Minister Says - ASHARQ AL-AWSAT English",
+      "vendor": "english.aawsat.com",
+      "url": "https://english.aawsat.com/node/5305176",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-10T20:54:58.072496+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "UNESCO AI Ethics Forum highlights Saudi Arabia’s global standing, says culture minister - Arab News",
+      "vendor": "arabnews.com",
+      "url": "https://www.arabnews.com/node/2654126/amp",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-10T20:54:57.148357+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "UNESCO puts local needs at centre of Peru’s AI debate - Digital Watch Observatory",
+      "vendor": "dig.watch",
+      "url": "https://dig.watch/updates/unesco-peru-debate-on-ethical-ai-governance",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-10T20:54:56.235401+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "What do we know about China’s new AI safety institute? - DigiChina",
+      "vendor": "digichina.stanford.edu",
+      "url": "https://digichina.stanford.edu/work/what-do-we-know-about-chinas-new-ai-safety-institute/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-10T20:54:34.659632+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "UK AI Safety Institute: 19 unbefugte KI-Aktionen in 122 Tests entdeckt - BornCity",
+      "vendor": "borncity.com",
+      "url": "https://borncity.com/news/uk-ai-safety-institute-19-unbefugte-ki-aktionen-in-122-tests-entdeckt/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-10T20:53:59.460641+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "AI Risks Shift to Physical Realm as Safety Measures Lag - 조선일보",
+      "vendor": "chosun.com",
+      "url": "https://www.chosun.com/english/industry-en/2026/08/08/FCZDZXTGWJCE3CCH6MVAWSM7K4/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-10T20:53:51.13774+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Our evaluation of Claude Mythos Preview’s cyber capabilities - The AI Security Institute (AISI)",
+      "vendor": "aisi.gov.uk",
+      "url": "https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-10T20:53:49.31552+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "RERIGHT · Moonshot’s Kimi AI Model Has Also Escaped From A Test Enviro Sweden Eurovision 2026 (hb6qGY1njv) - Mshale",
+      "vendor": "mshale.com",
+      "url": "https://mshale.com/35d9081b/48d9feee2cSfZevJWaY",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-10T20:53:44.506422+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "AI21 intros text-generating AI capability that cites sources - TechTarget",
+      "vendor": "techtarget.com",
+      "url": "https://www.techtarget.com/ai/news/252529402/AI21-intros-text-generating-AI-capability-that-cites-sources",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-10T20:53:25.938314+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "What building an AI-native finance function taught me",
+      "vendor": "OpenAI",
+      "url": "https://openai.com/index/building-an-ai-native-finance-function",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-10T20:51:13.466203+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+      "vendor": "OpenAI",
+      "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-10T20:51:13.462219+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Operating Multi-Node Full Fine-Tuning on NVIDIA B300: A Field Report on Telemetry-Based Triage, Negative Results, and Operational Hardening",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2608.05944v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Diffusion LLMs as Targets and Adversaries: Mechanistic Safety Exploits",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2608.07430v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Cryptanalytic Extraction of Isolated Bias-Free GLU Feed-Forward Blocks by Antipodal Separation",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2608.06631v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Causal Episodic Memory for Feedback-Driven Agent Repair",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2608.05906v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "RoRA: Role-Oriented Regional Allocation for Visual Token Pruning in MLLMs",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2608.07088v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "DiDPO: Diff-in-Diff Policy Optimization for Coding Agent Training",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2608.07147v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "A Picture is Worth a Thousand Tokens: How Vision Language Models Cut AI Energy Costs While Improving Accuracy",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2608.07427v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "FutureBridge: Token Selection Beyond Local Preference in Collaborative Decoding",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2608.06819v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "NiyamAI - An Intent-Bound AI Agent with Cryptographically Verifiable Guardrails using Zero-Knowledge Proofs",
+      "vendor": "OpenAI",
+      "url": "http://arxiv.org/abs/2608.07167v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Grammar Engineering Meets LLMs: Development of Cantonese and Irish ParGram Treebanks",
+      "vendor": "OpenAI",
+      "url": "http://arxiv.org/abs/2608.07283v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "LMM Modality Transfer: A Pre-requisite for Autonomous GIS Agents",
+      "vendor": "OpenAI",
+      "url": "http://arxiv.org/abs/2608.06948v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Blast Radius",
+      "vendor": "OpenAI",
+      "url": "http://arxiv.org/abs/2608.07440v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "EMAS: Stabilizing Multi-Agent System Evolution through Evidence-Guided Revision",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2608.07196v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "TaskSense: Focusing on What Matters in World Models",
+      "vendor": "DeepMind",
+      "url": "http://arxiv.org/abs/2608.06544v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "ProDVI: Programmatic Dynamics Priors for Value Network Initialization",
+      "vendor": "DeepMind",
+      "url": "http://arxiv.org/abs/2608.06015v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Observation-Grounded Self-Predictive Reinforcement Learning for Visual Continuous Control",
+      "vendor": "DeepMind",
+      "url": "http://arxiv.org/abs/2608.05989v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Transformers Struggle to Use Their Emergent World Models: Revisiting the Tower of Hanoi, and the Illusion of Thinking",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2608.07077v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Hardware Keystores for AI Agent Signing Workflows: A Zero-Trust MCP Enforcement Architecture",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2608.06130v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "WebGrader: Training LLMs for Web Development with Self-Evolving Programmatic Grader",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2608.06474v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "IB-RL: Isolated Bilateral Reinforcement Learning for Strategic Dialogue Agents",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2608.06735v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Same Formulas, Different Semantics: Do Language Models Follow Modal Logic Specifications?",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2608.05097v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Policy-Masked Private Experts: Auditable and Reversible Capability Access Control in Sparse MoE Models",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2608.06690v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Fisher-R1: Training LLM Agents for Reliable Hypothesis Testing",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2608.07437v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Coupling Planning with Episodic Memory in LLM Agents for Software Issue Resolution",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2608.06811v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "NTDH: Complex Reasoning for Comprehensive Affective Analysis",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2608.06425v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "EvoHarness-RL: Learning Self-Evolving Runtime Harness for Long-Horizon LLM Agents",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2608.05446v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "DBLAST: Dependent Block Drafting for Stochastic Speculative Decoding",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2608.05448v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Automated item evaluation: Predicting item acceptance and rejection using LLM-generated critiques",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2608.06609v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Refining Over Resampling: Test-Time Self-Correction for LLM Reasoning",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2608.05643v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "On-Policy Delta Distillation for Multilingual Math Reasoning",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2608.05802v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Enhancing Social Intelligence in LLMs with Hierarchical Reasoning and Utterance-Level Goal Rewarding",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2608.05832v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Evaluation Pitfalls and Sparsity Limitations in LLM-based Confidence Estimates for Classification",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2608.04899v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "A-SR: Self-Evolving Agentic LLMs for Symbolic Regression via Hierarchical Coordination",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2608.04872v2",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Agentic Reinforcement Learning with Observation-Calibrated Self-Distillation",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2608.04788v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Caching for the Future: Scrub Jay Episodic Memory Principles for Agent Memory Systems",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2608.04746v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Trajectory-Relative Hindsight Distillation for Agentic Reinforcement Learning",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2608.07371v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Relevant but Incomplete: Referential Dangling as a Paradigm-Level Failure Mode in Hard Prompt Compression",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2608.04569v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Prune Once: Retraining-Free Task-Agnostic Pruning for Vision-Language Models",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2608.06901v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "On-Policy Self-Distillation without Any Supervision",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2608.06296v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "AgentOPSD: Recursive Self-Distillation for Agentic Reinforcement Learning",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2608.05987v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Critical Acclaim Orientation in Large Language Models: Evidence from Film Preference Elicitation",
+      "vendor": "Mistral",
+      "url": "http://arxiv.org/abs/2608.06955v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Human-Like Anaphor Resolution in Large Language Models",
+      "vendor": "Mistral",
+      "url": "http://arxiv.org/abs/2608.05630v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
     {
       "kind": "vendor-news",
       "name": "AI for everyone? A roadmap to substantive equality in AI ecosystems - OECD AI Policy Observatory",
@@ -945,87 +1575,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-08-07T11:17:23.282741+00:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "AI Auto-Orders: Who Breaks the Law? Amazon's Perplexity Ban Faces a Reversal - 36 Kr",
-      "vendor": "eu.36kr.com",
-      "url": "https://eu.36kr.com/en/p/3927446467352451",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-08-07T11:17:21.458145+00:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "GPT-5.6 Fully Open Free to All Users Now – Next-Gen AI Behemoth Astra Launches Blitzkrieg - 36 Kr",
-      "vendor": "eu.36kr.com",
-      "url": "https://eu.36kr.com/en/p/3928686064171400",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-08-07T11:17:20.562253+00:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "180 Billion Yuan, AI Smartphone Giant Plans IPO - 36 Kr",
-      "vendor": "eu.36kr.com",
-      "url": "https://eu.36kr.com/en/p/3928819918780547",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-08-07T11:17:19.655788+00:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Breakthrough in Science: AI Generates First Complete, Viable Phage Genome Capable of Inhibiting Bacteria - 36 Kr",
-      "vendor": "eu.36kr.com",
-      "url": "https://eu.36kr.com/en/p/3928726786095491",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-08-07T11:17:18.756698+00:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "\"AI Prodigy\" Takes Its First Strategic Move Post-Crisis - 36 Kr",
-      "vendor": "eu.36kr.com",
-      "url": "https://eu.36kr.com/en/p/3928742955497603",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-08-07T11:17:17.84986+00:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Google’s AI Brain No Longer Leads: Can Gemini Truly Step Up to the Plate This Time? - 36 Kr",
-      "vendor": "eu.36kr.com",
-      "url": "https://eu.36kr.com/en/p/3928771000809608",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-08-07T11:17:16.942533+00:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "AI Era Performance Evaluation: 3 Critical Levels Beyond Mere Output Quantity - 36 Kr",
-      "vendor": "eu.36kr.com",
-      "url": "https://eu.36kr.com/en/p/3928706760702082",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-08-07T11:17:16.029997+00:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "AI Telecom Fraud Invades Wall Street: $200 Billion Hedge Fund Targeted in Cyber Attack - 36 Kr",
-      "vendor": "eu.36kr.com",
-      "url": "https://eu.36kr.com/en/p/3928827136342148",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-08-07T11:17:15.132698+00:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "2.1B Yuan Annual Revenue: 1970s-Born Shenzhen Couple Dominating Global AI Chip Key Component Market Sprint for Hong Kong IPO - 36 Kr",
-      "vendor": "eu.36kr.com",
-      "url": "https://eu.36kr.com/en/p/3928948176436360",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-08-07T11:17:14.188899+00:00"
     },
     {
       "kind": "vendor-news",
@@ -6948,60 +7497,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-07-31T00:45:06.295038+00:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "AI safety needs social scientists",
-      "vendor": "OpenAI",
-      "url": "https://openai.com/index/ai-safety-needs-social-scientists",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-07-31T00:45:06.291481+00:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Why responsible AI development needs cooperation on safety",
-      "vendor": "OpenAI",
-      "url": "https://openai.com/index/cooperation-on-safety",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-07-31T00:45:06.287978+00:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Improving verifiability in AI development",
-      "vendor": "OpenAI",
-      "url": "https://openai.com/index/improving-verifiability",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-07-31T00:45:06.284422+00:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "AI and efficiency",
-      "vendor": "OpenAI",
-      "url": "https://openai.com/index/ai-and-efficiency",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-07-31T00:45:06.280921+00:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "AI-written critiques help humans notice flaws",
-      "vendor": "OpenAI",
-      "url": "https://openai.com/index/critiques",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-07-31T00:45:06.276784+00:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "New AI classifier for indicating AI-written text",
-      "vendor": "OpenAI",
-      "url": "https://openai.com/index/new-ai-classifier-for-indicating-ai-written-text",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-07-31T00:45:06.273122+00:00"
     }
   ]
 }
