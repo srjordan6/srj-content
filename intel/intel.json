@@ -1,6 +1,15 @@
 {
-  "generated": "2026-08-13T18:11:31Z",
+  "generated": "2026-08-13T18:47:44Z",
   "items": [
+    {
+      "kind": "vendor-news",
+      "name": "Governance, tech key to healthy AI - China Daily",
+      "vendor": "chinadaily.com.cn",
+      "url": "https://www.chinadaily.com.cn/a/202511/11/WS69128f03a310fc20369a4576.html",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-13T18:36:41.368001+00:00"
+    },
     {
       "kind": "vendor-news",
       "name": "Minister Champagne launches voluntary code of conduct relating to advanced generative AI systems - canada.ca",
@@ -1650,27 +1659,9 @@
     },
     {
       "kind": "paper",
-      "name": "Policy-Masked Private Experts: Auditable and Reversible Capability Access Control in Sparse MoE Models",
-      "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.06690v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Human-Like Anaphor Resolution in Large Language Models",
-      "vendor": "Mistral",
-      "url": "http://arxiv.org/abs/2608.05630v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Critical Acclaim Orientation in Large Language Models: Evidence from Film Preference Elicitation",
-      "vendor": "Mistral",
-      "url": "http://arxiv.org/abs/2608.06955v1",
+      "name": "EvoHarness-RL: Learning Self-Evolving Runtime Harness for Long-Horizon LLM Agents",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2608.05446v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -1680,6 +1671,15 @@
       "name": "Grammar Engineering Meets LLMs: Development of Cantonese and Irish ParGram Treebanks",
       "vendor": "OpenAI",
       "url": "http://arxiv.org/abs/2608.07283v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "LMM Modality Transfer: A Pre-requisite for Autonomous GIS Agents",
+      "vendor": "OpenAI",
+      "url": "http://arxiv.org/abs/2608.06948v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -1704,18 +1704,9 @@
     },
     {
       "kind": "paper",
-      "name": "LMM Modality Transfer: A Pre-requisite for Autonomous GIS Agents",
-      "vendor": "OpenAI",
-      "url": "http://arxiv.org/abs/2608.06948v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Agentic Reinforcement Learning with Observation-Calibrated Self-Distillation",
+      "name": "Relevant but Incomplete: Referential Dangling as a Paradigm-Level Failure Mode in Hard Prompt Compression",
       "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.04788v1",
+      "url": "http://arxiv.org/abs/2608.04569v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -1725,6 +1716,15 @@
       "name": "Caching for the Future: Scrub Jay Episodic Memory Principles for Agent Memory Systems",
       "vendor": "Qwen",
       "url": "http://arxiv.org/abs/2608.04746v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Agentic Reinforcement Learning with Observation-Calibrated Self-Distillation",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2608.04788v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -1749,6 +1749,15 @@
     },
     {
       "kind": "paper",
+      "name": "Prune Once: Retraining-Free Task-Agnostic Pruning for Vision-Language Models",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2608.06901v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
       "name": "Toward Skill-Native LLMs: Skill Entropy for Benchmarking and Training Long-Horizon Reasoning",
       "vendor": "Qwen",
       "url": "http://arxiv.org/abs/2608.05139v1",
@@ -1767,9 +1776,18 @@
     },
     {
       "kind": "paper",
-      "name": "Automated item evaluation: Predicting item acceptance and rejection using LLM-generated critiques",
-      "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.06609v1",
+      "name": "Human-Like Anaphor Resolution in Large Language Models",
+      "vendor": "Mistral",
+      "url": "http://arxiv.org/abs/2608.05630v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Critical Acclaim Orientation in Large Language Models: Evidence from Film Preference Elicitation",
+      "vendor": "Mistral",
+      "url": "http://arxiv.org/abs/2608.06955v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -1785,45 +1803,9 @@
     },
     {
       "kind": "paper",
-      "name": "EvoHarness-RL: Learning Self-Evolving Runtime Harness for Long-Horizon LLM Agents",
+      "name": "Automated item evaluation: Predicting item acceptance and rejection using LLM-generated critiques",
       "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.05446v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "DBLAST: Dependent Block Drafting for Stochastic Speculative Decoding",
-      "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.05448v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Relevant but Incomplete: Referential Dangling as a Paradigm-Level Failure Mode in Hard Prompt Compression",
-      "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.04569v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Coupling Planning with Episodic Memory in LLM Agents for Software Issue Resolution",
-      "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.06811v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "TaskSense: Focusing on What Matters in World Models",
-      "vendor": "DeepMind",
-      "url": "http://arxiv.org/abs/2608.06544v1",
+      "url": "http://arxiv.org/abs/2608.06609v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -1839,27 +1821,18 @@
     },
     {
       "kind": "paper",
+      "name": "TaskSense: Focusing on What Matters in World Models",
+      "vendor": "DeepMind",
+      "url": "http://arxiv.org/abs/2608.06544v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
       "name": "Observation-Grounded Self-Predictive Reinforcement Learning for Visual Continuous Control",
       "vendor": "DeepMind",
       "url": "http://arxiv.org/abs/2608.05989v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Transformers Struggle to Use Their Emergent World Models: Revisiting the Tower of Hanoi, and the Illusion of Thinking",
-      "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.07077v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Fisher-R1: Training LLM Agents for Reliable Hypothesis Testing",
-      "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.07437v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -1875,9 +1848,9 @@
     },
     {
       "kind": "paper",
-      "name": "IB-RL: Isolated Bilateral Reinforcement Learning for Strategic Dialogue Agents",
+      "name": "Transformers Struggle to Use Their Emergent World Models: Revisiting the Tower of Hanoi, and the Illusion of Thinking",
       "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.06735v1",
+      "url": "http://arxiv.org/abs/2608.07077v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -1896,6 +1869,42 @@
       "name": "Same Formulas, Different Semantics: Do Language Models Follow Modal Logic Specifications?",
       "vendor": "DeepSeek",
       "url": "http://arxiv.org/abs/2608.05097v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Fisher-R1: Training LLM Agents for Reliable Hypothesis Testing",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2608.07437v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Coupling Planning with Episodic Memory in LLM Agents for Software Issue Resolution",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2608.06811v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "IB-RL: Isolated Bilateral Reinforcement Learning for Strategic Dialogue Agents",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2608.06735v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Policy-Masked Private Experts: Auditable and Reversible Capability Access Control in Sparse MoE Models",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2608.06690v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
