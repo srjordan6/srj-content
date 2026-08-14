@@ -1,6 +1,33 @@
 {
-  "generated": "2026-08-14T16:13:31Z",
+  "generated": "2026-08-14T17:29:06Z",
   "items": [
+    {
+      "kind": "vendor-news",
+      "name": "25 Years Old, With a Valuation of 200 Million, Funloom AI Reconstructs the Game Creation Process with AI-Native RPGs - 36Kr",
+      "vendor": "eu.36kr.com",
+      "url": "https://eu.36kr.com/en/p/3936164243914115",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-14T17:22:35.6945+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "From DeepSeek \u0026 Kimi to the \"Jensen Huang Alliance\": What Real Value Does AI Model Open-Sourcing Unlock? - 36Kr",
+      "vendor": "eu.36kr.com",
+      "url": "https://eu.36kr.com/en/p/3938842437778562",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-14T17:22:09.642427+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Moonshot AI IPO: The Large Model Track's \"Second Stock\" in the Market Demands a New Growth Narrative - 36Kr",
+      "vendor": "eu.36kr.com",
+      "url": "https://eu.36kr.com/en/p/3938853888097409",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-14T17:22:08.693344+00:00"
+    },
     {
       "kind": "vendor-news",
       "name": "Press Release | UN and OECD announce next steps in collaboration on Artificial Intelligence - Welcome to the United Nations",
@@ -576,33 +603,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-08-14T01:16:11.187581+00:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "SMIC: Cyclical Bull Market + Domestic AI Chips, the Dual Champion Takes Off - 36Kr",
-      "vendor": "eu.36kr.com",
-      "url": "https://eu.36kr.com/en/p/3937919007112584",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-08-14T01:16:10.196525+00:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "3 Must-Have AI-Powered Office Tools for Modern Workers | Fully Remade by WorkBuddy - 36Kr",
-      "vendor": "eu.36kr.com",
-      "url": "https://eu.36kr.com/en/p/3938552011767170",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-08-14T01:16:09.257714+00:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Changxin Takes Top Market Capitalization Spot, Tencent Secures AI Computing Power \"Granary\" - 36Kr",
-      "vendor": "eu.36kr.com",
-      "url": "https://eu.36kr.com/en/p/3938066101582978",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-08-14T01:16:08.281589+00:00"
     },
     {
       "kind": "vendor-news",
@@ -2091,54 +2091,54 @@
     },
     {
       "kind": "paper",
-      "name": "Policy-Masked Private Experts: Auditable and Reversible Capability Access Control in Sparse MoE Models",
+      "name": "Hardware Keystores for AI Agent Signing Workflows: A Zero-Trust MCP Enforcement Architecture",
       "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.06690v1",
+      "url": "http://arxiv.org/abs/2608.06130v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
     },
     {
       "kind": "paper",
-      "name": "Agentic Reinforcement Learning with Observation-Calibrated Self-Distillation",
+      "name": "On-Policy Self-Distillation without Any Supervision",
       "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.04788v1",
+      "url": "http://arxiv.org/abs/2608.06296v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
     },
     {
       "kind": "paper",
-      "name": "EvoHarness-RL: Learning Self-Evolving Runtime Harness for Long-Horizon LLM Agents",
+      "name": "Caching for the Future: Scrub Jay Episodic Memory Principles for Agent Memory Systems",
       "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.05446v1",
+      "url": "http://arxiv.org/abs/2608.04746v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
     },
     {
       "kind": "paper",
-      "name": "Cryptanalytic Extraction of Isolated Bias-Free GLU Feed-Forward Blocks by Antipodal Separation",
+      "name": "Operating Multi-Node Full Fine-Tuning on NVIDIA B300: A Field Report on Telemetry-Based Triage, Negative Results, and Operational Hardening",
       "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.06631v1",
+      "url": "http://arxiv.org/abs/2608.05944v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
     },
     {
       "kind": "paper",
-      "name": "AgentOPSD: Recursive Self-Distillation for Agentic Reinforcement Learning",
+      "name": "Relevant but Incomplete: Referential Dangling as a Paradigm-Level Failure Mode in Hard Prompt Compression",
       "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.05987v1",
+      "url": "http://arxiv.org/abs/2608.04569v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
     },
     {
       "kind": "paper",
-      "name": "NiyamAI - An Intent-Bound AI Agent with Cryptographically Verifiable Guardrails using Zero-Knowledge Proofs",
+      "name": "Grammar Engineering Meets LLMs: Development of Cantonese and Irish ParGram Treebanks",
       "vendor": "OpenAI",
-      "url": "http://arxiv.org/abs/2608.07167v1",
+      "url": "http://arxiv.org/abs/2608.07283v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -2154,18 +2154,18 @@
     },
     {
       "kind": "paper",
-      "name": "LMM Modality Transfer: A Pre-requisite for Autonomous GIS Agents",
+      "name": "NiyamAI - An Intent-Bound AI Agent with Cryptographically Verifiable Guardrails using Zero-Knowledge Proofs",
       "vendor": "OpenAI",
-      "url": "http://arxiv.org/abs/2608.06948v1",
+      "url": "http://arxiv.org/abs/2608.07167v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
     },
     {
       "kind": "paper",
-      "name": "Grammar Engineering Meets LLMs: Development of Cantonese and Irish ParGram Treebanks",
+      "name": "LMM Modality Transfer: A Pre-requisite for Autonomous GIS Agents",
       "vendor": "OpenAI",
-      "url": "http://arxiv.org/abs/2608.07283v1",
+      "url": "http://arxiv.org/abs/2608.06948v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -2190,9 +2190,9 @@
     },
     {
       "kind": "paper",
-      "name": "Observation-Grounded Self-Predictive Reinforcement Learning for Visual Continuous Control",
+      "name": "TaskSense: Focusing on What Matters in World Models",
       "vendor": "DeepMind",
-      "url": "http://arxiv.org/abs/2608.05989v1",
+      "url": "http://arxiv.org/abs/2608.06544v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -2208,18 +2208,18 @@
     },
     {
       "kind": "paper",
-      "name": "TaskSense: Focusing on What Matters in World Models",
+      "name": "Observation-Grounded Self-Predictive Reinforcement Learning for Visual Continuous Control",
       "vendor": "DeepMind",
-      "url": "http://arxiv.org/abs/2608.06544v1",
+      "url": "http://arxiv.org/abs/2608.05989v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
     },
     {
       "kind": "paper",
-      "name": "Coupling Planning with Episodic Memory in LLM Agents for Software Issue Resolution",
+      "name": "Transformers Struggle to Use Their Emergent World Models: Revisiting the Tower of Hanoi, and the Illusion of Thinking",
       "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.06811v1",
+      "url": "http://arxiv.org/abs/2608.07077v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -2235,9 +2235,9 @@
     },
     {
       "kind": "paper",
-      "name": "Same Formulas, Different Semantics: Do Language Models Follow Modal Logic Specifications?",
+      "name": "Policy-Masked Private Experts: Auditable and Reversible Capability Access Control in Sparse MoE Models",
       "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.05097v1",
+      "url": "http://arxiv.org/abs/2608.06690v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -2253,18 +2253,27 @@
     },
     {
       "kind": "paper",
-      "name": "Hardware Keystores for AI Agent Signing Workflows: A Zero-Trust MCP Enforcement Architecture",
+      "name": "Coupling Planning with Episodic Memory in LLM Agents for Software Issue Resolution",
       "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.06130v1",
+      "url": "http://arxiv.org/abs/2608.06811v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
     },
     {
       "kind": "paper",
-      "name": "Operating Multi-Node Full Fine-Tuning on NVIDIA B300: A Field Report on Telemetry-Based Triage, Negative Results, and Operational Hardening",
+      "name": "AgentOPSD: Recursive Self-Distillation for Agentic Reinforcement Learning",
       "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.05944v1",
+      "url": "http://arxiv.org/abs/2608.05987v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Same Formulas, Different Semantics: Do Language Models Follow Modal Logic Specifications?",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2608.05097v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -2274,15 +2283,6 @@
       "name": "IB-RL: Isolated Bilateral Reinforcement Learning for Strategic Dialogue Agents",
       "vendor": "DeepSeek",
       "url": "http://arxiv.org/abs/2608.06735v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Transformers Struggle to Use Their Emergent World Models: Revisiting the Tower of Hanoi, and the Illusion of Thinking",
-      "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.07077v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
