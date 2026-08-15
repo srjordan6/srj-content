@@ -1,6 +1,33 @@
 {
-  "generated": "2026-08-15T00:15:20Z",
+  "generated": "2026-08-15T01:37:22Z",
   "items": [
+    {
+      "kind": "vendor-news",
+      "name": "Naver's AI Tab Bridges Search to Execution - 조선일보",
+      "vendor": "chosun.com",
+      "url": "https://www.chosun.com/english/industry-en/2026/04/28/ZZIM7J6YUJB5TI3BG4L3XWJ6T4/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-15T01:29:43.175401+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Singapore maps who is liable when AI agents cause harm - PPC Land",
+      "vendor": "ppc.land",
+      "url": "https://ppc.land/singapore-maps-who-is-liable-when-ai-agents-cause-harm/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-15T01:28:33.802464+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Apple Trains China-Specific AI Model With Alibaba in Bid to Regain Ground Against Huawei - finance.biggo.com",
+      "vendor": "finance.biggo.com",
+      "url": "https://finance.biggo.com/news/33ab3758-ff4f-4eff-96ce-17b8a1f46632",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-15T01:26:43.385367+00:00"
+    },
     {
       "kind": "vendor-news",
       "name": "KAIST develops AI semiconductor that adapts to data speed - 헤럴드경제",
@@ -2262,9 +2289,27 @@
     },
     {
       "kind": "paper",
-      "name": "Transformers Struggle to Use Their Emergent World Models: Revisiting the Tower of Hanoi, and the Illusion of Thinking",
-      "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.07077v1",
+      "name": "Grammar Engineering Meets LLMs: Development of Cantonese and Irish ParGram Treebanks",
+      "vendor": "OpenAI",
+      "url": "http://arxiv.org/abs/2608.07283v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Caching for the Future: Scrub Jay Episodic Memory Principles for Agent Memory Systems",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2608.04746v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Relevant but Incomplete: Referential Dangling as a Paradigm-Level Failure Mode in Hard Prompt Compression",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2608.04569v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -2298,27 +2343,9 @@
     },
     {
       "kind": "paper",
-      "name": "Operating Multi-Node Full Fine-Tuning on NVIDIA B300: A Field Report on Telemetry-Based Triage, Negative Results, and Operational Hardening",
-      "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.05944v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Toward Skill-Native LLMs: Skill Entropy for Benchmarking and Training Long-Horizon Reasoning",
-      "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.05139v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Grammar Engineering Meets LLMs: Development of Cantonese and Irish ParGram Treebanks",
+      "name": "LMM Modality Transfer: A Pre-requisite for Autonomous GIS Agents",
       "vendor": "OpenAI",
-      "url": "http://arxiv.org/abs/2608.07283v1",
+      "url": "http://arxiv.org/abs/2608.06948v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -2334,27 +2361,9 @@
     },
     {
       "kind": "paper",
-      "name": "LMM Modality Transfer: A Pre-requisite for Autonomous GIS Agents",
-      "vendor": "OpenAI",
-      "url": "http://arxiv.org/abs/2608.06948v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Blast Radius",
-      "vendor": "OpenAI",
-      "url": "http://arxiv.org/abs/2608.07440v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Observation-Grounded Self-Predictive Reinforcement Learning for Visual Continuous Control",
+      "name": "TaskSense: Focusing on What Matters in World Models",
       "vendor": "DeepMind",
-      "url": "http://arxiv.org/abs/2608.05989v1",
+      "url": "http://arxiv.org/abs/2608.06544v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -2370,18 +2379,9 @@
     },
     {
       "kind": "paper",
-      "name": "TaskSense: Focusing on What Matters in World Models",
+      "name": "Observation-Grounded Self-Predictive Reinforcement Learning for Visual Continuous Control",
       "vendor": "DeepMind",
-      "url": "http://arxiv.org/abs/2608.06544v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Same Formulas, Different Semantics: Do Language Models Follow Modal Logic Specifications?",
-      "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.05097v1",
+      "url": "http://arxiv.org/abs/2608.05989v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -2391,24 +2391,6 @@
       "name": "Coupling Planning with Episodic Memory in LLM Agents for Software Issue Resolution",
       "vendor": "DeepSeek",
       "url": "http://arxiv.org/abs/2608.06811v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "WebGrader: Training LLMs for Web Development with Self-Evolving Programmatic Grader",
-      "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.06474v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Fisher-R1: Training LLM Agents for Reliable Hypothesis Testing",
-      "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.07437v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -2433,6 +2415,15 @@
     },
     {
       "kind": "paper",
+      "name": "Fisher-R1: Training LLM Agents for Reliable Hypothesis Testing",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2608.07437v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
       "name": "IB-RL: Isolated Bilateral Reinforcement Learning for Strategic Dialogue Agents",
       "vendor": "DeepSeek",
       "url": "http://arxiv.org/abs/2608.06735v1",
@@ -2442,9 +2433,45 @@
     },
     {
       "kind": "paper",
+      "name": "WebGrader: Training LLMs for Web Development with Self-Evolving Programmatic Grader",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2608.06474v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Transformers Struggle to Use Their Emergent World Models: Revisiting the Tower of Hanoi, and the Illusion of Thinking",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2608.07077v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Same Formulas, Different Semantics: Do Language Models Follow Modal Logic Specifications?",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2608.05097v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
       "name": "Critical Acclaim Orientation in Large Language Models: Evidence from Film Preference Elicitation",
       "vendor": "Mistral",
       "url": "http://arxiv.org/abs/2608.06955v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Blast Radius",
+      "vendor": "OpenAI",
+      "url": "http://arxiv.org/abs/2608.07440v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
