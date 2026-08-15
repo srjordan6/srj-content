@@ -1,6 +1,33 @@
 {
-  "generated": "2026-08-15T20:53:08Z",
+  "generated": "2026-08-15T22:48:56Z",
   "items": [
+    {
+      "kind": "vendor-news",
+      "name": "The OECD Network of Experts on AI: Moving from principle to practice for trustworthy AI - OECD AI Policy Observatory",
+      "vendor": "oecd.ai",
+      "url": "https://oecd.ai/en/wonk/oecd-network-ai-experts-cooperation-for-trustworthy-beneficial-ai",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-15T22:46:57.44894+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Apple Trains China-Specific AI Model With Alibaba - Digital Pakistan",
+      "vendor": "digitalpakistan.pk",
+      "url": "https://digitalpakistan.pk/apple-trains-china-specific-ai-model-with-alibaba/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-15T22:39:03.430541+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Apple Trains Its Own China AI Model With Alibaba's Quiet Help - yellow.com",
+      "vendor": "yellow.com",
+      "url": "https://yellow.com/cincinnati.html/news/apple-trains-china-ai-model-alibaba",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-15T22:38:41.210264+00:00"
+    },
     {
       "kind": "vendor-news",
       "name": "Cohere and Aleph Alpha Form Transatlantic Sovereign AI Partnership - HPCwire",
@@ -2487,9 +2514,9 @@
     },
     {
       "kind": "paper",
-      "name": "NiyamAI - An Intent-Bound AI Agent with Cryptographically Verifiable Guardrails using Zero-Knowledge Proofs",
-      "vendor": "OpenAI",
-      "url": "http://arxiv.org/abs/2608.07167v1",
+      "name": "IB-RL: Isolated Bilateral Reinforcement Learning for Strategic Dialogue Agents",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2608.06735v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -2505,54 +2532,45 @@
     },
     {
       "kind": "paper",
-      "name": "Cryptanalytic Extraction of Isolated Bias-Free GLU Feed-Forward Blocks by Antipodal Separation",
-      "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.06631v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "EMAS: Stabilizing Multi-Agent System Evolution through Evidence-Guided Revision",
-      "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.07196v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "DiDPO: Diff-in-Diff Policy Optimization for Coding Agent Training",
-      "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.07147v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "RoRA: Role-Oriented Regional Allocation for Visual Token Pruning in MLLMs",
-      "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.07088v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "A Picture is Worth a Thousand Tokens: How Vision Language Models Cut AI Energy Costs While Improving Accuracy",
-      "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.07427v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
       "name": "Critical Acclaim Orientation in Large Language Models: Evidence from Film Preference Elicitation",
       "vendor": "Mistral",
       "url": "http://arxiv.org/abs/2608.06955v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "NiyamAI - An Intent-Bound AI Agent with Cryptographically Verifiable Guardrails using Zero-Knowledge Proofs",
+      "vendor": "OpenAI",
+      "url": "http://arxiv.org/abs/2608.07167v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Blast Radius",
+      "vendor": "OpenAI",
+      "url": "http://arxiv.org/abs/2608.07440v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "LMM Modality Transfer: A Pre-requisite for Autonomous GIS Agents",
+      "vendor": "OpenAI",
+      "url": "http://arxiv.org/abs/2608.06948v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Grammar Engineering Meets LLMs: Development of Cantonese and Irish ParGram Treebanks",
+      "vendor": "OpenAI",
+      "url": "http://arxiv.org/abs/2608.07283v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -2568,15 +2586,6 @@
     },
     {
       "kind": "paper",
-      "name": "Observation-Grounded Self-Predictive Reinforcement Learning for Visual Continuous Control",
-      "vendor": "DeepMind",
-      "url": "http://arxiv.org/abs/2608.05989v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
       "name": "ProDVI: Programmatic Dynamics Priors for Value Network Initialization",
       "vendor": "DeepMind",
       "url": "http://arxiv.org/abs/2608.06015v1",
@@ -2586,9 +2595,27 @@
     },
     {
       "kind": "paper",
-      "name": "WebGrader: Training LLMs for Web Development with Self-Evolving Programmatic Grader",
+      "name": "Observation-Grounded Self-Predictive Reinforcement Learning for Visual Continuous Control",
+      "vendor": "DeepMind",
+      "url": "http://arxiv.org/abs/2608.05989v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Fisher-R1: Training LLM Agents for Reliable Hypothesis Testing",
       "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.06474v1",
+      "url": "http://arxiv.org/abs/2608.07437v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Coupling Planning with Episodic Memory in LLM Agents for Software Issue Resolution",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2608.06811v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -2613,9 +2640,9 @@
     },
     {
       "kind": "paper",
-      "name": "Fisher-R1: Training LLM Agents for Reliable Hypothesis Testing",
+      "name": "WebGrader: Training LLMs for Web Development with Self-Evolving Programmatic Grader",
       "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.07437v1",
+      "url": "http://arxiv.org/abs/2608.06474v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -2631,24 +2658,6 @@
     },
     {
       "kind": "paper",
-      "name": "Coupling Planning with Episodic Memory in LLM Agents for Software Issue Resolution",
-      "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.06811v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "IB-RL: Isolated Bilateral Reinforcement Learning for Strategic Dialogue Agents",
-      "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.06735v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
       "name": "Policy-Masked Private Experts: Auditable and Reversible Capability Access Control in Sparse MoE Models",
       "vendor": "DeepSeek",
       "url": "http://arxiv.org/abs/2608.06690v1",
@@ -2658,27 +2667,45 @@
     },
     {
       "kind": "paper",
-      "name": "LMM Modality Transfer: A Pre-requisite for Autonomous GIS Agents",
-      "vendor": "OpenAI",
-      "url": "http://arxiv.org/abs/2608.06948v1",
+      "name": "NTDH: Complex Reasoning for Comprehensive Affective Analysis",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2608.06425v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
     },
     {
       "kind": "paper",
-      "name": "Blast Radius",
-      "vendor": "OpenAI",
-      "url": "http://arxiv.org/abs/2608.07440v1",
+      "name": "EvoHarness-RL: Learning Self-Evolving Runtime Harness for Long-Horizon LLM Agents",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2608.05446v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
     },
     {
       "kind": "paper",
-      "name": "Grammar Engineering Meets LLMs: Development of Cantonese and Irish ParGram Treebanks",
-      "vendor": "OpenAI",
-      "url": "http://arxiv.org/abs/2608.07283v1",
+      "name": "Automated item evaluation: Predicting item acceptance and rejection using LLM-generated critiques",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2608.06609v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Trajectory-Relative Hindsight Distillation for Agentic Reinforcement Learning",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2608.07371v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Diffusion LLMs as Targets and Adversaries: Mechanistic Safety Exploits",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2608.07430v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
