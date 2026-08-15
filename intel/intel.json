@@ -1,6 +1,42 @@
 {
-  "generated": "2026-08-15T15:09:33Z",
+  "generated": "2026-08-15T18:36:46Z",
   "items": [
+    {
+      "kind": "vendor-news",
+      "name": "IBM Welcomes OECD Principles for the Development and Use of AI - IBM",
+      "vendor": "ibm.com",
+      "url": "https://www.ibm.com/policy/blog/oecd-principles-ai",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-15T18:34:32.765616+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "2024’s Most Exciting AI Manifesto: Unveiled by Tech’s Most Unconventional Industry Figure - 36Kr",
+      "vendor": "eu.36kr.com",
+      "url": "https://eu.36kr.com/en/p/3940207148596612",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-15T18:29:36.902713+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "China issues guidelines to regulate, promote AI agents - China Daily Global Edition",
+      "vendor": "global.chinadaily.com.cn",
+      "url": "https://global.chinadaily.com.cn/a/202605/08/WS69fddeb6a310d6866eb47951.html",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-15T18:27:11.647692+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Apple develops own AI model for China with Alibaba's help - indiagazette.com",
+      "vendor": "indiagazette.com",
+      "url": "https://www.indiagazette.com/news/279241997/apple-develops-own-ai-model-for-china-with-alibaba-s-help",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-15T18:26:02.058395+00:00"
+    },
     {
       "kind": "vendor-news",
       "name": "Sovereign AI for the World: Cohere and Aleph Alpha to Form Global AI Powerhouse as Nations and Enterprises Demand Control Over Their Technology - via.tt.se",
@@ -864,15 +900,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-08-14T06:01:08.41535+00:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "The \"Lin Junyang Phenomenon\": Key Trend Reshaping Today's AI Venture Capital Circle - 36Kr",
-      "vendor": "eu.36kr.com",
-      "url": "https://eu.36kr.com/en/p/3938724332797062",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-08-14T06:01:07.500268+00:00"
     },
     {
       "kind": "vendor-news",
@@ -2424,9 +2451,27 @@
     },
     {
       "kind": "paper",
-      "name": "Blast Radius",
-      "vendor": "OpenAI",
-      "url": "http://arxiv.org/abs/2608.07440v1",
+      "name": "WebGrader: Training LLMs for Web Development with Self-Evolving Programmatic Grader",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2608.06474v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Critical Acclaim Orientation in Large Language Models: Evidence from Film Preference Elicitation",
+      "vendor": "Mistral",
+      "url": "http://arxiv.org/abs/2608.06955v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Human-Like Anaphor Resolution in Large Language Models",
+      "vendor": "Mistral",
+      "url": "http://arxiv.org/abs/2608.05630v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -2442,27 +2487,63 @@
     },
     {
       "kind": "paper",
-      "name": "IB-RL: Isolated Bilateral Reinforcement Learning for Strategic Dialogue Agents",
-      "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.06735v1",
+      "name": "Observation-Grounded Self-Predictive Reinforcement Learning for Visual Continuous Control",
+      "vendor": "DeepMind",
+      "url": "http://arxiv.org/abs/2608.05989v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
     },
     {
       "kind": "paper",
-      "name": "Policy-Masked Private Experts: Auditable and Reversible Capability Access Control in Sparse MoE Models",
-      "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.06690v1",
+      "name": "TaskSense: Focusing on What Matters in World Models",
+      "vendor": "DeepMind",
+      "url": "http://arxiv.org/abs/2608.06544v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
     },
     {
       "kind": "paper",
-      "name": "WebGrader: Training LLMs for Web Development with Self-Evolving Programmatic Grader",
+      "name": "ProDVI: Programmatic Dynamics Priors for Value Network Initialization",
+      "vendor": "DeepMind",
+      "url": "http://arxiv.org/abs/2608.06015v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "LMM Modality Transfer: A Pre-requisite for Autonomous GIS Agents",
+      "vendor": "OpenAI",
+      "url": "http://arxiv.org/abs/2608.06948v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "NiyamAI - An Intent-Bound AI Agent with Cryptographically Verifiable Guardrails using Zero-Knowledge Proofs",
+      "vendor": "OpenAI",
+      "url": "http://arxiv.org/abs/2608.07167v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Blast Radius",
+      "vendor": "OpenAI",
+      "url": "http://arxiv.org/abs/2608.07440v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Coupling Planning with Episodic Memory in LLM Agents for Software Issue Resolution",
       "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.06474v1",
+      "url": "http://arxiv.org/abs/2608.06811v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -2487,6 +2568,15 @@
     },
     {
       "kind": "paper",
+      "name": "Caching for the Future: Scrub Jay Episodic Memory Principles for Agent Memory Systems",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2608.04746v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
       "name": "Transformers Struggle to Use Their Emergent World Models: Revisiting the Tower of Hanoi, and the Illusion of Thinking",
       "vendor": "DeepSeek",
       "url": "http://arxiv.org/abs/2608.07077v1",
@@ -2505,117 +2595,54 @@
     },
     {
       "kind": "paper",
-      "name": "Coupling Planning with Episodic Memory in LLM Agents for Software Issue Resolution",
+      "name": "Policy-Masked Private Experts: Auditable and Reversible Capability Access Control in Sparse MoE Models",
       "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.06811v1",
+      "url": "http://arxiv.org/abs/2608.06690v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
     },
     {
       "kind": "paper",
-      "name": "NiyamAI - An Intent-Bound AI Agent with Cryptographically Verifiable Guardrails using Zero-Knowledge Proofs",
-      "vendor": "OpenAI",
-      "url": "http://arxiv.org/abs/2608.07167v1",
+      "name": "IB-RL: Isolated Bilateral Reinforcement Learning for Strategic Dialogue Agents",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2608.06735v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
     },
     {
       "kind": "paper",
-      "name": "LMM Modality Transfer: A Pre-requisite for Autonomous GIS Agents",
-      "vendor": "OpenAI",
-      "url": "http://arxiv.org/abs/2608.06948v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "A Picture is Worth a Thousand Tokens: How Vision Language Models Cut AI Energy Costs While Improving Accuracy",
+      "name": "Relevant but Incomplete: Referential Dangling as a Paradigm-Level Failure Mode in Hard Prompt Compression",
       "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.07427v1",
+      "url": "http://arxiv.org/abs/2608.04569v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
     },
     {
       "kind": "paper",
-      "name": "TaskSense: Focusing on What Matters in World Models",
-      "vendor": "DeepMind",
-      "url": "http://arxiv.org/abs/2608.06544v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Observation-Grounded Self-Predictive Reinforcement Learning for Visual Continuous Control",
-      "vendor": "DeepMind",
-      "url": "http://arxiv.org/abs/2608.05989v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Critical Acclaim Orientation in Large Language Models: Evidence from Film Preference Elicitation",
-      "vendor": "Mistral",
-      "url": "http://arxiv.org/abs/2608.06955v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "DiDPO: Diff-in-Diff Policy Optimization for Coding Agent Training",
+      "name": "A-SR: Self-Evolving Agentic LLMs for Symbolic Regression via Hierarchical Coordination",
       "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.07147v1",
+      "url": "http://arxiv.org/abs/2608.04872v2",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
     },
     {
       "kind": "paper",
-      "name": "EMAS: Stabilizing Multi-Agent System Evolution through Evidence-Guided Revision",
+      "name": "Trajectory-Relative Hindsight Distillation for Agentic Reinforcement Learning",
       "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.07196v1",
+      "url": "http://arxiv.org/abs/2608.07371v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
     },
     {
       "kind": "paper",
-      "name": "ProDVI: Programmatic Dynamics Priors for Value Network Initialization",
-      "vendor": "DeepMind",
-      "url": "http://arxiv.org/abs/2608.06015v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Diffusion LLMs as Targets and Adversaries: Mechanistic Safety Exploits",
+      "name": "Agentic Reinforcement Learning with Observation-Calibrated Self-Distillation",
       "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.07430v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Human-Like Anaphor Resolution in Large Language Models",
-      "vendor": "Mistral",
-      "url": "http://arxiv.org/abs/2608.05630v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Automated item evaluation: Predicting item acceptance and rejection using LLM-generated critiques",
-      "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.06609v1",
+      "url": "http://arxiv.org/abs/2608.04788v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
