@@ -1,6 +1,78 @@
 {
-  "generated": "2026-08-19T22:49:51Z",
+  "generated": "2026-08-19T23:58:51Z",
   "items": [
+    {
+      "kind": "vendor-news",
+      "name": "Artificial intelligence in health still needs human intelligence - oecd.ai",
+      "vendor": "oecd.ai",
+      "url": "https://oecd.ai/en/wonk/ai-in-healthcare-2020",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-19T23:56:57.500619+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "A sharp increase in AI-related venture capitalist investments could transform global economies and shape the future of artificial intelligence - oecd.ai",
+      "vendor": "oecd.ai",
+      "url": "https://oecd.ai/en/vc",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-19T23:56:55.576007+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "The Paris Peace Forum, our new partner for trustworthy AI - oecd.ai",
+      "vendor": "oecd.ai",
+      "url": "https://oecd.ai/en/paris-peace-forum",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-19T23:56:52.709177+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Policy makers can enable AI for the fight against COVID-19 - oecd.ai",
+      "vendor": "oecd.ai",
+      "url": "https://oecd.ai/en/wonk/policy-makers-can-enable-ais-contribution-to-the-fight-against-covid-19",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-19T23:56:51.762932+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "The OECD.AI Expert Group on AI Compute and Climate - oecd.ai",
+      "vendor": "oecd.ai",
+      "url": "https://oecd.ai/en/compute",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-19T23:56:26.220954+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Introducing the OECD.AI Policy Navigator - oecd.ai",
+      "vendor": "oecd.ai",
+      "url": "https://oecd.ai/en/wonk/introducing-gaiin",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-19T23:55:41.838817+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "High-Flying AI Stocks Plummet Across the Board: What Triggered the Sharp Market Sell-Off? - 36Kr",
+      "vendor": "eu.36kr.com",
+      "url": "https://eu.36kr.com/en/p/3946132555791494",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-19T23:51:37.728058+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "UNESCO AI Ethics Forum Highlights Saudi Arabia’s Global Standing, Culture Minister Says - وكالة الأنباء السعودية",
+      "vendor": "spa.gov.sa",
+      "url": "https://www.spa.gov.sa/en/N2650476",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-19T23:45:18.658973+00:00"
+    },
     {
       "kind": "vendor-news",
       "name": "Cross-Border Merger Talks in AI: Cohere and Aleph Alpha - Devdiscourse",
@@ -378,15 +450,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-08-19T03:22:35.24548+00:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "The Shortest Tech Boom in History: Why the \"Artificial Intelligence Era\" Will End Faster Than You Expect - 36Kr",
-      "vendor": "eu.36kr.com",
-      "url": "https://eu.36kr.com/en/p/3904980881360518",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-08-19T03:22:34.289545+00:00"
     },
     {
       "kind": "vendor-news",
@@ -3243,18 +3306,27 @@
     },
     {
       "kind": "paper",
-      "name": "NiyamAI - An Intent-Bound AI Agent with Cryptographically Verifiable Guardrails using Zero-Knowledge Proofs",
+      "name": "LMM Modality Transfer: A Pre-requisite for Autonomous GIS Agents",
       "vendor": "OpenAI",
-      "url": "http://arxiv.org/abs/2608.07167v1",
+      "url": "http://arxiv.org/abs/2608.06948v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
     },
     {
       "kind": "paper",
-      "name": "Policy-Masked Private Experts: Auditable and Reversible Capability Access Control in Sparse MoE Models",
+      "name": "Same Formulas, Different Semantics: Do Language Models Follow Modal Logic Specifications?",
       "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.06690v1",
+      "url": "http://arxiv.org/abs/2608.05097v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Fisher-R1: Training LLM Agents for Reliable Hypothesis Testing",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2608.07437v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -3270,9 +3342,36 @@
     },
     {
       "kind": "paper",
-      "name": "TaskSense: Focusing on What Matters in World Models",
-      "vendor": "DeepMind",
-      "url": "http://arxiv.org/abs/2608.06544v1",
+      "name": "Transformers Struggle to Use Their Emergent World Models: Revisiting the Tower of Hanoi, and the Illusion of Thinking",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2608.07077v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Policy-Masked Private Experts: Auditable and Reversible Capability Access Control in Sparse MoE Models",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2608.06690v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "IB-RL: Isolated Bilateral Reinforcement Learning for Strategic Dialogue Agents",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2608.06735v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "WebGrader: Training LLMs for Web Development with Self-Evolving Programmatic Grader",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2608.06474v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -3288,6 +3387,15 @@
     },
     {
       "kind": "paper",
+      "name": "TaskSense: Focusing on What Matters in World Models",
+      "vendor": "DeepMind",
+      "url": "http://arxiv.org/abs/2608.06544v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
       "name": "Observation-Grounded Self-Predictive Reinforcement Learning for Visual Continuous Control",
       "vendor": "DeepMind",
       "url": "http://arxiv.org/abs/2608.05989v1",
@@ -3297,18 +3405,9 @@
     },
     {
       "kind": "paper",
-      "name": "Human-Like Anaphor Resolution in Large Language Models",
-      "vendor": "Mistral",
-      "url": "http://arxiv.org/abs/2608.05630v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Grammar Engineering Meets LLMs: Development of Cantonese and Irish ParGram Treebanks",
+      "name": "NiyamAI - An Intent-Bound AI Agent with Cryptographically Verifiable Guardrails using Zero-Knowledge Proofs",
       "vendor": "OpenAI",
-      "url": "http://arxiv.org/abs/2608.07283v1",
+      "url": "http://arxiv.org/abs/2608.07167v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -3333,18 +3432,18 @@
     },
     {
       "kind": "paper",
-      "name": "LMM Modality Transfer: A Pre-requisite for Autonomous GIS Agents",
-      "vendor": "OpenAI",
-      "url": "http://arxiv.org/abs/2608.06948v1",
+      "name": "Human-Like Anaphor Resolution in Large Language Models",
+      "vendor": "Mistral",
+      "url": "http://arxiv.org/abs/2608.05630v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
     },
     {
       "kind": "paper",
-      "name": "Fisher-R1: Training LLM Agents for Reliable Hypothesis Testing",
-      "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.07437v1",
+      "name": "Grammar Engineering Meets LLMs: Development of Cantonese and Irish ParGram Treebanks",
+      "vendor": "OpenAI",
+      "url": "http://arxiv.org/abs/2608.07283v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -3354,42 +3453,6 @@
       "name": "Hardware Keystores for AI Agent Signing Workflows: A Zero-Trust MCP Enforcement Architecture",
       "vendor": "DeepSeek",
       "url": "http://arxiv.org/abs/2608.06130v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Same Formulas, Different Semantics: Do Language Models Follow Modal Logic Specifications?",
-      "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.05097v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "WebGrader: Training LLMs for Web Development with Self-Evolving Programmatic Grader",
-      "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.06474v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Transformers Struggle to Use Their Emergent World Models: Revisiting the Tower of Hanoi, and the Illusion of Thinking",
-      "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.07077v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "IB-RL: Isolated Bilateral Reinforcement Learning for Strategic Dialogue Agents",
-      "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.06735v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
