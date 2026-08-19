@@ -7,7 +7,7 @@
    "note": "Head-to-head human preference on general conversation. The closest thing the field has to a general-purpose ranking.",
    "scored": true,
    "source_url": "https://arena.ai/leaderboard/text",
-   "fetched_at": "2026-08-18T02:40:02.834053+00:00",
+   "fetched_at": "2026-08-19T02:42:57.878484+00:00",
    "count": 20,
    "models": [
     {
@@ -126,7 +126,7 @@
    "note": "The same vote mechanic restricted to coding prompts. Ranks differ sharply from the text board, which is the reason to read both.",
    "scored": true,
    "source_url": "https://arena.ai/leaderboard/code",
-   "fetched_at": "2026-08-18T02:40:02.834053+00:00",
+   "fetched_at": "2026-08-19T02:42:57.878484+00:00",
    "count": 50,
    "models": [
     {
@@ -142,7 +142,7 @@
      "rank": 2,
      "model": "kimi-k3-max",
      "vendor": "Moonshot",
-     "license": "open",
+     "license": "proprietary",
      "score": 1674,
      "ci": 11,
      "votes": 4546
@@ -245,7 +245,7 @@
    "note": "Multi-step tool-using tasks rather than single answers. The board that matters if the model will act rather than reply. Published as an order only, with no ratings.",
    "scored": false,
    "source_url": "https://arena.ai/leaderboard/agent",
-   "fetched_at": "2026-08-18T02:40:02.834053+00:00",
+   "fetched_at": "2026-08-19T02:42:57.878484+00:00",
    "count": 10,
    "models": [
     {
@@ -259,15 +259,6 @@
     },
     {
      "rank": 2,
-     "model": "Claude Fable 5 (High)",
-     "vendor": "Anthropic",
-     "license": "proprietary",
-     "score": null,
-     "ci": null,
-     "votes": null
-    },
-    {
-     "rank": 3,
      "model": "Claude Opus 5 (Max)",
      "vendor": "Anthropic",
      "license": "proprietary",
@@ -276,9 +267,18 @@
      "votes": null
     },
     {
+     "rank": 3,
+     "model": "Claude Fable 5 (High)",
+     "vendor": "Anthropic",
+     "license": "proprietary",
+     "score": null,
+     "ci": null,
+     "votes": null
+    },
+    {
      "rank": 4,
-     "model": "GPT 5.6 Sol (xHigh)",
-     "vendor": "OpenAI",
+     "model": "Kimi K3 (Max)",
+     "vendor": "Moonshot",
      "license": "proprietary",
      "score": null,
      "ci": null,
@@ -286,9 +286,9 @@
     },
     {
      "rank": 5,
-     "model": "Kimi K3 (Max)",
-     "vendor": "Moonshot",
-     "license": "open",
+     "model": "GPT 5.6 Sol (xHigh)",
+     "vendor": "OpenAI",
+     "license": "proprietary",
      "score": null,
      "ci": null,
      "votes": null
@@ -346,7 +346,7 @@
    "note": "Image understanding and mixed text-image prompts.",
    "scored": true,
    "source_url": "https://arena.ai/leaderboard/vision",
-   "fetched_at": "2026-08-18T02:40:02.834053+00:00",
+   "fetched_at": "2026-08-19T02:42:57.878484+00:00",
    "count": 20,
    "models": [
     {
@@ -465,7 +465,7 @@
    "note": "Models answering with live retrieval, where citation quality matters as much as fluency.",
    "scored": true,
    "source_url": "https://arena.ai/leaderboard/search",
-   "fetched_at": "2026-08-18T02:40:02.834053+00:00",
+   "fetched_at": "2026-08-19T02:42:57.878484+00:00",
    "count": 32,
    "models": [
     {
@@ -579,8 +579,8 @@
    ]
   }
  ],
- "date": "2026-08-18",
- "generated": "2026-08-18T22:18:29Z",
+ "date": "2026-08-19",
+ "generated": "2026-08-19T03:30:14Z",
  "method": "Crowdsourced blind pairwise voting, scored with a Bradley-Terry model and reported as an Elo-style rating with a 95 percent confidence interval. Gaps under roughly 10 points sit inside the noise floor and should not be read as a ranking.",
  "source": "arena.ai (formerly LMSYS Chatbot Arena)",
  "source_url": "https://arena.ai/leaderboard/"
