@@ -1,6 +1,60 @@
 {
-  "generated": "2026-08-19T23:58:51Z",
+  "generated": "2026-08-20T01:49:55Z",
   "items": [
+    {
+      "kind": "vendor-news",
+      "name": "Experts warn Canada risks losing top researchers in ‘global war for AI talent’ - CityNews Toronto",
+      "vendor": "toronto.citynews.ca",
+      "url": "https://toronto.citynews.ca/2026/01/21/experts-warn-canada-risks-losing-top-researchers-in-global-war-for-ai-talent/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-20T01:48:24.81574+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "AI agents 136.5 times less efficient than conventional AI - The Engineer",
+      "vendor": "theengineer.co.uk",
+      "url": "https://www.theengineer.co.uk/content/news/ai-agents-1365-times-less-efficient-than-conventional-ai",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-20T01:46:25.70847+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "KAIST researchers crack key 3D memory challenge, boosting AI chip performance - 헤럴드경제",
+      "vendor": "mbiz.heraldcorp.com",
+      "url": "https://mbiz.heraldcorp.com/article/10846133",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-20T01:45:09.37751+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "KAIST solves 3D memory reliability problem with \"oxygen tunnel\" structure, boosting AI chip performance and reducing power consumption - eurekalert.org",
+      "vendor": "eurekalert.org",
+      "url": "https://www.eurekalert.org/news-releases/1140648",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-20T01:45:07.512711+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Meituan Recoups 38 Billion Yuan AI Business Losses: How Wang Xing Turned the Tide - 36Kr",
+      "vendor": "eu.36kr.com",
+      "url": "https://eu.36kr.com/en/p/3946182290914438",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-20T01:42:48.785847+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "IMDA, legal bodies launch AI training for lawyers and in-house counsel - The Edge Singapore",
+      "vendor": "theedgesingapore.com",
+      "url": "https://www.theedgesingapore.com/digitaledge/artificial-intelligence/imda-legal-bodies-launch-ai-training-lawyers-and-house-counsel",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-20T01:40:12.42619+00:00"
+    },
     {
       "kind": "vendor-news",
       "name": "Artificial intelligence in health still needs human intelligence - oecd.ai",
@@ -441,15 +495,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-08-19T03:22:36.153947+00:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Beyond AI Hype: These Funds’ Net Asset Value Per Unit Quietly Hit New All-Time Highs - 36Kr",
-      "vendor": "eu.36kr.com",
-      "url": "https://eu.36kr.com/en/p/3944984708037764",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-08-19T03:22:35.24548+00:00"
     },
     {
       "kind": "vendor-news",
@@ -3306,36 +3351,9 @@
     },
     {
       "kind": "paper",
-      "name": "LMM Modality Transfer: A Pre-requisite for Autonomous GIS Agents",
+      "name": "NiyamAI - An Intent-Bound AI Agent with Cryptographically Verifiable Guardrails using Zero-Knowledge Proofs",
       "vendor": "OpenAI",
-      "url": "http://arxiv.org/abs/2608.06948v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Same Formulas, Different Semantics: Do Language Models Follow Modal Logic Specifications?",
-      "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.05097v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Fisher-R1: Training LLM Agents for Reliable Hypothesis Testing",
-      "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.07437v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Coupling Planning with Episodic Memory in LLM Agents for Software Issue Resolution",
-      "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.06811v1",
+      "url": "http://arxiv.org/abs/2608.07167v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -3351,18 +3369,36 @@
     },
     {
       "kind": "paper",
-      "name": "Policy-Masked Private Experts: Auditable and Reversible Capability Access Control in Sparse MoE Models",
+      "name": "Coupling Planning with Episodic Memory in LLM Agents for Software Issue Resolution",
       "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.06690v1",
+      "url": "http://arxiv.org/abs/2608.06811v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
     },
     {
       "kind": "paper",
-      "name": "IB-RL: Isolated Bilateral Reinforcement Learning for Strategic Dialogue Agents",
+      "name": "Fisher-R1: Training LLM Agents for Reliable Hypothesis Testing",
       "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.06735v1",
+      "url": "http://arxiv.org/abs/2608.07437v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Hardware Keystores for AI Agent Signing Workflows: A Zero-Trust MCP Enforcement Architecture",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2608.06130v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Same Formulas, Different Semantics: Do Language Models Follow Modal Logic Specifications?",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2608.05097v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -3378,18 +3414,18 @@
     },
     {
       "kind": "paper",
-      "name": "ProDVI: Programmatic Dynamics Priors for Value Network Initialization",
-      "vendor": "DeepMind",
-      "url": "http://arxiv.org/abs/2608.06015v1",
+      "name": "IB-RL: Isolated Bilateral Reinforcement Learning for Strategic Dialogue Agents",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2608.06735v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
     },
     {
       "kind": "paper",
-      "name": "TaskSense: Focusing on What Matters in World Models",
-      "vendor": "DeepMind",
-      "url": "http://arxiv.org/abs/2608.06544v1",
+      "name": "Policy-Masked Private Experts: Auditable and Reversible Capability Access Control in Sparse MoE Models",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2608.06690v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -3405,18 +3441,27 @@
     },
     {
       "kind": "paper",
-      "name": "NiyamAI - An Intent-Bound AI Agent with Cryptographically Verifiable Guardrails using Zero-Knowledge Proofs",
-      "vendor": "OpenAI",
-      "url": "http://arxiv.org/abs/2608.07167v1",
+      "name": "TaskSense: Focusing on What Matters in World Models",
+      "vendor": "DeepMind",
+      "url": "http://arxiv.org/abs/2608.06544v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
     },
     {
       "kind": "paper",
-      "name": "Blast Radius",
+      "name": "ProDVI: Programmatic Dynamics Priors for Value Network Initialization",
+      "vendor": "DeepMind",
+      "url": "http://arxiv.org/abs/2608.06015v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Grammar Engineering Meets LLMs: Development of Cantonese and Irish ParGram Treebanks",
       "vendor": "OpenAI",
-      "url": "http://arxiv.org/abs/2608.07440v1",
+      "url": "http://arxiv.org/abs/2608.07283v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -3441,18 +3486,18 @@
     },
     {
       "kind": "paper",
-      "name": "Grammar Engineering Meets LLMs: Development of Cantonese and Irish ParGram Treebanks",
+      "name": "Blast Radius",
       "vendor": "OpenAI",
-      "url": "http://arxiv.org/abs/2608.07283v1",
+      "url": "http://arxiv.org/abs/2608.07440v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
     },
     {
       "kind": "paper",
-      "name": "Hardware Keystores for AI Agent Signing Workflows: A Zero-Trust MCP Enforcement Architecture",
-      "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.06130v1",
+      "name": "LMM Modality Transfer: A Pre-requisite for Autonomous GIS Agents",
+      "vendor": "OpenAI",
+      "url": "http://arxiv.org/abs/2608.06948v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
