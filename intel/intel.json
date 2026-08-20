@@ -1,6 +1,24 @@
 {
-  "generated": "2026-08-20T19:14:55Z",
+  "generated": "2026-08-20T20:27:20Z",
   "items": [
+    {
+      "kind": "vendor-news",
+      "name": "AI and the Holocaust: rewriting history? The impact of artificial intelligence on understanding the Holocaust - UNESCO",
+      "vendor": "unesco.org",
+      "url": "https://www.unesco.org/en/articles/ai-and-holocaust-rewriting-history-impact-artificial-intelligence-understanding-holocaust",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-20T20:12:35.382181+00:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Introducing AI Futures",
+      "vendor": "OpenAI",
+      "url": "https://openai.com/index/introducing-ai-futures",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-20T20:08:33.335879+00:00"
+    },
     {
       "kind": "vendor-news",
       "name": "From risk to resilience: No-code AI governance in the Global South - OECD AI Policy Observatory",
@@ -3711,18 +3729,45 @@
     },
     {
       "kind": "paper",
-      "name": "Blast Radius",
+      "name": "LMM Modality Transfer: A Pre-requisite for Autonomous GIS Agents",
       "vendor": "OpenAI",
-      "url": "http://arxiv.org/abs/2608.07440v1",
+      "url": "http://arxiv.org/abs/2608.06948v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
     },
     {
       "kind": "paper",
-      "name": "LMM Modality Transfer: A Pre-requisite for Autonomous GIS Agents",
-      "vendor": "OpenAI",
-      "url": "http://arxiv.org/abs/2608.06948v1",
+      "name": "WebGrader: Training LLMs for Web Development with Self-Evolving Programmatic Grader",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2608.06474v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Coupling Planning with Episodic Memory in LLM Agents for Software Issue Resolution",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2608.06811v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "IB-RL: Isolated Bilateral Reinforcement Learning for Strategic Dialogue Agents",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2608.06735v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Same Formulas, Different Semantics: Do Language Models Follow Modal Logic Specifications?",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2608.05097v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -3747,63 +3792,9 @@
     },
     {
       "kind": "paper",
-      "name": "NiyamAI - An Intent-Bound AI Agent with Cryptographically Verifiable Guardrails using Zero-Knowledge Proofs",
-      "vendor": "OpenAI",
-      "url": "http://arxiv.org/abs/2608.07167v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "TaskSense: Focusing on What Matters in World Models",
-      "vendor": "DeepMind",
-      "url": "http://arxiv.org/abs/2608.06544v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Coupling Planning with Episodic Memory in LLM Agents for Software Issue Resolution",
+      "name": "Transformers Struggle to Use Their Emergent World Models: Revisiting the Tower of Hanoi, and the Illusion of Thinking",
       "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.06811v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Observation-Grounded Self-Predictive Reinforcement Learning for Visual Continuous Control",
-      "vendor": "DeepMind",
-      "url": "http://arxiv.org/abs/2608.05989v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "ProDVI: Programmatic Dynamics Priors for Value Network Initialization",
-      "vendor": "DeepMind",
-      "url": "http://arxiv.org/abs/2608.06015v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Grammar Engineering Meets LLMs: Development of Cantonese and Irish ParGram Treebanks",
-      "vendor": "OpenAI",
-      "url": "http://arxiv.org/abs/2608.07283v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Same Formulas, Different Semantics: Do Language Models Follow Modal Logic Specifications?",
-      "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.05097v1",
+      "url": "http://arxiv.org/abs/2608.07077v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -3819,18 +3810,36 @@
     },
     {
       "kind": "paper",
-      "name": "Transformers Struggle to Use Their Emergent World Models: Revisiting the Tower of Hanoi, and the Illusion of Thinking",
-      "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.07077v1",
+      "name": "TaskSense: Focusing on What Matters in World Models",
+      "vendor": "DeepMind",
+      "url": "http://arxiv.org/abs/2608.06544v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
     },
     {
       "kind": "paper",
-      "name": "WebGrader: Training LLMs for Web Development with Self-Evolving Programmatic Grader",
-      "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.06474v1",
+      "name": "ProDVI: Programmatic Dynamics Priors for Value Network Initialization",
+      "vendor": "DeepMind",
+      "url": "http://arxiv.org/abs/2608.06015v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Observation-Grounded Self-Predictive Reinforcement Learning for Visual Continuous Control",
+      "vendor": "DeepMind",
+      "url": "http://arxiv.org/abs/2608.05989v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Critical Acclaim Orientation in Large Language Models: Evidence from Film Preference Elicitation",
+      "vendor": "Mistral",
+      "url": "http://arxiv.org/abs/2608.06955v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -3846,18 +3855,27 @@
     },
     {
       "kind": "paper",
-      "name": "IB-RL: Isolated Bilateral Reinforcement Learning for Strategic Dialogue Agents",
-      "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.06735v1",
+      "name": "Blast Radius",
+      "vendor": "OpenAI",
+      "url": "http://arxiv.org/abs/2608.07440v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
     },
     {
       "kind": "paper",
-      "name": "Critical Acclaim Orientation in Large Language Models: Evidence from Film Preference Elicitation",
-      "vendor": "Mistral",
-      "url": "http://arxiv.org/abs/2608.06955v1",
+      "name": "Grammar Engineering Meets LLMs: Development of Cantonese and Irish ParGram Treebanks",
+      "vendor": "OpenAI",
+      "url": "http://arxiv.org/abs/2608.07283v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "NiyamAI - An Intent-Bound AI Agent with Cryptographically Verifiable Guardrails using Zero-Knowledge Proofs",
+      "vendor": "OpenAI",
+      "url": "http://arxiv.org/abs/2608.07167v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -10044,15 +10062,6 @@
       "summary": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
       "source": "rss",
       "discovered_at": "2026-07-31T11:03:07.407042+00:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Advancing responsible AI across Europe",
-      "vendor": "OpenAI",
-      "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
-      "summary": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
-      "source": "rss",
-      "discovered_at": "2026-07-31T11:03:07.403264+00:00"
     },
     {
       "kind": "vendor-news",
