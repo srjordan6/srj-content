@@ -738,9 +738,9 @@
             "jurisdiction": "China"
         },
         {
-            "url": "https://github.com/stanford-oval/storm",
+            "url": "https://github.com/stanfordnlp/dspy",
             "name": "DSPy",
-            "note": "Prompt optimization framework; Stanford research; systematic prompt engineering; reproducibility",
+            "note": "Declarative prompt-and-weight optimization; compile pipelines against a metric instead of hand-tuning prompts; Stanford NLP research lineage",
             "vendor": "Stanford NLP",
             "category": "Coding & Developer Tools",
             "jurisdiction": "US"
@@ -892,7 +892,7 @@
         {
             "url": "https://wandb.ai/",
             "name": "Weights & Biases",
-            "note": "ML experiment tracking; model registry; artifact lineage; MLOps governance",
+            "note": "ML experiment tracking, model registry, and artifact lineage; W&B Weave adds LLM and agent tracing, evaluation, and guardrails; acquired by CoreWeave",
             "vendor": "Weights & Biases",
             "category": "Coding & Developer Tools",
             "jurisdiction": "US"
@@ -2559,6 +2559,94 @@
             "note": "Marketing copy",
             "vendor": "Writesonic",
             "category": "Writing & Editing",
+            "jurisdiction": "US"
+        },
+        {
+            "url": "https://github.com/microsoft/semantic-kernel",
+            "name": "Semantic Kernel",
+            "note": "Model-agnostic orchestration SDK for .NET, Python, and Java; plugins, connectors, memory, agents; superseded by Microsoft Agent Framework in 2026",
+            "vendor": "Microsoft",
+            "category": "Coding & Developer Tools",
+            "jurisdiction": "US"
+        },
+        {
+            "url": "https://learn.microsoft.com/en-us/agent-framework/overview/",
+            "name": "Microsoft Agent Framework",
+            "note": "Successor to Semantic Kernel and AutoGen; unified .NET and Python agent SDK with graph workflows, native MCP and A2A support",
+            "vendor": "Microsoft",
+            "category": "Coding & Developer Tools",
+            "jurisdiction": "US"
+        },
+        {
+            "url": "https://www.langchain.com/langsmith",
+            "name": "LangSmith",
+            "note": "LLM and agent observability: tracing, evaluation, prompt versioning, annotation queues; deepest integration with LangChain and LangGraph; OpenTelemetry ingest",
+            "vendor": "LangChain",
+            "category": "AI Governance & Risk Management Platforms",
+            "jurisdiction": "US"
+        },
+        {
+            "url": "https://phoenix.arize.com/",
+            "name": "Arize Phoenix",
+            "note": "Source-available LLM observability built on OpenTelemetry and OpenInference; self-hostable tracing, evals, RAG metrics, embedding drift",
+            "vendor": "Arize AI",
+            "category": "AI Governance & Risk Management Platforms",
+            "jurisdiction": "US"
+        },
+        {
+            "url": "https://langfuse.com/",
+            "name": "Langfuse",
+            "note": "Open-source, framework-agnostic LLM observability: tracing, prompt management, evals, datasets; OpenTelemetry-native; acquired by ClickHouse",
+            "vendor": "Langfuse",
+            "category": "AI Governance & Risk Management Platforms",
+            "jurisdiction": "DE"
+        },
+        {
+            "url": "https://www.helicone.ai/",
+            "name": "Helicone",
+            "note": "Proxy-based LLM observability and gateway: one base-URL change for logging, caching, rate limiting; in maintenance mode since the March 2026 Mintlify acquisition",
+            "vendor": "Helicone (Mintlify)",
+            "category": "AI Governance & Risk Management Platforms",
+            "jurisdiction": "US"
+        },
+        {
+            "url": "https://github.com/explodinggradients/ragas",
+            "name": "Ragas",
+            "note": "Open-source RAG evaluation framework; defined the standard metric set (faithfulness, answer relevancy, context precision, context recall); reference-free LLM-as-judge scoring",
+            "vendor": "Exploding Gradients",
+            "category": "AI Governance & Risk Management Platforms",
+            "jurisdiction": "US"
+        },
+        {
+            "url": "https://www.trulens.org/",
+            "name": "TruLens",
+            "note": "Open-source LLM evaluation via feedback functions; RAG Triad of groundedness, context relevance, answer relevance; OpenTelemetry tracing",
+            "vendor": "TruEra / Snowflake",
+            "category": "AI Governance & Risk Management Platforms",
+            "jurisdiction": "US"
+        },
+        {
+            "url": "https://github.com/confident-ai/deepeval",
+            "name": "DeepEval",
+            "note": "Open-source LLM evaluation framework built on pytest; assertion-based CI gating, G-Eval, multi-turn conversational test cases, red-teaming companion library",
+            "vendor": "Confident AI",
+            "category": "AI Governance & Risk Management Platforms",
+            "jurisdiction": "US"
+        },
+        {
+            "url": "https://www.promptfoo.dev/",
+            "name": "Promptfoo",
+            "note": "Open-source prompt testing and red-teaming; declarative YAML test cases with deterministic assertions and LLM-graded checks; CI-first",
+            "vendor": "Promptfoo",
+            "category": "AI Governance & Risk Management Platforms",
+            "jurisdiction": "US"
+        },
+        {
+            "url": "https://www.braintrust.dev/",
+            "name": "Braintrust",
+            "note": "Evaluation-first LLM platform; datasets, scorers, CI quality gates, prompt iteration with production trace feedback",
+            "vendor": "Braintrust",
+            "category": "AI Governance & Risk Management Platforms",
             "jurisdiction": "US"
         }
     ],
