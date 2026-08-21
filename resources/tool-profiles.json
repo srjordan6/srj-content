@@ -4,6 +4,68 @@
     "caveat": "Pricing, version numbers, context-window sizes, and compliance certifications change frequently. Where stated they are accurate as of the as_of date and should be confirmed with the vendor before any procurement or compliance decision. Where they could not be stated confidently they are omitted rather than guessed.",
     "source": "SRJ editorial profiles, written from durable public knowledge",
     "profiles": {
+        "dspy": {
+            "api": "Python library. Optimizers include MIPROv2, GEPA, SIMBA, and BootstrapFewShot.",
+            "cons": [
+                "Needs labelled examples and a real metric before it can do anything for you",
+                "Compilation costs model calls, so optimization has a real dollar and time price",
+                "Prompts are generated behind abstractions, which makes inspection and debugging less direct",
+                "Not an orchestration framework; pair it with LangChain, LlamaIndex, or your own code for chaining and tools"
+            ],
+            "name": "DSPy",
+            "pros": [
+                "Turns prompt engineering into something you can measure, version, and reproduce",
+                "Recompiles for a new model instead of requiring a prompt rewrite",
+                "Strong research lineage with published optimizer methods"
+            ],
+            "tags": [
+                "Developer Tools",
+                "Open Source",
+                "Prompt Optimization",
+                "LLM Applications"
+            ],
+            "files": "No built-in retrieval or storage layer. Retrieval is integrated externally and wrapped as a module.",
+            "value": "A Python framework that treats an LLM pipeline as a program to be optimized rather than a prompt to be written. You declare a Signature (what goes in, what comes out), compose Modules (Predict, ChainOfThought, ReAct), supply a metric and a few dozen labelled examples, and an optimizer searches instructions and few-shot demonstrations for the configuration that scores best. The same program recompiles for a different model instead of being rewritten. This is a different job from LangChain or LlamaIndex: those orchestrate calls, DSPy tunes what is inside them.",
+            "access": [
+                "Open Source / Local Deployment"
+            ],
+            "engine": "Framework. Model-agnostic; compiles against any provider or local model.",
+            "status": "Active",
+            "vendor": "Stanford NLP",
+            "latency": "Runtime overhead is minimal. The compile pass itself is expensive: it makes many model calls to evaluate candidate prompts, so optimization is a build-time cost, not a request-time one.",
+            "pricing": [
+                {
+                    "tier": "Open source",
+                    "model": "$0",
+                    "limits": "None on the framework",
+                    "includes": "Full framework and all optimizers. Model API costs during compilation are yours."
+                }
+            ],
+            "quality": "Published research and practitioner reports show consistent gains over hand-written prompts on structured tasks with a clear metric. Gains depend on having enough labelled examples and a metric that actually captures quality; a poor metric or a small biased set will optimize toward the wrong target.",
+            "tagline": "Compile your prompts against a metric instead of hand-tuning them, the way you would train a model rather than write a template.",
+            "audience": [
+                "Dev Teams",
+                "Researchers"
+            ],
+            "use_cases": [
+                "Structured tasks with a measurable metric: classification, extraction, multi-hop question answering",
+                "Keeping a pipeline working across model changes by recompiling rather than rewriting prompts",
+                "Replacing trial-and-error prompt engineering with a repeatable, evaluable process"
+            ],
+            "alternatives": [
+                "LangChain",
+                "LlamaIndex",
+                "Hugging Face"
+            ],
+            "catalog_name": "DSPy",
+            "integrations": [
+                "All major LLM providers",
+                "Local models via Ollama and Hugging Face",
+                "Any retrieval layer wrapped as a module"
+            ],
+            "governance_note": "DSPy changes where prompt risk lives. A hand-written prompt is reviewable text in a repository; a compiled prompt is an artifact produced by an optimizer against a metric and a dataset. The audit questions become: what metric was optimized, what data was it optimized on, and is the compiled artifact versioned and reproducible. Optimizing against a metric that does not capture safety or fairness will efficiently produce a pipeline that scores well and behaves badly, so the metric definition itself belongs under review.",
+            "training_optout": "Framework only. Data handling is determined entirely by the model provider you compile and run against."
+        },
         "gong": {
             "api": "REST API for data export and CRM integration.",
             "cons": [
@@ -129,6 +191,70 @@
             ],
             "governance_note": "The information-disclosure risk from Glean runs in the same direction as with Microsoft Copilot and Notion AI: it surfaces content the user already has permission to see, but it surfaces it faster and in response to natural language questions. If permission settings are permissive, previously obscure content becomes easily discoverable. Run a permission audit on the connected sources before deploying rather than after discovering that an AI answered a question with a confidential document the user technically had access to.",
             "training_optout": "Glean does not train its models on customer content. The data stays indexed in a dedicated tenant. Verify the current DPA."
+        },
+        "ragas": {
+            "api": "Python. Integrates with LangChain, LlamaIndex, Haystack, DSPy, and any pipeline producing question, contexts, answer, and optional ground-truth tuples.",
+            "cons": [
+                "A metrics library only, with no UI, dashboards, experiment tracking, or production monitoring",
+                "LLM-as-judge scores vary between runs and between judge models; unpinned judges make trend lines meaningless",
+                "Judge calls make large suites slow and costly",
+                "Context recall still needs ground truth, so the labelling work does not disappear entirely"
+            ],
+            "name": "Ragas",
+            "pros": [
+                "Lowest barrier in the category: metrics running in a few lines of code",
+                "Reference-free faithfulness and answer relevancy work without labelled data",
+                "Retrieval and generation scored separately, so failures are diagnosable",
+                "De facto standard, so its metric names are the shared vocabulary"
+            ],
+            "tags": [
+                "Evaluation",
+                "Open Source",
+                "RAG",
+                "LLMOps"
+            ],
+            "files": "Works from datasets of question and context tuples; includes synthetic test-set generation from an existing document corpus.",
+            "value": "An open-source Python library that scores retrieval systems on four metrics that have become the category standard: faithfulness, answer relevancy, context precision, and context recall. Its defining choice is reference-free scoring for the first two, using the question and retrieved context as the standard instead of a human-written gold answer, which is what makes evaluation affordable past a few dozen cases and possible on live traffic. Scoring retrieval and generation separately is the practical payoff: a bad answer gets localised to the retriever or the generator rather than logged as a general quality complaint. Coverage has extended past pure RAG into agentic tool use, text-to-SQL, and multimodal grounding.",
+            "access": [
+                "Open Source / Local Deployment"
+            ],
+            "engine": "Python library. LLM-as-judge under the hood for most metrics.",
+            "status": "Active",
+            "vendor": "Exploding Gradients",
+            "latency": "Offline scoring. Each metric costs judge-model calls per test case, so a large suite is a real bill and a slow run, not a free check.",
+            "pricing": [
+                {
+                    "tier": "Open source",
+                    "model": "$0",
+                    "limits": "None on the library",
+                    "includes": "All metrics and synthetic test-set generation. Judge-model API costs are yours."
+                }
+            ],
+            "quality": "The canonical reference implementation, widely cited in academic RAG papers, which makes scores comparable across teams and studies. LLM-as-judge variance is the standing caveat: pin the judge model and rerun a sample, because judge changes move scores independently of pipeline changes.",
+            "tagline": "The framework that defined the standard RAG metrics, and the fastest way to put numbers on a retrieval pipeline.",
+            "audience": [
+                "Dev Teams",
+                "Researchers"
+            ],
+            "use_cases": [
+                "Tuning chunk size, embeddings, or retriever settings against measurable scores",
+                "Gating a pull request on a faithfulness or context recall threshold",
+                "Running reference-free metrics against production traffic to catch hallucination drift",
+                "Producing comparable numbers for a report or paper"
+            ],
+            "alternatives": [
+                "DeepEval",
+                "TruLens",
+                "Arize Phoenix"
+            ],
+            "catalog_name": "Ragas",
+            "integrations": [
+                "LangChain, LlamaIndex, Haystack, DSPy",
+                "Any custom pipeline via tuples",
+                "CI through GitHub Actions"
+            ],
+            "governance_note": "These metrics are the closest thing to a testable quality claim about a retrieval system, which makes them the natural evidence for an AI audit asking how output quality is verified. Two limits belong beside any score. First, faithfulness measures whether an answer matches its retrieved context, not whether that context is correct: a system can score 0.95 while grounded in a stale or wrong document, so source freshness and ownership remain a separate control. Second, the judge is a model with its own biases and version history, so a defensible programme pins the judge, records its version alongside every score, and keeps a human-reviewed sample. A score without the judge version recorded is not reproducible evidence.",
+            "training_optout": "Runs locally; the only external calls are to the judge model you configure, which means prompts and retrieved context reach that provider under its terms."
         },
         "vanta": {
             "api": "API for custom evidence integration.",
@@ -834,6 +960,71 @@
             "governance_note": "The most regulated AI tool in the HR category, by a significant margin. NYC Local Law 144 requires a bias audit before deployment in New York City and candidate notification. Illinois requires disclosure of AI use in video interviews. The EU AI Act classifies AI used in employment decisions as high-risk under Annex III. Several US states are moving on similar rules. The compliance checklist before deployment is jurisdictional-law-first, not vendor-capabilities-first: know which rules apply to your hiring locations, complete required audits, and establish candidate disclosure before turning it on. See the employment law pages in the reference library.",
             "training_optout": "Candidate data terms require explicit legal review. This is regulated data in multiple jurisdictions."
         },
+        "trulens": {
+            "api": "Python. Feedback functions wrap providers and custom scoring logic; instrumentation attaches to LangChain, LlamaIndex, and custom apps.",
+            "cons": [
+                "Smaller community and fewer integrations than Ragas or DeepEval",
+                "Metric naming differs from the Ragas vocabulary most teams have adopted, which costs translation effort",
+                "Judge-model variance and cost apply here as everywhere",
+                "Weaker CI-gating story than pytest-native frameworks"
+            ],
+            "name": "TruLens",
+            "pros": [
+                "The RAG Triad is a genuinely useful diagnostic frame, not just a metric list",
+                "Built for production monitoring, not only offline experiments",
+                "OpenTelemetry tracing keeps it compatible with a wider observability stack",
+                "Feedback functions extend cleanly to domain-specific scoring"
+            ],
+            "tags": [
+                "Evaluation",
+                "Open Source",
+                "Observability",
+                "RAG"
+            ],
+            "files": "Feedback results persist to a local or configured store for trend analysis.",
+            "value": "An open-source evaluation library built around feedback functions: programmable scorers that attach to a running application and grade its behaviour continuously. Its best-known contribution is the RAG Triad, which frames retrieval quality as three questions asked together, namely whether the context is relevant to the query, whether the answer is grounded in that context, and whether the answer addresses the question. Scoring all three localises a regression to the retriever or the generator instead of just showing that quality fell. TruLens leans toward live monitoring where Ragas leans toward offline scoring, and it emits OpenTelemetry tracing so evaluation sits alongside the rest of an observability stack.",
+            "access": [
+                "Open Source / Local Deployment"
+            ],
+            "engine": "Python library with a local dashboard; OpenTelemetry tracing support.",
+            "status": "Active",
+            "vendor": "TruEra / Snowflake",
+            "latency": "Feedback can run asynchronously beside the application, so scoring does not have to sit in the user request path.",
+            "pricing": [
+                {
+                    "tier": "Open source",
+                    "model": "$0",
+                    "limits": "None on the library",
+                    "includes": "Feedback functions, RAG Triad, dashboard. Judge-model costs are yours."
+                }
+            ],
+            "quality": "Strong conceptual framing and good production ergonomics. Community and integration breadth are smaller than Ragas or DeepEval, and the RAG Triad metrics rest on LLM judges with the same variance caveats as everything else in the category.",
+            "tagline": "Feedback functions and the RAG Triad, aimed at watching quality in production rather than scoring a dataset once.",
+            "audience": [
+                "Dev Teams",
+                "Enterprise"
+            ],
+            "use_cases": [
+                "Continuous quality scoring of a live application rather than a one-off dataset run",
+                "Diagnosing whether a quality drop came from retrieval or generation using the triad",
+                "Attaching custom domain scorers as feedback functions",
+                "Pairing evaluation with OpenTelemetry traces in one pipeline"
+            ],
+            "alternatives": [
+                "Ragas",
+                "DeepEval",
+                "Arize Phoenix"
+            ],
+            "catalog_name": "TruLens",
+            "integrations": [
+                "LangChain and LlamaIndex",
+                "Custom Python applications",
+                "OpenTelemetry",
+                "Major model providers as judges"
+            ],
+            "governance_note": "Continuous feedback scoring is what turns evaluation from a pre-launch gate into an operating control, and that distinction matters to an auditor: a quality claim evidenced only by a launch-day report says nothing about the system running today. The triad structure also produces better evidence than a single composite score, because it records which component failed rather than that something did. The standing caveats hold: judges are models with versions that must be pinned and recorded, feedback results are derived data with their own retention questions, and a grounded answer built on a stale source still scores well, so index freshness stays a separate control.",
+            "training_optout": "Runs locally; judge calls reach whichever provider you configure, under that provider's terms."
+        },
         "arize-ai": {
             "api": "REST API and Python SDK.",
             "cons": [
@@ -1040,6 +1231,78 @@
             "governance_note": "This is the dedicated answer to 'we need to do AI governance as a program, not case by case.' The EU AI Act's Article 9 risk management system and Article 17 quality management system both require exactly what this tool manages: documented risk assessment, ongoing monitoring, and retained evidence. The NIST AI RMF is also mappable through it. For an organization building a formal AI governance function, this is the category to evaluate alongside OneTrust AI Governance and IBM OpenPages.",
             "training_optout": "Governance data platform. Not an AI model host. Data terms govern what Credo AI stores about your AI systems."
         },
+        "deepeval": {
+            "api": "Python: assert_test, metric classes, ConversationalTestCase, synthetic data generation.",
+            "cons": [
+                "Requires Python fluency; not a no-code surface for domain reviewers",
+                "Heavy judge usage can trigger provider rate limits on large suites",
+                "No built-in production observability, so it pairs with a tracer rather than replacing one",
+                "The hosted platform is the path to dashboards and history; verify its terms before depending on it"
+            ],
+            "name": "DeepEval",
+            "pros": [
+                "Pytest-native, so it fits existing CI with almost no new concepts for the team",
+                "Broadest metric coverage of the open frameworks, including custom rubrics via G-Eval",
+                "Deterministic and model-graded checks live side by side rather than in separate systems",
+                "Red-teaming mapped to recognised frameworks makes security testing reportable"
+            ],
+            "tags": [
+                "Evaluation",
+                "Open Source",
+                "Testing",
+                "LLMOps"
+            ],
+            "files": "Datasets and golden sets as code; results optionally sync to the hosted platform.",
+            "value": "An open-source framework that treats LLM evaluation as unit testing. Test cases are pytest functions, assertions carry thresholds, and a failing faithfulness or relevance score fails the build. That framing is the point: it puts model-graded metrics and deterministic assertions in the same suite, so a pull request can be blocked both because a required field is missing and because groundedness dropped below the line. The metric library is the broadest of the open frameworks, covering RAG metrics, G-Eval for custom rubrics, and multi-turn conversational cases that score retrieval quality across a whole dialogue rather than turn by turn. A companion library adds red-teaming aligned to the OWASP Top 10 for LLMs and the NIST AI RMF.",
+            "access": [
+                "Open Source / Local Deployment",
+                "SaaS"
+            ],
+            "engine": "Python library, pytest-native. Optional hosted platform from Confident AI.",
+            "status": "Active",
+            "vendor": "Confident AI",
+            "latency": "Offline. Model-graded metrics cost judge calls per case; deterministic assertions are effectively free and instant.",
+            "pricing": [
+                {
+                    "tier": "Open source",
+                    "model": "$0",
+                    "limits": "None on the library",
+                    "includes": "Full metric library, red-teaming companion, pytest integration. Judge costs are yours."
+                },
+                {
+                    "tier": "Confident AI platform",
+                    "model": "Paid tiers",
+                    "limits": "Verify current pricing with the vendor",
+                    "includes": "Hosted result tracking, dashboards, team collaboration"
+                }
+            ],
+            "quality": "The most complete off-the-shelf metric coverage among open frameworks, and the cleanest CI story. Heavy judge usage on large suites can hit provider rate limits, which is a practical constraint on suite size rather than a defect.",
+            "tagline": "Evaluation written as pytest, so quality failures break the build the way any other test does.",
+            "audience": [
+                "Dev Teams",
+                "Enterprise"
+            ],
+            "use_cases": [
+                "Blocking a deploy when a quality metric regresses, in the same pipeline as unit tests",
+                "Mixing deterministic assertions with model-graded scores in one suite",
+                "Scoring multi-turn conversations where retrieval quality shifts across turns",
+                "Red-teaming for jailbreaks, PII leakage, prompt injection, and bias before release"
+            ],
+            "alternatives": [
+                "Ragas",
+                "Promptfoo",
+                "Braintrust"
+            ],
+            "catalog_name": "DeepEval",
+            "integrations": [
+                "pytest and CI systems",
+                "LangChain and LlamaIndex",
+                "Major model providers as judges",
+                "OWASP Top 10 for LLMs and NIST AI RMF red-team mappings"
+            ],
+            "governance_note": "This is the cleanest answer to the audit question of how AI quality is controlled before release, because the evidence is the same artifact engineering already produces: a test run, versioned with the commit, that either passed or failed. Deterministic assertions deserve particular weight in that record. Model-graded scores are probabilistic and move with the judge, while an assertion that every response carries a citation, contains no PII, and refuses a prohibited prompt either held or did not. A defensible programme runs the deterministic gates first and treats the graded metrics as trend evidence on top, with the judge model pinned and recorded so scores stay comparable release to release.",
+            "training_optout": "The library runs locally; judge calls reach your configured provider. The hosted platform receives whatever results you sync, under Confident AI terms."
+        },
         "deepseek": {
             "api": "REST API, largely OpenAI-compatible, which makes swapping it in unusually easy. That ease is itself a shadow-IT risk worth naming.",
             "cons": [
@@ -1115,6 +1378,79 @@
             "governance_note": "Treat the hosted API and the open weights as two different decisions. The weights can be run on your own infrastructure with no data leaving; the hosted API sends prompts to servers under Chinese jurisdiction, which triggers cross-border transfer analysis, and in some sectors and government contexts an outright prohibition. Several jurisdictions have restricted it on government devices. See the China AI regulation and global AI laws pages in the reference library before approving either.",
             "training_optout": "The hosted service is operated from China and subject to Chinese law, including data access provisions. Self-hosting the open weights removes the data path entirely and is the only version most regulated organizations should consider."
         },
+        "helicone": {
+            "api": "Base-URL swap plus headers. Dashboard covers logs, sessions, user metrics, cost tracking, P95 and P99 latency, alerts, and eval scores.",
+            "cons": [
+                "Maintenance mode since March 2026: security patches and new models only, no roadmap",
+                "The proxy is in the critical path, so its availability is your availability, a sharper risk when the product is no longer actively developed",
+                "New integrations and analytics will not arrive, so the gap against active competitors widens over time",
+                "Not a sound default for a new production system being chosen for the next three years"
+            ],
+            "name": "Helicone",
+            "pros": [
+                "Lowest integration cost in the category: change a base URL and you have observability",
+                "Gateway functions (caching, rate limiting, routing) live in the same layer as logging",
+                "Apache 2.0 core is self-hostable, which makes a stay-put decision viable"
+            ],
+            "tags": [
+                "Observability",
+                "Open Source",
+                "Gateway",
+                "LLMOps"
+            ],
+            "files": "Prompts, datasets, and eval scores in the hosted plane.",
+            "value": "A proxy-based observability platform and AI gateway: point your client base URL at Helicone and every request and response is logged with cost, token count, and latency, with no SDK to adopt and no code to instrument. That near-zero integration cost was the product, and it came with caching, rate limiting, and multi-provider routing in the same layer. The Apache 2.0 core can be self-hosted. For new production deployments in 2026 the maintenance-mode status is the deciding fact, not the feature set.",
+            "access": [
+                "SaaS",
+                "Open Source / Local Deployment"
+            ],
+            "engine": "HTTP proxy in front of provider APIs; self-hostable via Docker.",
+            "status": "Maintenance mode. Mintlify acquired Helicone on 3 March 2026 and the founders joined Mintlify; the service stays live with security updates, bug fixes, and new model support, but active feature development has ended and Mintlify has said it will help customers migrate.",
+            "vendor": "Helicone (Mintlify)",
+            "latency": "The proxy sits in the request path, which is the architectural trade: an outage or slowdown there affects live traffic rather than only telemetry.",
+            "pricing": [
+                {
+                    "tier": "Hobby",
+                    "model": "Free",
+                    "limits": "Request, storage, and seat allowances",
+                    "includes": "Core logging and dashboard"
+                },
+                {
+                    "tier": "Pro",
+                    "model": "Around $79 per month",
+                    "limits": "Metered above included allowances",
+                    "includes": "Unlimited seats, alerts, reports, query language"
+                },
+                {
+                    "tier": "Team and Enterprise",
+                    "model": "Higher tiers and custom",
+                    "limits": "Negotiated",
+                    "includes": "Multiple organisations, compliance attestations, SSO, on-premises options"
+                }
+            ],
+            "quality": "Proven at scale before the acquisition, having served roughly 16,000 organisations. What ships today still works; what will not arrive is new capability.",
+            "tagline": "The one-line proxy that made LLM observability trivial to adopt, now in maintenance mode after acquisition.",
+            "audience": [
+                "Dev Teams"
+            ],
+            "use_cases": [
+                "Getting cost and latency visibility in minutes without instrumenting code",
+                "Caching and rate limiting at the gateway layer alongside logging",
+                "Existing deployments already running it, where the near-term question is migration planning"
+            ],
+            "alternatives": [
+                "Langfuse",
+                "LangSmith",
+                "Arize Phoenix"
+            ],
+            "catalog_name": "Helicone",
+            "integrations": [
+                "Any provider reachable by base-URL swap",
+                "OpenAI, Anthropic, and 100-plus models through the gateway"
+            ],
+            "governance_note": "This is the clearest live example of dependency lifecycle as a governance question rather than a procurement one. A proxy carries your API keys and all prompt and completion traffic through a component whose vendor has publicly stopped feature development, which concentrates two risks in one place: critical-path availability and stalled security posture in a fast-moving ecosystem. Existing users are not in danger today, and the Apache 2.0 licence means self-hosting is a real option, but an architecture review should record a migration decision with a date rather than leaving it implicit. The wider pattern belongs in the same review: ClickHouse acquired Langfuse in January 2026 and Mintlify acquired Helicone in March, so standalone LLM observability is consolidating into larger infrastructure platforms, and asking who owns a tool and what their strategic priority is has become part of choosing one.",
+            "training_optout": "Proxy architecture means full request and response bodies transit the vendor unless self-hosted. Verify terms, or self-host if prompt content is sensitive."
+        },
         "khanmigo": {
             "api": "Via institutional agreements.",
             "cons": [
@@ -1179,6 +1515,84 @@
             ],
             "governance_note": "This is the reference case for child-safe AI deployment. The governance requirements for AI tools used by children are substantively different from adult deployment: COPPA (under 13), FERPA (student records), and the content moderation requirements that come with minors as users all apply. The product was designed with those constraints as requirements rather than afterthoughts. Institutions deploying any AI tool to K-12 students should use this as the comparison baseline for what a compliant product looks like.",
             "training_optout": "Follows OpenAI's sub-processor terms plus Khan Academy's own student data terms. COPPA and FERPA compliance are explicit product requirements."
+        },
+        "langfuse": {
+            "api": "Python and JavaScript SDKs, OpenTelemetry OTLP, public REST API.",
+            "cons": [
+                "Production self-hosting has a real ops footprint: several stateful services, not a single binary",
+                "The unit-based billing model is easy to under-forecast, since one multi-step trace consumes many units",
+                "No built-in gateway, so caching, routing, and failover need a separate component",
+                "Now owned by an infrastructure company, which is a strategic-priority question to revisit rather than a present-day defect"
+            ],
+            "name": "Langfuse",
+            "pros": [
+                "MIT-licensed core, genuinely self-hostable, no per-seat multiplication",
+                "Usage-based pricing means a ten-person team pays the same as a two-person team for the same traffic",
+                "OpenTelemetry-native and framework-neutral, so instrumentation stays portable",
+                "Largest open-source community in the category, which shows in integration coverage"
+            ],
+            "tags": [
+                "Observability",
+                "Open Source",
+                "LLMOps",
+                "Evaluation"
+            ],
+            "files": "Prompt versions, datasets, scores, and annotation queues as first-class objects; dataset-based regression testing runs in CI.",
+            "value": "Tracing, prompt management, evaluation, datasets, human annotation, and cost analytics for LLM applications, with an MIT-licensed core you can run yourself via Docker Compose or take as managed cloud. It is deliberately neutral: built on OpenTelemetry, with native integrations for LangChain, LlamaIndex, AutoGen, Haystack, and Semantic Kernel, plus thin wrappers for raw provider SDKs. For teams that want production observability without adopting a framework or a per-seat contract, it is the most common landing place.",
+            "access": [
+                "Open Source / Local Deployment",
+                "SaaS"
+            ],
+            "engine": "Self-hosted or managed cloud. OpenTelemetry-native ingest.",
+            "status": "Active. Acquired by ClickHouse in January 2026; development has continued and the open-source core remains MIT-licensed.",
+            "vendor": "Langfuse",
+            "latency": "Asynchronous SDK export; no proxy in the request path.",
+            "pricing": [
+                {
+                    "tier": "Self-hosted",
+                    "model": "$0 software",
+                    "limits": "Your infrastructure and ops time",
+                    "includes": "MIT-licensed core: tracing, prompts, evals, datasets"
+                },
+                {
+                    "tier": "Cloud Hobby",
+                    "model": "Free",
+                    "limits": "Monthly unit allowance",
+                    "includes": "Managed tracing and prompt management"
+                },
+                {
+                    "tier": "Cloud paid tiers",
+                    "model": "Usage-based, not per seat",
+                    "limits": "Billed per tracing unit, where a trace, observation, or score each count as a unit, so one multi-span trace consumes several",
+                    "includes": "Higher allowances, longer retention, enterprise features"
+                }
+            ],
+            "quality": "Broad and mature feature coverage with the largest open-source community in the category. Self-hosting is real but not trivial: a production deployment expects Postgres, ClickHouse, a Redis-compatible cache, object storage, and worker processes.",
+            "tagline": "The open-source observability default: framework-agnostic, self-hostable, and priced on data rather than seats.",
+            "audience": [
+                "Dev Teams",
+                "Enterprise"
+            ],
+            "use_cases": [
+                "Framework-agnostic tracing across a stack that is not standardised on one library",
+                "Self-hosted observability where prompts and completions must stay in your infrastructure",
+                "Prompt versioning and dataset-based regression tests wired into CI",
+                "Cost attribution by model, user, or session"
+            ],
+            "alternatives": [
+                "Arize Phoenix",
+                "LangSmith",
+                "Helicone"
+            ],
+            "catalog_name": "Langfuse",
+            "integrations": [
+                "LangChain, LangGraph, LlamaIndex, AutoGen, Haystack, Semantic Kernel",
+                "OpenAI and Anthropic SDK wrappers",
+                "Any OpenTelemetry emitter",
+                "GitHub Actions for CI evaluation"
+            ],
+            "governance_note": "The self-hosted option makes this the straightforward answer when prompt and completion text cannot leave your environment, which is the usual blocker for observability in regulated settings. Running it yourself transfers rather than removes the obligation: the trace store becomes a system holding sensitive text, and belongs in the data map with its own retention, access control, and encryption decisions. The January 2026 ClickHouse acquisition is worth recording in a dependency review, not as a warning but as a fact with a review date, since a widely used open-source tool acquired by an infrastructure vendor has a different long-run trajectory than an independent one, and the MIT core is the hedge that keeps the exit cheap.",
+            "training_optout": "Self-hosted deployments send nothing outward. Cloud tiers are governed by the vendor agreement; verify current terms."
         },
         "otter-ai": {
             "api": "API available on higher tiers for transcript retrieval and workflow integration.",
@@ -1581,6 +1995,84 @@
             ],
             "governance_note": "LangChain is the plumbing, not the policy. The governance surface of an application built on LangChain is the model it calls, the data it retrieves, and the tools it executes. LangSmith is the monitoring layer that makes those calls visible. The audit question for a LangChain-based application is the same as for any LLM application: what can the agent call, what data can it access, and what is the review process before it takes actions with consequences.",
             "training_optout": "Framework only. Data handling is entirely determined by the model and store providers chosen."
+        },
+        "langsmith": {
+            "api": "Python and JavaScript SDKs; OpenTelemetry endpoint; REST API.",
+            "cons": [
+                "Seat-based pricing means the bill scales with team size, not just traffic, and per-trace overage stacks on top at production volume",
+                "Closed source; self-hosting requires an Enterprise contract",
+                "Teams not on LangChain get a thinner experience than the marketing implies",
+                "Long retention is a paid add-on rather than the default"
+            ],
+            "name": "LangSmith",
+            "pros": [
+                "Unmatched trace depth for LangChain and LangGraph, with near-zero instrumentation effort",
+                "Observability, evaluation, prompt management, and human review in one product",
+                "OpenTelemetry support means non-LangChain services can still report in"
+            ],
+            "tags": [
+                "Observability",
+                "LLMOps",
+                "Evaluation",
+                "Developer Tools"
+            ],
+            "files": "Datasets for evaluation, prompt versions, and annotation queues are first-class objects.",
+            "value": "Captures every LLM call, tool call, retrieval step, and agent decision as a nested trace you can replay, with latency and token cost at each step. Beyond tracing it carries evaluation against datasets, online LLM-as-judge scoring of live traffic, prompt versioning, and annotation queues for structured human review. It is framework-agnostic on paper and ships OpenTelemetry support, but the product is built LangChain-first: instrument a LangGraph agent and the node graph, per-step state, and deploy path line up with almost no glue code. Instrument something else over OpenTelemetry and it works, with less of what makes the platform distinctive.",
+            "access": [
+                "SaaS",
+                "Self-hosted (Enterprise)"
+            ],
+            "engine": "Managed SaaS. Tracing SDKs plus OpenTelemetry ingest.",
+            "status": "Active",
+            "vendor": "LangChain",
+            "latency": "Tracing is asynchronous and out of the request path; the SDK failure mode is lost telemetry rather than a failed call.",
+            "pricing": [
+                {
+                    "tier": "Developer",
+                    "model": "Free",
+                    "limits": "Single user; trace allowance with short default retention",
+                    "includes": "Tracing, debugging, prompt playground"
+                },
+                {
+                    "tier": "Plus",
+                    "model": "$39 per seat per month plus usage",
+                    "limits": "Included trace allowance, then per-trace overage; extended retention costs more",
+                    "includes": "Team seats, evaluation datasets, prompt versioning, longer retention"
+                },
+                {
+                    "tier": "Enterprise",
+                    "model": "Custom",
+                    "limits": "Negotiated",
+                    "includes": "Self-hosted and bring-your-own-cloud deployment, SSO, procurement terms"
+                }
+            ],
+            "quality": "The richest trace detail available for LangChain and LangGraph applications, including agent graph visualisation and replay. Monitoring dashboards cover token usage, P50/P99 latency, error rates, and cost, with webhook and PagerDuty alerting.",
+            "tagline": "A flight recorder for multi-step LLM applications, deepest if you build on LangChain and workable if you do not.",
+            "audience": [
+                "Dev Teams",
+                "Enterprise"
+            ],
+            "use_cases": [
+                "Debugging why a multi-step agent produced the wrong answer, step by step",
+                "Gating releases on evaluation runs against a curated dataset",
+                "Watching production latency, token spend, and error rates per model and per step",
+                "Routing failed traces to human reviewers and turning them into test cases"
+            ],
+            "alternatives": [
+                "Langfuse",
+                "Arize Phoenix",
+                "Weights & Biases"
+            ],
+            "catalog_name": "LangSmith",
+            "integrations": [
+                "LangChain and LangGraph natively",
+                "OpenAI, Anthropic, and Vercel AI SDKs",
+                "LlamaIndex",
+                "OpenTelemetry-compatible services",
+                "PagerDuty and webhook alerting"
+            ],
+            "governance_note": "Traces are the audit trail for an AI application, which makes an observability platform a data-residency decision rather than a developer convenience. Prompts and completions frequently contain the most sensitive text an organisation handles, and by default they leave your environment for the vendor cloud. Confirm what is captured, whether payloads can be redacted at the SDK before egress, how long traces are retained, and whether your retention needs push you to an Enterprise contract. The governance value is real once configured: per-step cost and latency, error rates, and evaluation scores are exactly the evidence an AI audit asks for and most teams cannot produce.",
+            "training_optout": "Trace content is customer data under the vendor agreement. Verify current terms directly; do not assume telemetry is excluded from any downstream use."
         },
         "notion-ai": {
             "api": "Notion API for workspace content; AI features are primarily in-product.",
@@ -2672,6 +3164,79 @@
             "governance_note": "This is the reference case for training-data provenance as a procurement criterion. Where a generator cannot say what it was trained on, the organization inherits that uncertainty on every asset it publishes. Firefly's commercial indemnity converts that uncertainty into a contractual allocation, which is exactly the sort of control an auditor can test. Content Credentials support also helps with the provenance-labelling obligations now appearing in AI law.",
             "training_optout": "Enterprise agreements cover customer content use. Adobe's position on training data provenance is the product's central claim and should be read directly rather than taken second-hand."
         },
+        "arize-phoenix": {
+            "api": "Python SDK (arize-phoenix, arize-phoenix-evals), OpenInference instrumentors, OpenTelemetry OTLP ingest.",
+            "cons": [
+                "Elastic License 2.0 is source-available, not OSI open source; read it before building a product on top",
+                "Self-hosting means you own upgrades, storage, and backups",
+                "Span-based pricing on the commercial tiers scales badly for agents that emit thousands of spans per run",
+                "Team collaboration and persistence features push you toward the paid platform"
+            ],
+            "name": "Arize Phoenix",
+            "pros": [
+                "Self-hosting is genuinely free, with no per-trace bill at scale",
+                "OpenTelemetry and OpenInference native, so instrumentation is portable rather than vendor-specific",
+                "Retrieval and embedding analysis are deeper than most general-purpose tracers",
+                "Runs locally in a notebook for development, which shortens the loop"
+            ],
+            "tags": [
+                "Observability",
+                "Open Source",
+                "Evaluation",
+                "LLMOps"
+            ],
+            "files": "Datasets and experiments as first-class objects; embeddings analysis for retrieval pipelines.",
+            "value": "The source-available observability platform from Arize, built on OpenTelemetry with OpenInference semantic conventions for LLM spans. It runs in a notebook, on a laptop, or as a container in your own cloud, and covers tracing, datasets, LLM-as-judge evaluation, RAG-specific retrieval metrics, and embedding drift visualisation. Its distinguishing property is that instrumentation is standard: the same OpenTelemetry spans can be routed to Phoenix today and a different backend tomorrow without re-instrumenting the application.",
+            "access": [
+                "Open Source / Local Deployment",
+                "SaaS"
+            ],
+            "engine": "Self-hosted or Phoenix Cloud. OpenTelemetry collector ingesting OpenInference-shaped spans.",
+            "status": "Active",
+            "vendor": "Arize AI",
+            "latency": "Asynchronous span export; no proxy in the request path.",
+            "pricing": [
+                {
+                    "tier": "Phoenix (self-hosted)",
+                    "model": "$0 software",
+                    "limits": "Your infrastructure and ops time",
+                    "includes": "Full tracing, evals, datasets, embeddings analysis under Elastic License 2.0"
+                },
+                {
+                    "tier": "Phoenix Cloud / Arize AX",
+                    "model": "Free tier, then paid",
+                    "limits": "Commercial tiers meter on spans per month, which climbs quickly for agents that emit thousands of spans per run",
+                    "includes": "Hosted persistence, collaboration, enterprise features"
+                }
+            ],
+            "quality": "Strongest of the open options for retrieval-heavy work, with embedding drift and RAG metrics that generic tracers lack. Prompt-and-notebook centric heritage means very long agent runs can be laborious to read as a raw span tree.",
+            "tagline": "Self-hostable LLM tracing and evaluation built on open standards, so your trace data stays yours and stays portable.",
+            "audience": [
+                "Dev Teams",
+                "Researchers",
+                "Enterprise"
+            ],
+            "use_cases": [
+                "Debugging RAG pipelines where the failure is in retrieval rather than generation",
+                "Keeping prompts and completions inside your own infrastructure for data-residency reasons",
+                "Instrumenting once with OpenTelemetry and staying free to change backends",
+                "Comparing evaluation runs across prompt or model changes"
+            ],
+            "alternatives": [
+                "Langfuse",
+                "LangSmith",
+                "Weights & Biases"
+            ],
+            "catalog_name": "Arize Phoenix",
+            "integrations": [
+                "LangChain and LlamaIndex",
+                "OpenAI and Anthropic SDKs",
+                "Any OpenTelemetry-instrumented service",
+                "Notebook and Docker deployment"
+            ],
+            "governance_note": "Self-hosting resolves the question that dominates observability procurement: prompts and completions never leave your environment, so trace capture does not become a new data-transfer decision to justify. The remaining obligations move to you rather than disappearing, since retention, access control, and encryption of the trace store are now your responsibility, and a trace store holds exactly the sensitive text a data map has to account for. The OpenTelemetry foundation is itself a governance asset: instrumentation that is not vendor-specific means an observability vendor changing hands, raising prices, or entering maintenance mode does not force a re-instrumentation project.",
+            "training_optout": "Self-hosted deployments send nothing to the vendor. Hosted tiers are governed by the Arize agreement; verify current terms."
+        },
         "bloomberg-gpt": {
             "api": "Bloomberg API for programmatic access within Terminal licences.",
             "cons": [
@@ -3089,6 +3654,85 @@
             "governance_note": "The enterprise tiers carry IP indemnity for suggestions, which is usually the deciding factor for legal review rather than any capability difference.",
             "training_optout": "Business and enterprise tiers exclude customer code from model training. A public-code filter is available. Confirm current terms for your tier."
         },
+        "weights-biases": {
+            "api": "Python and TypeScript libraries. Automatic instrumentation for major provider SDKs; the decorator traces arbitrary functions.",
+            "cons": [
+                "Centre of gravity is still ML experiment tracking; for an LLM-only team Weave can feel like an add-on to a platform they do not otherwise use",
+                "Per-seat pricing bundled with the broader subscription pays for ML surfaces an application team may never touch",
+                "Trace model is W&B-native, so OpenTelemetry portability is weaker than Phoenix or Langfuse",
+                "No gateway layer for caching, routing, or failover"
+            ],
+            "name": "Weights & Biases",
+            "pros": [
+                "Unified view from training experiment through to production trace, which no pure LLM tracer offers",
+                "Mature compliance and self-hosting story for regulated industries",
+                "Versioning and artifact lineage carry over from the ML platform, so reproducibility is genuinely first-class",
+                "Built-in guardrail and quality scorers rather than assembling them yourself"
+            ],
+            "tags": [
+                "Observability",
+                "MLOps",
+                "Evaluation",
+                "Developer Tools"
+            ],
+            "files": "Artifacts, datasets, model registry, and evaluation runs with versioned lineage.",
+            "value": "Two products under one account. The original platform is the widely adopted standard for training-run tracking: experiments, hyperparameter sweeps, artifacts, model registry, and reproducibility lineage. Weave layers LLM application observability on top, adding a decorator to any Python function to capture prompts, completions, token counts, cost, and latency, plus evaluation with custom and LLM-judge scorers, and pre-built guardrail scorers for toxicity, bias, PII, and hallucination. Its real advantage is continuity: for a team whose model development already lives in W&B, production traces sit beside the experiments that produced the model.",
+            "access": [
+                "SaaS",
+                "Self-hosted (Enterprise)"
+            ],
+            "engine": "Managed SaaS with enterprise self-hosting via Kubernetes. Weave SDK is the primary path, with OpenTelemetry-compatible ingest available.",
+            "status": "Active. Acquired by CoreWeave; W&B Weave is the LLM and agent observability product alongside the original experiment-tracking platform.",
+            "vendor": "Weights & Biases (CoreWeave)",
+            "latency": "Asynchronous logging. Users have reported modest overhead on complex multi-step agent traces.",
+            "pricing": [
+                {
+                    "tier": "Free",
+                    "model": "$0",
+                    "limits": "Storage cap and single-user oriented",
+                    "includes": "Experiment tracking and Weave tracing for personal and small projects"
+                },
+                {
+                    "tier": "Paid team tiers",
+                    "model": "Per seat, plus storage",
+                    "limits": "Storage and usage metered above included allowances",
+                    "includes": "Team collaboration, longer retention, registry features"
+                },
+                {
+                    "tier": "Enterprise",
+                    "model": "Custom",
+                    "limits": "Negotiated",
+                    "includes": "Self-hosting in your own VPC, SOC 2 Type II, GDPR, HIPAA, and ISO 27001 coverage"
+                }
+            ],
+            "quality": "Best-in-class for experiment tracking and reproducibility. Weave is strong on agent tracing and evaluation, though the trace data model is W&B-native with OpenTelemetry as a secondary path, so instrumentation is less portable than the OpenTelemetry-first tools.",
+            "tagline": "The ML experiment-tracking standard, extended to LLM tracing and evaluation through Weave.",
+            "audience": [
+                "Dev Teams",
+                "Researchers",
+                "Enterprise"
+            ],
+            "use_cases": [
+                "Teams already tracking training runs in W&B who want production LLM traces in the same place",
+                "Evaluating prompt and model changes against versioned datasets with reproducible lineage",
+                "Applying guardrail scorers for toxicity, bias, PII, and hallucination to live traffic",
+                "Regulated environments needing self-hosting with recognised compliance attestations"
+            ],
+            "alternatives": [
+                "LangSmith",
+                "Arize Phoenix",
+                "Langfuse"
+            ],
+            "catalog_name": "Weights & Biases",
+            "integrations": [
+                "OpenAI, Anthropic, and other provider SDKs automatically",
+                "LangGraph, CrewAI, PydanticAI, OpenAI Agents SDK",
+                "Hugging Face and PEFT training workflows",
+                "Kubernetes for self-hosted deployment"
+            ],
+            "governance_note": "The strongest audit story here is lineage rather than tracing: linking a production behaviour back to the training run, dataset version, and hyperparameters that produced the model is precisely the evidence chain an AI audit asks for and most stacks cannot assemble. Enterprise self-hosting with SOC 2 Type II, GDPR, HIPAA, and ISO 27001 coverage answers the residency question that blocks observability adoption in regulated settings. Weigh against that the vendor-native trace format, which raises exit cost relative to OpenTelemetry-first tools, and record the CoreWeave ownership as a dependency fact with a review date, since the parent company's strategic priorities are now part of the platform's trajectory.",
+            "training_optout": "Trace and experiment content is customer data under the vendor agreement, with enterprise self-hosting available to keep prompt data inside your own VPC. Verify current terms."
+        },
         "whisper-openai": {
             "api": "REST API on OpenAI's platform. Open weights available for direct use.",
             "cons": [
@@ -3429,6 +4073,72 @@
             ],
             "governance_note": "The first mainstream product to make 'AI can do things on the web on your behalf' a consumer experience rather than a developer build. The governance questions are: what is it authorized to commit, what credentials does it access, and what happens if it completes the wrong transaction. For enterprise use, those are policy decisions. For consumer use, they are the user's problem, which is part of why the enterprise and consumer versions need different evaluations. Phishing attacks that impersonate Operator to capture credentials are an emerging threat model that comes with this capability.",
             "training_optout": "OpenAI's commercial and consumer terms differ. Consumer ChatGPT data terms apply unless the enterprise API is used. Operator actions are taken under the user's session on third-party sites."
+        },
+        "semantic-kernel": {
+            "api": "SDKs for .NET, Python, and Java. Plugins can be native functions, prompt templates, OpenAPI specifications, or Model Context Protocol servers.",
+            "cons": [
+                "In maintenance mode since April 2026: new feature investment goes to Agent Framework, so new projects should start there",
+                "Smaller ecosystem and fewer third-party tutorials than LangChain",
+                "Enterprise abstraction layers add indirection that a direct SDK call would avoid for simple applications"
+            ],
+            "name": "Semantic Kernel",
+            "pros": [
+                "First-class .NET and Java support, which most competing frameworks do not offer",
+                "Model-agnostic and deployable anywhere, with no Azure lock-in despite the Microsoft origin",
+                "Plugins can wrap OpenAPI specs and MCP servers, so existing services become tools without rewriting them",
+                "Existing plugins and connectors carry forward to Agent Framework rather than requiring a rewrite"
+            ],
+            "tags": [
+                "Developer Tools",
+                "Open Source",
+                "Orchestration",
+                "Enterprise"
+            ],
+            "files": "Vector store integrations including Azure AI Search, Elasticsearch, and Chroma. Multimodal support for text, vision, and audio.",
+            "value": "An open-source, MIT-licensed SDK that sits between application code and the model, handling plugins, connectors, memory, and agent orchestration. Its distinguishing feature has always been reach into languages and stacks the Python-first frameworks do not serve: C# and .NET first, then Python and Java, running on any cloud or on-premises with no Azure requirement. For enterprise teams whose systems are already .NET, it answered the question of how to add agents without abandoning the platform the team knows.",
+            "access": [
+                "Open Source / Local Deployment",
+                "API"
+            ],
+            "engine": "Framework. Model-agnostic, with connectors for OpenAI, Azure OpenAI, Hugging Face, Amazon Bedrock, Ollama, and others.",
+            "status": "Maintenance mode. Microsoft shipped Agent Framework 1.0 on 3 April 2026 as the successor; Semantic Kernel continues to receive critical fixes and security patches but no new feature work.",
+            "vendor": "Microsoft",
+            "latency": "Framework overhead is minimal. Latency is dominated by model and vector store calls.",
+            "pricing": [
+                {
+                    "tier": "Open source",
+                    "model": "$0",
+                    "limits": "None on the SDK",
+                    "includes": "Full SDK under MIT licence. Model and vector store costs are separate."
+                }
+            ],
+            "quality": "Mature and widely deployed in enterprise .NET environments, with multi-agent orchestration patterns (sequential, concurrent, group chat, handoff) shipped in the SDK. The forward-looking caveat is the maintenance-mode status: new capability now lands in Agent Framework.",
+            "tagline": "Microsoft's orchestration SDK for teams building AI into existing .NET, Python, or Java applications, now succeeded by Agent Framework.",
+            "audience": [
+                "Dev Teams",
+                "Enterprise"
+            ],
+            "use_cases": [
+                "Adding agents and LLM calls to existing .NET, C#, or Java enterprise applications",
+                "Multi-agent orchestration where specialised agents coordinate on a task",
+                "Exposing existing business logic to a model as callable plugins"
+            ],
+            "alternatives": [
+                "Microsoft Agent Framework",
+                "LangChain",
+                "LlamaIndex"
+            ],
+            "catalog_name": "Semantic Kernel",
+            "integrations": [
+                "OpenAI and Azure OpenAI",
+                "Amazon Bedrock",
+                "Hugging Face",
+                "Ollama for local models",
+                "Model Context Protocol servers",
+                "Azure AI Search, Elasticsearch, Chroma"
+            ],
+            "governance_note": "Semantic Kernel is orchestration, not policy: the governance surface of an application built on it is the model it calls, the data its connectors reach, and the plugins it is permitted to execute. Because plugins can wrap arbitrary native functions, OpenAPI endpoints, and MCP servers, the load-bearing control is which plugins are registered and what they are allowed to do. The maintenance-mode status is itself a governance fact worth recording: a dependency receiving only security patches has a different lifecycle risk than one under active development, and that belongs in the architecture review rather than being discovered at the next upgrade.",
+            "training_optout": "Framework only. Data handling is determined entirely by the model and store providers configured."
         },
         "google-vertex-ai": {
             "api": "REST API and Google Cloud SDK.",
