@@ -1,6 +1,15 @@
 {
-  "generated": "2026-08-23T01:03:06Z",
+  "generated": "2026-08-23T03:10:04Z",
   "items": [
+    {
+      "kind": "vendor-news",
+      "name": "$60B to $500B Surge: U.S. AI Sector Launches Frenetic Borrowing Spree to Fuel Unprecedented Growth - 36 Kr",
+      "vendor": "eu.36kr.com",
+      "url": "https://eu.36kr.com/en/p/3950851925032069",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-08-23T03:03:22.054269+00:00"
+    },
     {
       "kind": "vendor-news",
       "name": "Building AI-Ready Enterprises: New Initiatives to Drive AI Deployment at Scale and Strengthen Digital Resilience - Plataforma Media",
@@ -963,15 +972,6 @@
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-21T03:17:57.641491+00:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "What to Do If AI Generates Novel Non-Natural Viruses and Malicious Actors Use This Technology for Sabotage - 36 Kr",
-      "vendor": "eu.36kr.com",
-      "url": "https://eu.36kr.com/en/p/3948413322952073",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-08-21T02:53:07.765555+00:00"
     },
     {
       "kind": "vendor-news",
@@ -4512,18 +4512,9 @@
     },
     {
       "kind": "paper",
-      "name": "Hardware Keystores for AI Agent Signing Workflows: A Zero-Trust MCP Enforcement Architecture",
+      "name": "IB-RL: Isolated Bilateral Reinforcement Learning for Strategic Dialogue Agents",
       "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.06130v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "ProDVI: Programmatic Dynamics Priors for Value Network Initialization",
-      "vendor": "DeepMind",
-      "url": "http://arxiv.org/abs/2608.06015v1",
+      "url": "http://arxiv.org/abs/2608.06735v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -4539,9 +4530,54 @@
     },
     {
       "kind": "paper",
+      "name": "ProDVI: Programmatic Dynamics Priors for Value Network Initialization",
+      "vendor": "DeepMind",
+      "url": "http://arxiv.org/abs/2608.06015v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
       "name": "TaskSense: Focusing on What Matters in World Models",
       "vendor": "DeepMind",
       "url": "http://arxiv.org/abs/2608.06544v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Hardware Keystores for AI Agent Signing Workflows: A Zero-Trust MCP Enforcement Architecture",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2608.06130v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Transformers Struggle to Use Their Emergent World Models: Revisiting the Tower of Hanoi, and the Illusion of Thinking",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2608.07077v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Coupling Planning with Episodic Memory in LLM Agents for Software Issue Resolution",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2608.06811v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "WebGrader: Training LLMs for Web Development with Self-Evolving Programmatic Grader",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2608.06474v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -4575,36 +4611,9 @@
     },
     {
       "kind": "paper",
-      "name": "WebGrader: Training LLMs for Web Development with Self-Evolving Programmatic Grader",
-      "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.06474v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "IB-RL: Isolated Bilateral Reinforcement Learning for Strategic Dialogue Agents",
-      "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.06735v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Coupling Planning with Episodic Memory in LLM Agents for Software Issue Resolution",
-      "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.06811v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Transformers Struggle to Use Their Emergent World Models: Revisiting the Tower of Hanoi, and the Illusion of Thinking",
-      "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.07077v1",
+      "name": "Critical Acclaim Orientation in Large Language Models: Evidence from Film Preference Elicitation",
+      "vendor": "Mistral",
+      "url": "http://arxiv.org/abs/2608.06955v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -4620,9 +4629,18 @@
     },
     {
       "kind": "paper",
-      "name": "Critical Acclaim Orientation in Large Language Models: Evidence from Film Preference Elicitation",
-      "vendor": "Mistral",
-      "url": "http://arxiv.org/abs/2608.06955v1",
+      "name": "Blast Radius",
+      "vendor": "OpenAI",
+      "url": "http://arxiv.org/abs/2608.07440v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "NiyamAI - An Intent-Bound AI Agent with Cryptographically Verifiable Guardrails using Zero-Knowledge Proofs",
+      "vendor": "OpenAI",
+      "url": "http://arxiv.org/abs/2608.07167v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -4641,24 +4659,6 @@
       "name": "Grammar Engineering Meets LLMs: Development of Cantonese and Irish ParGram Treebanks",
       "vendor": "OpenAI",
       "url": "http://arxiv.org/abs/2608.07283v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "NiyamAI - An Intent-Bound AI Agent with Cryptographically Verifiable Guardrails using Zero-Knowledge Proofs",
-      "vendor": "OpenAI",
-      "url": "http://arxiv.org/abs/2608.07167v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Blast Radius",
-      "vendor": "OpenAI",
-      "url": "http://arxiv.org/abs/2608.07440v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
