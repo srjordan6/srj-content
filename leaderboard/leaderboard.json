@@ -7,7 +7,7 @@
    "note": "Head-to-head human preference on general conversation. The closest thing the field has to a general-purpose ranking.",
    "scored": true,
    "source_url": "https://arena.ai/leaderboard/text",
-   "fetched_at": "2026-08-24T02:48:34.950130+00:00",
+   "fetched_at": "2026-08-25T02:43:05.426205+00:00",
    "count": 20,
    "models": [
     {
@@ -126,7 +126,7 @@
    "note": "The same vote mechanic restricted to coding prompts. Ranks differ sharply from the text board, which is the reason to read both.",
    "scored": true,
    "source_url": "https://arena.ai/leaderboard/code",
-   "fetched_at": "2026-08-24T02:48:34.950130+00:00",
+   "fetched_at": "2026-08-25T02:43:05.426205+00:00",
    "count": 50,
    "models": [
     {
@@ -245,7 +245,7 @@
    "note": "Multi-step tool-using tasks rather than single answers. The board that matters if the model will act rather than reply. Published as an order only, with no ratings.",
    "scored": false,
    "source_url": "https://arena.ai/leaderboard/agent",
-   "fetched_at": "2026-08-24T02:48:34.950130+00:00",
+   "fetched_at": "2026-08-25T02:43:05.426205+00:00",
    "count": 10,
    "models": [
     {
@@ -277,15 +277,6 @@
     },
     {
      "rank": 4,
-     "model": "Kimi K3 (Max)",
-     "vendor": "Moonshot",
-     "license": "proprietary",
-     "score": null,
-     "ci": null,
-     "votes": null
-    },
-    {
-     "rank": 5,
      "model": "GPT 5.6 Sol (xHigh)",
      "vendor": "OpenAI",
      "license": "proprietary",
@@ -294,9 +285,18 @@
      "votes": null
     },
     {
-     "rank": 6,
+     "rank": 5,
      "model": "Claude Opus 4.8 (High)",
      "vendor": "Anthropic",
+     "license": "proprietary",
+     "score": null,
+     "ci": null,
+     "votes": null
+    },
+    {
+     "rank": 6,
+     "model": "Kimi K3 (Max)",
+     "vendor": "Moonshot",
      "license": "proprietary",
      "score": null,
      "ci": null,
@@ -313,7 +313,7 @@
     },
     {
      "rank": 8,
-     "model": "Claude Opus 4.7 (High)",
+     "model": "Claude Sonnet 5 (High)",
      "vendor": "Anthropic",
      "license": "proprietary",
      "score": null,
@@ -322,8 +322,8 @@
     },
     {
      "rank": 9,
-     "model": "GPT 5.5 (High)",
-     "vendor": "OpenAI",
+     "model": "Claude Opus 4.7 (High)",
+     "vendor": "Anthropic",
      "license": "proprietary",
      "score": null,
      "ci": null,
@@ -346,7 +346,7 @@
    "note": "Image understanding and mixed text-image prompts.",
    "scored": true,
    "source_url": "https://arena.ai/leaderboard/vision",
-   "fetched_at": "2026-08-24T02:48:34.950130+00:00",
+   "fetched_at": "2026-08-25T02:43:05.426205+00:00",
    "count": 50,
    "models": [
     {
@@ -465,35 +465,35 @@
    "note": "Models answering with live retrieval, where citation quality matters as much as fluency.",
    "scored": true,
    "source_url": "https://arena.ai/leaderboard/search",
-   "fetched_at": "2026-08-24T02:48:34.950130+00:00",
-   "count": 32,
+   "fetched_at": "2026-08-25T02:43:05.426205+00:00",
+   "count": 34,
    "models": [
     {
      "rank": 1,
+     "model": "gpt-5.6-sol-xhigh",
+     "vendor": "OpenAI",
+     "license": "proprietary",
+     "score": 1257,
+     "ci": 7,
+     "votes": 29663
+    },
+    {
+     "rank": 2,
      "model": "claude-opus-4-6-search",
      "vendor": "Anthropic",
      "license": "proprietary",
      "score": 1253,
      "ci": 5,
-     "votes": 112201
-    },
-    {
-     "rank": 2,
-     "model": "gpt-5.5-search",
-     "vendor": "OpenAI",
-     "license": "proprietary",
-     "score": 1240,
-     "ci": 5,
-     "votes": 67573
+     "votes": 134699
     },
     {
      "rank": 3,
-     "model": "claude-fable-5",
-     "vendor": "Anthropic",
+     "model": "gpt-5.5-search",
+     "vendor": "OpenAI",
      "license": "proprietary",
-     "score": 1237,
-     "ci": 8,
-     "votes": 20630
+     "score": 1242,
+     "ci": 5,
+     "votes": 89873
     },
     {
      "rank": 4,
@@ -502,85 +502,85 @@
      "license": "proprietary",
      "score": 1233,
      "ci": 5,
-     "votes": 68515
+     "votes": 91394
     },
     {
      "rank": 5,
-     "model": "ernie-5.1",
-     "vendor": "Baidu",
+     "model": "claude-fable-5",
+     "vendor": "Anthropic",
      "license": "proprietary",
-     "score": 1226,
-     "ci": 10,
-     "votes": 3815
+     "score": 1230,
+     "ci": 8,
+     "votes": 41795
     },
     {
      "rank": 6,
+     "model": "ernie-5.1",
+     "vendor": "Baidu",
+     "license": "proprietary",
+     "score": 1227,
+     "ci": 10,
+     "votes": 3788
+    },
+    {
+     "rank": 7,
      "model": "claude-sonnet-4-6-search",
      "vendor": "Anthropic",
      "license": "proprietary",
      "score": 1221,
      "ci": 5,
-     "votes": 111959
-    },
-    {
-     "rank": 7,
-     "model": "gemini-3.1-pro-grounding",
-     "vendor": "Google",
-     "license": "proprietary",
-     "score": 1212,
-     "ci": 5,
-     "votes": 89973
+     "votes": 134905
     },
     {
      "rank": 8,
+     "model": "grok-4.5",
+     "vendor": "SpaceXAI",
+     "license": "proprietary",
+     "score": 1213,
+     "ci": 7,
+     "votes": 31505
+    },
+    {
+     "rank": 9,
+     "model": "gemini-3.1-pro-grounding",
+     "vendor": "Google",
+     "license": "proprietary",
+     "score": 1210,
+     "ci": 5,
+     "votes": 113282
+    },
+    {
+     "rank": 10,
      "model": "gemini-3-pro-grounding",
      "vendor": "Google",
      "license": "proprietary",
      "score": 1207,
-     "ci": 5,
-     "votes": 37255
-    },
-    {
-     "rank": 9,
-     "model": "gpt-5.2-search",
-     "vendor": "OpenAI",
-     "license": "proprietary",
-     "score": 1206,
      "ci": 6,
-     "votes": 52718
-    },
-    {
-     "rank": 10,
-     "model": "grok-4.20-multi-agent-beta-0309",
-     "vendor": "SpaceXAI",
-     "license": "proprietary",
-     "score": 1205,
-     "ci": 5,
-     "votes": 87118
+     "votes": 37024
     },
     {
      "rank": 11,
-     "model": "claude-opus-4-8",
-     "vendor": "Anthropic",
+     "model": "gpt-5.2-search",
+     "vendor": "OpenAI",
      "license": "proprietary",
-     "score": 1205,
+     "score": 1207,
      "ci": 6,
-     "votes": 48610
+     "votes": 52712
     },
     {
      "rank": 12,
-     "model": "gpt-5.1-search",
-     "vendor": "OpenAI",
+     "model": "claude-opus-4-8",
+     "vendor": "Anthropic",
      "license": "proprietary",
-     "score": 1199,
-     "ci": 5,
-     "votes": 60019
+     "score": 1204,
+     "ci": 6,
+     "votes": 70998
     }
    ]
   }
  ],
- "date": "2026-08-24",
- "generated": "2026-08-24T11:27:45Z",
+ "date": "2026-08-25",
+ "generated": "2026-08-25T05:44:14Z",
  "method": "Crowdsourced blind pairwise voting, scored with a Bradley-Terry model and reported as an Elo-style rating with a 95 percent confidence interval. Gaps under roughly 10 points sit inside the noise floor and should not be read as a ranking.",
  "source": "arena.ai (formerly LMSYS Chatbot Arena)",
  "source_url": "https://arena.ai/leaderboard/"
