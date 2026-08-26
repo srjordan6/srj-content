@@ -1,12 +1,12 @@
 {
-    "note": "Bibliographic facts only. The prose on each book page stays as migrated from WordPress; this file supplies the specs block and the Book/Offer schema, so a status, price, ISBN or page count can never drift from the database again. Regenerate by re-running the query against press_books.",
+    "note": "Bibliographic facts only. The prose on each book page stays as migrated from WordPress; this file supplies the specs block and the Book/Offer schema, so a status, price, ISBN or page count can never drift from the database again. Regenerated from press_books and press_book_isbns on every pipeline run.",
     "books": [
         {
             "isbns": [
                 {
-                    "isbn": "979-8-9965658-1-8",
-                    "format": "Hardback",
-                    "list_price": 59.99
+                    "isbn": "979-8-9965658-2-5",
+                    "format": "Ebook",
+                    "list_price": 9.99
                 },
                 {
                     "isbn": "979-8-9965658-0-1",
@@ -14,9 +14,9 @@
                     "list_price": 22.99
                 },
                 {
-                    "isbn": "979-8-9965658-2-5",
-                    "format": "Ebook",
-                    "list_price": 9.99
+                    "isbn": "979-8-9965658-1-8",
+                    "format": "Hardback",
+                    "list_price": 59.99
                 }
             ],
             "pages": 220,
@@ -207,9 +207,30 @@
             "amazon_url": null,
             "book_number": 9,
             "published_on": null
+        },
+        {
+            "isbns": [
+                {
+                    "isbn": "9798193104520",
+                    "format": "Hardback",
+                    "list_price": 26.99
+                },
+                {
+                    "isbn": "9798193110590",
+                    "format": "Paperback",
+                    "list_price": 16.99
+                }
+            ],
+            "pages": 276,
+            "title": "The AI Lawyer",
+            "pillar": "Works of Fiction",
+            "status": "available",
+            "subtitle": "A Novel",
+            "url_path": "/books/works-of-fiction/the-ai-lawyer/",
+            "amazon_url": "https://www.amazon.com/dp/B0HFJ1R8W2",
+            "book_number": 10,
+            "published_on": "2026-08-17"
         }
     ],
-    "count": 9,
-    "source": "srj_audit.press_books + press_book_isbns via srj-mcp /press.json",
-    "generated_at": "2026-07-30T02:26:41+00:00"
+    "generated": "2026-08-26"
 }
