@@ -1,5 +1,5 @@
 {
-    "count": 522,
+    "count": 552,
     "terms": [
         {
             "slug": "agent",
@@ -4400,6 +4400,14 @@
             "example": "A pytest suite failing the build if any response omits its citation field, before faithfulness is scored at all.",
             "category": "Evaluation",
             "definition": "Checks with one correct answer that do not involve a model judging anything: valid JSON, required field present, cited source appears in the retrieved set, no PII in output, latency under a threshold, refusal on a prohibited prompt. They are cheap, instant, and repeatable, and they belong in CI as hard gates before any model-graded metric runs. Model-graded scores tell you how good an answer is; assertions tell you whether it is even shaped correctly."
+        },
+        {
+            "slug": "eflops",
+            "term": "EFLOPS (exaFLOPS)",
+            "origin": "",
+            "example": "A ministry reporting national intelligent computing capacity in the low thousands of EFLOPS, without naming the precision the figure was measured at.",
+            "category": "Systems & Infrastructure",
+            "definition": "One quintillion floating point operations per second, 10^18, the unit used to size supercomputers and national compute fleets. It sits above petaFLOPS at 10^15 and below zettaFLOPS at 10^21. Read any headline figure carefully, because the precision is rarely stated: exascale in high performance computing means FP64, while national AI capacity totals are usually quoted at the lower precisions used for AI work such as FP16 or INT8, so the two numbers are not comparable even though both are printed as EFLOPS."
         }
     ],
     "source": {
