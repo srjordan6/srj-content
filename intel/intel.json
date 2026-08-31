@@ -1,6 +1,42 @@
 {
-  "generated": "2026-08-31T01:22:33Z",
+  "generated": "2026-08-31T03:07:01Z",
   "items": [
+    {
+      "kind": "paper",
+      "name": "DAMP: Decay-Aware Mixed-Precision Recurrent-State Quantization",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2608.27513v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-31T01:56:16.659811+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "DART-FL: Burst-Aware Multitask Federated Learning under Dynamic Inference Demand at the Edge",
+      "vendor": "Alibaba",
+      "url": "http://arxiv.org/abs/2608.27713v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-31T01:56:16.648503+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Parser States Already Know: Structure-Conditioned KV Persistence for Structured Generation",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2608.28276v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-31T01:56:16.645085+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "VISTA: Verifier-Informed Student-to-Teacher Adaptation for On-Policy Self-Distillation",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2608.28306v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-31T01:56:16.637204+00:00"
+    },
     {
       "kind": "vendor-news",
       "name": "VC funding deals: Stability AI, OmicsBank, Celera Semiconductor - InfotechLead",
@@ -498,24 +534,6 @@
     },
     {
       "kind": "paper",
-      "name": "The Imperfective Paradox Is Not Necessarily in Large Language Models: A Benchmark Failure Before a Model Failure",
-      "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.25005v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-27T12:01:13.009287+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Padamitra: Grounded Glossary Generation for Classical Sanskrit",
-      "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.25038v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-27T12:01:13.005972+00:00"
-    },
-    {
-      "kind": "paper",
       "name": "Provenance Before Prose: Claim-Locked Reporting",
       "vendor": "DeepSeek",
       "url": "http://arxiv.org/abs/2608.25336v1",
@@ -531,15 +549,6 @@
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-27T12:01:12.994431+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "From Specialization to Generalization: Instruction-tuned LLMs for Robust Harmful Content Mitigation",
-      "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.25605v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-27T12:01:12.991126+00:00"
     },
     {
       "kind": "paper",
@@ -6456,54 +6465,9 @@
     },
     {
       "kind": "paper",
-      "name": "TaskSense: Focusing on What Matters in World Models",
-      "vendor": "DeepMind",
-      "url": "http://arxiv.org/abs/2608.06544v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Blast Radius",
-      "vendor": "OpenAI",
-      "url": "http://arxiv.org/abs/2608.07440v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Grammar Engineering Meets LLMs: Development of Cantonese and Irish ParGram Treebanks",
-      "vendor": "OpenAI",
-      "url": "http://arxiv.org/abs/2608.07283v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "NiyamAI - An Intent-Bound AI Agent with Cryptographically Verifiable Guardrails using Zero-Knowledge Proofs",
-      "vendor": "OpenAI",
-      "url": "http://arxiv.org/abs/2608.07167v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Critical Acclaim Orientation in Large Language Models: Evidence from Film Preference Elicitation",
+      "name": "Human-Like Anaphor Resolution in Large Language Models",
       "vendor": "Mistral",
-      "url": "http://arxiv.org/abs/2608.06955v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Observation-Grounded Self-Predictive Reinforcement Learning for Visual Continuous Control",
-      "vendor": "DeepMind",
-      "url": "http://arxiv.org/abs/2608.05989v1",
+      "url": "http://arxiv.org/abs/2608.05630v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
@@ -6519,9 +6483,54 @@
     },
     {
       "kind": "paper",
-      "name": "Human-Like Anaphor Resolution in Large Language Models",
+      "name": "Critical Acclaim Orientation in Large Language Models: Evidence from Film Preference Elicitation",
       "vendor": "Mistral",
-      "url": "http://arxiv.org/abs/2608.05630v1",
+      "url": "http://arxiv.org/abs/2608.06955v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "LMM Modality Transfer: A Pre-requisite for Autonomous GIS Agents",
+      "vendor": "OpenAI",
+      "url": "http://arxiv.org/abs/2608.06948v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "NiyamAI - An Intent-Bound AI Agent with Cryptographically Verifiable Guardrails using Zero-Knowledge Proofs",
+      "vendor": "OpenAI",
+      "url": "http://arxiv.org/abs/2608.07167v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Observation-Grounded Self-Predictive Reinforcement Learning for Visual Continuous Control",
+      "vendor": "DeepMind",
+      "url": "http://arxiv.org/abs/2608.05989v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Blast Radius",
+      "vendor": "OpenAI",
+      "url": "http://arxiv.org/abs/2608.07440v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "TaskSense: Focusing on What Matters in World Models",
+      "vendor": "DeepMind",
+      "url": "http://arxiv.org/abs/2608.06544v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
