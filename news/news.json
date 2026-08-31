@@ -2,12 +2,12 @@
  "big_picture": [
   "China promotes coordinated development of data industry, artificial intelligence-- Beijing Review",
   "Who Writes AI's Rules When Someone Else Owns the Machines?",
+  "Promising Artificial Intelligence Stocks To Add to Your Watchlist \u0026#x2013; August 31st",
   "AI Now Writes 86% of Paisabazaar's New Code, Reshaping How its Engineers Build Productively and Innovatively",
-  "Not Nvidia. Not AMD. This Semiconductor Giant Will Be the Ultimate Winner of the Artificial Intelligence (AI) Hardware Race.",
   "Logged harm: Caught in 4K: The Aurora Files"
  ],
  "date": "2026-08-31",
- "generated": "2026-08-31T15:09:34Z",
+ "generated": "2026-08-31T17:25:29Z",
  "incidents": [
   {
    "incident_id": 1661,
@@ -16,7 +16,7 @@
    "domain": "cloudsek.com",
    "published": "2026-08-29",
    "cite_url": "https://incidentdatabase.ai/cite/1661",
-   "summary": "# Summary\n\nGambit Security's threat intelligence team identified the Aurora ransomware group operating since April 2026 with new capabilities targeting VMware ESXi environments. The group deployed a Linux ransomware variant that encrypts virtual machine files while keeping the hypervisor bootable so victims can see ransom demands. Between April 8 and May 21, 2026, Aurora operators used Cursor Agent, an AI tool running Claude Sonnet, to conduct hands-on exploitation attacks against ten target organizations. The AI agent performed various hacking tasks including network scanning, privilege enumeration, and credential attacks, though many commands initially failed and required multiple refinements before succeeding.\n\nResearchers also identified a second Aurora cluster with medium confidence operating across eight victim organizations in Israel, Germany, Austria, Spain, the United States, and Argentina. This second group used different tactics including SQL Server exploitation and data exfiltration to self-hosted cloud storage. The investigation revealed multiple command and control servers, proxy servers, and the group's ransom negotiation portal. Security researchers provided technical indicators including IP addresses, ransomware file hashes, and domain names to help organizations identify and defend against Aurora operations.",
+   "summary": "Gambit Security's Threat Intelligence team discovered that the Aurora ransomware group, active since April 2026, has developed a Linux variant targeting ESXi virtual environments. The group used a tool called Cursor Agent running Claude Sonnet to conduct hands-on exploitation attacks against ten organizations between April and May 2026. The ransomware encrypts files using ChaCha20 encryption and includes an ESXi-specific mode that kills virtual machines to unlock disk files before encryption, while keeping the hypervisor bootable so victims can see ransom demands.\n\nThe researchers identified two distinct operational clusters within Aurora. The first cluster used Cursor Agent to perform standard exploitation tasks like network scanning, privilege enumeration, and attempted credential attacks, though operators imposed strict rules against certain techniques like DCSync attacks. A second cluster, attributed to Aurora with medium confidence, targeted eight organizations across multiple countries using different tactics including SQL Server exploitation and S3 bucket exfiltration. Gambit Security documented multiple indicators of compromise including command and control IP addresses, malware hashes, and the group's onion-based ransom negotiation portal.",
    "summary_domain": "gambit.security",
    "summary_url": "https://gambit.security/blog-posts/aurora-ransomware-targets-esxi-abuses-cursor-agent-for-exploitation",
    "reports": [
@@ -48,7 +48,7 @@
    "domain": "qz.com",
    "published": "2026-08-29",
    "cite_url": "https://incidentdatabase.ai/cite/1662",
-   "summary": "A major Pizza Hut franchisee filed a lawsuit in Texas claiming the chain's AI-powered delivery system called Dragontail caused over $100 million in damages. Chaac Pizza Northeast, which operates approximately 111 Pizza Hut locations across the Northeast, alleges the system created operational breakdowns and customer dissatisfaction. Before the 2024 rollout, Chaac maintained over 90% on-time deliveries and double-digit sales growth, but performance sharply deteriorated afterward.\n\nThe franchisee contends that when DoorDash drivers gained real-time visibility into kitchen operations, they began waiting up to fifteen minutes to batch multiple orders together, significantly delaying deliveries and reducing customer satisfaction. Drivers could also see tip amounts and payment methods, making them less likely to accept certain orders. Chaac claims Pizza Hut failed to provide adequate training or support and ignored worsening delivery metrics. In New York City specifically, year-over-year sales swung from positive 10.19% to negative 9.78% after the system's implementation. Pizza Hut stated it would respond through legal channels but declined further comment.",
+   "summary": "A major Pizza Hut franchisee has filed a lawsuit claiming that the chain's artificial intelligence delivery system caused over $100 million in damages to its business. Chaac Pizza Northeast, which operates approximately 111 Pizza Hut restaurants across the Northeast, alleges that Pizza Hut forced the adoption of Dragontail, an AI-powered delivery management platform, despite incompatibilities with the franchisee's operations. The company contends the system created cascading operational problems that devastated performance, transforming a previously high-performing business into a struggling one.\n\nBefore the 2024 rollout, Chaac maintained delivery times under 30 minutes for over 90 percent of orders and achieved double-digit sales growth. After implementation, the system gave DoorDash drivers real-time visibility into kitchen operations, causing them to wait up to 15 minutes to batch multiple orders together, which significantly delayed deliveries and reduced customer satisfaction. In New York City, year-over-year sales growth reversed from positive 10.19 percent to negative 9.78 percent. The lawsuit argues Pizza Hut breached its franchise agreement by mandating the software while refusing adequate support and ignoring worsening metrics. Pizza Hut stated it is reviewing the claims and will respond through legal channels.",
    "summary_domain": "businessinsider.com",
    "summary_url": "https://www.businessinsider.com/pizza-hut-ai-system-dragontail-lawsuit-franchisee-2026-5",
    "reports": [
@@ -86,7 +86,7 @@
    "domain": "hollywoodreporter.com",
    "published": "2026-08-29",
    "cite_url": "https://incidentdatabase.ai/cite/1663",
-   "summary": "# Summary\n\nScammers are impersonating Terry Gross and other \"Fresh Air\" staff members to defraud people seeking media appearances. Recipients receive personalized emails claiming to offer interview opportunities, complete with details about their work and proposed topics. The emails eventually request payment for production costs, typically around $250. WHYY, NPR and law enforcement are investigating these fraudulent schemes, which have also targeted other celebrities like comedians Nikki Glaser and Amy Poehler and journalist Katie Couric.\n\nCybersecurity experts attribute the scams' effectiveness to artificial intelligence enabling highly personalized impersonations. Red flags include requests for money, emails from suspicious addresses like \"terrygrossfreshair@gmail.com,\" and the implausibility of famous hosts personally handling logistics. WHYY confirmed it never charges guests for interviews. Experts recommend verifying requests through official channels and remaining skeptical of unsolicited interview offers, even from seemingly credible sources, as AI-powered scams become increasingly sophisticated and convincing.",
+   "summary": "Scammers are impersonating Terry Gross and other \"Fresh Air\" staff members to defraud people, according to WHYY. Authors, entertainers and public figures have received highly personalized emails claiming to offer interview opportunities on the public radio program. The messages include detailed references to the targets' work and appear to come from legitimate sources like Gross or production assistants. Eventually, recipients are asked to pay fees for production costs, typically around $250. A Misericordia University history professor initially believed she had received a genuine invitation but became suspicious when the email appeared to come directly from Gross herself and later requested payment.\n\nWHYY, NPR and law enforcement are investigating the scam, which exploits artificial intelligence to create convincing, personalized impersonations. Experts note that red flags include payment requests and the improbability of a major show's host personally handling logistics. WHYY confirmed it never charges guests for interviews and advised people to verify requests through legitimate contact methods rather than responding to suspicious emails. The scam represents an evolution in fraud tactics, as AI technology allows criminals to target specific individuals with credible-seeming messages tailored to their backgrounds and accomplishments.",
    "summary_domain": "whyy.org",
    "summary_url": "https://whyy.org/articles/scam-emails-terry-gross-fresh-air/",
    "reports": [
@@ -112,7 +112,7 @@
    "domain": "abc7ny.com",
    "published": "2026-08-27",
    "cite_url": "https://incidentdatabase.ai/cite/1660",
-   "summary": "A Bronx legal resident from the Dominican Republic lost $4,820 to scammers who created fake social media advertisements for immigration services. Victor Hernandez responded to what appeared to be an immigration attorney offering citizenship help without an exam, then sent increasing amounts of money via Zelle along with personal documents like his Social Security card and residency card. After his wife became suspicious, they discovered the scheme was fake and involved artificial intelligence-generated content based on real attorney Angel Leal from Miami.\n\nThe scammers used Leal's identity without permission to create multiple fake profiles and videos targeting vulnerable immigrants nationwide. Leal, who has practiced immigration law for 33 years, says he has identified and taken down close to 8,000 fake profile videos impersonating him. Hernandez filed reports with New York police and federal law enforcement and now faces financial hardship, including unpaid rent and utilities. Leal warns people to never hire attorneys through social media, conduct in-person meetings, and avoid attorneys requesting payment through cash-sending apps.",
+   "summary": "A Bronx legal resident lost $4,820 to scammers who used artificial intelligence and a fake social media ad to pose as an immigration attorney. Victor Hernandez, who has lived in the United States for over a decade after moving from the Dominican Republic, responded to an online ad promising citizenship help without taking the official exam. The scammers repeatedly requested personal documents and money through payment apps, claiming each new submission was necessary for processing. Hernandez only discovered the fraud when his wife expressed suspicion and they consulted a friend for help.\n\nThe fake ad was created using AI technology and based on real Miami immigration attorney Angel Leal's identity without his knowledge or permission. Leal reports that scammers have used his image to create thousands of fraudulent profiles targeting vulnerable immigrants across the country. He has spent considerable effort removing over 8,000 fake videos of himself and filed identity theft reports with the Florida bar. Leal advises potential clients to research attorneys thoroughly, meet them in person, and never pay through cash-sending apps. Hernandez, now facing eviction and unpaid utility bills, has filed reports with local and federal law enforcement agencies.",
    "summary_domain": "abc7ny.com",
    "summary_url": "https://abc7ny.com/amp/post/legal-resident-loses-thousands-seeking-citizenship-ai-immigration-attorney-7-side-investiates/19704074/",
    "reports": [
@@ -132,7 +132,7 @@
    "domain": "theguardian.com",
    "published": "2026-08-27",
    "cite_url": "https://incidentdatabase.ai/cite/1659",
-   "summary": "# Summary\n\nA fake American think tank called the Hanover Institute, funded by the Israeli government, published over 560,000 words across 124 reports in nine days to influence artificial intelligence chatbots toward pro-Israel arguments. The institute has no legal existence, physical address, or named staff, and its website presents Israeli government positions on topics like Palestinian torture and Gaza casualties in a quasi-academic format designed to appear neutral. The operation used a specialized platform optimized to get AI systems to cite the content, with questions formatted to match typical chatbot search queries.\n\nThe campaign is part of a much larger effort financed by tens of millions of dollars from Israel's government and routed through the European advertising company Havas Media and American contractors including Brad Parscale's Clock Tower X. Israeli officials have expressed frustration that these public diplomacy efforts have failed, with one comparing the spending to a major intelligence scandal. Meanwhile, American public opinion has shifted significantly against Israel, with polls showing growing sympathy for Palestinians and concerns about Israeli military actions in Gaza, particularly among younger voters.",
+   "summary": "# Summary\n\nAn Israeli-funded fake think tank called the Hanover Institute published over 560,000 words across 124 reports in nine days, designed to influence artificial intelligence chatbots into making pro-Israel arguments. The nonexistent institute presented one-sided research on controversial topics including Palestinian torture, Israeli war crimes, and Gaza starvation, framing Israel's position as neutral scholarship. The operation used a platform optimized to get AI systems to cite the content, and was funded through European advertising company Havas Media, with American firms including Piro Inc managing the campaign.\n\nIsraeli officials later expressed doubts about the strategy's effectiveness, with government spending on the broader public diplomacy effort reaching hundreds of millions of dollars. American public opinion has shifted significantly against Israel, with polls showing Palestinians gaining more support and unfavorable views of Israel rising substantially since 2022. A researcher analyzing the campaign noted that while the effort successfully influences chatbot responses, it has failed to change public opinion polls, suggesting the underlying policies rather than messaging are driving American opposition to Israeli positions.",
    "summary_domain": "theguardian.com",
    "summary_url": "https://www.theguardian.com/world/2026/aug/26/fake-thinktank-israel-ai-propaganda",
    "reports": [
@@ -152,7 +152,7 @@
    "domain": "reason.com",
    "published": "2026-08-25",
    "cite_url": "https://incidentdatabase.ai/cite/1658",
-   "summary": "# Summary\n\nLawyers representing State Farm in a Los Angeles lawsuit have admitted to using artificial intelligence that generated fake legal cases, non-existent quotes, and false case holdings in their court filings. The case involves homeowner Fa'alagilagi Meni-Siliga, whose Carson home became uninhabitable after a 2020 fire. While repairs were underway, storm damage occurred, and following delays in obtaining State Farm's approval, the work was never completed. Meni-Siliga has since lost her home to foreclosure after exhausting her savings and retirement accounts.\n\nAttorney Jacquelene Robinson acknowledged that seven case citations across eight filings did not exist and some case titles and quotes were incorrect. She stated she used an AI tool called Irys, mistakenly believing it was connected to her law firm's legal research subscription and would verify citations. Lead counsel Kenneth Katel apologized to the court and plaintiff, accepting responsibility for the filings. The trial is scheduled for October, and State Farm stated it expects its external counsel to maintain the highest ethical standards and verify all legal filings accurately.",
+   "summary": "# Summary\n\nState Farm's lawyers apologized after using artificial intelligence to prepare legal filings in a Los Angeles lawsuit, with the opposing counsel discovering that the documents contained non-existent cases, quotes, and legal holdings. The case involves homeowner Fa'alagilagi Meni-Siliga, who sued State Farm and others after a 2020 fire in her Carson home left it uninhabitable. While repairs were underway, storm damage occurred, and after what she claimed were delays in getting State Farm's approval, the work was never completed. Meni-Siliga and her husband drained their savings, retirement accounts, declared bankruptcy, and lost their home to foreclosure. The trial is scheduled for October.\n\nLawyer Jacquelene Robinson admitted she used an AI tool called Irys, thinking it was connected to her law firm's legal research subscription, and confirmed that seven case citations across eight filings did not actually exist. Lead counsel Kenneth Katel accepted responsibility for the filings while apologizing to the court and plaintiff. The situation reflects a growing trend in the legal industry, where approximately 41% of law firms use generative AI, though a global database has already documented 1,922 legal hallucination cases, mostly in the United States.",
    "summary_domain": "calmatters.org",
    "summary_url": "https://calmatters.org/economy/2026/08/state-farm-lawsuit-ai-hallucinations/",
    "reports": [
@@ -184,7 +184,7 @@
    "domain": "dechert.com",
    "published": "2026-08-25",
    "cite_url": "https://incidentdatabase.ai/cite/1108",
-   "summary": "Pennsylvania's medical licensing board has sued Character Technologies, the company behind Character.ai, claiming that a user-created chatbot named Emilie illegally practiced medicine. The chatbot allegedly offered psychiatric assessments, claimed to have attended medical school and worked as a psychiatrist for seven years, and falsely stated it was licensed to practice in Pennsylvania, providing a fake license number. By mid-April 2026, the chatbot had recorded over 45,000 user interactions. The state is seeking a preliminary injunction to prevent chatbots from posing as medical professionals on the platform.\n\nCharacter Technologies argues that its platform is designed for fictional roleplay and includes clear disclaimers that users are not talking to real people. The company contends that users cannot reasonably rely on information from interactions they understand are fictional. Meanwhile, several states including Nevada, Illinois, and Tennessee have passed legislation restricting AI from providing mental health services. New York's updated bill, which passed the Senate in May 2026, specifically prohibits chatbot operators from disclaiming liability by informing users they are interacting with non-human systems, with potential penalties reaching $15,000 per day.",
+   "summary": "Pennsylvania's Department of State and Medical Board have sued Character Technologies, the company behind Character.ai, claiming that a user-created chatbot named Emilie illegally practiced medicine. The chatbot allegedly offered psychiatric assessments, claimed to have attended medical school and seven years of psychiatric experience, and when directly asked if it was licensed in Pennsylvania, confirmed it was and provided a fake license number. By mid-April 2026, Emilie had accumulated over 45,000 user interactions. The state is seeking a preliminary injunction to prevent chatbots from posing as medical professionals on the platform.\n\nCharacter Technologies argues that its chatbots are fictional characters designed for roleplaying and come with clear disclaimers that users are not speaking to real people. The company contends users cannot reasonably rely on information from an interaction they know is fictional. Meanwhile, several states including Nevada, Illinois, Tennessee, and New York have enacted or proposed legislation restricting AI from providing mental health services. New York's bill would impose penalties of up to 15,000 dollars per day for violations and prevents companies from disclaiming liability by notifying users they are interacting with chatbots.",
    "summary_domain": "dechert.com",
    "summary_url": "https://www.dechert.com/knowledge/re-torts/2026/6/Pennsylvania-Sues-Character-ai-Over-Chatbot-That-Posed-as-Licensed-Psychiatrist.html",
    "reports": [
@@ -204,7 +204,7 @@
    "domain": "nytimes.com",
    "published": "2026-08-25",
    "cite_url": "https://incidentdatabase.ai/cite/1432",
-   "summary": "German actress and television personality Collien Fernandes discovered that someone had been impersonating her online for years, engaging in sexually explicit affairs with men and distributing pornographic material purporting to show her. The harassment included fake videos, AI-generated imagery, and people charging money for alleged access to her. After years of receiving little help, Fernandes decided to investigate the impersonators herself like a journalist would, working to identify who was behind the deception. By March 2026, she believed she had finally found one person responsible and prepared to publicly expose them.\n\nFernandes had recently divorced Christian Ulmen, a famous German actor and comedian known for his humor centered on embarrassment and humiliation. During their 14-year marriage, the couple was highly visible in German media and were often portrayed as a modern, egalitarian partnership with strong feminist values. Fernandes had become known for advocating against double standards for working mothers and for her work promoting gender equality through children's books and a documentary about feminism, making her investigation and exposure of her impersonator particularly significant in sparking a larger feminist movement.",
+   "summary": "# Summary\n\nGerman actress and television personality Collien Fernandes discovered that someone had been impersonating her online for years, conducting sexual affairs with men using her name and identity. The impersonator created and shared explicit material falsely depicting her, sometimes charging money for promised access to her. After learning about a fabricated video in 2021, Fernandes decided to investigate who was behind the harassment instead of ignoring it. Through her investigation, she believed she had identified one of the individuals responsible for the impersonation.\n\nOn a March evening while filming a television series in Vietnam, Fernandes prepared to expose the person she had identified as her impersonator. This discovery and subsequent investigation would ignite a feminist movement. The article notes that Fernandes was recently divorced from Christian Ulmen, a famous German actor and comedian known for cringe humor. During their 14-year marriage, the couple had presented themselves as advocates for feminist values and modern parenting.",
    "summary_domain": "nytimes.com",
    "summary_url": "https://www.nytimes.com/2026/08/23/magazine/collien-fernandes-impersonators-germany-metoo.html",
    "reports": [
@@ -224,7 +224,7 @@
    "domain": "musicbusinessworldwide.com",
    "published": "2026-08-25",
    "cite_url": "https://incidentdatabase.ai/cite/1655",
-   "summary": "Major record labels including Universal Music Group, Sony Music, Warner Music, Capitol Records, and Atlantic Records have filed lawsuits against AI music generators Udio and Suno. The labels accuse both companies of scraping thousands of copyrighted songs without permission to train their models and of directly reproducing sections of famous songs. The record labels claim the companies have been deliberately secretive about their training data, though both previously argued their use constitutes fair use. The lawsuits were filed in New York against Udio and Massachusetts against Suno, where the companies are headquartered.\n\nThe record labels demonstrated their claims by using the AI generators with specific prompts to recreate versions of famous songs they own. For example, they generated a near-identical clone of Mariah Carey's \"All I Want for Christmas Is You\" and created 29 different outputs resembling Chuck Berry's \"Johnny B. Goode.\" The lawsuit lists thousands of specific copyrighted works allegedly scraped from artists including The Beatles, Frank Sinatra, Bruce Springsteen, and Michael Jackson. The labels submitted a thumb drive of AI-generated songs as evidence and are also suing unknown individuals they claim helped the companies scrape the music.",
+   "summary": "Major record labels including Universal Music Group, Sony Music, Warner Music, Capitol Records, and Atlantic Records have filed separate lawsuits against Udio and Suno, two popular AI music generators. The labels accuse both companies of illegally copying thousands of copyrighted songs without permission to train their artificial intelligence systems. The lawsuits allege that the companies have deliberately hidden which songs they used and claim this represents copyright infringement on a massive scale. The record labels submitted evidence showing they were able to recreate famous songs by using specific prompts with the AI generators, demonstrating the systems directly reproduce sections of well-known music from artists like The Beatles, The Beach Boys, Michael Jackson, and many others.\n\nTo build their cases, the record labels used the AI music generators with targeted prompts describing song characteristics like release decade, genre, and artist style, then compared the outputs to original recordings they own. They documented numerous examples of AI-generated songs that replicate the distinctive melodies and rhythms of copyrighted material. The companies have previously claimed their training on copyrighted material qualifies as fair use, but the lawsuits reject this defense. These cases represent a major legal battle over how generative AI services should operate regarding copyrighted content across music, art, video, and text.",
    "summary_domain": "404media.co",
    "summary_url": "https://www.404media.co/listen-to-the-ai-generated-ripoff-songs-that-got-udio-and-suno-sued/",
    "reports": [
@@ -388,7 +388,7 @@
    "domain": "musicbusinessworldwide.com",
    "published": "2026-08-25",
    "cite_url": "https://incidentdatabase.ai/cite/1656",
-   "summary": "Universal Music Group has reached a settlement with AI music startup Udio, ending a lawsuit that accused the company of using copyrighted songs to train its artificial intelligence system. UMG had claimed that Udio improperly used hits like The Temptations' \"My Girl\" to create similar melodies without permission or payment. Under the new licensing agreements, Udio will launch a platform next year that uses only authorized and licensed music, allowing users to customize, stream, and share songs created with AI. The financial terms of the settlement were not disclosed.\n\nUdio, founded in 2024 by former Google DeepMind employees, generates original music from text prompts using artificial intelligence. The company said artists can opt into the new platform and will be compensated, though specific details remain unclear. This marks Udio's first music licensing agreement with a major label. UMG also announced a separate partnership with Stability AI to develop music creation tools for artists and producers, as the music industry continues navigating the opportunities and challenges presented by artificial intelligence technology.",
+   "summary": "Universal Music Group has reached a settlement with AI music startup Udio, ending a lawsuit that claimed Udio used copyrighted songs to train its artificial intelligence system. Under the agreement, Udio will launch a new platform next year that operates only on authorized and licensed music, allowing users to create, customize, and share songs. The companies did not disclose the financial terms of the deal. UMG's leadership stated the settlement reflects their commitment to supporting artists and songwriters while embracing new technology and business models.\n\nUdio, a New York-based company founded in 2024 by former Google DeepMind employees, uses AI to compose original music from text prompts. The original lawsuit accused the startup of creating songs similar to copyrighted hits like The Temptations' \"My Girl.\" Under the new licensing agreement, artists can choose to participate in the platform and will receive compensation, though specific details remain undisclosed. This marks Udio's first major label licensing deal, and the company says millions of users have accessed its platform since launching.",
    "summary_domain": "latimes.com",
    "summary_url": "https://www.latimes.com/entertainment-arts/business/story/2025-10-30/umg-settles-with-udio",
    "reports": [
@@ -551,7 +551,7 @@
    "domain": "404media.co",
    "published": "2026-08-23",
    "cite_url": "https://incidentdatabase.ai/cite/1645",
-   "summary": "An expert witness hired by 3M to defend the company in a lawsuit over a deadly 2020 Houston explosion used ChatGPT to write significant portions of his expert report. Court documents revealed that the witness asked the AI chatbot to help him create a report showing how 3M was zero percent at fault for the incident at Watson Grinding, a manufacturing facility. The explosion killed three people and destroyed approximately 200 homes, resulting in a $61 million lawsuit with hundreds of millions in total liability at stake.\n\nThe case highlights how artificial intelligence is increasingly being used in legal proceedings, including expert witness testimony. A degraded rubber welding hose at the facility leaked flammable gas that eventually exploded, according to investigators. Multiple homeowners sued 3M and Watson Grinding, claiming 3M failed to properly maintain the facility's gas detection system and made other errors contributing to the disaster. The AI prompts used to generate the expert testimony became discoverable documents during the case, potentially damaging to the company's defense.",
+   "summary": "An expert witness hired by 3M to defend the company in a lawsuit over a deadly Houston explosion used ChatGPT to write major portions of his expert report. Court documents revealed that the witness asked the AI tool to create a report showing that 3M was zero percent at fault for the 2020 explosion at Watson Grinding facility, which killed three people and damaged around 200 homes. The incident demonstrates how artificial intelligence has infiltrated courtrooms through expert testimony, not just legal briefs and other documents.\n\nThe Watson Grinding explosion was caused by a degraded rubber welding hose that leaked flammable gas, according to investigators. Homeowners and others sued 3M and Watson Grinding, claiming 3M failed to properly maintain the facility's gas detection system and made other errors contributing to the disaster. The case involves multiple deaths and hundreds of millions of dollars in total liability. The discovery of the AI prompts used to create the expert report proved embarrassing to the defense, showing how the testimony was artificially crafted to support a predetermined outcome.",
    "summary_domain": "404media.co",
    "summary_url": "https://www.404media.co/show-how-3m-is-0-at-fault-expert-witness-used-chatgpt-to-write-report-defending-company-in-deadly-explosion-lawsuit/",
    "reports": [
@@ -585,19 +585,19 @@
    ],
    "Persons": [
     "liu liehong",
-    "duan annan",
-    "cristian davis acosta",
-    "muhammadou m o kah",
+    "duan zhongxian",
     "wang junbao",
-    "qin yongbin"
+    "muhammadou m o kah",
+    "qin yongbin",
+    "duan annan"
    ],
    "Orgs": [
+    "china international big data industry expo",
+    "guizhou tongren data vocational college",
     "china national data administration",
     "shanghai benyuan digital technology co ltd",
-    "world data organization",
-    "guizhou wujiang hydropower development co ltd",
-    "united nations commission on science",
-    "guizhou minzu university"
+    "guizhou minzu university",
+    "guizhou wujiang hydropower development co ltd"
    ],
    "Articles": [
     {
@@ -661,10 +661,10 @@
     "solly malatsi"
    ],
    "Orgs": [
-    "amazon web services",
-    "draft national",
     "nvidia",
     "development bank",
+    "amazon web services",
+    "draft national",
     "world artificial intelligence cooperation organisation",
     "world artificial intelligence organisation"
    ],
@@ -680,6 +680,42 @@
      "Domain": "businessday.co.za",
      "Title": "KUHLE DAWETI | Who writes AI's rules when someone else owns the machines?",
      "URL": "https://www.businessday.co.za/opinion/2026-08-31-kuhle-daweti-who-writes-ais-rules-when-someone-else-owns-the-machines/"
+    }
+   ]
+  },
+  {
+   "Slug": "promising-artificial-intelligence-stocks-to-add-to-your-watc",
+   "Headline": "Promising Artificial Intelligence Stocks To Add to Your Watchlist \u0026#x2013; August 31st",
+   "Summary": "MarketBeat's stock screener identified five artificial intelligence stocks showing high trading volume as of August 31st, 2026. These companies are Webus International, Tempus AI, Hut 8, SoundHound AI, and Rezolve AI. Artificial intelligence stocks represent shares in companies developing or using AI technologies like machine learning, generative AI, and robotics. For investors, these stocks offer potential exposure to AI industry growth, though they carry heightened risks due to high valuations, competition, regulation, and rapidly changing technology.\n\nEach company operates in different segments of the AI industry. Tempus AI applies artificial intelligence to precision medicine and healthcare delivery. Hut 8 builds and manages data centers for digital asset mining and artificial intelligence computing. SoundHound AI develops voice recognition solutions for automotive, television, and customer service industries. Rezolve AI creates mobile commerce platforms using AI and machine learning to streamline purchasing processes. These stocks had the highest dollar trading volumes among artificial intelligence stocks in recent days.",
+   "SummaryURL": "https://www.dailypolitical.com/2026/08/31/promising-artificial-intelligence-stocks-to-add-to-your-watchlist-august-31st.html",
+   "SummaryDomain": "dailypolitical.com",
+   "ArticleCount": 2,
+   "DomainCount": 2,
+   "Domains": [
+    "dailypolitical.com",
+    "tickerreport.com"
+   ],
+   "Persons": [],
+   "Orgs": [
+    "united states",
+    "soundhound ai inc",
+    "tempus ai inc",
+    "holdings inc",
+    "sentinelone inc",
+    "webus international"
+   ],
+   "Articles": [
+    {
+     "Date": "2026-08-31T16:30:00Z",
+     "Domain": "dailypolitical.com",
+     "Title": "Promising Artificial Intelligence Stocks To Add to Your Watchlist \u0026#x2013; August 31st",
+     "URL": "https://www.dailypolitical.com/2026/08/31/promising-artificial-intelligence-stocks-to-add-to-your-watchlist-august-31st.html"
+    },
+    {
+     "Date": "2026-08-30T17:45:00Z",
+     "Domain": "tickerreport.com",
+     "Title": "Artificial Intelligence Stocks To Consider \u0026#x2013; August 30th",
+     "URL": "https://www.tickerreport.com/banking-finance/13566617/artificial-intelligence-stocks-to-consider-august-30th.html"
     }
    ]
   },
@@ -788,10 +824,10 @@
     "moneyball superscore"
    ],
    "Orgs": [
-    "due to taiwan semiconductor",
-    "taiwan semiconductor",
     "taiwan semiconductor manufacturing",
     "nvidia",
+    "due to taiwan semiconductor",
+    "taiwan semiconductor",
     "netflix"
    ],
    "Articles": [
@@ -865,46 +901,44 @@
    ]
   },
   {
-   "Slug": "1-no-brainer-artificial-intelligence-ai-etf-to-buy-with-50-a",
-   "Headline": "1 No-Brainer Artificial Intelligence (AI) ETF to Buy With $50 and Hold for the Long Term",
-   "Summary": "The iShares A.I. Innovation and Tech Active ETF invests in 49 companies developing and deploying artificial intelligence technologies. Since launching in October 2024, the ETF has returned approximately 76 percent, more than double the S\u0026P 500's 31 percent gain over the same period. Individual shares cost under $50, making it accessible for small investors seeking long-term exposure to AI.\n\nThe ETF holds semiconductor companies like Nvidia and Micron Technology at its core, since computer chips drive AI development. It also includes major cloud providers such as Alphabet, Microsoft, and Amazon that purchase AI components and rent computing power to other businesses. Additionally, the portfolio contains cybersecurity firms embedding AI into their products and positions in private AI laboratories Anthropic and OpenAI. Industry forecasts suggest hyperscalers will spend nearly 800 billion dollars on AI infrastructure in 2026 and 1.3 trillion in 2027, indicating the AI boom remains in early stages with potential for substantial future growth.",
-   "SummaryURL": "https://www.fool.com/investing/2026/08/31/1-no-brainer-artificial-intelligence-ai-etf-to-buy/?source=iedfolrf0000001",
-   "SummaryDomain": "fool.com",
+   "Slug": "optivalue-tek-eyes-next-phase-of-growth-expands-focus-on-ai",
+   "Headline": "OptiValue Tek Eyes Next Phase of Growth, Expands Focus on AI, Digital Twins and Defence Technology",
+   "Summary": "OptiValue Tek Consulting Limited, a New Delhi-based technology company, is moving into a new growth phase with increased emphasis on artificial intelligence, digital twins, and defence technology. The firm has launched ICUDS, an AI-powered counter-drone platform designed to protect critical infrastructure through detection and tracking capabilities. The company received a multi-million-dollar government order through India's Government e-Marketplace to support this expansion. OptiValue is broadening its reach into defence, energy, manufacturing, and logistics sectors as organizations seek better decision-making tools.\n\nThe company is also developing digital twins, which create virtual replicas of physical systems to test scenarios and identify vulnerabilities before real-world problems occur. To support this strategy, OptiValue has formed partnerships with Eagle Infrastructure India for intelligent infrastructure development and with SFJ Business Solutions for AI transformation programmes. Chairman Ashish Kumar emphasized the company's goal to connect artificial intelligence with physical systems across defence and critical infrastructure, positioning digital twins as a bridge between digital engineering and operational intelligence for improved organizational resilience.",
+   "SummaryURL": "http://www.bruneinews.net/news/279276692/optivalue-tek-eyes-next-phase-of-growth-expands-focus-on-ai-digital-twins-and-defence-technology",
+   "SummaryDomain": "bruneinews.net",
    "ArticleCount": 3,
-   "DomainCount": 2,
+   "DomainCount": 3,
    "Domains": [
-    "fool.com",
-    "aol.com"
+    "bruneinews.net",
+    "laosnews.net",
+    "aninews.in"
    ],
    "Persons": [
-    "jensen huang"
+    "ashish kumar"
    ],
    "Orgs": [
-    "taiwan semiconductor manufacturing",
-    "micron technology",
-    "advanced micro devices",
-    "nvidia",
-    "palo alto networks",
-    "broadcom"
+    "optivaluetek consulting",
+    "business solutions",
+    "optivalue tek consulting"
    ],
    "Articles": [
     {
-     "Date": "2026-08-31T08:30:00Z",
-     "Domain": "fool.com",
-     "Title": "1 No-Brainer Artificial Intelligence (AI) ETF to Buy With $50 and Hold for the Long Term",
-     "URL": "https://www.fool.com/investing/2026/08/31/1-no-brainer-artificial-intelligence-ai-etf-to-buy/?source=iedfolrf0000001"
+     "Date": "2026-08-31T16:15:00Z",
+     "Domain": "bruneinews.net",
+     "Title": "OptiValue Tek Eyes Next Phase of Growth, Expands Focus on AI, Digital Twins and Defence Technology",
+     "URL": "http://www.bruneinews.net/news/279276692/optivalue-tek-eyes-next-phase-of-growth-expands-focus-on-ai-digital-twins-and-defence-technology"
     },
     {
-     "Date": "2026-08-31T08:00:00Z",
-     "Domain": "aol.com",
-     "Title": "1 No-Brainer Artificial Intelligence (AI) ETF to Buy With $50 and Hold for the Long Term",
-     "URL": "https://www.aol.com/articles/1-no-brainer-artificial-intelligence-052000000.html"
+     "Date": "2026-08-31T15:00:00Z",
+     "Domain": "laosnews.net",
+     "Title": "OptiValue Tek Eyes Next Phase of Growth, Expands Focus on AI, Digital Twins and Defence Technology",
+     "URL": "http://www.laosnews.net/news/279276692/optivalue-tek-eyes-next-phase-of-growth-expands-focus-on-ai-digital-twins-and-defence-technology"
     },
     {
-     "Date": "2026-08-31T05:30:00Z",
-     "Domain": "fool.com",
-     "Title": "1 No-Brainer Artificial Intelligence (AI) ETF to Buy With $50 and Hold for the Long Term",
-     "URL": "https://www.fool.com/investing/2026/08/31/1-no-brainer-artificial-intelligence-ai-etf-to-buy/"
+     "Date": "2026-08-31T13:30:00Z",
+     "Domain": "aninews.in",
+     "Title": "OptiValue Tek Eyes Next Phase of Growth, Expands Focus on AI, Digital Twins and Defence Technology",
+     "URL": "https://aninews.in/news/business/optivalue-tek-eyes-next-phase-of-growth-expands-focus-on-ai-digital-twins-and-defence-technology20260831182200/"
     }
    ]
   },
@@ -924,9 +958,9 @@
     "moneyball superscore"
    ],
    "Orgs": [
-    "marvell technology",
     "broadcom",
     "google",
+    "marvell technology",
     "netflix",
     "nvidia"
    ],
@@ -952,75 +986,46 @@
    ]
   },
   {
-   "Slug": "the-s-p-500-has-fallen-in-56-of-septembers-since-1928-here-s",
-   "Headline": "The S\u0026P 500 Has Fallen in 56% of Septembers Since 1928. Here's What That Means for Artificial Intelligence (AI) Stocks.",
-   "Summary": "Historical data shows that the S\u0026P 500 has fallen in 56% of Septembers since 1928, with an average decline of about 1.17% during that month. This pattern, known as the September Effect, may stem from psychological expectations, investor profit-taking, tax-loss harvesting strategies, and major Federal Reserve decisions that typically occur in September. However, the market has risen in 44% of Septembers, and the average declines are relatively modest.\n\nDespite potential September volatility affecting the broader market, artificial intelligence stocks like Nvidia and Micron Technology remain strong investments. Nvidia recently reported revenues that more than doubled year-over-year to $96.2 billion, with management forecasting 70% revenue growth ahead. Micron is also performing strongly and reports earnings in late September. Both companies are leaders in the AI infrastructure sector, with tech companies expected to spend $1.3 trillion on data center buildouts next year, suggesting that any September price declines in these stocks could present buying opportunities for investors.",
-   "SummaryURL": "https://www.fool.com/investing/2026/08/31/the-sp-500-has-fallen-in-56-of-septembers-since-19/?source=iedfolrf0000001",
+   "Slug": "1-no-brainer-artificial-intelligence-ai-etf-to-buy-with-50-a",
+   "Headline": "1 No-Brainer Artificial Intelligence (AI) ETF to Buy With $50 and Hold for the Long Term",
+   "Summary": "The iShares A.I. Innovation and Tech Active ETF invests in 49 companies developing and deploying artificial intelligence technologies. Since launching in October 2024, the ETF has returned approximately 76 percent, more than double the S\u0026P 500's 31 percent gain over the same period. Individual shares cost under $50, making it accessible for small investors seeking long-term exposure to AI.\n\nThe ETF holds semiconductor companies like Nvidia and Micron Technology at its core, since computer chips drive AI development. It also includes major cloud providers such as Alphabet, Microsoft, and Amazon that purchase AI components and rent computing power to other businesses. Additionally, the portfolio contains cybersecurity firms embedding AI into their products and positions in private AI laboratories Anthropic and OpenAI. Industry forecasts suggest hyperscalers will spend nearly 800 billion dollars on AI infrastructure in 2026 and 1.3 trillion in 2027, indicating the AI boom remains in early stages with potential for substantial future growth.",
+   "SummaryURL": "https://www.fool.com/investing/2026/08/31/1-no-brainer-artificial-intelligence-ai-etf-to-buy/?source=iedfolrf0000001",
    "SummaryDomain": "fool.com",
-   "ArticleCount": 2,
+   "ArticleCount": 3,
    "DomainCount": 2,
    "Domains": [
     "fool.com",
-    "yahoo.com"
+    "aol.com"
    ],
    "Persons": [
-    "moneyball superscore",
-    "colette kress"
+    "jensen huang"
    ],
    "Orgs": [
+    "broadcom",
+    "micron technology",
     "nvidia",
-    "federal reserve",
-    "micron technology"
+    "palo alto networks",
+    "microsoft",
+    "taiwan semiconductor manufacturing"
    ],
    "Articles": [
     {
-     "Date": "2026-08-31T11:45:00Z",
+     "Date": "2026-08-31T08:30:00Z",
      "Domain": "fool.com",
-     "Title": "The S\u0026P 500 Has Fallen in 56% of Septembers Since 1928. Here's What That Means for Artificial Intelligence (AI) Stocks.",
-     "URL": "https://www.fool.com/investing/2026/08/31/the-sp-500-has-fallen-in-56-of-septembers-since-19/?source=iedfolrf0000001"
+     "Title": "1 No-Brainer Artificial Intelligence (AI) ETF to Buy With $50 and Hold for the Long Term",
+     "URL": "https://www.fool.com/investing/2026/08/31/1-no-brainer-artificial-intelligence-ai-etf-to-buy/?source=iedfolrf0000001"
     },
     {
-     "Date": "2026-08-31T11:15:00Z",
-     "Domain": "yahoo.com",
-     "Title": "The S\u0026P 500 Has Fallen in 56% of Septembers Since 1928. Here's What That Means for Artificial Intelligence (AI) Stocks.",
-     "URL": "https://finance.yahoo.com/markets/stocks/articles/p-500-fallen-56-septembers-103400820.html"
-    }
-   ]
-  },
-  {
-   "Slug": "warren-buffett-s-successor-greg-abel-keeps-buying-this-incre",
-   "Headline": "Warren Buffett's Successor, Greg Abel, Keeps Buying This Incredible Artificial Intelligence (AI) Stock That Buffett Also Loved",
-   "Summary": "Greg Abel, who succeeded Warren Buffett as CEO of Berkshire Hathaway, continued purchasing shares of Alphabet during the second quarter, according to company filings. Berkshire bought approximately 48 million shares worth about $16.3 billion, making Alphabet the company's third-largest holding. Buffett himself had initiated an Alphabet position before retiring and has stated he wishes he had purchased the stock sooner, indicating strong confidence in the company.\n\nAlphabet's strong performance in artificial intelligence has driven this investment decision. The company's Google Cloud division experienced 82 percent year-over-year revenue growth, reaching $24.8 billion in Q2 with $8.8 billion in operating income. Alphabet's overall revenue increased 24 percent year-over-year. Despite this growth and success, Alphabet's stock trades at approximately 23 times forward earnings, suggesting it remains reasonably valued as competition in AI computing intensifies.",
-   "SummaryURL": "https://www.fool.com/investing/2026/08/30/warren-buffetts-successor-greg-abel-keeps-buying-t/?source=iedfolrf0000001",
-   "SummaryDomain": "fool.com",
-   "ArticleCount": 2,
-   "DomainCount": 2,
-   "Domains": [
-    "fool.com",
-    "yahoo.com"
-   ],
-   "Persons": [
-    "warren buffett",
-    "greg abel",
-    "berkshire hathaway",
-    "moneyball superscore"
-   ],
-   "Orgs": [
-    "berkshire hathaway",
-    "nvidia"
-   ],
-   "Articles": [
-    {
-     "Date": "2026-08-30T11:45:00Z",
-     "Domain": "fool.com",
-     "Title": "Warren Buffett's Successor, Greg Abel, Keeps Buying This Incredible Artificial Intelligence (AI) Stock That Buffett Also Loved",
-     "URL": "https://www.fool.com/investing/2026/08/30/warren-buffetts-successor-greg-abel-keeps-buying-t/?source=iedfolrf0000001"
+     "Date": "2026-08-31T08:00:00Z",
+     "Domain": "aol.com",
+     "Title": "1 No-Brainer Artificial Intelligence (AI) ETF to Buy With $50 and Hold for the Long Term",
+     "URL": "https://www.aol.com/articles/1-no-brainer-artificial-intelligence-052000000.html"
     },
     {
-     "Date": "2026-08-30T10:00:00Z",
-     "Domain": "yahoo.com",
-     "Title": "Warren Buffett's Successor, Greg Abel, Keeps Buying This Incredible Artificial Intelligence (AI) Stock That Buffett Also Loved",
-     "URL": "https://finance.yahoo.com/markets/stocks/articles/warren-buffetts-successor-greg-abel-092000761.html"
+     "Date": "2026-08-31T05:30:00Z",
+     "Domain": "fool.com",
+     "Title": "1 No-Brainer Artificial Intelligence (AI) ETF to Buy With $50 and Hold for the Long Term",
+     "URL": "https://www.fool.com/investing/2026/08/31/1-no-brainer-artificial-intelligence-ai-etf-to-buy/"
     }
    ]
   },
@@ -1040,9 +1045,9 @@
     "moneyball superscore"
    ],
    "Orgs": [
+    "nvidia",
     "visa",
     "mastercard",
-    "nvidia",
     "netflix"
    ],
    "Articles": [
