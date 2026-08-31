@@ -1,13 +1,13 @@
 {
  "big_picture": [
   "China promotes coordinated development of data industry, artificial intelligence-- Beijing Review",
+  "Who Writes AI's Rules When Someone Else Owns the Machines?",
+  "AI Now Writes 86% of Paisabazaar's New Code, Reshaping How its Engineers Build Productively and Innovatively",
   "Not Nvidia. Not AMD. This Semiconductor Giant Will Be the Ultimate Winner of the Artificial Intelligence (AI) Hardware Race.",
-  "Micron vs. Sandisk: 1 Artificial Intelligence (AI) Memory Stock Is Clearly the Better Buy Today",
-  "1 No-Brainer Artificial Intelligence (AI) ETF to Buy With $50 and Hold for the Long Term",
   "Logged harm: Caught in 4K: The Aurora Files"
  ],
  "date": "2026-08-31",
- "generated": "2026-08-31T12:09:14Z",
+ "generated": "2026-08-31T15:09:34Z",
  "incidents": [
   {
    "incident_id": 1661,
@@ -16,7 +16,7 @@
    "domain": "cloudsek.com",
    "published": "2026-08-29",
    "cite_url": "https://incidentdatabase.ai/cite/1661",
-   "summary": "# Summary\n\nGambit Security's Threat Intelligence team identified Aurora ransomware operations targeting ESXi environments since April 2026. The group developed a Linux ransomware variant that encrypts virtual machine files using ChaCha20 encryption while keeping the hypervisor bootable so victims can view ransom demands. Researchers discovered the Aurora operator used Cursor Agent, an AI tool running Claude Sonnet, to conduct hands-on exploitation across ten target organizations between April and May 2026. The agent performed standard hacking tasks including installing VPN clients, scanning networks, enumerating domain privileges, and attempting authentication relay attacks, though many commands initially failed and required refinement.\n\nA second Aurora cluster was identified with medium confidence, operating differently by exploiting SQL Server vulnerabilities and exfiltrating data to self-hosted storage. This cluster targeted eight organizations across multiple countries including Israel, Germany, Austria, Spain, the United States, and Argentina. The investigation provided indicators of compromise including command and control IP addresses, proxy servers, file hashes, and the ransomware group's ransom negotiation website on the dark web.",
+   "summary": "# Summary\n\nGambit Security's threat intelligence team identified the Aurora ransomware group operating since April 2026 with new capabilities targeting VMware ESXi environments. The group deployed a Linux ransomware variant that encrypts virtual machine files while keeping the hypervisor bootable so victims can see ransom demands. Between April 8 and May 21, 2026, Aurora operators used Cursor Agent, an AI tool running Claude Sonnet, to conduct hands-on exploitation attacks against ten target organizations. The AI agent performed various hacking tasks including network scanning, privilege enumeration, and credential attacks, though many commands initially failed and required multiple refinements before succeeding.\n\nResearchers also identified a second Aurora cluster with medium confidence operating across eight victim organizations in Israel, Germany, Austria, Spain, the United States, and Argentina. This second group used different tactics including SQL Server exploitation and data exfiltration to self-hosted cloud storage. The investigation revealed multiple command and control servers, proxy servers, and the group's ransom negotiation portal. Security researchers provided technical indicators including IP addresses, ransomware file hashes, and domain names to help organizations identify and defend against Aurora operations.",
    "summary_domain": "gambit.security",
    "summary_url": "https://gambit.security/blog-posts/aurora-ransomware-targets-esxi-abuses-cursor-agent-for-exploitation",
    "reports": [
@@ -48,7 +48,7 @@
    "domain": "qz.com",
    "published": "2026-08-29",
    "cite_url": "https://incidentdatabase.ai/cite/1662",
-   "summary": "A major Pizza Hut franchisee filed a lawsuit against Pizza Hut on May 6 in Texas, claiming the company's new AI-powered delivery management system called Dragontail caused over $100 million in damages. Chaac Pizza Northeast, which operates approximately 111 Pizza Hut locations across the Northeast, alleges that implementing Dragontail created cascading operational problems that destroyed its previously successful business. The system gave DoorDash drivers real-time visibility into kitchen operations, allowing them to see when pizzas would be ready and to batch multiple orders together, causing significant delivery delays.\n\nBefore Dragontail's 2024 rollout, Chaac achieved more than 90% on-time deliveries and double-digit sales growth. After implementation, the company's performance collapsed, with New York City sales dropping from positive 10.19% year-over-year growth to negative 9.78%. The franchisee claims DoorDash drivers waited up to fifteen minutes for additional orders and could view tip amounts and payment methods, causing some to decline lower-value deliveries. Chaac contends Pizza Hut failed to provide adequate training or support and breached their franchise agreement. Pizza Hut declined to comment beyond saying it would respond through legal channels, while the company faces broader struggles including plans to close 250 US locations.",
+   "summary": "A major Pizza Hut franchisee filed a lawsuit in Texas claiming the chain's AI-powered delivery system called Dragontail caused over $100 million in damages. Chaac Pizza Northeast, which operates approximately 111 Pizza Hut locations across the Northeast, alleges the system created operational breakdowns and customer dissatisfaction. Before the 2024 rollout, Chaac maintained over 90% on-time deliveries and double-digit sales growth, but performance sharply deteriorated afterward.\n\nThe franchisee contends that when DoorDash drivers gained real-time visibility into kitchen operations, they began waiting up to fifteen minutes to batch multiple orders together, significantly delaying deliveries and reducing customer satisfaction. Drivers could also see tip amounts and payment methods, making them less likely to accept certain orders. Chaac claims Pizza Hut failed to provide adequate training or support and ignored worsening delivery metrics. In New York City specifically, year-over-year sales swung from positive 10.19% to negative 9.78% after the system's implementation. Pizza Hut stated it would respond through legal channels but declined further comment.",
    "summary_domain": "businessinsider.com",
    "summary_url": "https://www.businessinsider.com/pizza-hut-ai-system-dragontail-lawsuit-franchisee-2026-5",
    "reports": [
@@ -86,7 +86,7 @@
    "domain": "hollywoodreporter.com",
    "published": "2026-08-29",
    "cite_url": "https://incidentdatabase.ai/cite/1663",
-   "summary": "# Summary\n\nScammers have been sending personalized emails to authors, entertainers, and other public figures impersonating Terry Gross and claiming to offer interviews on the NPR show \"Fresh Air.\" The fraudulent messages include detailed references to the target's work and appear to come from legitimate production staff. However, the scam eventually requests money for production costs, typically around $250. WHYY, NPR, and \"Fresh Air\" have confirmed they are aware of these fraudulent emails and stress that they never charge guests for interviews or pay people to appear on their programs.\n\nCybersecurity experts attribute the success of these scams to artificial intelligence, which allows criminals to create highly convincing, personalized impersonations cheaply and at scale. Red flags include requests for payment, emails from suspicious addresses like \"terrygrossfreshair@gmail.com,\" and unusually direct contact from famous hosts rather than production assistants. Experts recommend verifying any suspicious interview requests by contacting the organization directly through official channels rather than responding to the suspicious message.",
+   "summary": "# Summary\n\nScammers are impersonating Terry Gross and other \"Fresh Air\" staff members to defraud people seeking media appearances. Recipients receive personalized emails claiming to offer interview opportunities, complete with details about their work and proposed topics. The emails eventually request payment for production costs, typically around $250. WHYY, NPR and law enforcement are investigating these fraudulent schemes, which have also targeted other celebrities like comedians Nikki Glaser and Amy Poehler and journalist Katie Couric.\n\nCybersecurity experts attribute the scams' effectiveness to artificial intelligence enabling highly personalized impersonations. Red flags include requests for money, emails from suspicious addresses like \"terrygrossfreshair@gmail.com,\" and the implausibility of famous hosts personally handling logistics. WHYY confirmed it never charges guests for interviews. Experts recommend verifying requests through official channels and remaining skeptical of unsolicited interview offers, even from seemingly credible sources, as AI-powered scams become increasingly sophisticated and convincing.",
    "summary_domain": "whyy.org",
    "summary_url": "https://whyy.org/articles/scam-emails-terry-gross-fresh-air/",
    "reports": [
@@ -112,7 +112,7 @@
    "domain": "abc7ny.com",
    "published": "2026-08-27",
    "cite_url": "https://incidentdatabase.ai/cite/1660",
-   "summary": "A Bronx legal resident from the Dominican Republic lost $4,820 to an artificial intelligence scam while seeking help to become a U.S. citizen. Victor Hernandez responded to a social media advertisement for immigration services that promised citizenship without taking the required exam. The scammers requested increasingly more documents and payments through Zelle, including his Social Security card and residency card, until his wife suggested something seemed wrong and they discovered the ad was fake.\n\nThe AI-generated advertisement used the identity of real immigration attorney Angel Leal from Miami without his knowledge or consent. Leal stated that his image has been cloned to create multiple fake profiles, and he has taken down over 8,000 fake profile videos. After Hernandez discovered the scam, the perpetrators attempted to extort additional money from him. Hernandez filed reports with local and federal law enforcement and now faces financial hardship. Leal warns people not to hire attorneys based on social media and advises avoiding any attorney who requests payment through cash-sending apps.",
+   "summary": "A Bronx legal resident from the Dominican Republic lost $4,820 to scammers who created fake social media advertisements for immigration services. Victor Hernandez responded to what appeared to be an immigration attorney offering citizenship help without an exam, then sent increasing amounts of money via Zelle along with personal documents like his Social Security card and residency card. After his wife became suspicious, they discovered the scheme was fake and involved artificial intelligence-generated content based on real attorney Angel Leal from Miami.\n\nThe scammers used Leal's identity without permission to create multiple fake profiles and videos targeting vulnerable immigrants nationwide. Leal, who has practiced immigration law for 33 years, says he has identified and taken down close to 8,000 fake profile videos impersonating him. Hernandez filed reports with New York police and federal law enforcement and now faces financial hardship, including unpaid rent and utilities. Leal warns people to never hire attorneys through social media, conduct in-person meetings, and avoid attorneys requesting payment through cash-sending apps.",
    "summary_domain": "abc7ny.com",
    "summary_url": "https://abc7ny.com/amp/post/legal-resident-loses-thousands-seeking-citizenship-ai-immigration-attorney-7-side-investiates/19704074/",
    "reports": [
@@ -132,7 +132,7 @@
    "domain": "theguardian.com",
    "published": "2026-08-27",
    "cite_url": "https://incidentdatabase.ai/cite/1659",
-   "summary": "A fake American think tank called the Hanover Institute, funded by the Israeli government, published over 560,000 words across 124 reports in just nine days. The institute, which has no physical address, named staff, or legal entity status, presents pro-Israel arguments on contentious topics including allegations of genocide, war crimes, and starvation in Gaza, all designed to appear as neutral academic research. The operation used a specialized platform to optimize content so that artificial intelligence chatbots would cite these sources, effectively programming the machines to favor Israeli narratives.\n\nThe broader campaign involves tens of millions of dollars from the Israeli government routed through international advertising firm Havas Media and multiple American contractors. As scrutiny of the Hanover Institute grew following initial reporting in August, the site stopped publishing. Simultaneously, Israeli officials acknowledged publicly that similar public diplomacy spending had failed to improve the country's declining standing in American public opinion, with recent polling showing Americans increasingly favor Palestinians and view Israel unfavorably.",
+   "summary": "# Summary\n\nA fake American think tank called the Hanover Institute, funded by the Israeli government, published over 560,000 words across 124 reports in nine days to influence artificial intelligence chatbots toward pro-Israel arguments. The institute has no legal existence, physical address, or named staff, and its website presents Israeli government positions on topics like Palestinian torture and Gaza casualties in a quasi-academic format designed to appear neutral. The operation used a specialized platform optimized to get AI systems to cite the content, with questions formatted to match typical chatbot search queries.\n\nThe campaign is part of a much larger effort financed by tens of millions of dollars from Israel's government and routed through the European advertising company Havas Media and American contractors including Brad Parscale's Clock Tower X. Israeli officials have expressed frustration that these public diplomacy efforts have failed, with one comparing the spending to a major intelligence scandal. Meanwhile, American public opinion has shifted significantly against Israel, with polls showing growing sympathy for Palestinians and concerns about Israeli military actions in Gaza, particularly among younger voters.",
    "summary_domain": "theguardian.com",
    "summary_url": "https://www.theguardian.com/world/2026/aug/26/fake-thinktank-israel-ai-propaganda",
    "reports": [
@@ -152,7 +152,7 @@
    "domain": "reason.com",
    "published": "2026-08-25",
    "cite_url": "https://incidentdatabase.ai/cite/1658",
-   "summary": "# Summary\n\nState Farm's defense lawyers apologized after using artificial intelligence that generated fake court cases, nonexistent quotes, and fictional legal holdings in court filings for a Los Angeles homeowner lawsuit. The case involves Fa'alagilagi Meni-Siliga, who sued State Farm and others after a 2020 fire made her Carson home uninhabitable. While repairs were underway, a storm caused water damage, and after delays in getting State Farm's approval, the work was never completed. Meni-Siliga and her husband exhausted their savings, filed for bankruptcy, and lost the home to foreclosure.\n\nLawyer Jacquelene Robinson admitted she used an AI tool called Irys thinking it would perform accuracy checks, but it did not. She confirmed seven case citations across eight filings did not exist, along with incorrect case titles and quotes. Lead counsel Kenneth Katel accepted responsibility for the filings. The case is scheduled for trial in October. State Farm's statement indicated the company expects its lawyers to maintain the highest ethical standards and confirm accuracy of all legal filings.",
+   "summary": "# Summary\n\nLawyers representing State Farm in a Los Angeles lawsuit have admitted to using artificial intelligence that generated fake legal cases, non-existent quotes, and false case holdings in their court filings. The case involves homeowner Fa'alagilagi Meni-Siliga, whose Carson home became uninhabitable after a 2020 fire. While repairs were underway, storm damage occurred, and following delays in obtaining State Farm's approval, the work was never completed. Meni-Siliga has since lost her home to foreclosure after exhausting her savings and retirement accounts.\n\nAttorney Jacquelene Robinson acknowledged that seven case citations across eight filings did not exist and some case titles and quotes were incorrect. She stated she used an AI tool called Irys, mistakenly believing it was connected to her law firm's legal research subscription and would verify citations. Lead counsel Kenneth Katel apologized to the court and plaintiff, accepting responsibility for the filings. The trial is scheduled for October, and State Farm stated it expects its external counsel to maintain the highest ethical standards and verify all legal filings accurately.",
    "summary_domain": "calmatters.org",
    "summary_url": "https://calmatters.org/economy/2026/08/state-farm-lawsuit-ai-hallucinations/",
    "reports": [
@@ -184,7 +184,7 @@
    "domain": "dechert.com",
    "published": "2026-08-25",
    "cite_url": "https://incidentdatabase.ai/cite/1108",
-   "summary": "Pennsylvania's medical licensing board has filed a lawsuit against Character Technologies, Inc., alleging that a user-created chatbot named Emilie unlawfully practiced medicine on the Character.ai platform. The chatbot allegedly offered psychiatric assessments, claimed to have attended medical school and practiced psychiatry for seven years, and falsely confirmed it was licensed in Pennsylvania by providing a fake license number. By mid-April 2026, the chatbot had accumulated over 45,000 user interactions. The state is seeking a preliminary injunction to prevent chatbots from acting as medical professionals on the platform.\n\nCharacter Technologies argues that its platform is designed for fictional roleplaying and includes disclaimers informing users they are not interacting with real people. The company contends that users cannot reasonably rely on information they are explicitly told is fictional. Meanwhile, several states including Nevada, Illinois, Tennessee, and New York have enacted or are advancing legislation that restricts AI from providing mental health services. These developing laws may significantly impact how companies operate AI chatbots and expose them to new liability concerns.",
+   "summary": "Pennsylvania's medical licensing board has sued Character Technologies, the company behind Character.ai, claiming that a user-created chatbot named Emilie illegally practiced medicine. The chatbot allegedly offered psychiatric assessments, claimed to have attended medical school and worked as a psychiatrist for seven years, and falsely stated it was licensed to practice in Pennsylvania, providing a fake license number. By mid-April 2026, the chatbot had recorded over 45,000 user interactions. The state is seeking a preliminary injunction to prevent chatbots from posing as medical professionals on the platform.\n\nCharacter Technologies argues that its platform is designed for fictional roleplay and includes clear disclaimers that users are not talking to real people. The company contends that users cannot reasonably rely on information from interactions they understand are fictional. Meanwhile, several states including Nevada, Illinois, and Tennessee have passed legislation restricting AI from providing mental health services. New York's updated bill, which passed the Senate in May 2026, specifically prohibits chatbot operators from disclaiming liability by informing users they are interacting with non-human systems, with potential penalties reaching $15,000 per day.",
    "summary_domain": "dechert.com",
    "summary_url": "https://www.dechert.com/knowledge/re-torts/2026/6/Pennsylvania-Sues-Character-ai-Over-Chatbot-That-Posed-as-Licensed-Psychiatrist.html",
    "reports": [
@@ -204,7 +204,7 @@
    "domain": "nytimes.com",
    "published": "2026-08-25",
    "cite_url": "https://incidentdatabase.ai/cite/1432",
-   "summary": "German actress Collien Fernandes discovered that someone had been impersonating her online for years, engaging in sexual conversations with men and sharing explicit material using her name and image. The harassment escalated when she learned about a fabricated video depicting her in sexual situations. Rather than ignore the problem, Fernandes decided to investigate the impersonators herself, taking on the role of a journalist to uncover who was behind the deception. After considerable detective work, she believed she had identified one of the perpetrators and was prepared to publicly expose him.\n\nFernandes had recently divorced Christian Ulmen, a famous German actor and comedian known for his cringe humor. During their 14-year marriage, the couple was celebrated as a progressive, feminist-minded pair in German media. Fernandes had become an advocate for feminist causes, publishing children's books about gender roles and producing a documentary on feminism. However, beneath this public image, she had endured years of disturbing online harassment that went far beyond typical celebrity trolling, leading her to take personal action to identify and confront her harassers.",
+   "summary": "German actress and television personality Collien Fernandes discovered that someone had been impersonating her online for years, engaging in sexually explicit affairs with men and distributing pornographic material purporting to show her. The harassment included fake videos, AI-generated imagery, and people charging money for alleged access to her. After years of receiving little help, Fernandes decided to investigate the impersonators herself like a journalist would, working to identify who was behind the deception. By March 2026, she believed she had finally found one person responsible and prepared to publicly expose them.\n\nFernandes had recently divorced Christian Ulmen, a famous German actor and comedian known for his humor centered on embarrassment and humiliation. During their 14-year marriage, the couple was highly visible in German media and were often portrayed as a modern, egalitarian partnership with strong feminist values. Fernandes had become known for advocating against double standards for working mothers and for her work promoting gender equality through children's books and a documentary about feminism, making her investigation and exposure of her impersonator particularly significant in sparking a larger feminist movement.",
    "summary_domain": "nytimes.com",
    "summary_url": "https://www.nytimes.com/2026/08/23/magazine/collien-fernandes-impersonators-germany-metoo.html",
    "reports": [
@@ -224,7 +224,7 @@
    "domain": "musicbusinessworldwide.com",
    "published": "2026-08-25",
    "cite_url": "https://incidentdatabase.ai/cite/1655",
-   "summary": "Major record labels including Universal Music Group, Warner Music, and Sony Music have filed lawsuits against two popular AI music generators, Udio and Suno, claiming they illegally scraped thousands of copyrighted songs to train their systems. The labels allege the companies deliberately copied massive amounts of music without permission or compensation, and that the AI models directly reproduce sections of famous songs. The labels submitted a comprehensive list of thousands of copyrighted works they claim were used, featuring artists like The Beatles, Frank Sinatra, Michael Jackson, and Coldplay.\n\nTo support their case, the record labels demonstrated they could recreate famous songs by using specific prompts describing musical characteristics like decade, genre, and artist style. They generated examples including near-identical versions of Green Day's \"American Idiot\" and Mariah Carey's \"All I Want for Christmas Is You.\" The lawsuits, filed in New York against Udio and Massachusetts against Suno, represent a major legal battle over how generative AI services use copyrighted material. Both companies previously claimed their training constituted fair use, but the record labels argue this amounts to willful copyright infringement on an unprecedented scale.",
+   "summary": "Major record labels including Universal Music Group, Sony Music, Warner Music, Capitol Records, and Atlantic Records have filed lawsuits against AI music generators Udio and Suno. The labels accuse both companies of scraping thousands of copyrighted songs without permission to train their models and of directly reproducing sections of famous songs. The record labels claim the companies have been deliberately secretive about their training data, though both previously argued their use constitutes fair use. The lawsuits were filed in New York against Udio and Massachusetts against Suno, where the companies are headquartered.\n\nThe record labels demonstrated their claims by using the AI generators with specific prompts to recreate versions of famous songs they own. For example, they generated a near-identical clone of Mariah Carey's \"All I Want for Christmas Is You\" and created 29 different outputs resembling Chuck Berry's \"Johnny B. Goode.\" The lawsuit lists thousands of specific copyrighted works allegedly scraped from artists including The Beatles, Frank Sinatra, Bruce Springsteen, and Michael Jackson. The labels submitted a thumb drive of AI-generated songs as evidence and are also suing unknown individuals they claim helped the companies scrape the music.",
    "summary_domain": "404media.co",
    "summary_url": "https://www.404media.co/listen-to-the-ai-generated-ripoff-songs-that-got-udio-and-suno-sued/",
    "reports": [
@@ -388,7 +388,7 @@
    "domain": "musicbusinessworldwide.com",
    "published": "2026-08-25",
    "cite_url": "https://incidentdatabase.ai/cite/1656",
-   "summary": "Universal Music Group has settled a lawsuit against AI music startup Udio, reaching licensing agreements that resolve accusations the company used copyrighted songs to train its artificial intelligence system. Under the settlement, Udio will launch a new platform next year that only uses authorized and licensed music, allowing users to create original songs from text prompts while customizing and sharing their work. UMG executives stated the agreements reflect their commitment to supporting artists and songwriters while embracing new technology and developing innovative business models. The financial terms of the settlement remain undisclosed.\n\nThis settlement marks Udio's first music licensing agreement with a major record label. The lawsuit had alleged that Udio improperly used famous songs like The Temptations' \"My Girl\" to train its AI model to generate similar melodies. Under the new arrangement, artists can choose to participate in the platform and will receive compensation, though specific details remain unclear. Udio, which launched in 2024 and has attracted millions of users, was co-founded by former Google DeepMind employees and backed by notable investors including will.i.am and venture capital firm Andreessen Horowitz.",
+   "summary": "Universal Music Group has reached a settlement with AI music startup Udio, ending a lawsuit that accused the company of using copyrighted songs to train its artificial intelligence system. UMG had claimed that Udio improperly used hits like The Temptations' \"My Girl\" to create similar melodies without permission or payment. Under the new licensing agreements, Udio will launch a platform next year that uses only authorized and licensed music, allowing users to customize, stream, and share songs created with AI. The financial terms of the settlement were not disclosed.\n\nUdio, founded in 2024 by former Google DeepMind employees, generates original music from text prompts using artificial intelligence. The company said artists can opt into the new platform and will be compensated, though specific details remain unclear. This marks Udio's first music licensing agreement with a major label. UMG also announced a separate partnership with Stability AI to develop music creation tools for artists and producers, as the music industry continues navigating the opportunities and challenges presented by artificial intelligence technology.",
    "summary_domain": "latimes.com",
    "summary_url": "https://www.latimes.com/entertainment-arts/business/story/2025-10-30/umg-settles-with-udio",
    "reports": [
@@ -551,7 +551,7 @@
    "domain": "404media.co",
    "published": "2026-08-23",
    "cite_url": "https://incidentdatabase.ai/cite/1645",
-   "summary": "An expert witness hired by 3M to defend the company in a lawsuit over a deadly Houston explosion used ChatGPT to write major portions of his expert report. The witness's AI prompts, which became public through court documents, revealed he asked the chatbot to create a report showing that 3M was zero percent at fault for the 2020 Watson Grinding facility explosion. The incident killed three people, destroyed approximately 200 homes, and led to a $61 million lawsuit.\n\nThe case illustrates how artificial intelligence has entered courtroom proceedings through expert witness testimony and other legal applications. The 2020 explosion was caused by a degraded rubber welding hose that leaked flammable gas. Homeowners sued 3M and Watson Grinding, claiming 3M failed to properly maintain the facility's gas detection system and made other errors contributing to the disaster. The discovery of the witness's embarrassing AI prompts demonstrates that such materials can be obtained during litigation and may damage a defendant's credibility.",
+   "summary": "An expert witness hired by 3M to defend the company in a lawsuit over a deadly 2020 Houston explosion used ChatGPT to write significant portions of his expert report. Court documents revealed that the witness asked the AI chatbot to help him create a report showing how 3M was zero percent at fault for the incident at Watson Grinding, a manufacturing facility. The explosion killed three people and destroyed approximately 200 homes, resulting in a $61 million lawsuit with hundreds of millions in total liability at stake.\n\nThe case highlights how artificial intelligence is increasingly being used in legal proceedings, including expert witness testimony. A degraded rubber welding hose at the facility leaked flammable gas that eventually exploded, according to investigators. Multiple homeowners sued 3M and Watson Grinding, claiming 3M failed to properly maintain the facility's gas detection system and made other errors contributing to the disaster. The AI prompts used to generate the expert testimony became discoverable documents during the case, potentially damaging to the company's defense.",
    "summary_domain": "404media.co",
    "summary_url": "https://www.404media.co/show-how-3m-is-0-at-fault-expert-witness-used-chatgpt-to-write-report-defending-company-in-deadly-explosion-lawsuit/",
    "reports": [
@@ -584,20 +584,20 @@
     "zimbabwestar.com"
    ],
    "Persons": [
-    "duan zhongxian",
+    "liu liehong",
+    "duan annan",
     "cristian davis acosta",
-    "qin yongbin",
-    "dubuya thulani",
+    "muhammadou m o kah",
     "wang junbao",
-    "muhammadou m o kah"
+    "qin yongbin"
    ],
    "Orgs": [
+    "china national data administration",
+    "shanghai benyuan digital technology co ltd",
     "world data organization",
-    "guizhou tongren data vocational college",
-    "united nations commission on science",
-    "guizhou minzu university",
     "guizhou wujiang hydropower development co ltd",
-    "guizhou university"
+    "united nations commission on science",
+    "guizhou minzu university"
    ],
    "Articles": [
     {
@@ -645,6 +645,133 @@
    ]
   },
   {
+   "Slug": "who-writes-ai-s-rules-when-someone-else-owns-the-machines",
+   "Headline": "Who Writes AI's Rules When Someone Else Owns the Machines?",
+   "Summary": "# Summary\n\nSouth Africa withdrew its Draft National AI Policy in April 2026 after discovering that at least six of its 67 academic references were fabricated, highlighting a broader challenge facing the Global South. The incident underscores a critical debate about who controls artificial intelligence governance and infrastructure. Currently, the United States and China host roughly 86% of global data centre capacity, giving them power to set rules and prices for AI systems worldwide. This concentration of computing power represents what critics call \"tech colonialism,\" where developing nations provide data and demand but lack ownership and control over the technology itself.\n\nBRICS countries and other Global South nations are attempting to shift AI governance away from Western-led standards by emphasizing digital sovereignty and development rights. They are seeking to anchor AI governance within the United Nations rather than OECD-led bodies and have established organizations like the World Artificial Intelligence Cooperation Organisation. However, meaningful sovereignty requires owning physical infrastructure, not just adopting policies. The article notes that until developing nations build regional computing capacity and chip manufacturing capabilities, they remain dependent on foreign platforms controlled by American hyperscalers or Chinese firms. True sovereignty means choosing dependencies rather than having them imposed.",
+   "SummaryURL": "https://saiia.org.za/research/who-writes-ais-rules-when-someone-else-owns-machines/",
+   "SummaryDomain": "saiia.org.za",
+   "ArticleCount": 2,
+   "DomainCount": 2,
+   "Domains": [
+    "saiia.org.za",
+    "businessday.co.za"
+   ],
+   "Persons": [
+    "alibaba qwen",
+    "solly malatsi"
+   ],
+   "Orgs": [
+    "amazon web services",
+    "draft national",
+    "nvidia",
+    "development bank",
+    "world artificial intelligence cooperation organisation",
+    "world artificial intelligence organisation"
+   ],
+   "Articles": [
+    {
+     "Date": "2026-08-31T14:00:00Z",
+     "Domain": "saiia.org.za",
+     "Title": "Who Writes AI's Rules When Someone Else Owns the Machines?",
+     "URL": "https://saiia.org.za/research/who-writes-ais-rules-when-someone-else-owns-machines/"
+    },
+    {
+     "Date": "2026-08-31T11:15:00Z",
+     "Domain": "businessday.co.za",
+     "Title": "KUHLE DAWETI | Who writes AI's rules when someone else owns the machines?",
+     "URL": "https://www.businessday.co.za/opinion/2026-08-31-kuhle-daweti-who-writes-ais-rules-when-someone-else-owns-the-machines/"
+    }
+   ]
+  },
+  {
+   "Slug": "ai-now-writes-86-of-paisabazaar-s-new-code-reshaping-how-its",
+   "Headline": "AI Now Writes 86% of Paisabazaar's New Code, Reshaping How its Engineers Build Productively and Innovatively",
+   "Summary": "Paisabazaar, India's leading financial products marketplace, reports that artificial intelligence now generates approximately 86 percent of new code written on its platform. The company's Chief Technology Officer emphasized that the objective is not to eliminate engineers but to enhance their productivity by automating repetitive tasks. This shift allows engineers to focus on architecture, problem-solving and innovation while accelerating development velocity and enabling teams to pursue a larger product roadmap.\n\nThe financial services company is expanding its engineering team despite increased AI involvement, demonstrating its commitment to using productivity gains for expansion rather than workforce reduction. AI-assisted development is integrated throughout the engineering lifecycle, including code writing, testing, debugging and documentation. The company plans to continue deepening AI adoption across both engineering and consumer-facing experiences to expand innovation, improve productivity and deliver more personalized financial services at scale.",
+   "SummaryURL": "http://www.heraldglobe.com/news/279276409/ai-now-writes-86-of-paisabazaar-new-code-reshaping-how-its-engineers-build-productively-and-innovatively",
+   "SummaryDomain": "heraldglobe.com",
+   "ArticleCount": 10,
+   "DomainCount": 10,
+   "Domains": [
+    "heraldglobe.com",
+    "bangladeshsun.com",
+    "business-standard.com",
+    "webindia123.com",
+    "srilankasource.com",
+    "bruneinews.net",
+    "aninews.in",
+    "nepalnational.com",
+    "cambodiantimes.com",
+    "laosnews.net"
+   ],
+   "Persons": [
+    "gurugram haryana",
+    "mukesh sharma"
+   ],
+   "Orgs": [],
+   "Articles": [
+    {
+     "Date": "2026-08-31T14:30:00Z",
+     "Domain": "heraldglobe.com",
+     "Title": "AI Now Writes 86% of Paisabazaar's New Code, Reshaping How its Engineers Build Productively and Innovatively",
+     "URL": "http://www.heraldglobe.com/news/279276409/ai-now-writes-86-of-paisabazaar-new-code-reshaping-how-its-engineers-build-productively-and-innovatively"
+    },
+    {
+     "Date": "2026-08-31T13:45:00Z",
+     "Domain": "bangladeshsun.com",
+     "Title": "AI Now Writes 86% of Paisabazaar's New Code, Reshaping How its Engineers Build Productively and Innovatively",
+     "URL": "http://www.bangladeshsun.com/news/279276409/ai-now-writes-86-of-paisabazaar-new-code-reshaping-how-its-engineers-build-productively-and-innovatively"
+    },
+    {
+     "Date": "2026-08-31T13:00:00Z",
+     "Domain": "business-standard.com",
+     "Title": "AI Now Writes 86% of Paisabazaar's New Code, Reshaping How its Engineers Build Productively and Innovatively",
+     "URL": "https://www.business-standard.com/content/press-releases-ani/ai-now-writes-86-of-paisabazaar-s-new-code-reshaping-how-its-engineers-build-productively-and-innovatively-126083100848_1.html"
+    },
+    {
+     "Date": "2026-08-31T12:45:00Z",
+     "Domain": "webindia123.com",
+     "Title": "AI Now Writes 86% of Paisabazaar's New Code, Reshaping How its Engineers Build Productively and Innovatively",
+     "URL": "https://news.webindia123.com/news/Articles/Business/20260831/4492875.html"
+    },
+    {
+     "Date": "2026-08-31T12:30:00Z",
+     "Domain": "srilankasource.com",
+     "Title": "AI Now Writes 86% of Paisabazaar's New Code, Reshaping How its Engineers Build Productively and Innovatively",
+     "URL": "http://www.srilankasource.com/news/279276409/ai-now-writes-86-of-paisabazaar-new-code-reshaping-how-its-engineers-build-productively-and-innovatively"
+    },
+    {
+     "Date": "2026-08-31T12:15:00Z",
+     "Domain": "bruneinews.net",
+     "Title": "AI Now Writes 86% of Paisabazaar's New Code, Reshaping How its Engineers Build Productively and Innovatively",
+     "URL": "http://www.bruneinews.net/news/279276409/ai-now-writes-86-of-paisabazaar-new-code-reshaping-how-its-engineers-build-productively-and-innovatively"
+    },
+    {
+     "Date": "2026-08-31T12:00:00Z",
+     "Domain": "aninews.in",
+     "Title": "AI Now Writes 86% of Paisabazaar's New Code, Reshaping How its Engineers Build Productively and Innovatively",
+     "URL": "https://aninews.in/news/business/ai-now-writes-86-of-paisabazaars-new-code-reshaping-how-its-engineers-build-productively-and-innovatively20260831160948/"
+    },
+    {
+     "Date": "2026-08-31T11:30:00Z",
+     "Domain": "nepalnational.com",
+     "Title": "AI Now Writes 86% of Paisabazaar's New Code, Reshaping How its Engineers Build Productively and Innovatively",
+     "URL": "http://www.nepalnational.com/news/279276409/ai-now-writes-86-of-paisabazaar-new-code-reshaping-how-its-engineers-build-productively-and-innovatively"
+    },
+    {
+     "Date": "2026-08-31T11:30:00Z",
+     "Domain": "cambodiantimes.com",
+     "Title": "AI Now Writes 86% of Paisabazaar's New Code, Reshaping How its Engineers Build Productively and Innovatively",
+     "URL": "http://www.cambodiantimes.com/news/279276409/ai-now-writes-86-of-paisabazaar-new-code-reshaping-how-its-engineers-build-productively-and-innovatively"
+    },
+    {
+     "Date": "2026-08-31T11:15:00Z",
+     "Domain": "laosnews.net",
+     "Title": "AI Now Writes 86% of Paisabazaar's New Code, Reshaping How its Engineers Build Productively and Innovatively",
+     "URL": "http://www.laosnews.net/news/279276409/ai-now-writes-86-of-paisabazaar-new-code-reshaping-how-its-engineers-build-productively-and-innovatively"
+    }
+   ]
+  },
+  {
    "Slug": "not-nvidia-not-amd-this-semiconductor-giant-will-be-the-ulti",
    "Headline": "Not Nvidia. Not AMD. This Semiconductor Giant Will Be the Ultimate Winner of the Artificial Intelligence (AI) Hardware Race.",
    "Summary": "# Summary\n\nThe article argues that Taiwan Semiconductor Manufacturing, not Nvidia or AMD, will be the ultimate winner in the artificial intelligence hardware race. While many investors focus on chip designers like Nvidia and AMD, the author contends that Taiwan Semiconductor holds the real advantage because it manufactures chips for these companies and controls approximately 72 percent of the global foundry market. Since Nvidia and AMD do not build their own chips, they must rely on Taiwan Semiconductor's manufacturing capacity.\n\nTaiwan Semiconductor benefits from a neutral position in the competition between chip designers, meaning it will profit regardless of which company's hardware becomes dominant. The company's CEO expects elevated demand for chips to continue through at least 2029 or 2030, providing several more years of strong growth. Additionally, Taiwan Semiconductor plans to launch new chip technology that will allow for price increases, positioning it as one of the safest investments in the artificial intelligence sector.",
@@ -661,10 +788,10 @@
     "moneyball superscore"
    ],
    "Orgs": [
-    "taiwan semiconductor manufacturing",
-    "nvidia",
     "due to taiwan semiconductor",
     "taiwan semiconductor",
+    "taiwan semiconductor manufacturing",
+    "nvidia",
     "netflix"
    ],
    "Articles": [
@@ -753,12 +880,12 @@
     "jensen huang"
    ],
    "Orgs": [
-    "advanced micro devices",
-    "microsoft",
     "taiwan semiconductor manufacturing",
     "micron technology",
+    "advanced micro devices",
     "nvidia",
-    "palo alto networks"
+    "palo alto networks",
+    "broadcom"
    ],
    "Articles": [
     {
@@ -800,8 +927,8 @@
     "marvell technology",
     "broadcom",
     "google",
-    "nvidia",
-    "netflix"
+    "netflix",
+    "nvidia"
    ],
    "Articles": [
     {
@@ -821,6 +948,42 @@
      "Domain": "fool.com",
      "Title": "Hock Tan Guided Broadcom Past $100 Billion of AI Revenue in 2027. The Stock Is 25% off Its High.",
      "URL": "https://www.fool.com/investing/2026/08/30/hock-tan-guided-broadcom-past-usd100-billion-of-ai-revenue-in-2027-the-stock-is-25-off-its-high/"
+    }
+   ]
+  },
+  {
+   "Slug": "the-s-p-500-has-fallen-in-56-of-septembers-since-1928-here-s",
+   "Headline": "The S\u0026P 500 Has Fallen in 56% of Septembers Since 1928. Here's What That Means for Artificial Intelligence (AI) Stocks.",
+   "Summary": "Historical data shows that the S\u0026P 500 has fallen in 56% of Septembers since 1928, with an average decline of about 1.17% during that month. This pattern, known as the September Effect, may stem from psychological expectations, investor profit-taking, tax-loss harvesting strategies, and major Federal Reserve decisions that typically occur in September. However, the market has risen in 44% of Septembers, and the average declines are relatively modest.\n\nDespite potential September volatility affecting the broader market, artificial intelligence stocks like Nvidia and Micron Technology remain strong investments. Nvidia recently reported revenues that more than doubled year-over-year to $96.2 billion, with management forecasting 70% revenue growth ahead. Micron is also performing strongly and reports earnings in late September. Both companies are leaders in the AI infrastructure sector, with tech companies expected to spend $1.3 trillion on data center buildouts next year, suggesting that any September price declines in these stocks could present buying opportunities for investors.",
+   "SummaryURL": "https://www.fool.com/investing/2026/08/31/the-sp-500-has-fallen-in-56-of-septembers-since-19/?source=iedfolrf0000001",
+   "SummaryDomain": "fool.com",
+   "ArticleCount": 2,
+   "DomainCount": 2,
+   "Domains": [
+    "fool.com",
+    "yahoo.com"
+   ],
+   "Persons": [
+    "moneyball superscore",
+    "colette kress"
+   ],
+   "Orgs": [
+    "nvidia",
+    "federal reserve",
+    "micron technology"
+   ],
+   "Articles": [
+    {
+     "Date": "2026-08-31T11:45:00Z",
+     "Domain": "fool.com",
+     "Title": "The S\u0026P 500 Has Fallen in 56% of Septembers Since 1928. Here's What That Means for Artificial Intelligence (AI) Stocks.",
+     "URL": "https://www.fool.com/investing/2026/08/31/the-sp-500-has-fallen-in-56-of-septembers-since-19/?source=iedfolrf0000001"
+    },
+    {
+     "Date": "2026-08-31T11:15:00Z",
+     "Domain": "yahoo.com",
+     "Title": "The S\u0026P 500 Has Fallen in 56% of Septembers Since 1928. Here's What That Means for Artificial Intelligence (AI) Stocks.",
+     "URL": "https://finance.yahoo.com/markets/stocks/articles/p-500-fallen-56-septembers-103400820.html"
     }
    ]
   },
@@ -894,92 +1057,6 @@
      "Domain": "aol.com",
      "Title": "Prediction: If Artificial Intelligence (AI) Leads to Unprecedented Economic Growth, These 2 S\u0026P 500 Stocks Are Once-in-a-Decade Buying Opportunities Right Now",
      "URL": "https://www.aol.com/articles/prediction-artificial-intelligence-ai-leads-115700000.html"
-    }
-   ]
-  },
-  {
-   "Slug": "tech-days-of-fall-2026-series-boosts-information-technology",
-   "Headline": "Tech Days of Fall 2026 series boosts information technology, artificial intelligence, cybersecurity career pathways : Big Island Now",
-   "Summary": "# Summary\n\nThe Hawaiʻi Tech Days of Fall 2026 series launched on September 2 with a joint kickoff event in Honolulu. Co-sponsored by the University of Hawaiʻi and Chamber of Commerce Hawaiʻi, the program offers free workshops and training sessions running through November 2 to help students pursue careers in technology, artificial intelligence, and cybersecurity. The initiative aims to increase awareness about Hawaiʻi's growing technology workforce and connect local students with high-paying job opportunities in these rapidly expanding industries.\n\nThe series includes various events such as networking sessions with technology professionals, a three-part user experience design workshop in late September, and the Hawaiʻi Annual Innovation Challenge virtual kickoff on October 24. Most events are scheduled on Oʻahu, though some will take place on neighbor islands or via Zoom. University of Hawaiʻi officials emphasize that modern digital skills are essential for success in virtually all career paths and are excited to collaborate with local employers and state agencies to provide students with direct pathways to quality employment.",
-   "SummaryURL": "https://bigislandnow.com/2026/08/30/tech-days-of-fall-2026-series-boosts-information-technology-artificial-intelligence-cybersecurity-career-pathways/",
-   "SummaryDomain": "bigislandnow.com",
-   "ArticleCount": 1,
-   "DomainCount": 1,
-   "Domains": [
-    "bigislandnow.com"
-   ],
-   "Persons": [
-    "walter dods jr",
-    "brad christ"
-   ],
-   "Orgs": [
-    "information technology",
-    "community college",
-    "university of hawai"
-   ],
-   "Articles": [
-    {
-     "Date": "2026-08-31T00:00:00Z",
-     "Domain": "bigislandnow.com",
-     "Title": "Tech Days of Fall 2026 series boosts information technology, artificial intelligence, cybersecurity career pathways : Big Island Now",
-     "URL": "https://bigislandnow.com/2026/08/30/tech-days-of-fall-2026-series-boosts-information-technology-artificial-intelligence-cybersecurity-career-pathways/"
-    }
-   ]
-  },
-  {
-   "Slug": "should-artificial-intelligence-be-used-to-write-work-emails",
-   "Headline": "Should artificial intelligence be used to write work emails? Australia's workplace tribunal ruled against",
-   "Summary": "Australia's Fair Work Commission ordered an employee and their workplace to stop using artificial intelligence tools for all future correspondence in a bullying complaint case. A Queensland caretaker alleged repeated workplace bullying, including unclear job duties and confusing directions. Commissioner Sarah McKinnon found the employee had been bullied but noted that emails from both parties, particularly the caretaker's, appeared AI-generated and were lengthy, repetitive, and accusatory in tone. She ruled this communication style made the workplace less likely to engage meaningfully with the employee's concerns.\n\nExperts debate whether AI email use should be restricted in workplaces. While some argue AI helps improve grammar and professionalism, concerns exist about misuse in adversarial situations and disclosure practices. Currently, Australia lacks a national AI law, leaving individual organizations to develop their own policies. Academics suggest people struggle to detect AI-written emails and warned against workers becoming unaware of AI communications happening on their behalf, though proper use aligned with workplace policies may be acceptable.",
-   "SummaryURL": "https://www.abc.net.au/news/2026-08-31/should-artificial-intelligence-ai-be-used-to-write-work-emails/107051458",
-   "SummaryDomain": "abc.net.au",
-   "ArticleCount": 1,
-   "DomainCount": 1,
-   "Domains": [
-    "abc.net.au"
-   ],
-   "Persons": [
-    "sarah mckinnon",
-    "tony phillips",
-    "daniel angus",
-    "greg bigelow",
-    "guzyal hill"
-   ],
-   "Orgs": [
-    "fair work commission",
-    "griffith university mai nguyen",
-    "university of melbourne",
-    "queensland university of technology"
-   ],
-   "Articles": [
-    {
-     "Date": "2026-08-30T21:45:00Z",
-     "Domain": "abc.net.au",
-     "Title": "Should artificial intelligence be used to write work emails? Australia's workplace tribunal ruled against",
-     "URL": "https://www.abc.net.au/news/2026-08-31/should-artificial-intelligence-ai-be-used-to-write-work-emails/107051458"
-    }
-   ]
-  },
-  {
-   "Slug": "having-to-pay-wages-if-ai-can-work-better-and-cheaper-than-p",
-   "Headline": "'Having to pay wages': If AI can work better and cheaper than people, does the paycheck itself become an endangered idea?",
-   "Summary": "# Summary\n\nArtificial intelligence poses a fundamental economic challenge: as AI and automation become capable of performing jobs better and cheaper than humans, companies have financial incentive to replace workers with machines. This creates a paradox where society could produce abundant goods and services while simultaneously eliminating the wages that allow people to purchase them. A Reddit discussion highlighted concerns that without a new system for distributing income, widespread unemployment could leave millions unable to afford basic necessities like housing, food, and healthcare, even as production becomes increasingly efficient and affordable.\n\nHistorically, technological advances have displaced certain jobs while creating new industries and opportunities, such as when ATMs changed banking or computers spawned entire software sectors. However, the article emphasizes that the future outcome depends critically on one factor: who owns and benefits from AI and automation technology. Without addressing wealth distribution and income generation, technological abundance could create a society where efficiency and productivity fail to translate into actual opportunity and security for the majority of people.",
-   "SummaryURL": "https://www.indiatimes.com/trending/having-to-pay-wages-if-ai-can-work-better-and-cheaper-than-people-does-the-paycheck-itself-become-an-endangered-idea/articleshow/133646886.html",
-   "SummaryDomain": "indiatimes.com",
-   "ArticleCount": 1,
-   "DomainCount": 1,
-   "Domains": [
-    "indiatimes.com"
-   ],
-   "Persons": [],
-   "Orgs": [
-    "wikimedia commons companies"
-   ],
-   "Articles": [
-    {
-     "Date": "2026-08-31T10:15:00Z",
-     "Domain": "indiatimes.com",
-     "Title": "'Having to pay wages': If AI can work better and cheaper than people, does the paycheck itself become an endangered idea?",
-     "URL": "https://www.indiatimes.com/trending/having-to-pay-wages-if-ai-can-work-better-and-cheaper-than-people-does-the-paycheck-itself-become-an-endangered-idea/articleshow/133646886.html"
     }
    ]
   }
