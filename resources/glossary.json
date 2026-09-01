@@ -4244,6 +4244,24 @@
         {
             "slug": "llamaindex",
             "term": "LlamaIndex",
+            "lenses": [
+                {
+                    "body": "You hand LlamaIndex documents and it gives you a query engine. The pieces it owns are the ones you would otherwise write yourself: loaders for the file formats your data actually arrives in, a chunking step, an index over the chunks, a retriever, and a response synthesiser that assembles the retrieved passages into a prompt. The value is in the connectors and the defaults rather than in any single idea, which is why teams reach for it when the hard part is ingestion rather than orchestration.",
+                    "audience": "developer"
+                },
+                {
+                    "body": "Retrieval-augmented generation has two halves: find the right passage, then write an answer from it. LlamaIndex is a framework for the first half and a thin wrapper over the second. Studying it is a good way to see that the interesting engineering in a question-answering system is almost entirely in how documents are split, indexed and ranked, and almost never in the call to the model.",
+                    "audience": "student"
+                },
+                {
+                    "body": "LlamaIndex is one of two or three obvious choices for building a system that answers questions from your own documents rather than from what a model memorised. Choosing it is a low-stakes decision: it is open source, the abstractions are shallow, and the work that survives a change of framework, cleaning the documents and deciding what good retrieval means, is the work that costs money either way. Ask what the team plans to do about evaluation before asking which framework they picked.",
+                    "audience": "executive"
+                },
+                {
+                    "body": "If you want a chatbot that answers from your own handbook, contracts or product data rather than making things up, this is one of the tools a developer would use to build it. You would not install it yourself. What is worth knowing is that the quality of that assistant depends far more on how tidy and well organised your documents are than on which tool is used to read them.",
+                    "audience": "small-business"
+                }
+            ],
             "origin": "Started as GPT Index in late 2022 by Jerry Liu, renamed LlamaIndex in 2023.",
             "example": "Indexing a company handbook so an assistant answers policy questions from the handbook text rather than from model memory.",
             "category": "Developer Tools",
@@ -4252,6 +4270,24 @@
         {
             "slug": "semantic-kernel",
             "term": "Semantic Kernel",
+            "lenses": [
+                {
+                    "body": "Semantic Kernel puts a model behind the same dependency-injection and plugin conventions a .NET service already uses. You register existing methods as plugins, the kernel exposes them to the model as callable functions, and the orchestration layer decides which to invoke. For a team whose codebase is C# and whose services already exist, that is a shorter path than reimplementing the integration in Python.",
+                    "audience": "developer"
+                },
+                {
+                    "body": "Its distinguishing feature was never capability, it was language. Most model orchestration frameworks are Python first, and a large share of enterprise line-of-business code is not Python. Semantic Kernel let .NET and Java shops add model features without standing up a second stack in a second language. Microsoft has since converged this lineage with AutoGen into the Agent Framework, so treat the framework choice as a five-year decision and read the migration path before committing.",
+                    "audience": "executive"
+                },
+                {
+                    "body": "The security question with any plugin architecture is what the model is permitted to call and with whose credentials. A registered plugin is a real function against a real system, so prompt injection in a retrieved document becomes an attempted invocation of that function. Review which plugins are registered, what identity each runs under, and whether any of them write rather than read, before reviewing the model.",
+                    "audience": "ciso"
+                },
+                {
+                    "body": "Look at Semantic Kernel to see the plugin pattern clearly. A model on its own can only produce text; it becomes useful by being given a set of functions it may call and a loop that executes the calls and feeds back the results. The kernel is that loop. Almost every agent framework is a variation on it, so the pattern is worth learning once and recognising everywhere.",
+                    "audience": "student"
+                }
+            ],
             "origin": "Released by Microsoft in March 2023 with C# and .NET as the primary path; Python and Java followed. Entered maintenance mode in April 2026 when Microsoft shipped Agent Framework 1.0 as its successor.",
             "example": "A .NET line-of-business application registering its existing invoice-lookup service as a plugin so a model can call it during a conversation.",
             "category": "Developer Tools",
