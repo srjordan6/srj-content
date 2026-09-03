@@ -1,6 +1,339 @@
 {
-  "generated": "2026-09-03T00:23:23Z",
+  "generated": "2026-09-03T02:30:48Z",
   "items": [
+    {
+      "kind": "paper",
+      "name": "Subliminal Learning as Trait-Direction Drift: A Mechanism and Targeted Control under SFT Distillation",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2609.01091v2",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-09-03T01:39:25.2191+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "CopyShield: A Cross-Level Benchmark of Copyright Defenses in LLMs",
+      "vendor": "Mistral",
+      "url": "http://arxiv.org/abs/2609.01161v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-09-03T01:39:25.215418+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "LLMPEDIA: Browsing, Verifying, and Comparing the Parametric Encyclopedic Knowledge of LLMs",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2609.01182v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-09-03T01:39:15.156869+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Post-Training Science for Supervised Fine-Tuning",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2609.01244v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-09-03T01:39:15.153432+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "What Does an Agentic Software Engineering Benchmark Measure? Profiling Task Demands and Agent Behaviour Beyond What Category Labels Reveal",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2609.01271v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-09-03T01:39:15.149947+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "From Base Rollouts to RL Reasoning: A Budgeted Search Perspective",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2609.01274v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-09-03T01:39:15.146228+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Explore Before Committing: Hypothesis-Guided Search for Deep Research Agents",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2609.01294v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-09-03T01:39:15.140165+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Behaviorally Effective LoRA Writes Are Sparse and Structured",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2609.01374v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-09-03T01:39:15.134107+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Learning Evidence Sufficiency Boundaries for Selective Answering in Grounded Multi-Hop QA",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2609.01687v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-09-03T01:39:15.130423+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "From Rollouts to Recipes: Self-Contained Post-Training for LLMs",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2609.01422v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-09-03T01:39:15.124338+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "The Structure of Quantization Damage in LLMs: Why the Next Bit Should Be Spent Globally",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2609.01587v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-09-03T01:39:15.120675+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Beyond Scores: Understanding LLM-as-a-Judge Mechanisms in Summarization Evaluation",
+      "vendor": "Mistral",
+      "url": "http://arxiv.org/abs/2609.01604v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-09-03T01:39:15.117136+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "GAPS: Dimension-Level Gates for Conditional Activation Steering",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2609.01878v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-09-03T01:39:15.11085+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Train What You Deploy: Closing the MLP Reachability Gap in Low-Rank Clone Distillation",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2609.02006v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-09-03T01:39:15.107083+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "XMerge: Cross-Axis Selection and Reconstructive Layer Merging for LLM Depth Compression",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2609.02083v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-09-03T01:39:15.103556+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Do Cantonese-Adapted Language Models Better Predict Cantonese Reading? A Cross-Model Eye-Tracking Evaluation",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2609.02163v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-09-03T01:39:15.100024+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "SonicCaps: Large-Scale Diverse and Fine-Grained Captioning for Improved Audio-Retrieval",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2609.02343v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-09-03T01:39:15.09395+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Improving Health Literacy through Lay Summarization of Radiological Reports: An Evaluation of BioNER and Retrieval-Augmented Generation",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2609.02396v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-09-03T01:39:15.090432+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Learning to Fuse LLMs with Ontology Rankers for Rare-Disease Diagnosis",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2609.02473v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-09-03T01:39:15.084581+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "How LLMs Build Fictional Worlds: Setting and Narrative Space in AI-Generated Creative Storytelling",
+      "vendor": "Mistral",
+      "url": "http://arxiv.org/abs/2609.02482v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-09-03T01:39:15.080807+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "QTEA: Ternary LLMs with Sparse Residual Salient Weight and By-Column Optimization",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2609.00224v2",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-09-03T01:39:08.92562+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Not All Agreement Counts as Corroboration: Provenance-Conserving Multi-View Fusion for Typed Action Admission in Human-Robot Collaboration",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2609.01662v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-09-03T01:39:08.919516+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Residual Sparsification via Output Importance for Compressing Mixture-of-Experts LLMs",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2609.00575v2",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-09-03T01:39:08.913252+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Explore More, Drift Less: Outcome-Only Reinforcement Learning Can Suffice for Long-Horizon Interactive Agents",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2609.01245v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-09-03T01:39:05.390662+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "One Prompt Is Enough: Watermark Laundering Through Foundation Image Models",
+      "vendor": "OpenAI",
+      "url": "http://arxiv.org/abs/2609.01249v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-09-03T01:39:05.38724+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Making Prospective Memory SLM-Shaped: Typed Intention Stores for Small-Model Agents",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2609.01272v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-09-03T01:39:05.383659+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Some Emotions Run Deeper: Layer-wise Probing and Causal Intervention in Large Language Models",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2609.01279v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-09-03T01:39:05.380232+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "EmbodiedSkills: A Unified Framework for Orchestrating, Training, and Deploying VLA Agents",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2609.01281v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-09-03T01:39:05.376844+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "MIDR: Enrichment-Augmented Indexing for Multimodal Document Retrieval",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2609.01316v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-09-03T01:39:05.373322+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "EdiTikZ: Scientific Figure Editing from Revision Trajectories",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2609.01409v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-09-03T01:39:05.369706+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Harness-of-Harness: Multi-Day Autonomous Software Development with Continual Improvement",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2609.01481v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-09-03T01:39:05.36625+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "When Guardrails Look Effective: Construct Validity Failures in LLM Agent Commerce Evaluation",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2609.01519v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-09-03T01:39:05.362614+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "The Memory Trust Gap: Capability-Dependent Failures in Persistent-Memory Agents",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2609.01852v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-09-03T01:39:05.359034+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Looped Transformers under the Jacobian Lens: Does the Global Workspace Survive Recurrence?",
+      "vendor": "Qwen",
+      "url": "http://arxiv.org/abs/2609.01924v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-09-03T01:39:05.355544+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Benchmarking Language Models for Statistical Problem Formulation",
+      "vendor": "Hugging Face",
+      "url": "http://arxiv.org/abs/2609.01982v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-09-03T01:39:05.348404+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "FUSE: An Evaluating Framework for Dangerous Capabilities of LLMs",
+      "vendor": "DeepSeek",
+      "url": "http://arxiv.org/abs/2609.02168v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-09-03T01:39:05.341338+00:00"
+    },
+    {
+      "kind": "paper",
+      "name": "UTP-Bench: Uncertainty-aware Travel Planning Benchmark",
+      "vendor": "Mistral",
+      "url": "http://arxiv.org/abs/2609.02421v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-09-03T01:39:05.330575+00:00"
+    },
     {
       "kind": "vendor-news",
       "name": "Enterprise AI Agents Accelerated Adoption: From \"Shallow Prosperity\" to Scalable Business Value Closed Loop - 36Kr",
@@ -831,24 +1164,6 @@
     },
     {
       "kind": "paper",
-      "name": "REAL-Q: E2E LLM Quantization via Dynamic Gradient Descent",
-      "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2609.00049v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-09-02T01:38:10.817326+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "TrainSDC: Characterizing and Mitigating Silent Data Corruption in Large Language Model Training",
-      "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.30769v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-09-02T01:37:51.969145+00:00"
-    },
-    {
-      "kind": "paper",
       "name": "Deploying DeepSeek 175B Locally on a Single Consumer-Grade RTX 4060 Laptop with 32GB RAM for 200k-Scale Protein-Ligand Virtual Screening",
       "vendor": "DeepSeek",
       "url": "http://arxiv.org/abs/2608.30877v1",
@@ -867,66 +1182,12 @@
     },
     {
       "kind": "paper",
-      "name": "Can LLMs Use Relational Transformer Embeddings?",
-      "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2609.00457v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-09-02T01:37:51.933031+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Online Self-Weighted Fine-Tuning",
-      "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2609.00734v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-09-02T01:37:51.927012+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Frozen Cores Need Task Signal: Fisher-Whitened Cross-Covariance for Low-Resource LLM Adaptation",
-      "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2609.00762v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-09-02T01:37:51.92098+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Subliminal Learning as Trait-Direction Drift: A Mechanism and Targeted Control under SFT Distillation",
-      "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2609.01091v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-09-02T01:37:51.909662+00:00"
-    },
-    {
-      "kind": "paper",
       "name": "AgentProv: Auditing Agentic LLM API Providers via Tool-use Policy Probes",
       "vendor": "OpenAI",
       "url": "http://arxiv.org/abs/2609.00052v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-09-02T01:37:48.486581+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Zero-Shot Respiratory Sound Classification through LLM-Augmented Audio-Text Alignment",
-      "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2609.00055v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-09-02T01:37:48.483022+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "ReTrace: Rejected-Trajectory Conditioning for Speculative Decoding",
-      "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.29748v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-09-02T01:37:48.479345+00:00"
     },
     {
       "kind": "paper",
@@ -939,33 +1200,6 @@
     },
     {
       "kind": "paper",
-      "name": "Detecting Hidden Chain-of-Thought in Large Language Models with Linguistic, Behavioral, and Mechanistic Indicators",
-      "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.29956v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-09-02T01:37:48.46937+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "SpanCalib-VLM: Calibrated Hallucination Span Detection in Vision-Language Models",
-      "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.29974v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-09-02T01:37:48.465821+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Small Language Models as Judges for Rubric-Based Reinforcement Learning",
-      "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.30005v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-09-02T01:37:48.462087+00:00"
-    },
-    {
-      "kind": "paper",
       "name": "The Language of the Question Selects the Market: Query Language and Exit IP as Separable Factors in Commercial Recommendations from a Generative Search Interface",
       "vendor": "OpenAI",
       "url": "http://arxiv.org/abs/2608.30052v1",
@@ -975,138 +1209,12 @@
     },
     {
       "kind": "paper",
-      "name": "Verification-Aware Training for Speculative Decoding",
-      "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.30135v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-09-02T01:37:48.454716+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "CAST: Critique-Aware Supervision for Training Reliable Long-Horizon Tool-Calling Agents",
-      "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.30147v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-09-02T01:37:48.451063+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "ALTSTEER: Selective Safety Steering for Moving Beyond Hard Refusals to Constructive Alternatives",
-      "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.30197v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-09-02T01:37:48.447301+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "When Models Hear What They Expect: Diagnosing Prosodic Heuristics in Multimodal Sarcasm Detection",
-      "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.30204v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-09-02T01:37:48.443656+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "On the Design of Qwen3.8-Next Architecture: Evaluation, Efficiency, and Training Stability",
-      "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.30320v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-09-02T01:37:48.44002+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Sequential Trajectories and Simultaneous Blending: Multi-Emotion Modeling for Instruction-Following TTS",
-      "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.30325v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-09-02T01:37:48.435073+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Do Small Models Use the Law You Give Them? Measuring Context Use on a Bilingual Bangladesh Legal Benchmark",
-      "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.30327v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-09-02T01:37:48.43139+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Ceiling-Clipped Acceptance Histograms Indicate Stranded Speed-up in Block-Diffusion Speculative Decoding",
-      "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.30427v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-09-02T01:37:48.427485+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Learning Where Outcomes Change:Credit-Addressable Reasoning for Multimodal Geometry",
-      "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.30457v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-09-02T01:37:44.975871+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "E-Commerce Bench: Evaluating LLM Agents on Long-Horizon Autonomous Business Operation",
-      "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.30730v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-09-02T01:37:44.969441+00:00"
-    },
-    {
-      "kind": "paper",
       "name": "ECGQuest: Benchmarking and Fine-Tuning Language Models for Electrocardiography",
       "vendor": "DeepSeek",
       "url": "http://arxiv.org/abs/2608.30893v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-09-02T01:37:44.965852+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "S3C-LLM: Skill-Code Guided Agentic Language Models for Spectrum-to-Structure Elucidation",
-      "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.30910v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-09-02T01:37:44.962387+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "One Policy Is Enough: Single-Agent Reinforcement Learning Outperforms Tree Search for Chemistry Tool Learning",
-      "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.30952v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-09-02T01:37:44.95868+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Faithfulness Is Not Free: Auditing Offline KV-Cache Quantization in Retrieval-Augmented Generation",
-      "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.30996v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-09-02T01:37:44.952317+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Does On-Policy Distillation Really Distill? From Noisy Teacher to Self-Improvement",
-      "vendor": "Qwen",
-      "url": "http://arxiv.org/abs/2608.31046v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-09-02T01:37:44.948731+00:00"
     },
     {
       "kind": "paper",
@@ -2226,15 +2334,6 @@
     },
     {
       "kind": "vendor-news",
-      "name": "Optimize and deploy with Optimum-Intel and OpenVINO GenAI",
-      "vendor": "Hugging Face",
-      "url": "https://huggingface.co/blog/deploy-with-openvino",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-09-01T00:10:51.7612+00:00"
-    },
-    {
-      "kind": "vendor-news",
       "name": "FACTS Benchmark Suite: Systematically evaluating the factuality of large language models",
       "vendor": "Google DeepMind",
       "url": "https://deepmind.google/blog/facts-benchmark-suite-systematically-evaluating-the-factuality-of-large-language-models/",
@@ -2376,15 +2475,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-09-01T00:10:51.019075+00:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Understanding neural networks through sparse circuits",
-      "vendor": "OpenAI",
-      "url": "https://openai.com/index/understanding-neural-networks-through-sparse-circuits",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-09-01T00:10:50.800828+00:00"
     },
     {
       "kind": "paper",
@@ -2702,24 +2792,6 @@
       "discovered_at": "2026-08-27T12:01:09.880812+00:00"
     },
     {
-      "kind": "paper",
-      "name": "Where vs What: Decomposing Structural and Content Failures in LLM-Generated Structured Outputs",
-      "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.25358v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-27T12:01:05.176199+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "EVOMAL: Self-Poisoning in Self-Evolving Coding Agents",
-      "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.25776v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-27T12:01:05.15596+00:00"
-    },
-    {
       "kind": "vendor-news",
       "name": "Stability AI raises $76M from Universal, Sony and Warner Music to expand creative AI - Tech Funding News",
       "vendor": "techfundingnews.com",
@@ -2829,24 +2901,6 @@
     },
     {
       "kind": "paper",
-      "name": "Reinforcement Learning on Benign Facts Amplifies Leakage of Memorized Private Data",
-      "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.21727v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-26T23:17:58.024235+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "HIRA: A Human-in-the-Loop Retrieval-Augmented Cascade for Document Classification in Regulated Industries",
-      "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.21792v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-26T23:17:58.020601+00:00"
-    },
-    {
-      "kind": "paper",
       "name": "CatchBench: When Can an Agent Failure Be Caught?",
       "vendor": "Mistral",
       "url": "http://arxiv.org/abs/2608.22808v1",
@@ -2856,30 +2910,12 @@
     },
     {
       "kind": "paper",
-      "name": "Can Agent Memory Systems Track Evolving State?",
-      "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.19652v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-26T23:17:50.895632+00:00"
-    },
-    {
-      "kind": "paper",
       "name": "TANGO: Token-Aggregated Nonlinear Gating Operators for Natural and Formal Language Modeling",
       "vendor": "DeepMind",
       "url": "http://arxiv.org/abs/2608.22117v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-26T23:17:50.843912+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "SchemaGUI: A Schema-Driven Benchmark for Controllable GUI Generation Evaluation",
-      "vendor": "DeepSeek",
-      "url": "http://arxiv.org/abs/2608.22390v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-26T23:17:47.38523+00:00"
     },
     {
       "kind": "paper",
@@ -8067,6 +8103,15 @@
     },
     {
       "kind": "paper",
+      "name": "Observation-Grounded Self-Predictive Reinforcement Learning for Visual Continuous Control",
+      "vendor": "DeepMind",
+      "url": "http://arxiv.org/abs/2608.05989v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
+    },
+    {
+      "kind": "paper",
       "name": "Critical Acclaim Orientation in Large Language Models: Evidence from Film Preference Elicitation",
       "vendor": "Mistral",
       "url": "http://arxiv.org/abs/2608.06955v1",
@@ -8079,15 +8124,6 @@
       "name": "Human-Like Anaphor Resolution in Large Language Models",
       "vendor": "Mistral",
       "url": "http://arxiv.org/abs/2608.05630v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T19:15:35.483744+00:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Observation-Grounded Self-Predictive Reinforcement Learning for Visual Continuous Control",
-      "vendor": "DeepMind",
-      "url": "http://arxiv.org/abs/2608.05989v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T19:15:35.483744+00:00"
