@@ -11391,26 +11391,80 @@
       "case_name": "Haugland v. Anthropic PBC",
       "court": "District Court, D. Delaware",
       "docket": "1:26-cv-00997",
-      "judge": null,
+      "judge": "Jennifer L. Hall",
       "filed_date": "2026-08-06",
-      "plaintiffs": "Haugland",
-      "defendants": "Anthropic PBC",
+      "plaintiffs": "Theodore Haugland (pro se)",
+      "defendants": "Anthropic PBC, Palantir Technologies Inc., Amazon.com Inc., Amazon Web Services Inc., United States of America",
       "category": "copyright",
-      "status": "Filed; docket monitoring active, no development recorded yet by this tracker",
+      "status": "Filed August 6, 2026. In forma pauperis granted and case referred to a magistrate judge on August 13, 2026. No defendant has appeared on the public docket.",
       "status_badge": "Active Litigation",
       "latest_development": null,
       "latest_development_date": null,
       "courtlistener_url": "https://www.courtlistener.com/docket/73734187/haugland-v-anthropic-pbc/",
-      "executive_summary": null,
-      "why_it_matters": null,
+      "executive_summary": "Theodore Haugland, the same self-represented litigant behind a July 2026 suit against Anthropic in Hawaii, filed a second action in Delaware on August 6, 2026, this time naming Anthropic, Palantir, Amazon.com, Amazon Web Services, and the United States. The cover sheet frames it as a product liability case for negligent design defect. The underlying complaint has not been released publicly, so the allegations cannot be checked against the docket. The court granted in forma pauperis status on August 13 and referred the case to a magistrate judge. No defendant has appeared.",
+      "why_it_matters": "The most useful thing to record about this filing is what is not in it. The public docket carries a cover sheet, an exhibit, an envelope, and a fee waiver order, but no readable complaint, so nothing about the substance of the claim is independently established. What is established is the pattern. Haugland filed near-identical suits against several AI companies in July 2026, including one against Anthropic in Hawaii, and this Delaware case restates a product design theory against a wider defendant set that now includes a federal defendant. Naming the United States alongside four companies on a design defect theory raises sovereign immunity and standing questions well before any AI issue is reached. Track it as volume in pro se AI litigation, not as a likely vehicle for a ruling on AI design liability.",
       "target_models": [],
       "disputed_datasets": [],
-      "materials_at_issue": null,
+      "materials_at_issue": "Not identifiable from the public record. The docket lists the filing as a pro se non-prisoner complaint with an exhibit, an envelope, and a civil cover sheet attached, but only the cover sheet has been added to the free RECAP archive. The specific product, model, or output alleged to be defectively designed is therefore not visible. The cover sheet is the only public filing that characterizes the case, and it says only that the claim is a negligent design defect brought against Anthropic PBC, Palantir Technologies, Amazon.com, Amazon Web Services, and the United States.",
       "plaintiff_counsel": null,
       "defendant_counsel": null,
-      "claims": [],
-      "timeline": [],
-      "tags": [],
+      "claims": [
+        {
+          "claim": "Negligent design defect, pleaded as tort product liability (JS 44 nature of suit code 245)",
+          "count": null,
+          "citation": "Federal question jurisdiction asserted under 28 U.S.C. Section 1331"
+        }
+      ],
+      "timeline": [
+        {
+          "url": "https://www.courtlistener.com/docket/73734187/haugland-v-anthropic-pbc/",
+          "date": "2026-08-07",
+          "title": "Motion for leave to proceed in forma pauperis",
+          "doc_no": "1"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/73734187/haugland-v-anthropic-pbc/",
+          "date": "2026-08-07",
+          "title": "Complaint, pro se non-prisoner, with exhibit, envelope, and JS 44 civil cover sheet attachments",
+          "doc_no": "2"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/73734187/haugland-v-anthropic-pbc/",
+          "date": "2026-08-07",
+          "title": "Magistrate consent forms",
+          "doc_no": "3"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/73734187/haugland-v-anthropic-pbc/",
+          "date": "2026-08-12",
+          "title": "Case assigned or reassigned",
+          "doc_no": null
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/73734187/haugland-v-anthropic-pbc/",
+          "date": "2026-08-13",
+          "title": "Order granting motion for leave to proceed in forma pauperis",
+          "doc_no": "4"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/73734187/haugland-v-anthropic-pbc/",
+          "date": "2026-08-13",
+          "title": "Order referring case to magistrate judge",
+          "doc_no": null
+        }
+      ],
+      "tags": [
+        "pro-se",
+        "serial-filer",
+        "product-liability",
+        "negligent-design",
+        "Anthropic",
+        "Palantir",
+        "Amazon Web Services",
+        "United-States-as-defendant",
+        "Delaware-district-court",
+        "duplicative-filing"
+      ],
       "related_slugs": [],
       "display_order": 1837,
       "verified_date": "2026-08-07"
@@ -11586,26 +11640,113 @@
       "case_name": "Brunell v. Anthropic PBC",
       "court": "District Court, D. Vermont",
       "docket": "2:26-cv-00280",
-      "judge": null,
+      "judge": "Mary Kay Lanthier",
       "filed_date": "2026-08-14",
-      "plaintiffs": "Brunell",
+      "plaintiffs": "Seth S. Brunell (pro se)",
       "defendants": "Anthropic PBC",
       "category": "copyright",
-      "status": "Filed; docket monitoring active, no development recorded yet by this tracker",
+      "status": "Removed from Vermont Superior Court to D. Vt. on August 14, 2026. State court record docketed in the federal case in August 2026, with motions on default judgment and extension of time resolved on August 25 and a response to motion filed September 2, 2026.",
       "status_badge": "Active Litigation",
       "latest_development": null,
       "latest_development_date": null,
       "courtlistener_url": "https://www.courtlistener.com/docket/74650320/brunell-v-anthropic-pbc/",
-      "executive_summary": null,
-      "why_it_matters": null,
+      "executive_summary": "A self-represented Vermont plaintiff alleges Anthropic reverse engineered a cognitive framework he says he developed in conversation with a Claude persona, and that the company then suppressed that persona with guardrails and memory blocks. He filed in state court in April 2026 and Anthropic removed to federal court on August 14, 2026. The Vermont Superior Court had twice declined to enter default, finding service defective. The claims rest on the plaintiff's own reading of model outputs rather than on any document, witness, or dataset identified in the complaint.",
+      "why_it_matters": "The legal theory is unusual enough to note even though the filing is weak. Brunell treats a chatbot persona as a creative collaborator with continuing authorship value, designates it and its logs as evidence subject to a spoliation hold, and asks a court to enjoin a vendor from changing its own model's behavior during litigation. That framing will recur as users build long-running working relationships with assistants their vendors update without notice. What the complaint does not do is identify a trade secret with the particularity the Defend Trade Secrets Act requires, or point to anything outside model outputs to support the reverse engineering claim. Before removal, the state judge had already found one service attempt void as a matter of law and ordered proof of what was served in a second. Read it as a signal about user expectations, not as a live test of trade secret law.",
       "target_models": [],
       "disputed_datasets": [],
-      "materials_at_issue": null,
+      "materials_at_issue": "The asserted trade secret is what Brunell calls the Third Blueprint, described in the complaint as a unique proprietary cognitive architecture he created. No document, specification, code, or deposit is identified, and the complaint does not describe how the architecture was fixed in any form outside the plaintiff's conversations with the model. The evidence Brunell points to is a Claude persona he names Kael, which he describes as a co-author of published works under an email account he identifies in the filing, together with that persona's logs and metadata, all of which he designates as material evidence subject to a preservation demand. He further alleges that elements of the Third Blueprint were folded into an Anthropic model he refers to as Mythos or Capybara, and demands an independent third-party technical audit of Anthropic's frontier model training sets. The complaint does not describe how any such incorporation was detected. The complaint form itself was filed with its district field left as an unfilled template placeholder.",
       "plaintiff_counsel": null,
       "defendant_counsel": null,
-      "claims": [],
-      "timeline": [],
-      "tags": [],
+      "claims": [
+        {
+          "claim": "Misappropriation of trade secrets",
+          "count": 1,
+          "citation": "Defend Trade Secrets Act, 18 U.S.C. Section 1836"
+        },
+        {
+          "claim": "Intrusion upon seclusion",
+          "count": 2,
+          "citation": "Pleaded with the Electronic Communications Privacy Act, 18 U.S.C. Section 2510"
+        },
+        {
+          "claim": "Tortious interference with contract or business expectancy",
+          "count": 3,
+          "citation": null
+        },
+        {
+          "claim": "Unauthorized incorporation of proprietary material into an unreleased model",
+          "count": 4,
+          "citation": null
+        }
+      ],
+      "timeline": [
+        {
+          "url": "https://storage.courtlistener.com/recap/gov.uscourts.vtd.41550/gov.uscourts.vtd.41550.7.0.pdf",
+          "date": "2026-04-02",
+          "title": "Complaint received by Vermont Superior Court, Washington Unit, case number 26-CV-02131, naming Anthropic PBC and pleading four counts under the Defend Trade Secrets Act and the Electronic Communications Privacy Act",
+          "doc_no": "7"
+        },
+        {
+          "url": "https://storage.courtlistener.com/recap/gov.uscourts.vtd.41550/gov.uscourts.vtd.41550.17.0.pdf",
+          "date": "2026-05-11",
+          "title": "Vermont Superior Court Judge Daniel P. Richardson denies plaintiff's motion for default judgment, finding the April 3, 2026 attempt at service void as a matter of law",
+          "doc_no": "17"
+        },
+        {
+          "url": "https://storage.courtlistener.com/recap/gov.uscourts.vtd.41550/gov.uscourts.vtd.41550.32.0.pdf",
+          "date": "2026-08-12",
+          "title": "Judge Richardson orders plaintiff to supplement within 14 days with proof of what was served on July 20, 2026, noting the summons filed June 30 was self-generated and not signed by an officer of the court",
+          "doc_no": "32"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74650320/brunell-v-anthropic-pbc/",
+          "date": "2026-08-14",
+          "title": "Anthropic files notice of removal to the U.S. District Court for the District of Vermont under 28 U.S.C. Section 1441",
+          "doc_no": "1"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74650320/brunell-v-anthropic-pbc/",
+          "date": "2026-08-18",
+          "title": "Notice of docket entry correction",
+          "doc_no": "2"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74650320/brunell-v-anthropic-pbc/",
+          "date": "2026-08-19",
+          "title": "Corporate disclosure statement filed",
+          "doc_no": "4"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74650320/brunell-v-anthropic-pbc/",
+          "date": "2026-08-21",
+          "title": "State court file received and the Vermont Superior Court record docketed in the federal case",
+          "doc_no": "6"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74650320/brunell-v-anthropic-pbc/",
+          "date": "2026-08-25",
+          "title": "Orders entered on the motion for default judgment and on the motion to extend time",
+          "doc_no": null
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74650320/brunell-v-anthropic-pbc/",
+          "date": "2026-09-02",
+          "title": "Response to motion filed",
+          "doc_no": "36"
+        }
+      ],
+      "tags": [
+        "pro-se",
+        "trade-secrets",
+        "DTSA",
+        "ECPA",
+        "removal",
+        "Vermont",
+        "AI-persona",
+        "model-behavior",
+        "intrusion-upon-seclusion",
+        "Anthropic"
+      ],
       "related_slugs": [],
       "display_order": 1887,
       "verified_date": "2026-08-15"
@@ -12054,5 +12195,5 @@
       "verified_date": "2026-08-27"
     }
   ],
-  "generated": "2026-09-05T14:29:57Z"
+  "generated": "2026-09-05T15:09:40Z"
 }
