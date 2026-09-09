@@ -7,7 +7,7 @@
    "note": "Head-to-head human preference on general conversation. The closest thing the field has to a general-purpose ranking.",
    "scored": true,
    "source_url": "https://arena.ai/leaderboard/text",
-   "fetched_at": "2026-09-08T06:30:14.979513+00:00",
+   "fetched_at": "2026-09-09T06:38:04.376268+00:00",
    "count": 20,
    "models": [
     {
@@ -126,26 +126,26 @@
    "note": "The same vote mechanic restricted to coding prompts. Ranks differ sharply from the text board, which is the reason to read both.",
    "scored": true,
    "source_url": "https://arena.ai/leaderboard/code",
-   "fetched_at": "2026-09-08T06:30:14.979513+00:00",
-   "count": 20,
+   "fetched_at": "2026-09-09T06:38:04.376268+00:00",
+   "count": 50,
    "models": [
     {
      "rank": 1,
      "model": "gpt-6-astra-max",
      "vendor": "OpenAI",
      "license": "proprietary",
-     "score": 1797,
-     "ci": 24,
-     "votes": 1199
+     "score": 1796,
+     "ci": 19,
+     "votes": 1810
     },
     {
      "rank": 2,
      "model": "claude-fable-5.1-max",
      "vendor": "Anthropic",
      "license": "proprietary",
-     "score": 1762,
-     "ci": 16,
-     "votes": 2275
+     "score": 1764,
+     "ci": 15,
+     "votes": 2570
     },
     {
      "rank": 3,
@@ -154,22 +154,22 @@
      "license": "proprietary",
      "score": 1688,
      "ci": 8,
-     "votes": 10904
+     "votes": 11396
     },
     {
      "rank": 4,
      "model": "qwen3.8-max-0902",
      "vendor": "Alibaba",
      "license": "proprietary",
-     "score": 1686,
+     "score": 1685,
      "ci": 16,
-     "votes": 1868
+     "votes": 1973
     },
     {
      "rank": 5,
      "model": "kimi-k3-max",
      "vendor": "Moonshot",
-     "license": null,
+     "license": "proprietary",
      "score": 1674,
      "ci": 11,
      "votes": 4546
@@ -181,7 +181,7 @@
      "license": "proprietary",
      "score": 1670,
      "ci": 12,
-     "votes": 3223
+     "votes": 3218
     },
     {
      "rank": 7,
@@ -190,52 +190,52 @@
      "license": "proprietary",
      "score": 1661,
      "ci": 7,
-     "votes": 10928
+     "votes": 11497
     },
     {
      "rank": 8,
-     "model": "claude-fable-5",
-     "vendor": "Anthropic",
+     "model": "muse-spark-1.3-max",
+     "vendor": "Meta",
      "license": "proprietary",
-     "score": 1629,
-     "ci": 8,
-     "votes": 9356
+     "score": 1650,
+     "ci": 18,
+     "votes": 1344
     },
     {
      "rank": 9,
      "model": "qwen3.8-flash-next",
      "vendor": "Alibaba",
-     "license": null,
-     "score": 1626,
+     "license": "open",
+     "score": 1631,
      "ci": 14,
-     "votes": 2158
+     "votes": 2377
     },
     {
      "rank": 10,
-     "model": "grok-4.6-high",
-     "vendor": "SpaceXAI",
+     "model": "claude-fable-5",
+     "vendor": "Anthropic",
      "license": "proprietary",
-     "score": 1625,
-     "ci": 11,
-     "votes": 3487
+     "score": 1628,
+     "ci": 8,
+     "votes": 9595
     },
     {
      "rank": 11,
      "model": "muse-spark-1.3 (xHigh)",
      "vendor": "Meta",
      "license": "proprietary",
-     "score": 1622,
-     "ci": 18,
-     "votes": 1274
+     "score": 1625,
+     "ci": 17,
+     "votes": 1545
     },
     {
      "rank": 12,
-     "model": "hy4-preview",
-     "vendor": "Tencent",
-     "license": "open",
-     "score": 1621,
-     "ci": 16,
-     "votes": 1661
+     "model": "grok-4.6-high",
+     "vendor": "SpaceXAI",
+     "license": "proprietary",
+     "score": 1624,
+     "ci": 11,
+     "votes": 3727
     }
    ]
   },
@@ -245,7 +245,7 @@
    "note": "Multi-step tool-using tasks rather than single answers. The board that matters if the model will act rather than reply. Published as an order only, with no ratings.",
    "scored": false,
    "source_url": "https://arena.ai/leaderboard/agent",
-   "fetched_at": "2026-09-08T06:30:14.979513+00:00",
+   "fetched_at": "2026-09-09T06:38:04.376268+00:00",
    "count": 10,
    "models": [
     {
@@ -259,6 +259,15 @@
     },
     {
      "rank": 2,
+     "model": "GPT 6 Astra (Max)",
+     "vendor": "OpenAI",
+     "license": "proprietary",
+     "score": null,
+     "ci": null,
+     "votes": null
+    },
+    {
+     "rank": 3,
      "model": "Claude Opus 5 (High)",
      "vendor": "Anthropic",
      "license": "proprietary",
@@ -267,7 +276,7 @@
      "votes": null
     },
     {
-     "rank": 3,
+     "rank": 4,
      "model": "Claude Opus 5 (Max)",
      "vendor": "Anthropic",
      "license": "proprietary",
@@ -276,7 +285,7 @@
      "votes": null
     },
     {
-     "rank": 4,
+     "rank": 5,
      "model": "Claude Fable 5 (High)",
      "vendor": "Anthropic",
      "license": "proprietary",
@@ -285,7 +294,7 @@
      "votes": null
     },
     {
-     "rank": 5,
+     "rank": 6,
      "model": "GPT 5.6 Sol (xHigh)",
      "vendor": "OpenAI",
      "license": "proprietary",
@@ -294,7 +303,7 @@
      "votes": null
     },
     {
-     "rank": 6,
+     "rank": 7,
      "model": "Claude Opus 4.8 (High)",
      "vendor": "Anthropic",
      "license": "proprietary",
@@ -303,27 +312,18 @@
      "votes": null
     },
     {
-     "rank": 7,
+     "rank": 8,
      "model": "Kimi K3 (Max)",
      "vendor": "Moonshot",
-     "license": "proprietary",
-     "score": null,
-     "ci": null,
-     "votes": null
-    },
-    {
-     "rank": 8,
-     "model": "Claude Sonnet 5 (High)",
-     "vendor": "Anthropic",
-     "license": "proprietary",
+     "license": null,
      "score": null,
      "ci": null,
      "votes": null
     },
     {
      "rank": 9,
-     "model": "GPT 5.5 (xHigh)",
-     "vendor": "OpenAI",
+     "model": "Claude Sonnet 5 (High)",
+     "vendor": "Anthropic",
      "license": "proprietary",
      "score": null,
      "ci": null,
@@ -346,7 +346,7 @@
    "note": "Image understanding and mixed text-image prompts.",
    "scored": true,
    "source_url": "https://arena.ai/leaderboard/vision",
-   "fetched_at": "2026-09-08T06:30:14.979513+00:00",
+   "fetched_at": "2026-09-09T06:38:04.376268+00:00",
    "count": 20,
    "models": [
     {
@@ -465,7 +465,7 @@
    "note": "Models answering with live retrieval, where citation quality matters as much as fluency.",
    "scored": true,
    "source_url": "https://arena.ai/leaderboard/search",
-   "fetched_at": "2026-09-08T06:30:14.979513+00:00",
+   "fetched_at": "2026-09-09T06:38:04.376268+00:00",
    "count": 34,
    "models": [
     {
@@ -579,8 +579,8 @@
    ]
   }
  ],
- "date": "2026-09-08",
- "generated": "2026-09-09T05:24:44Z",
+ "date": "2026-09-09",
+ "generated": "2026-09-09T08:14:15Z",
  "method": "Crowdsourced blind pairwise voting, scored with a Bradley-Terry model and reported as an Elo-style rating with a 95 percent confidence interval. Gaps under roughly 10 points sit inside the noise floor and should not be read as a ranking.",
  "source": "arena.ai (formerly LMSYS Chatbot Arena)",
  "source_url": "https://arena.ai/leaderboard/"
