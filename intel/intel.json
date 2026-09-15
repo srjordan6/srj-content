@@ -1,6 +1,114 @@
 {
-  "generated": "2026-09-15T02:32:44Z",
+  "generated": "2026-09-15T05:28:55Z",
   "items": [
+    {
+      "kind": "vendor-news",
+      "name": "China’s intelligence chief warns AI advances could threaten political stability, national security - Firstpost",
+      "vendor": "firstpost.com",
+      "url": "https://www.firstpost.com/tech/china-ai-intelligence-chief-political-stability-national-security-14045725.html/amp",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-09-15T00:22:31.636634-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Chinese Security Ministry Warns of AI Systemic Threats - 조선일보",
+      "vendor": "chosun.com",
+      "url": "https://www.chosun.com/english/industry-en/2026/09/15/UKDCXTF6YNCJRPVUA3XACP37PM/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-09-15T00:22:20.121006-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "The latest AI doomsayer is China’s intelligence boss - The Register",
+      "vendor": "theregister.com",
+      "url": "https://www.theregister.com/ai-and-ml/2026/09/15/the-latest-ai-doomsayer-is-chinas-intelligence-boss/5296451",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-09-15T00:22:19.240004-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "AI agents are moving faster than Europe can regulate",
+      "vendor": "Sifted",
+      "url": "https://sifted.eu/articles/ai-agents-anthropic-openai-eu-uk-laws/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-09-15T00:20:28.977831-05:00"
+    },
+    {
+      "kind": "paper",
+      "name": "The diffusion of artificial intelligence methods in scientific research: growth pattern, disciplinary variation, and task alignment",
+      "vendor": "Tencent",
+      "url": "https://doi.org/10.1016/j.joi.2026.101858",
+      "summary": null,
+      "source": "openalex",
+      "discovered_at": "2026-09-14T22:10:05.065477-05:00"
+    },
+    {
+      "kind": "paper",
+      "name": "A Classification of Safety Risks in Medical AI",
+      "vendor": "Tsinghua",
+      "url": "https://doi.org/10.1056/aip2600358",
+      "summary": null,
+      "source": "openalex",
+      "discovered_at": "2026-09-14T22:10:05.065118-05:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Bridging the weather and climate divide with artificial intelligence",
+      "vendor": "Max Planck",
+      "url": "https://doi.org/10.1038/s41467-026-75787-y",
+      "summary": null,
+      "source": "openalex",
+      "discovered_at": "2026-09-14T22:10:05.064657-05:00"
+    },
+    {
+      "kind": "paper",
+      "name": "LifeSciBench: Evaluating Language Models on Realistic, Expert-Level Tasks in the Life Sciences",
+      "vendor": "OpenAI",
+      "url": "https://doi.org/10.64898/2026.08.13.744657",
+      "summary": null,
+      "source": "openalex",
+      "discovered_at": "2026-09-14T22:10:05.064282-05:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Safety-Oriented Evaluation of Large Language Models in Health Care: Guideline-Informed Systematic Review",
+      "vendor": "RIKEN",
+      "url": "https://doi.org/10.2196/97240",
+      "summary": null,
+      "source": "openalex",
+      "discovered_at": "2026-09-14T22:10:05.063882-05:00"
+    },
+    {
+      "kind": "paper",
+      "name": "What Proves You Wrong: Benchmarking Language Models on Falsifiable Research Ideation",
+      "vendor": "Peking University",
+      "url": "https://doi.org/10.48550/arxiv.2608.22948",
+      "summary": null,
+      "source": "openalex",
+      "discovered_at": "2026-09-14T22:10:05.063282-05:00"
+    },
+    {
+      "kind": "paper",
+      "name": "The future of peer review requires AI support, not AI bans",
+      "vendor": "Tsinghua",
+      "url": "https://doi.org/10.1038/d41586-026-02631-0",
+      "summary": null,
+      "source": "openalex",
+      "discovered_at": "2026-09-14T22:10:05.062834-05:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Patient factors in medical artificial intelligence: a systematic review",
+      "vendor": "Tsinghua",
+      "url": "https://doi.org/10.1038/s44360-026-00190-2",
+      "summary": null,
+      "source": "openalex",
+      "discovered_at": "2026-09-14T22:10:05.058631-05:00"
+    },
     {
       "kind": "vendor-news",
       "name": "China Calls Amodei's AI Slowdown Plan A \"Cold War Playbook\" - Dataconomy",
@@ -5310,15 +5418,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-08-31T19:10:51.116904-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Semi-supervised knowledge transfer for deep learning from private training data",
-      "vendor": "OpenAI",
-      "url": "https://openai.com/index/semi-supervised-knowledge-transfer-for-deep-learning-from-private-training-data",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-08-31T19:10:51.113515-05:00"
     },
     {
       "kind": "paper",
@@ -10785,9 +10884,9 @@
     },
     {
       "kind": "paper",
-      "name": "ProDVI: Programmatic Dynamics Priors for Value Network Initialization",
+      "name": "TaskSense: Focusing on What Matters in World Models",
       "vendor": "DeepMind",
-      "url": "http://arxiv.org/abs/2608.06015v1",
+      "url": "http://arxiv.org/abs/2608.06544v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T14:15:35.483744-05:00"
@@ -10803,9 +10902,9 @@
     },
     {
       "kind": "paper",
-      "name": "TaskSense: Focusing on What Matters in World Models",
+      "name": "ProDVI: Programmatic Dynamics Priors for Value Network Initialization",
       "vendor": "DeepMind",
-      "url": "http://arxiv.org/abs/2608.06544v1",
+      "url": "http://arxiv.org/abs/2608.06015v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T14:15:35.483744-05:00"
@@ -12303,15 +12402,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-08-04T06:15:49.096583-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Exclusive: Nscale to provide compute to Oxford, UCL and Imperial AI researchers",
-      "vendor": "Sifted",
-      "url": "https://sifted.eu/articles/nscale-oxford-ucl-imperial-lab/",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-08-04T06:15:49.092623-05:00"
     },
     {
       "kind": "vendor-news",
