@@ -4479,7 +4479,7 @@
             "authored_here": true
         },
         {
-            "slug": "n+1-redundancy",
+            "slug": "n-1-redundancy",
             "term": "N+1 Redundancy",
             "origin": "Standard industry term used in data centre engineering.",
             "example": "A data centre with N+1 cooling redundancy has enough extra air conditioners that one can break and the servers still stay cool.",
@@ -4512,7 +4512,7 @@
             "authored_here": true
         },
         {
-            "slug": "transformer-(electrical)",
+            "slug": "transformer-electrical",
             "term": "Transformer (Electrical)",
             "origin": "Standard industry term",
             "example": "An insurer pricing supply chain cover for a new data centre must account for transformer lead times that can run to four years.",
@@ -4534,7 +4534,7 @@
             "authored_here": true
         },
         {
-            "slug": "tier-iii-/-tier-iv-(uptime-institute)",
+            "slug": "tier-iii-tier-iv-uptime-institute",
             "term": "Tier III / Tier IV (Uptime Institute)",
             "origin": "The Uptime Institute introduced the tier system in the 1990s to give data centre owners a common way to describe reliability.",
             "example": "An AI company that cannot afford any downtime for its training runs will often choose a Tier IV data centre over a Tier III one.",
@@ -4545,7 +4545,7 @@
             "authored_here": true
         },
         {
-            "slug": "pue-(power-usage-effectiveness)",
+            "slug": "pue-power-usage-effectiveness",
             "term": "PUE (Power Usage Effectiveness)",
             "origin": "The Green Grid, an industry consortium, introduced PUE in 2007 as a standard way to compare data centre energy efficiency.",
             "example": "A data centre with a PUE of 1.4 uses 1.4 watts of total building power for every 1 watt that reaches the servers.",
@@ -4622,7 +4622,7 @@
             "authored_here": true
         },
         {
-            "slug": "coolant-distribution-unit-(cdu)",
+            "slug": "coolant-distribution-unit-cdu",
             "term": "Coolant Distribution Unit (CDU)",
             "origin": "Standard industry term",
             "example": "The coolant distribution unit uses ultrasonic flow meters and pressure sensors to detect a leak and close its isolation valves before much fluid escapes.",
@@ -4633,7 +4633,7 @@
             "authored_here": true
         },
         {
-            "slug": "power-purchase-agreement-(ppa)",
+            "slug": "power-purchase-agreement-ppa",
             "term": "Power Purchase Agreement (PPA)",
             "origin": "Standard industry term",
             "example": "A data centre operator signed a power purchase agreement with a wind farm to lock in electricity costs for ten years.",
@@ -4710,7 +4710,7 @@
             "authored_here": true
         },
         {
-            "slug": "small-modular-reactor-(smr)",
+            "slug": "small-modular-reactor-smr",
             "term": "Small Modular Reactor (SMR)",
             "origin": "The term became common in the 2000s as nuclear companies proposed factory built reactors that are smaller and more flexible than conventional large plants.",
             "example": "A data centre operator signed agreements for 3,427 megawatts of small modular reactor capacity, but none of those units will generate power until 2029 or later.",
@@ -4721,7 +4721,7 @@
             "authored_here": true
         },
         {
-            "slug": "wue-(water-usage-effectiveness)",
+            "slug": "wue-water-usage-effectiveness",
             "term": "WUE (Water Usage Effectiveness)",
             "origin": "Standard industry term, developed alongside power usage effectiveness as a way to track the environmental impact of data centre cooling.",
             "example": "A data centre in a hot climate that relies on evaporative cooling will have a high WUE, while a facility using air cooling can report a WUE near zero.",
@@ -4787,7 +4787,7 @@
             "authored_here": true
         },
         {
-            "slug": "battery-energy-storage-system-(bess)",
+            "slug": "battery-energy-storage-system-bess",
             "term": "Battery Energy Storage System (BESS)",
             "origin": "Standard industry term",
             "example": "The data center operator added a BESS to store solar power for evening use.",
@@ -4842,7 +4842,7 @@
             "authored_here": true
         },
         {
-            "slug": "business-interruption-(bi)",
+            "slug": "business-interruption-bi",
             "term": "Business Interruption (BI)",
             "origin": "Standard industry term",
             "example": "A data centre operator whose cooling system fails and takes customer workloads offline files a business interruption claim for the revenue lost while repairs are made.",
@@ -4919,7 +4919,7 @@
             "authored_here": true
         },
         {
-            "slug": "contingent-business-interruption-(cbi)",
+            "slug": "contingent-business-interruption-cbi",
             "term": "Contingent Business Interruption (CBI)",
             "origin": "Standard industry term.",
             "example": "A startup that runs its service on a major cloud platform could claim contingent business interruption cover when that platform goes down and the startup cannot serve its customers.",
@@ -4941,7 +4941,7 @@
             "authored_here": true
         },
         {
-            "slug": "errors-and-omissions-(e&o)",
+            "slug": "errors-and-omissions-e-and-o",
             "term": "Errors and Omissions (E&O)",
             "origin": "Standard industry term from professional liability insurance, used for decades before being applied to AI and technology services.",
             "example": "If an AI model gives incorrect financial advice that costs a customer money, errors and omissions insurance can cover the resulting claim.",
@@ -5018,7 +5018,7 @@
             "authored_here": true
         },
         {
-            "slug": "aggregation-(insurance)",
+            "slug": "aggregation-insurance",
             "term": "Aggregation (Insurance)",
             "origin": "Standard industry term",
             "example": "If one power failure damages multiple data centre buildings, an aggregation clause might treat all the damage as one occurrence, leaving the owner with only one limit for all repairs.",
@@ -5073,7 +5073,7 @@
             "authored_here": true
         },
         {
-            "slug": "total-insured-value-(tiv)",
+            "slug": "total-insured-value-tiv",
             "term": "Total Insured Value (TIV)",
             "origin": "Standard insurance industry term",
             "example": "A hyperscale data centre campus with total insured values over one billion dollars would face a fifty million dollar out of pocket cost under a five percent windstorm deductible.",
@@ -5095,7 +5095,7 @@
             "authored_here": true
         },
         {
-            "slug": "directors-and-officers-(d&o)",
+            "slug": "directors-and-officers-d-and-o",
             "term": "Directors and Officers (D&O)",
             "origin": "Standard industry term",
             "example": "If shareholders sue the board for not overseeing an algorithm that caused trading losses, the D&O policy covers the defence.",
@@ -5150,7 +5150,7 @@
             "authored_here": true
         },
         {
-            "slug": "environmental-impairment-liability-(eil)",
+            "slug": "environmental-impairment-liability-eil",
             "term": "Environmental Impairment Liability (EIL)",
             "origin": "Standard industry term",
             "example": "A data centre operator buys an EIL policy after learning that refrigerant leaks from its cooling system could contaminate groundwater years later.",
@@ -5161,7 +5161,7 @@
             "authored_here": true
         },
         {
-            "slug": "technology-e&o",
+            "slug": "technology-e-and-o",
             "term": "Technology E&O",
             "origin": "The term comes from errors and omissions insurance, a longstanding professional liability coverage, with technology added to show it applies to software and IT firms.",
             "example": "A startup that builds an AI model buys a technology E&O policy to cover lawsuits from clients who say the model gave wrong advice.",
@@ -5183,7 +5183,7 @@
             "authored_here": true
         },
         {
-            "slug": "delay-in-startup-(dsu)",
+            "slug": "delay-in-startup-dsu",
             "term": "Delay in Startup (DSU)",
             "origin": "Standard industry term from construction and engineering insurance, used for decades before being applied to AI infrastructure projects.",
             "example": "A data centre owner claimed under Delay in Startup coverage after fibre trenching was held up by unexpected ground conditions, pushing back the facility's opening date.",
@@ -5249,7 +5249,7 @@
             "authored_here": true
         },
         {
-            "slug": "probable-maximum-loss-(pml)",
+            "slug": "probable-maximum-loss-pml",
             "term": "Probable Maximum Loss (PML)",
             "origin": "Standard industry term used in insurance and reinsurance for decades to measure worst case single event exposure.",
             "example": "An insurer might set a sublimit for earthquake and flood combined at 5 million dollars even though the probable maximum loss from those events is 100 million dollars.",
@@ -5348,7 +5348,7 @@
             "authored_here": true
         },
         {
-            "slug": "self-insured-retention-(sir)",
+            "slug": "self-insured-retention-sir",
             "term": "Self-Insured Retention (SIR)",
             "origin": "Standard industry term",
             "example": "A startup using an AI chatbot for customer service has a self-insured retention of fifty thousand dollars, so when a data leak leads to a seventy thousand dollar claim, the startup pays the first fifty thousand and the insurer covers the remaining twenty thousand.",
@@ -5392,7 +5392,7 @@
             "authored_here": true
         },
         {
-            "slug": "lloyd's-of-london",
+            "slug": "lloyd-s-of-london",
             "term": "Lloyd's of London",
             "origin": "The name comes from Edward Lloyd's coffee house in London in the late 1600s, where ship owners and merchants first met to arrange insurance.",
             "example": "A company building software that drives cars might go to Lloyd's of London to find insurers willing to cover accidents caused by AI mistakes.",
@@ -5414,7 +5414,7 @@
             "authored_here": true
         },
         {
-            "slug": "avid-(ai-vulnerability-database)",
+            "slug": "avid-ai-vulnerability-database",
             "term": "AVID (AI Vulnerability Database)",
             "origin": "AVID was launched in 2021 as an open source effort to give AI systems a shared vulnerability list like the CVE database for traditional software.",
             "example": "Before releasing an update for a car that drives itself, engineers searched AVID for known weaknesses that could affect crash data handling.",
@@ -5513,7 +5513,7 @@
             "authored_here": true
         },
         {
-            "slug": "ai-incident-database-(aiid)",
+            "slug": "ai-incident-database-aiid",
             "term": "AI Incident Database (AIID)",
             "origin": "The AI Incident Database was created by the Responsible AI Collaborative to track real world harms from AI systems.",
             "example": "A researcher checked the AI Incident Database to find a documented case where a deployed chatbot gave harmful medical advice, and the record linked to the news article that first reported it.",
