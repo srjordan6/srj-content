@@ -1,5 +1,5 @@
 {
-    "count": 664,
+    "count": 671,
     "terms": [
         {
             "slug": "agent",
@@ -1079,6 +1079,14 @@
             "origin": "",
             "example": "Tracking perplexity on a validation set during pre-training.",
             "category": "Benchmarks & Evaluation",
+            "see_also": [
+                {
+                    "href": "/ai-tools/perplexity-ai/",
+                    "name": "Perplexity AI, the answer engine",
+                    "note": "a search product that shares the name",
+                    "label": "Not to be confused with"
+                }
+            ],
             "definition": "A measure of how well a model predicts a text sample, lower being better. The classic language-modeling quality metric, still used in training but disconnected from downstream usefulness: a lower-perplexity model is not automatically a better assistant."
         },
         {
@@ -1207,6 +1215,14 @@
             "origin": "Popularized by GitHub Copilot, 2021.",
             "example": "A coding copilot completing functions inside the developer's editor.",
             "category": "Business & Adoption",
+            "see_also": [
+                {
+                    "href": "/ai-tools/microsoft-copilot/",
+                    "name": "Microsoft Copilot",
+                    "note": "Microsoft's assistant, which took the generic name",
+                    "label": "The product"
+                }
+            ],
             "definition": "An AI assistant integrated directly into existing software, suggesting rather than acting autonomously. The dominant enterprise adoption pattern because it upgrades a workflow without replacing it."
         },
         {
@@ -1399,7 +1415,11 @@
             "origin": "",
             "example": "A meeting tool producing a searchable transcript in real time.",
             "category": "Core Concepts",
-            "definition": "Converting spoken audio into text. Modern ASR approaches human transcription accuracy in clean conditions, which is what made meeting transcription and voice interfaces routine."
+            "definition": "Converting spoken audio into text. Modern ASR approaches human transcription accuracy in clean conditions, which is what made meeting transcription and voice interfaces routine.",
+            "also_called": [
+                "Speech recognition",
+                "Speech to text"
+            ]
         },
         {
             "slug": "bitter-lesson",
@@ -5675,6 +5695,162 @@
             "definition": "A legal responsibility to take reasonable steps to prevent harm that a person or company could foresee. In AI law, it means developers and platforms must think about how their systems might hurt people and act to reduce that risk.",
             "author_note": "Seeded by ollama:deepseek-v4-pro from this site's own usage of the term; reviewed by Stephen on publication.",
             "authored_on": "2026-09-17",
+            "authored_here": true
+        },
+        {
+            "slug": "chatbot",
+            "term": "Chatbot",
+            "origin": "Shortened from chatterbot, a word coined in 1994. The first program of the kind, ELIZA, was written by Joseph Weizenbaum at MIT in the mid 1960s.",
+            "example": "A bank's website chatbot that answers balance questions and hands the conversation to a person when it cannot.",
+            "category": "Core Concepts",
+            "see_also": [
+                {
+                    "href": "/ai-tools/chatgpt/",
+                    "name": "ChatGPT",
+                    "label": "The best known"
+                },
+                {
+                    "href": "/ai-glossary/companion-chatbot/",
+                    "name": "Companion Chatbot",
+                    "note": "the chatbots new state laws single out",
+                    "label": "A regulated kind"
+                }
+            ],
+            "definition": "A program that holds a conversation in text or speech, replying to what a person types or says. Modern chatbots such as ChatGPT, Gemini, Claude and Copilot are built on large language models, which lets them answer open questions rather than choose from a fixed menu of scripted replies.",
+            "also_called": [
+                "Conversational AI",
+                "AI chat assistant"
+            ],
+            "author_note": "Written by Claude on Stephen's request of 2026-09-21, from the most searched AI terms list.",
+            "authored_on": "2026-09-21",
+            "authored_here": true
+        },
+        {
+            "slug": "image-generator",
+            "term": "Image Generator",
+            "origin": "Text to image research dates to the mid 2010s. The idea reached the public in 2022, when DALL-E 2, Midjourney and Stable Diffusion were released within months of each other.",
+            "example": "Typing \"a lighthouse at dusk in watercolor\" and receiving four original paintings in a few seconds.",
+            "category": "Core Concepts",
+            "see_also": [
+                {
+                    "href": "/ai-glossary/diffusion-model/",
+                    "name": "Diffusion Model",
+                    "label": "How it works"
+                }
+            ],
+            "definition": "An AI system that creates a new image from a written description, called a prompt. Most current image generators, including Midjourney, DALL-E and Stable Diffusion, are diffusion models: they begin with random noise and remove it step by step until an image matching the prompt remains.",
+            "also_called": [
+                "Text to image",
+                "AI image generation",
+                "AI art generator"
+            ],
+            "author_note": "Written by Claude on Stephen's request of 2026-09-21, from the most searched AI terms list.",
+            "authored_on": "2026-09-21",
+            "authored_here": true
+        },
+        {
+            "slug": "chatgpt",
+            "term": "ChatGPT",
+            "origin": "The name combines chat with GPT, generative pre-trained transformer, the model architecture OpenAI introduced in 2018.",
+            "example": "Asking ChatGPT to turn meeting notes into a first draft of a project plan.",
+            "category": "AI Platforms",
+            "see_also": [
+                {
+                    "href": "/ai-tools/chatgpt/",
+                    "name": "ChatGPT: what it does, what it costs",
+                    "label": "Full profile"
+                },
+                {
+                    "href": "/ai-glossary/chatbot/",
+                    "name": "Chatbot",
+                    "label": "The idea"
+                }
+            ],
+            "definition": "OpenAI's chatbot, built on its GPT family of large language models. Released to the public on 30 November 2022, it was the product that brought generative AI to a mass audience, and it now writes, answers questions, searches the web, reads files and generates images.",
+            "author_note": "Written by Claude on Stephen's request of 2026-09-21.",
+            "authored_on": "2026-09-21",
+            "authored_here": true
+        },
+        {
+            "slug": "gemini",
+            "term": "Gemini",
+            "origin": "Named by Google DeepMind; the first Gemini models were announced in December 2023.",
+            "example": "Using Gemini inside Gmail to summarise a long email thread.",
+            "category": "AI Platforms",
+            "see_also": [
+                {
+                    "href": "/ai-tools/gemini/",
+                    "name": "Gemini: what it does, what it costs",
+                    "label": "Full profile"
+                }
+            ],
+            "definition": "Google's family of multimodal AI models and the assistant built on them, which reads and produces text, images, audio and code. The assistant replaced Google's earlier Bard in February 2024, and Gemini models also power AI features across Search, Android and Google Workspace.",
+            "author_note": "Written by Claude on Stephen's request of 2026-09-21.",
+            "authored_on": "2026-09-21",
+            "authored_here": true
+        },
+        {
+            "slug": "claude",
+            "term": "Claude",
+            "origin": "Named by Anthropic, the AI safety company that develops it.",
+            "example": "Giving Claude a long contract and asking which clauses cover termination.",
+            "category": "AI Platforms",
+            "see_also": [
+                {
+                    "href": "/ai-tools/claude/",
+                    "name": "Claude: what it does, what it costs",
+                    "label": "Full profile"
+                }
+            ],
+            "definition": "Anthropic's family of large language models and the assistant built on them, used for writing, analysis and coding. First released in March 2023, Claude is offered to consumers, to businesses and to developers through an API.",
+            "author_note": "Written by Claude on Stephen's request of 2026-09-21.",
+            "authored_on": "2026-09-21",
+            "authored_here": true
+        },
+        {
+            "slug": "microsoft-copilot",
+            "term": "Microsoft Copilot",
+            "origin": "Microsoft borrowed the name from GitHub Copilot, the coding assistant its subsidiary GitHub released in 2021.",
+            "example": "Asking Copilot in Excel to explain a formula or chart a column of sales figures.",
+            "category": "AI Platforms",
+            "see_also": [
+                {
+                    "href": "/ai-tools/microsoft-copilot/",
+                    "name": "Microsoft Copilot: what it does, what it costs",
+                    "label": "Full profile"
+                },
+                {
+                    "href": "/ai-glossary/copilot/",
+                    "name": "Copilot",
+                    "label": "The general idea"
+                }
+            ],
+            "definition": "Microsoft's AI assistant, built into Windows, the Edge browser and Microsoft 365 apps such as Word, Excel, Outlook and Teams. It grew out of Bing Chat, launched in February 2023, and took the Copilot name later that year.",
+            "author_note": "Written by Claude on Stephen's request of 2026-09-21.",
+            "authored_on": "2026-09-21",
+            "authored_here": true
+        },
+        {
+            "slug": "perplexity-ai",
+            "term": "Perplexity AI",
+            "origin": "The company borrowed its name from perplexity, the standard measure of how well a language model predicts text.",
+            "example": "Asking Perplexity which states passed AI laws this year and following its citations to the bills.",
+            "category": "AI Platforms",
+            "see_also": [
+                {
+                    "href": "/ai-tools/perplexity-ai/",
+                    "name": "Perplexity AI: what it does, what it costs",
+                    "label": "Full profile"
+                },
+                {
+                    "href": "/ai-glossary/perplexity/",
+                    "name": "Perplexity, the model accuracy measure",
+                    "label": "Not to be confused with"
+                }
+            ],
+            "definition": "An answer engine that searches the web in response to a question and writes an answer with numbered citations to its sources. Launched in December 2022, it presents itself as an alternative to a list of search results.",
+            "author_note": "Written by Claude on Stephen's request of 2026-09-21.",
+            "authored_on": "2026-09-21",
             "authored_here": true
         }
     ],
