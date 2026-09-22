@@ -3387,6 +3387,19 @@
             "origin": "Hinton, Vinyals, and Dean, 2015.",
             "example": "A compact production model trained to imitate a frontier model's answers.",
             "category": "Training & Mechanics",
+            "see_also": [
+                {
+                    "href": "/ai-ecosystem/enterprise-applications-governance-and-tools/ee588f1c/",
+                    "name": "Model Theft",
+                    "note": "the 2026 industrial-scale campaigns",
+                    "label": "When it is illicit"
+                },
+                {
+                    "href": "/ai-glossary/transfer-station/",
+                    "name": "Transfer Station (API proxy)",
+                    "label": "How illicit distillers get access"
+                }
+            ],
             "definition": "A technique in which a smaller student model is trained to match the outputs of a larger teacher model, transferring capability into a cheaper package. How frontier ability reaches production price points, and a live IP dispute when the teacher belongs to someone else."
         },
         {
@@ -5850,6 +5863,101 @@
             ],
             "definition": "An answer engine that searches the web in response to a question and writes an answer with numbered citations to its sources. Launched in December 2022, it presents itself as an alternative to a list of search results.",
             "author_note": "Written by Claude on Stephen's request of 2026-09-21.",
+            "authored_on": "2026-09-21",
+            "authored_here": true
+        },
+        {
+            "slug": "sdlc",
+            "term": "SDLC (Software Development Life Cycle)",
+            "origin": "The term dates from the 1960s and 1970s, when large system projects were first managed as a fixed sequence of phases, later known as the waterfall model.",
+            "example": "A team that threat models a new chatbot feature at design, scans AI generated code before merge, and runs prompt injection tests before release.",
+            "category": "AI Security & Assurance",
+            "see_also": [
+                {
+                    "href": "/ai-ecosystem/enterprise-applications-governance-and-tools/c962b5b5/",
+                    "name": "Secure Software Development Lifecycle (SDLC)",
+                    "label": "Security topic"
+                },
+                {
+                    "href": "/ai-glossary/adlc/",
+                    "name": "ADLC (Agent Development Lifecycle)",
+                    "note": "what changes when the software is an autonomous agent",
+                    "label": "For AI agents"
+                }
+            ],
+            "definition": "The sequence of phases software goes through from idea to retirement: plan, design, build, test, release and maintain. A secure SDLC builds security into every phase rather than testing for it at the end, and NIST's Secure Software Development Framework, SP 800-218, is the reference most programs follow. AI changes it from two sides: AI now writes much of the code, and AI features inside products bring risks a traditional SDLC never tested for.",
+            "also_called": [
+                "Software development lifecycle",
+                "Secure SDLC",
+                "SSDLC"
+            ],
+            "author_note": "Written by Claude on Stephen's request of 2026-09-21; the term appeared on seven site pages with no definition.",
+            "authored_on": "2026-09-21",
+            "authored_here": true
+        },
+        {
+            "slug": "adlc",
+            "term": "ADLC (Agent Development Lifecycle)",
+            "origin": "Adapted from the software development life cycle as enterprises began deploying AI agents in 2025 and 2026; IBM, Salesforce and the ADLC Manifesto each publish a version.",
+            "example": "A company building a customer service agent sets its goals and permissions first, gives it its own identity and a sandbox, tests it against prompt injection before release, rolls it out in stages, and keeps monitoring it for drift.",
+            "sources": [
+                "https://www.ibm.com/think/topics/agent-development-lifecycle-adlc",
+                "https://www.salesforce.com/agentforce/agent-development-lifecycle/",
+                "https://www.adlc.io/"
+            ],
+            "category": "Agents",
+            "see_also": [
+                {
+                    "href": "/ai-ecosystem/enterprise-applications-governance-and-tools/632156d2/",
+                    "name": "Agent Development Lifecycle (ADLC) Security",
+                    "note": "the four risk areas and the control in each phase",
+                    "label": "Security topic"
+                },
+                {
+                    "href": "/ai-glossary/sdlc/",
+                    "name": "SDLC (Software Development Life Cycle)",
+                    "label": "The lifecycle it extends"
+                }
+            ],
+            "definition": "A framework for building, deploying, operating and governing autonomous AI agents. IBM describes its phases as plan, code and build, test and release, deploy, operate and monitor. Unlike the SDLC, which manages deterministic code, the ADLC manages goal-driven systems that can give different outputs for the same input, so testing measures behavior across many scenarios rather than a single pass or fail, and governance continues after launch.",
+            "also_called": [
+                "Agent development lifecycle",
+                "Agentic development lifecycle"
+            ],
+            "author_note": "Added on Stephen's request of 2026-09-21, from the IBM, Salesforce and adlc.io sources he supplied.",
+            "authored_on": "2026-09-21",
+            "authored_here": true
+        },
+        {
+            "slug": "transfer-station",
+            "term": "Transfer Station (API proxy)",
+            "origin": "A translation of the Chinese zhongzhuanzhan, relay station, the name the services use for themselves.",
+            "example": "A developer in a region Claude does not serve buys cheap Claude access from a reseller; their prompts reach Claude through a stolen account, and the reseller keeps a copy of every exchange to sell to an AI lab.",
+            "sources": [
+                "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a",
+                "https://www.anthropic.com/threat-intelligence-report-september-2026"
+            ],
+            "category": "AI Security & Assurance",
+            "see_also": [
+                {
+                    "href": "/ai-ecosystem/enterprise-applications-governance-and-tools/ee588f1c/",
+                    "name": "Model Theft",
+                    "note": "the 2026 distillation record",
+                    "label": "Security topic"
+                },
+                {
+                    "href": "/ai-glossary/distillation-knowledge-distillation/",
+                    "name": "Distillation (Knowledge Distillation)",
+                    "label": "What they are used for"
+                }
+            ],
+            "definition": "A gray-market proxy service that resells access to US AI models to users in places the providers do not serve, chiefly China. Transfer stations open thousands of accounts with false identities, fake or stolen payment cards and stolen API keys, route users' requests through them, and often log those exchanges and sell them. In September 2026 the NSA, CISA and FBI, and separately Anthropic, named them as the main access route for industrial-scale distillation.",
+            "also_called": [
+                "API relay",
+                "API proxy reseller",
+                "Zhongzhuanzhan"
+            ],
+            "author_note": "Written by Claude on Stephen's request of 2026-09-21, from joint advisory AA26-251A and Anthropic's September 2026 threat report.",
             "authored_on": "2026-09-21",
             "authored_here": true
         }
