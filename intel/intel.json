@@ -1,6 +1,87 @@
 {
-  "generated": "2026-09-23T02:29:28Z",
+  "generated": "2026-09-23T05:25:58Z",
   "items": [
+    {
+      "kind": "vendor-news",
+      "name": "China: TC260 publishes AI Safety Governance Framework 3.0 - DataGuidance",
+      "vendor": "dataguidance.com",
+      "url": "https://www.dataguidance.com/news/china-tc260-publishes-ai-safety-governance-framework",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-09-23T00:16:51.607198-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "From one of Europe’s biggest fintech exits to bootstrapping an AI startup: ‘There’s no limitation’",
+      "vendor": "Sifted",
+      "url": "https://sifted.eu/articles/tink-founders-launch-freda/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-09-23T00:14:40.818693-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Qdrant’s next chapter: From vector search into physical AI",
+      "vendor": "Sifted",
+      "url": "https://sifted.eu/articles/qdrants-next-chapter-from-vector-search-into-physical-ai/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-09-23T00:14:40.818001-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "A pipeline for transcript analysis using Inspect Scout - The AI Security Institute (AISI)",
+      "vendor": "aisi.gov.uk",
+      "url": "https://www.aisi.gov.uk/blog/a-pipeline-for-transcript-analysis-using-inspect-scout",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-09-23T00:12:15.396984-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Anthropic withholds latest AI model from UK safety testers, sparking fears of increased protectionism - ThePrint",
+      "vendor": "theprint.in",
+      "url": "https://theprint.in/tech/anthropic-withholds-latest-ai-model-from-uk-safety-testers-sparking-fears-of-increased-protectionism/3038127/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-09-23T00:11:47.515598-05:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Uni-RS: A Spatially Faithful Unified Understanding and Generation Model for Remote Sensing",
+      "vendor": "Peking University",
+      "url": "https://doi.org/10.24963/ijcai.2026/231",
+      "summary": null,
+      "source": "openalex",
+      "discovered_at": "2026-09-22T22:18:21.373556-05:00"
+    },
+    {
+      "kind": "paper",
+      "name": "DataCube: A Video Retrieval Platform via Natural Language Semantic Profiling",
+      "vendor": "Beijing Academy",
+      "url": "https://doi.org/10.24963/ijcai.2026/969",
+      "summary": null,
+      "source": "openalex",
+      "discovered_at": "2026-09-22T22:18:21.373279-05:00"
+    },
+    {
+      "kind": "paper",
+      "name": "System 1\u00262 Synergy via Dynamic Model Interpolation",
+      "vendor": "Chinese Academy of Sciences",
+      "url": "https://doi.org/10.24963/ijcai.2026/668",
+      "summary": null,
+      "source": "openalex",
+      "discovered_at": "2026-09-22T22:18:21.372959-05:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Fine-Tuning Pre-trained Vision-Language Models in a Human-Annotation-Free Manner",
+      "vendor": "Tsinghua",
+      "url": "https://doi.org/10.1007/978-3-032-38398-3_29",
+      "summary": null,
+      "source": "openalex",
+      "discovered_at": "2026-09-22T22:18:21.360511-05:00"
+    },
     {
       "kind": "vendor-news",
       "name": "How China is preparing for the risk of AI escaping human control - The Straits Times",
@@ -1071,15 +1152,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-09-21T21:13:28.733961-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "What can sandboxed AI agents learn about their evaluation environments? - The AI Security Institute (AISI)",
-      "vendor": "aisi.gov.uk",
-      "url": "https://www.aisi.gov.uk/blog/what-can-sandboxed-ai-agents-learn-about-their-evaluation-environments",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-09-21T21:13:27.881416-05:00"
     },
     {
       "kind": "vendor-news",
@@ -10056,24 +10128,6 @@
     },
     {
       "kind": "vendor-news",
-      "name": "VCs pick out 19 startups to watch making AI more efficient",
-      "vendor": "Sifted",
-      "url": "https://sifted.eu/articles/ai-efficiency-startups-to-watch/",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-08-24T06:15:05.571416-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "How founders are using AI to own their IP strategy",
-      "vendor": "Sifted",
-      "url": "https://sifted.eu/articles/founders-ai-ip-strategy-brnd/",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-08-24T06:15:05.567732-05:00"
-    },
-    {
-      "kind": "vendor-news",
       "name": "The UAE is fighting AI hackers with AI of its own",
       "vendor": "Rest of World",
       "url": "https://restofworld.org/2026/uae-ai-cyberattacks-cyber-factory-defenses/?utm_source=rss\u0026utm_medium=rss\u0026utm_campaign=feeds",
@@ -14133,6 +14187,15 @@
     },
     {
       "kind": "paper",
+      "name": "Observation-Grounded Self-Predictive Reinforcement Learning for Visual Continuous Control",
+      "vendor": "DeepMind",
+      "url": "http://arxiv.org/abs/2608.05989v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T14:15:35.483744-05:00"
+    },
+    {
+      "kind": "paper",
       "name": "TaskSense: Focusing on What Matters in World Models",
       "vendor": "DeepMind",
       "url": "http://arxiv.org/abs/2608.06544v1",
@@ -14145,15 +14208,6 @@
       "name": "ProDVI: Programmatic Dynamics Priors for Value Network Initialization",
       "vendor": "DeepMind",
       "url": "http://arxiv.org/abs/2608.06015v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T14:15:35.483744-05:00"
-    },
-    {
-      "kind": "paper",
-      "name": "Observation-Grounded Self-Predictive Reinforcement Learning for Visual Continuous Control",
-      "vendor": "DeepMind",
-      "url": "http://arxiv.org/abs/2608.05989v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T14:15:35.483744-05:00"
