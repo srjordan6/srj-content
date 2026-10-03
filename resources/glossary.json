@@ -1,5 +1,5 @@
 {
-    "count": 671,
+    "count": 688,
     "terms": [
         {
             "slug": "agent",
@@ -775,7 +775,7 @@
             "origin": "Shazeer et al., 2017, \"Outrageously Large Neural Networks.\"",
             "example": "Mixtral routing each token through two of eight experts.",
             "category": "Architecture",
-            "definition": "An architecture combining multiple specialized sub-networks with a router that decides which experts process each input. It buys large total capacity at modest per-token compute, since only a few experts fire per token."
+            "definition": "An architecture combining multiple specialized sub-networks with a router that decides which experts process each input. It buys large total capacity at modest per-token compute, since only a few experts fire per token. The catch is memory: every expert has to be loaded and ready even though few run on any one token, so an MoE model needs as much GPU memory as its total parameter count suggests, plus routing that keeps the load spread evenly across experts."
         },
         {
             "slug": "multi-head-attention",
@@ -6056,6 +6056,22 @@
             "example": "A regional manager's assistant can query sales, but only for that manager's region.",
             "category": "Systems & Infrastructure",
             "definition": "A database control that limits which rows each user can see or change, enforced by the database itself. It is a key safeguard when AI agents query data on a person's behalf, because the agent then sees only what that person may see."
+        },
+        {
+            "slug": "variant-ai-incident",
+            "term": "Variant (AI incident)",
+            "origin": "Defined by the AI Incident Database (AIID). Introduced in McGregor, Paeth and Lam, \"Indexing AI Risks with Incidents, Issues, and Variants\" (2022), https://arxiv.org/abs/2211.10384 . Related terms: AI Incident Database (AIID), Incident Register.",
+            "example": "A second chatbot user reports the same fabricated refund policy that an earlier, already catalogued incident described; the database records it as a variant of that incident rather than as a new one.",
+            "category": "Safety & Governance",
+            "definition": "In the AI Incident Database, a variant is a new report of harm that repeats a case already on file: the same kind of AI system, failing for the same reasons, causing the same kind of harm. Rather than open a separate incident, the database files it under the first reported incident, so the record shows one problem recurring instead of many unrelated ones. Unlike a full incident, a variant does not need outside reporting such as news coverage before it is recorded."
+        },
+        {
+            "slug": "active-parameters",
+            "term": "Active Parameters",
+            "origin": "Related terms: Dense Model, Mixture of Experts (MoE), Sparse Model, Router (MoE Router), Parameters.",
+            "example": "A mixture-of-experts model described as 30B total, 3B active runs each token through roughly 3 billion parameters, but all 30 billion must sit in memory.",
+            "category": "Architecture",
+            "definition": "The parameters a model actually uses to process one token, as opposed to the total it holds. In a dense model the two numbers are the same. In a mixture-of-experts model they differ sharply, and that gap is the point: compute cost and speed per token follow the active count, while the memory needed to serve the model follows the total."
         }
     ],
     "source": {
