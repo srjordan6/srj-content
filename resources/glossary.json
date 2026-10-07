@@ -1,5 +1,5 @@
 {
-    "count": 720,
+    "count": 722,
     "terms": [
         {
             "slug": "agent",
@@ -6328,6 +6328,59 @@
             "example": "Memory makers have described HBM4E stacks with customer logic in the base die.",
             "category": "Systems & Infrastructure",
             "definition": "The planned extension of HBM4, expected around 2027 to 2028, with faster pins, taller stacks and base dies designed by or for the customer, which takes HBM further toward custom silicon."
+        },
+        {
+            "slug": "risks-digest",
+            "term": "RISKS Digest",
+            "origin": "Founded by Peter G. Neumann in 1985 under the ACM. It ran to 3,195 issues and was the basis for his 1995 book Computer-Related Risks; he stepped down as moderator in April 2026.",
+            "example": "A security team citing a decades old RISKS Digest item to show that a failure in a new AI system follows a pattern first reported in the 1980s.",
+            "sources": [
+                "https://www.nytimes.com/2026/05/17/technology/peter-g-neumann-dead.html",
+                "https://spectrum.ieee.org/ieee-remembers-peter-g-neumann"
+            ],
+            "category": "AI Security & Assurance",
+            "see_also": [
+                {
+                    "href": "/ai-ecosystem/ecosystem-entities-market-and-operations/50e8f6d9/",
+                    "name": "Peter G. Neumann",
+                    "label": "Founder and moderator"
+                }
+            ],
+            "definition": "The ACM Forum on Risks to the Public in Computers and Related Systems, an email digest and newsgroup that Peter G. Neumann founded in 1985 and edited for 41 years. Readers sent in reports of computer failures, security flaws and privacy problems, and each one was published with the moderator's annotation, building a running record of how computer systems fail in practice.",
+            "also_called": [
+                "RISKS Forum",
+                "ACM RISKS Forum",
+                "Forum on Risks to the Public in Computers and Related Systems",
+                "comp.risks"
+            ],
+            "author_note": "Added on Stephen's approval of 2026-10-07 (bridge row 532), from the New York Times and IEEE Spectrum obituaries of Peter G. Neumann.",
+            "authored_on": "2026-10-07",
+            "authored_here": true
+        },
+        {
+            "slug": "multics",
+            "term": "Multics",
+            "origin": "Begun in 1964 to 1965 by MIT, Bell Labs and General Electric. Peter G. Neumann designed its file system. Bell Labs withdrew in 1969, and its researchers' experience with Multics led them to create Unix.",
+            "example": "A history of operating system security tracing access control lists back to the Multics file system.",
+            "sources": [
+                "https://en.wikipedia.org/wiki/Multics",
+                "https://spectrum.ieee.org/ieee-remembers-peter-g-neumann"
+            ],
+            "category": "Systems & Infrastructure",
+            "see_also": [
+                {
+                    "href": "/ai-ecosystem/ecosystem-entities-market-and-operations/50e8f6d9/",
+                    "name": "Peter G. Neumann",
+                    "label": "Designed its file system"
+                }
+            ],
+            "definition": "Multiplexed Information and Computing Service, a time sharing operating system developed from the mid 1960s by MIT, Bell Laboratories and General Electric, later Honeywell. It was one of the first systematic attempts to let many users share one computer securely, and it introduced ideas that became standard, including a hierarchical file system with access control lists.",
+            "also_called": [
+                "Multiplexed Information and Computing Service"
+            ],
+            "author_note": "Added on Stephen's approval of 2026-10-07 (bridge row 532), from Wikipedia and the IEEE Spectrum obituary of Peter G. Neumann.",
+            "authored_on": "2026-10-07",
+            "authored_here": true
         }
     ],
     "source": {
