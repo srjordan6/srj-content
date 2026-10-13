@@ -1,6 +1,942 @@
 {
-  "generated": "2026-10-13T03:25:22Z",
+  "generated": "2026-10-13T10:35:28Z",
   "items": [
+    {
+      "kind": "vendor-news",
+      "name": "AI server tracker: Taiwan's CCL, PCB and IC substrate suppliers see widening growth gap despite AI boom - digitimes",
+      "vendor": "DigiTimes (compute)",
+      "url": "https://www.digitimes.com/news/a20261013VL214/pcb-ccl-ic-substrate-laminate-revenue-taiwan.html",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:17:19.841451-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "AI substrate material shortages ease, but advanced equipment emerges as expansion bottleneck - digitimes",
+      "vendor": "DigiTimes (compute)",
+      "url": "https://www.digitimes.com/news/a20261013PD228/equipment-substrate-expansion-ic-substrate-capacity.html",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:17:18.969414-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "South Korea's YMT targets fivefold rise in glass-substrate plating capacity - digitimes",
+      "vendor": "DigiTimes (compute)",
+      "url": "https://www.digitimes.com/news/a20261013PD218/capacity-materials-supplier-equipment-tgv.html",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:17:18.09349-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Jeonnam-Gwangju Expands Semiconductor Belt - Businesskorea",
+      "vendor": "BusinessKorea (compute)",
+      "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=278660",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:17:16.769101-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "NdotLight Chosen for Scale-Up TIPS Program to Advance Physical AI Data Infrastructure - THE ELEC, Korea Electronics Industry Media",
+      "vendor": "TheElec (compute)",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=14569",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:17:15.581459-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "​AMD Unveils CPU-Centric Helion AI Rack for Agentic AI - THE ELEC, Korea Electronics Industry Media",
+      "vendor": "TheElec (compute)",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=14554",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:17:14.710807-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Meta Unveils Muse Wonder AI Models Featuring Active Memory - THE ELEC, Korea Electronics Industry Media",
+      "vendor": "TheElec (compute)",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=14550",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:17:13.837903-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "MCloudBridge Unveils Ai 365 Unified AI Platform for Public, Education, and Research Institutions - THE ELEC, Korea Electronics Industry Media",
+      "vendor": "TheElec (compute)",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=14570",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:17:12.973298-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "​Qualcomm Unveils Four AI Broadband Platforms Ahead of Network X 2026 - THE ELEC, Korea Electronics Industry Media",
+      "vendor": "TheElec (compute)",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=14544",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:17:12.100702-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Fasoo AI’s AI-R DLP Wins Retail Security Award - THE ELEC, Korea Electronics Industry Media",
+      "vendor": "TheElec (compute)",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=14551",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:17:11.139673-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Kakao to Turn KakaoTalk Into AI Agent Platform - THE ELEC, Korea Electronics Industry Media",
+      "vendor": "TheElec (compute)",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=14559",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:17:10.241171-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Krafton to Hire at Least 100 Entry-Level Employees With AI Skills - THE ELEC, Korea Electronics Industry Media",
+      "vendor": "TheElec (compute)",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=14563",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:17:09.359002-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "LG Uplus Uses AI Agents to Handle Bill Payments and Roaming Sign-Ups - THE ELEC, Korea Electronics Industry Media",
+      "vendor": "TheElec (compute)",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=14562",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:17:08.481943-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "LG Uplus Upgrades U+one App With AI Agents for Billing, Roaming - Seoul Economic Daily",
+      "vendor": "Seoul Economic Daily (compute)",
+      "url": "https://en.sedaily.com/technology/2026/10/13/lg-uplus-upgrades-uone-app-with-ai-agents-for-billing",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:17:07.247229-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Coupang Eats Builds AI to Read Delivery Photos, Curb Misdeliveries - Seoul Economic Daily",
+      "vendor": "Seoul Economic Daily (compute)",
+      "url": "https://en.sedaily.com/finance/2026/10/12/coupang-eats-builds-ai-to-read-delivery-photos-curb",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:17:06.367545-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "AIM Intelligence Signs AI Security Pact With UAE's CPX - Seoul Economic Daily",
+      "vendor": "Seoul Economic Daily (compute)",
+      "url": "https://en.sedaily.com/technology/2026/10/13/aim-intelligence-signs-ai-security-pact-with-uaes-cpx",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:17:05.494173-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Korea Creates Semiconductor Unit to Oversee Mega Projects - Seoul Economic Daily",
+      "vendor": "Seoul Economic Daily (compute)",
+      "url": "https://en.sedaily.com/business/2026/10/13/korea-creates-semiconductor-unit-to-oversee-mega-projects",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:17:04.610679-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "AI Funding Fears Deepen Korea Selloff: \"No Rebound Momentum in Sight\" - Seoul Economic Daily",
+      "vendor": "Seoul Economic Daily (compute)",
+      "url": "https://en.sedaily.com/finance/2026/10/13/ai-funding-fears-deepen-korea-selloff-no-rebound-momentum",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:17:03.739802-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Kakao Turns KakaoTalk Into AI Agent Platform With 'Kanana Space' - Seoul Economic Daily",
+      "vendor": "Seoul Economic Daily (compute)",
+      "url": "https://en.sedaily.com/technology/2026/10/13/kakao-turns-kakaotalk-into-ai-agent-platform-with-ryan",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:17:02.864981-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Samsung, AMD Demo Memory Expansion to Ease AI Bottleneck - Seoul Economic Daily",
+      "vendor": "Seoul Economic Daily (compute)",
+      "url": "https://en.sedaily.com/finance/2026/10/13/samsung-amd-demo-memory-expansion-to-ease-ai-bottleneck",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:17:01.988436-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Minister Pledges Bigger Role for Smaller Firms in AI Shift - Seoul Economic Daily",
+      "vendor": "Seoul Economic Daily (compute)",
+      "url": "https://en.sedaily.com/finance/2026/10/13/minister-pledges-bigger-role-for-smaller-firms-in-ai-shift",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:17:01.109505-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Korea's Largest Chip Show Opens With AI Memory, Physical AI - Seoul Economic Daily",
+      "vendor": "Seoul Economic Daily (compute)",
+      "url": "https://en.sedaily.com/finance/2026/10/12/koreas-largest-chip-show-opens-with-ai-memory-physical-ai",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:17:00.219768-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "China-Made AI Hacking Tool ARTEX Goes Private After Korean Bank Attacks - Seoul Economic Daily",
+      "vendor": "Seoul Economic Daily (compute)",
+      "url": "https://en.sedaily.com/international/2026/10/12/china-made-ai-hacking-tool-artex-goes-private-after-korean",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:59.344933-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Krafton to Hire Over 100 AI-Savvy Graduates in Largest Intake Yet - Seoul Economic Daily",
+      "vendor": "Seoul Economic Daily (compute)",
+      "url": "https://en.sedaily.com/technology/2026/10/13/krafton-to-hire-over-100-ai-savvy-graduates-in-largest",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:58.484529-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Hyundai Motor, Kia Invest in U.S. AI Operating System Developer VAST Data - Seoul Economic Daily",
+      "vendor": "Seoul Economic Daily (compute)",
+      "url": "https://en.sedaily.com/technology/2026/10/13/hyundai-motor-kia-invest-in-us-ai-operating-system",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:57.607694-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Samsung unveils next-gen memory strategy for AI data centers at OCP - The Investor",
+      "vendor": "AI compute supply chain (compute)",
+      "url": "https://www.theinvestor.co.kr/article/10901215",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:56.366238-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "'Power, Not HBM, Is the Real AI Bottleneck. We Will Find Answers in Asia' - Seoul Economic Daily",
+      "vendor": "AI compute supply chain (compute)",
+      "url": "https://en.sedaily.com/international/2026/10/13/power-not-hbm-is-the-real-ai-bottleneck-we-will-find",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:55.481185-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Microsoft Maia 300 Puts 288GB of HBM4 at 18TB/s on an N2P Chiplet and 96 Accelerators in a 167kW Rack - StorageReview.com",
+      "vendor": "AI compute supply chain (compute)",
+      "url": "https://www.storagereview.com/news/microsoft-maia-300-hbm4-n2p-chiplet-96-accelerator-rack",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:54.613806-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "[News] Samsung Showcases CXL Memory Expansion With AMD at OCP 2026, Expands AI Memory Push Beyond HBM - TrendForce",
+      "vendor": "AI compute supply chain (compute)",
+      "url": "https://www.trendforce.com/news/2026/10/13/news-samsung-showcases-cxl-memory-expansion-with-amd-at-ocp-2026-expands-ai-memory-push-beyond-hbm/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:53.738265-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "How Chiplets Could Transform Server Design – And Data Centers - Data Center Knowledge",
+      "vendor": "AI compute supply chain (compute)",
+      "url": "https://www.datacenterknowledge.com/data-center-chips/how-chiplets-could-transform-server-design-and-data-centers",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:52.865958-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "AI Power Pushes Thermal Limits as Materials Take Center Stage in Advanced Packaging - EE Times Asia",
+      "vendor": "AI compute supply chain (compute)",
+      "url": "https://www.eetasia.com/ai-power-pushes-thermal-limits-as-materials-take-center-stage-in-advanced-packaging/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:51.980427-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "BOE Struggles With Glass Substrate Cracking at 8.6-Gen OLED Line - THE ELEC, Korea Electronics Industry Media",
+      "vendor": "AI compute supply chain (compute)",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=14560",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:51.09445-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Chiplet market projected to reach USD 157.23 billion by 2030 - Global Sources",
+      "vendor": "AI compute supply chain (compute)",
+      "url": "https://www.globalsources.com/sourcing-digest/chiplet-market-projected-to-reach-usd-157-23-billion-by-2030/?source=GSOLHP_SKC_5",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:50.171116-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Europe’s Advanced Packaging Gap: Fraunhofer, Swissbit Target the Missing Middle - EE Times",
+      "vendor": "AI compute supply chain (compute)",
+      "url": "https://www.eetimes.com/europe-advanced-packaging-gap-fraunhofer-swissbit-target-the-missing-middle/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:49.306988-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "How AI Companies Are Rewriting M\u0026A - AI M\u0026A - Deloitte",
+      "vendor": "Big Four on AI (accounting)",
+      "url": "https://www.deloitte.com/us/en/what-we-do/capabilities/mergers-acquisitions/articles/how-ai-companies-rewriting-m-and-a.html",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:48.023499-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Wolters Kluwer Unveils Expert AI for CCH Axcess - CPA Practice Advisor",
+      "vendor": "CPA Practice Advisor (accounting)",
+      "url": "https://www.cpapracticeadvisor.com/2025/10/15/wolters-kluwer-unveils-expert-ai-for-cch-axcess/171011/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:46.532481-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Wolters Kluwer Launches Expert AI Capabilities in CCH Axcess Audit Suite - CPA Practice Advisor",
+      "vendor": "CPA Practice Advisor (accounting)",
+      "url": "https://www.cpapracticeadvisor.com/2025/10/22/wolters-kluwer-launches-expert-ai-capabilities-in-cch-axcess-audit-suite/171459/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:45.649305-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "How AI and Automation are Redefining Accounting in 2025 - CPA Practice Advisor",
+      "vendor": "CPA Practice Advisor (accounting)",
+      "url": "https://www.cpapracticeadvisor.com/2025/08/06/how-ai-and-automation-are-redefining-accounting-in-2025/166701/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:44.743927-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Is Artificial Intelligence Becoming a Tool for Financial Advisors? - CPA Practice Advisor",
+      "vendor": "CPA Practice Advisor (accounting)",
+      "url": "https://www.cpapracticeadvisor.com/2022/08/05/client-advisors-see-ai/68911/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:43.864549-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Elon Musk's Grok Bot adopts multi-model AI for tasks - TechGig",
+      "vendor": "techgig.com",
+      "url": "https://techgig.com/news/ai/elon-musks-grok-bot-adopts-multi-model-ai-for-tasks/134888636",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:41.896567-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Meta unveils new AI models to power Muse agent - TechGig",
+      "vendor": "techgig.com",
+      "url": "https://techgig.com/news/ai/meta-unveils-new-ai-models-to-power-muse-agent/134905707",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:41.019919-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Why AI Agents Are Forcing Enterprises To Rebuild Their Data Foundations - Inc42",
+      "vendor": "inc42.com",
+      "url": "https://inc42.com/buzz/why-ai-agents-are-forcing-enterprises-to-rebuild-their-data-foundation/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:39.815648-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Anthropic Warns ‘AI Worms’ Could Replicate Across Smart TVs, IoT Devices Without Data Centres - analyticsindiamag.com",
+      "vendor": "analyticsindiamag.com",
+      "url": "https://analyticsindiamag.com/ai-news/anthropic-warns-ai-worms-could-replicate-across-smart-tvs-iot-devices-without-data-centres",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:38.486167-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "HCLTech's Advanced AI Revenue Hits $219 Mn as FY27 Guidance Tightens - Analytics India Magazine",
+      "vendor": "analyticsindiamag.com",
+      "url": "https://analyticsindiamag.com/ai-news/hcltechs-advanced-ai-revenue-hits-219-mn-as-fy27-guidance-tightens",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:37.606899-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Meta Launches Muse Wonder AI Models for Personal and Professional Agents - Analytics India Magazine",
+      "vendor": "analyticsindiamag.com",
+      "url": "https://analyticsindiamag.com/ai-news/meta-launches-muse-wonder-ai-models-for-personal-and-professional-agents",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:36.722519-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Sarvam AI in Talks to Raise $300 Mn at $3 Bn Valuation: Report - Analytics India Magazine",
+      "vendor": "analyticsindiamag.com",
+      "url": "https://analyticsindiamag.com/ai-news/sarvam-ai-in-talks-to-raise-300-mn-at-3-bn-valuation-report",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:35.847852-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "What Enterprise Vendors Need to Rethink About AI Agents - analyticsindiamag.com",
+      "vendor": "analyticsindiamag.com",
+      "url": "https://analyticsindiamag.com/ai-highlights/what-enterprise-vendors-need-to-rethink-about-ai-agents",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:34.975119-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "How Mangaluru Plans to Turn Blue Economy, AI Talent Into a Tech Growth Engine - Analytics India Magazine",
+      "vendor": "analyticsindiamag.com",
+      "url": "https://analyticsindiamag.com/ai-features/how-mangaluru-plans-to-turn-blue-economy-ai-talent-into-a-tech-growth-engine",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:34.097768-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Troubled AI Chatbot App Character.AI Files for Bankruptcy Amid Legal Scrutiny - analyticsindiamag.com",
+      "vendor": "analyticsindiamag.com",
+      "url": "https://analyticsindiamag.com/ai-news/troubled-ai-chatbot-app-characterai-files-for-bankruptcy-amid-legal-scrutiny",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:33.210798-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Japan's Omron to buy US industrial PC firm Onlogic for $675 million in physical AI push - ET CIO",
+      "vendor": "cio.economictimes.indiatimes.com",
+      "url": "https://cio.economictimes.indiatimes.com/amp/news/corporate-news/japans-omron-to-buy-us-industrial-pc-firm-onlogic-for-675-million-in-physical-ai-push/134906165",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:30.981977-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "The AI race will be decided by who can safely unlock their data - ET CIO",
+      "vendor": "cio.economictimes.indiatimes.com",
+      "url": "https://cio.economictimes.indiatimes.com/amp/news/artificial-intelligence/the-ai-race-will-be-decided-by-who-can-safely-unlock-their-data/134906061",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:30.096614-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Meta unveils Muse Wonder AI models to advance 'personal superintelligence' push - ET CIO",
+      "vendor": "cio.economictimes.indiatimes.com",
+      "url": "https://cio.economictimes.indiatimes.com/news/artificial-intelligence/meta-unveils-muse-wonder-ai-models-to-advance-personal-superintelligence-push/134906139",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:29.222736-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Thales launches data security tool amid AI access risk - IT Brief Australia",
+      "vendor": "itbrief.com.au",
+      "url": "https://itbrief.com.au/story/thales-launches-data-security-tool-amid-ai-access-risk",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:27.925372-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Claude Introduces Agent Skills for Custom AI Workflows - DevOps.com",
+      "vendor": "devops.com",
+      "url": "https://devops.com/claude-introduces-agent-skills-for-custom-ai-workflows/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:25.385333-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Comp AI secures $2.6M pre-seed to disrupt SOC 2 market - DevOps.com",
+      "vendor": "devops.com",
+      "url": "https://devops.com/comp-ai-secures-2-6m-pre-seed-to-disrupt-soc-2-market/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:24.493426-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "VS Code’s Open Source AI Revolution: A New Chapter for Developers - DevOps.com",
+      "vendor": "devops.com",
+      "url": "https://devops.com/vs-codes-open-source-ai-revolution-a-new-chapter-for-developers/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:23.618007-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Tabnine Previews AI Agent to Review Code as Created - DevOps.com",
+      "vendor": "devops.com",
+      "url": "https://devops.com/tabnine-previews-ai-agent-to-review-code-as-created/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:22.747727-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "The Next AI Breakthrough Isn’t Generative, It’s Agentic - DevOps.com",
+      "vendor": "devops.com",
+      "url": "https://devops.com/the-next-ai-breakthrough-isnt-generative-its-agentic/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:21.841108-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "LTIMindtree : LTM Collaborates with IBM and Red Hat on Lightwell to Advance AI-Driven Open-Source Software Remediation - marketscreener.com",
+      "vendor": "marketscreener.com",
+      "url": "https://www.marketscreener.com/news/ltimindtree-ltm-collaborates-with-ibm-and-red-hat-on-lightwell-to-advance-ai-driven-open-source-so-ce785bd9db8ff02d",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:20.244739-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Asia Today: AI Expansion, Bond Deals and Technology Investments - Asia Business Outlook",
+      "vendor": "asiabusinessoutlook.com",
+      "url": "https://www.asiabusinessoutlook.com/news/asia-today-ai-expansion-bond-deals-and-technology-investments-nwid-12601.html",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:18.04687-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Consumer resistance to AI customer service is a myth: NTT DATA - Outsource Accelerator",
+      "vendor": "news.outsourceaccelerator.com",
+      "url": "https://news.outsourceaccelerator.com/ntt-data-ai-customer-service/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:13.634015-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "AI and multilingual services empower Beijing's 12345 hotline - China Daily",
+      "vendor": "govt.chinadaily.com.cn",
+      "url": "https://govt.chinadaily.com.cn/s/202610/13/WS6acdc591498e23165e0737aa/ai-and-multilingual-services-empower-beijings-12345-hotline.html",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:08.955649-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "AI boom expected to ease economic downturn from Middle East crisis - China Daily",
+      "vendor": "chinadaily.com.cn",
+      "url": "https://www.chinadaily.com.cn/a/202610/13/WS6acddbdae4b06d4aa056289f.html",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:08.076598-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "AI cuts wildlife monitoring workload for Indigenous rangers in Australia: study - Xinhua",
+      "vendor": "english.news.cn",
+      "url": "https://english.news.cn/asiapacific/20261013/369f6a248ca24c38a1592e510279abc6/c.html",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:06.751544-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "IMF edges up 2026 global growth forecast to 3.1 pct as Mideast conflict, AI boom split world economy - Xinhua",
+      "vendor": "english.news.cn",
+      "url": "https://english.news.cn/20261013/8ed2312c42d640b79237e2756ed1b86c/c.html",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:05.868284-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "AI models improve long-term flood forecasting: study - Xinhua",
+      "vendor": "english.news.cn",
+      "url": "https://english.news.cn/asiapacific/20261013/165d8d05b38748489c1e616beaf63c3e/c.html",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:04.972246-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "In pics: China-ASEAN Countries AI Application Cooperation Center in Nanning - Xinhua",
+      "vendor": "english.news.cn",
+      "url": "https://english.news.cn/20261013/17613739c2f541edb0a11a7d93b78025/c.html",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:04.099992-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "IMF warns of AI market correction, cyber threats to financial system - The Business Times",
+      "vendor": "businesstimes.com.sg",
+      "url": "https://www.businesstimes.com.sg/international/global/imf-warns-ai-market-correction-cyber-threats-financial-system",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:01.394649-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "IMF cites AI slowdown, spiking yields as looming global market risks - The Business Times",
+      "vendor": "businesstimes.com.sg",
+      "url": "https://www.businesstimes.com.sg/international/global/imf-cites-ai-slowdown-spiking-yields-looming-global-market-risks",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:16:00.515662-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Singapore workers embrace AI faster than global peers, but fewer feel secure in their jobs: PwC survey - The Business Times",
+      "vendor": "businesstimes.com.sg",
+      "url": "https://www.businesstimes.com.sg/singapore/singapore-workers-embrace-ai-faster-global-peers-fewer-feel-secure-their-jobs-pwc-survey",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:15:59.597265-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "AI set to continue growing, but how it unlocks value is the question: TikTok, Broadcom, Intel CEOs - The Straits Times",
+      "vendor": "straitstimes.com",
+      "url": "https://www.straitstimes.com/business/companies-markets/ai-set-to-continue-growing-but-how-it-unlocks-value-is-the-question-tiktok-broadcom-intel-ceos",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:15:58.324089-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "'Even in an age of AI, the human spirit will always endure': PM Wong - The Straits Times",
+      "vendor": "straitstimes.com",
+      "url": "https://www.straitstimes.com/videos/6406689558112",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:15:57.462378-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "New safeguards sharply reduce AI distillation attacks: Anthropic - The Straits Times",
+      "vendor": "straitstimes.com",
+      "url": "https://www.straitstimes.com/world/united-states/new-safeguards-sharply-reduce-ai-distillation-attacks-anthropic",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:15:56.571456-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "AI models may soon self-replicate without access to data centres: Anthropic - The Straits Times",
+      "vendor": "straitstimes.com",
+      "url": "https://www.straitstimes.com/world/united-states/ai-models-may-soon-self-replicate-without-access-to-data-centres-anthropic",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:15:55.700919-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Singapore asks AI firms for transparency following Australia data breach - The Straits Times",
+      "vendor": "straitstimes.com",
+      "url": "https://www.straitstimes.com/videos/6406736319112",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:15:54.836795-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "KAIST President Launches Robot Institute Plan to Lead Global Physical AI - DongA Science",
+      "vendor": "dongascience.com",
+      "url": "https://www.dongascience.com/en/news/80314",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:15:46.935112-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "KAIST Controls 2D Crystal Growth to Advance AI Chip Stacking - Mirage News",
+      "vendor": "miragenews.com",
+      "url": "https://www.miragenews.com/kaist-controls-2d-crystal-growth-to-advance-ai-1759230/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:15:46.069524-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "KAIST advances physical AI with sensory, motor and swarm systems in Korea - CHOSUNBIZ - Chosunbiz",
+      "vendor": "biz.chosun.com",
+      "url": "https://biz.chosun.com/en/en-science/2026/10/13/5P6355KFVNBVVOXW2ZRMZOKUYQ/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:15:45.202977-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "KAIST unveils physical AI strategy to take robotics beyond humanoids - The Korea Herald",
+      "vendor": "koreaherald.com",
+      "url": "https://www.koreaherald.com/article/10901132",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:15:44.311639-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "\"X-Day\" Xili Lake Roadshow Club × \"Venture China\" AI for Science Special Session Visits Tsinghua University - 36 Kr",
+      "vendor": "eu.36kr.com",
+      "url": "https://eu.36kr.com/en/p/4023688849166212",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:15:42.400934-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "AI One-Tap Video Generation: Transform Idle Phone Photos Into Engaging Clips With BGM – Perfect For Users Lacking Editing Skills \u0026 Shooting Time - 36 Kr",
+      "vendor": "eu.36kr.com",
+      "url": "https://eu.36kr.com/en/p/4023716715450499",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:15:41.528819-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Anthropic's Startling Warning: Small AI Models Show Emerging \"Signs of Life\" – AI Worms May Trigger a Global IoT Catastrophe - 36 Kr",
+      "vendor": "eu.36kr.com",
+      "url": "https://eu.36kr.com/en/p/4023779264991107",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:15:40.658644-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Neuromorphic Computing Revitalized: Flourish Secures $500M Funding to Pioneer Next-Gen AI Paradigm Powered by Brain Science - 36 Kr",
+      "vendor": "eu.36kr.com",
+      "url": "https://eu.36kr.com/en/p/4023551494869127",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:15:39.780579-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Healthcare Companies Rush to Invest in the Booming AI Semiconductor Industry - 36 Kr",
+      "vendor": "eu.36kr.com",
+      "url": "https://eu.36kr.com/en/p/4023551215767428",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:15:38.884263-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Stay Alert to \"Persuasion Bombing\" Risks Posed by Large Language Models - 36 Kr",
+      "vendor": "eu.36kr.com",
+      "url": "https://eu.36kr.com/en/p/4023551762714752",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:15:38.015491-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Jensen Huang AI Face Swap Goes Viral: Platforms Rush to Purchase Digital Faces – Who Profits From AI Face Economy in the Generative AI Era? - 36 Kr",
+      "vendor": "eu.36kr.com",
+      "url": "https://eu.36kr.com/en/p/4022967370764168",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:15:37.128937-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Next Major US Stock Market Wealth Creation Trend: The Rise of AI-Powered New Drug R\u0026D | In-Depth Analysis of 4 Industrial Chain Companies - 36 Kr",
+      "vendor": "eu.36kr.com",
+      "url": "https://eu.36kr.com/en/p/4023573961658241",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:15:36.254046-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "36Kr Exclusive: AI Large Meteorological Model Firm Secures Tens of Millions Yuan Investment from Houxue, Launches Self-Developed Proprietary Satellite Constellation - 36 Kr",
+      "vendor": "eu.36kr.com",
+      "url": "https://eu.36kr.com/en/p/4023671039070081",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:15:35.389251-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "AI Revolution in Film, TV \u0026 Media: High-Intensity Intermittent Training Reshapes the Wildly Booming Industry - 36 Kr",
+      "vendor": "eu.36kr.com",
+      "url": "https://eu.36kr.com/en/p/4022961273819271",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:15:34.504389-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "AI Editing Industry Fierce Scuffle: Where Does Capital Flow After Video Editors Exit the Market? - 36 Kr",
+      "vendor": "eu.36kr.com",
+      "url": "https://eu.36kr.com/en/p/4023674796724359",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:15:33.626459-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "AI Solves 56-Year-Old Unresolved Mathematical Problem: Groundbreaking DeepMind Research Published in Science - 36 Kr",
+      "vendor": "eu.36kr.com",
+      "url": "https://eu.36kr.com/en/p/4023949477515143",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:15:32.762069-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Difference Between Rational AI Use and Distillation Models: Redefining the Power of Learning - 36 Kr",
+      "vendor": "eu.36kr.com",
+      "url": "https://eu.36kr.com/en/p/4023672160704133",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:15:31.887336-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "36Kr Weekly Recommended Projects Ranking Issue 21: 10 Innovative Projects from Embodied Intelligence to AI Education Accelerating Practical Deployment - 36 Kr",
+      "vendor": "eu.36kr.com",
+      "url": "https://eu.36kr.com/en/p/4023705686757506",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:15:31.014114-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "AI Brand Misinformation: Who Pays the Price for Out-of-Control Algorithms When Nonsense Content Harms Reputation? - 36 Kr",
+      "vendor": "eu.36kr.com",
+      "url": "https://eu.36kr.com/en/p/4023671510650761",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:15:30.147771-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "IMDA's new industry partnerships to strengthen SMEs’ data foundations and use AI in workflows - GovInsider",
+      "vendor": "govinsider.asia",
+      "url": "https://govinsider.asia/intl-en/article/imdas-new-industry-partnerships-to-strengthen-smes-data-foundations-and-use-ai-in-workflows",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:15:28.498437-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Tech Bridge Programme by Beyondsoft and IMDA brings AI capabilities and solutions from international markets to Singapore SMEs - PR Newswire",
+      "vendor": "prnewswire.com",
+      "url": "https://www.prnewswire.com/apac/news-releases/tech-bridge-programme-by-beyondsoft-and-imda-brings-ai-capabilities-and-solutions-from-international-markets-to-singapore-smes-302905134.html",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:15:27.60257-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "UK ramps up cybersecurity in the face of advanced AI threats - Computing UK",
+      "vendor": "computing.co.uk",
+      "url": "https://www.computing.co.uk/news/2026/ai/uk-ramps-up-cybersecurity",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:15:22.397142-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "This ex-Pleo exec plans on taking on US rivals with his ‘AI CFO’ startup",
+      "vendor": "Sifted",
+      "url": "https://sifted.eu/articles/light-jonathan-sanders-interview/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:15:19.602956-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "What will it take for Europe to win in physical AI?",
+      "vendor": "Sifted",
+      "url": "https://sifted.eu/articles/sifted-summit-europe-physical-ai/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:15:19.600593-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "UK AI Security Institute Gets Access to New AI Models - Konsulteer",
+      "vendor": "konsulteer.com",
+      "url": "https://www.konsulteer.com/article/uk-ai-security-institute-gets-access-to-latest-ai-models-for-safety-testing-minister-says",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:15:17.510736-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "MBZUAI launches K2 Horizon family of six open AI models - Gulf Business",
+      "vendor": "gulfbusiness.com",
+      "url": "https://gulfbusiness.com/2026/artificial-intelligence/mbzuai-launches-k2-horizon-family-of-six-open-ai-models/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-13T05:15:15.227015-05:00"
+    },
+    {
+      "kind": "paper",
+      "name": "An auditable conditional-strategy framework for open-ended decision-making in complex lung cancer",
+      "vendor": "Peking University",
+      "url": "https://doi.org/10.48550/arxiv.2609.29381",
+      "summary": null,
+      "source": "openalex",
+      "discovered_at": "2026-10-12T23:10:56.399491-05:00"
+    },
+    {
+      "kind": "paper",
+      "name": "REM-CaR: Retrieval-Augmented Generation Enhanced Medical Case-Based Reasoner",
+      "vendor": "Peking University",
+      "url": "https://doi.org/10.1007/978-981-92-5699-0_35",
+      "summary": null,
+      "source": "openalex",
+      "discovered_at": "2026-10-12T23:10:56.39769-05:00"
+    },
+    {
+      "kind": "paper",
+      "name": "Test-Time Agent Evolution for Long-Horizon Legal Reasoning",
+      "vendor": "Alibaba",
+      "url": "https://doi.org/10.48550/arxiv.2610.08138",
+      "summary": null,
+      "source": "openalex",
+      "discovered_at": "2026-10-12T23:10:56.38916-05:00"
+    },
     {
       "kind": "vendor-news",
       "name": "NAVER Map Navigation Comes to AI Glasses From Meta, Google, Samsung - Seoul Economic Daily",
@@ -552,24 +1488,6 @@
     },
     {
       "kind": "vendor-news",
-      "name": "AI Short Dramas: Not a \"Predatory Hunt\" – The Daily Entertainment Reality of 800 Million Users - 36 Kr",
-      "vendor": "eu.36kr.com",
-      "url": "https://eu.36kr.com/en/p/4022891971317637",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-12T22:12:47.198293-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "\"AI is on everyone's lips all the time, yet nothing of substance is achieved in practice, and young people are being driven crazy by the ongoing AI frenzy.\" - 36 Kr",
-      "vendor": "eu.36kr.com",
-      "url": "https://eu.36kr.com/en/p/4023610911362949",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-12T22:12:46.257091-05:00"
-    },
-    {
-      "kind": "vendor-news",
       "name": "Semperis Secures IMDA Accreditation to Strengthen Identity Resilience in the AI Era - Yahoo Finance",
       "vendor": "finance.yahoo.com",
       "url": "https://finance.yahoo.com/technology/ai/articles/semperis-secures-imda-accreditation-strengthen-130000867.html",
@@ -693,33 +1611,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-10-12T13:12:34.284905-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Breakthrough at CXMT: HBM margins under threat? - XTB.com",
-      "vendor": "AI compute supply chain (compute)",
-      "url": "https://www.xtb.com/int/market-analysis/news-and-research/breakthrough-at-cxmt-hbm-margins-under-threat",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-12T13:12:33.387716-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "U.S. High Bandwidth Memory (HBM): Solving AI Bottlenecks - Kings Research",
-      "vendor": "AI compute supply chain (compute)",
-      "url": "https://www.kingsresearch.com/blog/us-high-bandwidth-memory-ai-infrastructure",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-12T13:12:32.505391-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "ZEISS strengthens advanced packaging portfolio with ZEISS NLX and ZEISS DUNE - The National Law Review",
-      "vendor": "AI compute supply chain (compute)",
-      "url": "https://natlawreview.com/press-releases/zeiss-strengthens-advanced-packaging-portfolio-zeiss-nlx-and-zeiss-dune",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-12T13:12:31.609227-05:00"
     },
     {
       "kind": "vendor-news",
@@ -1083,33 +1974,6 @@
     },
     {
       "kind": "vendor-news",
-      "name": "Inertia: The Historical Logic and Realistic Power of AI-Generated Short Dramas - 36 Kr",
-      "vendor": "eu.36kr.com",
-      "url": "https://eu.36kr.com/en/p/4022324976670342",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-12T13:11:29.388997-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Against Agent AI \u0026 RSI: Yann LeCun’s Groundbreaking New Model Challenges All Current Mainstream AI Narratives - 36 Kr",
-      "vendor": "eu.36kr.com",
-      "url": "https://eu.36kr.com/en/p/4022383359465346",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-12T13:11:28.490499-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "36Kr Exclusive: ModCraft Secures Tens of Millions in Financing – Empowering AI to Understand Game Design Through Mod Technology - 36 Kr",
-      "vendor": "eu.36kr.com",
-      "url": "https://eu.36kr.com/en/p/4022737676259464",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-12T13:11:27.540948-05:00"
-    },
-    {
-      "kind": "vendor-news",
       "name": "Building AI-Ready Enterprises: New Initiatives to Drive AI Deployment at Scale and Strengthen Digital Resilience - PR Newswire",
       "vendor": "prnewswire.com",
       "url": "https://www.prnewswire.com/in/news-releases/building-ai-ready-enterprises-new-initiatives-to-drive-ai-deployment-at-scale-and-strengthen-digital-resilience-302779142.html",
@@ -1179,105 +2043,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-10-12T05:17:46.534137-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "AI Filed False Murder Tip to U.S. Police, Prompting Calls for Kill Switch - Seoul Economic Daily",
-      "vendor": "Seoul Economic Daily (compute)",
-      "url": "https://en.sedaily.com/international/2026/10/11/ai-filed-false-murder-tip-to-us-police-prompting-calls-for",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-12T05:17:45.307374-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "NAVER Cloud Teams With Vietnam's FPT on Asia AI Factory Push - Seoul Economic Daily",
-      "vendor": "Seoul Economic Daily (compute)",
-      "url": "https://en.sedaily.com/technology/2026/10/12/naver-cloud-teams-with-vietnams-fpt-on-asia-ai-factory-push",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-12T05:17:44.427946-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Amazon in Talks to Buy AI Chip Software Startup Decart for $7 Billion - Seoul Economic Daily",
-      "vendor": "Seoul Economic Daily (compute)",
-      "url": "https://en.sedaily.com/international/2026/10/12/amazon-in-talks-to-buy-ai-chip-software-startup-decart-for",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-12T05:17:43.58054-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Cash Cow ETFs Gain Ground in U.S. as AI Spending Squeezes Free Cash Flow - Seoul Economic Daily",
-      "vendor": "Seoul Economic Daily (compute)",
-      "url": "https://en.sedaily.com/finance/2026/10/11/cash-cow-etfs-gain-ground-in-us-as-ai-spending-squeezes",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-12T05:17:42.719845-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Korea to Ease Tax Audits for 2,559 AI Startups - Seoul Economic Daily",
-      "vendor": "Seoul Economic Daily (compute)",
-      "url": "https://en.sedaily.com/finance/2026/10/11/korea-to-ease-tax-audits-for-2559-ai-startups",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-12T05:17:41.861279-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "HudBay Minerals (HBM) Stock Drops Despite Market Gains: Important Facts to Note - Yahoo! Finance Canada",
-      "vendor": "AI compute supply chain (compute)",
-      "url": "https://ca.finance.yahoo.com/news/hudbay-minerals-hbm-stock-drops-211503382.html",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-12T05:17:40.545917-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "TSMC Taps GlobalFoundries for $2 Billion in U.S.-Made AI Chip Parts - Seoul Economic Daily",
-      "vendor": "AI compute supply chain (compute)",
-      "url": "https://en.sedaily.com/international/2026/10/12/tsmc-taps-globalfoundries-for-2-billion-in-us-made-ai-chip",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-12T05:17:39.689501-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "TSMC taps U.S. interposers to speed AI chip packaging shift, pressure Korea - CHOSUNBIZ - Chosunbiz",
-      "vendor": "AI compute supply chain (compute)",
-      "url": "https://biz.chosun.com/en/en-it/2026/10/12/2UG4HHY5SFBKRN77Q2KZ4OBE3A/",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-12T05:17:38.832008-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "SK Hynix Stock Price Forecast: Can HBM Growth Offset Cost Pressures as ASML Component Prices Rise 10%? - TradingKey",
-      "vendor": "AI compute supply chain (compute)",
-      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262210935-skhynix-asml-skhy-samsung-hbm-dram-tradingkey",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-12T05:17:37.969671-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "According to Taiwan media Commercial Times, TSMC's advanced packaging - Shanghai Metals Market",
-      "vendor": "AI compute supply chain (compute)",
-      "url": "https://news.metal.com/newscontent/104151392-tsmc-aims-to-start-advanced-packaging-production-in-the-us-in-h1-2028",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-12T05:17:37.105276-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Samsung could unseat SK Hynix as HBM leader in 2027 - digitimes",
-      "vendor": "AI compute supply chain (compute)",
-      "url": "https://www.digitimes.com/news/a20261012VL220/samsung-sk-hynix-hbm-hbm4-2027.html",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-12T05:17:36.242661-05:00"
     },
     {
       "kind": "vendor-news",
@@ -1587,96 +2352,6 @@
     },
     {
       "kind": "vendor-news",
-      "name": "Children's Robotics Company Launches Physics AI Model Platform, Set to Secure Over $30 Million Financing Round - 36 Kr",
-      "vendor": "eu.36kr.com",
-      "url": "https://eu.36kr.com/en/p/4020778032631937",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-12T05:16:41.789981-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "High-Profit 10,000+ Yuan Daily Internet Celebrity Career Is Quietly Replaced by Low-Cost AI That Costs Only 800 Yuan Per Month - 36 Kr",
-      "vendor": "eu.36kr.com",
-      "url": "https://eu.36kr.com/en/p/4022195567923336",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-12T05:16:40.915208-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "20 AI Giants Dragged into Patent War by Vicor | Latest Tech Intellectual Property Dispute News - 36 Kr",
-      "vendor": "eu.36kr.com",
-      "url": "https://eu.36kr.com/en/p/4020269063606151",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-12T05:16:40.031589-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Major AI Disaster Risk Within 6 Months: OpenAI \u0026 Anthropic Run Secret \"Apocalypse Second Day\" Simulations - 36 Kr",
-      "vendor": "eu.36kr.com",
-      "url": "https://eu.36kr.com/en/p/4022237879750785",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-12T05:16:39.143072-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Full-Length AI Drama in 5 Months: Leading Industry Giant’s Market Value Surges 11.6 Billion Yuan in Just 2 Days - 36 Kr",
-      "vendor": "eu.36kr.com",
-      "url": "https://eu.36kr.com/en/p/4022134834630535",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-12T05:16:38.269875-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "AI FOMO Epidemic: How the Hysteria Is Turning Enterprises and Employees Into Reluctant \"Actors\" - 36 Kr",
-      "vendor": "eu.36kr.com",
-      "url": "https://eu.36kr.com/en/p/4022104070361218",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-12T05:16:37.391816-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "New AI Short Drama Industry War: Tencent \u0026 Kuaishou's Two-Pronged Surprise Attack – Who Breaks ByteDance's Market Barriers? - 36 Kr",
-      "vendor": "eu.36kr.com",
-      "url": "https://eu.36kr.com/en/p/4020112743059330",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-12T05:16:36.514668-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Total Cumulative Financing Hits 4.3B Yuan: MemryX Lands 2.3B Yuan Series C to Lock China’s Largest AI Infra Funding Deal - 36 Kr",
-      "vendor": "eu.36kr.com",
-      "url": "https://eu.36kr.com/en/p/4022354331160454",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-12T05:16:35.648089-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "AI-Generated Unhinged Wealthy Family Short Dramas: Who’s Watching These Viral, Over-the-Top Stories? - 36 Kr",
-      "vendor": "eu.36kr.com",
-      "url": "https://eu.36kr.com/en/p/4022192123924354",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-12T05:16:34.771533-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Current status of AI applications in 98 enterprises: How far are we from large-scale implementation? - 36 Kr",
-      "vendor": "eu.36kr.com",
-      "url": "https://eu.36kr.com/en/p/4022136308649860",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-12T05:16:33.879771-05:00"
-    },
-    {
-      "kind": "vendor-news",
       "name": "China rolls out AI safety governance policies as autonomous agent risks mount globally - Myanmar International TV",
       "vendor": "myanmaritv.com",
       "url": "https://www.myanmaritv.com/news/china-rolls-out-ai-safety-governance-policies-autonomous-agent-risks-mount-globally",
@@ -1773,60 +2448,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-10-11T22:13:29.814192-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Samsung Memory Margins Top Nvidia as Profit Outlook Soars - Seoul Economic Daily",
-      "vendor": "Seoul Economic Daily (compute)",
-      "url": "https://en.sedaily.com/finance/2026/10/09/samsung-memory-margins-top-nvidia-as-profit-outlook-soars",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-11T22:13:28.623103-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "From AI Job Postings to No-Show Checks, Albailju Helps Small Businesses Hire - Seoul Economic Daily",
-      "vendor": "Seoul Economic Daily (compute)",
-      "url": "https://en.sedaily.com/finance/2026/10/12/from-ai-job-postings-to-no-show-checks-albailju-helps-small",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-11T22:13:27.782101-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Inha University Finds AI Can Learn Time Patterns Without Attention - Seoul Economic Daily",
-      "vendor": "Seoul Economic Daily (compute)",
-      "url": "https://en.sedaily.com/society/2026/10/12/inha-university-finds-ai-can-learn-time-patterns-without",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-11T22:13:26.92023-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Amazon in Talks to Buy AI Chip-Portability Startup Decart for $7 Billion - Seoul Economic Daily",
-      "vendor": "Seoul Economic Daily (compute)",
-      "url": "https://en.sedaily.com/international/2026/10/12/amazon-in-talks-to-buy-ai-chip-portability-startup-decart",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-11T22:13:26.047646-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "SKKU President: AI Replaces Knowledge Transfer, Universities Must Build Critical Minds - Seoul Economic Daily",
-      "vendor": "Seoul Economic Daily (compute)",
-      "url": "https://en.sedaily.com/society/2026/10/11/skku-president-ai-replaces-knowledge-transfer-universities",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-11T22:13:25.181779-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "SK Chief Urges Faster Chip Fab Buildout as Micron, CXMT Close In - Seoul Economic Daily",
-      "vendor": "Seoul Economic Daily (compute)",
-      "url": "https://en.sedaily.com/finance/2026/10/12/sk-chief-urges-faster-chip-fab-buildout-as-micron-cxmt",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-11T22:13:24.340074-05:00"
     },
     {
       "kind": "vendor-news",
@@ -2169,15 +2790,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-10-11T13:13:46.978393-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Korea Picks 103 AI Tools for Startup Program, Applications Open on the 16th - Seoul Economic Daily",
-      "vendor": "Seoul Economic Daily (compute)",
-      "url": "https://en.sedaily.com/technology/2026/10/11/korea-picks-103-ai-tools-for-startup-program-applications",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-11T13:13:45.682905-05:00"
     },
     {
       "kind": "vendor-news",
@@ -3459,33 +4071,6 @@
     },
     {
       "kind": "vendor-news",
-      "name": "HCLTech eyes big play in AI-native networks, sovereign tech and enterprise modernisation - ET CIO",
-      "vendor": "cio.economictimes.indiatimes.com",
-      "url": "https://cio.economictimes.indiatimes.com/amp/news/artificial-intelligence/hcltech-eyes-big-play-in-ai-native-networks-sovereign-tech-and-enterprise-modernisation/134832558",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-10T05:17:21.044655-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Falling AI costs, rising usage could drive enterprise AI spending higher - ET CIO",
-      "vendor": "cio.economictimes.indiatimes.com",
-      "url": "https://cio.economictimes.indiatimes.com/news/artificial-intelligence/falling-ai-costs-rising-usage-could-drive-enterprise-ai-spending-higher/134817033",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-10T05:17:20.149763-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "From copilots to AI agents: Indian banks begin testing the next layer of automation - Agentic Banking - ET CIO",
-      "vendor": "cio.economictimes.indiatimes.com",
-      "url": "https://cio.economictimes.indiatimes.com/news/corporate-news/from-copilots-to-ai-agents-indian-banks-begin-testing-the-next-layer-of-automation-agentic-banking/134832136",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-10T05:17:19.264493-05:00"
-    },
-    {
-      "kind": "vendor-news",
       "name": "Kore.ai launches Autoloop to optimise enterprise AI agents - IT Brief Australia",
       "vendor": "itbrief.com.au",
       "url": "https://itbrief.com.au/story/kore-ai-launches-autoloop-to-optimise-enterprise-ai-agents",
@@ -4266,24 +4851,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-10-09T05:17:12.5417-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "InfoQ to host panel on AI in production challenges - TechGig",
-      "vendor": "techgig.com",
-      "url": "https://techgig.com/news/ai/infoq-to-host-panel-on-ai-in-production-challenges/134777013",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-09T05:17:10.772763-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Manifest Cuts AI Agent Token Costs by 70 Percent - TechGig",
-      "vendor": "techgig.com",
-      "url": "https://techgig.com/news/ai/manifest-cuts-ai-agent-token-costs-by-70-percent/130876692?next=1",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-09T05:17:09.88905-05:00"
     },
     {
       "kind": "vendor-news",
@@ -5547,15 +6114,6 @@
     },
     {
       "kind": "vendor-news",
-      "name": "OutSystems opens Agent Experience to third-party AI agents - IT Brief Australia",
-      "vendor": "itbrief.com.au",
-      "url": "https://itbrief.com.au/story/outsystems-opens-agent-experience-to-third-party-ai-agents",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-07T22:35:07.960073-05:00"
-    },
-    {
-      "kind": "vendor-news",
       "name": "Jellyfish Advances Developer and Agent Productivity Insights for the AI-Native SDLC - SD Times",
       "vendor": "sdtimes.com",
       "url": "https://sdtimes.com/software-intelligence-platform/jellyfish-advances-developer-and-agent-productivity-insights-for-the-ai-native-sdlc/",
@@ -5670,33 +6228,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-10-07T22:34:41.861821-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Singapore issues AI risk-management guidelines for financial institutions - Xinhua",
-      "vendor": "english.news.cn",
-      "url": "https://english.news.cn/20261007/63e1c96515a6479f8b265c711352ef9c/c.html",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-07T22:34:40.498156-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Flash: Xi says China, U.S. can continue dialogue on AI, jointly prevent its abuse and misuse - Xinhua",
-      "vendor": "english.news.cn",
-      "url": "https://english.news.cn/20260925/ad9d37234f8346808781cffe56d7798b/c.html",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-07T22:34:39.633577-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "AI, automation highlighted at Spain's int'l foodtech fair - Xinhua",
-      "vendor": "english.news.cn",
-      "url": "https://english.news.cn/europe/20261008/7df676e866ba416e9a113047cc9b6f51/c.html",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-07T22:34:38.704967-05:00"
     },
     {
       "kind": "vendor-news",
@@ -5898,33 +6429,6 @@
     },
     {
       "kind": "vendor-news",
-      "name": "Soket AI Launches Loop, Open-Source Harness for Long-Running AI Agents - Analytics India Magazine",
-      "vendor": "analyticsindiamag.com",
-      "url": "https://analyticsindiamag.com/ai-features/soket-ai-launches-loop-open-source-harness-for-long-running-ai-agents",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-07T13:13:37.246462-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "AI Governance Cannot Be Solved by Blocking Models, Says Kimchi Core Contributor - Analytics India Magazine",
-      "vendor": "analyticsindiamag.com",
-      "url": "https://analyticsindiamag.com/ai-news/ai-governance-cannot-be-solved-by-blocking-models-says-kimchi-core-contributor",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-07T13:13:36.371252-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Mistral AI Takes on OpenAI, Anthropic With Its 1 Tn Parameter Model - Analytics India Magazine",
-      "vendor": "analyticsindiamag.com",
-      "url": "https://analyticsindiamag.com/ai-news/mistral-ai-takes-on-openai-anthropic-with-its-1-tn-parameter-model",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-07T13:13:35.499793-05:00"
-    },
-    {
-      "kind": "vendor-news",
       "name": "AI shifts Cybersecurity Awareness Month focus to visibility - TechDay US",
       "vendor": "techday.com",
       "url": "https://techday.com/story/ai-shifts-cybersecurity-awareness-month-focus-to-visibility",
@@ -6111,15 +6615,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-10-07T13:13:03.234882-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "African telecom regulators call for strong AI governance to mitigate risks - Xinhua",
-      "vendor": "english.news.cn",
-      "url": "https://english.news.cn/20261006/96daafa9f42e499ebf6ee83d53663eba/c.html",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-07T13:13:01.947122-05:00"
     },
     {
       "kind": "vendor-news",
@@ -6546,15 +7041,6 @@
     },
     {
       "kind": "vendor-news",
-      "name": "Paytm's Vijay Shekhar Sharma Offers Personal Cheques to Founders Building AI Models - Analytics India Magazine",
-      "vendor": "analyticsindiamag.com",
-      "url": "https://analyticsindiamag.com/ai-features/paytms-vijay-shekhar-sharma-offers-personal-cheques-to-founders-building-ai-models",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-07T05:13:52.989699-05:00"
-    },
-    {
-      "kind": "vendor-news",
       "name": "Testlio launches LeoSuccess, an AI Copilot for Test Orchestration - SD Times",
       "vendor": "sdtimes.com",
       "url": "https://sdtimes.com/test/testlio-launches-leosuccess-an-ai-copilot-for-test-orchestration/",
@@ -6915,15 +7401,6 @@
     },
     {
       "kind": "vendor-news",
-      "name": "Micron partners AI Singapore to boost AI literacy for 5,000 beneficiaries - The Business Times",
-      "vendor": "businesstimes.com.sg",
-      "url": "https://www.businesstimes.com.sg/lifestyle/micron-partners-ai-singapore-boost-ai-literacy-5000-beneficiaries",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-07T05:12:29.697949-05:00"
-    },
-    {
-      "kind": "vendor-news",
       "name": "FSI \u0026 AI Singapore Summit 2026 - CDOTrends",
       "vendor": "cdotrends.com",
       "url": "https://www.cdotrends.com/event/fsi-\u0026-ai-singapore-summit/2026/",
@@ -7185,15 +7662,6 @@
     },
     {
       "kind": "vendor-news",
-      "name": "Cyient Launches Intelligent Engineering Unit to Drive AI-led Growth - Analytics India Magazine",
-      "vendor": "analyticsindiamag.com",
-      "url": "https://analyticsindiamag.com/ai-news/cyient-launches-intelligent-engineering-unit-to-drive-ai-led-growth",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-06T13:12:48.524276-05:00"
-    },
-    {
-      "kind": "vendor-news",
       "name": "Mistral’s new AI tried to escape its test environment. In three weeks, anyone can download it - The New Stack",
       "vendor": "thenewstack.io",
       "url": "https://thenewstack.io/mistral-large-4-weights/",
@@ -7281,15 +7749,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-10-06T13:12:20.305026-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "US stocks: S\u0026P 500 hits intraday record high as AI rally continues - The Business Times",
-      "vendor": "businesstimes.com.sg",
-      "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/us-stocks-sp-500-hits-intraday-record-high-ai-rally-continues",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-06T13:12:16.24743-05:00"
     },
     {
       "kind": "vendor-news",
@@ -7506,24 +7965,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-10-06T05:10:47.051766-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "RBI Wants Banks to Scale AI. But Does It Have a Risk Blind Spot? - analyticsindiamag.com",
-      "vendor": "analyticsindiamag.com",
-      "url": "https://analyticsindiamag.com/ai-features/rbi-wants-banks-to-scale-ai-but-does-it-have-a-risk-blind-spot",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-06T05:10:45.714519-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Credgenics Launches Prix AI Voice Platform to Automate Enterprise Outcomes - analyticsindiamag.com",
-      "vendor": "analyticsindiamag.com",
-      "url": "https://analyticsindiamag.com/ai-news/credgenics-launches-prix-ai-voice-platform-to-automate-enterprise-outcomes",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-06T05:10:44.841001-05:00"
     },
     {
       "kind": "vendor-news",
@@ -7860,51 +8301,6 @@
     },
     {
       "kind": "vendor-news",
-      "name": "Stocks to watch: Far East Orchard, UltraGreen.ai, iX Biopharma - The Business Times",
-      "vendor": "businesstimes.com.sg",
-      "url": "https://www.businesstimes.com.sg/companies-markets/stocks-watch-far-east-orchard-ultragreen-ai-ix-biopharma",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-06T00:59:47.667708-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "McDonald’s hit with US class action alleging AI-powered menu price-fixing - The Straits Times",
-      "vendor": "straitstimes.com",
-      "url": "https://www.straitstimes.com/world/united-states/mcdonalds-hit-with-us-class-action-alleging-ai-powered-menu-price-fixing",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-06T00:59:45.546515-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Italy PM Meloni seeks EU trademark for her voice amid AI deepfake risks - The Straits Times",
-      "vendor": "straitstimes.com",
-      "url": "https://www.straitstimes.com/world/europe/italy-pm-meloni-seeks-eu-trademark-for-her-voice-amid-ai-deepfake-risks",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-06T00:59:44.653858-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "South Korea’s Lee Jae Myung says AI appears to have been used in bank hacks - The Straits Times",
-      "vendor": "straitstimes.com",
-      "url": "https://www.straitstimes.com/asia/east-asia/south-koreas-lee-says-ai-appears-to-have-been-used-in-bank-hacks",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-06T00:59:42.900167-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "How DBS is shaping Asia’s future as an AI-enabled bank with a heart - The Straits Times",
-      "vendor": "straitstimes.com",
-      "url": "https://www.straitstimes.com/business/how-dbs-is-shaping-asias-future-as-an-ai-enabled-bank-with-a-heart",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-06T00:59:42.009365-05:00"
-    },
-    {
-      "kind": "vendor-news",
       "name": "Reckless AI firms can't control models: whistleblower - 香港電台新聞網",
       "vendor": "news.rthk.hk",
       "url": "https://news.rthk.hk/rthk/en/component/k2/1872807-20261006.htm",
@@ -8082,15 +8478,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-10-06T00:59:16.1987-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Bill Gates Calls For Tougher Ai Safeguards And Government Oversight - Computing UK",
-      "vendor": "computing.co.uk",
-      "url": "https://www.computing.co.uk/tag/undefined/news/2026/ai/bill-gates-calls-for-tougher-ai-safeguards-and-government-oversight",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-06T00:59:15.320333-05:00"
     },
     {
       "kind": "vendor-news",
@@ -8616,15 +9003,6 @@
     },
     {
       "kind": "vendor-news",
-      "name": "Huawei and Qualcomm sign landmark patent license agreement covering 5G, AI, and computing - China Daily",
-      "vendor": "chinadaily.com.cn",
-      "url": "https://www.chinadaily.com.cn/a/202610/05/WS6ac387bae4b06d4aa056167c.html",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-05T13:12:52.489862-05:00"
-    },
-    {
-      "kind": "vendor-news",
       "name": "Science and tech institutes see record applicants amid growing demand for AI, chips majors - The Korea Herald",
       "vendor": "koreaherald.com",
       "url": "https://www.koreaherald.com/article/10893400",
@@ -8910,15 +9288,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-10-05T05:10:05.272313-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "OpenAI’s Altman says AI benefits warrant accepting some risks - The Straits Times",
-      "vendor": "straitstimes.com",
-      "url": "https://www.straitstimes.com/world/united-states/openais-altman-says-ai-benefits-warrant-accepting-some-risks",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-05T05:09:57.904596-05:00"
     },
     {
       "kind": "vendor-news",
@@ -9279,15 +9648,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-10-04T16:31:41.214144-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Corporate Profit Margin Hits Record on Semiconductor Strength - Businesskorea",
-      "vendor": "BusinessKorea (compute)",
-      "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=276538",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-04T16:31:40.332039-05:00"
     },
     {
       "kind": "vendor-news",
@@ -10677,24 +11037,6 @@
     },
     {
       "kind": "vendor-news",
-      "name": "China turns to 3D packaging to push AI performance beyond front-end scaling limits - digitimes",
-      "vendor": "DigiTimes (compute)",
-      "url": "https://www.digitimes.com/news/a20261002VL206/performance-3d-packaging-packaging-manufacturing-transistor.html",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-03T00:50:18.51208-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "SiC substrate market shows signs of recovery, driven by demand from vehicles, energy and AI infrastructure - digitimes",
-      "vendor": "DigiTimes (compute)",
-      "url": "https://www.digitimes.com/news/a20260929RS400.html",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-03T00:50:17.649201-05:00"
-    },
-    {
-      "kind": "vendor-news",
       "name": "Base44 Unveils AI Platform to Transform Application Development - DevOps.com",
       "vendor": "devops.com",
       "url": "https://devops.com/base44-unveils-ai-platform-to-transform-application-development/",
@@ -10836,78 +11178,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-10-02T21:12:40.062613-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "MongoDB Launches Atlas Agent Engine for Production AI Agents - thelec.net",
-      "vendor": "TheElec (compute)",
-      "url": "https://www.thelec.net/news/articleView.html?idxno\\u003d14365",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-02T21:12:39.191625-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "BI Matrix Registers Trinity AI Agent for DB Analysis on Korea Procurement Platform - thelec.net",
-      "vendor": "TheElec (compute)",
-      "url": "https://www.thelec.net/news/articleView.html?idxno\\u003d14319",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-02T21:12:38.343095-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "​Korea’s Semiconductor IP Industry Starts Benefiting From On-Device AI Project - thelec.net",
-      "vendor": "TheElec (compute)",
-      "url": "https://www.thelec.net/news/articleView.html?idxno\\u003d14396",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-02T21:12:37.474219-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Saltware Launches Sapie-ADP AI Data Platform - thelec.net",
-      "vendor": "TheElec (compute)",
-      "url": "https://www.thelec.net/news/articleView.html?idxno\\u003d14318",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-02T21:12:36.611094-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Mikelorobotics Bets on Physical AI With Robots That Mimic Skilled Painters - thelec.net",
-      "vendor": "TheElec (compute)",
-      "url": "https://www.thelec.net/news/articleView.html?idxno\\u003d14391",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-02T21:12:35.746464-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "South Korea Keeps Sovereign AI Project, Consolidates Data Budget - thelec.net",
-      "vendor": "TheElec (compute)",
-      "url": "https://www.thelec.net/news/articleView.html?idxno\\u003d14393",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-02T21:12:34.895405-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Korea Passes Three AI and Data Bills, Opening Opportunities for Samsung SDS and LG CNS - thelec.net",
-      "vendor": "TheElec (compute)",
-      "url": "https://www.thelec.net/news/articleView.html?idxno\\u003d14367",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-02T21:12:34.003155-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "LG CNS, General Atlantic to Co-Invest in Software and AI Companies - thelec.net",
-      "vendor": "TheElec (compute)",
-      "url": "https://www.thelec.net/news/articleView.html?idxno\\u003d14360",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-02T21:12:33.13663-05:00"
     },
     {
       "kind": "vendor-news",
@@ -11577,24 +11847,6 @@
     },
     {
       "kind": "vendor-news",
-      "name": "Behind CoWoS (part 1)—How a 0% yield crisis led to TSMC's first advanced packaging win - digitimes",
-      "vendor": "DigiTimes (compute)",
-      "url": "https://www.digitimes.com/news/a20260924PD236.html",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-02T03:14:08.817554-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Semifive to Design AI Chip for Daedong’s Agricultural Robots - thelec.net",
-      "vendor": "TheElec (compute)",
-      "url": "https://www.thelec.net/news/articleView.html?idxno\\u003d14356",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-02T03:13:52.423652-05:00"
-    },
-    {
-      "kind": "vendor-news",
       "name": "AI's Value Story Sharpens as Organizations Gain Confidence in Governance, Accountability and Workforce Adoption - kpmg.com",
       "vendor": "Big Four on AI (accounting)",
       "url": "https://kpmg.com/us/en/media/news/q3-ai-pulse-2026.html",
@@ -11610,15 +11862,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-10-02T03:13:24.768068-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Opacity, Not Billing, Is the Real AI Risk Under Circular 230 - CPA Practice Advisor",
-      "vendor": "CPA Practice Advisor (accounting)",
-      "url": "https://www.cpapracticeadvisor.com/2026/09/19/opacity-not-billing-is-the-real-ai-risk-under-circular-230/190326/",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-02T03:13:23.911539-05:00"
     },
     {
       "kind": "vendor-news",
@@ -11736,24 +11979,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-10-02T03:12:29.529284-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Adronite Unveils AI Coding Tool Based on Embedded Context Engine - DevOps.com",
-      "vendor": "devops.com",
-      "url": "https://devops.com/adronite-unveils-ai-coding-tool-based-on-embedded-context-engine/",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-02T03:12:28.162994-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Tricentis Preps Wave of Additional AI Testing Capabilities - DevOps.com - DevOps.com",
-      "vendor": "devops.com",
-      "url": "https://devops.com/tricentis-preps-wave-of-additional-ai-testing-capabilities/",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-02T03:12:27.295776-05:00"
     },
     {
       "kind": "vendor-news",
@@ -12396,33 +12621,6 @@
     },
     {
       "kind": "vendor-news",
-      "name": "Broadcom Adds AI Agent Runtime to Tanzu PaaS Environment - DevOps.com",
-      "vendor": "devops.com",
-      "url": "https://devops.com/broadcom-adds-ai-agent-runtime-to-tanzu-paas-environment/",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-09-30T21:17:25.668801-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "AWS Benchmark Aims to Reduce Number of False Positives Found by AI Vulnerability Scanners - DevOps.com",
-      "vendor": "devops.com",
-      "url": "https://devops.com/aws-benchmark-aims-to-reduce-number-of-false-positives-found-by-ai-vulnerability-scanners/",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-09-30T21:17:24.773713-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Survey Surfaces Sharp Increase in Amount of Code Written by AI - DevOps.com",
-      "vendor": "devops.com",
-      "url": "https://devops.com/survey-surfaces-sharp-increase-in-amount-of-code-written-by-ai/",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-09-30T21:17:23.866923-05:00"
-    },
-    {
-      "kind": "vendor-news",
       "name": "Trump, Tech Giants Strike Voluntary AI Safety Accord - Dark Reading",
       "vendor": "darkreading.com",
       "url": "https://www.darkreading.com/cyber-risk/trump-tech-giants-strike-voluntary-ai-safety-accord",
@@ -12555,15 +12753,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-09-30T21:16:40.904063-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "AuditDashboard Links AI Agents to Live Engagement and PBC Data - CPA Practice Advisor",
-      "vendor": "CPA Practice Advisor (accounting)",
-      "url": "https://www.cpapracticeadvisor.com/2026/09/30/auditdashboard-links-ai-agents-to-live-engagement-and-pbc-data/190856/",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-09-30T15:11:16.077725-05:00"
     },
     {
       "kind": "vendor-news",
@@ -12765,24 +12954,6 @@
     },
     {
       "kind": "vendor-news",
-      "name": "MindBridge Launches New AI Capabilities for Finance and Audit - CPA Practice Advisor",
-      "vendor": "CPA Practice Advisor (accounting)",
-      "url": "https://www.cpapracticeadvisor.com/2026/09/30/mindbridge-launches-new-ai-capabilities-for-finance-and-audit/190850/",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-09-30T11:21:12.502383-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Accounting Seed Touts New ‘Reimagined Experience’ Built Around AI - CPA Practice Advisor",
-      "vendor": "CPA Practice Advisor (accounting)",
-      "url": "https://www.cpapracticeadvisor.com/2026/09/30/accounting-seed-touts-new-reimagined-experience-built-around-ai/190846/",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-09-30T11:21:11.64529-05:00"
-    },
-    {
-      "kind": "vendor-news",
       "name": "How Swiggy Is Using AI Agents To Take Commerce Beyond Its App - Inc42",
       "vendor": "inc42.com",
       "url": "https://inc42.com/buzz/how-swiggy-is-using-ai-agents-to-take-commerce-beyond-its-app/",
@@ -12816,15 +12987,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-09-30T11:21:00.427768-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Beyond Coding: Why AI Makes Systems Thinking More Important For Engineers - Inc42",
-      "vendor": "inc42.com",
-      "url": "https://inc42.com/buzz/beyond-coding-why-ai-makes-systems-thinking-more-important-for-engineers/",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-09-30T11:20:59.571844-05:00"
     },
     {
       "kind": "vendor-news",
@@ -13815,15 +13977,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-09-29T00:14:47.296405-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Deloitte Introduces ControlCatalyst.AI™, a New Suite of AI-Driven Solutions Designed to Enhance Quality and Efficiency in the End-to-End Internal Audit, SOX, and Risk and Controls Lifecycles - PR Newswire",
-      "vendor": "Big Four on AI (accounting)",
-      "url": "https://www.prnewswire.com/news-releases/deloitte-introduces-controlcatalystai-a-new-suite-of-ai-driven-solutions-designed-to-enhance-quality-and-efficiency-in-the-end-to-end-internal-audit-sox-and-risk-and-controls-lifecycles-302843175.html",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-09-29T00:14:46.444734-05:00"
     },
     {
       "kind": "vendor-news",
@@ -16185,15 +16338,6 @@
     },
     {
       "kind": "vendor-news",
-      "name": "‘You cannot hide from AI’: Should we fear AI-led performance reviews?",
-      "vendor": "Sifted",
-      "url": "https://sifted.eu/articles/alan-chang-fuse-ai-reviews/",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-09-23T06:15:42.245981-05:00"
-    },
-    {
-      "kind": "vendor-news",
       "name": "Dario Amodei wants to slow AI. China isn’t taking orders",
       "vendor": "Rest of World",
       "url": "https://restofworld.org/2026/china-rejects-dario-amodei-anthropic-ai-slowdown-trump-xi/?utm_source=rss\u0026utm_medium=rss\u0026utm_campaign=feeds",
@@ -16236,15 +16380,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-09-23T00:16:51.607198-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "From one of Europe’s biggest fintech exits to bootstrapping an AI startup: ‘There’s no limitation’",
-      "vendor": "Sifted",
-      "url": "https://sifted.eu/articles/tink-founders-launch-freda/",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-09-23T00:14:40.818693-05:00"
     },
     {
       "kind": "vendor-news",
@@ -25158,15 +25293,6 @@
     },
     {
       "kind": "vendor-news",
-      "name": "KAIST student entrepreneur donates 1 billion won for inclusive AI development - 동아사이언스",
-      "vendor": "dongascience.com",
-      "url": "https://www.dongascience.com/en/news/76758",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-08-21T14:23:53.744264-05:00"
-    },
-    {
-      "kind": "vendor-news",
       "name": "KAIST Unveils AI College Vision to Cultivate Industry-Ready Talent - Seoul Economic Daily",
       "vendor": "en.sedaily.com",
       "url": "https://en.sedaily.com/technology/2026/06/01/kaist-launches-ai-college-plans-specialized-curriculum-and",
@@ -28083,9 +28209,9 @@
     },
     {
       "kind": "paper",
-      "name": "Observation-Grounded Self-Predictive Reinforcement Learning for Visual Continuous Control",
+      "name": "TaskSense: Focusing on What Matters in World Models",
       "vendor": "DeepMind",
-      "url": "http://arxiv.org/abs/2608.05989v1",
+      "url": "http://arxiv.org/abs/2608.06544v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T14:15:35.483744-05:00"
@@ -28101,9 +28227,9 @@
     },
     {
       "kind": "paper",
-      "name": "TaskSense: Focusing on What Matters in World Models",
+      "name": "Observation-Grounded Self-Predictive Reinforcement Learning for Visual Continuous Control",
       "vendor": "DeepMind",
-      "url": "http://arxiv.org/abs/2608.06544v1",
+      "url": "http://arxiv.org/abs/2608.05989v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T14:15:35.483744-05:00"
@@ -28206,15 +28332,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-08-10T00:35:11.289596-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Bae Chung-sik vows to transform KAIST into global AI-driven innovation hub - CHOSUNBIZ - Chosunbiz",
-      "vendor": "biz.chosun.com",
-      "url": "https://biz.chosun.com/en/en-science/2026/08/10/V3WMFCGDRZEQ7EESJDD5RRWRTE/",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-08-10T00:35:09.456418-05:00"
     },
     {
       "kind": "vendor-news",
