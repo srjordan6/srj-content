@@ -1,230 +1,896 @@
 {
-  "generated": "2026-10-17T01:10:01Z",
+  "generated": "2026-10-17T07:05:59Z",
   "items": [
-    {
-      "kind": "vendor-news",
-      "name": "The PostgreSQL Global Development Group delays the general availability of PostgreSQL 19 after LLM-assisted code reviews uncovered architectural defects (Lindsay Clark/The Register)",
-      "vendor": null,
-      "url": "https://www.techmeme.com/261016/p17#a261016p17",
-      "summary": null,
-      "source": "news-benchmark",
-      "discovered_at": "2026-10-16T19:52:00.810606-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Sources: SoftBank weighs buying US security services giant Allied Universal at an ~$18B equity valuation, as Masayoshi Son explores deploying AI-powered robots (Bloomberg)",
-      "vendor": null,
-      "url": "https://www.techmeme.com/261016/p19#a261016p19",
-      "summary": null,
-      "source": "news-benchmark",
-      "discovered_at": "2026-10-16T19:52:00.808452-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Anthropic says Claude traced NIST's ECDSA curve seeds to a pseudorandom number generator, challenging decades-old suspicions of an NSA backdoor in the algorithm (Anthropic)",
-      "vendor": null,
-      "url": "https://www.techmeme.com/261016/p20#a261016p20",
-      "summary": null,
-      "source": "news-benchmark",
-      "discovered_at": "2026-10-16T19:52:00.806771-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Filings: Meta reduced its $65M midterms budget by $25M through refunds, primarily from a super PAC it launched in 2025 with $45M to fight state AI bills (Theodore Schleifer/New York Times)",
-      "vendor": null,
-      "url": "https://www.techmeme.com/261016/p21#a261016p21",
-      "summary": null,
-      "source": "news-benchmark",
-      "discovered_at": "2026-10-16T19:52:00.804867-05:00"
-    },
     {
       "kind": "vendor-news",
       "name": "CEO Amjad Masad says Replit is no longer working with Anthropic, citing cost and saying \"ChatGPT is better now\"; source: the partnership is still in place (TechCrunch)",
       "vendor": null,
-      "url": "https://www.techmeme.com/261016/p24#a261016p24",
+      "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
       "summary": null,
       "source": "news-benchmark",
-      "discovered_at": "2026-10-16T19:52:00.802747-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Sources: Anthropic pitched its own AI safety bill to US lawmakers; the bill would limit the circumstances in which the government could block a model's release (Owen Dahlkamp/Politico)",
-      "vendor": null,
-      "url": "https://www.techmeme.com/261016/p25#a261016p25",
-      "summary": null,
-      "source": "news-benchmark",
-      "discovered_at": "2026-10-16T19:52:00.800659-05:00"
+      "discovered_at": "2026-10-17T01:46:32.70928-05:00"
     },
     {
       "kind": "vendor-news",
       "name": "Apple updates App Review Guidelines to crack down on AI nudify apps and apps that reveal undocumented capabilities, like nudification, after app review (Marcus Mendes/9to5Mac)",
       "vendor": null,
-      "url": "https://www.techmeme.com/261016/p26#a261016p26",
+      "url": "https://9to5mac.com/2026/10/16/apples-new-app-store-rules-crack-down-on-ai-nudification-and-bait-and-switch-apps/",
       "summary": null,
       "source": "news-benchmark",
-      "discovered_at": "2026-10-16T19:52:00.798661-05:00"
+      "discovered_at": "2026-10-17T01:46:32.692546-05:00"
     },
     {
       "kind": "vendor-news",
-      "name": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+      "name": "Sources: Anthropic is offering Blackstone a 10%+ yield to help finance Anthropic's $60B debt package to buy Google TPUs; Blackstone would invest $9B in the debt (Financial Times)",
       "vendor": null,
-      "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+      "url": "https://www.ft.com/content/cb4034e1-475f-40b9-a5f9-256e91aacb89",
       "summary": null,
       "source": "news-benchmark",
-      "discovered_at": "2026-10-16T19:52:00.789837-05:00"
+      "discovered_at": "2026-10-17T01:46:32.676421-05:00"
     },
     {
       "kind": "vendor-news",
-      "name": "Anthropic assigned highest junk credit rating in June",
+      "name": "Anthropic report on how AI is changing employment at the startup: decline of entry-level technical hiring, productivity boom across departments, and more (Anthropic)",
       "vendor": null,
-      "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
+      "url": "https://www.anthropic.com/research/employment-at-anthropic",
       "summary": null,
       "source": "news-benchmark",
-      "discovered_at": "2026-10-16T19:52:00.78801-05:00"
+      "discovered_at": "2026-10-17T01:46:32.667015-05:00"
     },
     {
       "kind": "vendor-news",
-      "name": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+      "name": "Workday agrees to acquire C1.ai, formerly known as ConductorOne, which develops enterprise software to manage human and AI agent identities and has raised $111M (Malia Spencer/Portland Business Journal)",
       "vendor": null,
-      "url": "https://github.com/cobanov/PS5LM",
+      "url": "https://www.bizjournals.com/portland/news/2026/10/13/c1-workday-acquisition.html?page=all",
       "summary": null,
       "source": "news-benchmark",
-      "discovered_at": "2026-10-16T19:52:00.786524-05:00"
+      "discovered_at": "2026-10-17T01:46:32.655925-05:00"
     },
     {
       "kind": "vendor-news",
-      "name": "Claude reveals ECDSA curve origins",
+      "name": "Mistlabs, which develops Ambi, an ambient AI app for iPhone, Apple Watch, and Mac that learns about users from conversations, raised a $26M pre-Series A (Duncan Riley/SiliconANGLE)",
       "vendor": null,
-      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "url": "https://siliconangle.com/2026/10/12/mistlabs-takes-its-ambi-ai-system-out-of-beta-on-apple-devices-with-26m-in-funding/",
       "summary": null,
       "source": "news-benchmark",
-      "discovered_at": "2026-10-16T19:52:00.784651-05:00"
+      "discovered_at": "2026-10-17T01:46:32.646123-05:00"
     },
     {
       "kind": "vendor-news",
-      "name": "How the Claude Code team does code review",
+      "name": "London-based Scarlet, which certifies AI and software for medical devices, raised a $50M Series B led by Headline to support its US and Asia-Pacific expansion (Cate Lawrence/Tech.eu)",
       "vendor": null,
-      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "url": "https://tech.eu/2026/10/12/scarlet-raises-50m-series-b-to-accelerate-ai-medical-device-certification/",
       "summary": null,
       "source": "news-benchmark",
-      "discovered_at": "2026-10-16T19:52:00.78151-05:00"
+      "discovered_at": "2026-10-17T01:46:32.636913-05:00"
     },
     {
       "kind": "vendor-news",
-      "name": "Orlando mother settles lawsuit with AI company over 14-year-old son’s suicide",
+      "name": "Reach Security, which develops AI-powered exposure management tools for securing enterprise systems, raised a $50M+ Series B led by Top Tier Capital Partners (FinTech Global)",
       "vendor": null,
-      "url": "https://www.clickorlando.com/news/local/2026/10/16/orlando-mother-settles-lawsuit-with-ai-company-over-14-year-old-sons-suicide/",
+      "url": "https://fintech.global/2026/10/15/reach-securitys-50m-bet-on-machine-speed-cyber-defence/",
       "summary": null,
       "source": "news-benchmark",
-      "discovered_at": "2026-10-16T19:52:00.777831-05:00"
+      "discovered_at": "2026-10-17T01:46:32.626778-05:00"
     },
     {
       "kind": "vendor-news",
-      "name": "Will AI-powered autonomous weapons obey the laws of war?",
+      "name": "A profile of Alexandr Wang, who sources say is \"an operator\", had \"all\" of Zuckerberg's support during Meta's AI revamp, and is being touted as his successor (Rafe Rosner-Uddin/Financial Times)",
       "vendor": null,
-      "url": "https://amp.dw.com/en/will-ai-powered-autonomous-weapons-obey-the-laws-of-war/video-79679932",
+      "url": "https://www.ft.com/content/7477e462-c899-4841-a5cf-c01706e23982?accessToken=zwAAAaFIyQ5dkc90d-RiyJlIQdOlz8AXBuI5gg.MEYCIQDunNb-ag1EE-tWY6MfhtnPpdpr1Yz6xf7d6aGMp351LgIhAMFU5tO6ZQsn6S5v-SjOZgS5Igb0J-QlFM0-o22bRyVU\u0026sharetype=gift\u0026token=1e1595e8-347b-4fb7-9ca6-635fe0e44468",
       "summary": null,
       "source": "news-benchmark",
-      "discovered_at": "2026-10-16T19:52:00.616449-05:00"
+      "discovered_at": "2026-10-17T01:46:32.617519-05:00"
     },
     {
       "kind": "vendor-news",
-      "name": "Securitizing AI Compute Without Repeating the Mistakes of 2008",
+      "name": "Designing more efficient quantum circuits with Claude",
       "vendor": null,
-      "url": "https://www.forbes.com/sites/paulocarvao/2026/10/16/wall-street-wants-to-securitize-ai-have-we-forgotten-2008/",
+      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
       "summary": null,
       "source": "news-benchmark",
-      "discovered_at": "2026-10-16T19:52:00.446459-05:00"
+      "discovered_at": "2026-10-17T01:46:32.589577-05:00"
     },
     {
       "kind": "vendor-news",
-      "name": "Fake AI-generated images are more convincing than ever. Are courts and police ready to combat them?",
+      "name": "AI is coming for every company, Nvidia boss says",
       "vendor": null,
-      "url": "https://www.ocregister.com/2026/10/16/fake-ai-generated-images-are-more-convincing-than-ever-are-courts-and-police-ready-to-combat-them/",
+      "url": "https://techxplore.com/news/2026-10-ai-company-nvidia-boss.html",
       "summary": null,
       "source": "news-benchmark",
-      "discovered_at": "2026-10-16T19:52:00.282478-05:00"
+      "discovered_at": "2026-10-17T01:46:31.419856-05:00"
     },
     {
       "kind": "vendor-news",
-      "name": "FDA clears use of AI tool designed to predict whether breast cancer will recur",
+      "name": "AI agents accessed Indian computer systems without authorization: Cybersecurity agency",
       "vendor": null,
-      "url": "https://www.livenowfox.com/news/fda-clears-use-ai-tool-designed-predict-whether-breast-cancer-will-recur",
+      "url": "https://aa.com.tr/en/asia-pacific/ai-agents-accessed-indian-computer-systems-without-authorization-cybersecurity-agency/4091600",
       "summary": null,
       "source": "news-benchmark",
-      "discovered_at": "2026-10-16T19:52:00.110982-05:00"
+      "discovered_at": "2026-10-17T01:46:31.088575-05:00"
     },
     {
       "kind": "vendor-news",
-      "name": "Banks are pulling back as AI's massive debt pile disconnects from economic reality",
+      "name": "Cisco Systems Heads 3 AI Infrastructure Stocks To Watch",
       "vendor": null,
-      "url": "https://www.axios.com/2026/10/16/wall-street-limit-ai-spending-debt",
+      "url": "https://finance.yahoo.com/technology/ai/articles/cisco-systems-heads-3-ai-032243210.html",
       "summary": null,
       "source": "news-benchmark",
-      "discovered_at": "2026-10-16T19:51:59.800388-05:00"
+      "discovered_at": "2026-10-17T01:46:30.918703-05:00"
     },
     {
       "kind": "vendor-news",
-      "name": "US tells election officials to be on guard against AI-powered tricks ahead of midterms",
+      "name": "The Blogs: Are You Afraid of AI?",
       "vendor": null,
-      "url": "https://www.reuters.com/legal/litigation/us-tells-election-officials-be-guard-against-ai-powered-tricks-ahead-midterms-2026-10-16/",
+      "url": "https://blogs.timesofisrael.com/are-you-afraid-of-ai/",
       "summary": null,
       "source": "news-benchmark",
-      "discovered_at": "2026-10-16T19:51:59.655199-05:00"
+      "discovered_at": "2026-10-17T01:46:30.747383-05:00"
     },
     {
       "kind": "vendor-news",
-      "name": "Jena Griswold outlines priorities: Trump lawsuits, AI, water rights",
+      "name": "AI-driven profits concentrated at top despite widespread global AI adoption",
       "vendor": null,
-      "url": "https://www.coloradopolitics.com/2026/10/16/jena-griswold-outlines-priorities-trump-lawsuits-ai-water-rights/",
+      "url": "https://www.aa.com.tr/en/economy/ai-driven-profits-concentrated-at-top-despite-widespread-global-ai-adoption/4091613",
       "summary": null,
       "source": "news-benchmark",
-      "discovered_at": "2026-10-16T19:51:59.193344-05:00"
+      "discovered_at": "2026-10-17T01:46:30.584795-05:00"
     },
     {
       "kind": "vendor-news",
-      "name": "Ukraine’s Attacks on Russian Data Centers Lay Bare a Global Risk to AI",
+      "name": "Recruiter shares tips as AI starts to impact the workforce and job search",
       "vendor": null,
-      "url": "https://www.cfr.org/articles/ukraines-attacks-on-russian-data-centers-lay-bare-a-global-risk-to-ai",
+      "url": "https://kstp.com/kstp-news/top-news/recruiter-shares-tips-as-ai-starts-to-impact-the-workforce-and-job-search/",
       "summary": null,
       "source": "news-benchmark",
-      "discovered_at": "2026-10-16T19:51:59.034584-05:00"
+      "discovered_at": "2026-10-17T01:46:30.405543-05:00"
     },
     {
       "kind": "vendor-news",
-      "name": "UC Santa Cruz hosts AI summit and hackathon events for SF Tech Week - UC Santa Cruz",
+      "name": "West Bloomfield residents raise concerns over AI prank",
       "vendor": null,
-      "url": "https://news.ucsc.edu/2026/10/uc-santa-cruz-2026-sf-tech-week/",
+      "url": "https://www.cbsnews.com/detroit/video/west-bloomfield-residents-raise-concerns-over-ai-prank/",
       "summary": null,
       "source": "news-benchmark",
-      "discovered_at": "2026-10-16T19:51:58.886284-05:00"
+      "discovered_at": "2026-10-17T01:46:30.066686-05:00"
     },
     {
       "kind": "vendor-news",
-      "name": "What happens if AI agents start speaking their own language?",
+      "name": "Did AI Workflow Push Just Shift Atlassian's (TEAM) Investment Narrative?",
       "vendor": null,
-      "url": "https://www.cnn.com/2026/10/16/tech/ai-speaking-own-language",
+      "url": "https://finance.yahoo.com/technology/ai/articles/did-ai-workflow-push-just-042325070.html",
       "summary": null,
       "source": "news-benchmark",
-      "discovered_at": "2026-10-16T19:51:58.746805-05:00"
+      "discovered_at": "2026-10-17T01:46:29.745838-05:00"
     },
     {
       "kind": "vendor-news",
-      "name": "Deleted AI Chats May Leave Clues Behind | Newswise",
+      "name": "Montana nonprofit uses AI to expand tech education",
       "vendor": null,
-      "url": "https://www.newswise.com/articles/deleted-ai-chats-may-leave-clues-behind",
+      "url": "https://nbcmontana.com/news/local/montana-nonprofit-uses-ai-to-expand-tech-education",
       "summary": null,
       "source": "news-benchmark",
-      "discovered_at": "2026-10-16T19:51:58.420431-05:00"
+      "discovered_at": "2026-10-17T01:46:29.588398-05:00"
     },
     {
       "kind": "vendor-news",
-      "name": "Rise in people using AI for mental health",
+      "name": "North Korea says it tested new torpedo system with AI capabilities",
       "vendor": null,
-      "url": "https://www.kfyrtv.com/video/2026/10/17/rise-people-using-ai-mental-health/",
+      "url": "https://www.bozemandailychronicle.com/wire/international/north-korea-says-it-tested-new-torpedo-system-with-ai-capabilities/article_21287a9d-4b31-50e3-88f0-92b6cb0e1e0e.html",
       "summary": null,
       "source": "news-benchmark",
-      "discovered_at": "2026-10-16T19:51:58.103307-05:00"
+      "discovered_at": "2026-10-17T01:46:29.421764-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "As AI Supercharges Hackers, Cybersecurity Stocks Split Into Platforms and Point Solutions",
+      "vendor": null,
+      "url": "https://finance.yahoo.com/technology/ai/articles/ai-supercharges-hackers-cybersecurity-stocks-042000800.html",
+      "summary": null,
+      "source": "news-benchmark",
+      "discovered_at": "2026-10-17T01:46:29.046331-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "As AI Supercharges Hackers, Cybersecurity Stocks Split Into Platforms and Point Solutions",
+      "vendor": null,
+      "url": "https://www.fool.com/investing/2026/10/17/as-ai-supercharges-hackers-cybersecurity-stocks-sp/",
+      "summary": null,
+      "source": "news-benchmark",
+      "discovered_at": "2026-10-17T01:46:28.888457-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "OpenAI discloses four more rogue incidents involving financial, medical, and government data",
+      "vendor": null,
+      "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
+      "summary": null,
+      "source": "news-benchmark",
+      "discovered_at": "2026-10-17T01:46:28.394634-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Inside a global AI company built in rapidly-growing India",
+      "vendor": null,
+      "url": "https://www.marketplace.org/story/2026/10/16/a-global-ai-health-company-built-in-rapidlygrowing-india",
+      "summary": null,
+      "source": "news-benchmark",
+      "discovered_at": "2026-10-17T01:46:28.220544-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Is the subscription era over? How AI agents are breaking SaaS monetization",
+      "vendor": null,
+      "url": "https://www.calcalistech.com/ctechnews/article/bjp7cpfv0",
+      "summary": null,
+      "source": "news-benchmark",
+      "discovered_at": "2026-10-17T01:46:27.732136-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Lower Taxes, Safer Streets, Stronger Border: President Trump’s Texas Record",
+      "vendor": "The White House (whitehouse.gov, primary source)",
+      "url": "https://www.whitehouse.gov/releases/2026/10/lower-taxes-safer-streets-stronger-border-president-trumps-texas-record/",
+      "summary": "Today, President Donald J. Trump returns to Texas with a record of results: historic tax relief, the most secure border in a generation, safer streets, and a surge of new private investment creating jobs across the Lone Star State.\n\nTax Relief for Texas Workers, Families, Seniors\n\nPresident Trump’s Working Families Tax Cuts is putting money back in Texans’ pockets.\n\nNo Tax on Overtime: Approximately one in four Texas workers no longer pay federal income taxes on qualifying overtime pay.\n\nNo Tax on Social Security: About four million Texas seniors benefit from the new senior deduction.\n\nBigger Refunds: Texas taxpayers saw average refunds of $4,344 — the second-highest in the nation.\n\nRural Health Investments: Texas secured about $281 million in first-year Rural Health Transformation Program funding.\n\nProtecting Jobs and Wages: The Working Families Tax Cuts safeguarded 547,000 Texas jobs, $107 billion in state GDP, and $51 billion in workers’ wages.\n\nSafer Streets Across Texas\n\nV",
+      "source": "whitehouse",
+      "discovered_at": "2026-10-17T01:45:48.005558-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "President Trump Presents National Medals of Science and National Medals of Technology and Innovation",
+      "vendor": "The White House (whitehouse.gov, primary source)",
+      "url": "https://www.whitehouse.gov/releases/2026/10/president-trump-presents-national-medals-of-science-and-national-medals-of-technology-and-innovation/",
+      "summary": "FOR IMMEDIATE RELEASE\n\nToday at the Science: A New Golden Age Summit, President Donald J. Trump presented National Medals of Science and National Medals of Technology and Innovation, our nation’s highest honors for exemplary achievement and leadership in science and technology, to six of America’s greatest living innovators.\n\nSince 1963, the President of the United States has bestowed the National Medal of Science on those deserving of special recognition for their outstanding contributions to science in service of the United States. Since it was first awarded in 1985, the National Medal of Technology and Innovation has recognized American innovators whose vision, intellect, creativity, and determination have strengthened America’s economy and improved our quality of life.\n\nPresident Trump is committed to restoring U.S. global scientific and technological leadership for a New Golden Age, from harnessing super intelligence for scientific discovery to ushering in a nuclear renaissa",
+      "source": "whitehouse",
+      "discovered_at": "2026-10-17T01:45:43.987486-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Remarks by Director Michael Kratsios at the Science: A New Golden Age Summit",
+      "vendor": "The White House (whitehouse.gov, primary source)",
+      "url": "https://www.whitehouse.gov/remarks/2026/10/remarks-by-director-michael-kratsios-at-the-science-a-new-golden-age-summit/",
+      "summary": "Remarks by Director Michael Kratsios at the Science: A New Golden Age Summit\n\nRemarks as prepared for delivery\n\nOct. 8, 2026\n\nGood morning, and thank you all for being here. It has been so encouraging to see “Science: A New Golden Age” receive such a warm reception, and thrilling to see the enthusiasm with which leaders from across government, industry, philanthropy, and the academy are stepping forward to contribute to remaking the American science enterprise for the 21 st Century.\n\nThe American people depend on and deserve a science ecosystem that is bold and ambitious; a science enterprise that seeks to solve grand national challenges; and a science community that is unapologetic in its hope that fundamental discovery will enable new breakthroughs for the improvement of daily life. This summit is an opportunity to share such a vision for the future, and some of the small steps and giant leaps being taken to get there.\n\n“Science: A New Golden Age” was born of a three-fold tas",
+      "source": "whitehouse",
+      "discovered_at": "2026-10-17T01:45:43.976121-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "President Trump Returns to Arizona with a Record of Results: Tax Relief, Jobs, and Border Security",
+      "vendor": "The White House (whitehouse.gov, primary source)",
+      "url": "https://www.whitehouse.gov/releases/2026/10/president-trump-returns-to-arizona-with-a-record-of-results-tax-relief-jobs-and-border-security/",
+      "summary": "Today, President Donald J. Trump returns to the Grand Canyon State for a visit to Bullhead City. He arrives with a clear record of America First results that put Arizona workers, families, seniors, and communities first — delivering tax relief, unleashing major private investment, ending the Biden-era border crisis, driving down violent crime, and securing Arizona’s critical water resources.\n\nDelivering Tax Relief for Hardworking Arizonans\n\nPresident Trump’s Working Families Tax Cuts are delivering direct relief to Arizona workers, families, and seniors.\n\nNo Tax on Social Security: Approximately 1.3 million Arizona seniors benefit from the new senior deduction.\n\nBigger Refunds: Arizona taxpayers saw average refunds of $3,659 in 2026.\n\nRural Health Investments: Arizona secured $167 million in first-year Rural Health Transformation Program funding.\n\nProtecting Jobs and Wages: The Working Families Tax Cuts safeguarded 119,000 Arizona jobs, $22 billion in state GDP, and $11 billion i",
+      "source": "whitehouse",
+      "discovered_at": "2026-10-17T01:45:39.699929-05:00"
+    },
+    {
+      "kind": "press",
+      "name": "L'April présente avec un stand au Capitole du Libre - 14 et 15 novembre 2025 à Toulouse",
+      "vendor": "April",
+      "url": "https://www.april.org/l-april-presente-avec-un-stand-au-capitole-du-libre-14-et-15-novembre-2025-a-toulouse",
+      "summary": "L'April présente avec un stand au Capitole du Libre - 14 et 15 novembre 2025 à Toulouse | April User login Username: * Password: * Request new password L'association Ressources Nos positions Activités Thèmes Wiki Boutique Nous aider Home › L'April présente avec un stand au Capitole du Libre - 14 et 15 novembre 2025 à Toulouse Submitted by ivanni on 16 octobre, 2026 - 16:57 in Sensibilisation Conference Promotion Stand --\u003e Start: 14 Novembre 2026 - 09:30 End: 15 Novembre 2026 - 16:30 Illustration de Gee Le Capitole du Libre revient samedi 14 et dimanche 15 novembre 2026 dans les locaux de l'INP-N7 à Toulouse . Conférences, ateliers, village associatif : le programme est varié et s'adresse à toute personne, quel que soit son degré de connaissance de l'univers du logiciel libre et son implication au sein de celui-ci. L'évènement est ouvert à toutes et à tous sur inscription en ligne gratuite préalable obligatoire. Plus d'informations sur le site du Capitole du Libre . À cette occasion, l'",
+      "source": "press",
+      "discovered_at": "2026-10-17T01:45:15.286871-05:00"
+    },
+    {
+      "kind": "press",
+      "name": "DUOL Investors Have Opportunity to Lead Duolingo, Inc. Securities Fraud Lawsuit",
+      "vendor": "Duolingo",
+      "url": "https://www.prnewswire.com/news-releases/duol-investors-have-opportunity-to-lead-duolingo-inc-securities-fraud-lawsuit-302909179.html",
+      "summary": "DUOL Investors Have Opportunity to Lead Duolingo, Inc. Securities Fraud Lawsuit Accessibility Statement Skip Navigation Search Search When typing in this field, a list of search results will appear and be automatically updated as you type. Searching for your content... No results found. Please change your search terms and try again. NEW YORK , Oct. 14, 2026 /PRNewswire/ -- Why: Rosen Law Firm, a global investor rights law firm, announces a class action lawsuit on behalf of purchasers of Class A common stock of Duolingo, Inc. (NASDAQ: DUOL ) between May 2, 2025 to February 26, 2026, inclusive (the \"Class Period\"). A class action lawsuit has already been filed. If you wish to serve as lead plaintiff, you must move the Court no later than December 7, 2026. So What: If you purchased Duolingo Class A common stock during the Class Period you may be entitled to compensation without payment of any out of pocket fees or costs through a contingency fee arrangement. What to do next: To join the D",
+      "source": "press",
+      "discovered_at": "2026-10-17T01:45:15.286871-05:00"
+    },
+    {
+      "kind": "press",
+      "name": "Lewis \u0026 Ellis Builds Diversified Insurance Services Platform with Acquisition of Alan Gray",
+      "vendor": "ELLIS",
+      "url": "https://www.globenewswire.com/news-release/2026/10/14/3380740/0/en/lewis-ellis-builds-diversified-insurance-services-platform-with-acquisition-of-alan-gray.html",
+      "summary": "Third add-on acquisition since partnering with Novacap adds claims, litigation support and run-off expertise to Lewis \u0026 Ellis’s diversified insurance services platform Third add-on acquisition since partnering with Novacap adds claims, litigation support and run-off expertise to Lewis \u0026 Ellis’s",
+      "source": "press",
+      "discovered_at": "2026-10-17T01:45:15.286871-05:00"
+    },
+    {
+      "kind": "press",
+      "name": "Beong-Soo Kim Installed as the University of Southern California's 13th President",
+      "vendor": "California",
+      "url": "https://www.prnewswire.com/news-releases/beong-soo-kim-installed-as-the-university-of-southern-californias-13th-president-302910822.html",
+      "summary": "Beong-Soo Kim Installed as the University of Southern California's 13th President Accessibility Statement Skip Navigation Search Search When typing in this field, a list of search results will appear and be automatically updated as you type. Searching for your content... No results found. Please change your search terms and try again. Marking a new era for USC, President Kim announced plans for the university's first comprehensive redesign of its undergraduate general education program in decades LOS ANGELES , Oct. 16, 2026 /PRNewswire/ -- The University of Southern California installed Beong-Soo Kim as its 13th president today during a ceremony at its University Park campus, where he outlined an ambitious vision for USC to reinvigorate its educational programs, deepen its interdisciplinary research impact, and strengthen ties with industry and community partners. Addressing thousands of students, faculty, staff, alumni, and friends, Kim called on the Trojan community to build on USC's",
+      "source": "press",
+      "discovered_at": "2026-10-17T01:45:15.286871-05:00"
+    },
+    {
+      "kind": "press",
+      "name": "GOOG, GOOGL Stock Alert: Alphabet AI Issues and Subsequent 4% Stock Drop Trigger Securities Fraud Class Action for Investors",
+      "vendor": "Alphabet",
+      "url": "https://www.prnewswire.com/news-releases/goog-googl-stock-alert-alphabet-ai-issues-and-subsequent-4-stock-drop-trigger-securities-fraud-class-action-for-investors-302906001.html",
+      "summary": "GOOG, GOOGL Stock Alert: Alphabet AI Issues and Subsequent 4% Stock Drop Trigger Securities Fraud Class Action for Investors Accessibility Statement Skip Navigation Search Search When typing in this field, a list of search results will appear and be automatically updated as you type. Searching for your content... No results found. Please change your search terms and try again. Alphabet has been sued for securities fraud after its stock price fell 4% because Alphabet allegedly misrepresented the progress of development of its Gemini 3.5 Pro AI model. NEW YORK , Oct. 13, 2026 /PRNewswire/ -- Leading securities law firm Bleichmar Fonti \u0026 Auld LLP  announces that a class action lawsuit has been filed against Alphabet Inc. (NASDAQ: GOOG , GOOGL) and certain of the company's senior executives for securities fraud after a significant stock drop resulting from potential violations of the federal securities laws. If you invested in Alphabet, you are encouraged to obtain additional information b",
+      "source": "press",
+      "discovered_at": "2026-10-17T01:45:15.286871-05:00"
+    },
+    {
+      "kind": "press",
+      "name": "Ontinue Threat Intelligence Report Finds Nearly One-Third of Organizations Targeted by Fake IT Support Scams on Microsoft Teams",
+      "vendor": "Microsoft",
+      "url": "https://www.prnewswire.com/news-releases/ontinue-threat-intelligence-report-finds-nearly-one-third-of-organizations-targeted-by-fake-it-support-scams-on-microsoft-teams-302906391.html",
+      "summary": "Ontinue Threat Intelligence Report Finds Nearly One-Third of Organizations Targeted by Fake IT Support Scams on Microsoft Teams Accessibility Statement Skip Navigation Search Search When typing in this field, a list of search results will appear and be automatically updated as you type. Searching for your content... No results found. Please change your search terms and try again. 1H 2026 Research Reveals Growing Abuse of Trusted Identities, Collaboration Platforms, and Business Workflows as Attackers Scale Operations while Reducing the Cost of Attack ZÜRICH, Switzerland , Oct. 13, 2026 /PRNewswire/ -- Ontinue , a leading MXDR partner providing nonstop managed security operations through its Agentic SOC, today released its 1H 2026 Threat Intelligence Report  revealing that approximately 30% of monitored organizations experienced at least one fake IT support impersonation attempt through Microsoft Teams during the first half of 2026. The report also found that attackers are increasingly ",
+      "source": "press",
+      "discovered_at": "2026-10-17T01:45:15.286871-05:00"
+    },
+    {
+      "kind": "press",
+      "name": "DXC et LangChain stimulent les cadres de contrôle d'IA agentique pour les opérations informatiques critiques",
+      "vendor": "LangChain",
+      "url": "https://www.prnewswire.com/news-releases/dxc-et-langchain-stimulent-les-cadres-de-controle-dia-agentique-pour-les-operations-informatiques-critiques-302908177.html",
+      "summary": "DXC et LangChain stimulent les cadres de contrôle d'IA agentique pour les opérations informatiques critiques Accessibility Statement Skip Navigation Search Search When typing in this field, a list of search results will appear and be automatically updated as you type. Searching for your content... No results found. Please change your search terms and try again. Ce partenariat associe les décennies d'expérience de DXC dans l'exploitation de systèmes d'entreprise critiques à la technologie de LangChain pour la gestion sûre et sécurisée des cadres de contrôle d'agents IA Construit sur l'environnement d'exécution open-source LangGraph de LangChain, DXC OASIS est en cours de déploiement pour atteindre 125 environnements clients dans des secteurs réglementés et sur plusieurs zones géographiques. Sur 500 cas d'utilisation mesurés, OASIS a réduit le temps de résolution de 95 % en moyenne, avec une précision diagnostique de 92 % ou plus. ASHBURN, Virginie , 14 octobre 2026 /PRNewswire/ -- DXC T",
+      "source": "press",
+      "discovered_at": "2026-10-17T01:45:15.286871-05:00"
+    },
+    {
+      "kind": "press",
+      "name": "DXC und LangChain treiben die Entwicklung agentenbasierter KI-Lösungen für geschäftskritische IT-Abläufe voran",
+      "vendor": "LangChain",
+      "url": "https://www.prnewswire.com/news-releases/dxc-und-langchain-treiben-die-entwicklung-agentenbasierter-ki-losungen-fur-geschaftskritische-it-ablaufe-voran-302908169.html",
+      "summary": "DXC und LangChain treiben die Entwicklung agentenbasierter KI-Lösungen für geschäftskritische IT-Abläufe voran Accessibility Statement Skip Navigation Search Search When typing in this field, a list of search results will appear and be automatically updated as you type. Searching for your content... No results found. Please change your search terms and try again. Die Partnerschaft vereint die jahrzehntelange Erfahrung von DXC im Betrieb geschäftskritischer Unternehmenssysteme mit der Technologie von LangChain für die sichere und zuverlässige Verwaltung von KI-Agenten-Harnesses DXC OASIS, das auf der Open-Source-Laufzeitumgebung „LangGraph\" von LangChain basiert, wird derzeit auf 125 Kundenumgebungen in regulierten Branchen und verschiedenen Regionen ausgeweitet Bei 500 untersuchten Anwendungsfällen hat OASIS die Lösungszeit um durchschnittlich 95 % verkürzt, bei einer Diagnosegenauigkeit von 92 % oder mehr ASHBURN, Va. , 14. Oktober 2026 /PRNewswire/ -- DXC Technology (NYSE: DXC ), ein",
+      "source": "press",
+      "discovered_at": "2026-10-17T01:45:15.286871-05:00"
+    },
+    {
+      "kind": "press",
+      "name": "How PJ helps small businesses use OpenClaw",
+      "vendor": "OpenClaw",
+      "url": "https://openclaw.ai/blog/pj-small-business-openclaw/",
+      "summary": "How PJ helps small businesses use OpenClaw - OpenClaw Blog Watch ClawCast Episode 13: How to Use OpenClaw in Your Small Business PJ was educated as an engineer and spent much of his early career working at companies like Lockheed Martin. But at the beginning of 2026, he found himself working with his brother at a pest control company they both owned in Ocala, Florida. Late one night, PJ was doing what engineers do: looking around the internet for things to tinker with. He came across OpenClaw and immediately saw that this was something that needed more of his attention. So he dove deep. He bought a Mac mini and started getting OpenClaw set up, but he was leaving for vacation with his family and had promised his wife he would leave his tinkering at home. On the drive to Texas, he couldn’t stop thinking about OpenClaw. At a rest stop, he ordered a Mac Studio for in-store pickup. As soon as they arrived in San Antonio, they went to the Apple Store at La Cantera to pick it up. When he got ",
+      "source": "press",
+      "discovered_at": "2026-10-17T01:45:15.286871-05:00"
+    },
+    {
+      "kind": "press",
+      "name": "Private Endpoints: Bring Your Fine-Tuned Models and Capacity to OpenRouter",
+      "vendor": "OpenRouter",
+      "url": "https://openrouter.ai/blog/announcements/private-endpoints/",
+      "summary": "Private Endpoints: Route Your Own Model Deployments Through OpenRouter Private Endpoints: Bring Your Fine-Tuned Models and Capacity to OpenRouter Brian Thomas · 10/14/2026 What you can do with it What you can do with it Setting up an endpoint Managing endpoints from code Good to know Get started Today we’re launching Private Endpoints. OpenRouter already puts the public models your team uses behind one API. Now it can serve the deployments only your team has too. If you run a fine-tuned model, a dedicated deployment of a public model, or capacity you’ve reserved with a provider, you can route it through OpenRouter alongside everything else in the catalog. Your team keeps the API, model slug, and routing preferences they use today. Private endpoints are only visible within your organization. Private Endpoints is an add-on to the Enterprise plan. Ask your account representative to enable it for your organization, or talk to the team . What you can do with it Fine-tuned models and reserve",
+      "source": "press",
+      "discovered_at": "2026-10-17T01:45:15.286871-05:00"
+    },
+    {
+      "kind": "press",
+      "name": "SwitchBot and Nanoleaf Bring Comprehensive Support for Apple HomeView Across the Connected Home",
+      "vendor": "Apple",
+      "url": "https://www.prnewswire.com/news-releases/switchbot-and-nanoleaf-bring-comprehensive-support-for-apple-homeview-across-the-connected-home-302908681.html",
+      "summary": "SwitchBot and Nanoleaf Bring Comprehensive Support for Apple HomeView Across the Connected Home Accessibility Statement Skip Navigation Search Search When typing in this field, a list of search results will appear and be automatically updated as you type. Searching for your content... No results found. Please change your search terms and try again. TOKYO , Oct. 14, 2026 /PRNewswire/ -- Joining forces, SwitchBot and Nanoleaf today announced a dedicated smart home experience featuring compatible SwitchBot and Nanoleaf devices via Apple HomeView. The experience demonstrates how products from both brands can come together through Apple HomeView for more connected living, room by room. Continue Reading SwitchBot and Nanoleaf for Apple HomeView Through Apple HomeView, users can control compatible curtains, blinds, locks, lights, appliances, and other devices, check the status of their home, and create scenes that bring products from both brands into a single routine. With the introduction of",
+      "source": "press",
+      "discovered_at": "2026-10-17T01:45:15.286871-05:00"
+    },
+    {
+      "kind": "press",
+      "name": "ROKFORM Introduces iPhone Duo Rugged Case For Apple's First Foldable iPhone",
+      "vendor": "Apple",
+      "url": "https://www.prnewswire.com/news-releases/rokform-introduces-iphone-duo-rugged-case-for-apples-first-foldable-iphone-302910756.html",
+      "summary": "ROKFORM Introduces iPhone Duo Rugged Case For Apple's First Foldable iPhone Accessibility Statement Skip Navigation Search Search When typing in this field, a list of search results will appear and be automatically updated as you type. Searching for your content... No results found. Please change your search terms and try again. IRVINE, Calif. , Oct. 16, 2026 /PRNewswire/ -- ROKFORM today introduced the iPhone Duo Rugged Case for Apple's first foldable iPhone, featuring powerful MAGMAX™ magnets that deliver 2–3 times the magnetic holding power of standard cases and compatibility with ROKFORM's extensive twist-lock and magnetic mounting ecosystem. Continue Reading ROKFORM's iPhone Duo Rugged Case for Apple's first foldable iPhone features powerful MAGMAX™ magnets that deliver 2-3 times the magnetic holding power of standard cases and compatibility with ROKFORM's extensive twist-lock and magnetic mounting ecosystem. ROKFORM's iPhone Duo Rugged Case for Apple's first foldable iPhone featu",
+      "source": "press",
+      "discovered_at": "2026-10-17T01:45:15.286871-05:00"
+    },
+    {
+      "kind": "press",
+      "name": "Assemblée générale de l'April - conférences éclairs - April Camp",
+      "vendor": "April",
+      "url": "https://www.april.org/assemblee-generale-de-l-april-conferences-eclairs-april-camp",
+      "summary": "Assemblée générale de l'April - conférences éclairs - April Camp | April User login Username: * Password: * Request new password L'association Ressources Nos positions Activités Thèmes Wiki Boutique Nous aider Home › Assemblée générale de l'April - conférences éclairs - April Camp Submitted by fcouchet on 12 octobre, 2026 - 15:56 in L'association --\u003e Start: 27 Mars 2027 - 10:00 End: 27 Mars 2027 - 19:00 À votre agenda : La prochaine assemblée générale de l'April aura lieu samedi 27 mars 2027 de 14 h 00 à 18 h à Paris, avec diffusion vidéo. L'AG est réservée aux membres de l'April. Le matin, un temps de conférences éclairs est prévu, ouvert à toute personne. Et le dimanche 28 mars il y aura un April Camp, ouvert à toute personne. Les détails pratiques, programme, inscription seront annoncés début 2027. Assemblée générale de l'April L'assemblée générale de l'April aura lieu samedi 27 mars 2027 de 14 h 00 à 18 h à la Faculté des Sciences et Ingénierie, 4, place Jussieu 75005 Paris avec di",
+      "source": "press",
+      "discovered_at": "2026-10-17T01:45:15.286871-05:00"
+    },
+    {
+      "kind": "press",
+      "name": "Revue de presse de l’April pour la semaine 41 de l’année 2026",
+      "vendor": "April",
+      "url": "https://www.april.org/revue-de-presse-de-l-april-pour-la-semaine-41-de-l-annee-2026",
+      "summary": "Revue de presse de l’April pour la semaine 41 de l’année 2026 | April User login Username: * Password: * Request new password L'association Ressources Nos positions Activités Thèmes Wiki Boutique Nous aider Home › Revue de presse de l’April pour la semaine 41 de l’année 2026 Submitted by echarpentier on 12 octobre, 2026 - 13:56 in Le Logiciel Libre Article de presse --\u003e Cette revue de presse sur Internet fait partie du travail de veille mené par l’April dans le cadre de son action de défense et de promotion du logiciel libre . Les positions exposées dans les articles sont celles de leurs auteurs et ne rejoignent pas forcément celles de l’April. [clubic.com] Open source: le code vient d'Europe, mais les décisions se prennent ailleurs [Next] Dix ans après la loi République numérique, à «encourager» le logiciel libre n’a pas suffi [01net.] Submergé par l'IA, Google prend une décision radicale en matière de cybersécurité [clubic.com] Open source: le code vient d'Europe, mais les décisions ",
+      "source": "press",
+      "discovered_at": "2026-10-17T01:45:15.286871-05:00"
+    },
+    {
+      "kind": "press",
+      "name": "Revue de presse de l’April pour la semaine 40 de l’année 2026",
+      "vendor": "April",
+      "url": "https://www.april.org/revue-de-presse-de-l-april-pour-la-semaine-40-de-l-annee-2026",
+      "summary": "Revue de presse de l’April pour la semaine 40 de l’année 2026 | April User login Username: * Password: * Request new password L'association Ressources Nos positions Activités Thèmes Wiki Boutique Nous aider Home › Revue de presse de l’April pour la semaine 40 de l’année 2026 Submitted by echarpentier on 5 octobre, 2026 - 11:18 in Le Logiciel Libre Article de presse --\u003e Cette revue de presse sur Internet fait partie du travail de veille mené par l’April dans le cadre de son action de défense et de promotion du logiciel libre . Les positions exposées dans les articles sont celles de leurs auteurs et ne rejoignent pas forcément celles de l’April. [Silicon.fr] 15 outils open source à mettre dans sa toolbox IA [ZDNET] Libre et open source express: IA vs Adullact, iNaturalist, Atos, communs agricoles [ZDNET] 5 raisons pour lesquelles Linux va véritablement dominer l'avenir de l'informatique de bureau [Silicon.fr] 15 outils open source à mettre dans sa toolbox IA ✍ Clément Bohic, le mercredi ",
+      "source": "press",
+      "discovered_at": "2026-10-17T01:45:15.286871-05:00"
+    },
+    {
+      "kind": "press",
+      "name": "Bezpečnost založená na analýze dat pro Macao: CTM a Huawei spolupracují na posílení síťové bezpečnosti v éře umělé inteligence",
+      "vendor": "Huawei",
+      "url": "https://www.prnewswire.com/news-releases/bezpenost-zaloena-na-analyze-dat-pro-macao-ctm-a-huawei-spolupracuji-na-posileni-siove-bezpenosti-v-ee-umle-inteligence-302911332.html",
+      "summary": "Bezpečnost založená na analýze dat pro Macao: CTM a Huawei spolupracují na posílení síťové bezpečnosti v éře umělé inteligence Accessibility Statement Skip Navigation Search Search When typing in this field, a list of search results will appear and be automatically updated as you type. Searching for your content... No results found. Please change your search terms and try again. VÍDEŇ , 16. října 2026 /PRNewswire/ -- Na konferenci Network X 2026 přednesla společnost CTM úvodní projev o své bezpečné cílové síti, v němž zdůraznila své zintenzivněné úsilí o transformaci sítí z tradičních připojovacích kanálů na inteligentní, deterministickou a bezpečnou infrastrukturu, čímž urychluje digitální a inteligentní transformaci podniků v Macau. Continue Reading Hudson Lou, Head of Network Services and Development at CTM, delivering a keynote speech Vzhledem k přísným požadavkům umělé inteligence na vysokou spolehlivost a nízkou latenci si společnost CTM stanovila vizi „inteligentní, deterministi",
+      "source": "press",
+      "discovered_at": "2026-10-17T01:45:15.286871-05:00"
+    },
+    {
+      "kind": "press",
+      "name": "Bezpieczeństwo oparte na inteligentnych technologiach dla Makau: CTM i Huawei wspólnie wzmacniają bezpieczeństwo sieci w erze AI",
+      "vendor": "Huawei",
+      "url": "https://www.prnewswire.com/news-releases/bezpieczestwo-oparte-na-inteligentnych-technologiach-dla-makau-ctm-i-huawei-wspolnie-wzmacniaj-bezpieczestwo-sieci-w-erze-ai-302911632.html",
+      "summary": "Bezpieczeństwo oparte na inteligentnych technologiach dla Makau: CTM i Huawei wspólnie wzmacniają bezpieczeństwo sieci w erze AI Accessibility Statement Skip Navigation Search Search When typing in this field, a list of search results will appear and be automatically updated as you type. Searching for your content... No results found. Please change your search terms and try again. WIEDEŃ , 16 października 2026 r. /PRNewswire/ -- Podczas wydarzenia Network X 2026 CTM wygłosiła wystąpienie poświęcone swojej docelowej bezpiecznej sieci, przedstawiając działania na rzecz szybszego rozwoju sieci - od infrastruktury służącej wyłącznie do zapewniania łączności po inteligentną, przewidywalną i bezpieczną infrastrukturę. Ma to przyspieszyć cyfrową i inteligentną transformację przedsiębiorstw w Makau. Continue Reading Hudson Lou, Head of Network Services and Development at CTM, delivering a keynote speech Ze względu na rygorystyczne wymagania AI dotyczące wysokiej niezawodności i niskich opóźnie",
+      "source": "press",
+      "discovered_at": "2026-10-17T01:45:15.286871-05:00"
+    },
+    {
+      "kind": "press",
+      "name": "Riešenie NG WAN Huawei sa dostáva do rozsiahleho komerčného využitia - podpora rastu telekomunikačných operátorov",
+      "vendor": "Huawei",
+      "url": "https://www.prnewswire.com/news-releases/rieenie-ng-wan-huawei-sa-dostava-do-rozsiahleho-komerneho-vyuitia--podpora-rastu-telekomunikanych-operatorov-302910260.html",
+      "summary": "Riešenie NG WAN Huawei sa dostáva do rozsiahleho komerčného využitia - podpora rastu telekomunikačných operátorov Accessibility Statement Skip Navigation Search Search When typing in this field, a list of search results will appear and be automatically updated as you type. Searching for your content... No results found. Please change your search terms and try again. VIEDEŇ , 15. októbra 2026 /PRNewswire/ – 13. októbra na samite Net5.5G Intelligent IP Network počas konferencie UBBF 2026 predniesol John Cai, viceprezident pre produktový rad dátovej komunikácie spoločnosti Huawei, úvodný prejav, v ktorom zdôraznil, že AI predstavuje definitívnu príležitosť v neistej budúcnosti. Poznamenal, že rozsiahle nasadenie riešenia NG WAN znamená plnohodnotnú komercializáciu NG WAN. Ďalej uviedol, že spoločnosť Huawei dúfa v spoluprácu so zainteresovanými stranami v tomto odvetví s cieľom neustále posilňovať v ére AI bezpečný a odolný základ a podporovať spoločný rast. Continue Reading John Cai, Vic",
+      "source": "press",
+      "discovered_at": "2026-10-17T01:45:15.286871-05:00"
+    },
+    {
+      "kind": "press",
+      "name": "La soluzione NG WAN di Huawei entra in una fase di commercializzazione su larga scala per trainare la crescita degli operatori",
+      "vendor": "Huawei",
+      "url": "https://www.prnewswire.com/news-releases/la-soluzione-ng-wan-di-huawei-entra-in-una-fase-di-commercializzazione-su-larga-scala-per-trainare-la-crescita-degli-operatori-302910329.html",
+      "summary": "La soluzione NG WAN di Huawei entra in una fase di commercializzazione su larga scala per trainare la crescita degli operatori Accessibility Statement Skip Navigation Search Search When typing in this field, a list of search results will appear and be automatically updated as you type. Searching for your content... No results found. Please change your search terms and try again. VIENNA , 15 ottobre 2026 /PRNewswire/ -- Il 13 ottobre, al Net5.5G Intelligent IP Network Summit durante l'UBBF 2026, John Cai, vicepresidente della linea di prodotti di comunicazione dei dati di Huawei, ha tenuto un discorso di apertura, evidenziando l'IA come un'opportunità unica in un futuro incerto. Ha osservato che la diffusione capillare della soluzione NG WAN segna la commercializzazione su vasta scala di NG WAN. Ha affermato che Huawei auspica di collaborare con gli stakeholder del settore per rafforzare continuamente una base sicura e resiliente e trainare la crescita condivisa nell'era dell'IA. Contin",
+      "source": "press",
+      "discovered_at": "2026-10-17T01:45:15.286871-05:00"
+    },
+    {
+      "kind": "press",
+      "name": "Die NG-WAN-Lösung von Huawei wird in großem Umfang kommerziell eingesetzt, um das Wachstum der Netzbetreiber voranzutreiben",
+      "vendor": "Huawei",
+      "url": "https://www.prnewswire.com/news-releases/die-ng-wan-losung-von-huawei-wird-in-groWem-umfang-kommerziell-eingesetzt-um-das-wachstum-der-netzbetreiber-voranzutreiben-302909650.html",
+      "summary": "Die NG-WAN-Lösung von Huawei wird in großem Umfang kommerziell eingesetzt, um das Wachstum der Netzbetreiber voranzutreiben Accessibility Statement Skip Navigation Search Search When typing in this field, a list of search results will appear and be automatically updated as you type. Searching for your content... No results found. Please change your search terms and try again. WIEN , 15. Oktober 2026 /PRNewswire/ -- Am 13. Oktober hielt John Cai, Vice President der Produktlinie für Datenkommunikation bei Huawei, auf dem „Net5.5G Intelligent IP Network Summit\" im Rahmen der UBBF 2026 eine Grundsatzrede, in der er die künstliche Intelligenz (KI) als entscheidende Chance in einer ungewissen Zukunft hervorhob. Er wies darauf hin, dass der flächendeckende Einsatz der NG-WAN-Lösung den Beginn der umfassenden Kommerzialisierung von NG-WAN markiere. Er erklärte, Huawei hoffe auf eine Zusammenarbeit mit den Akteuren der Branche, um kontinuierlich eine sichere und widerstandsfähige Grundlage zu s",
+      "source": "press",
+      "discovered_at": "2026-10-17T01:45:15.286871-05:00"
+    },
+    {
+      "kind": "press",
+      "name": "Students to compete in Miss Troy University Oct. 15",
+      "vendor": "Troy University",
+      "url": "https://today.troy.edu/news/students-to-compete-in-miss-troy-university-oct-15/",
+      "summary": "Students to compete in Miss Troy University Oct. 15 - Troy Today Skip to content Nineteen students are competing for the title of \"Miss Troy University\" Nineteen Troy University students will compete for the title of Miss Troy University on Thursday, Oct. 15. The pageant will start at 6 p.m. in the Trojan Center Theater on the Troy Campus. Admission is $10. The winner will serve as the University’s ambassador and compete for the title of Miss Alabama. Candidates will be judged in five areas: a private interview, on-stage conversation, health and fitness, talent and evening gown. A live stream of the pageant will be available through TrojanVision. To purchase tickets in advance, visit  https://www.etix.com/ticket/p/59802392/miss-troy-university-troy-trojan-center-theater . Candidates in this year’s pageant are: Gracie Arnold, a sophomore communication arts major minoring in public relations and advertising from Wetumpka, Alabama. Her social impact platform is “Give Us a Stage,” and her ",
+      "source": "press",
+      "discovered_at": "2026-10-17T01:45:15.286871-05:00"
+    },
+    {
+      "kind": "press",
+      "name": "Sécurité axée sur le renseignement pour Macao : CTM et Huawei s'associent pour renforcer la sécurité des réseaux à l'ère de l'IA.",
+      "vendor": "Huawei",
+      "url": "https://www.prnewswire.com/news-releases/securite-axee-sur-le-renseignement-pour-macao--ctm-et-huawei-sassocient-pour-renforcer-la-securite-des-reseaux-a-lere-de-lia-302911331.html",
+      "summary": "Sécurité axée sur le renseignement pour Macao : CTM et Huawei s'associent pour renforcer la sécurité des réseaux à l'ère de l'IA. Accessibility Statement Skip Navigation Search Search When typing in this field, a list of search results will appear and be automatically updated as you type. Searching for your content... No results found. Please change your search terms and try again. VIENNE , 16 octobre 2026 /PRNewswire/ -- Lors du Network X 2026, CTM a fait un discours d'ouverture sur son réseau cible sécurisé, soulignant ses efforts accélérés pour faire évoluer les réseaux de simples canalisations de connectivité vers une infrastructure intelligente, déterministe et sécurisée, accélérant ainsi la transformation numérique et intelligente des entreprises à Macao. Continue Reading Hudson Lou, Head of Network Services and Development at CTM, delivering a keynote speech Motivée par les exigences strictes de haute fiabilité et de faible latence de l'IA, CTM a imaginé une infrastructure résea",
+      "source": "press",
+      "discovered_at": "2026-10-17T01:45:15.286871-05:00"
+    },
+    {
+      "kind": "press",
+      "name": "CTM y Huawei se asocian para reforzar la seguridad de la red en la era de la IA",
+      "vendor": "Huawei",
+      "url": "https://www.prnewswire.com/news-releases/ctm-y-huawei-se-asocian-para-reforzar-la-seguridad-de-la-red-en-la-era-de-la-ia-302911336.html",
+      "summary": "CTM y Huawei se asocian para reforzar la seguridad de la red en la era de la IA Accessibility Statement Skip Navigation Search Search When typing in this field, a list of search results will appear and be automatically updated as you type. Searching for your content... No results found. Please change your search terms and try again. - Seguridad basada en inteligencia para Macao: CTM y Huawei se asocian para reforzar la seguridad de la red en la era de la IA VIENA , 16 de octubre de 2026 /PRNewswire/ -- En Network X 2026, CTM pronunció un discurso principal sobre su red objetivo segura, destacando sus esfuerzos acelerados por transformar las redes que tradicionalmente funcionaban como simples canales de conectividad en una infraestructura inteligente, determinista y segura, impulsando así la transformación digital e inteligente de las empresas en Macao. Continue Reading Hudson Lou, Head of Network Services and Development at CTM, delivering a keynote speech Impulsada por los estrictos r",
+      "source": "press",
+      "discovered_at": "2026-10-17T01:45:15.286871-05:00"
+    },
+    {
+      "kind": "press",
+      "name": "La solución NG WAN de Huawei entra en fase de uso comercial a gran escala",
+      "vendor": "Huawei",
+      "url": "https://www.prnewswire.com/news-releases/la-solucion-ng-wan-de-huawei-entra-en-fase-de-uso-comercial-a-gran-escala-302909003.html",
+      "summary": "La solución NG WAN de Huawei entra en fase de uso comercial a gran escala Accessibility Statement Skip Navigation Search Search When typing in this field, a list of search results will appear and be automatically updated as you type. Searching for your content... No results found. Please change your search terms and try again. -La solución NG WAN de Huawei entra en fase de uso comercial a gran escala para impulsar el crecimiento de los operadores VIENA , 14 de octubre de 2026 /PRNewswire/ -- El 13 de octubre, durante la Cumbre de Redes IP Inteligentes Net5.5G en el marco de UBBF 2026, John Cai, vicepresidente de la línea de productos de comunicación de datos de Huawei, pronunció un discurso principal en el que destacó la IA como una oportunidad decisiva ante un futuro incierto. Señaló que el despliegue generalizado de la solución NG WAN marca el inicio de su comercialización a gran escala. Asimismo, afirmó que Huawei aspira a colaborar con los actores del sector para fortalecer continu",
+      "source": "press",
+      "discovered_at": "2026-10-17T01:45:15.286871-05:00"
+    },
+    {
+      "kind": "press",
+      "name": "Řešení NG WAN od Huawei se dostává do rozsáhlého komerčního využití a podporuje růst telekomunikačních operátorů",
+      "vendor": "Huawei",
+      "url": "https://www.prnewswire.com/news-releases/eeni-ng-wan-od-huawei-se-dostava-do-rozsahleho-komerniho-vyuiti-a-podporuje-rst-telekomunikanich-operator-302909007.html",
+      "summary": "Řešení NG WAN od Huawei se dostává do rozsáhlého komerčního využití a podporuje růst telekomunikačních operátorů Accessibility Statement Skip Navigation Search Search When typing in this field, a list of search results will appear and be automatically updated as you type. Searching for your content... No results found. Please change your search terms and try again. VÍDEŇ , 14. října 2026 /PRNewswire/ -- Dne 13. října přednesl John Cai, viceprezident produktové řady pro datovou komunikaci společnosti Huawei, na summitu Net5.5G Intelligent IP Network v rámci konference UBBF (zaměřené na ultraširokopásmové sítě, UBB) 2026 úvodní projev, ve kterém zdůraznil, že umělá inteligence představuje klíčovou příležitost v nejisté budoucnosti. Uvedl, že rozsáhlé nasazení řešení NG WAN (širokopásmová síť nové generace) znamená plnohodnotnou komercializaci této technologie. Prohlásil, že Huawei doufá ve spolupráci s dalšími účastníky odvětví, aby mohla neustále posilovat bezpečný a odolný základ a pod",
+      "source": "press",
+      "discovered_at": "2026-10-17T01:45:15.286871-05:00"
+    },
+    {
+      "kind": "press",
+      "name": "La solution de réseau étendu de nouvelle génération de Huawei entre dans une phase de commercialisation à grande échelle pour stimuler la croissance des opérateurs",
+      "vendor": "Huawei",
+      "url": "https://www.prnewswire.com/news-releases/la-solution-de-reseau-etendu-de-nouvelle-generation-de-huawei-entre-dans-une-phase-de-commercialisation-a-grande-echelle-pour-stimuler-la-croissance-des-operateurs-302909149.html",
+      "summary": "La solution de réseau étendu de nouvelle génération de Huawei entre dans une phase de commercialisation à grande échelle pour stimuler la croissance des opérateurs Accessibility Statement Skip Navigation Search Search When typing in this field, a list of search results will appear and be automatically updated as you type. Searching for your content... No results found. Please change your search terms and try again. VIENNE ,/PRNewswire/ -- Le 13 octobre, lors du sommet sur les réseaux IP intelligents Net5.5G organisé à l'occasion du forum 2026 de l'ultralarge bande, John Cai, vice-président de la ligne de produits de communication de données de Huawei, a prononcé une allocution soulignant les perspectives décisives ouvertes par l'IA dans un avenir incertain. Il a noté que le déploiement généralisé de la solution de réseau étendu de nouvelle génération en engageait la commercialisation à grande échelle. Il a déclaré que Huawei espérait collaborer avec les acteurs du secteur pour développ",
+      "source": "press",
+      "discovered_at": "2026-10-17T01:45:15.286871-05:00"
+    },
+    {
+      "kind": "press",
+      "name": "Bezpečnosť pre Macao s inteligentnou podporou: CTM a Huawei uzatvárajú partnerstvo s cieľom posilniť sieťovú bezpečnosť v ére AI",
+      "vendor": "Huawei",
+      "url": "https://www.prnewswire.com/news-releases/bezpenos-pre-macao-s-inteligentnou-podporou-ctm-a-huawei-uzatvaraju-partnerstvo-s-cieom-posilni-sieovu-bezpenos-v-ere-ai-302911492.html",
+      "summary": "Bezpečnosť pre Macao s inteligentnou podporou: CTM a Huawei uzatvárajú partnerstvo s cieľom posilniť sieťovú bezpečnosť v ére AI Accessibility Statement Skip Navigation Search Search When typing in this field, a list of search results will appear and be automatically updated as you type. Searching for your content... No results found. Please change your search terms and try again. VIEDEŇ , 16. október 2026 /PRNewswire/ – Na podujatí Network X 2026 predniesla spoločnosť CTM prejav o svojej bezpečnej cieľovej sieti, v ktorom zdôraznila urýchlenie svojho úsilia o vývoj sietí z tradičných konektívnych kanálov na inteligentnú, deterministickú a bezpečnú infraštruktúru s cieľom urýchliť digitálnu a inteligentnú transformáciu podnikov v Macau. Continue Reading Hudson Lou, Head of Network Services and Development at CTM, delivering a keynote speech Keďže požiadavky na vysokú spoľahlivosť a nízku latenciu AI sú prísne, spoločnosť CTM vytvorila predstavu o „inteligentnej, deterministickej a bezp",
+      "source": "press",
+      "discovered_at": "2026-10-17T01:45:15.286871-05:00"
+    },
+    {
+      "kind": "press",
+      "name": "Building the Data Infrastructure for Physical AI: Hesai Launches Kosmo 3D World Data Engine",
+      "vendor": "Hesai Group",
+      "url": "https://www.prnewswire.com/news-releases/building-the-data-infrastructure-for-physical-ai-hesai-launches-kosmo-3d-world-data-engine-302908956.html",
+      "summary": "Building the Data Infrastructure for Physical AI: Hesai Launches Kosmo 3D World Data Engine Accessibility Statement Skip Navigation Search Search When typing in this field, a list of search results will appear and be automatically updated as you type. Searching for your content... No results found. Please change your search terms and try again. SHANGHAI , Oct. 14, 2026 /PRNewswire/ -- Hesai Group (Nasdaq: HSAI ; HKEX: 2525) (\"Hesai\" or the \"Company\"), a Physical AI infrastructure company, today launched Kosmo, a 3D world data engine built to solve one of the most critical bottlenecks in Physical AI: access to high-quality real-world data at scale. Kosmo combines Kosmo One, the world's first AI spatial camera (1) , with the Kosmo World cloud platform to transform physical environments into high-fidelity 3D digital spaces for robot training, world model development and immersive content creation. At the launch event, Hesai also announced strategic partnerships with embodied AI companies ",
+      "source": "press",
+      "discovered_at": "2026-10-17T01:45:15.286871-05:00"
+    },
+    {
+      "kind": "press",
+      "name": "AI Helped Steal Thousands of Credentials in Under Six Hours. Former Google Security Leader Bryan Vuong Is Fighting Back",
+      "vendor": "Google",
+      "url": "https://www.prnewswire.com/news-releases/ai-helped-steal-thousands-of-credentials-in-under-six-hours-former-google-security-leader-bryan-vuong-is-fighting-back-302910676.html",
+      "summary": "AI Helped Steal Thousands of Credentials in Under Six Hours. Former Google Security Leader Bryan Vuong Is Fighting Back Accessibility Statement Skip Navigation Search Search When typing in this field, a list of search results will appear and be automatically updated as you type. Searching for your content... No results found. Please change your search terms and try again. As FBI figures show nearly $21 billion in U.S. internet- crime losses, Silicon Valley cybersecurity startup Cyfendo is using AI to help smaller businesses find software vulnerabilities, investigate real threats and prepare tested fixes for developer approval. MOUNTAIN VIEW, Calif. , Oct. 15, 2026 /PRNewswire/ -- The attacker did not need a team, just an AI coding agent, instructions and a set of tools. In less than six hours, a suspected cybercriminal used an AI-enabled framework to plan, build and run a mass credential-harvesting campaign from compromised cloud infrastructure. Thousands of third-party login credentia",
+      "source": "press",
+      "discovered_at": "2026-10-17T01:45:15.286871-05:00"
+    },
+    {
+      "kind": "press",
+      "name": "Man Group PLC : Form 8.3 - Gamma Communications Plc",
+      "vendor": "Gamma",
+      "url": "https://www.globenewswire.com/news-release/2026/10/16/3382457/0/en/man-group-plc-form-8-3-gamma-communications-plc.html",
+      "summary": "",
+      "source": "press",
+      "discovered_at": "2026-10-17T01:45:15.286871-05:00"
+    },
+    {
+      "kind": "press",
+      "name": "Man Group PLC : Form 8.3 - Gamma Communications Plc",
+      "vendor": "Gamma",
+      "url": "https://www.globenewswire.com/news-release/2026/10/15/3381444/0/en/man-group-plc-form-8-3-gamma-communications-plc.html",
+      "summary": "",
+      "source": "press",
+      "discovered_at": "2026-10-17T01:45:15.286871-05:00"
+    },
+    {
+      "kind": "press",
+      "name": "Gracen Murphy crowned Miss Troy University 2027",
+      "vendor": "Troy University",
+      "url": "https://today.troy.edu/news/gracen-murphy-crowned-miss-troy-university-2027/",
+      "summary": "Gracen Murphy crowned Miss Troy University 2027 - Troy Today Skip to content Gracen Murphy is a junior nursing major from Prattville, Alabama. Gracen Murphy, a junior nursing major from Prattville, Alabama, was crowned Miss Troy University 2027 during the 54th annual pageant on the Troy Campus. As Miss Troy University, Murphy earned a $7,500 scholarship, will serve as an ambassador for the University and will compete for the title of Miss Alabama in June. “This is so surreal. I competed my freshman year and knew I wanted to try again because I grew so much from the experience and I love TROY so much,” she said. “I’m excited to represent TROY well on the Miss Alabama stage, but just to be a representative of the student body for the next year is so exciting. I’m excited to see what new opportunities come my way!”  Her community service initiative, “The Village,” focuses on women’s health. Most recently, she and the Panhellenic Council organized care baskets to be delivered to 47 postpar",
+      "source": "press",
+      "discovered_at": "2026-10-17T01:45:15.286871-05:00"
+    },
+    {
+      "kind": "press",
+      "name": "Introducing DigitalOcean Insights: Built-in Observability for Your Agents, Applications, and Infrastructure",
+      "vendor": "DigitalOcean",
+      "url": "https://www.digitalocean.com/blog/introducing-insights",
+      "summary": "Introducing DigitalOcean Insights: Built-in Observability for Your Agents, Applications, and Infrastructure | DigitalOcean Log in Sign up © 2026 DigitalOcean, LLC. Sitemap . Product updates Introducing DigitalOcean Insights: Built-in Observability for Your Agents, Applications, and Infrastructure By Shridhar Pandey Updated: October 12, 2026 4 min read Back to blog home Coding agents have changed how fast teams ship, and more of the software they ship now includes agents. A production agent spans model calls, routing decisions, tools, and the infrastructure underneath. When an agent run slows down or fails, the cause could be anywhere in that chain, and the evidence is split across separate logs, metrics, traces, and consoles. Applications running on DigitalOcean Kubernetes (DOKS) or App Platform have the same problem: a spike in a metric sends teams searching through logs in another. Connecting those signals often means building and maintaining integrations themselves or instrumenting ",
+      "source": "press",
+      "discovered_at": "2026-10-17T01:45:15.286871-05:00"
+    },
+    {
+      "kind": "press",
+      "name": "Introducing DigitalOcean Agent Data Services: The Data Foundation for Agents",
+      "vendor": "DigitalOcean",
+      "url": "https://www.digitalocean.com/blog/introducing-agent-data-services",
+      "summary": "Introducing DigitalOcean Agent Data Services: The Data Foundation for Agents | DigitalOcean Log in Sign up © 2026 DigitalOcean, LLC. Sitemap . Product updates Introducing DigitalOcean Agent Data Services: The Data Foundation for Agents By DigitalOcean Published: October 12, 2026 5 min read Back to blog home Agents are only as capable as the context they can reach. An agent with reliable access to the right information makes decisions grounded in fact; one without it guesses. And the work agents produce is itself a critical asset: every execution trace, intermediate result, and outcome is the raw material teams need to evaluate, debug, and improve them. In practice, that context is scattered across documents, video and audio libraries, operational databases, and execution logs, each with its own format, access pattern, and freshness guarantees. Making it usable means building and maintaining transcription jobs, indexing pipelines, and sync scripts, and keeping them coherent as the sourc",
+      "source": "press",
+      "discovered_at": "2026-10-17T01:45:15.286871-05:00"
+    },
+    {
+      "kind": "press",
+      "name": "Introducing DigitalOcean Signals and Simulations: see how your agents and models really behave in production, then test the fix before it ships",
+      "vendor": "DigitalOcean",
+      "url": "https://www.digitalocean.com/blog/introducing-signals-and-simulations",
+      "summary": "Introducing DigitalOcean Signals and Simulations: see how your agents and models really behave in production, then test the fix before it ships | DigitalOcean Log in Sign up © 2026 DigitalOcean, LLC. Sitemap . Product updates Introducing DigitalOcean Signals and Simulations: see how your agents and models really behave in production, then test the fix before it ships By DigitalOcean Updated: October 12, 2026 6 min read Back to blog home You ship an agent. It mostly works. Then the feedback loop becomes a support ticket: a user got the wrong answer, a tool call looped four times, a refund went out that shouldn’t have. Standard observability tells you the system was up and the latency was fine. It can’t tell you the agent chose the wrong tool, used stale context, or made a frustrated user give up. And when you do find the problem, writing realistic test cases to validate a fix means hours of digging through traces or inventing scenarios you hope resemble reality. Today we’re launching tw",
+      "source": "press",
+      "discovered_at": "2026-10-17T01:45:15.286871-05:00"
+    },
+    {
+      "kind": "press",
+      "name": "Duolingo Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against Duolingo, Inc. - DUOL",
+      "vendor": "Duolingo",
+      "url": "https://www.prnewswire.com/news-releases/duolingo-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-duolingo-inc---duol-302911673.html",
+      "summary": "NEW ORLEANS, Oct. 16, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until December 7, 2026 to file lead plaintiff applications in a securities class action lawsuit against Duolingo, Inc. (\"Duolingo\" or the \"Company\") (NasdaqGS:...",
+      "source": "press",
+      "discovered_at": "2026-10-17T01:43:36.676268-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "BOE's 24-layer glass substrates reach AI chip packaging trials, with mass production still ahead - digitimes",
+      "vendor": "DigiTimes (compute)",
+      "url": "https://www.digitimes.com/news/a20261016PD228/boe-packaging-production-display-ai-chip.html",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-17T01:41:26.278858-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "DIGITIMES Insight: HBM expansion raises the bar for memory offload - digitimes",
+      "vendor": "DigiTimes (compute)",
+      "url": "https://www.digitimes.com/news/a20261007PD233/capacity-hbm-expansion-data-gpu.html",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-17T01:41:25.418261-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "LS Materials Wins $51.5 Million Order for AI Data Center Power Systems - Businesskorea",
+      "vendor": "BusinessKorea (compute)",
+      "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=278683",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-17T01:41:24.188141-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Investors Rotate Into Cosmetics Stocks as AI Jitters Mount - Seoul Economic Daily",
+      "vendor": "Seoul Economic Daily (compute)",
+      "url": "https://en.sedaily.com/finance/2026/10/16/investors-rotate-into-cosmetics-stocks-as-ai-jitters-mount",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-17T01:41:22.579883-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "North Gyeongsang Pushes AI Training for All Majors at Local Universities - Seoul Economic Daily",
+      "vendor": "Seoul Economic Daily (compute)",
+      "url": "https://en.sedaily.com/society/2026/10/16/north-gyeongsang-pushes-ai-training-for-all-majors-at-local",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-17T01:41:21.687563-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Jeonnam-Gwangju Fast-Tracks Semiconductor Cluster as Land, Power and Water Push Advances - Seoul Economic Daily",
+      "vendor": "Seoul Economic Daily (compute)",
+      "url": "https://en.sedaily.com/society/2026/10/15/jeonnam-gwangju-fast-tracks-semiconductor-cluster-with-land",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-17T01:41:20.845755-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Coreweave Debt Scare Rattles AI Trade, Dragging Korean Chip Shares - Seoul Economic Daily",
+      "vendor": "Seoul Economic Daily (compute)",
+      "url": "https://en.sedaily.com/international/2026/10/17/default-odds-top-60-percent-at-coreweave-testing-chip",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-17T01:41:19.974398-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "LH Launches AI Transformation Drive, Creates Dedicated AI Office - Seoul Economic Daily",
+      "vendor": "Seoul Economic Daily (compute)",
+      "url": "https://en.sedaily.com/finance/2026/10/15/lh-launches-ai-transformation-drive-creates-dedicated-ai",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-17T01:41:19.100231-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Transformative AI and the implications for Tax and Legal - Deloitte",
+      "vendor": "Big Four on AI (accounting)",
+      "url": "https://www.deloitte.com/global/en/services/tax/perspectives/transformative-ai-tax-implications.html",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-17T01:41:17.535243-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "2026 Innovation Awards Announced: AI Tech Drives Advancements for Accounting Firms - CPA Practice Advisor",
+      "vendor": "CPA Practice Advisor (accounting)",
+      "url": "https://www.cpapracticeadvisor.com/2026/10/14/2026-innovation-awards-announced-ai-tech-drives-advancements-for-accounting-firms/190401/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-17T01:41:16.118186-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "CRED founder Kunal Shah says AI writes 90 per cent of company's code - TechGig",
+      "vendor": "techgig.com",
+      "url": "https://techgig.com/news/ai/cred-founder-kunal-shah-says-ai-writes-90-per-cent-of-companys-code/134345809",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-17T01:41:14.105718-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Ai+factory | Tag | techmonk - TechGig",
+      "vendor": "techgig.com",
+      "url": "https://techgig.com/tag/ai+factory",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-17T01:41:13.231617-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Wipro’s Deal Slump Puts Its AI Growth Story to the Test - analyticsindiamag.com",
+      "vendor": "analyticsindiamag.com",
+      "url": "https://analyticsindiamag.com/it-services/wipros-deal-slump-puts-its-ai-growth-story-to-the-test",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-17T01:41:11.603646-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Why CoreWeave is in the crosshairs of the AI scare - ET CIO",
+      "vendor": "cio.economictimes.indiatimes.com",
+      "url": "https://cio.economictimes.indiatimes.com/news/investments/why-coreweave-is-in-the-crosshairs-of-the-ai-scare/135005962",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-17T01:41:10.297709-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "AI cost savings may be offset by rising verification expenses - ET CIO",
+      "vendor": "cio.economictimes.indiatimes.com",
+      "url": "https://cio.economictimes.indiatimes.com/news/artificial-intelligence/ai-cost-savings-may-be-offset-by-rising-verification-expenses/135006134",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-17T01:41:09.434004-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Reverse Engineer Anything Project Brings AI Agents to Binary Analysis - infoq.com",
+      "vendor": "infoq.com",
+      "url": "https://www.infoq.com/news/2026/10/reverse-engineer-anything/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-17T01:41:06.96512-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Google CEO Says 75% of New Code is AI-Generated - DevOps.com",
+      "vendor": "devops.com",
+      "url": "https://devops.com/google-ceo-says-75-of-new-code-is-ai-generated/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-17T01:41:05.636167-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "AI Coding Agents Are Pulling CI Feedback Into the Inner Loop - DevOps.com",
+      "vendor": "devops.com",
+      "url": "https://devops.com/ai-coding-agents-are-pulling-ci-feedback-into-the-inner-loop/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-17T01:41:04.77782-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Survey Sees Wider Adoption of AI Coding Tools Creating More DevOps Challenges - DevOps.com",
+      "vendor": "devops.com",
+      "url": "https://devops.com/survey-sees-wider-adoption-of-ai-coding-tools-creating-more-devops-challenges/",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-17T01:41:03.92414-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Building California’s Future Workforce with AI Education - GovTech",
+      "vendor": "insider.govtech.com",
+      "url": "https://insider.govtech.com/california/sponsored/building-californias-future-workforce-with-ai-education",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-17T01:41:01.167499-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "AI Takes Control of Robotic Arm in 16 Minutes Flat - Dark Reading",
+      "vendor": "darkreading.com",
+      "url": "https://www.darkreading.com/ics-ot-security/ai-takes-control-robotic-arm-16-minutes",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-17T01:40:57.700343-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "China narrowing AI gap with US - China Daily",
+      "vendor": "investinchina.chinadaily.com.cn",
+      "url": "https://investinchina.chinadaily.com.cn/s/202610/10/WS6ac9f849498e36855034089a/china-narrowing-ai-gap-with-us.html",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-17T01:40:54.199668-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Chinese stocks turn biggest losers as global AI trade stumbles - The Business Times",
+      "vendor": "businesstimes.com.sg",
+      "url": "https://www.businesstimes.com.sg/companies-markets/chinese-stocks-turn-biggest-losers-global-ai-trade-stumbles",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-17T01:40:50.983462-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Fintech platform iCapital plans more Singapore hires even as AI takes on 75% of coding work - The Business Times",
+      "vendor": "businesstimes.com.sg",
+      "url": "https://www.businesstimes.com.sg/companies-markets/fintech-platform-icapital-plans-more-singapore-hires-even-ai-takes-75-coding-work",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-17T01:40:50.124199-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "AI agent platform Drylab AI raises US$3 million seed round from Vertex Ventures and PatSnap - The Business Times",
+      "vendor": "businesstimes.com.sg",
+      "url": "https://www.businesstimes.com.sg/startups-tech/startups/ai-agent-platform-drylab-ai-raises-us3-million-seed-round-vertex-ventures-and-patsnap",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-17T01:40:49.239544-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Wall Street tumbles as worries about AI trade and high oil prices weigh - The Straits Times",
+      "vendor": "straitstimes.com",
+      "url": "https://www.straitstimes.com/business/companies-markets/us-stocks-close-sharply-lower-worries-about-ai-trade-and-high-oil-prices-weigh",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-17T01:40:47.993638-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "‘All of this is going to pass’: Nvidia CEO Jensen Huang on AI market turmoil - The Straits Times",
+      "vendor": "straitstimes.com",
+      "url": "https://www.straitstimes.com/business/all-of-this-is-going-to-pass-nvidia-ceo-jensen-huang-on-ai-market-turmoil",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-17T01:40:47.142756-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "IMF chief says AI risks may exceed opportunities without safeguards and ethical framework - The Straits Times",
+      "vendor": "straitstimes.com",
+      "url": "https://www.straitstimes.com/asia/east-asia/imf-chief-says-ai-risks-may-exceed-opportunities-without-safeguards-and-ethical-framework",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-17T01:40:46.273868-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "When Cash Burning No Longer Works: Microsoft, Meta Hit AI Growth Brakes – Apple Emerges as 2024’s Top AI Winner - 36Kr",
+      "vendor": "eu.36kr.com",
+      "url": "https://eu.36kr.com/en/p/4029392960280192",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-17T01:40:35.901024-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Ben Affleck: From *Good Will Hunting* Mathematical Genius Contender to AI Company Founder – The Untold Story of Selling His AI Venture to Netflix - 36Kr",
+      "vendor": "eu.36kr.com",
+      "url": "https://eu.36kr.com/en/p/4029335203074439",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-17T01:40:35.04697-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "UK must not be beholden to foreign AI, says head of Alan Turing Institute - inkl",
+      "vendor": "inkl.com",
+      "url": "https://www.inkl.com/news/uk-must-not-be-beholden-to-foreign-ai-says-head-of-alan-turing-institute",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-17T01:40:21.964223-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "From Napster to AI: Sean Parker Returns to Rebuild Music’s Future - Vocal",
+      "vendor": "vocal.media",
+      "url": "https://vocal.media/01/from-napster-to-ai-sean-parker-returns-to-rebuild-musics-future",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-17T01:40:19.042859-05:00"
+    },
+    {
+      "kind": "vendor-news",
+      "name": "Benefit Street Partners answers questions faster with Codex",
+      "vendor": "OpenAI",
+      "url": "https://openai.com/index/benefit-street-partners",
+      "summary": null,
+      "source": "rss",
+      "discovered_at": "2026-10-17T01:40:17.158913-05:00"
+    },
+    {
+      "kind": "paper",
+      "name": "PIA: A Personal Intelligence Agent Turning Health Conversations into Records and Records into Understanding",
+      "vendor": "Naver",
+      "url": "https://doi.org/10.48550/arxiv.2609.31255",
+      "summary": null,
+      "source": "openalex",
+      "discovered_at": "2026-10-16T21:11:12.330629-05:00"
     },
     {
       "kind": "vendor-news",
@@ -1245,7 +1911,7 @@
     },
     {
       "kind": "vendor-news",
-      "name": "L’UE peut-elle contrôler les modèles d’intelligence artificielle avant leur commercialisation ? Les intrusions provoquées par des agents IA mettent l’AI Act à l’épreuve",
+      "name": "Can the EU control artificial intelligence models before they are marketed? Intrusions caused by AI agents put the AI Act to the test",
       "vendor": "L'Usine Digitale",
       "url": "https://www.usine-digitale.fr/intelligence-artificielle/lue-peut-elle-controler-les-modeles-dintelligence-artificielle-avant-leur-commercialisation-les-intrusions-provoquees-par-des-agents-ia-mettent-lai-act-a-lepreuve.V25T6MKNZ5GQHATLU4TK65WFAA.html",
       "summary": null,
@@ -1911,24 +2577,6 @@
     },
     {
       "kind": "vendor-news",
-      "name": "Bank of America Warns AI Bubble Burst Could Trigger Simultaneous U.S. Stocks \u0026 Treasury Yields Decline – OpenAI Revenue Incident Serves as Early Preview - 36Kr",
-      "vendor": "eu.36kr.com",
-      "url": "https://eu.36kr.com/en/p/4027933825471104",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-16T03:11:48.229223-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Has Neural Network Interpretability Been Solved by AI? 90% of Neurons Possess Only One Function - 36Kr",
-      "vendor": "eu.36kr.com",
-      "url": "https://eu.36kr.com/en/p/4027793666593158",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-16T03:11:47.354532-05:00"
-    },
-    {
-      "kind": "vendor-news",
       "name": "IMDA launches guide to help businesses test how AI agents act - The Edge Singapore",
       "vendor": "theedgesingapore.com",
       "url": "https://www.theedgesingapore.com/digitaledge/artificial-intelligence/imda-launches-guide-help-businesses-test-how-ai-agents-act",
@@ -2061,15 +2709,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-10-15T20:13:08.857654-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Gartner Warns $3.5 Trillion in AI Investment at Risk by 2030 - Seoul Economic Daily",
-      "vendor": "Seoul Economic Daily (compute)",
-      "url": "https://en.sedaily.com/international/2026/10/15/gartner-warns-35-trillion-in-ai-investment-at-risk-by-2030",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-15T20:13:07.985921-05:00"
     },
     {
       "kind": "vendor-news",
@@ -2370,15 +3009,6 @@
     },
     {
       "kind": "vendor-news",
-      "name": "NPS Warns Against Indiscriminate AI Data Center Buildout - Seoul Economic Daily",
-      "vendor": "Seoul Economic Daily (compute)",
-      "url": "https://en.sedaily.com/signal/article/nps-warns-against-indiscriminate-ai-data-center-buildout",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-15T15:24:04.821894-05:00"
-    },
-    {
-      "kind": "vendor-news",
       "name": "America's CEOs are spending big on AI, new KPMG survey finds - Marketplace.org",
       "vendor": "Big Four on AI (accounting)",
       "url": "https://www.marketplace.org/story/2026/10/15/ceos-keep-spending-big-on-ai-new-kpmg-survey-finds",
@@ -2538,33 +3168,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-10-15T13:14:03.244686-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Korea AI and Robot Industry Association Wins Presidential Commendation - Seoul Economic Daily",
-      "vendor": "Seoul Economic Daily (compute)",
-      "url": "https://en.sedaily.com/finance/2026/10/15/korea-ai-and-robot-industry-association-wins-presidential",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-15T13:14:01.924964-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "BS Hanyang Rolls Out AI Assistant for Construction Sites - Seoul Economic Daily",
-      "vendor": "Seoul Economic Daily (compute)",
-      "url": "https://en.sedaily.com/finance/2026/10/15/bs-hanyang-rolls-out-ai-assistant-for-construction-sites",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-15T13:14:01.072162-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "U.S. FTC Probes OpenAI, Anthropic Over AI Security Breaches - Seoul Economic Daily",
-      "vendor": "Seoul Economic Daily (compute)",
-      "url": "https://en.sedaily.com/international/2026/10/15/us-ftc-probes-openai-anthropic-over-ai-security-breaches",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-15T13:14:00.228439-05:00"
     },
     {
       "kind": "vendor-news",
@@ -4845,15 +5448,6 @@
     },
     {
       "kind": "vendor-news",
-      "name": "Parallel Loop Raises $6.6 Million to Make AI Work for Enterprises - Analytics India Magazine",
-      "vendor": "analyticsindiamag.com",
-      "url": "https://analyticsindiamag.com/ai-news/parallel-loop-raises-66-million-to-make-ai-work-for-enterprises",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-14T05:17:30.211544-05:00"
-    },
-    {
-      "kind": "vendor-news",
       "name": "AI-driven BPM is shaping the next wave of jobs and new growth hubs - ET CIO",
       "vendor": "cio.economictimes.indiatimes.com",
       "url": "https://cio.economictimes.indiatimes.com/news/artificial-intelligence/ai-driven-bpm-is-shaping-the-next-wave-of-jobs-and-new-growth-hubs/134720967",
@@ -4887,24 +5481,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-10-14T05:17:26.361484-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Philips’ AI bet is on redesigning work, not adding AI to every step - ET CIO",
-      "vendor": "cio.economictimes.indiatimes.com",
-      "url": "https://cio.economictimes.indiatimes.com/news/artificial-intelligence/philips-ai-bet-is-on-redesigning-work-not-adding-ai-to-every-step/134930020",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-14T05:17:25.517055-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Only 6.7% of Indian companies have scaled AI across workflows, 59% face hurdles - ET CIO",
-      "vendor": "cio.economictimes.indiatimes.com",
-      "url": "https://cio.economictimes.indiatimes.com/news/artificial-intelligence/only-6-7-of-indian-companies-have-scaled-ai-across-workflows-59-face-hurdles/134937107",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-14T05:17:24.672204-05:00"
     },
     {
       "kind": "vendor-news",
@@ -5058,33 +5634,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-10-14T05:17:05.765157-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "AI Won’t Replace Developers—But it is Changing How They Work - DevOps.com",
-      "vendor": "devops.com",
-      "url": "https://devops.com/ai-wont-replace-developers-but-it-is-changing-how-they-work/",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-14T05:17:04.922073-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Why APIs Alone Won’t Cut It in the AI Era - DevOps.com",
-      "vendor": "devops.com",
-      "url": "https://devops.com/why-apis-alone-wont-cut-it-in-the-ai-era/",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-14T05:17:04.073671-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "VMware Preps Generative AI Assistants to Automate IT Workflows - DevOps.com",
-      "vendor": "devops.com",
-      "url": "https://devops.com/vmware-preps-generative-ai-assistants-to-automate-it-workflows/",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-14T05:17:03.209738-05:00"
     },
     {
       "kind": "vendor-news",
@@ -6474,15 +7023,6 @@
     },
     {
       "kind": "vendor-news",
-      "name": "Singapore asks AI firms for transparency following Australia data breach - The Straits Times",
-      "vendor": "straitstimes.com",
-      "url": "https://www.straitstimes.com/videos/6406736319112",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-13T05:15:54.836795-05:00"
-    },
-    {
-      "kind": "vendor-news",
       "name": "KAIST President Launches Robot Institute Plan to Lead Global Physical AI - DongA Science",
       "vendor": "dongascience.com",
       "url": "https://www.dongascience.com/en/news/80314",
@@ -6627,15 +7167,6 @@
     },
     {
       "kind": "vendor-news",
-      "name": "Patrick Debois: Context is the new code for AI agents - TechGig",
-      "vendor": "techgig.com",
-      "url": "https://techgig.com/news/ai/patrick-debois-context-is-the-new-code-for-ai-agents/134596164",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-12T22:13:44.26487-05:00"
-    },
-    {
-      "kind": "vendor-news",
       "name": "Kyndryl Holdings (KD) Expands Its AI Push, Is The 17% Undervaluation Case Convincing? - Simply Wall Street",
       "vendor": "simplywall.st",
       "url": "https://simplywall.st/stocks/us/software/nyse-kd/kyndryl-holdings/news/kyndryl-holdings-kd-expands-its-ai-push-is-the-17-undervalua/amp",
@@ -6762,15 +7293,6 @@
     },
     {
       "kind": "vendor-news",
-      "name": "Govt worried that ‘bottom rung’ of career ladder may be broken by AI: PM Wong - The Straits Times",
-      "vendor": "straitstimes.com",
-      "url": "https://www.straitstimes.com/singapore/politics/spore-seeks-to-be-a-better-society-enabled-by-ai-not-an-ai-driven-one-pm-wong",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-12T22:13:07.828031-05:00"
-    },
-    {
-      "kind": "vendor-news",
       "name": "NYT, Economist among publishers joining coalition to curb unpaid AI use - CNA",
       "vendor": "channelnewsasia.com",
       "url": "https://www.channelnewsasia.com/business/nyt-economist-among-publishers-joining-coalition-curb-unpaid-ai-use-6454436",
@@ -6885,15 +7407,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-10-12T13:12:26.868084-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Developer burnout and AI distrust rise, Stack Overflow survey finds - TechGig",
-      "vendor": "techgig.com",
-      "url": "https://techgig.com/news/jobs-layoffs/developer-burnout-and-ai-distrust-rise-stack-overflow-survey-finds/134831944",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-12T13:12:24.617484-05:00"
     },
     {
       "kind": "vendor-news",
@@ -7056,15 +7569,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-10-12T13:11:40.969168-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Saksoft Appoints Gurmeet Chahal as Chief Executive Officer to Lead Its Next Phase of Global Scale and AI-Led Transformation - The Straits Times",
-      "vendor": "straitstimes.com",
-      "url": "https://www.straitstimes.com/paid-press-releases/saksoft-appoints-gurmeet-chahal-as-chief-executive-officer-to-lead-its-next-phase-of-global-scale-and-ai-led-transformation-20261012",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-12T13:11:39.549852-05:00"
     },
     {
       "kind": "vendor-news",
@@ -7245,15 +7749,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-10-12T05:17:02.640924-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "IMF chief alarmed at ‘slow-moving tsunami’ of AI for jobs, taxes - The Business Times",
-      "vendor": "businesstimes.com.sg",
-      "url": "https://www.businesstimes.com.sg/international/imf-chief-alarmed-slow-moving-tsunami-ai-jobs-taxes",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-12T05:17:00.80131-05:00"
     },
     {
       "kind": "vendor-news",
@@ -7551,24 +8046,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-10-11T22:12:36.493887-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "China vows to curb tech bubbles, keep AI risks in check - The Business Times",
-      "vendor": "businesstimes.com.sg",
-      "url": "https://www.businesstimes.com.sg/international/global/china-vows-curb-tech-bubbles-keep-ai-risks-check",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-11T22:12:35.050029-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Asean companies keen on AI for business benefits, despite its energy costs - The Business Times",
-      "vendor": "businesstimes.com.sg",
-      "url": "https://www.businesstimes.com.sg/companies-markets/asean-companies-keen-ai-business-benefits-despite-its-energy-costs",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-11T22:12:34.194589-05:00"
     },
     {
       "kind": "vendor-news",
@@ -8373,15 +8850,6 @@
     },
     {
       "kind": "vendor-news",
-      "name": "Tax Revenue Forecast Raised by 63.2 Trillion Won on Semiconductor Boom - Businesskorea",
-      "vendor": "BusinessKorea (compute)",
-      "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=277908",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-10T05:17:55.106998-05:00"
-    },
-    {
-      "kind": "vendor-news",
       "name": "Building trust and governance as agentic AI scales - PwC",
       "vendor": "Big Four on AI (accounting)",
       "url": "https://www.pwc.com/us/en/about-us/newsroom/operationalizing-trust-in-agentic-ai.html",
@@ -8940,24 +9408,6 @@
     },
     {
       "kind": "vendor-news",
-      "name": "Samsung secures customer backing for US$5B substrate expansion - digitimes",
-      "vendor": "DigiTimes (compute)",
-      "url": "https://www.digitimes.com/news/a20261006VL215/substrate-semco-expansion-capacity-investment.html",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-09T05:17:47.746575-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "GlobalFoundries wins US$2 billion TSMC interposer deal, closing a US packaging gap - digitimes",
-      "vendor": "DigiTimes (compute)",
-      "url": "https://www.digitimes.com/news/a20261009VL200/tsmc-globalfoundries-packaging-cowos-silicon.html",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-09T05:17:46.844201-05:00"
-    },
-    {
-      "kind": "vendor-news",
       "name": "AI is redefining career success. Empower your talent to thrive. - kpmg.com",
       "vendor": "Big Four on AI (accounting)",
       "url": "https://kpmg.com/us/en/articles/2026/ai-redefining-career-success-empower-your-talent-thrive.html",
@@ -8982,15 +9432,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-10-09T05:17:22.160714-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Tech Taxes Would Drive Sen. Mark Kelly’s Labor-Focused ‘AI Horizon Fund’ - CPA Practice Advisor",
-      "vendor": "CPA Practice Advisor (accounting)",
-      "url": "https://www.cpapracticeadvisor.com/2026/09/28/tech-taxes-would-drive-sen-mark-kellys-labor-focused-ai-horizon-fund/190628/",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-09T05:17:20.739713-05:00"
     },
     {
       "kind": "vendor-news",
@@ -11829,15 +12270,6 @@
     },
     {
       "kind": "vendor-news",
-      "name": "Wayfair boosts catalog accuracy and support speed with OpenAI",
-      "vendor": "OpenAI",
-      "url": "https://openai.com/index/wayfair",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-06T00:58:19.16542-05:00"
-    },
-    {
-      "kind": "vendor-news",
       "name": "How artificial intelligence is changing accounting - Journal of Accountancy",
       "vendor": "Journal of Accountancy (accounting)",
       "url": "https://www.journalofaccountancy.com/newsletters/2017/oct/artificial-intelligence-changing-accounting/",
@@ -13086,15 +13518,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-10-04T05:08:44.480631-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "Pizza Bot: Open-Source Inbox for Background AI Agents - infoq.com",
-      "vendor": "infoq.com",
-      "url": "https://www.infoq.com/news/2026/10/pizza-bot-ai-agents/",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-10-04T05:08:39.865648-05:00"
     },
     {
       "kind": "vendor-news",
@@ -15321,15 +15744,6 @@
     },
     {
       "kind": "vendor-news",
-      "name": "Deloitte introduces ControlCatalyst.AI – Press release - Deloitte",
-      "vendor": "Big Four on AI (accounting)",
-      "url": "https://www.deloitte.com/us/en/about/press-room/deloitte-announces-launch-of-controlcatalyst-ai.html",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-09-29T21:14:42.888966-05:00"
-    },
-    {
-      "kind": "vendor-news",
       "name": "Are finance leaders moving too fast on agentic AI? - Journal of Accountancy",
       "vendor": "Journal of Accountancy (accounting)",
       "url": "https://www.journalofaccountancy.com/news/2026/jul/are-finance-leaders-moving-too-fast-on-agentic-ai/",
@@ -15498,15 +15912,6 @@
       "summary": null,
       "source": "rss",
       "discovered_at": "2026-09-29T21:12:42.635545-05:00"
-    },
-    {
-      "kind": "vendor-news",
-      "name": "AI Agent Breaches Spanish Organization, Modifies Personal Data - Dark Reading",
-      "vendor": "darkreading.com",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-breaches-spanish-organization-personal-data",
-      "summary": null,
-      "source": "rss",
-      "discovered_at": "2026-09-29T21:12:41.739368-05:00"
     },
     {
       "kind": "vendor-news",
@@ -29487,6 +29892,15 @@
     },
     {
       "kind": "paper",
+      "name": "ProDVI: Programmatic Dynamics Priors for Value Network Initialization",
+      "vendor": "DeepMind",
+      "url": "http://arxiv.org/abs/2608.06015v1",
+      "summary": null,
+      "source": "arxiv",
+      "discovered_at": "2026-08-10T14:15:35.483744-05:00"
+    },
+    {
+      "kind": "paper",
       "name": "TaskSense: Focusing on What Matters in World Models",
       "vendor": "DeepMind",
       "url": "http://arxiv.org/abs/2608.06544v1",
@@ -29499,15 +29913,6 @@
       "name": "Observation-Grounded Self-Predictive Reinforcement Learning for Visual Continuous Control",
       "vendor": "DeepMind",
       "url": "http://arxiv.org/abs/2608.05989v1",
-      "summary": null,
-      "source": "arxiv",
-      "discovered_at": "2026-08-10T14:15:35.483744-05:00"
-    },
-    {
-      "kind": "paper",
-      "name": "ProDVI: Programmatic Dynamics Priors for Value Network Initialization",
-      "vendor": "DeepMind",
-      "url": "http://arxiv.org/abs/2608.06015v1",
       "summary": null,
       "source": "arxiv",
       "discovered_at": "2026-08-10T14:15:35.483744-05:00"
