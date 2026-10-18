@@ -9777,7 +9777,7 @@
             ],
             "as_of": "2026-10",
             "files": "Documentation, evidence.",
-            "value": "Monitaur records model development, validation and monitoring in a structured system of record designed for insurance regulators and model risk teams, with templates aligned to NAIC and SR 11-7 expectations. It is a specialist for regulated model governance.",
+            "value": "Monitaur records model development, validation and monitoring in a structured system of record designed for insurance regulators and model risk teams, with templates aligned to NAIC and federal bank model risk expectations (SR 11-7, superseded in April 2026 by SR 26-2). It is a specialist for regulated model governance.",
             "access": [
                 "Cloud"
             ],
@@ -11123,7 +11123,7 @@
                 "SageMaker, Azure ML, Databricks",
                 "APIs"
             ],
-            "governance_note": "Monitoring output is evidence for SR 11-7 and EU AI Act obligations; define thresholds and who responds to alerts.",
+            "governance_note": "Monitoring output is evidence for bank model risk guidance (SR 26-2, which superseded SR 11-7 in April 2026) and EU AI Act obligations; define thresholds and who responds to alerts.",
             "training_optout": "Arthur does not train on customer data."
         },
         "browse-ai": {
@@ -19019,7 +19019,7 @@
                 "Enterprise"
             ],
             "use_cases": [
-                "Model risk management under SR 11-7",
+                "Model risk management under SR 26-2 (formerly SR 11-7)",
                 "AI inventory within enterprise GRC",
                 "Regulatory reporting"
             ],
