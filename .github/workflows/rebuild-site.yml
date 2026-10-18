@@ -11,6 +11,9 @@ on:
     branches: [main]
   workflow_dispatch:
 
+# The job only POSTs the deploy hook; it never uses GITHUB_TOKEN.
+permissions: {}
+
 jobs:
   trigger:
     runs-on: ubuntu-latest
