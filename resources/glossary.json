@@ -391,7 +391,7 @@
             "origin": "Federal Reserve SR 26-2 and OCC Bulletin 2026-13, April 2026, superseding SR 11-7.",
             "example": "A bank's validation team independently testing an AI credit model before it touches a lending decision.",
             "category": "AI Security & Assurance",
-            "definition": "Supervisory expectations for validating and governing models used in regulated decisions: independent validation, ongoing monitoring, and documented limitations. SR 26-2 and OCC 2026-13 replaced the long-standing SR 11-7 in April 2026, extending the discipline explicitly to AI and machine learning models."
+            "definition": "Supervisory expectations for validating and governing models used in regulated decisions: independent validation, ongoing monitoring, and documented limitations. SR 26-2 and OCC Bulletin 2026-13 replaced the long-standing SR 11-7 in April 2026 with a risk-based approach that covers traditional and non-generative AI models and places generative and agentic AI outside its scope."
         },
         {
             "slug": "model-supply-chain",
@@ -3862,10 +3862,24 @@
         {
             "slug": "sr-11-7",
             "term": "SR 11-7",
-            "origin": "Federal Reserve SR Letter 11-7, Supervisory Guidance on Model Risk Management, 2011.",
-            "example": "An LLM-based underwriting assistant swept into the model inventory under SR 11-7.",
+            "origin": "Federal Reserve SR Letter 11-7, Guidance on Model Risk Management, April 4, 2011; superseded by SR 26-2, Revised Guidance on Model Risk Management, April 17, 2026.",
+            "example": "An LLM-based underwriting assistant swept into the model inventory under SR 11-7, before SR 26-2 placed generative AI outside the scope of the revised guidance.",
             "category": "Safety & Governance",
-            "definition": "The Federal Reserve's 2011 supervisory guidance on model risk management, the de facto ancestor of AI governance: model inventory, independent validation, and effective challenge. Bank examiners now read AI systems through its lens, whether or not the institution calls them models."
+            "see_also": [
+                {
+                    "href": "https://www.federalreserve.gov/supervisionreg/srletters/SR2602.htm",
+                    "name": "SR 26-2, Revised Guidance on Model Risk Management",
+                    "note": "Federal Reserve, April 17, 2026",
+                    "label": "Superseded by"
+                },
+                {
+                    "href": "/ai-compliance/sr-11-7/",
+                    "name": "SR 11-7 and the 2026 Model Risk Guidance",
+                    "note": "what changed in April 2026",
+                    "label": "On this site"
+                }
+            ],
+            "definition": "The Federal Reserve's 2011 supervisory guidance on model risk management, superseded on April 17, 2026 by SR 26-2. For fifteen years it set the US banking standard for model inventory, independent validation and effective challenge, and examiners read AI systems through it. It is now historical: current expectations are in SR 26-2."
         },
         {
             "slug": "management-review",
