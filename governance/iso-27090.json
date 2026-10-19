@@ -76,6 +76,13 @@
         }
     ],
     "seo_title": "ISO/IEC 27090:2026 Explained: AI Security Threats Guidance",
+    "cve_tracker": "ISO/IEC guidance, published October 2026, on security threats specific to AI systems across their life cycle, such as data poisoning and model theft. Many CVEs listed here are conventional software flaws in AI products; the standard addresses the attacks peculiar to AI, and it is guidance, not a certifiable requirement.",
+    "owasp_risks": {
+        "LLM04:2025": "ISO/IEC guidance on security threats to AI systems, published October 2026. Data poisoning is one of the threats ISO names for it; this 2025 OWASP entry is the application-layer view of the same attack. Our comparison, not a formal mapping.",
+        "LLM05:2026": "ISO/IEC guidance on security threats to AI systems, published October 2026. Data poisoning is one of the threats ISO names for it; this OWASP entry is the application-layer view of the same attack. Our comparison, not a formal mapping.",
+        "LLM06:2026": "ISO/IEC guidance on security threats to AI systems, published October 2026. Model theft is one of the threats ISO names for it, and OWASP places model extraction under this entry. Our comparison, not a formal mapping.",
+        "LLM10:2025": "ISO/IEC guidance on security threats to AI systems, published October 2026. Model theft is one of the threats ISO names for it, and OWASP placed model extraction under this 2025 entry. Our comparison, not a formal mapping."
+    },
     "focus_keyword": "ISO 27090",
     "meta_description": "ISO/IEC 27090:2026, published 14 October 2026, is guidance on AI-specific security threats such as data poisoning and model theft. What it is and how it relates to ISO 42001, 27001, NIST and the EU AI Act.",
     "security_domains": {
