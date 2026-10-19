@@ -7563,8 +7563,8 @@
       "category": "trade secrets",
       "status": "Filed; docket monitoring active",
       "status_badge": "Active Litigation",
-      "latest_development": "Order on Motion to Amend/Correct",
-      "latest_development_date": "2026-10-16",
+      "latest_development": "Amended Complaint",
+      "latest_development_date": "2026-10-18",
       "courtlistener_url": "https://www.courtlistener.com/docket/73529045/byrd-v-openai-inc/",
       "executive_summary": "Stephen Byrd sued OpenAI, Inc., Target Corporation, and Walmart Inc. in District Court, N.D. California on June 23, 2026. The docket entries indicate a claim for misappropriation of trade secrets with a jury trial demanded. The court set a case management statement due by September 18, 2026, and an initial case management conference for September 25, 2026 at 2:00 PM in San Francisco by videoconference. As of the newest entry, Stephen Byrd has filed a motion for leave to proceed in forma pauperis.",
       "why_it_matters": "Trade secret suits between AI companies show how much of a model's value sits in people and unpublished methods, and how far a court will go to stop both from walking out the door.",
@@ -7575,6 +7575,12 @@
       "defendant_counsel": null,
       "claims": [],
       "timeline": [
+        {
+          "url": "https://www.courtlistener.com/docket/73529045/byrd-v-openai-inc/",
+          "date": "2026-10-18",
+          "title": "Amended Complaint",
+          "doc_no": "53"
+        },
         {
           "url": "https://www.courtlistener.com/docket/73529045/byrd-v-openai-inc/",
           "date": "2026-10-16",
@@ -21622,12 +21628,12 @@
       "plaintiffs": "X. AI LLC; United States of America (intervenor plaintiff)",
       "defendants": "Philip J. Weiser, Attorney General of Colorado",
       "category": "constitutional challenges",
-      "status": "Enforcement of SB24-205 stayed by the parties' stipulation and case deadlines stayed pending xAI's forthcoming preliminary injunction motion (Dkt. 24, 2026-04-27)",
+      "status": "Stayed. Enforcement of Colorado SB24-205, and of any act replacing it passed in the 2026 session, is stayed and case deadlines are suspended pending xAI's preliminary injunction motion (Dkt. 24, 2026-04-27). Colorado repealed and reenacted SB24-205 as SB26-189 on 2026-05-14; under Dkt. 24 the motion, and an amended complaint if necessary, are due within 28 days after final rules implementing the act are adopted. No amended complaint is on the docket as of 2026-10-18 (latest entry Dkt. 25, 2026-10-02)",
       "status_badge": "Active Litigation",
       "latest_development": "Withdraw as Attorney",
       "latest_development_date": "2026-10-02",
       "courtlistener_url": "https://www.courtlistener.com/docket/73171074/x-ai-llc-v-weiser/",
-      "executive_summary": null,
+      "executive_summary": "X. AI LLC sued Colorado Attorney General Philip J. Weiser in the U.S. District Court for the District of Colorado on 2026-04-09 (cause 28 U.S.C. 2201, constitutionality of state statutes; nature of suit 440, civil rights other). On 2026-04-24 the court granted the United States' unopposed motion to intervene as plaintiff (Dkt. 12, order Dkt. 16) under 42 U.S.C. 2000h-2, the Acting Attorney General having certified the case as one of general public importance; the United States' complaint in intervention is Dkt. 17, and its counsel of record include the Justice Department's Civil Rights Division. On 2026-04-27 the court granted the parties' joint motion (Dkt. 22; the earlier joint motion, Dkt. 18, was denied as moot): the Colorado Attorney General will not initiate enforcement of SB24-205, or legislation replacing or amending it enacted that session, for conduct on or before 14 days after the court rules on xAI's forthcoming motion for a preliminary injunction, and all case deadlines are stayed (Dkt. 24). THE 2024 ACT IS NO LONGER THE LAW. Colorado repealed and reenacted SB24-205 as SB26-189, the Automated Decision-Making Technology Act, signed by the Governor on 2026-05-14 (Colorado General Assembly bill page, leg.colorado.gov/bills/SB26-189; Session Laws 2026, chapter 131). The General Assembly's summary says the act \"repeals and reenacts those provisions with new requirements regarding the use of automated decision-making technology in consequential decisions\"; its developer duties begin 2027-01-01. The complaint (Dkt. 1, 2026-04-09) and the complaint in intervention (Dkt. 17, 2026-04-24) were filed before the replacement bill was introduced, and both plead against SB24-205. The stay order already reaches the new act: it bars enforcement of \"SB24-205 (or any legislation replacing or amending SB24-205 enacted during this legislative session)\", and it orders xAI to file its preliminary injunction motion \"and, if necessary, file an amended complaint, within 28 days after final adoption of rulemaking implementing SB24-205 or any legislation that may replace or amend SB24-205\" (Dkt. 24, paragraphs 1 and 2). As of 2026-10-18 the docket holds no amended complaint, no preliminary injunction motion, no suggestion of mootness and no further stay order; the only entries since the stay are a motion to withdraw as attorney (Dkt. 25) and the order on it, both 2026-10-02. So the case is paused, not over: what it challenges next depends on the complaint xAI files once Colorado adopts final rules under SB26-189.",
       "why_it_matters": null,
       "target_models": [],
       "disputed_datasets": [],
@@ -21822,7 +21828,8 @@
         "Colorado",
         "SB24-205",
         "Equal Protection",
-        "United States intervenor"
+        "United States intervenor",
+        "SB26-189"
       ],
       "related_slugs": [],
       "display_order": 2418,
@@ -21843,7 +21850,7 @@
       "latest_development": "TERMINATED participation of Counsel for Amicus Curiae Stephany S. Kim, representing Amicus Curiae Knight First Amendment Institute - Columbia University. [Entered: 09/10/2026 01:40 PM]",
       "latest_development_date": "2026-09-10",
       "courtlistener_url": "https://www.courtlistener.com/docket/72518947/xai-llc-v-bonta/",
-      "executive_summary": null,
+      "executive_summary": "X.AI LLC appealed to the Court of Appeals for the Ninth Circuit on March 17, 2026, in a case against Rob Bonta. The docket entries show an appeal from a district court order denying a preliminary injunction, with briefing by the appellant and appellee and multiple amicus briefs. As of the newest entry on September 10, 2026, the court granted a motion for leave to file an amicus brief by the Minderoo Centre for Technology and Democracy at the University of Cambridge, and oral argument is scheduled for November 18, 2026, in Pasadena.",
       "why_it_matters": null,
       "target_models": [],
       "disputed_datasets": [],
@@ -22028,5 +22035,5 @@
       "verified_date": "2026-10-18"
     }
   ],
-  "generated": "2026-10-18T18:34:57Z"
+  "generated": "2026-10-19T00:30:34Z"
 }
