@@ -25,7 +25,7 @@
             }
         ]
     },
-    "short": "The EDM Council's capability model for measuring data management maturity, widely used in financial services.",
+    "short": "The DCAM framework is the EDM Council's model for assessing data management maturity. DCAM, the Data Management Capability Assessment Model, is widely adopted in financial services. Version 2.2 defines 38 capabilities and 136 sub capabilities across eight components on a six level maturity scale; version 3.1 is current per the Council's 2026 benchmark.",
     "title": "EDM Council DCAM",
     "parent": "data-management-frameworks",
     "children": [
@@ -46,7 +46,15 @@
             "journal": "Big Data and Cognitive Computing"
         }
     ],
-    "seo_title": "DCAM Explained: EDM Council Data Management Maturity",
+    "seo_title": "DCAM Framework: EDM Council Data Maturity Model",
+    "review_note": "2026-10-18, bridge row 1113 (srj): seo_title, short (the opening answer and the source of the meta description) and meta_description rewritten to lead with the searched wording. Facts are this page's own (its one-paragraph answer). Nothing else on the page was changed, and updated_at was left as it was, so Guidance last updated still dates the guidance. Previous values are in previous_meta.",
     "focus_keyword": "DCAM",
-    "meta_description": "DCAM is the EDM Council's data management capability model. Learn its components and how it supports AI-ready data management."
+    "previous_meta": {
+        "short": "The EDM Council's capability model for measuring data management maturity, widely used in financial services.",
+        "seo_title": "DCAM Explained: EDM Council Data Management Maturity",
+        "bridge_row": 1113,
+        "replaced_on": "2026-10-18",
+        "meta_description": "DCAM is the EDM Council's data management capability model. Learn its components and how it supports AI-ready data management."
+    },
+    "meta_description": "The DCAM framework is the EDM Council's Data Management Capability Assessment Model: eight components, a six level maturity scale, how to assess."
 }
