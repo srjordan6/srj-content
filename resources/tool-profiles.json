@@ -8358,6 +8358,7 @@
                 "Desktop Client",
                 "Mobile"
             ],
+            "answer": "Canva AI is the set of AI features built into Canva: image generation, background removal, text effects and presentation assistance inside the design tool most non-designer teams already use. Its value is accessibility rather than frontier quality. A free tier includes limited AI generation credits; Pro, Teams and Enterprise plans are priced per seat.",
             "engine": "Mix of Canva's own models and third-party providers. Text to image uses Stability AI and others.",
             "status": "Active",
             "vendor": "Canva",
@@ -8389,11 +8390,13 @@
                 "Solopreneurs",
                 "Enterprise Operations"
             ],
+            "seo_title": "Canva AI: Features, Pricing and Limits for Teams",
             "use_cases": [
                 "Generating images and backgrounds for marketing collateral without a designer",
                 "Expanding, removing, or replacing image backgrounds in existing assets",
                 "Accelerating slide and social content production for marketing teams"
             ],
+            "review_note": "2026-10-18, bridge row 1113 (srj): seo_title, meta_description and answer (the page's opening 40 to 60 word answer) added to lead with the searched wording. The answer is composed only from this profile's own tagline, value and pricing; name, tagline and every other field are unchanged. The tool page uses these fields when present and falls back to the generated title, description and tagline otherwise. Delete the three keys to return to the generated forms.",
             "alternatives": [
                 "Adobe Firefly",
                 "Midjourney",
@@ -8406,7 +8409,8 @@
                 "Social publishing platforms"
             ],
             "governance_note": "Two practical points. First, the training-provenance question follows the sub-processor, not just Canva: if the underlying image model carries provenance uncertainty, that uncertainty applies to your published assets. Second, the free tier has different data terms than the enterprise tier, and in many organizations both are in use simultaneously, with different staff operating under different agreements without knowing it.",
-            "training_optout": "Canva's terms and its sub-processors' terms both apply. The training-data provenance of the image generation models it uses is inherited from those providers. Enterprise agreements provide stronger data controls."
+            "training_optout": "Canva's terms and its sub-processors' terms both apply. The training-data provenance of the image generation models it uses is inherited from those providers. Enterprise agreements provide stronger data controls.",
+            "meta_description": "Canva AI: image generation, background removal and presentation help in Canva, with limited free AI credits and per-seat paid plans."
         },
         "cerebras": {
             "api": "Yes. OpenAI compatible chat and completions API.",
@@ -24385,6 +24389,7 @@
                 "Web App",
                 "API"
             ],
+            "answer": "Perplexity Enterprise Pro is the enterprise tier of Perplexity's citing answer engine. It keeps the same product and adds the security envelope regulated organizations need: SSO, admin controls, data retention controls, and prompts that are not used for training. Pricing is per seat on an annual contract, with limits set by the contract.",
             "engine": "Same as Perplexity AI: multi-model retrieval-augmented generation with citations.",
             "status": "Active",
             "vendor": "Perplexity",
@@ -24404,11 +24409,13 @@
                 "Compliance/Audit Professionals",
                 "Marketing"
             ],
+            "seo_title": "Perplexity Enterprise Pro: Pricing, SSO and Data Controls",
             "use_cases": [
                 "Organization-wide research capability with audit and admin oversight",
                 "Replacing ad-hoc web research with a citable, policy-compliant tool",
                 "Embedding sourced answers in internal workflows via the API"
             ],
+            "review_note": "2026-10-18, bridge row 1113 (srj): seo_title, meta_description and answer (the page's opening 40 to 60 word answer) added to lead with the searched wording. The answer is composed only from this profile's own tagline, value and pricing; name, tagline and every other field are unchanged. The tool page uses these fields when present and falls back to the generated title, description and tagline otherwise. Delete the three keys to return to the generated forms.",
             "alternatives": [
                 "ChatGPT",
                 "Gemini",
@@ -24421,7 +24428,8 @@
                 "Standard security tooling"
             ],
             "governance_note": "Same evidentiary point as the consumer product, now under admin control. The admin dashboard tells you which seats are active and what the usage looks like, which matters for the AI inventory. Citations are still leads, not evidence, and that rule does not change with the tier.",
-            "training_optout": "Enterprise Pro explicitly excludes customer data from model training. Verify the current contract terms."
+            "training_optout": "Enterprise Pro explicitly excludes customer data from model training. Verify the current contract terms.",
+            "meta_description": "Perplexity Enterprise Pro: the citing answer engine with SSO, admin and data retention controls, and prompts not used for training. Per seat, annual."
         },
         "physical-intelligence": {
             "api": "No hosted service.",
@@ -25181,6 +25189,7 @@
             "access": [
                 "Web App"
             ],
+            "answer": "Google Teachable Machine is a free browser tool from Google that lets anyone train an image, sound or pose classifier in minutes from webcam, microphone or uploaded examples, with no account needed. It exports the trained model to TensorFlow, which makes it the standard classroom demonstration of how supervised machine learning works.",
             "engine": "TensorFlow.js in the browser.",
             "status": "Active",
             "vendor": "Google",
@@ -25199,11 +25208,13 @@
                 "Educators",
                 "Researchers"
             ],
+            "seo_title": "Google Teachable Machine: What It Is, How It Works, Cost",
             "use_cases": [
                 "Teaching classification and bias",
                 "Prototyping simple classifiers",
                 "Maker projects"
             ],
+            "review_note": "2026-10-18, bridge row 1113 (srj): seo_title, meta_description and answer (the page's opening 40 to 60 word answer) added to lead with the searched wording. The answer is composed only from this profile's own tagline, value and pricing; name, tagline and every other field are unchanged. The tool page uses these fields when present and falls back to the generated title, description and tagline otherwise. Delete the three keys to return to the generated forms.",
             "alternatives": [
                 "Machine Learning for Kids",
                 "Code.org",
@@ -25214,7 +25225,8 @@
                 "TensorFlow.js, Arduino, Scratch extensions"
             ],
             "governance_note": "Data stays in the browser unless exported; ideal for lessons on bias because students see it happen.",
-            "training_optout": "Not applicable; local."
+            "training_optout": "Not applicable; local.",
+            "meta_description": "Google Teachable Machine: a free browser tool to train image, sound or pose classifiers in minutes, no account needed, with TensorFlow export."
         },
         "servicenow-ai-governance": {
             "api": "Yes.",
