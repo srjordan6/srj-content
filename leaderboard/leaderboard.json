@@ -8,7 +8,7 @@
    "note": "Head-to-head human preference on general conversation. The closest thing the field has to a general-purpose ranking.",
    "scored": true,
    "source_url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset/viewer/text_style_control/latest",
-   "fetched_at": "2026-10-21T19:00:37Z",
+   "fetched_at": "2026-10-22T00:59:44Z",
    "count": 100,
    "models": [
     {
@@ -129,7 +129,7 @@
    "note": "The same vote mechanic restricted to coding prompts. Ranks differ sharply from the text board, which is the reason to read both.",
    "scored": true,
    "source_url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset/viewer/webdev/latest",
-   "fetched_at": "2026-10-21T19:00:37Z",
+   "fetched_at": "2026-10-22T00:59:44Z",
    "count": 100,
    "models": [
     {
@@ -353,7 +353,7 @@
    "note": "Image understanding and mixed text-image prompts.",
    "scored": true,
    "source_url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset/viewer/vision_style_control/latest",
-   "fetched_at": "2026-10-21T19:00:37Z",
+   "fetched_at": "2026-10-22T00:59:44Z",
    "count": 100,
    "models": [
     {
@@ -474,7 +474,7 @@
    "note": "Models answering with live retrieval, where citation quality matters as much as fluency.",
    "scored": true,
    "source_url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset/viewer/search_style_control/latest",
-   "fetched_at": "2026-10-21T19:00:38Z",
+   "fetched_at": "2026-10-22T00:59:44Z",
    "count": 42,
    "models": [
     {
@@ -591,7 +591,7 @@
   }
  ],
  "date": "2026-10-20",
- "generated": "2026-10-21T19:00:38Z",
+ "generated": "2026-10-22T00:59:44Z",
  "method": "Crowdsourced blind pairwise voting, scored with a Bradley-Terry model and reported as an Elo-style rating with a 95 percent confidence interval. Gaps under roughly 10 points sit inside the noise floor and should not be read as a ranking.",
  "mirror_latest": "2026-10-20",
  "oldest_board_as_of": "2026-10-02",
