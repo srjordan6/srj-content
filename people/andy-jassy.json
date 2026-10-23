@@ -1,7 +1,7 @@
 {
-    "born": "1968-01-13",
+    "born": "1968",
     "died": null,
-    "hook": "Jassy became President and CEO of Amazon on July 5, 2021, succeeding founder Jeff Bezos. He joined Amazon in 1997, helped conceive Amazon Web Services in 2003, and served as CEO of AWS from 2016 until his move to the top role, later making Amazon Bedrock generally available as a foundation model service for AWS customers.",
+    "hook": "Jassy joined Amazon in 1997, conceived what became Amazon Web Services with Jeff Bezos in 2003, led AWS from its 2006 launch and was its chief executive from 2016 to 2021. He succeeded Bezos as president and CEO of Amazon on July 5, 2021. As CEO he has made AI infrastructure, including Amazon's own Trainium chips and large compute agreements with Anthropic and OpenAI, central to the company's spending plans.",
     "name": "Andy Jassy",
     "slug": "andy-jassy",
     "quote": {
@@ -10,25 +10,45 @@
     },
     "fields": [
         "Cloud computing",
-        "E-commerce",
-        "AI infrastructure"
+        "AI infrastructure",
+        "E-commerce"
     ],
     "moniker": "President and CEO of Amazon",
     "sources": {
         "primary": [
             {
                 "url": "https://ir.aboutamazon.com/officers-and-directors/person-details/default.aspx?ItemId=7601ef7b-4732-44e2-84ef-2cccb54ac11a",
-                "name": "Andrew R. Jassy, President and Chief Executive Officer, Amazon Investor Relations"
+                "name": "Andy Jassy, President and Chief Executive Officer, Amazon Investor Relations"
             },
             {
                 "url": "https://www.aboutamazon.com/news/aws/aws-amazon-bedrock-general-availability-generative-ai-innovations",
                 "name": "AWS announces the general availability of Amazon Bedrock, About Amazon, September 28, 2023"
+            },
+            {
+                "url": "https://www.aboutamazon.com/news/company-news/amazon-ceo-andy-jassy-2025-letter-to-shareholders",
+                "name": "Andy Jassy, 2025 Letter to Shareholders, About Amazon"
+            },
+            {
+                "url": "https://www.aboutamazon.com/news/company-news/amazon-invests-additional-5-billion-anthropic-ai",
+                "name": "Amazon invests an additional $5 billion in Anthropic, About Amazon"
+            },
+            {
+                "url": "https://www.aboutamazon.com/news/aws/amazon-open-ai-strategic-partnership-investment",
+                "name": "Amazon and OpenAI strategic partnership and investment, About Amazon"
             }
         ],
         "secondary": [
             {
                 "url": "https://fortune.com/2024/01/18/andy-jassy-amazon-ai-biggest-risk-opportunity-2024/",
                 "name": "Amazon CEO Andy Jassy says AI is the biggest risk and opportunity, Fortune, January 18, 2024"
+            },
+            {
+                "url": "https://time.com/collections/time100-ai-2025/",
+                "name": "TIME100 AI 2025, TIME"
+            },
+            {
+                "url": "https://en.wikipedia.org/wiki/Andy_Jassy",
+                "name": "Andy Jassy, Wikipedia (main source for this profile; dates and roles checked against the primaries listed above)"
             }
         ]
     },
@@ -39,38 +59,71 @@
             "impact": "Begins a career at the company he will later lead."
         },
         {
+            "year": "2003",
+            "event": "Conceives the cloud platform that becomes AWS with Jeff Bezos",
+            "impact": "Sets the plan for Amazon's infrastructure business."
+        },
+        {
             "year": "2006",
-            "event": "Leads the launch of Amazon Web Services",
-            "impact": "Builds the cloud infrastructure business that becomes a major profit engine for Amazon."
+            "event": "AWS launches with Jassy at its head",
+            "impact": "Starts the cloud business that becomes a major part of Amazon's profits."
+        },
+        {
+            "year": "2016",
+            "event": "Becomes CEO of AWS in April",
+            "impact": "Takes formal charge of the cloud unit."
         },
         {
             "year": "2021",
-            "event": "Becomes President and CEO of Amazon on July 5, 2021",
+            "event": "Becomes President and CEO of Amazon on July 5",
             "impact": "Succeeds founder Jeff Bezos as chief executive."
         },
         {
             "year": "2023",
-            "event": "Amazon Bedrock reaches general availability on September 28, 2023",
+            "event": "Amazon Bedrock reaches general availability on September 28",
             "impact": "Extends AWS's generative AI offering to customers building on foundation models."
+        },
+        {
+            "year": "2025",
+            "event": "Named to TIME's TIME100 AI list",
+            "impact": "Recognised among leaders shaping AI."
+        },
+        {
+            "year": "2026",
+            "event": "Amazon expands its compute agreements with OpenAI in February and Anthropic in April",
+            "impact": "Commits large Trainium capacity to two of the leading AI model developers."
         }
     ],
     "nationality": "American",
     "quick_facts": [
-        "President and Chief Executive Officer of Amazon.com",
-        "Joined Amazon as a marketing manager in 1997",
-        "Helped conceive Amazon Web Services in 2003 and led it from launch in 2006",
-        "Served as CEO of AWS from April 2016 until July 2021",
-        "Became President and CEO of Amazon on July 5, 2021",
-        "Oversaw Amazon Bedrock reaching general availability on September 28, 2023"
+        "Holds an AB from Harvard University and an MBA from Harvard Business School.",
+        "Joined Amazon in 1997 and founded and led Amazon Web Services from its inception.",
+        "Served as CEO of AWS from April 2016 until July 2021.",
+        "Became President and CEO of Amazon on July 5, 2021, and sits on the company's board.",
+        "Is a member of the National Academy of Engineering and was named to TIME's TIME100 AI list in 2025.",
+        "His 2025 letter to shareholders described AI as a multiplier across Amazon's businesses and put planned 2026 capital spending at about $200 billion."
     ],
     "achievements": [
         {
             "title": "Amazon Web Services",
-            "impact": "Helped conceive AWS in 2003, led its original team at launch in 2006, and served as its CEO from 2016 to 2021, building it into a leading cloud infrastructure provider."
+            "impact": "Founded and led AWS from its inception, starting with a team of 57 at its 2006 launch, and ran it as CEO from 2016 to 2021."
         },
         {
             "title": "Amazon Bedrock",
-            "impact": "Reached general availability on September 28, 2023, giving AWS customers managed access to multiple foundation models for building generative AI applications."
+            "impact": "Reached general availability on September 28, 2023, giving AWS customers managed access to foundation models from several AI companies through a single API."
+        },
+        {
+            "title": "Trainium and custom AI chips",
+            "impact": "Amazon's own Trainium chips are central to its AI strategy, and his 2025 shareholder letter reported that Trainium3 began shipping in early 2026."
+        },
+        {
+            "title": "Anthropic agreement",
+            "impact": "Amazon agreed to invest $5 billion in Anthropic, with up to $20 billion more tied to commercial milestones, on top of $8 billion invested earlier, while Anthropic committed to spend more than $100 billion on AWS over ten years."
+        },
+        {
+            "title": "OpenAI agreement",
+            "impact": "Amazon agreed to invest $50 billion in OpenAI, starting with $15 billion, and expanded OpenAI's existing $38 billion AWS agreement by $100 billion over eight years, including about 2 gigawatts of Trainium capacity."
         }
-    ]
+    ],
+    "source_basis": "This profile was written mainly from the Wikipedia article on Andy Jassy, retrieved 2026-10-22, with awards, dates and current role checked against Amazon's investor relations biography, Jassy's 2025 shareholder letter, Amazon's Anthropic and OpenAI announcements, and TIME's 2025 TIME100 AI list."
 }
