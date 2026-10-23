@@ -1,0 +1,131 @@
+{
+    "born": null,
+    "died": null,
+    "hook": "John Schulman is a co-founder and the chief scientist of Thinking Machines Lab, the company led by Mira Murati. He was a co-founder of OpenAI, where he led the creation of ChatGPT and co-led the post-training team from 2022 to 2024, and he is the lead author of the reinforcement learning methods Proximal Policy Optimization and Trust Region Policy Optimization. Between OpenAI and Thinking Machines he did alignment research at Anthropic.",
+    "name": "John Schulman",
+    "slug": "john-schulman",
+    "quote": null,
+    "fields": [
+        "Reinforcement learning",
+        "Post-training of language models",
+        "AI alignment"
+    ],
+    "moniker": "Co-founder and Chief Scientist, Thinking Machines Lab",
+    "sources": {
+        "primary": [
+            {
+                "url": "http://joschu.net/",
+                "name": "John Schulman's homepage, joschu.net (read 2026-10-22)"
+            },
+            {
+                "url": "https://arxiv.org/abs/1707.06347",
+                "name": "Schulman, Wolski, Dhariwal, Radford and Klimov, Proximal Policy Optimization Algorithms (arXiv, 2017)"
+            },
+            {
+                "url": "https://arxiv.org/abs/1502.05477",
+                "name": "Schulman, Levine, Moritz, Jordan and Abbeel, Trust Region Policy Optimization (arXiv, ICML 2015)"
+            },
+            {
+                "url": "http://www.jonathanho.me/",
+                "name": "Jonathan Ho's homepage, listing the 2013 robotics papers with Schulman"
+            }
+        ],
+        "secondary": [
+            {
+                "url": "https://en.wikipedia.org/wiki/John_Schulman",
+                "name": "John Schulman, Wikipedia (secondary, for the OpenAI founding date and the Anthropic and Thinking Machines dates)"
+            }
+        ]
+    },
+    "timeline": [
+        {
+            "year": "2013",
+            "event": "Publishes robotics papers at ICRA, RSS and ISRR with Jonathan Ho and Pieter Abbeel",
+            "impact": "Early Berkeley work on manipulation and trajectory optimisation"
+        },
+        {
+            "year": "2015",
+            "event": "Publishes Trust Region Policy Optimization at ICML",
+            "impact": "His first policy optimisation method, with Berkeley colleagues"
+        },
+        {
+            "year": "2015",
+            "event": "Co-founds OpenAI in December, per Wikipedia",
+            "impact": "Shortly before completing his Berkeley PhD"
+        },
+        {
+            "year": "2017",
+            "event": "Posts Proximal Policy Optimization Algorithms in July",
+            "impact": "A simpler successor to TRPO for policy optimisation"
+        },
+        {
+            "year": "2022-2024",
+            "event": "Co-leads OpenAI's post-training team",
+            "impact": "Develops the models behind ChatGPT and the OpenAI API"
+        },
+        {
+            "year": "2024",
+            "event": "Joins Anthropic's Alignment Science team in August, per Wikipedia",
+            "impact": "Moves to alignment research"
+        },
+        {
+            "year": "2025",
+            "event": "Joins Thinking Machines Lab as co-founder and chief scientist, announced in February, per Wikipedia",
+            "impact": "Works with Mira Murati on the new lab"
+        }
+    ],
+    "nationality": null,
+    "quick_facts": [
+        "Co-founder and chief scientist at Thinking Machines, according to his own site, joschu.net (read 2026-10-22)",
+        "Co-founded OpenAI, where he led the creation of ChatGPT and, from 2022 to 2024, co-led the post-training team that developed models for ChatGPT and the OpenAI API",
+        "Worked on the Alignment Science team at Anthropic, which Wikipedia dates from August 2024 to February 2025",
+        "Lead author of Trust Region Policy Optimization (ICML 2015) and Proximal Policy Optimization (2017)",
+        "PhD in computer science from UC Berkeley, advised by Pieter Abbeel, working on robotics and reinforcement learning, after studying physics at Caltech"
+    ],
+    "achievements": [
+        {
+            "title": "Proximal Policy Optimization (2017)",
+            "impact": "Introduced PPO, a policy gradient method for reinforcement learning, with Filip Wolski, Prafulla Dhariwal, Alec Radford and Oleg Klimov."
+        },
+        {
+            "title": "Trust Region Policy Optimization (2015)",
+            "impact": "Introduced TRPO with Sergey Levine, Philipp Moritz, Michael Jordan and Pieter Abbeel at ICML 2015."
+        },
+        {
+            "title": "ChatGPT and OpenAI post-training",
+            "impact": "Led the creation of ChatGPT and co-led OpenAI's post-training team from 2022 to 2024, by his own account."
+        },
+        {
+            "title": "Co-founder, Thinking Machines Lab",
+            "impact": "Joined Mira Murati's company as a co-founder and its chief scientist."
+        }
+    ],
+    "source_basis": "Written from John Schulman's own homepage, joschu.net, read on 2026-10-22, and the arXiv records of his papers. Wikipedia, retrieved 2026-10-22, is secondary and supplies only the dates his homepage does not give.",
+    "editor_points": [
+        {
+            "desc": "Co-founder and chief scientist at Thinking Machines, the lab led by Mira Murati.",
+            "name": "Thinking Machines Lab",
+            "source": "http://joschu.net/"
+        },
+        {
+            "desc": "Did research on Anthropic's Alignment Science team, from August 2024 to February 2025 per Wikipedia.",
+            "name": "Anthropic",
+            "source": "http://joschu.net/"
+        },
+        {
+            "desc": "Co-founder of OpenAI, where he led the creation of ChatGPT and from 2022 to 2024 co-led the post-training team that developed models for ChatGPT and the OpenAI API.",
+            "name": "OpenAI",
+            "source": "http://joschu.net/"
+        },
+        {
+            "desc": "Lead author of Proximal Policy Optimization (2017) and Trust Region Policy Optimization (ICML 2015).",
+            "name": "PPO and TRPO",
+            "source": "https://arxiv.org/abs/1707.06347"
+        },
+        {
+            "desc": "PhD in computer science from UC Berkeley, advised by Pieter Abbeel, on robotics and reinforcement learning. Before that a brief stint in neuroscience at Berkeley and physics at Caltech.",
+            "name": "Education",
+            "source": "http://joschu.net/"
+        }
+    ]
+}
