@@ -1,81 +1,104 @@
 {
     "born": null,
     "died": null,
-    "hook": "Dolgov has been inside Google and Waymo's self-driving effort from its earliest days as a Google X project through its emergence as the first company to operate paid, fully driverless rides at commercial scale, rising from founding engineer to Co-CEO across that entire arc.",
+    "hook": "Dmitri Dolgov is co-CEO of Waymo, a post he has held since April 2021. He was one of the founders of Google's self-driving car project when it began in 2009, a project started by Sebastian Thrun, and ran its software as a Distinguished Software Engineer until it became Waymo in 2016, when he became chief technology officer. Before Google he was a senior research scientist at the Toyota Research Institute and a postdoctoral researcher on Stanford's DARPA Urban Challenge team.",
     "name": "Dmitri Dolgov",
     "slug": "dmitri-dolgov",
-    "quote": {
-        "text": "Full autonomy is still one of the hardest technology problems of our time.",
-        "context": "Attributed in Waymo public communications and interviews on the complexity of driverless technology"
-    },
+    "quote": null,
     "fields": [
         "Autonomous vehicles",
         "Robotics engineering"
     ],
-    "moniker": "Co-CEO Who Took Waymo Driverless",
+    "moniker": "Co-CEO of Waymo",
     "sources": {
         "primary": [
             {
-                "url": "https://waymo.com/about/",
-                "name": "Waymo leadership team, official Waymo site"
+                "url": "https://www.linkedin.com/in/dmitri-dolgov",
+                "name": "Dmitri Dolgov, LinkedIn profile (PDF supplied by the editor, 2026-10-22)"
             },
             {
-                "url": "https://waymo.com/blog/2023/03/waymo-announces-new-leadership.html",
-                "name": "Waymo Announces New Leadership Team, Waymo Blog (2023)"
+                "url": "https://waymo.com/about/",
+                "name": "Waymo leadership team, official Waymo site"
             }
         ],
         "secondary": [
-            {
-                "url": "https://techcrunch.com/2023/03/23/waymo-names-dmitri-dolgov-and-tekedra-mawakana-as-co-ceos/",
-                "name": "Waymo names Dmitri Dolgov and Tekedra Mawakana as co-CEOs, TechCrunch (2023)"
-            }
         ]
     },
     "timeline": [
         {
+            "year": "2006",
+            "event": "Completes a PhD in computer science at the University of Michigan and joins Stanford's DARPA Urban Challenge team as a postdoctoral researcher",
+            "impact": "Begins work on autonomous driving"
+        },
+        {
+            "year": "2006-2009",
+            "event": "Senior research scientist at the Toyota Research Institute",
+            "impact": "Industry research before Google"
+        },
+        {
             "year": "2009",
-            "event": "Joins Google's self-driving car project at launch",
-            "impact": "Founding technical team member"
+            "event": "Joins Google's new self-driving car project in February as one of its founders and head of software",
+            "impact": "Works on the project Sebastian Thrun started"
         },
         {
             "year": "2016",
-            "event": "Google's project spins out as Waymo",
-            "impact": "Becomes an Alphabet company with Dolgov as CTO"
+            "event": "The project becomes Waymo, and he becomes CTO in December",
+            "impact": "Leads Waymo's technology"
         },
         {
-            "year": "2020",
-            "event": "Waymo launches fully driverless rides in Phoenix",
-            "impact": "First no-safety-driver commercial robotaxi service"
-        },
-        {
-            "year": "2023",
-            "event": "Named Waymo Co-CEO",
-            "impact": "Joint chief executive leadership"
+            "year": "2021",
+            "event": "Becomes co-CEO of Waymo in April",
+            "impact": "Shares the chief executive role and sets overall strategy"
         }
     ],
     "nationality": "Russian-American",
     "quick_facts": [
-        "Joined Google's self-driving car project in 2009, one of its earliest engineers",
-        "Named Waymo's Chief Technology Officer, leading its driving technology",
-        "Became Waymo Co-CEO in 2023, alongside Tekedra Mawakana",
-        "Holds a PhD in robotics from the University of Michigan"
+        "Co-CEO of Waymo since April 2021, responsible for overall strategy with a focus on the Waymo Driver, according to his LinkedIn profile",
+        "Chief technology officer of Waymo from December 2016 to April 2021",
+        "One of the founders of the Google self-driving car project, which began in 2009 and became Waymo in 2016, and its head of software as a Distinguished Software Engineer from February 2009 to December 2016",
+        "Senior research scientist at the Toyota Research Institute from 2006 to 2009, and a postdoctoral researcher on Stanford's DARPA Urban Challenge team in 2006",
+        "PhD in computer science from the University of Michigan in 2006, on multi-agent systems and Markov decision processes",
+        "BS and MS in physics and mathematics from the Moscow Institute of Physics and Technology"
     ],
     "achievements": [
         {
-            "title": "Founding engineer, Google self-driving car project (2009)",
-            "impact": "One of the small original team that built the technology underlying Waymo."
+            "title": "Founder and head of software, Google self-driving car project (2009 to 2016)",
+            "impact": "One of the founders of the project that became Waymo, leading its software as a Distinguished Software Engineer."
         },
         {
-            "title": "Chief Technology Officer, Waymo",
-            "impact": "Directed the engineering behind Waymo's driving software and sensor systems as the company scaled from test vehicles to commercial robotaxi service."
+            "title": "Chief Technology Officer, Waymo (2016 to 2021)",
+            "impact": "Led Waymo's technology from its formation as a company."
         },
         {
-            "title": "Waymo's fully driverless commercial launch (Phoenix, 2020)",
-            "impact": "Under his technical leadership, Waymo became the first company to offer rider-only, no-safety-driver rides to the public."
+            "title": "Co-CEO, Waymo (2021 to present)",
+            "impact": "Responsible for Waymo's overall strategy, with a focus on the Waymo Driver."
         },
         {
-            "title": "Named Co-CEO of Waymo (2023)",
-            "impact": "Elevated to joint chief executive as Waymo expanded driverless service to additional U.S. cities."
+            "title": "Early autonomous driving research",
+            "impact": "Postdoctoral researcher on Stanford's DARPA Urban Challenge team in 2006 and senior research scientist at the Toyota Research Institute from 2006 to 2009."
+        }
+    ],
+    "source_basis": "Rebuilt 2026-10-23 from Dmitri Dolgov's LinkedIn profile, supplied as a PDF by the editor on 2026-10-22. The earlier record dated his co-CEO post to 2023 and his PhD to robotics, cited two pages that now return 404, and carried an unsourced quote. All three were corrected or removed.",
+    "editor_points": [
+        {
+            "desc": "Co-CEO of Waymo since April 2021, responsible for overall strategy with a focus on the Waymo Driver. CTO from December 2016 to April 2021.",
+            "name": "Co-CEO of Waymo",
+            "source": "https://www.linkedin.com/in/dmitri-dolgov"
+        },
+        {
+            "desc": "One of the founders of the Google self-driving car project, which began in 2009 and became Waymo in 2016, and its head of software as a Distinguished Software Engineer from February 2009 to December 2016.",
+            "name": "Google self-driving car project",
+            "source": "https://www.linkedin.com/in/dmitri-dolgov"
+        },
+        {
+            "desc": "Senior research scientist at the Toyota Research Institute from 2006 to 2009, and a postdoctoral researcher on Stanford's DARPA Urban Challenge team in 2006.",
+            "name": "Before Google",
+            "source": "https://www.linkedin.com/in/dmitri-dolgov"
+        },
+        {
+            "desc": "PhD in computer science from the University of Michigan (2006, multi-agent systems and Markov decision processes). BS and MS in physics and mathematics from the Moscow Institute of Physics and Technology.",
+            "name": "Education",
+            "source": "https://www.linkedin.com/in/dmitri-dolgov"
         }
     ]
 }
