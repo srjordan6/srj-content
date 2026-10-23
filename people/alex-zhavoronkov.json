@@ -1,82 +1,127 @@
 {
     "born": "1980",
     "died": null,
-    "hook": "Zhavoronkov built Insilico Medicine to prove that generative AI could do more than analyze biology, it could design new drug candidates outright, and Rentosertib, discovered and designed by Insilico's AI pipeline, became one of the first such molecules to reach human clinical trials.",
+    "hook": "Alex Zhavoronkov founded Insilico Medicine in 2014 to apply deep learning and generative models to drug discovery and aging research. The company's lead program, the TNIK inhibitor rentosertib for idiopathic pulmonary fibrosis, went from a nominated preclinical candidate in 2021 to positive Phase IIa results in 2024. He chairs Insilico's board and leads it as CEO, with Feng Ren serving as co-CEO, and he has written widely on longevity science.",
     "name": "Alex Zhavoronkov",
     "slug": "alex-zhavoronkov",
-    "quote": {
-        "text": "We are not just using AI to analyze biology, we are using it to generate entirely new hypotheses and molecules that no human would have designed.",
-        "context": "A recurring theme of Zhavoronkov's public talks and interviews on Insilico's generative drug discovery approach"
-    },
+    "quote": null,
     "fields": [
-        "AI-driven biotechnology",
+        "AI drug discovery",
+        "Generative chemistry",
         "Longevity research",
-        "Drug discovery"
+        "Biotechnology"
     ],
-    "moniker": "Pioneer of AI-Driven Drug Discovery",
+    "moniker": "Founder and CEO, Insilico Medicine",
     "sources": {
         "primary": [
             {
                 "url": "https://insilico.com/about",
-                "name": "Alex Zhavoronkov, official bio, Insilico Medicine"
+                "name": "Insilico Medicine, About (mission and offices)"
             },
             {
                 "url": "https://insilico.com/rentosertib",
                 "name": "Insilico Medicine, Rentosertib clinical program overview"
+            },
+            {
+                "url": "https://insilico.com/team",
+                "name": "Insilico Medicine, Leadership team"
+            },
+            {
+                "url": "https://ir.insilico.com/en/corporate-governance/",
+                "name": "Insilico Medicine Investor Relations, Corporate governance and director biographies"
+            },
+            {
+                "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Zhavoronkov+DDR1+kinase+inhibitors+deep+learning+2019",
+                "name": "Zhavoronkov et al., Deep learning enables rapid identification of potent DDR1 kinase inhibitors, Nature Biotechnology 37 (2019), PubMed record 31477924"
             }
         ],
         "secondary": [
             {
                 "url": "https://www.wired.com/story/insilico-medicine-ai-drug-clinical-trial/",
                 "name": "This AI Drug Was Designed From Scratch. It's Now in Clinical Trials, Wired (2023)"
+            },
+            {
+                "url": "https://www.genengnews.com/topics/artificial-intelligence/insilico-moves-hq-to-cambridge-ma-completes-ipf-trial-enrollment/",
+                "name": "Insilico moves HQ to Cambridge, MA, completes IPF trial enrollment, GEN (June 2024)"
+            },
+            {
+                "url": "https://www.genengnews.com/topics/artificial-intelligence/alex-zhavoronkov-aims-to-take-over-the-drug-development-world-with-ai/",
+                "name": "Alex Zhavoronkov aims to take over the drug development world with AI, GEN (June 2023)"
+            },
+            {
+                "url": "https://en.wikipedia.org/wiki/Alex_Zhavoronkov",
+                "name": "Alex Zhavoronkov, Wikipedia (main source for this profile; dates and roles checked against the primaries listed above)"
             }
         ]
     },
     "timeline": [
         {
-            "year": "2014",
-            "event": "Founds Insilico Medicine",
-            "impact": "AI-first drug discovery company established"
+            "year": "2008",
+            "event": "Completes a PhD in physics and mathematics at Moscow State University",
+            "impact": "Follows a master's in biotechnology from Johns Hopkins University in 2007"
         },
         {
-            "year": "2016",
-            "event": "Publishes early work applying GANs to drug discovery",
-            "impact": "Generative AI for molecule design demonstrated"
+            "year": "2013",
+            "event": "Publishes The Ageless Generation",
+            "impact": "Sets out his case for the economic weight of aging research"
+        },
+        {
+            "year": "2014",
+            "event": "Founds Insilico Medicine",
+            "impact": "Starts the company he still leads"
+        },
+        {
+            "year": "2019",
+            "event": "Publishes GENTRL in Nature Biotechnology as first author",
+            "impact": "Demonstrates generative design of DDR1 kinase inhibitors"
         },
         {
             "year": "2021",
-            "event": "Insilico's AI-discovered drug candidate enters clinical trials",
-            "impact": "First fully AI-discovered and designed molecule to reach human testing"
+            "event": "Insilico nominates its TNIK inhibitor for idiopathic pulmonary fibrosis in February and begins a Phase 0 study in Australia in November",
+            "impact": "Takes its lead AI-derived program into human testing"
         },
         {
             "year": "2023",
-            "event": "Rentosertib advances through Phase II trials",
-            "impact": "AI-drug-discovery pipeline validated at a later clinical stage"
+            "event": "First patients are dosed in the Phase II study of the drug in June",
+            "impact": "Moves the program into patients with the disease"
+        },
+        {
+            "year": "2024",
+            "event": "Insilico moves its headquarters to Cambridge, Massachusetts, and reports positive Phase IIa results",
+            "impact": "China Phase IIa enrollment of 71 patients was completed in June"
+        },
+        {
+            "year": "2025",
+            "event": "The drug receives the USAN generic name rentosertib in March",
+            "impact": "Gives the program its official nonproprietary name"
         }
     ],
-    "nationality": "American",
+    "nationality": null,
     "quick_facts": [
-        "Founder and CEO of Insilico Medicine, an AI-driven drug discovery company",
-        "Led development of Rentosertib, among the first AI-discovered and AI-designed drugs to reach human clinical trials",
-        "Coined the concept of 'longevity biotechnology' as a distinct research field",
-        "Author of The Ageless Generation (2013) and hundreds of peer-reviewed papers"
+        "Founded Insilico Medicine in 2014 and, according to the company's leadership page retrieved in October 2026, is its chairman and CEO, with Feng Ren as co-CEO.",
+        "Born in Riga, Latvia, he holds two bachelor's degrees from Queen's University in Canada (2001), a master's in biotechnology from Johns Hopkins University (2007) and a PhD in physics and mathematics from Moscow State University (2008).",
+        "Insilico's governance page credits him with more than 300 research papers and three books, among them The Ageless Generation.",
+        "Insilico moved its headquarters to Cambridge, Massachusetts, in 2024 and lists further offices in Hong Kong, Abu Dhabi and Shanghai.",
+        "Insilico's leadership page lists him as a Clarivate highly cited scientist for 2022.",
+        "Earlier roles listed in Insilico's governance filings include Deep Longevity, from 2020 to 2023, and the Biogerontology Research Foundation, from 2008 to 2018."
     ],
     "achievements": [
         {
             "title": "Founding Insilico Medicine (2014)",
-            "impact": "Built one of the first companies to apply generative AI directly to drug target discovery and molecule design, not just data analysis."
+            "impact": "Built a company that runs target discovery and molecule design through its own AI platform, and that now reports a presence in the United States, Greater China, Canada and the Middle East."
         },
         {
-            "title": "Rentosertib reaches Phase II clinical trials",
-            "impact": "Among the first drug candidates whose target discovery, molecular design, and trial-readiness were all substantially AI-generated, a landmark proof of concept for the field."
+            "title": "The rentosertib program",
+            "impact": "Insilico reports that its Pharma.AI platform identified TNIK as an anti-fibrotic target and produced rentosertib. The program moved from preclinical nomination in February 2021 to a Phase 0 study in Australia that November, first Phase II dosing in June 2023 and positive Phase IIa topline results in November 2024. The drug received its USAN generic name in March 2025."
         },
         {
-            "title": "Publishing extensively on AI in aging and drug discovery",
-            "impact": "His lab's research helped define generative adversarial networks' application to molecular generation, an approach now widely used across the industry."
+            "title": "GENTRL in Nature Biotechnology (2019)",
+            "impact": "As first author, described generative tensorial reinforcement learning, a deep generative model for designing small molecules, and used it to find inhibitors of the DDR1 kinase."
         },
         {
-            "title": "Advocacy for longevity biotechnology as a research category",
-            "impact": "Helped establish aging itself as a legitimate, fundable target for biotech research and AI application."
+            "title": "Writing on longevity",
+            "impact": "Wrote The Ageless Generation (2013) on how advances in biomedicine could change the global economy, and has continued to publish on aging research alongside his drug discovery work."
         }
-    ]
+    ],
+    "source_basis": "This profile was written mainly from the Wikipedia article on Alex Zhavoronkov, retrieved 2026-10-22, with degrees, dates, awards and current role checked against Insilico Medicine's leadership and investor relations pages, its rentosertib program page and the 2019 Nature Biotechnology record."
 }
