@@ -1,96 +1,197 @@
 {
     "born": "1947",
     "died": null,
-    "hook": "Hinton kept faith with neural networks through two AI winters, and won. The training method he championed in 1986 and the 2012 breakthrough his lab produced turned a marginal idea into the technology behind modern AI. Then, at the peak of vindication, he quit Google to warn the world about what he had helped build, giving AI risk its most credentialed voice.",
+    "hook": "Geoffrey Hinton spent decades arguing that computers could learn the way brains do, by tuning the connections between simple units, during years when most of the field had turned away from neural networks. His Boltzmann machines, his part in bringing backpropagation into wide use, and the 2012 image recognition network he built with his students Alex Krizhevsky and Ilya Sutskever helped make deep learning the main method in AI. He shared the 2018 Turing Award with Yoshua Bengio and Yann LeCun and the 2024 Nobel Prize in Physics with John Hopfield. In 2023 he left Google so that he could speak openly about the risks of the technology he helped build.",
     "name": "Geoffrey Hinton",
     "slug": "geoffrey-hinton",
     "quote": {
-        "text": "I console myself with the normal excuse: If I hadn't done it, somebody else would have.",
-        "context": "On his life's work, interview with The New York Times, May 2023"
+        "text": "The unique problem with AI is that if it goes wrong, if it takes over, you don't get a second chance.",
+        "context": "Interview with The Guardian, 13 October 2026, explaining why uncertainty about AI's future is no reason for complacency"
     },
     "fields": [
         "Machine learning",
+        "Artificial neural networks",
         "Cognitive science",
-        "AI safety advocacy"
+        "AI safety"
     ],
-    "moniker": "The Godfather of Deep Learning",
+    "moniker": "The Godfather of AI",
     "sources": {
         "primary": [
             {
-                "url": "https://www.nature.com/articles/323533a0",
-                "name": "Learning representations by back-propagating errors, Nature 323 (1986)"
+                "url": "https://www.nobelprize.org/prizes/physics/2024/hinton/facts/",
+                "name": "Geoffrey Hinton, Facts, Nobel Prize in Physics 2024, NobelPrize.org"
+            },
+            {
+                "url": "https://www.nobelprize.org/prizes/physics/2024/summary/",
+                "name": "The Nobel Prize in Physics 2024, summary and prize motivation, NobelPrize.org"
+            },
+            {
+                "url": "https://www.acm.org/binaries/content/assets/press-releases/2019/march/turing-award-2018.pdf",
+                "name": "Fathers of the Deep Learning Revolution Receive ACM A.M. Turing Award, ACM press release (March 27, 2019)"
+            },
+            {
+                "url": "https://awards.acm.org/turing",
+                "name": "ACM A.M. Turing Award, 2018 recipients and select technical accomplishments, ACM"
+            },
+            {
+                "url": "https://www.cs.toronto.edu/~hinton/shortcv.pdf",
+                "name": "Curriculum Vitae, Geoffrey E. Hinton (dated January 6, 2025), University of Toronto"
+            },
+            {
+                "url": "https://www.cs.toronto.edu/~hinton/",
+                "name": "Geoffrey E. Hinton, home page, Department of Computer Science, University of Toronto"
+            },
+            {
+                "url": "https://doi.org/10.1038/323533a0",
+                "name": "Learning representations by back-propagating errors, Rumelhart, Hinton and Williams, Nature 323 (1986)"
             },
             {
                 "url": "https://papers.nips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html",
-                "name": "ImageNet Classification with Deep Convolutional Neural Networks (AlexNet), NeurIPS 2012"
+                "name": "ImageNet Classification with Deep Convolutional Neural Networks (AlexNet), Krizhevsky, Sutskever and Hinton, NIPS 2012"
+            },
+            {
+                "url": "https://qeprize.org/winners/modern-machine-learning",
+                "name": "Modern Machine Learning, 2025 Queen Elizabeth Prize for Engineering"
             }
         ],
         "secondary": [
             {
-                "url": "https://www.nytimes.com/2023/05/01/technology/ai-google-chatbot-engineer-quits-hinton.html",
-                "name": "'The Godfather of A.I.' Leaves Google and Warns of Danger Ahead, The New York Times (May 1, 2023)"
+                "url": "https://www.technologyreview.com/2023/05/01/1072478/deep-learning-pioneer-geoffrey-hinton-quits-google/",
+                "name": "Deep learning pioneer Geoffrey Hinton quits Google, MIT Technology Review (May 1, 2023)"
             },
             {
-                "url": "https://www.nobelprize.org/prizes/physics/2024/hinton/facts/",
-                "name": "Nobel Prize in Physics 2024, official citation"
+                "url": "https://www.theguardian.com/technology/2023/may/02/geoffrey-hinton-godfather-of-ai-quits-google-warns-dangers-of-machine-learning",
+                "name": "'Godfather of AI' Geoffrey Hinton quits Google and warns over dangers of misinformation, The Guardian (May 2, 2023)"
+            },
+            {
+                "url": "https://fortune.com/2024/10/10/controversy-ai-pioneer-geoffrey-hinton-nobel-prize-tech/",
+                "name": "The controversy surrounding AI pioneer Geoffrey Hinton's Nobel Prize misses the point, Vivek Wadhwa, Fortune (October 10, 2024)"
+            },
+            {
+                "url": "https://people.idsia.ch/~juergen/physics-nobel-2024-plagiarism.html",
+                "name": "A Nobel Prize for Plagiarism, Jürgen Schmidhuber, IDSIA Technical Report IDSIA-24-24 (v3, October 2025)"
+            },
+            {
+                "url": "https://www.thecrimson.com/article/2026/5/28/garber-honorary-degrees-2026/",
+                "name": "Harvard Awards Five Honorary Degrees Across Science, Literature, and the Arts, The Harvard Crimson (May 28, 2026)"
+            },
+            {
+                "url": "https://www.theguardian.com/us-news/2026/oct/13/geoffrey-hinton-trump-ai-tech",
+                "name": "AI godfather Geoffrey Hinton: 'We're creating alien beings. I'm willing to be selfish and choose humans', Leyland Cecco, The Guardian (October 13, 2026)"
+            },
+            {
+                "url": "https://en.wikipedia.org/wiki/Geoffrey_Hinton",
+                "name": "Geoffrey Hinton, Wikipedia (main source for this profile; awards, degrees and dates checked against the primaries listed above)"
             }
         ]
     },
     "timeline": [
         {
+            "year": "1970",
+            "event": "Graduates from Cambridge with a BA (Hons) in experimental psychology",
+            "impact": "Starts out studying the mind, the source of the brain-inspired view of computing he later pursued"
+        },
+        {
+            "year": "1978",
+            "event": "Awarded a PhD in artificial intelligence by the University of Edinburgh for research carried out from 1972 to 1975",
+            "impact": "Trains in AI under Christopher Longuet-Higgins, who favoured the symbolic approach that Hinton went on to challenge"
+        },
+        {
+            "year": "1982",
+            "event": "Joins Carnegie Mellon University as an assistant professor, later associate professor, after research posts at Sussex, UC San Diego and the MRC Applied Psychology Unit in Cambridge",
+            "impact": "Gives him a US base during the years his best known early papers appeared"
+        },
+        {
+            "year": "1985",
+            "event": "Publishes A learning algorithm for Boltzmann machines with David Ackley and Terry Sejnowski in Cognitive Science",
+            "impact": "Introduces a network that finds hidden structure in data using methods from statistical physics, the work the Nobel committee later highlighted"
+        },
+        {
             "year": "1986",
-            "event": "Backpropagation paper in Nature",
-            "impact": "Deep networks become trainable"
+            "event": "Co-authors Learning representations by back-propagating errors with David Rumelhart and Ronald Williams in Nature",
+            "impact": "Shows that backpropagation lets layered networks learn their own internal representations and helps make it the standard training method, though earlier versions of the technique existed"
         },
         {
             "year": "1987",
-            "event": "Moves to Canada, later founding the Toronto ML group",
-            "impact": "Builds the school that produces the field's leaders"
+            "event": "Becomes a professor of computer science at the University of Toronto and a fellow of the Canadian Institute for Advanced Research",
+            "impact": "Toronto becomes his base for the rest of his career, apart from three years in London"
+        },
+        {
+            "year": "1998",
+            "event": "Moves to University College London as founding director of the Gatsby Computational Neuroscience Unit, and is elected a Fellow of the Royal Society",
+            "impact": "Leads a new centre for computational neuroscience before returning to Toronto in 2001"
         },
         {
             "year": "2012",
-            "event": "AlexNet wins ImageNet",
-            "impact": "Deep learning goes mainstream overnight"
+            "event": "Presents ImageNet Classification with Deep Convolutional Neural Networks, written with Alex Krizhevsky and Ilya Sutskever, at NIPS",
+            "impact": "Their network, later known as AlexNet, cuts image recognition error far below earlier methods and turns computer vision toward deep learning"
         },
         {
-            "year": "2018",
-            "event": "Turing Award with Bengio and LeCun",
-            "impact": "The 'deep learning conspiracy' canonized"
+            "year": "2013",
+            "event": "Google acquires DNNresearch, the company he formed with Krizhevsky and Sutskever, and he starts working half time at Google",
+            "impact": "His group's methods move into one of the largest technology companies, while he keeps his University of Toronto post"
+        },
+        {
+            "year": "2017",
+            "event": "Becomes Chief Scientific Adviser to the Vector Institute in Toronto",
+            "impact": "Gives his backing to a new Toronto centre for AI research in an unpaid role"
+        },
+        {
+            "year": "2019",
+            "event": "ACM names him, Yoshua Bengio and Yann LeCun recipients of the 2018 Turing Award",
+            "impact": "Computing's top prize, worth $1 million, honours the three for making deep neural networks central to computing"
         },
         {
             "year": "2023",
-            "event": "Resigns from Google to discuss AI dangers",
-            "impact": "Risk debate gains its most decorated insider"
+            "event": "Leaves Google in May after about ten years so that he can speak freely about the dangers of AI",
+            "impact": "Becomes one of the most prominent voices warning about misinformation, job losses and the risk of AI escaping human control"
         },
         {
             "year": "2024",
-            "event": "Nobel Prize in Physics",
-            "impact": "Neural networks enter the scientific pantheon"
+            "event": "Shares the Nobel Prize in Physics with John Hopfield",
+            "impact": "The prize recognises foundational discoveries behind machine learning with artificial neural networks, with Hinton's share tied to the Boltzmann machine"
+        },
+        {
+            "year": "2026",
+            "event": "Receives an honorary doctorate from Harvard at its May Commencement",
+            "impact": "One of five honorary degrees Harvard conferred that year, with the Crimson pointing to his foundational work in AI"
         }
     ],
-    "nationality": "British-Canadian",
+    "nationality": "Canadian and British",
     "quick_facts": [
-        "Co-authored the 1986 backpropagation paper that made training deep networks practical",
-        "AlexNet (2012), built with his students Krizhevsky and Sutskever, ignited the deep-learning era",
-        "Turing Award 2018 (with Bengio and LeCun); Nobel Prize in Physics 2024 (with Hopfield)",
-        "Left Google in 2023 to speak freely about AI risk"
+        "Born on 6 December 1947 in London, he holds Canadian citizenship as well as British",
+        "Holds a BA (Hons) in experimental psychology from Cambridge (1970) and a PhD in artificial intelligence from Edinburgh, awarded in 1978",
+        "University Professor Emeritus in the Department of Computer Science at the University of Toronto, his base since 1987 apart from three years in London",
+        "Chief Scientific Adviser to the Vector Institute since 2017, an unpaid role",
+        "Worked half time at Google from March 2013, after it bought his startup DNNresearch, and left in 2023 as a VP and Engineering Fellow",
+        "Shared the 2018 ACM Turing Award with Yoshua Bengio and Yann LeCun, and the 2024 Nobel Prize in Physics with John Hopfield",
+        "One of seven engineers awarded the 2025 Queen Elizabeth Prize for Engineering for modern machine learning"
     ],
     "achievements": [
         {
-            "title": "Learning representations by back-propagating errors (1986, with Rumelhart and Williams)",
-            "impact": "Made multi-layer network training practical, the algorithm modern AI still runs on."
+            "title": "Boltzmann machines (1985, with David Ackley and Terry Sejnowski)",
+            "impact": "One of the first neural networks that could learn internal representations in hidden units, built with ideas taken from statistical physics. The Nobel Foundation's account of his 2024 prize centres on this work."
         },
         {
-            "title": "AlexNet (2012, with Krizhevsky and Sutskever)",
-            "impact": "Halved the ImageNet error rate and started the deep-learning gold rush; the lab was acquired by Google in 2013."
+            "title": "Backpropagation paper in Nature (1986, with David Rumelhart and Ronald Williams)",
+            "impact": "Showed by experiment that layered networks trained with backpropagation discover useful internal representations, and helped make the method the standard way to train neural networks. Credit for the method is disputed. Hinton said in a 2018 interview that Rumelhart came up with the basic idea, and Jürgen Schmidhuber argues that earlier work by Seppo Linnainmaa, Paul Werbos and Shun'ichi Amari, among others, has gone under credited by Hinton and by the Nobel award."
         },
         {
-            "title": "Turing Award 2018 and Nobel Prize in Physics 2024",
-            "impact": "Computing's and science's highest honors for the same body of neural-network work."
+            "title": "AlexNet (2012, with Alex Krizhevsky and Ilya Sutskever)",
+            "impact": "A deep convolutional network with about 60 million parameters, trained on GPUs with rectified linear units and dropout, that beat earlier image classifiers by a wide margin. ACM credits it with nearly halving the ImageNet error rate and reshaping computer vision."
         },
         {
-            "title": "The 2023 resignation and risk advocacy",
-            "impact": "His departure from Google moved existential AI risk from fringe worry to boardroom and parliament agenda item."
+            "title": "DNNresearch and Google (2013)",
+            "impact": "Google bought DNNresearch, the startup he formed with Krizhevsky and Sutskever, reportedly for $44 million. That brought his group's methods into Google, where he worked half time for a decade while keeping his Toronto post."
+        },
+        {
+            "title": "Turing Award and Nobel Prize",
+            "impact": "The 2018 ACM Turing Award honoured him, Bengio and LeCun for the ideas and engineering that put deep neural networks at the centre of computing. The 2024 Nobel Prize in Physics, shared with John Hopfield, recognised the foundations of machine learning with artificial neural networks."
+        },
+        {
+            "title": "Public warnings on AI risk (2023 onward)",
+            "impact": "After leaving Google he became one of the best known scientists warning about AI, from misinformation and job losses to the chance that advanced systems escape human control. He has also rejected the idea that the industry can regulate itself."
         }
-    ]
+    ],
+    "source_basis": "This profile was written mainly from the Wikipedia article on Geoffrey Hinton, retrieved 2026-10-22, and checked against his University of Toronto CV (dated January 6, 2025), the NobelPrize.org facts and summary pages, the ACM Turing Award press release, the NIPS 2012 AlexNet paper page and the Queen Elizabeth Prize page."
 }
