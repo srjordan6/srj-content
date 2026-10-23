@@ -1,7 +1,7 @@
 {
-    "born": "1962-11-23",
+    "born": "1962",
     "died": null,
-    "hook": "Krishna became CEO of IBM on April 6, 2020, and was elected Chairman of its board effective January 1, 2021. Under his leadership IBM launched the watsonx AI and data platform in May 2023 and its Granite family of enterprise foundation models.",
+    "hook": "Krishna is an electrical engineer who joined IBM Research in 1990 and spent three decades inside the company before becoming its chief executive in April 2020. He was a principal architect of IBM's purchase of Red Hat, and as CEO he has put enterprise AI and hybrid cloud at the centre of the company's strategy, launching the watsonx platform in 2023 alongside IBM's open Granite models. IBM's results release of October 21, 2026 identifies him as chairman, president and chief executive officer.",
     "name": "Arvind Krishna",
     "slug": "arvind-krishna",
     "quote": {
@@ -9,11 +9,12 @@
         "context": "Arvind Krishna, on IBM's enterprise AI deployment strategy, CNBC interview, December 7, 2023"
     },
     "fields": [
-        "Hybrid cloud",
         "Enterprise AI",
-        "Enterprise software"
+        "Hybrid cloud",
+        "Enterprise software",
+        "Computing research"
     ],
-    "moniker": "Chairman and CEO of IBM",
+    "moniker": "Chairman, President and CEO of IBM",
     "sources": {
         "primary": [
             {
@@ -27,48 +28,99 @@
             {
                 "url": "https://newsroom.ibm.com/2023-05-09-IBM-Unveils-the-Watsonx-Platform-to-Power-Next-Generation-Foundation-Models-for-Business",
                 "name": "IBM Unveils the Watsonx Platform to Power Next Generation Foundation Models for Business, IBM Newsroom, May 9, 2023"
+            },
+            {
+                "url": "https://www.ibm.com/granite",
+                "name": "IBM Granite, IBM"
+            },
+            {
+                "url": "https://www.sec.gov/Archives/edgar/data/0000051143/000005114326000093/ibm-20261021xex991.htm",
+                "name": "IBM third-quarter 2026 results release, Form 8-K Exhibit 99.1, October 21, 2026"
             }
         ],
         "secondary": [
             {
                 "url": "https://www.cnbc.com/2023/12/07/ibm-ceo-arvind-krishna-cnbc-interview.html",
                 "name": "IBM was early to AI, then lost its way, CEO Arvind Krishna explains what's next, CNBC, December 7, 2023"
+            },
+            {
+                "url": "https://www.crn.com/news/cloud/2021-most-influential-executive-arvind-krishna-i-bleed-blue-",
+                "name": "2021 Most Influential Executive: Arvind Krishna, CRN"
+            },
+            {
+                "url": "https://en.wikipedia.org/wiki/Arvind_Krishna",
+                "name": "Arvind Krishna, Wikipedia (main source for this profile; dates and roles checked against the primaries listed above)"
             }
         ]
     },
     "timeline": [
         {
+            "year": "1990",
+            "event": "Joins IBM at the Thomas J. Watson Research Center",
+            "impact": "Begins a research career that runs for nearly two decades."
+        },
+        {
+            "year": "1991",
+            "event": "Earns a PhD in electrical engineering from the University of Illinois Urbana-Champaign",
+            "impact": "Completes the doctoral training behind his research work at IBM."
+        },
+        {
+            "year": "2015",
+            "event": "Becomes senior vice president of IBM Research",
+            "impact": "Takes charge of the company's research division."
+        },
+        {
+            "year": "2019",
+            "event": "IBM's acquisition of Red Hat closes in July",
+            "impact": "Completes the $34 billion deal he helped design."
+        },
+        {
             "year": "2020",
-            "event": "Becomes CEO of IBM effective April 6, 2020",
-            "impact": "Succeeds Ginni Rometty and begins refocusing IBM on hybrid cloud and AI."
+            "event": "Elected CEO on January 30, effective April 6, succeeding Ginni Rometty",
+            "impact": "Takes over the company and begins refocusing it on hybrid cloud and AI."
         },
         {
             "year": "2021",
-            "event": "Elected Chairman of IBM's board effective January 1, 2021",
-            "impact": "Adds board leadership to his role as CEO."
+            "event": "Becomes chairman of IBM's board effective January 1",
+            "impact": "Combines board leadership with the chief executive role."
         },
         {
             "year": "2023",
-            "event": "Launches the watsonx AI and data platform on May 9, 2023",
-            "impact": "Consolidates IBM's enterprise AI tools for building, tuning and governing foundation models."
+            "event": "Launches the watsonx AI and data platform on May 9",
+            "impact": "Gives IBM a single platform for building, tuning and governing foundation models for business."
+        },
+        {
+            "year": "2026",
+            "event": "IBM reports third-quarter results on October 21 with Krishna as chairman, president and CEO",
+            "impact": "Confirms his roles as of that date."
         }
     ],
-    "nationality": "American",
+    "nationality": "Indian-American",
     "quick_facts": [
-        "Chairman and Chief Executive Officer of IBM",
-        "Became CEO of IBM effective April 6, 2020, succeeding Ginni Rometty",
-        "Elected Chairman of IBM's board effective January 1, 2021",
-        "Launched the watsonx AI and data platform on May 9, 2023",
-        "Directed IBM's Granite family of enterprise foundation models under watsonx"
+        "Holds an undergraduate degree from the Indian Institute of Technology Kanpur and a PhD in electrical engineering from the University of Illinois Urbana-Champaign.",
+        "Joined IBM in 1990 at its Thomas J. Watson Research Center.",
+        "Was IBM's senior vice president for Cloud and Cognitive Software when the board elected him CEO in January 2020.",
+        "Became CEO on April 6, 2020, succeeding Ginni Rometty, and chairman effective January 1, 2021.",
+        "Is listed as IBM chairman, president and chief executive officer in the company's third-quarter results release of October 21, 2026.",
+        "Ranked No. 1 on CRN's 2021 Top 100 Executives list as its most influential executive."
     ],
     "achievements": [
         {
-            "title": "watsonx platform",
-            "impact": "Launched May 9, 2023, as IBM's platform for training, tuning and deploying foundation models for enterprise customers."
+            "title": "Red Hat acquisition",
+            "impact": "Served as a principal architect of IBM's $34 billion acquisition of Red Hat, which closed in July 2019."
         },
         {
-            "title": "Granite foundation models",
-            "impact": "Developed as IBM's family of enterprise foundation models offered through watsonx, with IBM emphasizing flexible deployment across public cloud, private cloud and on-premises environments."
+            "title": "watsonx platform",
+            "impact": "Introduced at IBM's Think conference on May 9, 2023, with watsonx.ai for building and tuning models, watsonx.data for governed data, and watsonx.governance for overseeing AI workflows."
+        },
+        {
+            "title": "Granite models",
+            "impact": "IBM's family of enterprise AI models, released under the Apache 2.0 open source licence and offered through watsonx.ai."
+        },
+        {
+            "title": "IBM Research leadership",
+            "impact": "Led IBM Research as senior vice president from 2015, a period in which he pushed IBM into AI, cloud, quantum computing and blockchain."
         }
-    ]
+    ],
+    "source_basis": "This profile was written mainly from the Wikipedia article on Arvind Krishna, retrieved 2026-10-22, with awards, dates and current role checked against IBM's CEO election release, its watsonx release, its Granite page, its October 21, 2026 results release filed with the SEC, and CRN."
 }
