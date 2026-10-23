@@ -1,7 +1,7 @@
 {
-    "born": "1972-06-10",
+    "born": "1972",
     "died": null,
-    "hook": "Pichai has led Google as CEO since October 2015 and Alphabet as CEO since December 2019. Under his leadership Google merged its Brain and DeepMind research teams into Google DeepMind in 2023 and released the Gemini family of AI models the same year.",
+    "hook": "Sundar Pichai joined Google in 2004 to lead product work on its client software, including the Chrome browser, and rose to run Android and then all of Google's products. He became Google's chief executive when Alphabet was formed in 2015 and Alphabet's chief executive in December 2019. In 2023 he announced the merger of Google Brain and DeepMind into Google DeepMind and introduced the Gemini family of AI models.",
     "name": "Sundar Pichai",
     "slug": "sundar-pichai",
     "quote": {
@@ -10,7 +10,8 @@
     },
     "fields": [
         "Search and internet services",
-        "AI research",
+        "AI research and products",
+        "Browsers and mobile software",
         "Cloud computing"
     ],
     "moniker": "CEO of Alphabet and Google",
@@ -27,49 +28,116 @@
             {
                 "url": "https://blog.google/technology/ai/gemini-collection/",
                 "name": "Introducing Gemini, our largest and most capable AI model, Google blog, December 6, 2023"
+            },
+            {
+                "url": "https://blog.google/technology/ai/google-gemini-ai/",
+                "name": "Introducing Gemini, with a note from Sundar Pichai, Google blog, December 6, 2023"
+            },
+            {
+                "url": "https://blog.google/technology/ai/april-ai-update/",
+                "name": "Google DeepMind: Bringing together two world-class AI teams, Sundar Pichai, Google blog, April 20, 2023"
+            },
+            {
+                "url": "https://blog.google/topics/alphabet/google-alphabet/",
+                "name": "G is for Google, Larry Page, Google blog, August 10, 2015"
+            },
+            {
+                "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312515336577/d82837d8k12b.htm",
+                "name": "Alphabet Inc., Form 8-K12B, October 2015"
+            },
+            {
+                "url": "https://blog.google/authors/sundar-pichai/",
+                "name": "Sundar Pichai, author page, Google blog"
+            },
+            {
+                "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2022/jan/doc20221269901.pdf",
+                "name": "Padma Awards 2022 list, Press Information Bureau, Government of India"
+            },
+            {
+                "url": "https://time.com/collections/time100-ai-2024/",
+                "name": "TIME100 AI 2024, TIME"
             }
         ],
         "secondary": [
+            {
+                "url": "https://en.wikipedia.org/wiki/Sundar_Pichai",
+                "name": "Sundar Pichai, Wikipedia (main source for this profile; dates and roles checked against the primaries listed above)"
+            }
         ]
     },
     "timeline": [
         {
+            "year": "2004",
+            "event": "Joins Google to lead product management for client software",
+            "impact": "Begins work on the products that become Chrome and ChromeOS."
+        },
+        {
+            "year": "2009",
+            "event": "Demonstrates ChromeOS on November 19, 2009",
+            "impact": "Sets up Google's entry into laptop operating systems."
+        },
+        {
+            "year": "2013",
+            "event": "Adds Android to his responsibilities, succeeding Andy Rubin",
+            "impact": "Brings Google's mobile platform under his leadership."
+        },
+        {
+            "year": "2014-10",
+            "event": "Takes charge of product and engineering for Google's internet businesses",
+            "impact": "Becomes the company's product chief under Larry Page."
+        },
+        {
             "year": "2015",
-            "event": "Becomes CEO of Google in October 2015 when Alphabet is formed as its parent company",
-            "impact": "Takes over operational leadership of Google's core businesses."
+            "event": "Named CEO of Google on August 10, 2015, taking the role as Alphabet is formed in October",
+            "impact": "Runs Google's core businesses within the new holding company."
         },
         {
-            "year": "2019",
+            "year": "2019-12",
             "event": "Becomes CEO of Alphabet on December 3, 2019",
-            "impact": "Succeeds co-founders Larry Page and Sergey Brin, who remain board members and shareholders."
+            "impact": "Leads both Alphabet and Google as the co-founders step back from executive roles."
         },
         {
-            "year": "2023",
+            "year": "2022",
+            "event": "Receives the Padma Bhushan from the Government of India",
+            "impact": "Recognised in the trade and industry category."
+        },
+        {
+            "year": "2023-04",
             "event": "Announces the formation of Google DeepMind on April 20, 2023",
-            "impact": "Merges Google Brain and DeepMind into one AI research and product organization."
+            "impact": "Merges Google's two main AI research groups."
         },
         {
-            "year": "2023",
-            "event": "Announces Gemini 1.0 on December 6, 2023",
+            "year": "2023-12",
+            "event": "Introduces Gemini 1.0 on December 6, 2023",
             "impact": "Launches Google's multimodal model family built by Google DeepMind."
         }
     ],
     "nationality": "American",
     "quick_facts": [
-        "Chief Executive Officer of Alphabet Inc. and of Google LLC",
-        "Named CEO of Google on August 10, 2015, effective with Alphabet's formation in October 2015",
-        "Named CEO of Alphabet on December 3, 2019, succeeding co-founder Larry Page",
-        "Announced the merger of Google Brain and DeepMind into Google DeepMind on April 20, 2023",
-        "Announced the Gemini 1.0 model family on December 6, 2023"
+        "Born in Tamil Nadu, India, in 1972, he studied metallurgical engineering at IIT Kharagpur, materials science at Stanford University and business at the Wharton School of the University of Pennsylvania.",
+        "Before Google he worked in engineering and product management at Applied Materials and briefly as a consultant at McKinsey & Company.",
+        "At Google he was senior vice president for Android, Chrome and Apps and from October 2014 oversaw product and engineering across Google's internet businesses.",
+        "Larry Page named him CEO of Google on August 10, 2015, and he also became CEO of Alphabet on December 3, 2019.",
+        "Announcing Google DeepMind on April 20, 2023, he wrote that Google had been an AI-first company since 2016.",
+        "India awarded him the Padma Bhushan for trade and industry in 2022, and TIME named him to its 2024 TIME100 AI list."
     ],
     "achievements": [
         {
+            "title": "Chrome and ChromeOS",
+            "impact": "Led product work on Google's browser and its operating system, which he demonstrated in November 2009 and which shipped on Chromebooks from 2011."
+        },
+        {
+            "title": "Leadership of Google and Alphabet",
+            "impact": "Became CEO of Google in 2015 and of Alphabet in 2019, when co-founders Larry Page and Sergey Brin stepped back from executive roles."
+        },
+        {
             "title": "Google DeepMind formation",
-            "impact": "Announced April 20, 2023, consolidating Google's AI research groups into a single unit led by Demis Hassabis."
+            "impact": "Announced April 20, 2023, combining the Brain team from Google Research with DeepMind in one unit led by Demis Hassabis."
         },
         {
             "title": "Gemini model family",
-            "impact": "Introduced December 6, 2023, as Google's first natively multimodal foundation model family, built by the combined Google DeepMind team."
+            "impact": "Introduced December 6, 2023, as Google's first models built to handle text, images, audio and video from the start, in Ultra, Pro and Nano sizes."
         }
-    ]
+    ],
+    "source_basis": "This profile was written mainly from the Wikipedia article on Sundar Pichai, retrieved 2026-10-22, with awards, dates and current role checked against Alphabet Investor Relations, the Google and Google DeepMind blogs, Alphabet's 2015 SEC filing, the Government of India's Padma awards list and TIME."
 }
