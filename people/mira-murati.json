@@ -1,24 +1,48 @@
 {
     "born": "1988",
     "died": null,
-    "hook": "Murati founded Thinking Machines Lab in 2025 after nearly six years at OpenAI, where she rose to Chief Technology Officer and briefly served as interim CEO during the November 2023 board crisis. Her new company launched publicly in February 2025 with a focus on collaborative, multimodal AI systems.",
+    "hook": "Murati is an engineer who worked in product roles at Tesla and Leap Motion before joining OpenAI in 2018, where she became chief technology officer in 2022 and briefly served as interim CEO in November 2023. She left OpenAI in 2024 and in February 2025 launched Thinking Machines Lab, an AI research and product company she leads as co-founder and chief executive, with John Schulman as co-founder and chief scientist. The company has since released the Tinker fine-tuning service and the open-weights Inkling model.",
     "name": "Mira Murati",
     "slug": "mira-murati",
     "quote": {
-        "text": "Instead of focusing solely on making fully autonomous AI systems, we are excited to build multimodal systems that work with people collaboratively.",
-        "context": "Mira Murati, Thinking Machines Lab launch announcement, February 18, 2025"
+        "text": "This partnership accelerates our capacity to build AI that people can shape and make their own, as it shapes human potential in turn.",
+        "context": "Mira Murati, on Thinking Machines Lab's partnership with NVIDIA, NVIDIA blog, March 10, 2026"
     },
     "fields": [
         "Artificial intelligence",
-        "Machine learning research",
-        "Product engineering"
+        "AI research and products",
+        "Engineering leadership"
     ],
-    "moniker": "Founder and CEO of Thinking Machines Lab",
+    "moniker": "Co-founder and CEO of Thinking Machines Lab",
     "sources": {
         "primary": [
             {
+                "url": "https://thinkingmachines.ai/",
+                "name": "Thinking Machines Lab, company website"
+            },
+            {
+                "url": "https://thinkingmachines.ai/news/",
+                "name": "Thinking Machines Lab, news"
+            },
+            {
+                "url": "https://thinkingmachines.ai/news/introducing-inkling/",
+                "name": "Inkling: Our Open-Weights Model, Thinking Machines Lab, July 15, 2026"
+            },
+            {
+                "url": "https://blogs.nvidia.com/blog/Nvidia-thinking-machines-lab",
+                "name": "NVIDIA and Thinking Machines Lab Announce Long-Term Gigawatt-Scale Strategic Partnership, NVIDIA blog, March 10, 2026"
+            },
+            {
                 "url": "https://openai.com/index/openai-announces-leadership-transition/",
                 "name": "OpenAI announces leadership transition, OpenAI"
+            },
+            {
+                "url": "https://home.dartmouth.edu/news/2024/04/announcing-2024-honorary-degree-recipients",
+                "name": "Announcing 2024 honorary degree recipients, Dartmouth"
+            },
+            {
+                "url": "http://joschu.net/",
+                "name": "John Schulman's homepage, naming him co-founder and chief scientist at Thinking Machines"
             }
         ],
         "secondary": [
@@ -32,52 +56,82 @@
             },
             {
                 "url": "https://en.wikipedia.org/wiki/Mira_Murati",
-                "name": "Mira Murati, Wikipedia"
+                "name": "Mira Murati, Wikipedia (main source for this profile; dates and roles checked against the primaries listed above)"
             }
         ]
     },
     "timeline": [
         {
+            "year": "2012",
+            "event": "Earns a BE from Dartmouth's Thayer School of Engineering",
+            "impact": "Completes a dual-degree programme with Colby College."
+        },
+        {
+            "year": "2013",
+            "event": "Joins Tesla as a product manager on the Model X",
+            "impact": "Begins working on consumer technology products."
+        },
+        {
+            "year": "2018",
+            "event": "Joins OpenAI as vice president of applied AI and partnerships",
+            "impact": "Moves into AI after two years at Leap Motion."
+        },
+        {
             "year": "2022",
-            "event": "Becomes Chief Technology Officer of OpenAI in May 2022.",
-            "impact": "Takes charge of OpenAI's research, product, and safety functions."
+            "event": "Becomes Chief Technology Officer of OpenAI in May",
+            "impact": "Takes charge of OpenAI's research, product and deployment work."
         },
         {
             "year": "2023",
-            "event": "Is named interim Chief Executive Officer of OpenAI on November 17, 2023, after the board removes Sam Altman.",
-            "impact": "Leads the company before Emmett Shear is named interim CEO on November 20, 2023."
+            "event": "Is named interim CEO of OpenAI on November 17 after the board removes Sam Altman",
+            "impact": "Leads the company until Emmett Shear is named interim CEO on November 20."
         },
         {
             "year": "2024",
-            "event": "Announces her departure from OpenAI on September 25, 2024.",
-            "impact": "Ends her tenure as CTO to pursue what she described as her own exploration."
+            "event": "Receives an honorary degree from Dartmouth on June 9 and announces her departure from OpenAI on September 25",
+            "impact": "Ends her tenure as CTO."
         },
         {
             "year": "2025",
-            "event": "Launches Thinking Machines Lab publicly on February 18, 2025, as founder and CEO.",
-            "impact": "Starts a new AI company focused on multimodal systems built for collaboration with people."
+            "event": "Launches Thinking Machines Lab publicly on February 18 and announces Tinker on October 1",
+            "impact": "Starts a new AI company and ships its first product."
+        },
+        {
+            "year": "2026",
+            "event": "Announces a gigawatt-scale partnership with NVIDIA on March 10 and releases the open-weights Inkling model on July 15",
+            "impact": "Secures long-term compute and publishes the company's first model family."
         }
     ],
     "nationality": "Albanian-American",
     "quick_facts": [
-        "Became OpenAI's Chief Technology Officer in May 2022",
-        "Named interim CEO of OpenAI on November 17, 2023, following Sam Altman's departure",
-        "Announced her departure from OpenAI on September 25, 2024",
-        "Founded Thinking Machines Lab, launched publicly on February 18, 2025",
-        "Serves as CEO of Thinking Machines Lab, a public benefit corporation"
+        "Born in Vlore, Albania, she earned an AB from Colby College and a BE in engineering from Dartmouth's Thayer School of Engineering in 2012.",
+        "Worked as a product manager on the Tesla Model X from 2013 to 2016, then led product and engineering at Leap Motion until 2018.",
+        "Joined OpenAI in 2018 and became its chief technology officer in May 2022.",
+        "Was named OpenAI's interim CEO on November 17, 2023, after the board removed Sam Altman.",
+        "Received an honorary Doctor of Science from Dartmouth on June 9, 2024.",
+        "Is identified as co-founder and CEO of Thinking Machines Lab in NVIDIA's partnership announcement of March 10, 2026."
     ],
     "achievements": [
+        {
+            "title": "Chief Technology Officer, OpenAI",
+            "impact": "Oversaw research, product development and deployment at OpenAI as CTO from May 2022 until she left in 2024."
+        },
         {
             "title": "Interim Chief Executive Officer, OpenAI",
             "impact": "Named interim CEO by OpenAI's board on November 17, 2023, during the leadership crisis that followed Sam Altman's removal."
         },
         {
-            "title": "Chief Technology Officer, OpenAI",
-            "impact": "Led research, product, and safety functions at OpenAI as CTO before departing in 2024."
+            "title": "Founder, Thinking Machines Lab",
+            "impact": "Launched the company publicly on February 18, 2025, as a public benefit corporation, and raised a $2 billion seed round led by Andreessen Horowitz in July 2025."
         },
         {
-            "title": "Founder and CEO, Thinking Machines Lab",
-            "impact": "Founded the AI startup, which launched publicly in February 2025 with a focus on human-AI collaboration."
+            "title": "Tinker and Inkling",
+            "impact": "Thinking Machines announced Tinker, a service for fine-tuning models, on October 1, 2025, and released Inkling, an open-weights multimodal model available for fine-tuning on Tinker, on July 15, 2026."
+        },
+        {
+            "title": "NVIDIA partnership",
+            "impact": "In March 2026 the company agreed a multiyear partnership with NVIDIA to deploy at least one gigawatt of Vera Rubin systems, alongside a significant NVIDIA investment."
         }
-    ]
+    ],
+    "source_basis": "This profile was written mainly from the Wikipedia article on Mira Murati, retrieved 2026-10-22, with awards, dates and current role checked against NVIDIA's March 2026 partnership announcement, Thinking Machines Lab's own site and Dartmouth's 2024 honorary degree announcement."
 }
