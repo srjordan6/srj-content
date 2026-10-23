@@ -1,18 +1,19 @@
 {
-    "born": "2001",
+    "born": null,
     "died": null,
-    "hook": "Arbaugh went from a diving accident that left him paralyzed to becoming, at 29, the first person on Earth to use a brain implant to control a computer in daily life, turning his own recovery into the most closely watched real-world test of whether brain-computer interfaces can restore independence.",
+    "hook": "Noland Arbaugh became the first person to receive Neuralink's N1 brain implant, in January 2024, eight years after a swimming accident left him paralyzed below the shoulders. With the device he moves a computer cursor by imagining movement, which let him play chess, handle email and play video games without help. His public account of losing much of that control when most of the implant's threads retracted, and of regaining it after Neuralink changed its software, made his case a widely reported test of how an early brain-computer interface holds up in daily use.",
     "name": "Noland Arbaugh",
     "slug": "noland-arbaugh",
     "quote": {
-        "text": "This is going to change the world for so many people, and it's already changing my life.",
-        "context": "Noland Arbaugh, in a Neuralink livestream demonstration, March 2024"
+        "text": "I feel more useful now than maybe I ever have in my life.",
+        "context": "Noland Arbaugh, quoted by Texas A&M Today, June 3, 2024"
     },
     "fields": [
         "Brain-computer interfaces",
-        "Disability advocacy"
+        "Assistive technology",
+        "Clinical research participation"
     ],
-    "moniker": "The World's First Neuralink Patient",
+    "moniker": "First participant in Neuralink's brain implant trial",
     "sources": {
         "primary": [
             {
@@ -20,62 +21,91 @@
                 "name": "Neuralink PRIME Study, official trial information"
             },
             {
-                "url": "https://www.wsj.com/tech/neuralink-first-patient-noland-arbaugh-interview-4d2a2f0e",
-                "name": "Noland Arbaugh: 'This is what happens when you get the future you dreamed of,' The Wall Street Journal interview (2024)"
+                "url": "https://stories.tamu.edu/news/2024/06/03/aggie-is-neuralinks-first-brain-implant-participant/",
+                "name": "Aggie is Neuralink's first brain implant participant, Texas A&M Today (June 3, 2024)"
             }
         ],
         "secondary": [
             {
+                "url": "https://www.scientificamerican.com/article/neuralinks-first-user-describes-life-with-elon-musks-brain-chip/",
+                "name": "Neuralink's first user describes life with Elon Musk's brain chip, Scientific American (June 2024)"
+            },
+            {
+                "url": "https://abcnews.com/GMA/Wellness/neuralinks-brain-implant-patient-feared-device-removed/story?id=110325322",
+                "name": "Neuralink's brain implant patient feared device would be removed, ABC News (May 17, 2024)"
+            },
+            {
+                "url": "https://fortune.com/2025/08/23/neuralink-participant-1-noland-arbaugh-18-months-post-surgery-life-changed-elon-musk/",
+                "name": "Neuralink participant 1, 18 months after surgery, Fortune (August 23, 2025)"
+            },
+            {
                 "url": "https://www.nytimes.com/2024/01/29/health/neuralink-elon-musk-brain-chip.html",
                 "name": "Elon Musk's Neuralink Implants Its First Device in a Human Brain, The New York Times (2024)"
+            },
+            {
+                "url": "https://en.wikipedia.org/wiki/Noland_Arbaugh",
+                "name": "Noland Arbaugh, Wikipedia (main source for this profile; dates and roles checked against the primaries listed above)"
             }
         ]
     },
     "timeline": [
         {
             "year": "2016",
-            "event": "Diving accident results in paralysis below the shoulders",
-            "impact": "Life-altering spinal cord injury"
+            "event": "Paralyzed below the shoulders in a swimming accident in June, during his time at Texas A&M",
+            "impact": "The injury that preceded his later role in the trial"
         },
         {
             "year": "2024",
-            "event": "Receives the first Neuralink implant in January",
-            "impact": "First human recipient of the device"
+            "event": "Receives Neuralink's N1 implant in January",
+            "impact": "Becomes the first human participant in Neuralink's trial"
         },
         {
             "year": "2024",
-            "event": "Livestreams playing chess using the implant",
-            "impact": "Public proof-of-concept demonstration reaches wide audience"
+            "event": "About a month after surgery, most of the implant's threads retract and his control degrades",
+            "impact": "Neuralink restores performance through changes to the device's recording algorithm"
         },
         {
             "year": "2024",
-            "event": "Neuralink discloses and resolves a signal degradation issue with his implant",
-            "impact": "Transparent real-world account of BCI reliability"
+            "event": "Neuralink livestreams him moving a cursor and playing online chess",
+            "impact": "First public demonstration of the device in use by a person"
+        },
+        {
+            "year": "2024",
+            "event": "Neuralink discloses the thread retraction in a May 8 blog post",
+            "impact": "Makes the reliability problem public"
+        },
+        {
+            "year": "2025",
+            "event": "Fortune reports in August that he uses the implant about 10 hours a day and is studying toward a neuroscience degree",
+            "impact": "Shows sustained daily use some 18 months after surgery"
         }
     ],
     "nationality": "American",
     "quick_facts": [
-        "First human recipient of Neuralink's implanted brain-computer interface (January 2024)",
-        "Paralyzed from the shoulders down after a 2016 diving accident",
-        "Publicly demonstrated controlling a computer cursor and playing video games using thought alone",
-        "Became a public advocate for brain-computer interface technology and disability accessibility"
+        "Received Neuralink's N1 implant in January 2024 as the first participant in the company's human trial. He was the first Neuralink recipient, not the first person with an implanted brain-computer interface.",
+        "Grew up in Yuma, Arizona, and studied international studies at Texas A&M University, where he was a member of the Corps of Cadets.",
+        "Has been paralyzed below the shoulders since a swimming accident in June 2016, while working as a summer camp counselor in Pennsylvania.",
+        "The N1 implant carries 64 threads with 1,024 electrodes. About a month after his surgery, Neuralink found that 85 percent of his threads had retracted, and it disclosed the problem in May 2024.",
+        "Texas A&M reported in June 2024 that he was spending more than 40 hours a week helping Neuralink engineers test the device.",
+        "By August 2025, Fortune reported, he was using the implant about 10 hours a day, taking community college prerequisites toward a neuroscience degree and building a paid public speaking business."
     ],
     "achievements": [
         {
-            "title": "First human Neuralink implant recipient (January 2024)",
-            "impact": "Became the first person to receive Neuralink's N1 brain-computer interface implant, a milestone clinical trial event for the BCI field."
+            "title": "First Neuralink implant recipient (January 2024)",
+            "impact": "Became the first person to receive Neuralink's N1 device, the start of the company's testing in people."
         },
         {
-            "title": "Public demonstration of thought-controlled computer use",
-            "impact": "Livestreamed playing chess and video games using only his implant to control a cursor, providing the most visible public proof-of-concept for consumer BCI technology to date."
+            "title": "Cursor control by imagined movement",
+            "impact": "Showed publicly that he could move a cursor, play online chess and play video games with the implant, and said it let him control a computer just like anyone else."
         },
         {
-            "title": "Continued long-term use of the implant through device issues",
-            "impact": "Publicly documented a partial signal loss and the team's fix, providing an unusually transparent real-world account of BCI reliability challenges."
+            "title": "Test partner for Neuralink's engineers",
+            "impact": "Spent more than 40 hours a week in sessions with Neuralink engineers in the months after surgery, according to Texas A&M."
         },
         {
-            "title": "Public advocacy for disability and BCI access",
-            "impact": "Used his platform to advocate for expanded brain-computer interface trials and greater independence for people with paralysis."
+            "title": "A public record of an early implant's reliability",
+            "impact": "Spoke openly about losing function when most threads retracted in February 2024 and about recovering it after Neuralink modified its recording algorithm, giving outsiders an unusual view of the device's limits."
         }
-    ]
+    ],
+    "source_basis": "This profile was written mainly from the Wikipedia article on Noland Arbaugh, retrieved 2026-10-22, with dates and activities checked against Texas A&M Today, Scientific American, ABC News and Fortune."
 }
