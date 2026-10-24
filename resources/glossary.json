@@ -1,5 +1,5 @@
 {
-    "count": 723,
+    "count": 728,
     "terms": [
         {
             "slug": "agent",
@@ -4039,7 +4039,7 @@
             "origin": "CEN-CENELEC, Quality management system for EU AI Act regulatory purposes, approved July 12, 2026.",
             "example": "An ISO 42001-certified provider gap-assessing its management system against EN 18286 ahead of conformity assessment.",
             "category": "Safety & Governance",
-            "definition": "The first European standard written specifically to operationalize the EU AI Act: a quality management system standard for providers of high-risk AI systems, mapping directly onto Article 17 and structured around the AI system rather than the organization-centric template of ISO 9001 and ISO/IEC 42001, with mapping annexes back to both. Published by CEN-CENELEC, its Official Journal citation, the step that confers a presumption of conformity under Article 40, is still pending."
+            "definition": "The first harmonised standard under the EU AI Act: EN 18286:2026, the CEN-CENELEC quality management system standard for providers of high-risk AI systems, written for the quality management system Article 17 requires. Commission Implementing Decision (EU) 2026/2274 published its reference in the Official Journal on 14 October 2026, so following it now gives a presumption of conformity with the requirements it covers. It is structured around the AI system rather than the organisation and is meant to be layered on an existing ISO/IEC 42001 or ISO 9001 system."
         },
         {
             "slug": "digital-omnibus-on-ai",
@@ -6422,6 +6422,46 @@
             "author_note": "Added from theworldofai bridge row 557 (2026-10-07). Caveat per Hany Farid (Dartmouth) in the Washington Post: detectors are statistical and cannot explain a classification; two tools disagreed on 3 of a random sample of congressional turns.",
             "authored_on": "2026-10-07",
             "authored_here": true
+        },
+        {
+            "slug": "superposition-neural-networks",
+            "term": "Superposition (neural networks)",
+            "origin": "Discussed in Zoom In: An Introduction to Circuits (Olah, Cammarata and others, Distill, 2020) and modelled in Toy Models of Superposition (Anthropic, 2022).",
+            "example": "An interpretability team decides whether to read a model's neurons directly or first decompose its activations with a sparse autoencoder, a choice that depends on how much superposition it expects.",
+            "category": "Safety & Governance",
+            "definition": "The hypothesis that a neural network represents more features than it has neurons, by storing them as overlapping directions, so that a single neuron ends up responding to several unrelated things. Anthropic's Toy Models of Superposition (Elhage and others, 2022) showed this happening in small toy models. Whether it is the main reason real networks have such neurons is disputed: Nick Cammarata of Goodfire, who worked on the earlier circuits research, argued in 2026 that it misread the evidence, while Neel Nanda of Google DeepMind said he still thinks superposition is real."
+        },
+        {
+            "slug": "polysemantic-neuron",
+            "term": "Polysemantic neuron",
+            "origin": "Zoom In: An Introduction to Circuits (Distill, 2020); Toy Models of Superposition (Anthropic, 2022).",
+            "example": "A researcher finds a neuron that fires on both legal citations and sports scores and has to decide whether it is genuinely mixed or detects something the two share.",
+            "category": "Safety & Governance",
+            "definition": "A neuron that responds to several apparently unrelated inputs. The best-known example is a neuron in the InceptionV1 image model described in the 2020 circuits work as responding to both cat faces and the fronts of cars. Toy Models of Superposition (Anthropic, 2022) explains such neurons as a side effect of superposition; Nick Cammarata's 2026 essay Neural Networks Are Already Clean argues that many of them share a feature researchers missed, reading that neuron as a detector of V shapes, a claim that has not been peer reviewed."
+        },
+        {
+            "slug": "monosemanticity",
+            "term": "Monosemanticity",
+            "origin": "Towards Monosemanticity: Decomposing Language Models With Dictionary Learning (Bricken, Templeton, Batson and others, Anthropic, 4 October 2023).",
+            "example": "A team reports what share of a model's features are monosemantic before using them to monitor or steer its behaviour.",
+            "category": "Safety & Governance",
+            "definition": "The property of a unit inside a neural network, a neuron or a learned feature, that responds to a single interpretable concept. Anthropic's Towards Monosemanticity (2023) trained a sparse autoencoder on the activations of a small one-layer transformer and found features that were far more monosemantic than the model's neurons, which made dictionary learning a standard tool of mechanistic interpretability. Nick Cammarata's 2026 essay argues that in modern models many neurons are already close to monosemantic, a claim others dispute."
+        },
+        {
+            "slug": "wormgpt",
+            "term": "WormGPT",
+            "origin": "",
+            "example": "A security team reads that a phishing kit was written with WormGPT and treats it as a brand, not a model: the tool behind the name in 2026 is most likely a commercial model behind a criminal interface.",
+            "category": "AI Security & Assurance",
+            "definition": "A chatbot sold to criminals in 2023 as an AI tool with no safety limits, and since then a brand name reused by other sellers. Trend Micro reports that the original was announced on Hack Forums in March 2023 and released in June 2023, that its author said it was built on the open GPT-J 6B model, and that sales stopped on 8 August 2023 after what the author called excessive media exposure. Trend Micro and Abnormal Security judged it the only real model built for crime among that year's offerings. Services sold under the name since then, such as two that Cato Networks researchers found in 2025 running on xAI's Grok and Mistral AI's Mixtral, are wrappers around commercial models rather than the original."
+        },
+        {
+            "slug": "fraudgpt",
+            "term": "FraudGPT",
+            "origin": "",
+            "example": "An awareness briefing names FraudGPT as an example of how criminal AI is marketed, and notes that the researchers who examined it found the adverts but no evidence the product did what they claimed.",
+            "category": "AI Security & Assurance",
+            "definition": "A criminal AI chatbot advertised from July 2023 for phishing pages and letters, malicious code and card fraud. Netenrich found it circulating on Telegram from 22 July 2023, sold at $200 a month up to $1,700 a year by a seller claiming more than 3,000 sales, a figure no one has verified. Trend Micro found only promotional material and demo videos and no proof that it worked, and judged it most likely a wrapper sending requests to a jailbroken mainstream chatbot, or a scam."
         }
     ],
     "source": {
