@@ -1,0 +1,107 @@
+{
+    "born": null,
+    "died": null,
+    "hook": "Nick Cammarata is an interpretability researcher at Goodfire and the author of Neural Networks Are Already Clean (15 October 2026), an essay arguing that the neurons of neural networks can mostly be read directly and that superposition, the explanation he helped name, misread the evidence. Earlier, by the account on his own site, he did research at OpenAI on what neural networks learn and helped share that work through Distill, including the 2020 article Zoom In: An Introduction to Circuits, written with Chris Olah.",
+    "name": "Nick Cammarata",
+    "slug": "nick-cammarata",
+    "quote": null,
+    "fields": [
+        "Mechanistic interpretability",
+        "Neural network circuits",
+        "Feature visualization"
+    ],
+    "moniker": "Interpretability researcher at Goodfire",
+    "sources": {
+        "primary": [
+            {
+                "url": "http://nickcammarata.com/",
+                "name": "Nick Cammarata's own site, nickcammarata.com (read 2026-10-24; an older site that still names OpenAI as his employer)"
+            },
+            {
+                "url": "https://already-clean.goodfire.com/",
+                "name": "Neural Networks Are Already Clean, Nick Cammarata, Goodfire, 15 October 2026"
+            },
+            {
+                "url": "https://distill.pub/2020/circuits/zoom-in/",
+                "name": "Olah, Cammarata, Schubert, Goh, Petrov and Carter, Zoom In: An Introduction to Circuits, Distill, 2020"
+            },
+            {
+                "url": "https://distill.pub/2020/selforg/",
+                "name": "Distill, Thread: Differentiable Self-organizing Systems, 2020"
+            },
+            {
+                "url": "http://nickcammarata.com/writing/abstraction",
+                "name": "The Abstraction Machine, essay on nickcammarata.com"
+            }
+        ],
+        "secondary": [
+            {
+                "url": "https://www.implicator.ai/goodfire-cammarata-ai-neurons-easier-to-read/",
+                "name": "Implicator, Goodfire's Cammarata Says AI Neurons Are Readable After All, 16 October 2026 (for the 2023 OpenAI project as the essay reports it)"
+            }
+        ]
+    },
+    "timeline": [
+        {
+            "year": "2020",
+            "event": "Co-authors Zoom In: An Introduction to Circuits on Distill, with Chris Olah and others",
+            "impact": "The circuits work his site links as research he helped share; the essay of 2026 revisits its reading of superposition"
+        },
+        {
+            "year": "2020",
+            "event": "Works on Distill's format for scientific threads, such as the self-organizing systems thread",
+            "impact": "New ways of publishing machine learning research, by his own site's account"
+        },
+        {
+            "year": "2023",
+            "event": "Starts an OpenAI project to explain neurons, per Implicator's report of the essay",
+            "impact": "About 1.7 percent of neurons studied could be explained, a figure the essay sets against its new audit"
+        },
+        {
+            "year": "2026",
+            "event": "Publishes Neural Networks Are Already Clean at Goodfire on 15 October",
+            "impact": "Argues most neurons can be read directly; disputed by Neel Nanda and others, and not peer reviewed"
+        }
+    ],
+    "nationality": null,
+    "quick_facts": [
+        "Researcher at Goodfire, an AI interpretability research lab, and author of the essay Neural Networks Are Already Clean, published 15 October 2026 (essay byline).",
+        "Earlier role: his own site, nickcammarata.com, says he does research at OpenAI on what neural networks learn and is on the Distill team; the site is old and still names OpenAI as his employer.",
+        "Co-author, with Chris Olah and others, of Zoom In: An Introduction to Circuits (Distill, 2020), which his site links as the work he helped share.",
+        "According to Implicator (16 October 2026), the essay contrasts an OpenAI project he started in 2023 to explain neurons, which could explain about 1.7 percent of the neurons studied, with his new audit of Qwen3-32B.",
+        "His site carries an older essay, The Abstraction Machine, arguing that neural network interpretability matters in its own right."
+    ],
+    "achievements": [
+        {
+            "title": "Neural Networks Are Already Clean, 2026",
+            "impact": "An informal research essay and working hypothesis published by Goodfire. It argues that a polysemantic neuron usually shares a feature researchers missed, so that many neurons can be read directly without first being decomposed by a sparse autoencoder, and that monosemanticity is more common than thought: a preliminary audit of Qwen3-32B found about 90 percent of neuron poles with one main job. It has not been peer reviewed, and a technical companion paper has not yet been released."
+        },
+        {
+            "title": "Zoom In: An Introduction to Circuits, 2020",
+            "impact": "Co-authored the Distill article that introduced the circuits approach to reading neural networks neuron by neuron."
+        }
+    ],
+    "source_basis": "Written only from Nick Cammarata's own site, nickcammarata.com, read on 2026-10-24 (the source document Stephen supplied, bridge row 1195), the essay Neural Networks Are Already Clean and its byline, and Implicator's report of 16 October 2026. The site is old and still names OpenAI as his employer, so that is given as his earlier role. Personal and lifestyle material on the site is left out because none of it bears on his AI work.",
+    "editor_points": [
+        {
+            "desc": "Researcher at the interpretability lab, which published his essay at already-clean.goodfire.com on 15 October 2026.",
+            "name": "Goodfire",
+            "source": "https://already-clean.goodfire.com/"
+        },
+        {
+            "desc": "His own site, which is old, says he does research at OpenAI on what neural networks learn and is on the Distill team, linking Zoom In and the Distill self-organizing systems thread.",
+            "name": "OpenAI and Distill (earlier role)",
+            "source": "http://nickcammarata.com/"
+        },
+        {
+            "desc": "Co-author of Zoom In (Distill, 2020); the 2026 essay says a reading the two made there of a car and dog circuit as superposition was an error.",
+            "name": "Chris Olah",
+            "source": "https://distill.pub/2020/circuits/zoom-in/"
+        },
+        {
+            "desc": "Posts as @nickcammarata, the handle his own site links.",
+            "name": "On X",
+            "source": "https://twitter.com/nickcammarata"
+        }
+    ]
+}
