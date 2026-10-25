@@ -27,7 +27,7 @@
     },
     "short": "China issued the first dedicated governance framework for AI agents on May 8, 2026, defining an agent in law and setting a three-tier decision-authorization model. A separate companion-AI rule took effect July 15, 2026 and forced Doubao and Qwen to pull their companion features. The two are constantly conflated. They are different instruments doing different jobs.",
     "title": "China AI Regulation",
-    "parent": null,
+    "parent": "global-ai-laws",
     "children": [
         "china-cac-filings"
     ],
@@ -50,6 +50,21 @@
         }
     ],
     "seo_title": "China AI Regulation - SRJ Consulting & Services LLC",
+    "jurisdiction": {
+        "name": "China",
+        "iso_a3": "CHN",
+        "iso_n3": "156",
+        "region": "Asia-Pacific",
+        "status": "ai-rules",
+        "in_force": "15 August 2023 (generative AI); AI article in the amended Cybersecurity Law from 1 January 2026",
+        "verified": "2026-10-25",
+        "scope_short": "Services offered to the public within the PRC; non-compliant services from outside the PRC can be blocked (GenAI Measures Arts. 2, 20)",
+        "top_penalty": "PIPL Art. 66: up to RMB 50 million or 5% of prior-year turnover; amended Cybersecurity Law: up to RMB 10 million (Arts. 61, 69)",
+        "status_label": "Binding AI rules, no single AI act",
+        "in_force_date": "2023-08-15",
+        "main_instrument": "Interim Measures for the Management of Generative AI Services (CAC Order No. 15), with the deep synthesis, algorithm, labelling and anthropomorphic services rules"
+    },
     "focus_keyword": "China AI regulation",
+    "instrument_class": "binding-law",
     "meta_description": "China's Intelligent Agent Framework and companion-AI rules are two different instruments, constantly conflated. What each one actually governs, and from when."
 }
