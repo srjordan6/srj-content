@@ -27,7 +27,7 @@
     },
     "short": "CETS 225, the Council of Europe Framework Convention on AI, has been in force since November 1, 2025. It is the first legally binding international AI treaty, adopted May 17, 2024 and opened for signature September 5, 2024. The EU ratified on May 15, 2026; the US signed but the Senate has not ratified. It is not self-executing.",
     "title": "CETS 225",
-    "parent": null,
+    "parent": "global-ai-laws",
     "children": [
     ],
     "subtitle": "The Council of Europe Framework Convention on AI, Human Rights, Democracy and the Rule of Law",
@@ -48,6 +48,21 @@
     ],
     "seo_title": "Council of Europe AI Convention (CETS 225): Status and Dates",
     "review_note": "2026-10-18, bridge row 1113 (srj): seo_title, short (the opening answer and the source of the meta description) and meta_description rewritten to lead with the searched wording and with status and dates. Facts and dates are this page's own; srj could not re-check them against the Council of Europe treaty office, which refused the fetch (HTTP 403). Nothing else on the page was changed, and updated_at was left as it was, so Guidance last updated still dates the guidance. Previous values are in previous_meta.",
+    "jurisdiction": {
+        "name": "Council of Europe Framework Convention (treaty)",
+        "iso_a3": "COE",
+        "iso_n3": "",
+        "region": "Europe",
+        "status": "treaty",
+        "in_force": "Opened for signature 5 September 2024; entry into force not confirmed on an official source",
+        "verified": "",
+        "scope_short": "Parties to the treaty; obligations reach private actors only as each party implements them",
+        "top_penalty": "No penalties of its own; each party gives effect to it in national law",
+        "status_label": "Treaty, binding on the states that ratify it",
+        "in_force_date": "",
+        "main_instrument": "Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law (CETS No. 225)",
+        "verification_note": "The Council of Europe Treaty Office answered this crawler HTTP 403 on 2026-10-25, so the chart of signatures and ratifications could not be re-read."
+    },
     "focus_keyword": "CETS 225",
     "previous_meta": {
         "short": "CETS 225 is the first legally binding international AI treaty. Adopted May 17 2024, opened for signature September 5 2024, entered into force November 1 2025 after UK, France, Norway ratified. EU ratified May 15 2026. The US signed but the Senate has not ratified. It is not self-executing.",
@@ -56,5 +71,6 @@
         "replaced_on": "2026-10-18",
         "meta_description": "CETS 225 is the first binding international AI treaty. Entered into force November 1 2025. Not self-executing. Private-sector reach varies by signatory."
     },
+    "instrument_class": "binding-law",
     "meta_description": "CETS 225, the Council of Europe AI treaty, in force since November 1, 2025: adopted May 17, 2024, EU ratified May 15, 2026, US signed but not ratified."
 }
