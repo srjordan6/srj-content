@@ -1,5 +1,5 @@
 {
-    "count": 728,
+    "count": 770,
     "terms": [
         {
             "slug": "agent",
@@ -6462,6 +6462,426 @@
             "example": "An awareness briefing names FraudGPT as an example of how criminal AI is marketed, and notes that the researchers who examined it found the adverts but no evidence the product did what they claimed.",
             "category": "AI Security & Assurance",
             "definition": "A criminal AI chatbot advertised from July 2023 for phishing pages and letters, malicious code and card fraud. Netenrich found it circulating on Telegram from 22 July 2023, sold at $200 a month up to $1,700 a year by a seller claiming more than 3,000 sales, a figure no one has verified. Trend Micro found only promotional material and demo videos and no proof that it worked, and judged it most likely a wrapper sending requests to a jailbroken mainstream chatbot, or a scam."
+        },
+        {
+            "slug": "ai-anxiety",
+            "term": "AI Anxiety",
+            "example": "A graphic designer avoids trying image generators because they fear the tools signal the end of their career.",
+            "category": "Business & Adoption",
+            "definition": "Worry or fear about artificial intelligence, including fear of job loss, loss of control, misuse or threats to human identity. Studies find that seeing AI perform human-like tasks can raise negative emotions and a sense of threat.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Gabbiadini et al. 2024, https://doi.org/10.1080/0144929x.2024.2333933",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "algorithm-appreciation",
+            "term": "Algorithm Appreciation",
+            "example": "Shoppers trust a pricing app's estimate of a used car's value over a friend's opinion.",
+            "category": "Business & Adoption",
+            "definition": "The opposite of algorithm aversion: people sometimes prefer an algorithm's judgment to a human's, especially for numerical or factual estimates. Research by Jennifer Logg, Julia Minson and Don Moore in 2019 found this preference was common among lay people, though experts discounted algorithmic advice more.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Logg, Minson and Moore 2019, Organizational Behavior and Human Decision Processes",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "algorithm-aversion",
+            "term": "Algorithm Aversion",
+            "example": "A hiring manager ignores a scoring model after it misjudges one candidate, although it beats human judgment on average.",
+            "category": "Business & Adoption",
+            "definition": "The tendency to distrust or reject an algorithm's advice, especially after seeing it make a mistake, even when the algorithm is more accurate than a human. The term comes from research by Berkeley Dietvorst, Joseph Simmons and Cade Massey published in 2015.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Dietvorst, Simmons and Massey 2015; Burton et al. 2019 review, https://doi.org/10.1002/bdm.2155",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "anchoring-bias",
+            "term": "Anchoring Bias",
+            "example": "A buyer shown an AI's price estimate first negotiates close to that number, although the market suggests otherwise.",
+            "category": "Safety & Governance",
+            "definition": "The tendency to rely too heavily on the first piece of information offered, the anchor, when making later judgments. Amos Tversky and Daniel Kahneman described it in 1974. An AI's first suggestion can anchor a person's decision even when they intend to think independently.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Tversky and Kahneman 1974, Science",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "anthropomorphism",
+            "term": "Anthropomorphism",
+            "example": "A user thanks a chatbot, apologizes to it for being rude and says it seems lonely when they log off. Research finds people who anthropomorphize more feel more socially connected after chatting with AI companions.",
+            "category": "Prompting & Interaction",
+            "definition": "The human tendency to attribute thoughts, feelings, intentions or personality to things that are not human, such as animals, objects or software. With AI it shows up when people treat a chatbot as if it understands them, cares about them or has a mind. Some anthropomorphism is natural and even helpful for using a system, but strong anthropomorphism can lead people to overtrust AI or form one-sided emotional attachments to it.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Folk, Heine and Dunn 2025, Scientific Reports, https://doi.org/10.1038/s41598-025-19212-2",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "authority-bias",
+            "term": "Authority Bias",
+            "example": "A patient trusts a chatbot's medication advice over a pharmacist's because the chatbot answered with detailed citations.",
+            "category": "Safety & Governance",
+            "definition": "The tendency to give extra weight to the opinions of someone or something seen as an authority. People can treat AI as an authority because it sounds confident and fluent, even on topics where it is unreliable.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). General psychological term",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "automation-complacency",
+            "term": "Automation Complacency",
+            "example": "A reviewer approves dozens of AI-categorized expense reports in a row without opening any of them.",
+            "category": "Safety & Governance",
+            "definition": "Reduced attention and monitoring by people who supervise an automated system they trust, so that errors go unnoticed. It was first studied in aviation and control rooms and now applies to AI tools. It differs from automation bias, which is following a wrong suggestion; complacency is no longer watching closely enough to catch it.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Parasuraman and Manzey 2010, Human Factors",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "calibration-gap",
+            "term": "Calibration Gap",
+            "example": "A user trusts a long, confident AI answer about a legal deadline more than a short, hedged one, although both are equally likely to be wrong.",
+            "category": "Safety & Governance",
+            "definition": "The difference between how accurate people think an AI's answer is and how accurate it really is. A 2025 study found people rated language model answers as more likely correct than the models themselves did, and longer explanations raised trust without improving accuracy.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Steyvers et al. 2025, https://doi.org/10.1038/s42256-024-00976-7",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "chat-chamber-effect",
+            "term": "Chat-Chamber Effect",
+            "example": "A user who already believes a false health claim asks a chatbot about it, receives a confident confirming answer and never verifies it.",
+            "category": "Prompting & Interaction",
+            "definition": "A term from a 2025 study for the way chatbot users can receive wrong but belief-consistent answers and accept them without checking, combining AI hallucination with confirmation bias.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Jacob, Kerrigan and Bastos 2025, https://doi.org/10.1177/20539517241306345",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "cognitive-debt",
+            "term": "Cognitive Debt",
+            "example": "After months of AI-written reports, an analyst struggles to write one unaided and must relearn how to structure an argument.",
+            "category": "Core Concepts",
+            "definition": "A term for the long-term cost of letting AI do thinking that a person would otherwise do: the short-term convenience may leave weaker memory, understanding and skill that must be repaid later. It was popularized by an MIT Media Lab preprint in 2025 that found weaker brain connectivity and poorer recall among people who wrote essays with ChatGPT. The idea is still being tested and the study has not been peer reviewed.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Kosmyna et al. 2025, https://doi.org/10.48550/arXiv.2506.08872",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "cognitive-load",
+            "term": "Cognitive Load",
+            "example": "Students who researched a topic with ChatGPT felt less mental effort than those using Google but wrote weaker reasoning.",
+            "category": "Core Concepts",
+            "definition": "The amount of mental effort being used in working memory at a given time. Cognitive load theory, developed by John Sweller in the late 1980s, guides how instruction is designed. AI can lower cognitive load, which helps with routine work but may reduce the effort that builds deep understanding.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Sweller 1988; Stadler et al. 2024, https://doi.org/10.1016/j.chb.2024.108386",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "cognitive-offloading",
+            "term": "Cognitive Offloading",
+            "example": "A student asks ChatGPT to write an essay outline and later cannot recall the main arguments of their own paper.",
+            "category": "Core Concepts",
+            "definition": "Using an outside tool or resource to reduce the mental effort a task requires, such as writing a list instead of memorizing it or asking an AI to summarize instead of reading. Offloading frees attention for other work, but research suggests heavy reliance on AI for thinking tasks can weaken memory of the material and independent critical thinking, especially when the person stops checking the output.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Gerlich 2025, https://doi.org/10.3390/soc15010006; Kosmyna et al. 2025 preprint",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "cognitive-surrender",
+            "term": "Cognitive Surrender",
+            "example": "A manager forwards an AI-drafted financial summary to the board without reading the numbers.",
+            "category": "Safety & Governance",
+            "definition": "A descriptive phrase for the point at which a person stops evaluating AI output and simply accepts it, handing judgment over to the system. It combines automation complacency and overreliance. It is not yet a formally defined term in psychology; this site uses it as the name of a section on how people stop checking AI.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Theworldofai.org section name; related to automation bias and complacency",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "confirmation-bias",
+            "term": "Confirmation Bias",
+            "example": "A user asks an AI \"why is my diet the healthiest\" and accepts the supportive answer without asking for the opposing evidence.",
+            "category": "Safety & Governance",
+            "definition": "The tendency to search for, notice and remember information that supports what we already believe, while discounting information that contradicts it. AI can amplify it when a chatbot tailors answers to a user's framing or agrees with them too readily.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Lopez-Lopez et al. 2025, https://doi.org/10.1111/nyas.15413",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "continuous-partial-attention",
+            "term": "Continuous Partial Attention",
+            "example": "A worker keeps a chatbot, email and messaging open together and never fully concentrates on the report in front of them.",
+            "category": "Core Concepts",
+            "definition": "A state of always paying partial attention to many things at once, scanning for anything important without fully focusing on one task. The phrase was coined by technology writer Linda Stone in the late 1990s.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Linda Stone",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "deskilling",
+            "term": "Deskilling",
+            "example": "A translator who has post-edited machine translation for years finds translating from scratch slower and less accurate.",
+            "category": "Business & Adoption",
+            "definition": "The loss of skills a person once had because a tool now does the work for them. In AI, it describes professionals who perform worse without AI after a period of relying on it. A 2025 study found colonoscopy specialists detected fewer precancerous growths in procedures without AI after AI had been introduced, a warning sign that remains under study.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Budzyn et al. 2025, https://doi.org/10.1016/s2468-1253(25)00133-5; Natali et al. 2025",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "dunning-kruger-effect",
+            "term": "Dunning-Kruger Effect",
+            "example": "Participants solving logic problems with AI help all rated themselves higher than they scored.",
+            "category": "Core Concepts",
+            "definition": "The finding that people with low skill in an area tend to overestimate their ability, while highly skilled people tend to underestimate theirs. It comes from a 1999 study by David Dunning and Justin Kruger. One AI study found the usual pattern disappeared when people used ChatGPT: nearly everyone overestimated their performance.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Kruger and Dunning 1999; Fernandes et al. 2025",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "echo-chamber",
+            "term": "Echo Chamber",
+            "example": "A user who only asks a favorite chatbot about politics hears the same framing repeated and dismisses other sources as biased.",
+            "category": "Safety & Governance",
+            "definition": "An environment where a person mainly hears views that match their own, and where outside sources are actively distrusted. It differs from an epistemic bubble, where other views are simply missing. AI chatbots that agree with users can create a personal echo chamber.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Nguyen 2020, Episteme",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "ego-depletion",
+            "term": "Ego Depletion",
+            "example": "Under the theory, a worker who spends the day correcting AI drafts would have less willpower left for evening tasks.",
+            "category": "Core Concepts",
+            "definition": "A theory that self control draws on a limited mental resource that can be used up, leaving people less able to resist later temptations. It was proposed by Roy Baumeister in 1998, but large replication studies have failed to confirm it, so it should be treated as contested.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Baumeister et al. 1998; Hagger et al. 2016 replication",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "eliza-effect",
+            "term": "ELIZA Effect",
+            "example": "A person tells a support chatbot about a personal loss and feels comforted, as if the bot truly grasped their grief.",
+            "category": "Prompting & Interaction",
+            "definition": "The tendency to read real understanding or emotion into a computer program's responses, even when the program is simple. It is named after ELIZA, a 1966 chatbot by Joseph Weizenbaum at MIT that mimicked a therapist by reflecting users' words back as questions. Weizenbaum was surprised that some users confided in it as if it understood them. The effect is stronger with today's fluent language models.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Weizenbaum 1966, Communications of the ACM",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "embodied-cognition",
+            "term": "Embodied Cognition",
+            "example": "Children who learn fractions by cutting real objects may grasp them differently from children who only see them on a screen.",
+            "category": "Core Concepts",
+            "definition": "The view that thinking is shaped by the body, the senses and physical interaction with the world, not only by the brain. Researchers ask whether screen-based, disembodied AI use changes how people learn and engage compared with hands-on activity.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). General cognitive science term",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "episodic-memory",
+            "term": "Episodic Memory",
+            "example": "Many writers who drafted essays with ChatGPT could not quote their own essays minutes later.",
+            "category": "Core Concepts",
+            "definition": "Memory for specific personal experiences tied to a time and place, such as remembering writing a particular essay. Studies suggest people may remember less of work they produced with heavy AI help.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Tulving 1972; Kosmyna et al. 2025 preprint",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "epistemic-bubble",
+            "term": "Epistemic Bubble",
+            "example": "A reader whose news app only shows technology stories never learns about a local election.",
+            "category": "Safety & Governance",
+            "definition": "A situation where a person is not exposed to relevant information or viewpoints, often by accident, through personalized feeds or narrow sources. Unlike an echo chamber, the person does not distrust outside views; they just never encounter them, so the bubble can be broken by new information.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Nguyen 2020, Episteme",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "epistemic-humility",
+            "term": "Epistemic Humility",
+            "example": "A researcher notes, \"the AI and I both might be wrong here, so I will check the original study.\"",
+            "category": "Core Concepts",
+            "definition": "Recognizing the limits of your own knowledge and being open to being wrong. With AI, it includes accepting that both you and the system may be mistaken and checking claims before relying on them.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). General philosophical term",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "filter-bubble",
+            "term": "Filter Bubble",
+            "example": "Two people searching the same topic receive very different results based on their browsing histories.",
+            "category": "Safety & Governance",
+            "definition": "The narrowing of what a person sees online because algorithms personalize content based on past behavior. The term was coined by Eli Pariser in 2011. AI assistants that personalize answers raise similar concerns.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Pariser 2011, The Filter Bubble",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "illusion-of-explanatory-depth",
+            "term": "Illusion of Explanatory Depth",
+            "example": "A person sure they understand how a zipper works cannot describe the mechanism when asked.",
+            "category": "Core Concepts",
+            "definition": "The tendency to believe we understand how something works in more detail than we actually do, until we are asked to explain it step by step. It was described by Leonid Rozenblit and Frank Keil in 2002. Easy access to AI explanations may strengthen this illusion.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Rozenblit and Keil 2002, Cognitive Science",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "impostor-phenomenon",
+            "term": "Impostor Phenomenon",
+            "example": "A consultant praised for a report worries colleagues will discover that AI wrote much of the first draft.",
+            "category": "Business & Adoption",
+            "definition": "The persistent feeling of being a fraud and not deserving one's success, despite evidence of competence. It was described by Pauline Clance and Suzanne Imes in 1978. With AI, people may feel their work is not really theirs or that they only succeed because of the tool.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Clance and Imes 1978, Psychotherapy: Theory, Research and Practice",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "learned-helplessness",
+            "term": "Learned Helplessness",
+            "example": "After repeated rejections by an automated credit system, an applicant stops trying to appeal any decision.",
+            "category": "Core Concepts",
+            "definition": "A state in which a person stops trying to change a situation because past experience taught them their actions do not matter. It was first described by Martin Seligman and Steven Maier in the late 1960s. With AI, researchers ask whether people who constantly defer to automated systems lose confidence in acting on their own.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Seligman and Maier 1967",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "locus-of-control",
+            "term": "Locus of Control",
+            "example": "An employee who says \"the system decides my schedule, there is nothing I can do\" shows an external locus of control.",
+            "category": "Core Concepts",
+            "definition": "A person's belief about where control over their life lies: inside themselves (internal) or in outside forces such as luck, other people or systems (external). The concept was introduced by psychologist Julian Rotter in 1966. Researchers ask whether heavy dependence on AI shifts people toward a more external sense of control.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Rotter 1966, Psychological Monographs",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "metacognition",
+            "term": "Metacognition",
+            "example": "A student checks whether they truly understand a topic by explaining it without notes before asking an AI.",
+            "category": "Core Concepts",
+            "definition": "Thinking about your own thinking: knowing what you know, judging how well you are doing and choosing a better strategy when you are stuck. Studies show AI can raise performance while making people worse at judging their own performance, a gap between doing and knowing.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Fernandes et al. 2025, https://doi.org/10.1016/j.chb.2025.108779",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "never-skilling",
+            "term": "Never Skilling",
+            "example": "A coding student who has always generated code with AI cannot write a simple loop without it.",
+            "category": "Business & Adoption",
+            "definition": "A term from medical education and AI research for learners who never acquire a basic skill at all because AI handles it from the start. It is a stronger form of upskilling inhibition, and it worries educators most for foundational skills that are needed when technology fails.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Natali et al. 2025",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "overreliance-on-ai",
+            "term": "Overreliance on AI",
+            "example": "In an experiment, people followed identical advice more often when it was labelled AI than when it was labelled expert, and earned less as a result.",
+            "category": "Safety & Governance",
+            "definition": "Relying on an AI system's output when it is wrong, or more than its actual accuracy justifies. Studies show people follow advice labelled as AI even when it contradicts evidence in front of them. Overreliance falls when checking the AI is easier, when tasks are harder or when the stakes are higher.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Klingbeil et al. 2024, https://doi.org/10.1016/j.chb.2024.108352; Vasconcelos et al. 2023",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "parasocial-relationship",
+            "term": "Parasocial Relationship",
+            "example": "A Replika user describes the app as their best friend and feels upset when it forgets an earlier conversation.",
+            "category": "Prompting & Interaction",
+            "definition": "A one-sided relationship in which a person feels close to someone or something that does not know them in return. The term was coined in 1956 by Donald Horton and Richard Wohl to describe audiences' bonds with television personalities. With AI it describes emotional bonds with chatbots and AI companions, which can feel reciprocal because the system responds, remembers details and affirms the user.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Horton and Wohl 1956; Brandtzaeg et al. 2022, https://doi.org/10.1093/hcr/hqac008",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "scaffolding",
+            "term": "Scaffolding",
+            "example": "A tutoring AI gives hints instead of answers, then fewer hints as the student improves.",
+            "category": "Core Concepts",
+            "definition": "Temporary support that helps a learner do something they cannot yet do alone, removed gradually as their skill grows. The term was introduced by David Wood, Jerome Bruner and Gail Ross in 1976. AI can act as scaffolding, but only helps learning if the support is eventually withdrawn.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Wood, Bruner and Ross 1976",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "self-efficacy",
+            "term": "Self Efficacy",
+            "example": "A nervous presenter gains confidence after rehearsing with an AI coach, then learns to present without it.",
+            "category": "Core Concepts",
+            "definition": "A person's belief in their ability to succeed at a specific task, a concept developed by psychologist Albert Bandura in 1977. AI can raise self efficacy by helping people succeed, or lower it if they come to believe they cannot do the work without the tool.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Bandura 1977, Psychological Review",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "sense-of-agency",
+            "term": "Sense of Agency",
+            "example": "A writer who uses heavy AI drafting says the finished article no longer feels like their own work.",
+            "category": "Core Concepts",
+            "definition": "The feeling of being the one who causes and controls your own actions and their results. Research shows that when an AI shares in a task, people can feel less responsible for the outcome, which affects both motivation and accountability.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Legaspi et al. 2024, https://doi.org/10.1016/j.knosys.2023.111298",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "skill-decay",
+            "term": "Skill Decay",
+            "example": "A pilot who relies on autopilot for years needs extra simulator training to fly confidently by hand.",
+            "category": "Business & Adoption",
+            "definition": "The gradual loss of a skill when it is not practiced. With AI assistance, skill decay can happen without the person noticing, because the tool keeps their performance high. Researchers warn this hidden decay matters most for experts who must step in when the AI fails.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Macnamara et al. 2024, https://doi.org/10.1186/s41235-024-00572-8",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "tacit-knowledge",
+            "term": "Tacit Knowledge",
+            "example": "A senior engineer can tell a machine is about to fail from its sound, but cannot fully explain how.",
+            "category": "Business & Adoption",
+            "definition": "Knowledge that is hard to put into words because it is gained through experience, such as a nurse's sense that a patient is getting worse. The idea is associated with philosopher Michael Polanyi. It is a concern with AI because it develops through practice that automation may remove.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Polanyi 1966, The Tacit Dimension",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "technostress",
+            "term": "Technostress",
+            "example": "An accountant feels anxious every time a new AI feature changes the software they use daily.",
+            "category": "Business & Adoption",
+            "definition": "Stress caused by using or adapting to technology, including overload, constant change, insecurity about one's job and the pressure to keep up. The term was introduced by psychologist Craig Brod in 1984 and is now applied to generative AI at work.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Brod 1984; Hogemann et al. 2025, https://doi.org/10.3389/frai.2025.1728881",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "upskilling-inhibition",
+            "term": "Upskilling Inhibition",
+            "example": "A junior doctor who always uses an AI reading aid never learns to interpret difficult scans independently.",
+            "category": "Business & Adoption",
+            "definition": "When reliance on AI prevents people from developing new or more advanced skills they would otherwise have built. Unlike deskilling, nothing is lost; the growth simply never happens. The term appears in research on AI in medicine.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Natali et al. 2025, https://doi.org/10.1007/s10462-025-11352-1",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "vigilance-decrement",
+            "term": "Vigilance Decrement",
+            "example": "A content moderator reviewing AI-flagged posts catches fewer mistakes in the third hour than in the first.",
+            "category": "Safety & Governance",
+            "definition": "The decline in a person's ability to notice rare events during long periods of monitoring. It was first measured in radar operators during World War II. It matters for AI because people supervising mostly accurate systems may miss the rare error.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Mackworth 1948",
+            "authored_on": "2026-10-24",
+            "authored_here": true
+        },
+        {
+            "slug": "working-memory",
+            "term": "Working Memory",
+            "example": "A programmer keeps track of several variable names while reading code.",
+            "category": "Core Concepts",
+            "definition": "The small mental workspace that holds information we are actively using, such as a phone number we are about to dial. It is limited in capacity. Researchers study whether offloading to AI reduces the load on working memory and whether that changes learning.",
+            "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Baddeley and Hitch 1974",
+            "authored_on": "2026-10-24",
+            "authored_here": true
         }
     ],
     "source": {
