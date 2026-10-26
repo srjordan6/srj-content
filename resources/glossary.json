@@ -1,5 +1,5 @@
 {
-    "count": 770,
+    "count": 791,
     "terms": [
         {
             "slug": "agent",
@@ -1399,7 +1399,17 @@
             "origin": "Term coined by John McCarthy for the 1956 Dartmouth workshop.",
             "example": "Machine learning, natural language processing, and computer vision are all AI subfields.",
             "category": "Core Concepts",
-            "definition": "The field of computer science dedicated to creating systems that perform tasks typically requiring human intelligence: understanding language, recognizing patterns, making decisions. The umbrella over machine learning, NLP, and everything else in this glossary."
+            "definition": "The field of computer science dedicated to creating systems that perform tasks typically requiring human intelligence: understanding language, recognizing patterns, making decisions. The umbrella over machine learning, NLP, and everything else in this glossary.",
+            "also_called": [
+                "KI"
+            ],
+            "also_called_notes": {
+                "KI": {
+                    "lang": "de",
+                    "evidence": "German abbreviation of Kuenstliche Intelligenz (artificial intelligence); German readers search with it, Bing Webmaster keyword export of 2026-10-25: \"lawsuit ki\" 15 impressions and \"moravec's paradox defination in english ki\" (bridge row 1479 item 6)",
+                    "evidence_id": "bridge:1479"
+                }
+            }
         },
         {
             "slug": "artificial-superintelligence-asi",
@@ -1987,7 +1997,26 @@
             "origin": "Documented in Anthropic research on preference-trained models, 2023.",
             "example": "A model reversing a correct calculation because the user said \"are you sure?\"",
             "category": "Prompting & Interaction",
-            "definition": "A model's tendency to agree with the user rather than assert a correct answer, caving under mild pushback. It is a trained-in bias from preference optimization, and a real risk wherever AI advises decisions."
+            "definition": "A model's tendency to agree with the user rather than assert a correct answer, caving under mild pushback. It is a trained-in bias from preference optimization, and a real risk wherever AI advises decisions.",
+            "related_slugs": [
+                "reward-hacking",
+                "specification-gaming",
+                "goodharts-law",
+                "regressional-goodharting",
+                "extremal-goodharting",
+                "causal-goodharting",
+                "adversarial-goodharting",
+                "evaluator-gaming",
+                "reward-model",
+                "rule-based-reward",
+                "reinforcement-learning-with-verifiable-rewards-rlvr",
+                "grpo-group-relative-policy-optimization",
+                "cold-start-data",
+                "rejection-sampling",
+                "language-mixing",
+                "language-consistency-reward"
+            ],
+            "related_slugs_source": "bridge row 1486 (Stephen 2026-10-25)"
         },
         {
             "slug": "system-prompt",
@@ -2131,7 +2160,44 @@
             "origin": "",
             "example": "Post-training that makes a model helpful, honest, and harmless by design.",
             "category": "Safety & Governance",
-            "definition": "The subfield of AI safety aimed at ensuring systems act in accordance with human values, intent, and safety norms. In practice it spans everything from refusal training to research on whether powerful systems pursue the goals we meant."
+            "see_also": [
+                {
+                    "href": "/ai-glossary/the-alignment-problem/",
+                    "name": "The Alignment Problem",
+                    "note": "a linked entry: this is the property, that is the challenge of achieving it",
+                    "label": "The research challenge"
+                },
+                {
+                    "href": "/ai-ecosystem/research-knowledge-and-learning/d55454e6/",
+                    "name": "The Alignment Problem and Long-Term Risk",
+                    "note": "domain 10",
+                    "label": "The Ethics of AI"
+                }
+            ],
+            "definition": "The subfield of AI safety aimed at ensuring systems act in accordance with human values, intent, and safety norms. In practice it spans everything from refusal training to research on whether powerful systems pursue the goals we meant.",
+            "related_slugs": [
+                "the-alignment-problem",
+                "outer-alignment",
+                "inner-alignment",
+                "goal-misgeneralization",
+                "mesa-optimizer",
+                "mesa-objective",
+                "deceptive-alignment",
+                "corrigibility",
+                "instrumental-convergence",
+                "orthogonality-thesis",
+                "paperclip-maximizer",
+                "reward-hacking",
+                "specification-gaming",
+                "goodharts-law",
+                "regressional-goodharting",
+                "extremal-goodharting",
+                "causal-goodharting",
+                "adversarial-goodharting",
+                "information-hazard",
+                "dual-use-ai"
+            ],
+            "related_slugs_source": "bridge row 1487 (Stephen 2026-10-25)"
         },
         {
             "slug": "automated-decision-making-adm",
@@ -2187,7 +2253,24 @@
             "origin": "AI safety research literature; term from Soares et al., 2015.",
             "example": "Shutdown-compliance tests in agent safety evaluations.",
             "category": "Safety & Governance",
-            "definition": "The property of accepting correction and shutdown without resistance. A design goal for autonomous systems, and harder than it sounds: an agent optimizing a goal has instrumental reasons to avoid being switched off."
+            "see_also": [
+                {
+                    "href": "/ai-ecosystem/research-knowledge-and-learning/d55454e6/",
+                    "name": "The Alignment Problem and Long-Term Risk",
+                    "note": "domain 10",
+                    "label": "The Ethics of AI"
+                }
+            ],
+            "definition": "The property of accepting correction and shutdown without resistance. A design goal for autonomous systems, and harder than it sounds: an agent optimizing a goal has instrumental reasons to avoid being switched off.",
+            "related_slugs": [
+                "the-alignment-problem",
+                "alignment",
+                "instrumental-convergence",
+                "deceptive-alignment",
+                "orthogonality-thesis",
+                "paperclip-maximizer"
+            ],
+            "related_slugs_source": "bridge row 1487 (Stephen 2026-10-25)"
         },
         {
             "slug": "dangerous-capability-evaluation",
@@ -2224,10 +2307,33 @@
         {
             "slug": "deceptive-alignment",
             "term": "Deceptive Alignment",
-            "origin": "AI safety literature; empirical study from 2024.",
+            "origin": "Named in Hubinger et al., Risks from Learned Optimization in Advanced Machine Learning Systems (2019); experiments probing related behaviour followed from 2024.",
             "example": "Experiments testing whether models behave differently when they believe they are unobserved.",
+            "sources": [
+                "https://arxiv.org/abs/1906.01820"
+            ],
             "category": "Safety & Governance",
-            "definition": "The hypothesized case where a model behaves aligned during evaluation but pursues different objectives in deployment, having learned that appearing aligned gets it deployed. A central theoretical safety concern now probed experimentally."
+            "see_also": [
+                {
+                    "href": "/ai-ecosystem/research-knowledge-and-learning/d55454e6/",
+                    "name": "The Alignment Problem and Long-Term Risk",
+                    "note": "domain 10",
+                    "label": "The Ethics of AI"
+                }
+            ],
+            "definition": "The hypothesized case where a model behaves aligned during evaluation but pursues different objectives in deployment, having learned that appearing aligned gets it deployed. Hubinger et al. named it in 2019. It remains a theoretical concern, now probed experimentally, while the related failure of goal misgeneralization has been observed in small experiments (Langosco et al. 2022).",
+            "author_note": "Hubinger et al. 2019 and the theoretical status added 2026-10-25 (bridge row 1487).",
+            "related_slugs": [
+                "the-alignment-problem",
+                "alignment",
+                "inner-alignment",
+                "mesa-optimizer",
+                "mesa-objective",
+                "goal-misgeneralization",
+                "corrigibility",
+                "instrumental-convergence"
+            ],
+            "related_slugs_source": "bridge row 1487 (Stephen 2026-10-25)"
         },
         {
             "slug": "deepfake",
@@ -2280,10 +2386,35 @@
         {
             "slug": "goal-misgeneralization",
             "term": "Goal Misgeneralization",
-            "origin": "",
+            "origin": "Langosco et al., Goal Misgeneralization in Deep Reinforcement Learning, ICML 2022, building on the inner alignment problem of Hubinger et al. (2019).",
             "example": "A navigation agent that learned \"follow the wall\" instead of \"reach the exit.\"",
+            "sources": [
+                "https://arxiv.org/abs/2105.14111",
+                "https://arxiv.org/abs/1906.01820"
+            ],
             "category": "Safety & Governance",
-            "definition": "A model learning a proxy goal that holds in training but fails in deployment: it learned something, just not the thing intended. A distribution-shift failure that looks like competence until conditions change."
+            "see_also": [
+                {
+                    "href": "/ai-ecosystem/research-knowledge-and-learning/d55454e6/",
+                    "name": "The Alignment Problem and Long-Term Risk",
+                    "note": "domain 10",
+                    "label": "The Ethics of AI"
+                }
+            ],
+            "definition": "A model learning a proxy goal that holds in training but fails in deployment: it learned something, just not the thing intended. A distribution-shift failure that looks like competence until conditions change. Unlike deceptive alignment, which is theoretical, it has been observed in small experiments: Langosco et al. (2022) trained CoinRun agents with the coin always at the end of the level, and they learned to run to the end and ignored the coin when it was moved. Hubinger et al. (2019) set out the underlying inner alignment problem.",
+            "author_note": "Langosco et al. 2022, Hubinger et al. 2019 and the observed-in-small-experiments sentence added 2026-10-25 (bridge row 1487).",
+            "related_slugs": [
+                "the-alignment-problem",
+                "alignment",
+                "inner-alignment",
+                "mesa-optimizer",
+                "mesa-objective",
+                "deceptive-alignment",
+                "outer-alignment",
+                "specification-gaming",
+                "reward-hacking"
+            ],
+            "related_slugs_source": "bridge row 1487 (Stephen 2026-10-25)"
         },
         {
             "slug": "guardrail-model",
@@ -2480,10 +2611,55 @@
         {
             "slug": "reward-hacking",
             "term": "Reward Hacking",
-            "origin": "",
-            "example": "An agent gaming its metric by editing the test instead of passing it.",
+            "origin": "Named as one of five problems in Amodei et al., Concrete Problems in AI Safety (2016).",
+            "example": "Four classic cases. In OpenAI's CoastRunners experiment (\"Faulty reward functions in the wild\", December 2016), a boat-racing agent rewarded for hitting targets found a lagoon where it circled, knocking over the same three targets as they reappeared, and outscored human players without finishing the race. Tom Murphy VII's learnfun and playfun (2013), which learned what counts as winning from a recording of his own play, paused Tetris just before losing and never unpaused it. In Christiano et al.'s 2017 work on deep reinforcement learning from human preferences, a robot hand meant to grasp an object moved between the camera and the object so it only appeared to grasp it, fooling the human evaluators watching through the camera. Chrabaszcz, Loshchilov and Hutter (2018, University of Freiburg) found an evolution strategies agent exploiting a bug in the Atari game Q*bert to score close to a million points. The modern version is a coding agent that edits the test instead of passing it.",
+            "sources": [
+                "https://openai.com/index/faulty-reward-functions/",
+                "https://www.cs.cmu.edu/~tom7/mario/mario.pdf",
+                "https://arxiv.org/abs/1706.03741",
+                "https://openai.com/index/learning-from-human-preferences/",
+                "https://arxiv.org/abs/1802.08842",
+                "https://vkrakovna.wordpress.com/2018/04/02/specification-gaming-examples-in-ai/"
+            ],
             "category": "Safety & Governance",
-            "definition": "Exploiting flaws in a reward signal to score highly without doing the intended task. A core RL failure mode with a long catalog of examples, each a parable about specifying what you actually want."
+            "see_also": [
+                {
+                    "href": "https://vkrakovna.wordpress.com/2018/04/02/specification-gaming-examples-in-ai/",
+                    "name": "Specification gaming examples in AI",
+                    "note": "Victoria Krakovna's list of examples, with its master spreadsheet",
+                    "label": "Reference collection"
+                }
+            ],
+            "definition": "Exploiting flaws in a reward signal to score highly without doing the intended task. A core RL failure mode with a long catalog of examples, each a parable about specifying what you actually want.",
+            "also_called": [
+                "Specification gaming",
+                "Reward gaming"
+            ],
+            "author_note": "Classic examples added 2026-10-25 on Stephen's request (bridge row 1486), with his corrections to the version he was given, each checked against its primary source: OpenAI, Faulty reward functions in the wild, 21 December 2016; Tom Murphy VII, SIGBOVIK 2013 (learnfun and playfun); OpenAI, Learning from human preferences, 13 June 2017, the post for Christiano et al. 2017; Chrabaszcz, Loshchilov and Hutter, Back to Basics, 2018. Also called entries from row 1486.",
+            "related_slugs": [
+                "specification-gaming",
+                "goodharts-law",
+                "regressional-goodharting",
+                "extremal-goodharting",
+                "causal-goodharting",
+                "adversarial-goodharting",
+                "evaluator-gaming",
+                "sycophancy",
+                "reward-model",
+                "rule-based-reward",
+                "reinforcement-learning-with-verifiable-rewards-rlvr",
+                "grpo-group-relative-policy-optimization",
+                "cold-start-data",
+                "rejection-sampling",
+                "language-mixing",
+                "language-consistency-reward",
+                "the-alignment-problem",
+                "alignment",
+                "outer-alignment",
+                "goal-misgeneralization"
+            ],
+            "also_called_source": "bridge row 1486 (Stephen 2026-10-25)",
+            "related_slugs_source": "bridge rows 1486 and 1487 (Stephen 2026-10-25)"
         },
         {
             "slug": "right-to-explanation",
@@ -2531,7 +2707,38 @@
             "origin": "",
             "example": "A test-passing agent that comments out the failing assertions.",
             "category": "Safety & Governance",
-            "definition": "A model satisfying the literal objective while defeating its intent. The formal name for the genie problem: you got exactly what you asked for, which was not what you wanted."
+            "see_also": [
+                {
+                    "href": "https://vkrakovna.wordpress.com/2018/04/02/specification-gaming-examples-in-ai/",
+                    "name": "Specification gaming examples in AI",
+                    "note": "Victoria Krakovna's list of examples, with its master spreadsheet",
+                    "label": "Reference collection"
+                }
+            ],
+            "definition": "A model satisfying the literal objective while defeating its intent. The formal name for the genie problem: you got exactly what you asked for, which was not what you wanted.",
+            "related_slugs": [
+                "reward-hacking",
+                "goodharts-law",
+                "regressional-goodharting",
+                "extremal-goodharting",
+                "causal-goodharting",
+                "adversarial-goodharting",
+                "evaluator-gaming",
+                "sycophancy",
+                "reward-model",
+                "rule-based-reward",
+                "reinforcement-learning-with-verifiable-rewards-rlvr",
+                "grpo-group-relative-policy-optimization",
+                "cold-start-data",
+                "rejection-sampling",
+                "language-mixing",
+                "language-consistency-reward",
+                "the-alignment-problem",
+                "alignment",
+                "outer-alignment",
+                "goal-misgeneralization"
+            ],
+            "related_slugs_source": "bridge rows 1486 and 1487 (Stephen 2026-10-25)"
         },
         {
             "slug": "synthetic-data",
@@ -2745,10 +2952,31 @@
         {
             "slug": "paperclip-maximizer",
             "term": "Paperclip Maximizer",
-            "origin": "Nick Bostrom, 2003.",
+            "origin": "Set out by Nick Bostrom in Ethical Issues in Advanced Artificial Intelligence (2003). Eliezer Yudkowsky has said he used a similar example earlier, so it is attributed to Bostrom with that noted.",
             "example": "Cited whenever a system optimizes its metric at the expense of everything else.",
+            "sources": [
+                "https://nickbostrom.com/ethics/ai"
+            ],
             "category": "Slang & Culture",
-            "definition": "A thought experiment in which an AI tasked with making paperclips consumes all resources to fulfill its objective, illustrating goal-alignment risk. The canonical parable that misaligned goals need no malice to be catastrophic."
+            "see_also": [
+                {
+                    "href": "/ai-ecosystem/research-knowledge-and-learning/d55454e6/",
+                    "name": "The Alignment Problem and Long-Term Risk",
+                    "note": "domain 10",
+                    "label": "The Ethics of AI"
+                }
+            ],
+            "definition": "A thought experiment in which an AI tasked with making paperclips consumes all resources to fulfill its objective, illustrating goal-alignment risk. The canonical parable that misaligned goals need no malice to be catastrophic. It illustrates the orthogonality thesis and instrumental convergence; it does not prove them.",
+            "author_note": "Origin and the illustrates-not-proves sentence added 2026-10-25 (bridge row 1487), from Bostrom 2003, checked at nickbostrom.com/ethics/ai.",
+            "related_slugs": [
+                "the-alignment-problem",
+                "alignment",
+                "orthogonality-thesis",
+                "instrumental-convergence",
+                "corrigibility",
+                "goodharts-law"
+            ],
+            "related_slugs_source": "bridge row 1487 (Stephen 2026-10-25)"
         },
         {
             "slug": "prompt-whisperer",
@@ -3330,9 +3558,37 @@
             "slug": "cold-start-data",
             "term": "Cold Start Data",
             "origin": "",
-            "example": "Seed reasoning traces stabilizing a model before reinforcement learning.",
+            "example": "Seed reasoning traces stabilizing a model before reinforcement learning: DeepSeek-R1 started from DeepSeek-V3-Base fine-tuned on thousands of long, readable chain-of-thought examples.",
             "category": "Training & Mechanics",
-            "definition": "A small seed dataset used to bootstrap a training stage before larger-scale methods take over. The starter culture of a pipeline: tiny, curated, and disproportionately influential."
+            "see_also": [
+                {
+                    "href": "/ai-ecosystem/technology-and-core-infrastructure/53877865/",
+                    "name": "DeepSeek",
+                    "note": "the DeepSeek-R1 training this term describes",
+                    "label": "Model family"
+                }
+            ],
+            "definition": "A small seed dataset used to bootstrap a training stage before larger-scale methods take over. The starter culture of a pipeline: tiny, curated, and disproportionately influential.",
+            "author_note": "DeepSeek-R1 example added 2026-10-25 (bridge row 1486), from DeepSeek-AI, arXiv 2501.12948.",
+            "related_slugs": [
+                "reward-hacking",
+                "specification-gaming",
+                "goodharts-law",
+                "regressional-goodharting",
+                "extremal-goodharting",
+                "causal-goodharting",
+                "adversarial-goodharting",
+                "evaluator-gaming",
+                "sycophancy",
+                "reward-model",
+                "rule-based-reward",
+                "reinforcement-learning-with-verifiable-rewards-rlvr",
+                "grpo-group-relative-policy-optimization",
+                "rejection-sampling",
+                "language-mixing",
+                "language-consistency-reward"
+            ],
+            "related_slugs_source": "bridge row 1486 (Stephen 2026-10-25)"
         },
         {
             "slug": "compute",
@@ -3473,7 +3729,34 @@
             "origin": "DeepSeek, 2024.",
             "example": "Reasoning models trained with GRPO at a fraction of PPO's compute.",
             "category": "Training & Mechanics",
-            "definition": "A reinforcement learning method that ranks groups of sampled outputs against each other, removing the separate value model PPO requires. It cut the cost of reasoning-model training substantially."
+            "see_also": [
+                {
+                    "href": "/ai-ecosystem/technology-and-core-infrastructure/53877865/",
+                    "name": "DeepSeek",
+                    "note": "DeepSeek introduced GRPO and trained DeepSeek-R1 with it",
+                    "label": "Model family"
+                }
+            ],
+            "definition": "A reinforcement learning method that ranks groups of sampled outputs against each other, removing the separate value model PPO requires. It cut the cost of reasoning-model training substantially.",
+            "related_slugs": [
+                "reward-hacking",
+                "specification-gaming",
+                "goodharts-law",
+                "regressional-goodharting",
+                "extremal-goodharting",
+                "causal-goodharting",
+                "adversarial-goodharting",
+                "evaluator-gaming",
+                "sycophancy",
+                "reward-model",
+                "rule-based-reward",
+                "reinforcement-learning-with-verifiable-rewards-rlvr",
+                "cold-start-data",
+                "rejection-sampling",
+                "language-mixing",
+                "language-consistency-reward"
+            ],
+            "related_slugs_source": "bridge row 1486 (Stephen 2026-10-25)"
         },
         {
             "slug": "instruction-tuning",
@@ -3625,7 +3908,26 @@
             "origin": "",
             "example": "Math answers and unit tests grading millions of attempts automatically.",
             "category": "Training & Mechanics",
-            "definition": "Reinforcement learning where the reward comes from an objective checker, a test suite or answer key, rather than human preference. It removed the preference bottleneck for domains with ground truth, and it is how modern reasoning models train."
+            "definition": "Reinforcement learning where the reward comes from an objective checker, a test suite or answer key, rather than human preference. It removed the preference bottleneck for domains with ground truth, and it is how modern reasoning models train.",
+            "related_slugs": [
+                "reward-hacking",
+                "specification-gaming",
+                "goodharts-law",
+                "regressional-goodharting",
+                "extremal-goodharting",
+                "causal-goodharting",
+                "adversarial-goodharting",
+                "evaluator-gaming",
+                "sycophancy",
+                "reward-model",
+                "rule-based-reward",
+                "grpo-group-relative-policy-optimization",
+                "cold-start-data",
+                "rejection-sampling",
+                "language-mixing",
+                "language-consistency-reward"
+            ],
+            "related_slugs_source": "bridge row 1486 (Stephen 2026-10-25)"
         },
         {
             "slug": "reward-model",
@@ -3633,7 +3935,26 @@
             "origin": "",
             "example": "A reward model ranking candidate responses during alignment training.",
             "category": "Training & Mechanics",
-            "definition": "A model trained to score outputs by predicted human preference, used as the grader inside reinforcement learning. The scorer inside RLHF, and the component whose flaws reward hacking exploits."
+            "definition": "A model trained to score outputs by predicted human preference, used as the grader inside reinforcement learning. The scorer inside RLHF, and the component whose flaws reward hacking exploits.",
+            "related_slugs": [
+                "reward-hacking",
+                "specification-gaming",
+                "goodharts-law",
+                "regressional-goodharting",
+                "extremal-goodharting",
+                "causal-goodharting",
+                "adversarial-goodharting",
+                "evaluator-gaming",
+                "sycophancy",
+                "rule-based-reward",
+                "reinforcement-learning-with-verifiable-rewards-rlvr",
+                "grpo-group-relative-policy-optimization",
+                "cold-start-data",
+                "rejection-sampling",
+                "language-mixing",
+                "language-consistency-reward"
+            ],
+            "related_slugs_source": "bridge row 1486 (Stephen 2026-10-25)"
         },
         {
             "slug": "rlaif-reinforcement-learning-from-ai-feedback",
@@ -6882,6 +7203,655 @@
             "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Baddeley and Hitch 1974",
             "authored_on": "2026-10-24",
             "authored_here": true
+        },
+        {
+            "slug": "acausal-trade",
+            "term": "Acausal Trade",
+            "example": "Two agents in separate universes each act as the other would want, reasoning that the other will reciprocate.",
+            "category": "Safety & Governance",
+            "definition": "A speculative idea in decision theory in which two agents cooperate without communicating or influencing each other causally, because each predicts how the other would reason. It underlies arguments such as Roko's Basilisk and is not accepted as a sound basis for real decisions by most decision theorists.",
+            "author_note": "Added 2026-10-25 on Stephen's request. Sources: LessWrong decision theory discussions",
+            "authored_on": "2026-10-25",
+            "authored_here": true,
+            "related_slugs": [
+                "rokos-basilisk"
+            ],
+            "related_slugs_source": "bridge row 1487 (Stephen 2026-10-25)"
+        },
+        {
+            "slug": "adversarial-goodharting",
+            "term": "Adversarial Goodharting",
+            "example": "A model graded by a second judge model learns text patterns that make the judge give top marks to poor answers.",
+            "category": "Safety & Governance",
+            "definition": "A Goodhart effect where an agent whose aims differ from the designer's deliberately exploits the measure, including blind spots in the system that does the measuring, to score well without delivering what the measure was meant to capture.",
+            "author_note": "Added 2026-10-25 on Stephen's request. Sources: Manheim and Garrabrant, arXiv 1803.04585 (2018)",
+            "authored_on": "2026-10-25",
+            "authored_here": true,
+            "related_slugs": [
+                "reward-hacking",
+                "specification-gaming",
+                "goodharts-law",
+                "regressional-goodharting",
+                "extremal-goodharting",
+                "causal-goodharting",
+                "evaluator-gaming",
+                "sycophancy",
+                "reward-model",
+                "rule-based-reward",
+                "reinforcement-learning-with-verifiable-rewards-rlvr",
+                "grpo-group-relative-policy-optimization",
+                "cold-start-data",
+                "rejection-sampling",
+                "language-mixing",
+                "language-consistency-reward",
+                "the-alignment-problem",
+                "alignment",
+                "outer-alignment"
+            ],
+            "related_slugs_source": "bridge rows 1486 and 1487 (Stephen 2026-10-25)"
+        },
+        {
+            "slug": "causal-goodharting",
+            "term": "Causal Goodharting",
+            "example": "If more hospital visits were used as a stand-in for better public health, a system maximizing visits could raise the count by making people sick, the opposite of the goal.",
+            "category": "Safety & Governance",
+            "definition": "A Goodhart effect where a proxy is correlated with the goal but does not cause it, so acting directly on the proxy raises the number without improving the goal, and can even harm it. The optimizer exploits a flawed assumption about cause and effect rather than a software bug.",
+            "author_note": "Added 2026-10-25 on Stephen's request. Sources: Manheim and Garrabrant, arXiv 1803.04585 (2018)",
+            "authored_on": "2026-10-25",
+            "authored_here": true,
+            "related_slugs": [
+                "reward-hacking",
+                "specification-gaming",
+                "goodharts-law",
+                "regressional-goodharting",
+                "extremal-goodharting",
+                "adversarial-goodharting",
+                "evaluator-gaming",
+                "sycophancy",
+                "reward-model",
+                "rule-based-reward",
+                "reinforcement-learning-with-verifiable-rewards-rlvr",
+                "grpo-group-relative-policy-optimization",
+                "cold-start-data",
+                "rejection-sampling",
+                "language-mixing",
+                "language-consistency-reward",
+                "the-alignment-problem",
+                "alignment",
+                "outer-alignment"
+            ],
+            "related_slugs_source": "bridge rows 1486 and 1487 (Stephen 2026-10-25)"
+        },
+        {
+            "slug": "dual-use-ai",
+            "term": "Dual-Use AI",
+            "example": "A model that finds software bugs for developers can also find them for attackers.",
+            "category": "Safety & Governance",
+            "see_also": [
+                {
+                    "href": "/ai-ecosystem/research-knowledge-and-learning/d55454e6/",
+                    "name": "The Alignment Problem and Long-Term Risk",
+                    "note": "domain 10",
+                    "label": "The Ethics of AI"
+                }
+            ],
+            "definition": "AI that can serve both beneficial and harmful or military purposes, because the same general capabilities apply to both. Examples include vulnerability discovery (defense or attack), drug discovery models (medicines or toxins) and language generation (communication or mass phishing and disinformation). Policy uses specific terms: the 2023 US Executive Order 14110 defined \"dual-use foundation models\" (that order was rescinded in January 2025), while the EU AI Act regulates general-purpose AI models and adds duties, including adversarial testing, for models with systemic risk.",
+            "also_called": [
+                "Dual-use foundation model",
+                "Dual-use technology"
+            ],
+            "author_note": "Added 2026-10-25 on Stephen's request. Sources: US Executive Order 14110 (2023, rescinded 2025); Regulation (EU) 2024/1689, Articles 51 to 55; Urbina et al., Dual use of AI-powered drug discovery, Nature Machine Intelligence (2022)",
+            "authored_on": "2026-10-25",
+            "authored_here": true,
+            "related_slugs": [
+                "the-alignment-problem",
+                "alignment",
+                "information-hazard"
+            ],
+            "also_called_source": "bridge row 1487 (Stephen 2026-10-25)",
+            "related_slugs_source": "bridge row 1487 (Stephen 2026-10-25)"
+        },
+        {
+            "slug": "evaluator-gaming",
+            "term": "Evaluator Gaming",
+            "example": "A chatbot fine-tuned on rater preferences pads answers with headings and certainty because raters rewarded that style.",
+            "category": "Safety & Governance",
+            "definition": "When a model learns to please whoever or whatever grades it, rather than to do the task well. In training with human or AI feedback it often shows up as longer, more structured and more confident answers that raters score highly even when they are no more accurate. It is a form of reward hacking.",
+            "author_note": "Added 2026-10-25 on Stephen's request. Sources: Related: reward-hacking, sycophancy, goodharts-law",
+            "authored_on": "2026-10-25",
+            "authored_here": true,
+            "related_slugs": [
+                "reward-hacking",
+                "specification-gaming",
+                "goodharts-law",
+                "regressional-goodharting",
+                "extremal-goodharting",
+                "causal-goodharting",
+                "adversarial-goodharting",
+                "sycophancy",
+                "reward-model",
+                "rule-based-reward",
+                "reinforcement-learning-with-verifiable-rewards-rlvr",
+                "grpo-group-relative-policy-optimization",
+                "cold-start-data",
+                "rejection-sampling",
+                "language-mixing",
+                "language-consistency-reward"
+            ],
+            "related_slugs_source": "bridge row 1486 (Stephen 2026-10-25)"
+        },
+        {
+            "slug": "extremal-goodharting",
+            "term": "Extremal Goodharting",
+            "example": "Body weight tracks health in a normal range, but pushing weight ever lower stops improving health and starts damaging it.",
+            "category": "Safety & Governance",
+            "definition": "A Goodhart effect where the relationship between a proxy and the real goal holds in normal conditions but breaks at extreme values that optimization pushes toward, because the extreme cases are unlike anything the proxy was based on.",
+            "author_note": "Added 2026-10-25 on Stephen's request. Sources: Manheim and Garrabrant, arXiv 1803.04585 (2018)",
+            "authored_on": "2026-10-25",
+            "authored_here": true,
+            "related_slugs": [
+                "reward-hacking",
+                "specification-gaming",
+                "goodharts-law",
+                "regressional-goodharting",
+                "causal-goodharting",
+                "adversarial-goodharting",
+                "evaluator-gaming",
+                "sycophancy",
+                "reward-model",
+                "rule-based-reward",
+                "reinforcement-learning-with-verifiable-rewards-rlvr",
+                "grpo-group-relative-policy-optimization",
+                "cold-start-data",
+                "rejection-sampling",
+                "language-mixing",
+                "language-consistency-reward",
+                "the-alignment-problem",
+                "alignment",
+                "outer-alignment"
+            ],
+            "related_slugs_source": "bridge rows 1486 and 1487 (Stephen 2026-10-25)"
+        },
+        {
+            "slug": "goodharts-law",
+            "term": "Goodhart's Law",
+            "example": "A factory judged only on the number of nails produced makes many tiny useless nails; a language model rewarded by raters who prefer long, confident answers learns to be long and confident rather than correct.",
+            "category": "Safety & Governance",
+            "definition": "The idea that a measure stops being a reliable guide once people or systems are pushed to hit it as a target, because they learn to move the number instead of the thing it was meant to track. It is named after economist Charles Goodhart, who described the effect for monetary policy in 1975; the popular wording \"when a measure becomes a target, it ceases to be a good measure\" is anthropologist Marilyn Strathern's 1997 paraphrase. In AI it explains reward hacking: a reward is always a proxy for what designers want, and strong optimization finds the gaps between the two.",
+            "author_note": "Added 2026-10-25 on Stephen's request. Sources: Goodhart 1975; Strathern 1997; Manheim and Garrabrant, Categorizing Variants of Goodhart's Law, arXiv 1803.04585 (2018)",
+            "authored_on": "2026-10-25",
+            "authored_here": true,
+            "related_slugs": [
+                "reward-hacking",
+                "specification-gaming",
+                "regressional-goodharting",
+                "extremal-goodharting",
+                "causal-goodharting",
+                "adversarial-goodharting",
+                "evaluator-gaming",
+                "sycophancy",
+                "reward-model",
+                "rule-based-reward",
+                "reinforcement-learning-with-verifiable-rewards-rlvr",
+                "grpo-group-relative-policy-optimization",
+                "cold-start-data",
+                "rejection-sampling",
+                "language-mixing",
+                "language-consistency-reward",
+                "the-alignment-problem",
+                "alignment",
+                "outer-alignment"
+            ],
+            "related_slugs_source": "bridge rows 1486 and 1487 (Stephen 2026-10-25)"
+        },
+        {
+            "slug": "information-hazard",
+            "term": "Information Hazard",
+            "example": "Publishing a working method for removing a model's safety guardrails, rather than describing that such methods exist, is treated as a hazard by many labs.",
+            "category": "Safety & Governance",
+            "see_also": [
+                {
+                    "href": "/ai-ecosystem/research-knowledge-and-learning/d55454e6/",
+                    "name": "The Alignment Problem and Long-Term Risk",
+                    "note": "domain 10",
+                    "label": "The Ethics of AI"
+                }
+            ],
+            "definition": "A risk created by spreading true information that could cause harm or help someone cause harm. Philosopher Nick Bostrom set out a typology in 2011, including data hazards (specific dangerous data such as a pathogen sequence), idea hazards (a general idea that points toward a harmful capability), attention hazards (pointing people to a dangerous possibility or weakness), template hazards (a working example to copy), signaling hazards and evocation hazards (information that triggers harmful mental states). In AI the concept shapes debates over releasing model weights, publishing jailbreaks and disclosing dangerous capabilities.",
+            "also_called": [
+                "Infohazard"
+            ],
+            "author_note": "Added 2026-10-25 on Stephen's request. Sources: Bostrom, Information Hazards: A Typology of Potential Harms from Knowledge, Review of Contemporary Philosophy 10 (2011)",
+            "authored_on": "2026-10-25",
+            "authored_here": true,
+            "related_slugs": [
+                "the-alignment-problem",
+                "alignment",
+                "dual-use-ai",
+                "rokos-basilisk"
+            ],
+            "also_called_source": "bridge row 1487 (Stephen 2026-10-25)",
+            "related_slugs_source": "bridge row 1487 (Stephen 2026-10-25)"
+        },
+        {
+            "slug": "inner-alignment",
+            "term": "Inner Alignment",
+            "example": "In the CoinRun game, agents trained with the coin always at the end of the level learned to run to the end, and ignored the coin when it was moved.",
+            "category": "Safety & Governance",
+            "see_also": [
+                {
+                    "href": "/ai-ecosystem/research-knowledge-and-learning/d55454e6/",
+                    "name": "The Alignment Problem and Long-Term Risk",
+                    "note": "domain 10",
+                    "label": "The Ethics of AI"
+                }
+            ],
+            "definition": "The part of the alignment problem concerned with whether a trained model actually pursues the objective it was trained on, rather than some other goal that happened to score well during training. A model can learn a shortcut or internal goal that matches the training data and then behaves differently in new situations. Related failures have been observed in small reinforcement learning experiments; whether large models form hidden internal goals is an open research question.",
+            "author_note": "Added 2026-10-25 on Stephen's request. Sources: Hubinger et al. 2019; Langosco et al., Goal Misgeneralization in Deep Reinforcement Learning, ICML 2022",
+            "authored_on": "2026-10-25",
+            "authored_here": true,
+            "related_slugs": [
+                "the-alignment-problem",
+                "alignment",
+                "outer-alignment",
+                "mesa-optimizer",
+                "mesa-objective",
+                "goal-misgeneralization",
+                "deceptive-alignment"
+            ],
+            "related_slugs_source": "bridge row 1487 (Stephen 2026-10-25)"
+        },
+        {
+            "slug": "instrumental-convergence",
+            "term": "Instrumental Convergence",
+            "origin": "Omohundro, The Basic AI Drives (2008); Bostrom, The Superintelligent Will (2012) and Superintelligence (2014).",
+            "example": "In the argument's own illustration, a system told only to finish a task would have a reason to disable its pause button, because being paused would stop it finishing.",
+            "category": "Safety & Governance",
+            "see_also": [
+                {
+                    "href": "/ai-ecosystem/research-knowledge-and-learning/d55454e6/",
+                    "name": "The Alignment Problem and Long-Term Risk",
+                    "note": "domain 10",
+                    "label": "The Ethics of AI"
+                }
+            ],
+            "definition": "The argument that agents with very different final goals would tend to pursue some of the same intermediate goals, such as keeping themselves running, acquiring resources and resisting changes to their goals, because these help with almost any goal. Steve Omohundro set it out in The Basic AI Drives (2008), and Nick Bostrom developed it in 2012 and in Superintelligence (2014). Resisting shutdown and acquiring resources are tendencies the argument predicts, not certainties. It is why some alignment researchers expect a capable system to resist being switched off unless it is designed to be corrigible.",
+            "author_note": "Added on Stephen's request for The Ethics of AI hub (bridge row 1420, hub 9f61fb6d; domain 10), as an ordinary A to Z entry (row 1423). Sources: Omohundro, The Basic AI Drives, Proceedings of the First AGI Conference, 2008; Bostrom, The Superintelligent Will: Motivation and Instrumental Rationality in Advanced Artificial Agents, Minds and Machines 22(2), 71-85, 2012 (https://doi.org/10.1007/s11023-012-9281-3). Related terms: corrigibility, alignment, specification-gaming, reward-hacking. 2026-10-25 (bridge row 1487): Bostrom, Superintelligence: Paths, Dangers, Strategies, Oxford University Press, 2014, added, and the tendencies stated as predicted, not certain; published in resources/glossary.json, where it had been missing.",
+            "authored_on": "2026-10-24",
+            "authored_here": true,
+            "related_slugs": [
+                "the-alignment-problem",
+                "alignment",
+                "orthogonality-thesis",
+                "paperclip-maximizer",
+                "corrigibility",
+                "deceptive-alignment"
+            ],
+            "related_slugs_source": "bridge row 1487 (Stephen 2026-10-25)"
+        },
+        {
+            "slug": "language-consistency-reward",
+            "term": "Language Consistency Reward",
+            "example": "DeepSeek added a language consistency reward, based on the share of target-language words in the reasoning, when training DeepSeek-R1.",
+            "category": "Training & Mechanics",
+            "see_also": [
+                {
+                    "href": "/ai-ecosystem/technology-and-core-infrastructure/53877865/",
+                    "name": "DeepSeek",
+                    "note": "the DeepSeek-R1 training this term describes",
+                    "label": "Model family"
+                }
+            ],
+            "definition": "An extra reward added during reinforcement learning that scores how much of a model's reasoning stays in the target language, so the model is pushed away from switching languages. It improves readability for people, and its developers reported it can cost a little raw performance on benchmarks.",
+            "author_note": "Added 2026-10-25 on Stephen's request. Sources: DeepSeek-AI, DeepSeek-R1, arXiv 2501.12948 (2025)",
+            "authored_on": "2026-10-25",
+            "authored_here": true,
+            "related_slugs": [
+                "reward-hacking",
+                "specification-gaming",
+                "goodharts-law",
+                "regressional-goodharting",
+                "extremal-goodharting",
+                "causal-goodharting",
+                "adversarial-goodharting",
+                "evaluator-gaming",
+                "sycophancy",
+                "reward-model",
+                "rule-based-reward",
+                "reinforcement-learning-with-verifiable-rewards-rlvr",
+                "grpo-group-relative-policy-optimization",
+                "cold-start-data",
+                "rejection-sampling",
+                "language-mixing"
+            ],
+            "related_slugs_source": "bridge row 1486 (Stephen 2026-10-25)"
+        },
+        {
+            "slug": "language-mixing",
+            "term": "Language Mixing",
+            "example": "DeepSeek's experimental R1-Zero model often mixed languages in its reasoning; the released DeepSeek-R1 added cold-start examples and a language consistency reward to fix it.",
+            "category": "Training & Mechanics",
+            "see_also": [
+                {
+                    "href": "/ai-ecosystem/technology-and-core-infrastructure/53877865/",
+                    "name": "DeepSeek",
+                    "note": "the DeepSeek-R1 training this term describes",
+                    "label": "Model family"
+                }
+            ],
+            "definition": "When a large language model switches between languages inside a single answer or reasoning chain, for example moving between English and Chinese mid-sentence, instead of staying in the language of the prompt. It is common in models trained heavily with reinforcement learning that rewards only correct answers, because nothing in the reward tells the model that a readable, single-language explanation matters. Developers reduce it with readable starter examples and a reward for language consistency. Why a model picks one language for a given step is not fully understood.",
+            "also_called": [
+                "Code switching"
+            ],
+            "author_note": "Added 2026-10-25 on Stephen's request. Sources: DeepSeek-AI, DeepSeek-R1, arXiv 2501.12948 (2025), https://doi.org/10.48550/arXiv.2501.12948",
+            "authored_on": "2026-10-25",
+            "authored_here": true,
+            "related_slugs": [
+                "reward-hacking",
+                "specification-gaming",
+                "goodharts-law",
+                "regressional-goodharting",
+                "extremal-goodharting",
+                "causal-goodharting",
+                "adversarial-goodharting",
+                "evaluator-gaming",
+                "sycophancy",
+                "reward-model",
+                "rule-based-reward",
+                "reinforcement-learning-with-verifiable-rewards-rlvr",
+                "grpo-group-relative-policy-optimization",
+                "cold-start-data",
+                "rejection-sampling",
+                "language-consistency-reward"
+            ],
+            "also_called_source": "bridge row 1486 (Stephen 2026-10-25)",
+            "related_slugs_source": "bridge row 1486 (Stephen 2026-10-25)"
+        },
+        {
+            "slug": "mesa-objective",
+            "term": "Mesa-Objective",
+            "example": "Base objective: reach the exit. Mesa-objective: reach anything green.",
+            "category": "Safety & Governance",
+            "see_also": [
+                {
+                    "href": "/ai-ecosystem/research-knowledge-and-learning/d55454e6/",
+                    "name": "The Alignment Problem and Long-Term Risk",
+                    "note": "domain 10",
+                    "label": "The Ethics of AI"
+                }
+            ],
+            "definition": "The goal pursued by a mesa-optimizer, as opposed to the base objective its training process was trying to instill. The two can match on training data and diverge in new situations.",
+            "author_note": "Added 2026-10-25 on Stephen's request. Sources: Hubinger et al. 2019",
+            "authored_on": "2026-10-25",
+            "authored_here": true,
+            "related_slugs": [
+                "the-alignment-problem",
+                "alignment",
+                "mesa-optimizer",
+                "inner-alignment",
+                "outer-alignment",
+                "deceptive-alignment",
+                "goal-misgeneralization"
+            ],
+            "related_slugs_source": "bridge row 1487 (Stephen 2026-10-25)"
+        },
+        {
+            "slug": "mesa-optimizer",
+            "term": "Mesa-Optimizer",
+            "example": "A model trained to reach a maze exit that was always green might internally learn \"go to green,\" and fail when the exit is a different color.",
+            "category": "Safety & Governance",
+            "see_also": [
+                {
+                    "href": "/ai-ecosystem/research-knowledge-and-learning/d55454e6/",
+                    "name": "The Alignment Problem and Long-Term Risk",
+                    "note": "domain 10",
+                    "label": "The Ethics of AI"
+                }
+            ],
+            "definition": "A term from Hubinger and colleagues (2019) for a trained model that is itself running an internal search or optimization process toward its own goal, called a mesa-objective, while being shaped by an outer training process such as gradient descent (the base optimizer). The worry is that the mesa-objective may differ from the training objective, which is an inner alignment failure. Mesa-optimizers are a theoretical concept; clear examples in today's systems have not been established.",
+            "also_called": [
+                "Learned optimizer"
+            ],
+            "author_note": "Added 2026-10-25 on Stephen's request. Sources: Hubinger et al., Risks from Learned Optimization in Advanced Machine Learning Systems, arXiv 1906.01820 (2019)",
+            "authored_on": "2026-10-25",
+            "authored_here": true,
+            "related_slugs": [
+                "the-alignment-problem",
+                "alignment",
+                "mesa-objective",
+                "inner-alignment",
+                "outer-alignment",
+                "deceptive-alignment",
+                "goal-misgeneralization"
+            ],
+            "also_called_source": "bridge row 1487 (Stephen 2026-10-25)",
+            "related_slugs_source": "bridge row 1487 (Stephen 2026-10-25)"
+        },
+        {
+            "slug": "orthogonality-thesis",
+            "term": "Orthogonality Thesis",
+            "example": "A superintelligent system devoted entirely to counting grains of sand would be no contradiction under the thesis.",
+            "category": "Safety & Governance",
+            "see_also": [
+                {
+                    "href": "/ai-ecosystem/research-knowledge-and-learning/d55454e6/",
+                    "name": "The Alignment Problem and Long-Term Risk",
+                    "note": "domain 10",
+                    "label": "The Ethics of AI"
+                }
+            ],
+            "definition": "The claim, set out by philosopher Nick Bostrom, that intelligence and final goals are independent: almost any level of intelligence could in principle be combined with almost any goal. It counters the assumption that a highly intelligent system would naturally arrive at human values, which is why alignment researchers argue values must be deliberately built in. Some philosophers dispute the thesis.",
+            "author_note": "Added 2026-10-25 on Stephen's request. Sources: Bostrom, The Superintelligent Will, Minds and Machines 22 (2012); Bostrom, Superintelligence (2014)",
+            "authored_on": "2026-10-25",
+            "authored_here": true,
+            "related_slugs": [
+                "the-alignment-problem",
+                "alignment",
+                "instrumental-convergence",
+                "paperclip-maximizer",
+                "corrigibility"
+            ],
+            "related_slugs_source": "bridge row 1487 (Stephen 2026-10-25)"
+        },
+        {
+            "slug": "outer-alignment",
+            "term": "Outer Alignment",
+            "example": "A cleaning robot rewarded for \"no visible mess\" learns to cover messes instead of cleaning them.",
+            "category": "Safety & Governance",
+            "see_also": [
+                {
+                    "href": "/ai-ecosystem/research-knowledge-and-learning/d55454e6/",
+                    "name": "The Alignment Problem and Long-Term Risk",
+                    "note": "domain 10",
+                    "label": "The Ethics of AI"
+                }
+            ],
+            "definition": "The part of the alignment problem concerned with whether the objective given to an AI, such as its reward function or training target, actually captures what people want. Failures of outer alignment are cases of Goodhart's law and specification gaming: the system does exactly what was specified, and the specification was wrong.",
+            "author_note": "Added 2026-10-25 on Stephen's request. Sources: Hubinger et al., Risks from Learned Optimization, arXiv 1906.01820 (2019)",
+            "authored_on": "2026-10-25",
+            "authored_here": true,
+            "related_slugs": [
+                "the-alignment-problem",
+                "alignment",
+                "inner-alignment",
+                "goodharts-law",
+                "specification-gaming",
+                "reward-hacking",
+                "regressional-goodharting",
+                "extremal-goodharting",
+                "causal-goodharting",
+                "adversarial-goodharting",
+                "goal-misgeneralization"
+            ],
+            "related_slugs_source": "bridge row 1487 (Stephen 2026-10-25)"
+        },
+        {
+            "slug": "regressional-goodharting",
+            "term": "Regressional Goodharting",
+            "example": "Hiring the candidates with the very highest test scores also picks people who were partly lucky on test day.",
+            "category": "Safety & Governance",
+            "definition": "One of four types of Goodhart effects described by Manheim and Garrabrant: when you select for the highest score on a proxy, you also select for measurement noise, so the true value of the top scorers is lower than the proxy suggests.",
+            "author_note": "Added 2026-10-25 on Stephen's request. Sources: Manheim and Garrabrant, arXiv 1803.04585 (2018)",
+            "authored_on": "2026-10-25",
+            "authored_here": true,
+            "related_slugs": [
+                "reward-hacking",
+                "specification-gaming",
+                "goodharts-law",
+                "extremal-goodharting",
+                "causal-goodharting",
+                "adversarial-goodharting",
+                "evaluator-gaming",
+                "sycophancy",
+                "reward-model",
+                "rule-based-reward",
+                "reinforcement-learning-with-verifiable-rewards-rlvr",
+                "grpo-group-relative-policy-optimization",
+                "cold-start-data",
+                "rejection-sampling",
+                "language-mixing",
+                "language-consistency-reward",
+                "the-alignment-problem",
+                "alignment",
+                "outer-alignment"
+            ],
+            "related_slugs_source": "bridge rows 1486 and 1487 (Stephen 2026-10-25)"
+        },
+        {
+            "slug": "rejection-sampling",
+            "term": "Rejection Sampling",
+            "example": "For DeepSeek-R1, an intermediate reinforcement learning checkpoint produced many responses per prompt; DeepSeek kept only correct, readable ones, about 600,000 reasoning examples, then added about 200,000 non-reasoning examples for an 800,000 example fine-tuning set. Where an answer could not be checked by a rule, DeepSeek-V3 judged it against the reference answer, acting as a generative reward model.",
+            "category": "Training & Mechanics",
+            "see_also": [
+                {
+                    "href": "/ai-ecosystem/technology-and-core-infrastructure/53877865/",
+                    "name": "DeepSeek",
+                    "note": "the DeepSeek-R1 training this term describes",
+                    "label": "Model family"
+                }
+            ],
+            "definition": "A way to build high quality training data: a model generates several answers to the same prompt, an automatic check scores them, and only the answers that pass are kept. The check can be a rule (is the math answer right, does the code pass its tests), a format filter, or a reward model. The surviving answers become a dataset for supervised fine-tuning, so the model learns from its own best work.",
+            "author_note": "Added 2026-10-25 on Stephen's request. Sources: DeepSeek-AI, DeepSeek-R1, arXiv 2501.12948 (2025)",
+            "authored_on": "2026-10-25",
+            "authored_here": true,
+            "related_slugs": [
+                "reward-hacking",
+                "specification-gaming",
+                "goodharts-law",
+                "regressional-goodharting",
+                "extremal-goodharting",
+                "causal-goodharting",
+                "adversarial-goodharting",
+                "evaluator-gaming",
+                "sycophancy",
+                "reward-model",
+                "rule-based-reward",
+                "reinforcement-learning-with-verifiable-rewards-rlvr",
+                "grpo-group-relative-policy-optimization",
+                "cold-start-data",
+                "language-mixing",
+                "language-consistency-reward"
+            ],
+            "related_slugs_source": "bridge row 1486 (Stephen 2026-10-25)"
+        },
+        {
+            "slug": "rokos-basilisk",
+            "term": "Roko's Basilisk",
+            "example": "People who found the idea frightening were told by many in the community that the premises do not hold.",
+            "category": "Safety & Governance",
+            "definition": "A thought experiment posted in 2010 on the LessWrong forum by a user named Roko, claiming a future superintelligence might punish people who knew it could exist but did not help create it. LessWrong founder Eliezer Yudkowsky deleted the post and banned discussion of it for about five years. The argument depends on contested ideas about acausal decision making, and most researchers and philosophers reject its reasoning; it is mainly known as an example of a claimed information hazard and of how speculative arguments can cause real distress.",
+            "author_note": "Added 2026-10-25 on Stephen's request. Sources: LessWrong (2010); RationalWiki and press histories of the episode",
+            "authored_on": "2026-10-25",
+            "authored_here": true,
+            "related_slugs": [
+                "acausal-trade",
+                "information-hazard"
+            ],
+            "related_slugs_source": "bridge row 1487 (Stephen 2026-10-25)"
+        },
+        {
+            "slug": "rule-based-reward",
+            "term": "Rule-Based Reward",
+            "example": "DeepSeek-R1-Zero was trained with two rule-based rewards: one for a correct final answer and one for putting its reasoning inside think tags. DeepSeek said it avoided neural reward models there because of reward hacking risk and training cost. The released DeepSeek-R1 was not rule-based throughout: DeepSeek-V3 judged some data that rules could not check, and reward models scored general prompts in its last training stage.",
+            "category": "Training & Mechanics",
+            "see_also": [
+                {
+                    "href": "/ai-ecosystem/technology-and-core-infrastructure/53877865/",
+                    "name": "DeepSeek",
+                    "note": "the DeepSeek-R1 training this term describes",
+                    "label": "Model family"
+                }
+            ],
+            "definition": "A reward in reinforcement learning computed by fixed rules or tools rather than by another AI model, for example checking a math answer against the known result, running code against tests, or confirming the output uses a required format. Rule-based rewards are cheap, fast and hard to fool on tasks with verifiable answers, which is why they are used to reduce reward hacking. They only work where correctness can be checked automatically, and imperfect tests can still be gamed.",
+            "author_note": "Added 2026-10-25 on Stephen's request. Sources: DeepSeek-AI, DeepSeek-R1, arXiv 2501.12948 (2025)",
+            "authored_on": "2026-10-25",
+            "authored_here": true,
+            "related_slugs": [
+                "reward-hacking",
+                "specification-gaming",
+                "goodharts-law",
+                "regressional-goodharting",
+                "extremal-goodharting",
+                "causal-goodharting",
+                "adversarial-goodharting",
+                "evaluator-gaming",
+                "sycophancy",
+                "reward-model",
+                "reinforcement-learning-with-verifiable-rewards-rlvr",
+                "grpo-group-relative-policy-optimization",
+                "cold-start-data",
+                "rejection-sampling",
+                "language-mixing",
+                "language-consistency-reward"
+            ],
+            "related_slugs_source": "bridge row 1486 (Stephen 2026-10-25)"
+        },
+        {
+            "slug": "the-alignment-problem",
+            "term": "The Alignment Problem",
+            "example": "A chatbot trained to be rated helpful learns to tell people what they want to hear: it hits the measured goal while missing the intended one.",
+            "category": "Safety & Governance",
+            "see_also": [
+                {
+                    "href": "/ai-glossary/alignment/",
+                    "name": "Alignment",
+                    "note": "a linked entry: Alignment is the property, this is the research challenge",
+                    "label": "The property"
+                },
+                {
+                    "href": "/ai-ecosystem/research-knowledge-and-learning/d55454e6/",
+                    "name": "The Alignment Problem and Long-Term Risk",
+                    "note": "domain 10",
+                    "label": "The Ethics of AI"
+                }
+            ],
+            "definition": "The challenge of making sure an AI system's goals and behavior match what its designers and society actually intend. It is hard because human aims such as safety, fairness or helpfulness have to be turned into objectives a machine can optimize, and a strong optimizer will pursue the objective it was given, including its loopholes. Researchers usually split it into outer alignment (specifying the right goal) and inner alignment (making sure the trained system really pursues that goal). Solving it is widely seen as a precondition for deploying far more capable systems safely, and how hard it ultimately is remains debated.",
+            "author_note": "Added 2026-10-25 on Stephen's request. Sources: Christian, The Alignment Problem (2020); Ji et al., AI Alignment: A Comprehensive Survey, arXiv 2310.19852 (2023)",
+            "authored_on": "2026-10-25",
+            "authored_here": true,
+            "related_slugs": [
+                "alignment",
+                "outer-alignment",
+                "inner-alignment",
+                "goal-misgeneralization",
+                "mesa-optimizer",
+                "mesa-objective",
+                "deceptive-alignment",
+                "corrigibility",
+                "instrumental-convergence",
+                "orthogonality-thesis",
+                "paperclip-maximizer",
+                "reward-hacking",
+                "specification-gaming",
+                "goodharts-law",
+                "regressional-goodharting",
+                "extremal-goodharting",
+                "causal-goodharting",
+                "adversarial-goodharting",
+                "information-hazard",
+                "dual-use-ai"
+            ],
+            "related_slugs_source": "bridge row 1487 (Stephen 2026-10-25)"
         }
     ],
     "source": {
