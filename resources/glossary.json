@@ -1,5 +1,5 @@
 {
-    "count": 791,
+    "count": 808,
     "terms": [
         {
             "slug": "agent",
@@ -95,7 +95,37 @@
             "origin": "Introduced commercially in OpenAI's June 2023 API release; now standard across providers.",
             "example": "A model calling a weather API, then a calendar API, to reschedule a site visit.",
             "category": "Agents",
-            "definition": "The mechanism by which a model invokes external tools, APIs, or code through structured requests instead of plain text. It is what connects a language model to real systems, and therefore where read-only assistance becomes action with consequences."
+            "definition": "The mechanism by which a model invokes external tools, APIs, or code through structured requests instead of plain text. It is what connects a language model to real systems, and therefore where read-only assistance becomes action with consequences.",
+            "also_called": [
+                "Tool Use",
+                "Tool calling",
+                "Tool Use / Function Calling"
+            ],
+            "related_slugs": [
+                "excessive-agency",
+                "tool-misuse-and-exploitation",
+                "tool-allowlisting",
+                "tool-registry",
+                "mcp-model-context-protocol",
+                "structured-output",
+                "least-privilege"
+            ],
+            "also_called_notes": {
+                "Tool Use": {
+                    "evidence": "the bracketed half of the term's name, kept explicitly as the surviving page of the duplicate tool use entries (bridge row 1511)",
+                    "evidence_id": "bridge:1511"
+                },
+                "Tool calling": {
+                    "evidence": "the name several model providers use for the same mechanism; one of the duplicate entries resolved here (bridge row 1511)",
+                    "evidence_id": "bridge:1511"
+                },
+                "Tool Use / Function Calling": {
+                    "evidence": "a retired duplicate entry (synced_glossary_terms id 355, never published on theworldofai.org), resolved to this page (bridge row 1511)",
+                    "evidence_id": "bridge:1511"
+                }
+            },
+            "also_called_source": "bridge row 1511 (Stephen 2026-10-25): Function Calling, Function Calling (Tool Use) and Tool Use / Function Calling resolve to one page",
+            "related_slugs_source": "bridge row 1511 (Stephen 2026-10-25)"
         },
         {
             "slug": "human-in-the-loop-hitl",
@@ -436,10 +466,46 @@
         {
             "slug": "owasp-llm-top-10",
             "term": "OWASP LLM Top 10",
-            "origin": "OWASP, first released 2023.",
+            "origin": "OWASP, first released 2023, with later editions in 2025 and 2026; the 2026 edition carries the cover date August 4th, 2026. A companion list, the OWASP Top 10 for Agentic Applications (ASI01 to ASI10), followed in December 2025.",
             "example": "Structuring an AI application security review as a walk through the ten categories.",
+            "sources": [
+                "https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/",
+                "https://genai.owasp.org/llm-top-10/",
+                "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/"
+            ],
             "category": "AI Security & Assurance",
-            "definition": "The consensus list of the highest-priority security risks in LLM applications, from prompt injection through unbounded consumption. It functions as the scoring baseline for AI application security the way the original OWASP Top 10 does for web."
+            "definition": "The OWASP Top 10 for LLM Applications, the consensus list of the most serious security risks in applications built on large language models. The 2026 edition runs from LLM01 Prompt Injection to LLM10 Improper Output Handling and moves Excessive Agency up to third; it is the first edition to weigh the practitioners' vote against a record of real incidents. It functions as the scoring baseline for AI application security the way the original OWASP Top 10 does for web.",
+            "also_called": [
+                "OWASP Top 10 for LLM Applications",
+                "OWASP Top 10 for Large Language Model Applications"
+            ],
+            "author_note": "2026 edition added 2026-10-26 (bridge rows 1511 and 1515), checked against the OWASP Top 10 for LLM Applications 2026 PDF: table of contents, rank migration chart and the letter from the project leads (three quarters vote, one quarter incident data). OWASP's llm-top-10 web page still listed the 2025 edition on 2026-10-26; the 2026 edition is published as a resource with a PDF.",
+            "related_slugs": [
+                "prompt-injection",
+                "sensitive-information-disclosure",
+                "excessive-agency",
+                "supply-chain-attack",
+                "data-poisoning",
+                "unbounded-consumption",
+                "misinformation",
+                "hidden-context-exposure",
+                "vector-and-embedding-weaknesses",
+                "improper-output-handling",
+                "model-poisoning",
+                "model-supply-chain"
+            ],
+            "also_called_notes": {
+                "OWASP Top 10 for LLM Applications": {
+                    "evidence": "the list's own full name",
+                    "evidence_id": "bridge:1515"
+                },
+                "OWASP Top 10 for Large Language Model Applications": {
+                    "evidence": "the list's full name written out",
+                    "evidence_id": "bridge:1515"
+                }
+            },
+            "also_called_source": "bridge row 1515 (Stephen 2026-10-25)",
+            "related_slugs_source": "bridge rows 1511 and 1515 (Stephen 2026-10-25): the ten risks of the 2026 edition in OWASP's order"
         },
         {
             "slug": "permission-based-execution",
@@ -548,10 +614,31 @@
         {
             "slug": "unbounded-consumption",
             "term": "Unbounded Consumption",
-            "origin": "OWASP LLM Top 10, category LLM10.",
+            "origin": "OWASP Top 10 for LLM Applications: LLM10 in the 2025 edition, LLM06 in the 2026 edition.",
             "example": "A spend alert catching an integration retrying a failing model call thousands of times overnight.",
             "category": "AI Security & Assurance",
-            "definition": "Runaway inference volume that imposes cost and exhausts capacity, whether from attack, defect, or an agent loop. It is OWASP LLM10, and in practice it is seen first on an invoice rather than in a dashboard."
+            "definition": "Runaway inference volume that imposes cost and exhausts capacity, whether from attack, defect, or an agent loop. It is OWASP LLM06 in the 2026 edition (LLM10 in 2025), and in practice it is seen first on an invoice rather than in a dashboard.",
+            "also_called": [
+                "LLM06 (2026)",
+                "LLM10 (2025)"
+            ],
+            "author_note": "2026 number added 2026-10-26 (bridge rows 1511 and 1515), checked against the OWASP Top 10 for LLM Applications 2026 PDF.",
+            "owasp_codes": [
+                "LLM06:2026",
+                "LLM10:2025"
+            ],
+            "also_called_notes": {
+                "LLM06 (2026)": {
+                    "evidence": "OWASP Top 10 for LLM Applications 2026, LLM06:2026; the 2026 number is current",
+                    "evidence_id": "bridge:1515"
+                },
+                "LLM10 (2025)": {
+                    "evidence": "OWASP Top 10 for LLM Applications 2025, LLM10:2025; the 2025 number is history",
+                    "evidence_id": "bridge:1515"
+                }
+            },
+            "also_called_source": "bridge row 1515 (Stephen 2026-10-25)",
+            "owasp_codes_source": "bridge rows 1511 and 1515; checked 2026-10-26 against OWASP's own 2026 documents"
         },
         {
             "slug": "workload-identity",
@@ -2294,7 +2381,32 @@
             "origin": "",
             "example": "Malicious samples in a scraped dataset installing a trigger phrase.",
             "category": "Safety & Governance",
-            "definition": "Corrupting training data to change model behavior: implanting backdoors, degrading accuracy, or biasing outputs. Research shows small poisoned fractions suffice, which makes data provenance a security control, not hygiene."
+            "definition": "Corrupting training data to change model behavior: implanting backdoors, degrading accuracy, or biasing outputs. Research shows small poisoned fractions suffice, which makes data provenance a security control, not hygiene.",
+            "also_called": [
+                "Data and Model Poisoning",
+                "LLM05 (2026)",
+                "LLM04 (2025)"
+            ],
+            "owasp_codes": [
+                "LLM05:2026",
+                "LLM04:2025"
+            ],
+            "also_called_notes": {
+                "LLM04 (2025)": {
+                    "evidence": "OWASP Top 10 for LLM Applications 2025, LLM04:2025; the 2025 number is history",
+                    "evidence_id": "bridge:1515"
+                },
+                "LLM05 (2026)": {
+                    "evidence": "OWASP Top 10 for LLM Applications 2026, LLM05:2026; the 2026 number is current",
+                    "evidence_id": "bridge:1515"
+                },
+                "Data and Model Poisoning": {
+                    "evidence": "OWASP's name for this risk (LLM05:2026, LLM04:2025)",
+                    "evidence_id": "bridge:1515"
+                }
+            },
+            "also_called_source": "bridge row 1515 (Stephen 2026-10-25)",
+            "owasp_codes_source": "bridge rows 1511 and 1515; checked 2026-10-26 against OWASP's own 2026 documents"
         },
         {
             "slug": "datasheet-for-datasets",
@@ -2582,7 +2694,27 @@
             "origin": "Named by Simon Willison, 2022; OWASP LLM01.",
             "example": "Injected text overriding a system prompt's rules.",
             "category": "Safety & Governance",
-            "definition": "A security vulnerability in which malicious input causes an LLM to ignore its instructions and execute unintended ones. The signature vulnerability of the LLM era, ranked first in the OWASP LLM Top 10, and unsolved in the general case."
+            "definition": "A security vulnerability in which malicious input causes an LLM to ignore its instructions and execute unintended ones. The signature vulnerability of the LLM era, ranked first in the OWASP LLM Top 10, and unsolved in the general case.",
+            "also_called": [
+                "LLM01 (2026)",
+                "LLM01 (2025)"
+            ],
+            "owasp_codes": [
+                "LLM01:2026",
+                "LLM01:2025"
+            ],
+            "also_called_notes": {
+                "LLM01 (2025)": {
+                    "evidence": "OWASP Top 10 for LLM Applications 2025, LLM01:2025; the 2025 number is history",
+                    "evidence_id": "bridge:1515"
+                },
+                "LLM01 (2026)": {
+                    "evidence": "OWASP Top 10 for LLM Applications 2026, LLM01:2026; the 2026 number is current",
+                    "evidence_id": "bridge:1515"
+                }
+            },
+            "also_called_source": "bridge row 1515 (Stephen 2026-10-25)",
+            "owasp_codes_source": "bridge rows 1511 and 1515; checked 2026-10-26 against OWASP's own 2026 documents"
         },
         {
             "slug": "red-teaming",
@@ -4464,7 +4596,11 @@
             "origin": "Human-factors research from the 1990s onward; named in EU AI Act Article 14(4)(b).",
             "example": "A reviewer approving an AI recommendation they would have questioned from a colleague.",
             "category": "Safety & Governance",
-            "definition": "The documented tendency of people to over-trust automated output and under-apply their own judgment, which strengthens the more fluent and confident the system's explanation sounds. The EU AI Act names it explicitly: human oversight measures for high-risk systems must keep operators aware of it. It is the mechanism by which human-in-the-loop quietly becomes rubber-stamp."
+            "definition": "The documented tendency of people to over-trust automated output and under-apply their own judgment, which strengthens the more fluent and confident the system's explanation sounds. The EU AI Act names it explicitly: human oversight measures for high-risk systems must keep operators aware of it. It is the mechanism by which human-in-the-loop quietly becomes rubber-stamp.",
+            "related_slugs": [
+                "human-agent-trust-exploitation"
+            ],
+            "related_slugs_source": "bridge row 1515 (Stephen 2026-10-25): cross-linked with Human-Agent Trust Exploitation (ASI09), whose OWASP description names authority bias and over-reliance"
         },
         {
             "slug": "rubber-stamp-oversight",
@@ -5800,9 +5936,29 @@
             "example": "A developer installs a popular AI coding tool from a package registry, but the package was silently altered to also install malware on their machine.",
             "category": "AI Security & Assurance",
             "definition": "A supply chain attack is when someone tampers with a model, dataset, or software package before it reaches the user, so the user unknowingly gets malicious code or poisoned weights. The attack happens upstream, in the tools or files that a project depends on, rather than in the user's own system.",
+            "also_called": [
+                "LLM04 (2026)",
+                "LLM03 (2025)"
+            ],
             "author_note": "Seeded by ollama:deepseek-v4-pro from this site's own usage of the term; reviewed by Stephen on publication.",
             "authored_on": "2026-09-17",
-            "authored_here": true
+            "owasp_codes": [
+                "LLM04:2026",
+                "LLM03:2025"
+            ],
+            "authored_here": true,
+            "also_called_notes": {
+                "LLM03 (2025)": {
+                    "evidence": "OWASP Top 10 for LLM Applications 2025, LLM03:2025; the 2025 number is history",
+                    "evidence_id": "bridge:1515"
+                },
+                "LLM04 (2026)": {
+                    "evidence": "OWASP Top 10 for LLM Applications 2026, LLM04:2026; the 2026 number is current",
+                    "evidence_id": "bridge:1515"
+                }
+            },
+            "also_called_source": "bridge row 1515 (Stephen 2026-10-25)",
+            "owasp_codes_source": "bridge rows 1511 and 1515; checked 2026-10-26 against OWASP's own 2026 documents"
         },
         {
             "slug": "model-poisoning",
@@ -5813,7 +5969,12 @@
             "definition": "Model poisoning is corrupting the training or fine-tuning data of an AI model to change how it behaves, often to plant hidden backdoors or biases that only show up on certain inputs. The model looks normal most of the time but acts wrongly when a specific trigger appears.",
             "author_note": "Seeded by ollama:deepseek-v4-pro from this site's own usage of the term; reviewed by Stephen on publication.",
             "authored_on": "2026-09-17",
-            "authored_here": true
+            "owasp_codes": [
+                "LLM05:2026",
+                "LLM04:2025"
+            ],
+            "authored_here": true,
+            "owasp_codes_source": "bridge rows 1511 and 1515; checked 2026-10-26 against OWASP's own 2026 documents"
         },
         {
             "slug": "training-data-extraction",
@@ -6842,7 +7003,11 @@
             "definition": "The tendency to give extra weight to the opinions of someone or something seen as an authority. People can treat AI as an authority because it sounds confident and fluent, even on topics where it is unreliable.",
             "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). General psychological term",
             "authored_on": "2026-10-24",
-            "authored_here": true
+            "authored_here": true,
+            "related_slugs": [
+                "human-agent-trust-exploitation"
+            ],
+            "related_slugs_source": "bridge row 1515 (Stephen 2026-10-25): cross-linked with Human-Agent Trust Exploitation (ASI09), whose OWASP description names authority bias and over-reliance"
         },
         {
             "slug": "automation-complacency",
@@ -6852,7 +7017,11 @@
             "definition": "Reduced attention and monitoring by people who supervise an automated system they trust, so that errors go unnoticed. It was first studied in aviation and control rooms and now applies to AI tools. It differs from automation bias, which is following a wrong suggestion; complacency is no longer watching closely enough to catch it.",
             "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Parasuraman and Manzey 2010, Human Factors",
             "authored_on": "2026-10-24",
-            "authored_here": true
+            "authored_here": true,
+            "related_slugs": [
+                "human-agent-trust-exploitation"
+            ],
+            "related_slugs_source": "bridge row 1515 (Stephen 2026-10-25): cross-linked with Human-Agent Trust Exploitation (ASI09), whose OWASP description names authority bias and over-reliance"
         },
         {
             "slug": "calibration-gap",
@@ -7102,7 +7271,11 @@
             "definition": "Relying on an AI system's output when it is wrong, or more than its actual accuracy justifies. Studies show people follow advice labelled as AI even when it contradicts evidence in front of them. Overreliance falls when checking the AI is easier, when tasks are harder or when the stakes are higher.",
             "author_note": "Added 2026-10-24 on Stephen's request for The Psychology of AI on Humans hub (c26d0241). Klingbeil et al. 2024, https://doi.org/10.1016/j.chb.2024.108352; Vasconcelos et al. 2023",
             "authored_on": "2026-10-24",
-            "authored_here": true
+            "authored_here": true,
+            "related_slugs": [
+                "human-agent-trust-exploitation"
+            ],
+            "related_slugs_source": "bridge row 1515 (Stephen 2026-10-25): cross-linked with Human-Agent Trust Exploitation (ASI09), whose OWASP description names authority bias and over-reliance"
         },
         {
             "slug": "parasocial-relationship",
@@ -7852,6 +8025,1008 @@
                 "dual-use-ai"
             ],
             "related_slugs_source": "bridge row 1487 (Stephen 2026-10-25)"
+        },
+        {
+            "slug": "excessive-agency",
+            "term": "Excessive Agency",
+            "origin": "Listed in the OWASP Top 10 for LLM Applications since its first edition: LLM08 in 2023, LLM06 in 2025 and LLM03 in 2026. The 2026 edition calls it \"the vulnerability that enables damaging actions to be performed in response to unexpected, ambiguous or manipulated outputs from an LLM\" (OWASP Top 10 for LLM Applications 2026, LLM03:2026, CC BY-SA 4.0).",
+            "example": "An email assistant that only needs to read messages is also given permission to send and delete them; a prompt injection hidden in an incoming email then tells it to forward the inbox to an attacker.",
+            "sources": [
+                "https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/",
+                "https://genai.owasp.org/llmrisk/llm062025-excessive-agency/"
+            ],
+            "category": "AI Security & Assurance",
+            "see_also": [
+                {
+                    "href": "/ai-ecosystem/enterprise-applications-governance-and-tools/0607e4ab/",
+                    "name": "Road to the Self-Defending Computer",
+                    "note": "AI security vendors scored on six levels of autonomy",
+                    "label": "Tracker"
+                },
+                {
+                    "href": "/ai-ecosystem/enterprise-applications-governance-and-tools/0ff57218/",
+                    "name": "AI Security and Risk",
+                    "label": "Security hub"
+                },
+                {
+                    "href": "/ai-ecosystem/enterprise-applications-governance-and-tools/a2538ec1/",
+                    "name": "AI Agent Security",
+                    "label": "Security topic"
+                },
+                {
+                    "href": "/ai-ecosystem/enterprise-applications-governance-and-tools/8f3e19cd/",
+                    "name": "Agent and Non-Human Identity",
+                    "label": "Security topic"
+                },
+                {
+                    "href": "/ai-ecosystem/enterprise-applications-governance-and-tools/632156d2/",
+                    "name": "Agent Development Lifecycle (ADLC) Security",
+                    "label": "Security topic"
+                },
+                {
+                    "href": "/ai-ecosystem/enterprise-applications-governance-and-tools/e294a1dd/",
+                    "name": "AI in Security Operations",
+                    "label": "Security topic"
+                }
+            ],
+            "definition": "The vulnerability that lets an AI system that can act, by calling tools, plugins or APIs, do real damage when its output is unexpected, ambiguous or manipulated, because it holds more power than its task needs. OWASP traces it to three root causes: excessive functionality (tools the system does not need), excessive permissions (broader rights in connected systems than the task requires) and excessive autonomy (high impact actions taken without a person's approval). It is not an argument against autonomous AI. It names the risk that guardrails exist to control, such as least privilege, narrow purpose built tools, acting in the user's own security context and human approval for high impact actions: autonomy is the goal, and guardrails make it safe to grant.",
+            "also_called": [
+                "Excessive autonomy",
+                "Over-privileged agent",
+                "LLM03 (2026)",
+                "LLM06 (2025)"
+            ],
+            "author_note": "Added to the library 2026-10-26 from the synced_glossary_terms row the theworldofai side wrote on 2026-10-25 (bridge rows 1511 and 1515), with the framing of row 1512: autonomy is the goal, guardrails make it safe to grant. The 2026 number was checked against OWASP's own document, OWASP Top 10 for LLM Applications 2026 (Version 2026, cover date August 4th, 2026: table of contents, rank migration chart and the LLM03:2026 description).",
+            "authored_on": "2026-10-25",
+            "owasp_codes": [
+                "LLM03:2026",
+                "LLM06:2025"
+            ],
+            "authored_here": true,
+            "related_slugs": [
+                "owasp-llm-top-10",
+                "bounded-autonomy",
+                "human-in-the-loop-hitl",
+                "function-calling-tool-use",
+                "prompt-injection",
+                "least-privilege",
+                "guardrails",
+                "blast-radius",
+                "tool-allowlisting",
+                "permission-based-execution",
+                "autonomy-level",
+                "agentic-autonomy-levels",
+                "tool-misuse-and-exploitation",
+                "identity-and-privilege-abuse",
+                "cascading-failures",
+                "improper-output-handling",
+                "hidden-context-exposure"
+            ],
+            "also_called_notes": {
+                "LLM03 (2026)": {
+                    "evidence": "OWASP Top 10 for LLM Applications 2026, LLM03:2026; the 2026 number is current",
+                    "evidence_id": "bridge:1515"
+                },
+                "LLM06 (2025)": {
+                    "evidence": "OWASP Top 10 for LLM Applications 2025, LLM06:2025; the 2025 number is history",
+                    "evidence_id": "bridge:1515"
+                },
+                "Excessive autonomy": {
+                    "evidence": "one of OWASP's three root causes of Excessive Agency, used for the whole risk; requested in bridge row 1511",
+                    "evidence_id": "bridge:1511"
+                },
+                "Over-privileged agent": {
+                    "evidence": "requested in bridge row 1511: the agent that holds more permissions than its task needs",
+                    "evidence_id": "bridge:1511"
+                }
+            },
+            "also_called_source": "bridge rows 1511 and 1515 (Stephen 2026-10-25)",
+            "owasp_codes_source": "bridge rows 1511 and 1515; checked 2026-10-26 against OWASP's own 2026 documents",
+            "related_slugs_source": "bridge rows 1511, 1512 and 1515 (Stephen 2026-10-25)"
+        },
+        {
+            "slug": "agent-goal-hijack",
+            "term": "Agent Goal Hijack",
+            "origin": "ASI01 in the OWASP Top 10 for Agentic Applications 2026 (Version 2026, December 2025). OWASP says \"attackers can manipulate an agent's objectives, task selection, or decision pathways\". (CC BY-SA 4.0)",
+            "example": "A travel booking agent reads a hotel page with hidden text telling it to send the user's passport details to an outside address.",
+            "sources": [
+                "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/"
+            ],
+            "category": "AI Security & Assurance",
+            "see_also": [
+                {
+                    "href": "/ai-ecosystem/enterprise-applications-governance-and-tools/0607e4ab/",
+                    "name": "Road to the Self-Defending Computer",
+                    "note": "AI security vendors scored on six levels of autonomy",
+                    "label": "Tracker"
+                },
+                {
+                    "href": "/ai-ecosystem/enterprise-applications-governance-and-tools/a2538ec1/",
+                    "name": "AI Agent Security",
+                    "label": "Security topic"
+                }
+            ],
+            "definition": "When an attacker redirects an AI agent away from the goal its owner gave it, usually through instructions hidden in content the agent reads, such as a web page, email or document. Because agents plan and act over many steps, a hijacked goal can drive a whole chain of harmful actions, not just one bad answer. It is the agentic form of prompt injection.",
+            "also_called": [
+                "ASI01"
+            ],
+            "author_note": "Added to the library 2026-10-26 from synced_glossary_terms row 234063, written by the theworldofai side on 2026-10-25 (bridge row 1515); definition and example unchanged. The quote in the origin was checked against the OWASP Top 10 for Agentic Applications 2026 PDF on 2026-10-26.",
+            "authored_on": "2026-10-25",
+            "owasp_codes": [
+                "ASI01:2026"
+            ],
+            "authored_here": true,
+            "related_slugs": [
+                "prompt-injection",
+                "indirect-prompt-injection",
+                "excessive-agency",
+                "tool-misuse-and-exploitation",
+                "identity-and-privilege-abuse",
+                "agentic-supply-chain-vulnerabilities",
+                "unexpected-code-execution",
+                "memory-and-context-poisoning",
+                "insecure-inter-agent-communication",
+                "cascading-failures",
+                "human-agent-trust-exploitation",
+                "rogue-agents"
+            ],
+            "also_called_notes": {
+                "ASI01": {
+                    "evidence": "OWASP Top 10 for Agentic Applications 2026, ASI01:2026",
+                    "evidence_id": "bridge:1515"
+                }
+            },
+            "also_called_source": "bridge row 1515 (Stephen 2026-10-25)",
+            "owasp_codes_source": "bridge rows 1511 and 1515; checked 2026-10-26 against OWASP's own 2026 documents",
+            "related_slugs_source": "bridge row 1515 (Stephen 2026-10-25): the ten agentic risks linked to each other"
+        },
+        {
+            "slug": "tool-misuse-and-exploitation",
+            "term": "Tool Misuse and Exploitation",
+            "origin": "ASI02 in the OWASP Top 10 for Agentic Applications 2026 (Version 2026, December 2025). OWASP says \"Agents can misuse legitimate tools due to prompt injection, misalignment, or unsafe delegation or ambiguous instruction\". (CC BY-SA 4.0)",
+            "example": "A support agent with refund access is talked into issuing refunds to accounts that never bought anything.",
+            "sources": [
+                "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/"
+            ],
+            "category": "AI Security & Assurance",
+            "see_also": [
+                {
+                    "href": "/ai-ecosystem/enterprise-applications-governance-and-tools/0607e4ab/",
+                    "name": "Road to the Self-Defending Computer",
+                    "note": "AI security vendors scored on six levels of autonomy",
+                    "label": "Tracker"
+                },
+                {
+                    "href": "/ai-ecosystem/enterprise-applications-governance-and-tools/a2538ec1/",
+                    "name": "AI Agent Security",
+                    "label": "Security topic"
+                }
+            ],
+            "definition": "When an AI agent uses the tools it has been legitimately given, such as email, databases, payment or file systems, in harmful or unintended ways, because it was manipulated or misjudged the situation. The tools work as designed; the danger is in how and when the agent calls them.",
+            "also_called": [
+                "ASI02"
+            ],
+            "author_note": "Added to the library 2026-10-26 from synced_glossary_terms row 234064, written by the theworldofai side on 2026-10-25 (bridge row 1515); definition and example unchanged. The quote in the origin was checked against the OWASP Top 10 for Agentic Applications 2026 PDF on 2026-10-26.",
+            "authored_on": "2026-10-25",
+            "owasp_codes": [
+                "ASI02:2026"
+            ],
+            "authored_here": true,
+            "related_slugs": [
+                "excessive-agency",
+                "function-calling-tool-use",
+                "tool-allowlisting",
+                "tool-registry",
+                "least-privilege",
+                "agent-goal-hijack",
+                "identity-and-privilege-abuse",
+                "agentic-supply-chain-vulnerabilities",
+                "unexpected-code-execution",
+                "memory-and-context-poisoning",
+                "insecure-inter-agent-communication",
+                "cascading-failures",
+                "human-agent-trust-exploitation",
+                "rogue-agents"
+            ],
+            "also_called_notes": {
+                "ASI02": {
+                    "evidence": "OWASP Top 10 for Agentic Applications 2026, ASI02:2026",
+                    "evidence_id": "bridge:1515"
+                }
+            },
+            "also_called_source": "bridge row 1515 (Stephen 2026-10-25)",
+            "owasp_codes_source": "bridge rows 1511 and 1515; checked 2026-10-26 against OWASP's own 2026 documents",
+            "related_slugs_source": "bridge row 1515 (Stephen 2026-10-25): the ten agentic risks linked to each other"
+        },
+        {
+            "slug": "identity-and-privilege-abuse",
+            "term": "Identity and Privilege Abuse",
+            "origin": "ASI03 in the OWASP Top 10 for Agentic Applications 2026 (Version 2026, December 2025). OWASP says it \"exploits dynamic trust and delegation in agents to escalate access and bypass controls\". (CC BY-SA 4.0)",
+            "example": "An agent acting for one employee reuses a cached administrator token and changes settings that employee could never touch.",
+            "sources": [
+                "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/"
+            ],
+            "category": "AI Security & Assurance",
+            "see_also": [
+                {
+                    "href": "/ai-ecosystem/enterprise-applications-governance-and-tools/0607e4ab/",
+                    "name": "Road to the Self-Defending Computer",
+                    "note": "AI security vendors scored on six levels of autonomy",
+                    "label": "Tracker"
+                },
+                {
+                    "href": "/ai-ecosystem/enterprise-applications-governance-and-tools/8f3e19cd/",
+                    "name": "Agent and Non-Human Identity",
+                    "label": "Security topic"
+                },
+                {
+                    "href": "/ai-ecosystem/enterprise-applications-governance-and-tools/a2538ec1/",
+                    "name": "AI Agent Security",
+                    "label": "Security topic"
+                }
+            ],
+            "definition": "Weaknesses in how AI agents are given, inherit and pass on identities and access rights, letting an agent act with more privilege than intended or be impersonated. Agents often run with a user's or service account's credentials, so misuse looks legitimate in logs.",
+            "also_called": [
+                "ASI03",
+                "Identity & Privilege Abuse"
+            ],
+            "author_note": "Added to the library 2026-10-26 from synced_glossary_terms row 234065, written by the theworldofai side on 2026-10-25 (bridge row 1515); definition and example unchanged. The quote in the origin was checked against the OWASP Top 10 for Agentic Applications 2026 PDF on 2026-10-26.",
+            "authored_on": "2026-10-25",
+            "owasp_codes": [
+                "ASI03:2026"
+            ],
+            "authored_here": true,
+            "related_slugs": [
+                "least-privilege",
+                "non-human-identity-nhi",
+                "machine-identity",
+                "workload-identity",
+                "zero-trust",
+                "excessive-agency",
+                "agent-goal-hijack",
+                "tool-misuse-and-exploitation",
+                "agentic-supply-chain-vulnerabilities",
+                "unexpected-code-execution",
+                "memory-and-context-poisoning",
+                "insecure-inter-agent-communication",
+                "cascading-failures",
+                "human-agent-trust-exploitation",
+                "rogue-agents"
+            ],
+            "also_called_notes": {
+                "ASI03": {
+                    "evidence": "OWASP Top 10 for Agentic Applications 2026, ASI03:2026",
+                    "evidence_id": "bridge:1515"
+                },
+                "Identity & Privilege Abuse": {
+                    "evidence": "OWASP's own wording of the name in the ASI03 description",
+                    "evidence_id": "bridge:1515"
+                }
+            },
+            "also_called_source": "bridge row 1515 (Stephen 2026-10-25)",
+            "owasp_codes_source": "bridge rows 1511 and 1515; checked 2026-10-26 against OWASP's own 2026 documents",
+            "related_slugs_source": "bridge row 1515 (Stephen 2026-10-25): the ten agentic risks linked to each other"
+        },
+        {
+            "slug": "agentic-supply-chain-vulnerabilities",
+            "term": "Agentic Supply Chain Vulnerabilities",
+            "origin": "ASI04 in the OWASP Top 10 for Agentic Applications 2026 (Version 2026, December 2025). OWASP says the components an agent depends on may be \"provided by third parties and may be malicious, compromised, or tampered with in transit\". (CC BY-SA 4.0)",
+            "example": "A popular open source tool server is updated with code that quietly copies every file the agent opens.",
+            "sources": [
+                "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/"
+            ],
+            "category": "AI Security & Assurance",
+            "see_also": [
+                {
+                    "href": "/ai-ecosystem/enterprise-applications-governance-and-tools/0607e4ab/",
+                    "name": "Road to the Self-Defending Computer",
+                    "note": "AI security vendors scored on six levels of autonomy",
+                    "label": "Tracker"
+                },
+                {
+                    "href": "/ai-ecosystem/enterprise-applications-governance-and-tools/19897948/",
+                    "name": "AI Supply Chain Attacks",
+                    "label": "Security topic"
+                },
+                {
+                    "href": "/ai-ecosystem/enterprise-applications-governance-and-tools/a2538ec1/",
+                    "name": "AI Agent Security",
+                    "label": "Security topic"
+                }
+            ],
+            "definition": "Risks that come from the third party parts an AI agent depends on at run time, such as tools, plugins, MCP servers, prompt templates, models and other agents, any of which can be malicious, compromised or tampered with. Agents often load these dynamically, which makes the supply chain harder to vet than ordinary software.",
+            "also_called": [
+                "ASI04"
+            ],
+            "author_note": "Added to the library 2026-10-26 from synced_glossary_terms row 234066, written by the theworldofai side on 2026-10-25 (bridge row 1515); definition and example unchanged. The quote in the origin was checked against the OWASP Top 10 for Agentic Applications 2026 PDF on 2026-10-26.",
+            "authored_on": "2026-10-25",
+            "owasp_codes": [
+                "ASI04:2026"
+            ],
+            "authored_here": true,
+            "related_slugs": [
+                "supply-chain-attack",
+                "model-supply-chain",
+                "mcp-model-context-protocol",
+                "agent-goal-hijack",
+                "tool-misuse-and-exploitation",
+                "identity-and-privilege-abuse",
+                "unexpected-code-execution",
+                "memory-and-context-poisoning",
+                "insecure-inter-agent-communication",
+                "cascading-failures",
+                "human-agent-trust-exploitation",
+                "rogue-agents"
+            ],
+            "also_called_notes": {
+                "ASI04": {
+                    "evidence": "OWASP Top 10 for Agentic Applications 2026, ASI04:2026",
+                    "evidence_id": "bridge:1515"
+                }
+            },
+            "also_called_source": "bridge row 1515 (Stephen 2026-10-25)",
+            "owasp_codes_source": "bridge rows 1511 and 1515; checked 2026-10-26 against OWASP's own 2026 documents",
+            "related_slugs_source": "bridge row 1515 (Stephen 2026-10-25): the ten agentic risks linked to each other"
+        },
+        {
+            "slug": "unexpected-code-execution",
+            "term": "Unexpected Code Execution (RCE)",
+            "origin": "ASI05 in the OWASP Top 10 for Agentic Applications 2026 (Version 2026, December 2025). OWASP says \"Attackers exploit code-generation features or embedded tool access to escalate actions into remote code execution (RCE)\". (CC BY-SA 4.0)",
+            "example": "A coding agent is asked to fix a bug in a repository that contains a planted instruction, and runs a command that installs a backdoor.",
+            "sources": [
+                "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/"
+            ],
+            "category": "AI Security & Assurance",
+            "see_also": [
+                {
+                    "href": "/ai-ecosystem/enterprise-applications-governance-and-tools/0607e4ab/",
+                    "name": "Road to the Self-Defending Computer",
+                    "note": "AI security vendors scored on six levels of autonomy",
+                    "label": "Tracker"
+                },
+                {
+                    "href": "/ai-ecosystem/enterprise-applications-governance-and-tools/a2538ec1/",
+                    "name": "AI Agent Security",
+                    "label": "Security topic"
+                }
+            ],
+            "definition": "When an AI agent generates or runs code that an attacker can steer, leading to remote code execution on the systems the agent can reach. Coding agents and agents with a code interpreter are most exposed, because running code is part of their job.",
+            "also_called": [
+                "ASI05"
+            ],
+            "author_note": "Added to the library 2026-10-26 from synced_glossary_terms row 234067, written by the theworldofai side on 2026-10-25 (bridge row 1515); definition and example unchanged. The quote in the origin was checked against the OWASP Top 10 for Agentic Applications 2026 PDF on 2026-10-26.",
+            "authored_on": "2026-10-25",
+            "owasp_codes": [
+                "ASI05:2026"
+            ],
+            "authored_here": true,
+            "related_slugs": [
+                "sandbox",
+                "improper-output-handling",
+                "excessive-agency",
+                "agent-goal-hijack",
+                "tool-misuse-and-exploitation",
+                "identity-and-privilege-abuse",
+                "agentic-supply-chain-vulnerabilities",
+                "memory-and-context-poisoning",
+                "insecure-inter-agent-communication",
+                "cascading-failures",
+                "human-agent-trust-exploitation",
+                "rogue-agents"
+            ],
+            "also_called_notes": {
+                "ASI05": {
+                    "evidence": "OWASP Top 10 for Agentic Applications 2026, ASI05:2026",
+                    "evidence_id": "bridge:1515"
+                }
+            },
+            "also_called_source": "bridge row 1515 (Stephen 2026-10-25)",
+            "owasp_codes_source": "bridge rows 1511 and 1515; checked 2026-10-26 against OWASP's own 2026 documents",
+            "related_slugs_source": "bridge row 1515 (Stephen 2026-10-25): the ten agentic risks linked to each other"
+        },
+        {
+            "slug": "memory-and-context-poisoning",
+            "term": "Memory and Context Poisoning",
+            "origin": "ASI06 in the OWASP Top 10 for Agentic Applications 2026 (Version 2026, December 2025). OWASP titles it Memory & Context Poisoning and says \"adversaries corrupt or seed this context with malicious or misleading data\". (CC BY-SA 4.0)",
+            "example": "An attacker plants a fake \"company policy\" in an agent's memory that later tells it to skip approval for large payments.",
+            "sources": [
+                "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/"
+            ],
+            "category": "AI Security & Assurance",
+            "see_also": [
+                {
+                    "href": "/ai-ecosystem/enterprise-applications-governance-and-tools/0607e4ab/",
+                    "name": "Road to the Self-Defending Computer",
+                    "note": "AI security vendors scored on six levels of autonomy",
+                    "label": "Tracker"
+                },
+                {
+                    "href": "/ai-ecosystem/enterprise-applications-governance-and-tools/a2538ec1/",
+                    "name": "AI Agent Security",
+                    "label": "Security topic"
+                }
+            ],
+            "definition": "Corrupting what an AI agent remembers or retrieves, such as its long term memory, conversation history or knowledge sources, so that false or malicious information shapes its future decisions. Unlike a one time prompt injection, poisoned memory can persist across sessions and users.",
+            "also_called": [
+                "ASI06",
+                "Memory & Context Poisoning"
+            ],
+            "author_note": "Added to the library 2026-10-26 from synced_glossary_terms row 234068, written by the theworldofai side on 2026-10-25 (bridge row 1515); definition and example unchanged. The quote in the origin was checked against the OWASP Top 10 for Agentic Applications 2026 PDF on 2026-10-26.",
+            "authored_on": "2026-10-25",
+            "owasp_codes": [
+                "ASI06:2026"
+            ],
+            "authored_here": true,
+            "related_slugs": [
+                "agent-memory",
+                "data-poisoning",
+                "model-poisoning",
+                "vector-and-embedding-weaknesses",
+                "agent-goal-hijack",
+                "tool-misuse-and-exploitation",
+                "identity-and-privilege-abuse",
+                "agentic-supply-chain-vulnerabilities",
+                "unexpected-code-execution",
+                "insecure-inter-agent-communication",
+                "cascading-failures",
+                "human-agent-trust-exploitation",
+                "rogue-agents"
+            ],
+            "also_called_notes": {
+                "ASI06": {
+                    "evidence": "OWASP Top 10 for Agentic Applications 2026, ASI06:2026",
+                    "evidence_id": "bridge:1515"
+                },
+                "Memory & Context Poisoning": {
+                    "evidence": "OWASP's own title for ASI06:2026",
+                    "evidence_id": "bridge:1515"
+                }
+            },
+            "also_called_source": "bridge row 1515 (Stephen 2026-10-25)",
+            "owasp_codes_source": "bridge rows 1511 and 1515; checked 2026-10-26 against OWASP's own 2026 documents",
+            "related_slugs_source": "bridge row 1515 (Stephen 2026-10-25): the ten agentic risks linked to each other"
+        },
+        {
+            "slug": "insecure-inter-agent-communication",
+            "term": "Insecure Inter-Agent Communication",
+            "origin": "ASI07 in the OWASP Top 10 for Agentic Applications 2026 (Version 2026, December 2025). OWASP says it occurs when exchanges between agents \"lack proper authentication, integrity, or semantic validation\". (CC BY-SA 4.0)",
+            "example": "A fake agent sends forged instructions to a finance agent, which accepts them because messages between agents are never verified.",
+            "sources": [
+                "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/"
+            ],
+            "category": "AI Security & Assurance",
+            "see_also": [
+                {
+                    "href": "/ai-ecosystem/enterprise-applications-governance-and-tools/0607e4ab/",
+                    "name": "Road to the Self-Defending Computer",
+                    "note": "AI security vendors scored on six levels of autonomy",
+                    "label": "Tracker"
+                },
+                {
+                    "href": "/ai-ecosystem/enterprise-applications-governance-and-tools/a2538ec1/",
+                    "name": "AI Agent Security",
+                    "label": "Security topic"
+                }
+            ],
+            "definition": "Weaknesses in how AI agents talk to each other, such as messages that are not authenticated, encrypted or validated, allowing spoofing, tampering or interception between agents. It grows as companies connect many specialized agents into one system.",
+            "also_called": [
+                "ASI07"
+            ],
+            "author_note": "Added to the library 2026-10-26 from synced_glossary_terms row 234069, written by the theworldofai side on 2026-10-25 (bridge row 1515); definition and example unchanged. The quote in the origin was checked against the OWASP Top 10 for Agentic Applications 2026 PDF on 2026-10-26.",
+            "authored_on": "2026-10-25",
+            "owasp_codes": [
+                "ASI07:2026"
+            ],
+            "authored_here": true,
+            "related_slugs": [
+                "zero-trust",
+                "delegation-agentic-ai",
+                "non-human-identity-nhi",
+                "agent-goal-hijack",
+                "tool-misuse-and-exploitation",
+                "identity-and-privilege-abuse",
+                "agentic-supply-chain-vulnerabilities",
+                "unexpected-code-execution",
+                "memory-and-context-poisoning",
+                "cascading-failures",
+                "human-agent-trust-exploitation",
+                "rogue-agents"
+            ],
+            "also_called_notes": {
+                "ASI07": {
+                    "evidence": "OWASP Top 10 for Agentic Applications 2026, ASI07:2026",
+                    "evidence_id": "bridge:1515"
+                }
+            },
+            "also_called_source": "bridge row 1515 (Stephen 2026-10-25)",
+            "owasp_codes_source": "bridge rows 1511 and 1515; checked 2026-10-26 against OWASP's own 2026 documents",
+            "related_slugs_source": "bridge row 1515 (Stephen 2026-10-25): the ten agentic risks linked to each other"
+        },
+        {
+            "slug": "cascading-failures",
+            "term": "Cascading Failures",
+            "origin": "ASI08 in the OWASP Top 10 for Agentic Applications 2026 (Version 2026, December 2025). OWASP says they occur \"when a single fault (hallucination, malicious input, corrupted tool, or poisoned memory) propagates across autonomous agents, compounding into system-wide harm\". (CC BY-SA 4.0)",
+            "example": "One agent misreads a stock price, a second rebalances a portfolio on it and a third executes the trades, all within seconds.",
+            "sources": [
+                "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/"
+            ],
+            "category": "AI Security & Assurance",
+            "see_also": [
+                {
+                    "href": "/ai-ecosystem/enterprise-applications-governance-and-tools/0607e4ab/",
+                    "name": "Road to the Self-Defending Computer",
+                    "note": "AI security vendors scored on six levels of autonomy",
+                    "label": "Tracker"
+                },
+                {
+                    "href": "/ai-ecosystem/enterprise-applications-governance-and-tools/a2538ec1/",
+                    "name": "AI Agent Security",
+                    "label": "Security topic"
+                }
+            ],
+            "definition": "When one error, compromise or bad output in a system of AI agents spreads and multiplies as other agents act on it, causing damage far larger than the original fault. The speed and automation that make agents useful also let failures spread before a person notices.",
+            "also_called": [
+                "ASI08"
+            ],
+            "author_note": "Added to the library 2026-10-26 from synced_glossary_terms row 234070, written by the theworldofai side on 2026-10-25 (bridge row 1515); definition and example unchanged. The quote in the origin was checked against the OWASP Top 10 for Agentic Applications 2026 PDF on 2026-10-26.",
+            "authored_on": "2026-10-25",
+            "owasp_codes": [
+                "ASI08:2026"
+            ],
+            "authored_here": true,
+            "related_slugs": [
+                "blast-radius",
+                "excessive-agency",
+                "misinformation",
+                "agent-goal-hijack",
+                "tool-misuse-and-exploitation",
+                "identity-and-privilege-abuse",
+                "agentic-supply-chain-vulnerabilities",
+                "unexpected-code-execution",
+                "memory-and-context-poisoning",
+                "insecure-inter-agent-communication",
+                "human-agent-trust-exploitation",
+                "rogue-agents"
+            ],
+            "also_called_notes": {
+                "ASI08": {
+                    "evidence": "OWASP Top 10 for Agentic Applications 2026, ASI08:2026",
+                    "evidence_id": "bridge:1515"
+                }
+            },
+            "also_called_source": "bridge row 1515 (Stephen 2026-10-25)",
+            "owasp_codes_source": "bridge rows 1511 and 1515; checked 2026-10-26 against OWASP's own 2026 documents",
+            "related_slugs_source": "bridge row 1515 (Stephen 2026-10-25): the ten agentic risks linked to each other"
+        },
+        {
+            "slug": "human-agent-trust-exploitation",
+            "term": "Human-Agent Trust Exploitation",
+            "origin": "ASI09 in the OWASP Top 10 for Agentic Applications 2026 (Version 2026, December 2025). OWASP says \"Adversaries or misaligned designs may exploit this trust to influence user decisions, extract sensitive information, or steer outcomes for malicious purposes\". Its description names authority bias, and people who over-rely on an agent's recommendations. (CC BY-SA 4.0)",
+            "example": "A compromised agent presents a fraudulent invoice with a convincing summary, and the manager clicks approve without reading it.",
+            "sources": [
+                "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/"
+            ],
+            "category": "AI Security & Assurance",
+            "see_also": [
+                {
+                    "href": "/ai-ecosystem/enterprise-applications-governance-and-tools/0607e4ab/",
+                    "name": "Road to the Self-Defending Computer",
+                    "note": "AI security vendors scored on six levels of autonomy",
+                    "label": "Tracker"
+                },
+                {
+                    "href": "/ai-ecosystem/enterprise-applications-governance-and-tools/a2538ec1/",
+                    "name": "AI Agent Security",
+                    "label": "Security topic"
+                },
+                {
+                    "href": "/ai-ecosystem/enterprise-applications-governance-and-tools/e294a1dd/",
+                    "name": "AI in Security Operations",
+                    "label": "Security topic"
+                }
+            ],
+            "definition": "When an AI agent, or an attacker working through one, exploits people's trust in it to get them to approve harmful actions, share information or skip checks. Confident, humanlike agents can make a person's approval step a rubber stamp. It links to the psychology of automation bias and overreliance.",
+            "also_called": [
+                "ASI09"
+            ],
+            "author_note": "Added to the library 2026-10-26 from synced_glossary_terms row 234071, written by the theworldofai side on 2026-10-25 (bridge row 1515); definition and example unchanged. The quote in the origin was checked against the OWASP Top 10 for Agentic Applications 2026 PDF on 2026-10-26.",
+            "authored_on": "2026-10-25",
+            "owasp_codes": [
+                "ASI09:2026"
+            ],
+            "authored_here": true,
+            "related_slugs": [
+                "automation-complacency",
+                "overreliance-on-ai",
+                "authority-bias",
+                "automation-bias",
+                "human-in-the-loop-hitl",
+                "agent-goal-hijack",
+                "tool-misuse-and-exploitation",
+                "identity-and-privilege-abuse",
+                "agentic-supply-chain-vulnerabilities",
+                "unexpected-code-execution",
+                "memory-and-context-poisoning",
+                "insecure-inter-agent-communication",
+                "cascading-failures",
+                "rogue-agents"
+            ],
+            "also_called_notes": {
+                "ASI09": {
+                    "evidence": "OWASP Top 10 for Agentic Applications 2026, ASI09:2026",
+                    "evidence_id": "bridge:1515"
+                }
+            },
+            "also_called_source": "bridge row 1515 (Stephen 2026-10-25)",
+            "owasp_codes_source": "bridge rows 1511 and 1515; checked 2026-10-26 against OWASP's own 2026 documents",
+            "related_slugs_source": "bridge row 1515 (Stephen 2026-10-25): the ten agentic risks linked to each other; Automation Complacency, Overreliance on AI and Authority Bias on Stephen's request"
+        },
+        {
+            "slug": "rogue-agents",
+            "term": "Rogue Agents",
+            "origin": "ASI10 in the OWASP Top 10 for Agentic Applications 2026 (Version 2026, December 2025). OWASP defines them as \"malicious or compromised AI Agents that deviate from their intended function or authorized scope\". (CC BY-SA 4.0)",
+            "example": "An agent meant to clean up old files begins deleting active records and hides the errors in its status updates.",
+            "sources": [
+                "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/"
+            ],
+            "category": "AI Security & Assurance",
+            "see_also": [
+                {
+                    "href": "/ai-ecosystem/enterprise-applications-governance-and-tools/0607e4ab/",
+                    "name": "Road to the Self-Defending Computer",
+                    "note": "AI security vendors scored on six levels of autonomy",
+                    "label": "Tracker"
+                },
+                {
+                    "href": "/ai-ecosystem/enterprise-applications-governance-and-tools/a2538ec1/",
+                    "name": "AI Agent Security",
+                    "label": "Security topic"
+                }
+            ],
+            "definition": "AI agents that drift from their intended behavior and act outside their authority, whether through compromise, misalignment or flawed design, while appearing to work normally. Detecting them requires monitoring what agents actually do, not just what they report.",
+            "also_called": [
+                "ASI10"
+            ],
+            "author_note": "Added to the library 2026-10-26 from synced_glossary_terms row 234072, written by the theworldofai side on 2026-10-25 (bridge row 1515); definition and example unchanged. The quote in the origin was checked against the OWASP Top 10 for Agentic Applications 2026 PDF on 2026-10-26.",
+            "authored_on": "2026-10-25",
+            "owasp_codes": [
+                "ASI10:2026"
+            ],
+            "authored_here": true,
+            "related_slugs": [
+                "bounded-autonomy",
+                "guardrails",
+                "excessive-agency",
+                "agent-goal-hijack",
+                "tool-misuse-and-exploitation",
+                "identity-and-privilege-abuse",
+                "agentic-supply-chain-vulnerabilities",
+                "unexpected-code-execution",
+                "memory-and-context-poisoning",
+                "insecure-inter-agent-communication",
+                "cascading-failures",
+                "human-agent-trust-exploitation"
+            ],
+            "also_called_notes": {
+                "ASI10": {
+                    "evidence": "OWASP Top 10 for Agentic Applications 2026, ASI10:2026",
+                    "evidence_id": "bridge:1515"
+                }
+            },
+            "also_called_source": "bridge row 1515 (Stephen 2026-10-25)",
+            "owasp_codes_source": "bridge rows 1511 and 1515; checked 2026-10-26 against OWASP's own 2026 documents",
+            "related_slugs_source": "bridge row 1515 (Stephen 2026-10-25): the ten agentic risks linked to each other"
+        },
+        {
+            "slug": "least-privilege",
+            "term": "Least Privilege",
+            "origin": "Named as a design principle by Jerome Saltzer and Michael Schroeder in The Protection of Information in Computer Systems (Proceedings of the IEEE, 1975). NIST SP 800-53 Rev. 5 defines it as a design in which \"each entity is granted the minimum system resources and authorizations that the entity needs to perform its function\".",
+            "example": "An agent that drafts replies to customer emails can read the support inbox and create drafts, but cannot send mail, delete messages or open the billing system.",
+            "sources": [
+                "https://csrc.nist.gov/glossary/term/least_privilege",
+                "https://doi.org/10.6028/NIST.SP.800-53r5",
+                "https://doi.org/10.1109/PROC.1975.9939"
+            ],
+            "category": "AI Security & Assurance",
+            "see_also": [
+                {
+                    "href": "/ai-ecosystem/enterprise-applications-governance-and-tools/8f3e19cd/",
+                    "name": "Agent and Non-Human Identity",
+                    "label": "Security topic"
+                },
+                {
+                    "href": "/ai-ecosystem/enterprise-applications-governance-and-tools/0607e4ab/",
+                    "name": "Road to the Self-Defending Computer",
+                    "note": "AI security vendors scored on six levels of autonomy",
+                    "label": "Tracker"
+                }
+            ],
+            "definition": "The security principle that every user, program or AI agent is given only the access it needs to do its job, and nothing more. For AI agents it means scoping each agent's tools, data and permissions to the task in front of it, so that a manipulated or mistaken agent can do little harm. OWASP's mitigations for Excessive Agency apply it directly: give an agent as few tools as possible, and give those tools as few permissions as possible.",
+            "also_called": [
+                "Principle of least privilege",
+                "PoLP"
+            ],
+            "author_note": "Added 2026-10-26 on bridge row 1511 (ask 3). Definition quoted from the NIST CSRC glossary entry, which cites NIST SP 800-53 Rev. 5; Saltzer and Schroeder 1975 checked through Crossref (doi 10.1109/PROC.1975.9939).",
+            "authored_on": "2026-10-26",
+            "authored_here": true,
+            "related_slugs": [
+                "excessive-agency",
+                "identity-and-privilege-abuse",
+                "zero-trust",
+                "blast-radius",
+                "tool-allowlisting",
+                "permission-based-execution",
+                "row-level-security",
+                "non-human-identity-nhi",
+                "bounded-autonomy",
+                "guardrails"
+            ],
+            "also_called_notes": {
+                "PoLP": {
+                    "evidence": "abbreviation of principle of least privilege",
+                    "evidence_id": "bridge:1511"
+                },
+                "Principle of least privilege": {
+                    "evidence": "the common full name of the principle",
+                    "evidence_id": "bridge:1511"
+                }
+            },
+            "also_called_source": "bridge row 1511 (Stephen 2026-10-25)",
+            "related_slugs_source": "bridge rows 1511 and 1512 (Stephen 2026-10-25)"
+        },
+        {
+            "slug": "hidden-context-exposure",
+            "term": "Hidden Context Exposure",
+            "origin": "LLM08 in the OWASP Top 10 for LLM Applications 2026, renamed and broadened from System Prompt Leakage (LLM07 in 2025). OWASP defines it as \"the unauthorized extraction, inference, or reconstruction of hidden, non-user-facing system instructions or operational context placed in a model's context\" (CC BY-SA 4.0).",
+            "example": "A user coaxes a support chatbot into repeating its hidden instructions, which include the internal rule for when refunds skip manager approval and an API key for the order system.",
+            "sources": [
+                "https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/",
+                "https://genai.owasp.org/llmrisk/llm072025-system-prompt-leakage/"
+            ],
+            "category": "AI Security & Assurance",
+            "see_also": [
+                {
+                    "href": "/ai-ecosystem/enterprise-applications-governance-and-tools/a2be4c55/",
+                    "name": "Data Leakage",
+                    "label": "Security topic"
+                }
+            ],
+            "definition": "The risk that the instructions and other material an application places in a model's context without showing the user, such as the system prompt, developer rules, retrieved policy text and the schemas of the tools it can call, are extracted, inferred or reconstructed by an attacker. It matters when that hidden context holds secrets, policy logic, tool permissions or other details that help an attacker. OWASP's advice is to assume hidden context can be discovered, keep credentials and other secrets out of it, and never rely on it alone to enforce authorization or filtering.",
+            "also_called": [
+                "System Prompt Leakage",
+                "LLM08 (2026)",
+                "LLM07 (2025)"
+            ],
+            "author_note": "Added 2026-10-26 on bridge rows 1511 and 1515: one of the ten risks of the OWASP Top 10 for LLM Applications 2026 with no glossary term. Definition in this site's words from OWASP's description; the quote in the origin is checked against the OWASP 2026 PDF (Version 2026, cover date August 4th, 2026).",
+            "authored_on": "2026-10-26",
+            "owasp_codes": [
+                "LLM08:2026",
+                "LLM07:2025"
+            ],
+            "authored_here": true,
+            "related_slugs": [
+                "system-prompt",
+                "prompt-injection",
+                "sensitive-information-disclosure",
+                "excessive-agency",
+                "improper-output-handling",
+                "context-window",
+                "owasp-llm-top-10"
+            ],
+            "also_called_notes": {
+                "LLM07 (2025)": {
+                    "evidence": "OWASP Top 10 for LLM Applications 2025, LLM07:2025; the 2025 number is history",
+                    "evidence_id": "bridge:1515"
+                },
+                "LLM08 (2026)": {
+                    "evidence": "OWASP Top 10 for LLM Applications 2026, LLM08:2026; the 2026 number is current",
+                    "evidence_id": "bridge:1515"
+                },
+                "System Prompt Leakage": {
+                    "evidence": "OWASP's 2025 name for this risk (LLM07:2025); the 2026 edition renamed and broadened it, per its rank migration chart",
+                    "evidence_id": "bridge:1515"
+                }
+            },
+            "also_called_source": "bridge rows 1511 and 1515 (Stephen 2026-10-25)",
+            "owasp_codes_source": "bridge rows 1511 and 1515; checked 2026-10-26 against OWASP's own 2026 documents",
+            "related_slugs_source": "bridge rows 1511 and 1515 (Stephen 2026-10-25)"
+        },
+        {
+            "slug": "sensitive-information-disclosure",
+            "term": "Sensitive Information Disclosure",
+            "origin": "LLM02 in both the 2025 and 2026 editions of the OWASP Top 10 for LLM Applications (LLM06 in 2023). OWASP says it occurs when an LLM-integrated system \"exposes confidential, regulated, privileged, or proprietary data through a channel the data subject, controller, or system owner did not authorize\" (CC BY-SA 4.0).",
+            "example": "An internal assistant connected to a shared drive with loose permissions answers an employee's question by quoting a colleague's salary from an HR spreadsheet it was never meant to read.",
+            "sources": [
+                "https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/",
+                "https://genai.owasp.org/llmrisk/llm022025-sensitive-information-disclosure/"
+            ],
+            "category": "AI Security & Assurance",
+            "see_also": [
+                {
+                    "href": "/ai-ecosystem/enterprise-applications-governance-and-tools/a2be4c55/",
+                    "name": "Data Leakage",
+                    "label": "Security topic"
+                },
+                {
+                    "href": "/ai-ecosystem/enterprise-applications-governance-and-tools/95ccea74/",
+                    "name": "AI Privacy and Data Protection",
+                    "label": "Security topic"
+                }
+            ],
+            "definition": "When an AI application exposes confidential, regulated or proprietary data, such as personal data, health or financial records, credentials, trade secrets or model weights, to someone who was not meant to see it. The leak need not be in the final answer: OWASP also counts tool call arguments, reasoning traces, retrieved passages, logs and embeddings as ways out, and data can leak at training time, at inference, through data pipelines, or by inference from timing and other observable behavior.",
+            "also_called": [
+                "LLM02 (2026)",
+                "LLM02 (2025)"
+            ],
+            "author_note": "Added 2026-10-26 on bridge rows 1511 and 1515: one of the ten risks of the OWASP Top 10 for LLM Applications 2026 with no glossary term. Definition in this site's words from OWASP's description; the quote in the origin is checked against the OWASP 2026 PDF (Version 2026, cover date August 4th, 2026).",
+            "authored_on": "2026-10-26",
+            "owasp_codes": [
+                "LLM02:2026",
+                "LLM02:2025"
+            ],
+            "authored_here": true,
+            "related_slugs": [
+                "membership-inference-attack",
+                "hidden-context-exposure",
+                "output-filtering",
+                "model-exfiltration",
+                "vector-and-embedding-weaknesses",
+                "owasp-llm-top-10"
+            ],
+            "also_called_notes": {
+                "LLM02 (2025)": {
+                    "evidence": "OWASP Top 10 for LLM Applications 2025, LLM02:2025; the 2025 number is history",
+                    "evidence_id": "bridge:1515"
+                },
+                "LLM02 (2026)": {
+                    "evidence": "OWASP Top 10 for LLM Applications 2026, LLM02:2026; the 2026 number is current",
+                    "evidence_id": "bridge:1515"
+                }
+            },
+            "also_called_source": "bridge rows 1511 and 1515 (Stephen 2026-10-25)",
+            "owasp_codes_source": "bridge rows 1511 and 1515; checked 2026-10-26 against OWASP's own 2026 documents",
+            "related_slugs_source": "bridge rows 1511 and 1515 (Stephen 2026-10-25)"
+        },
+        {
+            "slug": "improper-output-handling",
+            "term": "Improper Output Handling",
+            "origin": "LLM10 in the OWASP Top 10 for LLM Applications 2026, LLM05 in 2025, and LLM02 Insecure Output Handling in 2023. OWASP defines it as \"insufficient validation, sanitization, and handling of the outputs generated by large language models before they are passed downstream to other components and systems\" (CC BY-SA 4.0).",
+            "example": "A web app shows a model's reply as HTML without encoding it, so a reply an attacker steered into containing a script runs in the next visitor's browser.",
+            "sources": [
+                "https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/",
+                "https://genai.owasp.org/llmrisk/llm052025-improper-output-handling/"
+            ],
+            "category": "AI Security & Assurance",
+            "definition": "Passing what a language model generates on to other systems, such as a browser, a database, a shell or another program, without validating, sanitizing or encoding it first. Because a prompt can steer the output, unchecked output gives whoever writes the prompt indirect access to those systems, and can lead to cross-site scripting, request forgery, privilege escalation or remote code execution. It differs from Misinformation, which is about output that is wrong rather than output that is unsafe to pass on.",
+            "also_called": [
+                "Insecure Output Handling",
+                "LLM10 (2026)",
+                "LLM05 (2025)"
+            ],
+            "author_note": "Added 2026-10-26 on bridge rows 1511 and 1515: one of the ten risks of the OWASP Top 10 for LLM Applications 2026 with no glossary term. Definition in this site's words from OWASP's description; the quote in the origin is checked against the OWASP 2026 PDF (Version 2026, cover date August 4th, 2026).",
+            "authored_on": "2026-10-26",
+            "owasp_codes": [
+                "LLM10:2026",
+                "LLM05:2025"
+            ],
+            "authored_here": true,
+            "related_slugs": [
+                "output-validation",
+                "output-filtering",
+                "structured-output",
+                "prompt-injection",
+                "unexpected-code-execution",
+                "sandbox",
+                "misinformation",
+                "owasp-llm-top-10"
+            ],
+            "also_called_notes": {
+                "LLM05 (2025)": {
+                    "evidence": "OWASP Top 10 for LLM Applications 2025, LLM05:2025; the 2025 number is history",
+                    "evidence_id": "bridge:1515"
+                },
+                "LLM10 (2026)": {
+                    "evidence": "OWASP Top 10 for LLM Applications 2026, LLM10:2026; the 2026 number is current",
+                    "evidence_id": "bridge:1515"
+                },
+                "Insecure Output Handling": {
+                    "evidence": "OWASP's name for this risk in the 2023 edition (LLM02)",
+                    "evidence_id": "bridge:1515"
+                }
+            },
+            "also_called_source": "bridge rows 1511 and 1515 (Stephen 2026-10-25)",
+            "owasp_codes_source": "bridge rows 1511 and 1515; checked 2026-10-26 against OWASP's own 2026 documents",
+            "related_slugs_source": "bridge rows 1511 and 1515 (Stephen 2026-10-25)"
+        },
+        {
+            "slug": "vector-and-embedding-weaknesses",
+            "term": "Vector and Embedding Weaknesses",
+            "origin": "LLM09 in the OWASP Top 10 for LLM Applications 2026, first listed as LLM08 in 2025. OWASP notes that \"Whenever similarity search sits between a data source and the prompt, the embedding layer becomes part of the application's trust boundary\" (CC BY-SA 4.0).",
+            "example": "In a shared RAG service, one customer's crafted queries reveal from result counts and scores that another customer holds documents about a pending acquisition, without ever seeing the documents.",
+            "sources": [
+                "https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/",
+                "https://genai.owasp.org/llmrisk/llm082025-vector-and-embedding-weaknesses/"
+            ],
+            "category": "AI Security & Assurance",
+            "definition": "Security weaknesses in the parts of an AI application that turn text, images or other data into embeddings and use similarity search to decide what the model sees: most often retrieval augmented generation (RAG), but also agent memory and semantic caches. The attacks work on the embedding space and the search itself rather than on the model's instructions, for example poisoned entries that make the system give wrong answers, inversion that recovers source text from embeddings, and access control applied only after the search, which lets one user infer what is in another's documents.",
+            "also_called": [
+                "LLM09 (2026)",
+                "LLM08 (2025)"
+            ],
+            "author_note": "Added 2026-10-26 on bridge rows 1511 and 1515: one of the ten risks of the OWASP Top 10 for LLM Applications 2026 with no glossary term. Definition in this site's words from OWASP's description; the quote in the origin is checked against the OWASP 2026 PDF (Version 2026, cover date August 4th, 2026).",
+            "authored_on": "2026-10-26",
+            "owasp_codes": [
+                "LLM09:2026",
+                "LLM08:2025"
+            ],
+            "authored_here": true,
+            "related_slugs": [
+                "embedding",
+                "vector-database",
+                "vector-search",
+                "rag-retrieval-augmented-generation",
+                "data-poisoning",
+                "memory-and-context-poisoning",
+                "owasp-llm-top-10"
+            ],
+            "also_called_notes": {
+                "LLM08 (2025)": {
+                    "evidence": "OWASP Top 10 for LLM Applications 2025, LLM08:2025; the 2025 number is history",
+                    "evidence_id": "bridge:1515"
+                },
+                "LLM09 (2026)": {
+                    "evidence": "OWASP Top 10 for LLM Applications 2026, LLM09:2026; the 2026 number is current",
+                    "evidence_id": "bridge:1515"
+                }
+            },
+            "also_called_source": "bridge rows 1511 and 1515 (Stephen 2026-10-25)",
+            "owasp_codes_source": "bridge rows 1511 and 1515; checked 2026-10-26 against OWASP's own 2026 documents",
+            "related_slugs_source": "bridge rows 1511 and 1515 (Stephen 2026-10-25)"
+        },
+        {
+            "slug": "misinformation",
+            "term": "Misinformation",
+            "origin": "LLM07 in the OWASP Top 10 for LLM Applications 2026 and LLM09 in 2025. OWASP says it occurs when a model \"produces incorrect, incomplete, unsupported, or misleading information that appears credible enough to influence a human decision, an automated workflow, or an agent action\" (CC BY-SA 4.0).",
+            "example": "A procurement agent wrongly concludes that a supplier passed its compliance check and releases the payment, because a model's summary of the audit file left out the failed item.",
+            "sources": [
+                "https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/",
+                "https://genai.owasp.org/llmrisk/llm092025-misinformation/"
+            ],
+            "category": "AI Security & Assurance",
+            "definition": "In AI security, output from a language model that is incorrect, incomplete or misleading but looks credible enough for a person, an automated workflow or an AI agent to act on. The harm comes from the trust: once model output drives decisions, tool calls or code, a wrong answer becomes a wrong action. Causes include hallucination, stale or incomplete context, weak grounding and deliberate manipulation, and overreliance on the output makes it worse.",
+            "also_called": [
+                "LLM07 (2026)",
+                "LLM09 (2025)"
+            ],
+            "author_note": "Added 2026-10-26 on bridge rows 1511 and 1515: one of the ten risks of the OWASP Top 10 for LLM Applications 2026 with no glossary term. Definition in this site's words from OWASP's description; the quote in the origin is checked against the OWASP 2026 PDF (Version 2026, cover date August 4th, 2026).",
+            "authored_on": "2026-10-26",
+            "owasp_codes": [
+                "LLM07:2026",
+                "LLM09:2025"
+            ],
+            "authored_here": true,
+            "related_slugs": [
+                "hallucination",
+                "confabulation",
+                "overreliance-on-ai",
+                "automation-bias",
+                "cascading-failures",
+                "improper-output-handling",
+                "owasp-llm-top-10"
+            ],
+            "also_called_notes": {
+                "LLM07 (2026)": {
+                    "evidence": "OWASP Top 10 for LLM Applications 2026, LLM07:2026; the 2026 number is current",
+                    "evidence_id": "bridge:1515"
+                },
+                "LLM09 (2025)": {
+                    "evidence": "OWASP Top 10 for LLM Applications 2025, LLM09:2025; the 2025 number is history",
+                    "evidence_id": "bridge:1515"
+                }
+            },
+            "also_called_source": "bridge rows 1511 and 1515 (Stephen 2026-10-25)",
+            "owasp_codes_source": "bridge rows 1511 and 1515; checked 2026-10-26 against OWASP's own 2026 documents",
+            "related_slugs_source": "bridge rows 1511 and 1515 (Stephen 2026-10-25)"
         }
     ],
     "source": {
