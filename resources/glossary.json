@@ -1,5 +1,5 @@
 {
-    "count": 808,
+    "count": 809,
     "terms": [
         {
             "slug": "agent",
@@ -9027,6 +9027,35 @@
             "also_called_source": "bridge rows 1511 and 1515 (Stephen 2026-10-25)",
             "owasp_codes_source": "bridge rows 1511 and 1515; checked 2026-10-26 against OWASP's own 2026 documents",
             "related_slugs_source": "bridge rows 1511 and 1515 (Stephen 2026-10-25)"
+        },
+        {
+            "slug": "collingridge-dilemma",
+            "term": "Collingridge Dilemma",
+            "origin": "David Collingridge, The Social Control of Technology (London: Frances Pinter; New York: St. Martin's Press, 1980).",
+            "example": "An AI companion placed in older people's homes may work as designed and still change family routines or loneliness in ways no one predicted; if those effects are found only after millions of homes have one, correcting them is much harder.",
+            "sources": [
+                "https://www.chinadaily.com.cn/a/202610/29/WS6ae2a3aae4b06d4aa0565cca.html"
+            ],
+            "category": "Safety & Governance",
+            "see_also": [
+                {
+                    "href": "/ai-ecosystem/research-knowledge-and-learning/c26d0241/",
+                    "name": "The Psychology of AI on Humans",
+                    "label": "Hub"
+                },
+                {
+                    "href": "/ai-news/369ad4ba/",
+                    "name": "Assessing the impact of artificial intelligence requires social experimentation",
+                    "label": "In the news"
+                }
+            ],
+            "definition": "The double bind in governing a new technology: while it is new, it is easy to change but its effects are hard to foresee; by the time its effects are clear, it is so widely used that changing it is slow and costly. Named after David Collingridge, who set it out in The Social Control of Technology (1980). It is the usual argument for testing AI in limited real-world settings, with baselines and follow-up, before adoption becomes too widespread to reverse.",
+            "author_note": "Added 2026-10-29 for bridge row 1756 (Stephen). Definition from Collingridge (1980); the example follows Ru Peng's China Daily opinion piece of 2026-10-29, which frames AI companions for older people as a case of the dilemma.",
+            "authored_on": "2026-10-29",
+            "authored_here": true,
+            "related_slugs": [
+                "dual-use-ai"
+            ]
         }
     ],
     "source": {
