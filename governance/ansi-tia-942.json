@@ -1,0 +1,60 @@
+{
+    "slug": "ansi-tia-942",
+    "short": "ANSI/TIA-942 is the Telecommunications Industry Association's data center infrastructure standard, currently revision ANSI/TIA-942-C (2024); facilities are rated Rated-1 to Rated-4 and certified by TIA-licensed certification bodies, not by TIA itself.",
+    "title": "ANSI/TIA-942, Telecommunications Infrastructure Standard for Data Centers",
+    "parent": "standards-and-frameworks",
+    "children": [
+    ],
+    "subtitle": "TIA's data center infrastructure standard, rated Rated-1 to Rated-4, certified by TIA-licensed bodies",
+    "body_html": "<h2 id=\"what-it-is\">What ANSI/TIA-942 is</h2><p>ANSI/TIA-942 is the Telecommunications Industry Association's standard for data center infrastructure, developed by its TR-42 engineering committee through an ANSI-accredited process. The current revision is ANSI/TIA-942-C, announced by TIA on 9 May 2024 as the third revision since the original standard. TIA says it specifies requirements for the infrastructure of data centers and computer rooms, for single-tenant enterprise and multi-tenant facilities of any size. TIA's committee TR-42.1 is developing Addendum 1: Artificial Intelligence, covering high-density cabling, cooling and electrical systems for AI and HPC, with publication planned for mid-2027.</p><h2 id=\"what-it-covers\">What it covers</h2><p>TIA lists these areas:</p><ul><li>Site selection and facility layout (architecture)</li><li>Telecommunications cabling and infrastructure</li><li>Electrical and power systems</li><li>Mechanical and cooling systems</li><li>Fire protection and life safety</li><li>Physical security</li><li>Monitoring and infrastructure management</li><li>Redundancy and resilience planning</li></ul><p>Revision C also brought in TIA's earlier edge data center material, a new cable media type, and requirements on floor loading and minimum cabinet width.</p><h2 id=\"how-conformity-is-shown\">How a claim is made and checked</h2><p>TIA uses the word \"Rated\", not \"Tier\". Its four levels, paraphrased:</p><ul><li><strong>Rated-1</strong>: essential infrastructure with little or no redundancy.</li><li><strong>Rated-2</strong>: redundant capacity for key systems, with some single points of failure remaining.</li><li><strong>Rated-3</strong>: concurrently maintainable; a power, cooling or cabling component can be serviced without disrupting IT.</li><li><strong>Rated-4</strong>: fault tolerant; redundant systems keep running through an equipment failure without human intervention.</li></ul><p>TIA does not audit data centers itself. Audits are carried out by TIA-licensed Certification Bodies, which must meet ISO/IEC 17020 or 17021 plus TIA's own qualifications, and whose auditors must meet TIA competency requirements. Individual auditors may not operate independently of a licensed body. TIA licenses the bodies and only displays certifications from audits by licensed bodies under its scheme.</p><p>TIA names three certificate types:</p><ul><li><strong>Design</strong>: valid for one year, extendable if the site is not yet operational.</li><li><strong>Facility</strong> (constructed facility): valid for three years, with surveillance audits by the end of years one and two and recertification in year three.</li><li><strong>Ready</strong> (modular or prefabricated): valid for one year, recertified annually.</li></ul><p>TIA publishes a searchable list of certified data centers at <a href=\"https://tiaonline.org/our-work/certifications/tia-942-certification/search-data-centers/\" rel=\"noopener\">tiaonline.org, Search Data Centers</a>, showing certificate type, rating, status, issue date and expiry date.</p><h2 id=\"what-a-claim-does-not-mean\">What a claim does not mean</h2><ul><li>TIA writes the standard and licenses certification bodies; it is not the certifier. A certificate comes from a TIA-licensed body.</li><li>A Design certificate covers a design, not a built and running facility, and it is valid for one year.</li><li>A rating applies to one facility. It does not cover an operator's other sites.</li><li>\"Designed to TIA-942\" or \"Rated-3 compliant\" without a listed certificate is the operator's own claim.</li><li>TIA's Rated-1 to Rated-4 is not Uptime Institute's Tier I to IV. The two schemes are separate, with different criteria and certifiers.</li></ul><h2 id=\"in-data-centers\">In data centers</h2><p>When an operator says a site is TIA-942 certified, a reader should look the site up on TIA's Search Data Centers page and check the certificate type (Design, Facility or Ready), the rating, the status and the expiry date, and that the listing is for the same building. Ask which licensed certification body issued it and which revision of the standard was used.</p><h2 id=\"related-standards\">Related standards</h2><p>Compare <a href=\"/ai-compliance/uptime-tier/\">Uptime Institute Tier Certification</a> and the European <a href=\"/ai-compliance/en-50600/\">EN 50600</a> series. More schemes are on the <a href=\"/ai-compliance/standards-and-frameworks/\">standards and frameworks hub</a>.</p><h2 id=\"primary-sources\">Primary sources</h2><ul><li><a href=\"https://tiaonline.org/standard/tia-942/\" rel=\"noopener\">TIA: TIA-942 standard page</a></li><li><a href=\"https://tiaonline.org/press-release/tia-unveils-revision-c-of-the-global-data-center-infrastructure-standard/\" rel=\"noopener\">TIA press release: Revision C of the data center infrastructure standard (9 May 2024)</a></li><li><a href=\"https://tiaonline.org/our-work/certifications/tia-942-certification/\" rel=\"noopener\">TIA: TIA-942 certification</a></li><li><a href=\"https://tiaonline.org/our-work/certifications/tia-942-certification/certifications-and-ratings/\" rel=\"noopener\">TIA: Certifications and ratings</a></li><li><a href=\"https://tiaonline.org/our-work/certifications/tia-942-certification/auditors-training-consultants/\" rel=\"noopener\">TIA: Auditors, training and consultants</a></li><li><a href=\"https://tiaonline.org/our-work/certifications/tia-942-certification/search-data-centers/\" rel=\"noopener\">TIA: Search data centers</a></li><li><a href=\"https://tiaonline.org/press-release/tia-advances-ai-ready-data-centers-with-new-ansi-tia-942-addendum-global-certification-leadership-and-expanded-industry-quality-initiative/\" rel=\"noopener\">TIA press release: AI addendum to ANSI/TIA-942 (24 March 2026)</a></li></ul>",
+    "citations": [
+        {
+            "url": "https://tiaonline.org/standard/tia-942/",
+            "year": "",
+            "title": "TIA-942",
+            "publisher": "TIA"
+        },
+        {
+            "url": "https://tiaonline.org/press-release/tia-unveils-revision-c-of-the-global-data-center-infrastructure-standard/",
+            "year": "2024",
+            "title": "TIA Unveils Revision C of the Global Data Center Infrastructure Standard",
+            "publisher": "TIA"
+        },
+        {
+            "url": "https://tiaonline.org/our-work/certifications/tia-942-certification/certifications-and-ratings/",
+            "year": "",
+            "title": "TIA-942 Certification: Certifications and Ratings",
+            "publisher": "TIA"
+        },
+        {
+            "url": "https://tiaonline.org/our-work/certifications/tia-942-certification/auditors-training-consultants/",
+            "year": "",
+            "title": "TIA-942 Certification: Auditors, Training and Consultants",
+            "publisher": "TIA"
+        },
+        {
+            "url": "https://tiaonline.org/our-work/certifications/tia-942-certification/search-data-centers/",
+            "year": "",
+            "title": "TIA-942 Certification: Search Data Centers",
+            "publisher": "TIA"
+        },
+        {
+            "url": "https://tiaonline.org/press-release/tia-advances-ai-ready-data-centers-with-new-ansi-tia-942-addendum-global-certification-leadership-and-expanded-industry-quality-initiative/",
+            "year": "2026",
+            "title": "TIA Advances AI Ready Data Centers with New ANSI/TIA 942 Addendum",
+            "publisher": "TIA"
+        }
+    ],
+    "seo_title": "ANSI/TIA-942 Data Center Certification Explained",
+    "legal_class": "voluntary",
+    "legal_label": "Voluntary standard or framework: adopted by choice, with no legal force or penalties of its own",
+    "focus_keyword": "TIA-942",
+    "standard_meta": {
+        "kind": "design standard",
+        "issuer": "Telecommunications Industry Association (TIA)",
+        "edition": "ANSI/TIA-942-C (announced 9 May 2024); Addendum 1: Artificial Intelligence in development, publication planned mid-2027",
+        "issuer_url": "https://tiaonline.org/standard/tia-942/"
+    },
+    "instrument_class": "standard",
+    "meta_description": "ANSI/TIA-942-C (2024): Rated-1 to Rated-4, what the standard covers, certification by TIA-licensed bodies, certificate types and TIA's public list."
+}
