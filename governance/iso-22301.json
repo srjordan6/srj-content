@@ -1,0 +1,35 @@
+{
+    "slug": "iso-22301",
+    "short": "ISO 22301 is the ISO requirements standard for a business continuity management system; the current edition is ISO 22301:2019 with Amendment 1:2024, a revision is in progress, and it is held as a certificate issued by a certification body.",
+    "title": "ISO 22301, Business Continuity Management Systems",
+    "parent": "standards-and-frameworks",
+    "children": [
+    ],
+    "subtitle": "The ISO requirements standard for preparing for, responding to and recovering from disruption",
+    "body_html": "<h2 id=\"what-it-is\">What ISO 22301 is</h2><p>ISO 22301 sets the requirements for a business continuity management system (BCMS): a management system to protect against disruption, make it less likely, prepare for it, respond to it and recover from it. It is written by ISO/TC 292, Security and resilience. The current edition is ISO 22301:2019, published on 30 October 2019, amended by Amendment 1 on 23 February 2024. ISO Open Data shows a new edition being drafted, at committee draft stage, which will replace both.</p><p>ISO says the requirements are generic and apply to any organization or part of one. The extent of application depends on how complex the organization is and where it operates.</p><h2 id=\"what-it-covers\">What it covers</h2><ul><li>Implementing, maintaining and improving a BCMS.</li><li>Conforming to the organization's own business continuity policy.</li><li>Continuing to deliver products and services at an acceptable, predefined capacity during a disruption.</li><li>Building resilience through the BCMS.</li></ul><h2 id=\"how-conformity-is-shown\">How conformity is shown</h2><p>ISO publishes the standard and sells its text. ISO Open Data, the dataset ISO publishes for reuse, records the edition, the committee and the scope, and that is what this page is built from. It does not record who holds a certificate. A certificate against a requirements standard like this one is issued by a certification body after an audit, and it names that body, the edition, the scope and the dates.</p><h2 id=\"what-a-claim-does-not-mean\">What a claim does not mean</h2><p>ISO 22301 does not set an uptime figure, a recovery time or a design level for a facility. Those are chosen by the organization. A certificate shows the system for planning and testing continuity was audited, not that a site will stay up. Facility redundancy is what <a href=\"/ai-compliance/uptime-tier/\">Uptime Institute Tier</a>, <a href=\"/ai-compliance/ansi-tia-942/\">ANSI/TIA-942</a> and <a href=\"/ai-compliance/en-50600/\">EN 50600</a> address.</p><h2 id=\"in-data-centers\">ISO 22301 in data centers</h2><p>For a data center operator, a certificate usually covers continuity of the services it sells from named sites: power and cooling failure, loss of access, staff unavailability and supplier failure. A customer reading the claim should ask which sites and services the scope names.</p><ul><li><b>Scope.</b> A certificate covers named sites, services or activities. One site certified does not mean every site the operator runs is certified.</li><li><b>Edition.</b> The certificate names the edition it was audited against.</li><li><b>Certification body and certificate number.</b> These let a reader confirm the certificate with the body that issued it.</li><li><b>Dates.</b> A certificate has an issue date and an expiry date.</li></ul><h2 id=\"related-standards\">Related standards</h2><p>See also <a href=\"/ai-compliance/iso-27001-ai/\">ISO/IEC 27001</a>, whose controls include continuity of information security, and the <a href=\"/ai-compliance/standards-and-frameworks/\">Standards and Frameworks hub</a>.</p><h2 id=\"primary-sources\">Primary sources</h2><ul><li><a href=\"https://www.iso.org/standard/75106.html\" rel=\"noopener\">ISO 22301:2019</a>, ISO standard page (linked for readers; iso.org refuses automated readers, so the facts above come from ISO Open Data)</li><li><a href=\"https://www.iso.org/standard/88412.html\" rel=\"noopener\">ISO 22301:2019/Amd 1:2024</a></li><li><a href=\"https://isopublicstorageprod.blob.core.windows.net/opendata/_latest/iso_deliverables_metadata/json/iso_deliverables_metadata.jsonl\" rel=\"noopener\">ISO Open Data, deliverables metadata</a>: edition, publication date, committee and scope</li></ul>",
+    "citations": [
+        {
+            "url": "https://www.iso.org/standard/75106.html",
+            "year": "2019",
+            "title": "ISO 22301:2019",
+            "publisher": "ISO"
+        },
+        {
+            "url": "https://isopublicstorageprod.blob.core.windows.net/opendata/_latest/iso_deliverables_metadata/json/iso_deliverables_metadata.jsonl",
+            "title": "ISO Open Data, deliverables metadata",
+            "publisher": "ISO"
+        }
+    ],
+    "seo_title": "ISO 22301 Business Continuity Management Explained",
+    "legal_class": "voluntary",
+    "legal_label": "Voluntary standard or framework: adopted by choice, with no legal force or penalties of its own",
+    "focus_keyword": "ISO 22301",
+    "standard_meta": {
+        "kind": "certifiable management system standard",
+        "issuer": "International Organization for Standardization (ISO)",
+        "edition": "2019 (second edition, published 2019-10-30), with Amendment 1:2024 (2024-02-23); revision at committee draft stage",
+        "issuer_url": "https://www.iso.org/standard/75106.html"
+    },
+    "instrument_class": "standard",
+    "meta_description": "ISO 22301:2019 sets requirements for business continuity management. What it covers, the revision under way, and what a data center certificate shows."
+}
