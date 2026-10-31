@@ -1,0 +1,60 @@
+{
+    "slug": "soc-1",
+    "short": "SOC 1 is an AICPA attestation report, issued by a CPA firm under AT-C section 320, on a service organization's controls relevant to its customers' internal control over financial reporting; it comes as Type 1 or Type 2 and is a report, not a certification.",
+    "title": "SOC 1, Report on Controls at a Service Organization Relevant to Financial Reporting",
+    "parent": "standards-and-frameworks",
+    "children": [
+    ],
+    "subtitle": "An AICPA attestation report on a service organization's controls that affect its customers' financial reporting",
+    "body_html": "<h2 id=\"what-it-is\">What SOC 1 is</h2><p>SOC 1 is a report from the AICPA's System and Organization Controls (SOC) suite. The AICPA describes it as an examination of controls at a service organization that are likely to be relevant to its customers' internal control over financial reporting. The AICPA calls those customers user entities. A CPA firm acting as service auditor performs the examination under the AICPA attestation standards, specifically AT-C section 320, and issues the report.</p><p>The AICPA's guide for these engagements is titled Reporting on an Examination of Controls at a Service Organization Relevant to User Entities' Internal Control Over Financial Reporting (SOC 1). Its current edition is the 2025 edition.</p><h2 id=\"what-it-covers\">What it covers</h2><ul><li>Management's description of the service organization's system.</li><li>Whether the controls in that description were suitably designed to achieve the stated control objectives.</li><li>In a Type 2 report, whether those controls also operated effectively.</li><li>Treatment of subservice organizations, which the guide says can be presented by the inclusive method or the carve-out method.</li></ul><p>The AICPA names two audiences: the user entities, and the auditors of the user entities' financial statements, whom it calls user auditors. The report helps them judge how the service organization's controls affect the user entities' financial statements.</p><h2 id=\"how-conformity-is-shown\">How a claim is made and checked</h2><p>There is no SOC 1 certificate. The evidence is the service auditor's report, which contains the auditor's opinion, management's description of the system and, for Type 2, the tests performed and their results. AICPA material distinguishes two types:</p><ul><li><strong>Type 1</strong>: the service auditor evaluates the description and the design of controls as of a specific date.</li><li><strong>Type 2</strong>: the report also covers the operating effectiveness of the controls, which means testing them over a period.</li></ul><p>The AICPA says SOC engagements are performed by CPAs who must follow its professional standards, enrol in peer review and be licensed.</p><h2 id=\"what-a-claim-does-not-mean\">What a claim does not mean</h2><ul><li>SOC 1 is an attestation report, not a certification. Nobody is \"SOC 1 certified\", and the AICPA does not issue certificates for it.</li><li>It is about controls relevant to customers' financial reporting. It is not a general security report; that is the role of <a href=\"/ai-compliance/soc-2-ai/\">SOC 2</a>.</li><li>A Type 1 report says nothing about whether controls worked over time.</li><li>A report covers a defined system and a defined date or period. It does not cover services, sites or periods outside that description, and it ages.</li><li>Where subservice organizations are carved out, their controls are not covered by the report.</li></ul><h2 id=\"in-data-centers\">SOC 1 in data centers</h2><p>Data center and colocation operators publish SOC 1 reports because their customers' auditors may need assurance over controls that support those customers' financial systems, such as physical access to the rooms where those systems run. When an operator says it has a SOC 1 report, check:</p><ul><li>Type 1 or Type 2, and the date or period covered.</li><li>Which sites and services are in the system description.</li><li>The CPA firm that issued the report and the opinion it gave.</li><li>Whether any subservice organizations are carved out.</li><li>Any controls the report expects customers to operate themselves.</li></ul><p>SOC 1 reports are usually shared with customers and their auditors on request, not published.</p><h2 id=\"related-standards\">Related standards</h2><p>Most operators that publish SOC 1 also publish <a href=\"/ai-compliance/soc-2-ai/\">SOC 2</a>. Management system certificates such as <a href=\"/ai-compliance/iso-27001-ai/\">ISO/IEC 27001</a> are a different kind of evidence. See the <a href=\"/ai-compliance/standards-and-frameworks/\">standards hub</a>.</p><h2 id=\"primary-sources\">Primary sources</h2><ul><li><a href=\"https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-1\" rel=\"noopener\">SOC 1, SOC for Service Organizations: ICFR</a></li><li><a href=\"https://www.aicpa-cima.com/cpe-learning/publication/reporting-on-an-examination-of-controls-at-a-service-organization-relevant-to-user-entities-internal-control-over-financial-reporting-soc-1-guide\" rel=\"noopener\">Reporting on an Examination of Controls at a Service Organization Relevant to User Entities' Internal Control Over Financial Reporting (SOC 1) guide, 2025 edition</a></li><li><a href=\"https://www.aicpa-cima.com/cpe-learning/course/introduction-to-soc-for-service-organizations-reporting\" rel=\"noopener\">Introduction to SOC for Service Organizations Reporting</a></li><li><a href=\"https://www.aicpa-cima.com/professional-insights/video/maintaining-high-standards-for-soc-engagements\" rel=\"noopener\">Maintaining high standards for SOC engagements</a></li><li><a href=\"https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services\" rel=\"noopener\">System and Organization Controls: SOC suite of services</a></li><li><a href=\"https://www.aicpa-cima.com/resources/download/information-for-service-organization-management-in-a-soc-1-engagement\" rel=\"noopener\">Information for service organization management in a SOC 1 engagement</a></li></ul>",
+    "citations": [
+        {
+            "url": "https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-1",
+            "year": "",
+            "title": "SOC 1, SOC for Service Organizations: ICFR",
+            "publisher": "AICPA & CIMA"
+        },
+        {
+            "url": "https://www.aicpa-cima.com/cpe-learning/publication/reporting-on-an-examination-of-controls-at-a-service-organization-relevant-to-user-entities-internal-control-over-financial-reporting-soc-1-guide",
+            "year": "2025",
+            "title": "Reporting on an Examination of Controls at a Service Organization Relevant to User Entities' Internal Control Over Financial Reporting (SOC 1) guide, 2025 edition",
+            "publisher": "AICPA & CIMA"
+        },
+        {
+            "url": "https://www.aicpa-cima.com/cpe-learning/course/introduction-to-soc-for-service-organizations-reporting",
+            "year": "",
+            "title": "Introduction to SOC for Service Organizations Reporting",
+            "publisher": "AICPA & CIMA"
+        },
+        {
+            "url": "https://www.aicpa-cima.com/professional-insights/video/maintaining-high-standards-for-soc-engagements",
+            "year": "2024",
+            "title": "Maintaining high standards for SOC engagements",
+            "publisher": "AICPA & CIMA"
+        },
+        {
+            "url": "https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services",
+            "year": "",
+            "title": "System and Organization Controls: SOC suite of services",
+            "publisher": "AICPA & CIMA"
+        },
+        {
+            "url": "https://www.aicpa-cima.com/resources/download/information-for-service-organization-management-in-a-soc-1-engagement",
+            "year": "",
+            "title": "Information for service organization management in a SOC 1 engagement",
+            "publisher": "AICPA & CIMA"
+        }
+    ],
+    "seo_title": "SOC 1 Type 1 and Type 2 reports explained",
+    "legal_class": "voluntary",
+    "legal_label": "Attestation report by an independent CPA firm: a report on controls, not a certification. Voluntary, with no legal force of its own",
+    "focus_keyword": "SOC 1",
+    "standard_meta": {
+        "kind": "attestation report",
+        "issuer": "American Institute of Certified Public Accountants (AICPA), AICPA & CIMA",
+        "edition": "Performed under AT-C section 320 of the AICPA attestation standards (SSAE No. 18 named in AICPA course material); AICPA SOC 1 guide, 2025 edition",
+        "issuer_url": "https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-1"
+    },
+    "instrument_class": "standard",
+    "meta_description": "What a SOC 1 report is, Type 1 vs Type 2, why it is an attestation and not a certification, and what to check when a data center publishes one."
+}
