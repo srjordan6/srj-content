@@ -1,0 +1,79 @@
+{
+    "born": null,
+    "died": null,
+    "hook": "Barrett has spent his career on automated reasoning, the branch of computer science that lets machines check logic, from early industrial hardware verification to tools that verify neural networks. In October 2026 he took that work into a company, co-founding &Truth to use AI and the Lean theorem prover to prove software free of whole classes of bugs.",
+    "name": "Clark Barrett",
+    "slug": "clark-barrett",
+    "quote": {
+        "text": "Software has lacked an equivalent foundation.",
+        "context": "Clark Barrett, on why AI transformed mathematics through Lean and Mathlib but not yet software, &Truth launch announcement, 2026-10-29"
+    },
+    "fields": [
+        "Automated reasoning",
+        "Formal verification",
+        "Satisfiability modulo theories (SMT)",
+        "Verification of neural networks"
+    ],
+    "moniker": "Stanford professor of computer science and co-founder and co-CEO of &Truth",
+    "sources": {
+        "primary": [
+            {
+                "url": "https://profiles.stanford.edu/clark-barrett?tab=bio",
+                "name": "Stanford Profiles, Clark Barrett"
+            },
+            {
+                "url": "https://centaur.stanford.edu/news.html",
+                "name": "Stanford Center for Automated Reasoning (Centaur), news"
+            }
+        ],
+        "secondary": [
+            {
+                "url": "https://www.tokenpost.com/news/business/43847",
+                "name": "TokenPost, &Truth Raises $70 Million to Automate Formal Software Verification, 2026-10-29"
+            },
+            {
+                "url": "https://www.nytimes.com/",
+                "name": "The New York Times, Cade Metz, After Reinventing Mathematics, Can A.I. Eradicate Computer Bugs?, 2026-10-29"
+            }
+        ]
+    },
+    "timeline": [
+        {
+            "year": "2021",
+            "event": "Receives the CAV Award for satisfiability modulo theories",
+            "impact": "Field recognition for SMT solving"
+        },
+        {
+            "year": "2024",
+            "event": "Receives a second CAV Award, for formal methods applied to neural networks",
+            "impact": "Verification reaches AI systems"
+        },
+        {
+            "year": "2026",
+            "event": "Co-founds &Truth with Chris Hsu and Ilya Sergey; it emerges from stealth on October 29",
+            "impact": "Formal verification of software at scale becomes a funded company"
+        }
+    ],
+    "nationality": null,
+    "quick_facts": [
+        "Mizuki Asano and Thomas McGrath Professor of Computer Science, Stanford University School of Engineering",
+        "Co-Founder and Co-CEO of &Truth, a public benefit corporation that emerged from stealth on 2026-10-29",
+        "ACM Fellow",
+        "Two-time winner of the Computer Aided Verification (CAV) Award, in 2021 and 2024",
+        "Early pioneer of formal hardware verification at 0-in Design Automation, now part of Siemens"
+    ],
+    "achievements": [
+        {
+            "title": "CAV Award 2024",
+            "impact": "Recognized, with David Dill and others, for pioneering the application of formal methods to neural networks (the Reluplex work)."
+        },
+        {
+            "title": "CAV Award 2021",
+            "impact": "Recognized for contributions to the theory and practice of satisfiability modulo theories."
+        },
+        {
+            "title": "Co-founding &Truth (2026)",
+            "impact": "Launched with $70 million in seed funding to build a universal verification machine for code on top of Lean."
+        }
+    ]
+}
