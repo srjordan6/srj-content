@@ -1,0 +1,60 @@
+{
+    "slug": "iso-27018",
+    "short": "ISO/IEC 27018 is ISO and IEC guidance for public cloud providers that process personally identifiable information for customers, based on ISO/IEC 27002 and the ISO/IEC 29100 privacy principles; the current edition is ISO/IEC 27018:2025, and it is a guidance document, not a management system standard on its own.",
+    "title": "ISO/IEC 27018, Protection of PII in Public Clouds Acting as PII Processors",
+    "parent": "standards-and-frameworks",
+    "children": [
+    ],
+    "subtitle": "ISO/IEC guidelines for protecting personal data in public cloud services that process it for customers",
+    "body_html": "<h2 id=\"what-it-is\">What ISO/IEC 27018 is</h2><p>ISO/IEC 27018 gives guidelines for protecting personally identifiable information (PII) in public cloud services where the provider acts as a PII processor. It is published jointly by ISO and IEC and owned by committee ISO/IEC JTC 1/SC 27. The current edition is ISO/IEC 27018:2025, the third edition, published on 26 August 2025. It replaces ISO/IEC 27018:2019, which ISO lists as withdrawn. Earlier editions were titled codes of practice; the 2025 title calls it guidelines.</p><p>In ISO's scope description, it sets out commonly accepted control objectives, controls and guidelines for protecting PII in the public cloud, in line with the privacy principles in ISO/IEC 29100. It bases its guidelines on ISO/IEC 27002:2022 and takes account of the regulatory requirements for PII protection that can apply to a public cloud provider.</p><h2 id=\"what-it-covers\">What it covers</h2><ul><li>Control objectives, controls and guidelines for protecting PII in a public cloud environment.</li><li>Guidance built on the ISO/IEC 27002:2022 control set.</li><li>The privacy principles of ISO/IEC 29100.</li><li>Regulatory requirements for PII that can apply within a public cloud provider's information security risk environment.</li></ul><p>ISO says it applies to organisations of every type and size that provide information processing services as PII processors through cloud computing under contract to other organisations. ISO adds that the guidelines can also be relevant to organisations acting as PII controllers.</p><h2 id=\"how-conformity-is-shown\">How a claim is made and checked</h2><p>ISO's scope description presents ISO/IEC 27018 as guidelines, not as management system requirements. The requirements an organisation is certified against are in ISO/IEC 27001.</p><p>ISO/IEC 17021-1, the ISO/IEC standard for bodies that audit and certify management systems, describes management system certification as a third-party conformity assessment activity carried out by certification bodies. ISO/IEC 27006-1:2024 adds requirements for bodies that certify information security management systems and is written so that it can serve as a criteria document for accrediting those bodies.</p><p>The ISO records we read do not name a separate certification scheme for ISO/IEC 27018 on its own. A 27018 claim is most likely to carry weight when it is tied to an ISO/IEC 27001 certification whose scope includes the 27018 guidance. Ask how the 27018 element was assessed and by whom.</p><h2 id=\"what-a-claim-does-not-mean\">What a claim does not mean</h2><ul><li>It is not a privacy management system certificate; that is the role of <a href=\"/ai-compliance/iso-27701/\">ISO/IEC 27701</a>.</li><li>It is written for public cloud providers acting as PII processors. It does not cover every way an organisation handles personal data.</li><li>It is not a statement of compliance with any data protection law.</li><li>A claim against the 2014 or 2019 edition refers to a withdrawn document. Check which edition is cited.</li><li>Any certificate has a scope, an issuing body and an expiry.</li></ul><h2 id=\"in-data-centers\">ISO/IEC 27018 in data centers</h2><p>The guidance targets public cloud services that process PII for customers. A colocation operator that provides space, power and connectivity, and does not process the data in its customers' equipment, is not the case the document describes. A 27018 claim is most relevant where the operator also runs public cloud or hosted services that handle customer PII. When an operator publishes it, check:</p><ul><li>Which service it covers, and whether that service is a public cloud service acting as a PII processor.</li><li>Whether it appears in the scope statement of an ISO/IEC 27001 certificate, with certificate number, certifying body, accreditation body and dates.</li><li>Which edition is cited.</li></ul><h2 id=\"related-standards\">Related standards</h2><p>ISO/IEC 27018 is used alongside <a href=\"/ai-compliance/iso-27001-ai/\">ISO/IEC 27001</a> and <a href=\"/ai-compliance/iso-27017/\">ISO/IEC 27017</a>, the cloud security controls guidance. For a privacy management system that can be certified, see <a href=\"/ai-compliance/iso-27701/\">ISO/IEC 27701</a>. All are listed in the <a href=\"/ai-compliance/standards-and-frameworks/\">standards hub</a>.</p><h2 id=\"primary-sources\">Primary sources</h2><ul><li><a href=\"https://www.iso.org/standard/88150.html\" rel=\"noopener\">ISO/IEC 27018:2025 Guidelines for protection of PII in public clouds acting as PII processors (ISO Open Data, deliverables metadata)</a></li><li><a href=\"https://www.iso.org/standard/76559.html\" rel=\"noopener\">ISO/IEC 27018:2019 Code of practice for protection of PII in public clouds acting as PII processors (withdrawn) (ISO Open Data, deliverables metadata)</a></li><li><a href=\"https://www.iso.org/standard/75652.html\" rel=\"noopener\">ISO/IEC 27002:2022 Information security controls (ISO Open Data, deliverables metadata)</a></li><li><a href=\"https://www.iso.org/standard/82875.html\" rel=\"noopener\">ISO/IEC 27001:2022 Information security management systems, requirements (ISO Open Data, deliverables metadata)</a></li><li><a href=\"https://www.iso.org/standard/82908.html\" rel=\"noopener\">ISO/IEC 27006-1:2024 Requirements for bodies providing audit and certification of information security management systems, Part 1: General (ISO Open Data, deliverables metadata)</a></li><li><a href=\"https://www.iso.org/standard/61651.html\" rel=\"noopener\">ISO/IEC 17021-1:2015 Conformity assessment, requirements for bodies providing audit and certification of management systems, Part 1 (ISO Open Data, deliverables metadata)</a></li></ul>",
+    "citations": [
+        {
+            "url": "https://www.iso.org/standard/88150.html",
+            "year": "2025",
+            "title": "ISO/IEC 27018:2025 Guidelines for protection of PII in public clouds acting as PII processors (ISO Open Data, deliverables metadata)",
+            "publisher": "ISO (ISO Open Data, deliverables metadata)"
+        },
+        {
+            "url": "https://www.iso.org/standard/76559.html",
+            "year": "2019",
+            "title": "ISO/IEC 27018:2019 Code of practice for protection of PII in public clouds acting as PII processors (withdrawn) (ISO Open Data, deliverables metadata)",
+            "publisher": "ISO (ISO Open Data, deliverables metadata)"
+        },
+        {
+            "url": "https://www.iso.org/standard/75652.html",
+            "year": "2022",
+            "title": "ISO/IEC 27002:2022 Information security controls (ISO Open Data, deliverables metadata)",
+            "publisher": "ISO (ISO Open Data, deliverables metadata)"
+        },
+        {
+            "url": "https://www.iso.org/standard/82875.html",
+            "year": "2022",
+            "title": "ISO/IEC 27001:2022 Information security management systems, requirements (ISO Open Data, deliverables metadata)",
+            "publisher": "ISO (ISO Open Data, deliverables metadata)"
+        },
+        {
+            "url": "https://www.iso.org/standard/82908.html",
+            "year": "2024",
+            "title": "ISO/IEC 27006-1:2024 Requirements for bodies providing audit and certification of information security management systems, Part 1: General (ISO Open Data, deliverables metadata)",
+            "publisher": "ISO (ISO Open Data, deliverables metadata)"
+        },
+        {
+            "url": "https://www.iso.org/standard/61651.html",
+            "year": "2015",
+            "title": "ISO/IEC 17021-1:2015 Conformity assessment, requirements for bodies providing audit and certification of management systems, Part 1 (ISO Open Data, deliverables metadata)",
+            "publisher": "ISO (ISO Open Data, deliverables metadata)"
+        }
+    ],
+    "seo_title": "ISO/IEC 27018: PII protection in public cloud",
+    "legal_class": "voluntary",
+    "legal_label": "Voluntary standard or framework: adopted by choice, with no legal force or penalties of its own",
+    "focus_keyword": "ISO/IEC 27018",
+    "standard_meta": {
+        "kind": "code of practice",
+        "issuer": "International Organization for Standardization (ISO) and International Electrotechnical Commission (IEC), committee ISO/IEC JTC 1/SC 27",
+        "edition": "ISO/IEC 27018:2025 (edition 3, published 2025-08-26; replaces ISO/IEC 27018:2019, withdrawn)",
+        "issuer_url": "https://www.iso.org/standard/88150.html"
+    },
+    "instrument_class": "standard",
+    "meta_description": "What ISO/IEC 27018:2025 covers for public cloud PII processors, how it relates to ISO/IEC 27001, and what to check when an operator claims it."
+}
