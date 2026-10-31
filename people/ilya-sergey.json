@@ -1,0 +1,79 @@
+{
+    "born": "1986",
+    "died": null,
+    "hook": "Sergey works on programming languages and software verification. At the National University of Singapore he leads the Verified Systems Engineering lab, whose Veil and Velvet verifiers are built inside the Lean theorem prover, letting automation handle routine proof steps. He is a co-founder and the chief science officer of &Truth.",
+    "name": "Ilya Sergey",
+    "slug": "ilya-sergey",
+    "quote": {
+        "text": "Trust in software should rest on independently checkable proof, not any company's word, including ours.",
+        "context": "Ilya Sergey, &Truth launch announcement, 2026-10-29"
+    },
+    "fields": [
+        "Programming languages",
+        "Software verification",
+        "Distributed systems",
+        "Program synthesis"
+    ],
+    "moniker": "Associate professor at the National University of Singapore and chief science officer of &Truth",
+    "sources": {
+        "primary": [
+            {
+                "url": "https://ilyasergey.net/assets/other/ilya-sergey-bio.txt",
+                "name": "Ilya Sergey, official bio"
+            },
+            {
+                "url": "https://popl26.sigplan.org/profile/ilyasergey",
+                "name": "POPL 2026 profile, Ilya Sergey"
+            }
+        ],
+        "secondary": [
+            {
+                "url": "https://wikipedia.com/wiki/Ilya_Sergey",
+                "name": "Wikipedia, Ilya Sergey"
+            },
+            {
+                "url": "https://www.tokenpost.com/news/business/43847",
+                "name": "TokenPost, &Truth Raises $70 Million to Automate Formal Software Verification, 2026-10-29"
+            }
+        ]
+    },
+    "timeline": [
+        {
+            "year": "2012",
+            "event": "Completes a PhD at KU Leuven (thesis: Operational Aspects of Type Systems)",
+            "impact": "Foundation in type systems"
+        },
+        {
+            "year": "2019",
+            "event": "Receives the Dahl-Nygaard Junior Prize",
+            "impact": "Recognition in programming languages research"
+        },
+        {
+            "year": "2026",
+            "event": "Co-founds &Truth as Chief Science Officer; it emerges from stealth on October 29",
+            "impact": "Lean-based verifiers move toward industrial use"
+        }
+    ],
+    "nationality": null,
+    "quick_facts": [
+        "Tenured Associate Professor, School of Computing, National University of Singapore, leading the Verified Systems Engineering lab",
+        "Co-Founder and Chief Science Officer of &Truth, PBC",
+        "PhD in Computer Science, KU Leuven; MSc in mathematics, St Petersburg University",
+        "Worked as a software engineer at JetBrains before academia",
+        "2019 Dahl-Nygaard Junior Prize"
+    ],
+    "achievements": [
+        {
+            "title": "Veil and Velvet",
+            "impact": "Extensible verifiers embedded in Lean, in which automation handles routine proof steps; cited by his co-founders as groundwork for &Truth."
+        },
+        {
+            "title": "POPL 2019 and PLDI 2021 Distinguished Paper Awards",
+            "impact": "Recognized work on program synthesis for heap-manipulating programs and cyclic program synthesis."
+        },
+        {
+            "title": "Scilla",
+            "impact": "Co-designed Scilla, a safer smart contract programming language."
+        }
+    ]
+}
