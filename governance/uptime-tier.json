@@ -1,0 +1,60 @@
+{
+    "slug": "uptime-tier",
+    "short": "The Uptime Institute Tier Standard (Topology and Operational Sustainability) classifies data center infrastructure as Tier I to IV; Uptime certifies one facility at a time, in stages (design documents, constructed facility, operational sustainability), and a Tier claim with no Uptime award is the operator's own claim, not a certification.",
+    "title": "Uptime Institute Tier Standard and Tier Certification",
+    "parent": "standards-and-frameworks",
+    "children": [
+    ],
+    "subtitle": "Uptime Institute's four-Tier classification and its stage-by-stage facility certification",
+    "body_html": "<h2 id=\"what-it-is\">What the Uptime Tier Standard is</h2><p>Uptime Institute publishes the Tier Standard, a classification of data center infrastructure in four Tiers, and runs Tier Certification against it. Uptime says it is the only licensed firm that can provide these certifications. The standard has two parts:</p><ul><li><strong>Tier Standard: Topology</strong> sets the Tier definitions and covers the data center's infrastructure design.</li><li><strong>Tier Standard: Operational Sustainability</strong> covers the behaviours and risks beyond infrastructure design that affect whether a data center meets its long-term objectives.</li></ul><h2 id=\"what-it-covers\">What it covers: Tier I to IV</h2><p>Uptime's own short definitions, paraphrased:</p><ul><li><strong>Tier I</strong>: basic capacity, infrastructure to support IT beyond an office setting. It guards against human error but not against unexpected failure or outage.</li><li><strong>Tier II</strong>: adds redundant capacity components for power and cooling, which give better maintenance opportunities. An unexpected shutdown still affects the system.</li><li><strong>Tier III</strong>: concurrently maintainable. Any part can be shut down for maintenance without affecting IT operation.</li><li><strong>Tier IV</strong>: fault tolerant, with several independent, physically isolated systems acting as redundant capacity components and distribution paths.</li></ul><h2 id=\"how-conformity-is-shown\">How a claim is made and checked</h2><p>Tier Certification is an independent review by Uptime of one facility, awarded in stages. Each stage is a separate award.</p><ul><li><strong>Tier Certification of Design Documents</strong>: Uptime reviews the engineering and architectural specifications of a design against the Topology criteria. Design awards issued after 1 January 2014 expire two years after the award date, shown on the award foil. It is a prerequisite for the constructed facility stage.</li><li><strong>Tier Certification of Constructed Facility</strong>: verifies the facility was built as designed, including live system demonstrations under real conditions. Uptime's terms say it is valid until the facility is modified, including changes to capacity components or distribution paths.</li><li><strong>Tier Certification of Operational Sustainability (TCOS)</strong>: assesses how a Tier Certified facility is run. It requires both earlier stages. Awards are Bronze, Silver or Gold depending on how far above the minimum the site scores, and expire: three years for Gold, two for Silver, one for Bronze.</li></ul><p>Uptime's award terms also list TIER-Ready design reviews (for prefabricated and modular designs), the <strong>Management &amp; Operations Stamp of Approval</strong> (an operations assessment for existing data centers that hold no form of Tier Certification, expiring two years after award) and the Efficient IT Stamp of Approval.</p><p>Uptime publishes a public list of its awards, by facility, at <a href=\"https://uptimeinstitute.com/tier-certification/tier-certification-list\" rel=\"noopener\">uptimeinstitute.com/tier-certification/tier-certification-list</a>, with a list view showing client, location, data center name, award type and Tier level.</p><h2 id=\"what-a-claim-does-not-mean\">What a claim does not mean</h2><ul><li>A Tier Certification applies to one named facility at one stage. It does not cover an operator's other sites.</li><li>A design certification does not certify a built facility. It reviews documents only, and it expires after two years. Only the constructed facility award reflects what was built.</li><li>A constructed facility award stops being valid if the facility is modified away from the certified design.</li><li>A Tier rating describes infrastructure topology. Operational practice is assessed separately, by TCOS or the M&amp;O Stamp of Approval.</li><li>A Tier claim with no Uptime award behind it should be read as <strong>Tier design claimed by operator, not certified</strong>. Phrases such as \"Tier III design\", \"built to Tier III\" or \"Tier III equivalent\" are the operator's own description.</li></ul><h2 id=\"in-data-centers\">In data centers</h2><p>When an operator says a site is \"Tier III\" or \"Tier IV\", a reader should check Uptime's public award list for that facility and note which award it holds: design documents, constructed facility or operational sustainability. Check the award date, since design and TCOS awards expire, and whether the listing names the same building and phase the operator is talking about. If no award appears, treat the claim as the operator's own.</p><h2 id=\"related-standards\">Related standards</h2><p><a href=\"/ai-compliance/ansi-tia-942/\">ANSI/TIA-942</a> uses a different four-level scale (Rated-1 to Rated-4) with certification by licensed bodies, and <a href=\"/ai-compliance/en-50600/\">EN 50600</a> is the European data center facility standard. Both are on the <a href=\"/ai-compliance/standards-and-frameworks/\">standards and frameworks hub</a>.</p><h2 id=\"primary-sources\">Primary sources</h2><ul><li><a href=\"https://uptimeinstitute.com/tiers\" rel=\"noopener\">Uptime Institute: Tier Classification System</a></li><li><a href=\"https://uptimeinstitute.com/tier-certification/design\" rel=\"noopener\">Uptime Institute: Tier Certification of Design Documents</a></li><li><a href=\"https://uptimeinstitute.com/tier-certification/construction\" rel=\"noopener\">Uptime Institute: Tier Certification of Constructed Facility</a></li><li><a href=\"https://uptimeinstitute.com/tier-certification/operations\" rel=\"noopener\">Uptime Institute: Tier Certification of Operational Sustainability</a></li><li><a href=\"https://uptimeinstitute.com/awards-terms-and-conditions\" rel=\"noopener\">Uptime Institute: Awards terms and conditions</a></li><li><a href=\"https://uptimeinstitute.com/tier-certification/tier-certification-list\" rel=\"noopener\">Uptime Institute: Tier Certification List</a></li><li><a href=\"https://uptimeinstitute.com/uptime-institute-awards/list\" rel=\"noopener\">Uptime Institute: awards list view</a></li></ul>",
+    "citations": [
+        {
+            "url": "https://uptimeinstitute.com/tiers",
+            "year": "",
+            "title": "Tier Classification System",
+            "publisher": "Uptime Institute"
+        },
+        {
+            "url": "https://uptimeinstitute.com/tier-certification/design",
+            "year": "",
+            "title": "Tier Certification of Design Documents",
+            "publisher": "Uptime Institute"
+        },
+        {
+            "url": "https://uptimeinstitute.com/tier-certification/construction",
+            "year": "",
+            "title": "Tier Certification of Constructed Facility",
+            "publisher": "Uptime Institute"
+        },
+        {
+            "url": "https://uptimeinstitute.com/tier-certification/operations",
+            "year": "",
+            "title": "Tier Certification of Operational Sustainability",
+            "publisher": "Uptime Institute"
+        },
+        {
+            "url": "https://uptimeinstitute.com/awards-terms-and-conditions",
+            "year": "",
+            "title": "Awards terms and conditions",
+            "publisher": "Uptime Institute"
+        },
+        {
+            "url": "https://uptimeinstitute.com/tier-certification/tier-certification-list",
+            "year": "",
+            "title": "Tier Certification List",
+            "publisher": "Uptime Institute"
+        }
+    ],
+    "seo_title": "Uptime Tier Certification: Tier I to IV Explained",
+    "legal_class": "voluntary",
+    "legal_label": "Facility certification: awarded to one named facility at one stage, not to an operator. Voluntary",
+    "focus_keyword": "Uptime Tier Certification",
+    "standard_meta": {
+        "kind": "facility certification",
+        "issuer": "Uptime Institute",
+        "edition": "Tier Standard: Topology and Tier Standard: Operational Sustainability (Uptime's pages fetched did not state a current edition year)",
+        "issuer_url": "https://uptimeinstitute.com/tiers"
+    },
+    "instrument_class": "standard",
+    "meta_description": "What an Uptime Institute Tier claim means: Tier I to IV, design vs constructed facility vs TCOS certification, expiry, and the public award list."
+}
