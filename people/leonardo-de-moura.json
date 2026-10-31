@@ -1,0 +1,90 @@
+{
+    "born": null,
+    "died": null,
+    "hook": "De Moura built two of the most widely used tools in automated reasoning, the Z3 solver and the Lean proof assistant, while at Microsoft Research. Lean has become the language in which AI systems write machine-checked mathematical proofs, and it is now the base layer for companies trying to prove software correct.",
+    "name": "Leonardo de Moura",
+    "slug": "leonardo-de-moura",
+    "quote": null,
+    "fields": [
+        "Automated reasoning",
+        "Theorem proving",
+        "SAT and SMT solving",
+        "Programming languages"
+    ],
+    "moniker": "Creator of the Lean proof assistant and the Z3 theorem prover",
+    "sources": {
+        "primary": [
+            {
+                "url": "https://leodemoura.github.io/about",
+                "name": "Leonardo de Moura, About"
+            },
+            {
+                "url": "https://www.cs.ox.ac.uk/seminars/2645.html",
+                "name": "University of Oxford, Strachey Lecture speaker bio"
+            }
+        ],
+        "secondary": [
+            {
+                "url": "https://en.wikipedia.org/wiki/Leonardo_de_Moura",
+                "name": "Wikipedia, Leonardo de Moura"
+            },
+            {
+                "url": "https://www.simonsfoundation.org/people/leonardo-de-moura/",
+                "name": "Simons Foundation, Leonardo de Moura"
+            }
+        ]
+    },
+    "timeline": [
+        {
+            "year": "2001",
+            "event": "Joins SRI International as a computer scientist",
+            "impact": "Works on automated reasoning tools including Yices and SAL"
+        },
+        {
+            "year": "2006",
+            "event": "Joins Microsoft Research",
+            "impact": "Builds Z3, then Lean"
+        },
+        {
+            "year": "2013",
+            "event": "Launches Lean at Microsoft Research",
+            "impact": "Start of the proof assistant now central to AI for mathematics"
+        },
+        {
+            "year": "2021",
+            "event": "Releases Lean 4 with Sebastian Ullrich",
+            "impact": "Lean reimplemented in itself as a full programming language"
+        },
+        {
+            "year": "2023",
+            "event": "Joins AWS; co-founds the Lean FRO",
+            "impact": "Lean gets a dedicated nonprofit home"
+        }
+    ],
+    "nationality": "Brazilian",
+    "quick_facts": [
+        "Senior Principal Applied Scientist, Automated Reasoning Group, Amazon Web Services, since 2023",
+        "Chief Architect and co-founder of the Lean Focused Research Organization (Lean FRO), with Sebastian Ullrich",
+        "Main architect of Lean, Z3, Yices 1.0 and SAL",
+        "Launched Lean at Microsoft Research in 2013",
+        "PhD in computer science, Pontifical Catholic University of Rio de Janeiro, 2000"
+    ],
+    "achievements": [
+        {
+            "title": "Lean",
+            "impact": "Created the proof assistant and programming language now used to formalize research mathematics and to check AI-generated proofs."
+        },
+        {
+            "title": "Z3",
+            "impact": "Created the SMT solver behind a large share of program verification tools; 2021 CAV Award."
+        },
+        {
+            "title": "ACM SIGPLAN Programming Languages Software Award, for Z3 (2015) and Lean (2025)",
+            "impact": "Recognized twice for software that changed the field."
+        },
+        {
+            "title": "CADE Skolem Awards, 2007 and 2025",
+            "impact": "Recognized for papers on efficient e-matching for SMT solvers and on the Lean theorem prover."
+        }
+    ]
+}
