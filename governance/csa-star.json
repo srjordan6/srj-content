@@ -1,0 +1,60 @@
+{
+    "slug": "csa-star",
+    "short": "CSA STAR is the Cloud Security Alliance's assurance programme for cloud and AI services, built on the Cloud Controls Matrix v4.1: Level 1 is a published self-assessment (CAIQ), and Level 2 is a third-party STAR Certification (ISO/IEC 27001 based), STAR Attestation (SOC 2 based) or C-STAR, all listed on the public STAR Registry.",
+    "title": "CSA STAR, Security, Trust, Assurance and Risk Programme",
+    "parent": "standards-and-frameworks",
+    "children": [
+    ],
+    "subtitle": "Cloud Security Alliance's cloud assurance programme and public registry",
+    "body_html": "<h2 id=\"what-it-is\">What CSA STAR is</h2><p>STAR (Security, Trust, Assurance and Risk) is the Cloud Security Alliance's assurance programme for cloud and AI services. Providers use it to publish how they meet CSA's Cloud Controls Matrix (CCM), and customers use the public STAR Registry to see what each provider holds. The current CCM is v4.1, which CSA describes as 17 domains and 197 control objectives, with the CAIQ (Consensus Assessments Initiative Questionnaire) now built into it. CSA also runs STAR for AI, based on its AI Controls Matrix.</p><h2 id=\"what-it-covers\">What it covers</h2><ul><li><strong>Cloud Controls Matrix (CCM) v4.1</strong>: the control framework, 17 domains and 197 control objectives for cloud security.</li><li><strong>CAIQ</strong>: the questionnaire in which a provider states how its service implements each CCM control.</li><li><strong>STAR Registry</strong>: CSA's public registry of listed organisations and their assurance.</li><li><strong>STAR for AI</strong>: a parallel programme using the AI Controls Matrix (AICM) and AI-CAIQ.</li></ul><h2 id=\"how-conformity-is-shown\">How a claim is made and checked</h2><h3>Level 1</h3><ul><li><strong>Self-Assessment</strong>: the provider publishes a completed CAIQ to the STAR Registry. CSA says it shows transparency without a third-party audit.</li><li><strong>Valid-AI-ted</strong>: an automated scoring of the submitted CAIQ that adds a badge. It is still not a third-party audit.</li></ul><h3>Level 2</h3><p>Level 1 is a prerequisite. Level 2 adds an independent audit by a STAR auditor, through one of three routes:</p><ul><li><strong>STAR Certification</strong>: an ISO/IEC 27001 certification extended with the CCM. CSA says it follows normal ISO/IEC 27001 protocol and lasts three years unless updated.</li><li><strong>STAR Attestation</strong>: a SOC 2 engagement by a CPA firm that adds the CCM, built on guidelines from CSA and the AICPA. CSA says it must be renewed every 12 months.</li><li><strong>C-STAR</strong>: an assessment against China's GB/T 22080 together with the CCM, for the Greater China market.</li></ul><p>CSA's current programme pages do not describe a Level 3. The STAR Registry filter lists a small \"Continuous\" category under Level 1.</p><h2 id=\"what-a-claim-does-not-mean\">What a claim does not mean</h2><ul><li>\"STAR Level 1\" means the provider answered CSA's questionnaire itself. Nobody outside the provider audited it.</li><li>STAR Attestation is a SOC 2 report, an attestation by a CPA firm. It is not a certification.</li><li>STAR Certification rests on an ISO/IEC 27001 certificate, so it has that certificate's scope. Services, sites or business units outside that scope are not covered.</li><li>A listing covers the organisation or service named in the Registry entry, and has a status (Current, Expiring Soon, Expired or Deprecated). An expired entry is not current assurance.</li><li>STAR is about cloud service security controls. It says nothing about a building's power, cooling or resilience.</li></ul><h2 id=\"in-data-centers\">In data centers</h2><p>STAR is aimed at cloud and AI services, so data center operators that hold it usually do so for a hosting, colocation or cloud service they sell. When an operator claims CSA STAR, look it up on the <a href=\"https://cloudsecurityalliance.org/star/registry/\" rel=\"noopener\">STAR Registry</a> and check the level and route (Self-Assessment, Certification, Attestation or C-STAR), the entry's status and date, and which service it names. For Level 2, read the underlying ISO/IEC 27001 certificate scope or SOC 2 report.</p><h2 id=\"related-standards\">Related standards</h2><p>STAR Level 2 builds on <a href=\"/ai-compliance/iso-27001-ai/\">ISO/IEC 27001</a> and <a href=\"/ai-compliance/soc-2-ai/\">SOC 2</a>. For cloud-specific ISO guidance, see <a href=\"/ai-compliance/iso-27017/\">ISO/IEC 27017</a> and <a href=\"/ai-compliance/iso-27018/\">ISO/IEC 27018</a>.</p><h2 id=\"primary-sources\">Primary sources</h2><ul><li><a href=\"https://cloudsecurityalliance.org/star\" rel=\"noopener\">CSA: STAR programme</a></li><li><a href=\"https://cloudsecurityalliance.org/star/about-star\" rel=\"noopener\">CSA: About STAR</a></li><li><a href=\"https://cloudsecurityalliance.org/star/registry/\" rel=\"noopener\">CSA: STAR Registry</a></li><li><a href=\"https://cloudsecurityalliance.org/research/cloud-controls-matrix/\" rel=\"noopener\">CSA: Cloud Controls Matrix</a></li><li><a href=\"https://cloudsecurityalliance.org/blog/2024/03/23/csa-star-level-2-all-about-star-attestations-and-certifications\" rel=\"noopener\">CSA: STAR Level 2, attestations and certifications (2024)</a></li><li><a href=\"https://cloudsecurityalliance.org/star/certified-star-auditors\" rel=\"noopener\">CSA: Certified STAR auditors</a></li></ul>",
+    "citations": [
+        {
+            "url": "https://cloudsecurityalliance.org/star",
+            "year": "",
+            "title": "STAR",
+            "publisher": "Cloud Security Alliance"
+        },
+        {
+            "url": "https://cloudsecurityalliance.org/star/about-star",
+            "year": "",
+            "title": "About STAR",
+            "publisher": "Cloud Security Alliance"
+        },
+        {
+            "url": "https://cloudsecurityalliance.org/star/registry/",
+            "year": "",
+            "title": "STAR Registry",
+            "publisher": "Cloud Security Alliance"
+        },
+        {
+            "url": "https://cloudsecurityalliance.org/research/cloud-controls-matrix/",
+            "year": "",
+            "title": "Cloud Controls Matrix",
+            "publisher": "Cloud Security Alliance"
+        },
+        {
+            "url": "https://cloudsecurityalliance.org/blog/2024/03/23/csa-star-level-2-all-about-star-attestations-and-certifications",
+            "year": "2024",
+            "title": "CSA STAR Level 2: All About STAR Attestations and Certifications",
+            "publisher": "Cloud Security Alliance"
+        },
+        {
+            "url": "https://cloudsecurityalliance.org/star/certified-star-auditors",
+            "year": "",
+            "title": "Certified STAR Auditors",
+            "publisher": "Cloud Security Alliance"
+        }
+    ],
+    "seo_title": "CSA STAR Levels Explained: Self-Assessment to Level 2",
+    "legal_class": "voluntary",
+    "legal_label": "Voluntary standard or framework: adopted by choice, with no legal force or penalties of its own",
+    "focus_keyword": "CSA STAR",
+    "standard_meta": {
+        "kind": "voluntary programme",
+        "issuer": "Cloud Security Alliance (CSA)",
+        "edition": "Cloud Controls Matrix v4.1 (CAIQ combined into CCM v4.1)",
+        "issuer_url": "https://cloudsecurityalliance.org/star"
+    },
+    "instrument_class": "standard",
+    "meta_description": "CSA STAR Level 1 self-assessment vs Level 2 STAR Certification, STAR Attestation and C-STAR, the CCM v4.1, and how to check the STAR Registry."
+}
