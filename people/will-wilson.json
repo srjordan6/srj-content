@@ -1,0 +1,83 @@
+{
+    "born": null,
+    "died": null,
+    "hook": "Wilson built the deterministic simulation harness at FoundationDB, a database startup Apple bought in 2015, which let the team replay every failure exactly. In 2018 he and Dave Scherer founded Antithesis to sell that testing method to everyone else, and it has since raised more than $150 million as AI-written code raises demand for testing.",
+    "name": "Will Wilson",
+    "slug": "will-wilson",
+    "quote": {
+        "text": "At some point, code comes into contact with messy reality.",
+        "context": "Will Wilson, on the limits of formal assumptions, The New York Times, 2026-10-29"
+    },
+    "fields": [
+        "Software testing",
+        "Deterministic simulation testing",
+        "Distributed systems"
+    ],
+    "moniker": "Co-founder and CEO of Antithesis",
+    "sources": {
+        "primary": [
+            {
+                "url": "https://antithesis.com/company/about/",
+                "name": "Antithesis, About"
+            }
+        ],
+        "secondary": [
+            {
+                "url": "https://pulse2.com/antithesis-105-million-series-a/",
+                "name": "Pulse 2.0, Antithesis $105 Million Series A, 2025-12-10"
+            },
+            {
+                "url": "https://siliconangle.com/?p=645896",
+                "name": "SiliconANGLE, Antithesis raises $47M, 2024-02-13"
+            },
+            {
+                "url": "https://www.nytimes.com/",
+                "name": "The New York Times, Cade Metz, After Reinventing Mathematics, Can A.I. Eradicate Computer Bugs?, 2026-10-29"
+            }
+        ]
+    },
+    "timeline": [
+        {
+            "year": "2013",
+            "event": "Joins FoundationDB and starts work on its deterministic simulation harness",
+            "impact": "Origin of the testing method"
+        },
+        {
+            "year": "2015",
+            "event": "Apple acquires FoundationDB",
+            "impact": "The database goes on to underpin Apple cloud infrastructure"
+        },
+        {
+            "year": "2018",
+            "event": "Co-founds Antithesis with Dave Scherer",
+            "impact": "Brings simulation testing to other companies"
+        },
+        {
+            "year": "2024",
+            "event": "Antithesis announces a $47 million seed round",
+            "impact": "Leaves stealth"
+        },
+        {
+            "year": "2025",
+            "event": "Antithesis raises a $105 million Series A led by Jane Street",
+            "impact": "Scales the platform"
+        }
+    ],
+    "nationality": null,
+    "quick_facts": [
+        "Co-Founder and CEO of Antithesis, founded in 2018",
+        "Joined FoundationDB in April 2013 and worked on its deterministic simulation harness",
+        "FoundationDB was acquired by Apple in 2015",
+        "Antithesis raised a $105 million Series A led by Jane Street in December 2025, at a reported $525 million post-money valuation"
+    ],
+    "achievements": [
+        {
+            "title": "Co-founding Antithesis (2018)",
+            "impact": "Commercialized deterministic simulation testing for general software, built on a custom deterministic hypervisor."
+        },
+        {
+            "title": "FoundationDB simulation testing",
+            "impact": "Helped build the simulation framework that the company credits with shipping only one user-reported bug before Apple's acquisition."
+        }
+    ]
+}
