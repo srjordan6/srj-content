@@ -1,0 +1,60 @@
+{
+    "slug": "iso-27017",
+    "short": "ISO/IEC 27017 is ISO and IEC guidance on information security controls for cloud service providers and customers, built on ISO/IEC 27002; the current edition is ISO/IEC 27017:2026, and it is a guidance document, not a management system standard on its own.",
+    "title": "ISO/IEC 27017, Information Security Controls for Cloud Services",
+    "parent": "standards-and-frameworks",
+    "children": [
+    ],
+    "subtitle": "ISO/IEC guidance on information security controls for providing and using cloud services, built on ISO/IEC 27002",
+    "body_html": "<h2 id=\"what-it-is\">What ISO/IEC 27017 is</h2><p>ISO/IEC 27017 is guidance on information security controls for cloud services, published jointly by ISO and IEC and owned by committee ISO/IEC JTC 1/SC 27. The current edition is ISO/IEC 27017:2026, the second edition, published on 27 July 2026. It replaces ISO/IEC 27017:2015, which ISO now lists as withdrawn. The 2015 edition was titled a code of practice; the 2026 title drops that wording and describes the document as controls based on ISO/IEC 27002 for cloud services.</p><p>In ISO's scope description, the document gives guidance on information security controls that apply when cloud services are provided and when they are used. It builds on the control set in ISO/IEC 27002:2022 rather than standing alone.</p><h2 id=\"what-it-covers\">What it covers</h2><ul><li>Extra guidance for relevant controls that already appear in ISO/IEC 27002:2022.</li><li>Additional controls, with guidance, that relate specifically to cloud services.</li><li>Controls and guidance addressed to both sides of the arrangement: cloud service customers and cloud service providers.</li><li>All cloud deployment models, including private cloud, with a note that private cloud use can need adjustments to fit relationships between an organisation's internal departments.</li></ul><p>ISO describes it as a horizontal document: a common foundation for security in providing and using cloud services.</p><h2 id=\"how-conformity-is-shown\">How a claim is made and checked</h2><p>ISO's scope description presents ISO/IEC 27017 as guidance, not as a set of management system requirements. The management system requirements an organisation is certified against sit in ISO/IEC 27001, and ISO/IEC 27002 is the general control reference.</p><p>ISO/IEC 17021-1, the ISO/IEC standard for bodies that audit and certify management systems, describes management system certification as a third-party conformity assessment activity carried out by certification bodies. ISO/IEC 27006-1:2024 adds requirements for bodies that certify information security management systems and is written so that it can serve as a criteria document for accrediting those bodies.</p><p>The ISO records we read do not name a separate certification scheme for ISO/IEC 27017 on its own. In practice a 27017 claim is most likely to be meaningful when it is tied to an ISO/IEC 27001 certification whose scope and controls include the 27017 guidance. Ask the operator, or the certifying body, how the 27017 element was assessed.</p><h2 id=\"what-a-claim-does-not-mean\">What a claim does not mean</h2><ul><li>It is guidance on controls. A statement that an organisation \"follows\" or \"aligns with\" ISO/IEC 27017 is not evidence that anyone has audited it.</li><li>It does not replace ISO/IEC 27001. Without a valid 27001 certificate, a 27017 claim has no management system audit behind it.</li><li>A claim against the 2015 edition refers to a document ISO has withdrawn. It is not necessarily wrong, but check which edition the certificate or report names and when it was issued.</li><li>Any certificate has a scope, an issuing body and an expiry; the claim means only what that scope says.</li></ul><h2 id=\"in-data-centers\">ISO/IEC 27017 in data centers</h2><p>The guidance is written for cloud service providers and customers. An operator that only rents space, power and cooling is not, by that alone, providing a cloud service, so a 27017 claim is most relevant where the operator also runs cloud, hosting or managed infrastructure services. When an operator publishes it, check:</p><ul><li>Which service it applies to: a named cloud or managed service, a set of sites, or the whole company.</li><li>Whether it appears in the scope statement of an ISO/IEC 27001 certificate, and the certificate number, certifying body, accreditation body and dates.</li><li>Which edition is cited, 2015 or 2026.</li></ul><h2 id=\"related-standards\">Related standards</h2><p>ISO/IEC 27017 sits on top of <a href=\"/ai-compliance/iso-27001-ai/\">ISO/IEC 27001</a>. For personal data in public cloud, see <a href=\"/ai-compliance/iso-27018/\">ISO/IEC 27018</a>; for a privacy management system, <a href=\"/ai-compliance/iso-27701/\">ISO/IEC 27701</a>. Cloud providers also publish <a href=\"/ai-compliance/csa-star/\">CSA STAR</a> entries. All are listed in the <a href=\"/ai-compliance/standards-and-frameworks/\">standards hub</a>.</p><h2 id=\"primary-sources\">Primary sources</h2><ul><li><a href=\"https://www.iso.org/standard/82878.html\" rel=\"noopener\">ISO/IEC 27017:2026 Information security controls based on ISO/IEC 27002 for cloud services (ISO Open Data, deliverables metadata)</a></li><li><a href=\"https://www.iso.org/standard/43757.html\" rel=\"noopener\">ISO/IEC 27017:2015 Code of practice for information security controls based on ISO/IEC 27002 for cloud services (withdrawn) (ISO Open Data, deliverables metadata)</a></li><li><a href=\"https://www.iso.org/standard/75652.html\" rel=\"noopener\">ISO/IEC 27002:2022 Information security controls (ISO Open Data, deliverables metadata)</a></li><li><a href=\"https://www.iso.org/standard/82875.html\" rel=\"noopener\">ISO/IEC 27001:2022 Information security management systems, requirements (ISO Open Data, deliverables metadata)</a></li><li><a href=\"https://www.iso.org/standard/82908.html\" rel=\"noopener\">ISO/IEC 27006-1:2024 Requirements for bodies providing audit and certification of information security management systems, Part 1: General (ISO Open Data, deliverables metadata)</a></li><li><a href=\"https://www.iso.org/standard/61651.html\" rel=\"noopener\">ISO/IEC 17021-1:2015 Conformity assessment, requirements for bodies providing audit and certification of management systems, Part 1 (ISO Open Data, deliverables metadata)</a></li></ul>",
+    "citations": [
+        {
+            "url": "https://www.iso.org/standard/82878.html",
+            "year": "2026",
+            "title": "ISO/IEC 27017:2026 Information security controls based on ISO/IEC 27002 for cloud services (ISO Open Data, deliverables metadata)",
+            "publisher": "ISO (ISO Open Data, deliverables metadata)"
+        },
+        {
+            "url": "https://www.iso.org/standard/43757.html",
+            "year": "2015",
+            "title": "ISO/IEC 27017:2015 Code of practice for information security controls based on ISO/IEC 27002 for cloud services (withdrawn) (ISO Open Data, deliverables metadata)",
+            "publisher": "ISO (ISO Open Data, deliverables metadata)"
+        },
+        {
+            "url": "https://www.iso.org/standard/75652.html",
+            "year": "2022",
+            "title": "ISO/IEC 27002:2022 Information security controls (ISO Open Data, deliverables metadata)",
+            "publisher": "ISO (ISO Open Data, deliverables metadata)"
+        },
+        {
+            "url": "https://www.iso.org/standard/82875.html",
+            "year": "2022",
+            "title": "ISO/IEC 27001:2022 Information security management systems, requirements (ISO Open Data, deliverables metadata)",
+            "publisher": "ISO (ISO Open Data, deliverables metadata)"
+        },
+        {
+            "url": "https://www.iso.org/standard/82908.html",
+            "year": "2024",
+            "title": "ISO/IEC 27006-1:2024 Requirements for bodies providing audit and certification of information security management systems, Part 1: General (ISO Open Data, deliverables metadata)",
+            "publisher": "ISO (ISO Open Data, deliverables metadata)"
+        },
+        {
+            "url": "https://www.iso.org/standard/61651.html",
+            "year": "2015",
+            "title": "ISO/IEC 17021-1:2015 Conformity assessment, requirements for bodies providing audit and certification of management systems, Part 1 (ISO Open Data, deliverables metadata)",
+            "publisher": "ISO (ISO Open Data, deliverables metadata)"
+        }
+    ],
+    "seo_title": "ISO/IEC 27017: cloud security controls explained",
+    "legal_class": "voluntary",
+    "legal_label": "Voluntary standard or framework: adopted by choice, with no legal force or penalties of its own",
+    "focus_keyword": "ISO/IEC 27017",
+    "standard_meta": {
+        "kind": "code of practice",
+        "issuer": "International Organization for Standardization (ISO) and International Electrotechnical Commission (IEC), committee ISO/IEC JTC 1/SC 27",
+        "edition": "ISO/IEC 27017:2026 (edition 2, published 2026-07-27; replaces ISO/IEC 27017:2015, withdrawn)",
+        "issuer_url": "https://www.iso.org/standard/82878.html"
+    },
+    "instrument_class": "standard",
+    "meta_description": "What ISO/IEC 27017:2026 covers, how it relates to ISO/IEC 27001 and 27002, and what to check when a data center or cloud operator claims it."
+}
