@@ -1,0 +1,42 @@
+{
+    "slug": "cyber-essentials",
+    "short": "Cyber Essentials is a UK certification scheme developed by the NCSC and delivered through IASME and its licensed certification bodies; the current requirements are Requirements for IT Infrastructure v3.3 (April 2026), with a verified self-assessment level and a technically tested Cyber Essentials Plus level.",
+    "title": "Cyber Essentials and Cyber Essentials Plus",
+    "parent": "standards-and-frameworks",
+    "children": [
+    ],
+    "subtitle": "The UK NCSC's baseline cyber security certification, with an independently tested Plus level",
+    "body_html": "<h2 id=\"what-it-is\">What Cyber Essentials is</h2><p>Cyber Essentials is a certification scheme developed by the UK National Cyber Security Centre (NCSC). The NCSC describes it as the minimum standard of cyber security the UK Government recommends for organisations of all sizes. It is built around five technical controls meant to prevent common internet-based attacks. IASME is the NCSC's Cyber Essentials delivery partner and runs the network of certification bodies.</p><p>The requirements are published by the NCSC as <em>Cyber Essentials: Requirements for IT Infrastructure</em>. The current version is v3.3, dated April 2026 and in effect from 27 April 2026. Applications started before that date can continue under v3.2 (in effect from 28 April 2025). The technical tests for Cyber Essentials Plus are set out in a separate Cyber Essentials Plus Test Specification, currently v3.2 (28 April 2025).</p><h2 id=\"what-it-covers\">What it covers</h2><p>The NCSC organises the requirements under five technical control themes:</p><ul><li>Firewalls</li><li>Secure configuration</li><li>Security update management</li><li>User access control (including passwordless authentication, multi-factor authentication and password-based authentication)</li><li>Malware protection</li></ul><p>The requirements document also sets the rules for scope. The applicant defines a scope boundary (the business unit, the network boundary and the physical location) and agrees it with the certification body before assessment. Version 3.3 states that a scope without end-user devices is not acceptable, and that cloud services holding the organisation's data or services cannot be excluded. Backing up data is recommended but is not one of the technical requirements.</p><h2 id=\"how-conformity-is-shown\">How a claim is made and checked</h2><p>There are two levels. Both assess the same five controls and both are independently verified.</p><ul><li><strong>Cyber Essentials</strong>: a verified self-assessment. The organisation answers a question set, a board member or equivalent signs off the answers, and an assessor marks them. The NCSC describes two routes: self-led, registering and paying through IASME, or supported, hiring a certification body licensed by IASME.</li><li><strong>Cyber Essentials Plus</strong>: adds what the NCSC calls more rigorous, independent technical testing, to check that the controls work in practice. The tests follow the Cyber Essentials Plus Test Specification.</li></ul><p>The certification body may ask for evidence before it awards certification at the level applied for.</p><h2 id=\"what-a-claim-does-not-mean\">What a claim does not mean</h2><ul><li>Cyber Essentials is a baseline. The NCSC calls it the minimum standard; it is not a full information security management system and is not equivalent to ISO/IEC 27001.</li><li>A certificate covers the agreed scope. The NCSC allows a well-defined, separately managed sub-set of the organisation (one segregated by a firewall or VLAN) to be certified instead of the whole IT estate, and the organisation must justify a partial scope to its assessor.</li><li>Cyber Essentials without \"Plus\" is a verified self-assessment. It does not mean an assessor has technically tested the systems.</li><li>The certificate is a point-in-time result against the requirements version in force when the application was made.</li></ul><h2 id=\"in-data-centers\">In data centers</h2><p>When a UK data center operator publishes Cyber Essentials or Cyber Essentials Plus, the certificate covers that organisation's own IT infrastructure within the agreed scope: office systems, end-user devices, servers and the cloud services it uses. It is not an assessment of the physical facility, its power or cooling, or the security of customer systems hosted in it. Readers should check which level is held, whether the scope is the whole organisation or a sub-set, the certification body, the date of issue and the requirements version. The NCSC points readers to IASME for certificate search and renewal questions.</p><h2 id=\"related-standards\">Related standards</h2><p>For a full information security management system, see <a href=\"/ai-compliance/iso-27001-ai/\">ISO/IEC 27001</a>. Automotive suppliers use <a href=\"/ai-compliance/tisax/\">TISAX</a>. All schemes are listed on the <a href=\"/ai-compliance/standards-and-frameworks/\">standards and frameworks hub</a>.</p><h2 id=\"primary-sources\">Primary sources</h2><ul><li><a href=\"https://www.ncsc.gov.uk/cyberessentials/overview\" rel=\"noopener\">NCSC: Cyber Essentials overview</a></li><li><a href=\"https://www.ncsc.gov.uk/cyberessentials/resources\" rel=\"noopener\">NCSC: Cyber Essentials resources (requirements documents and versions)</a></li><li><a href=\"https://www.ncsc.gov.uk/files/cyber-essentials-requirements-for-it-infrastructure-v3-3.pdf\" rel=\"noopener\">NCSC: Cyber Essentials Requirements for IT Infrastructure v3.3 (April 2026)</a></li></ul>",
+    "citations": [
+        {
+            "url": "https://www.ncsc.gov.uk/cyberessentials/overview",
+            "year": "2026",
+            "title": "Cyber Essentials overview",
+            "publisher": "NCSC"
+        },
+        {
+            "url": "https://www.ncsc.gov.uk/cyberessentials/resources",
+            "year": "2026",
+            "title": "Cyber Essentials resources",
+            "publisher": "NCSC"
+        },
+        {
+            "url": "https://www.ncsc.gov.uk/files/cyber-essentials-requirements-for-it-infrastructure-v3-3.pdf",
+            "year": "2026",
+            "title": "Cyber Essentials: Requirements for IT Infrastructure v3.3",
+            "publisher": "NCSC"
+        }
+    ],
+    "seo_title": "Cyber Essentials vs Cyber Essentials Plus Explained",
+    "legal_class": "voluntary",
+    "legal_label": "Voluntary standard or framework: adopted by choice, with no legal force or penalties of its own",
+    "focus_keyword": "Cyber Essentials",
+    "standard_meta": {
+        "kind": "voluntary programme",
+        "issuer": "National Cyber Security Centre (NCSC), with IASME as delivery partner",
+        "edition": "Cyber Essentials: Requirements for IT Infrastructure v3.3 (April 2026, in effect from 27 April 2026; v3.2 still applies to applications started before then); Cyber Essentials Plus Test Specification v3.2 (28 April 2025)",
+        "issuer_url": "https://www.ncsc.gov.uk/cyberessentials/overview"
+    },
+    "instrument_class": "standard",
+    "meta_description": "What Cyber Essentials and Cyber Essentials Plus certify: the five technical controls, requirements v3.3 (April 2026), scope rules and a claim's limits."
+}
