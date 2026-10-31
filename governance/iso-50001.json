@@ -1,0 +1,35 @@
+{
+    "slug": "iso-50001",
+    "short": "ISO 50001 is the ISO requirements standard for an energy management system; the current edition is ISO 50001:2018 with Amendment 1:2024, and it is held as a certificate issued by a certification body.",
+    "title": "ISO 50001, Energy Management Systems",
+    "parent": "standards-and-frameworks",
+    "children": [
+    ],
+    "subtitle": "The ISO requirements standard for continually improving energy performance",
+    "body_html": "<h2 id=\"what-it-is\">What ISO 50001 is</h2><p>ISO 50001 sets the requirements for establishing, running and improving an energy management system (EnMS), so that an organization takes a systematic approach to continually improving its energy performance. It is written by ISO/TC 301. The current edition, the second, was published on 20 August 2018 and amended on 23 February 2024 with climate action changes. ISO Open Data records that a later project will replace it.</p><h2 id=\"what-it-covers\">What it covers</h2><ul><li>The energy management system itself: establishing, implementing, maintaining and improving it.</li><li>Activities that affect energy performance and are under the organization's control.</li><li>Any quantity, use or type of energy.</li><li>Demonstrated, continual improvement in energy performance.</li></ul><h2 id=\"how-conformity-is-shown\">How conformity is shown</h2><p>ISO publishes the standard and sells its text. ISO Open Data, the dataset ISO publishes for reuse, records the edition, the committee and the scope, and that is what this page is built from. It does not record who holds a certificate. A certificate against a requirements standard like this one is issued by a certification body after an audit, and it names that body, the edition, the scope and the dates.</p><h2 id=\"what-a-claim-does-not-mean\">What a claim does not mean</h2><p>ISO 50001 requires an organization to show its energy performance improves, but it does not set how much. A certificate is not a measure of efficiency: it does not give a PUE, and two certified sites can differ widely in how much energy they use. ISO notes it can be used alone or integrated with other management systems.</p><h2 id=\"in-data-centers\">ISO 50001 in data centers</h2><p>Energy is a data center's largest operating cost, so ISO 50001 is one of the standards operators most often publish. It shows the operator measures energy use, sets improvement targets and is audited against them at the sites named. Figures such as PUE are reported separately, for example under the <a href=\"/ai-compliance/eu-code-of-conduct-data-centres/\">EU Code of Conduct for Data Centres</a> or the <a href=\"/ai-compliance/climate-neutral-data-centre-pact/\">Climate Neutral Data Centre Pact</a>.</p><ul><li><b>Scope.</b> A certificate covers named sites, services or activities. One site certified does not mean every site the operator runs is certified.</li><li><b>Edition.</b> The certificate names the edition it was audited against.</li><li><b>Certification body and certificate number.</b> These let a reader confirm the certificate with the body that issued it.</li><li><b>Dates.</b> A certificate has an issue date and an expiry date.</li></ul><h2 id=\"related-standards\">Related standards</h2><p>See also <a href=\"/ai-compliance/iso-14001/\">ISO 14001</a> and the <a href=\"/ai-compliance/standards-and-frameworks/\">Standards and Frameworks hub</a>.</p><h2 id=\"primary-sources\">Primary sources</h2><ul><li><a href=\"https://www.iso.org/standard/69426.html\" rel=\"noopener\">ISO 50001:2018</a>, ISO standard page (linked for readers; iso.org refuses automated readers, so the facts above come from ISO Open Data)</li><li><a href=\"https://www.iso.org/standard/88430.html\" rel=\"noopener\">ISO 50001:2018/Amd 1:2024</a></li><li><a href=\"https://isopublicstorageprod.blob.core.windows.net/opendata/_latest/iso_deliverables_metadata/json/iso_deliverables_metadata.jsonl\" rel=\"noopener\">ISO Open Data, deliverables metadata</a>: edition, publication date, committee and scope</li></ul>",
+    "citations": [
+        {
+            "url": "https://www.iso.org/standard/69426.html",
+            "year": "2018",
+            "title": "ISO 50001:2018",
+            "publisher": "ISO"
+        },
+        {
+            "url": "https://isopublicstorageprod.blob.core.windows.net/opendata/_latest/iso_deliverables_metadata/json/iso_deliverables_metadata.jsonl",
+            "title": "ISO Open Data, deliverables metadata",
+            "publisher": "ISO"
+        }
+    ],
+    "seo_title": "ISO 50001 Energy Management Systems Explained",
+    "legal_class": "voluntary",
+    "legal_label": "Voluntary standard or framework: adopted by choice, with no legal force or penalties of its own",
+    "focus_keyword": "ISO 50001",
+    "standard_meta": {
+        "kind": "certifiable management system standard",
+        "issuer": "International Organization for Standardization (ISO)",
+        "edition": "2018 (second edition, published 2018-08-20), with Amendment 1:2024 (2024-02-23)",
+        "issuer_url": "https://www.iso.org/standard/69426.html"
+    },
+    "instrument_class": "standard",
+    "meta_description": "ISO 50001:2018 sets requirements for an energy management system. What it requires, what it does not, and what it means for a data center."
+}
