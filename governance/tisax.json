@@ -1,0 +1,48 @@
+{
+    "slug": "tisax",
+    "short": "TISAX is the automotive industry's assessment and exchange mechanism governed by the ENX Association, based on the VDA ISA catalogue (ISA 6 now, ISA2027 for assessments ordered from 1 January 2027); it produces labels valid for three years, shared privately via the ENX portal, not a public certificate.",
+    "title": "TISAX, Trusted Information Security Assessment Exchange",
+    "parent": "standards-and-frameworks",
+    "children": [
+    ],
+    "subtitle": "The automotive industry's information security assessment and exchange mechanism, run by ENX",
+    "body_html": "<h2 id=\"what-it-is\">What TISAX is</h2><p>TISAX (Trusted Information Security Assessment Exchange) is the automotive industry's shared mechanism for information security assessments, governed by the ENX Association. ENX describes it as a standardised approach that lets one assessment be recognised across the industry. Assessments are carried out against the Information Security Assessment (ISA) catalogue, which the ENX Working Group ISA develops and maintains and the German Association of the Automotive Industry (VDA) publishes as VDA ISA.</p><p>The ISA in use is ISA 6 (released October 2023, applied to assessments ordered from 1 April 2024). On 1 July 2026 ENX announced that the VDA had published ISA2027, which applies to all TISAX assessments ordered from 1 January 2027. From then on, assessments ordered in a given year are conducted against that year's ISA version. ENX says existing labels stay valid for their full validity period.</p><h2 id=\"what-it-covers\">What it covers</h2><p>The participant chooses assessment objectives according to what its partners require. ENX lists these objectives, each with a required assessment level:</p><ul><li>Confidential (AL2) and Strictly confidential (AL3), which replaced Info high and Info very high from 1 April 2024</li><li>High availability (AL2) and Very high availability (AL3)</li><li>Proto parts and Proto vehicles (AL3), Test vehicles and Proto events (AL2), for prototype protection</li><li>Data (AL2) and Special data (AL3), for data protection as a processor under GDPR Article 28</li></ul><p>The assessment scope covers the processes, procedures and resources that protect partners' information at the listed locations. ENX uses a predefined standard scope that cannot be changed, and other participants accept only results based on it.</p><h2 id=\"how-conformity-is-shown\">How a claim is made and checked</h2><p>The process has four steps: registration with ENX, choice of an independent audit provider, assessment, and exchange of the result. The assessment starts with a self-assessment against the ISA catalogue, followed by an audit at one of these levels:</p><ul><li><strong>AL1</strong>: the auditor only checks that a completed self-assessment exists. ENX says AL1 results have a low trust level and are not used in TISAX.</li><li><strong>AL2</strong>: a plausibility check of the self-assessment, with evidence review and an interview, usually by web conference. An optional AL2.5 variant verifies fully but remotely and is evaluated as AL2.</li><li><strong>AL3</strong>: a comprehensive verification including on-site work. Higher levels include the lower ones.</li></ul><p>A passed assessment produces an official TISAX assessment report and TISAX labels matching the objectives. ENX says the result is valid for three years. ENX's FAQ adds that temporary labels expire nine months after the closing meeting of the initial assessment.</p><h2 id=\"what-a-claim-does-not-mean\">What a claim does not mean</h2><ul><li>TISAX labels are not a certificate in the ISO sense. ENX describes a label as a statement that the participant's information security management system meets a defined set of requirements, and the handbook says ENX does not provide a certificate for display.</li><li>Results are not public. They are published on the ENX exchange platform, visible only to other TISAX participants the company chooses, and ENX keeps no public list of all participants.</li><li>A label applies to a specific objective, scope and set of locations. \"TISAX assessed\" without the label names and assessment level says little.</li><li>Labels expire three years after the assessment result.</li></ul><h2 id=\"in-data-centers\">In data centers</h2><p>A data center operator that serves automotive customers may hold TISAX labels for the sites where it handles those customers' information. A public claim cannot be checked from outside, because ENX shares results only through its portal. A reader should ask which labels are held (for example Confidential or Strictly confidential, High or Very high availability), at which assessment level, for which locations, under which ISA version, and when the result expires. A prospective automotive customer can request access to the result through the ENX portal.</p><h2 id=\"related-standards\">Related standards</h2><p>The VDA ISA catalogue draws on information security management practice; see <a href=\"/ai-compliance/iso-27001-ai/\">ISO/IEC 27001</a>. Other schemes are listed on the <a href=\"/ai-compliance/standards-and-frameworks/\">standards and frameworks hub</a>, including <a href=\"/ai-compliance/cyber-essentials/\">Cyber Essentials</a>.</p><h2 id=\"primary-sources\">Primary sources</h2><ul><li><a href=\"https://enx.com/en-US/TISAX/\" rel=\"noopener\">ENX Association: About TISAX</a></li><li><a href=\"https://portal.enx.com/handbook/tisax-participant-handbook.html\" rel=\"noopener\">ENX: TISAX Participant Handbook</a></li><li><a href=\"https://enx.com/en-US/TISAX/ISA/\" rel=\"noopener\">ENX: Information Security Assessment (ISA)</a></li><li><a href=\"https://enx.com/news/isa2027\" rel=\"noopener\">ENX news: VDA ISA2027 published (1 July 2026)</a></li><li><a href=\"https://enx.com/en-US/TISAX/faqs/\" rel=\"noopener\">ENX: TISAX FAQs</a></li></ul>",
+    "citations": [
+        {
+            "url": "https://enx.com/en-US/TISAX/",
+            "year": "2026",
+            "title": "About TISAX",
+            "publisher": "ENX Association"
+        },
+        {
+            "url": "https://portal.enx.com/handbook/tisax-participant-handbook.html",
+            "year": "2026",
+            "title": "TISAX Participant Handbook",
+            "publisher": "ENX Association"
+        },
+        {
+            "url": "https://enx.com/en-US/TISAX/ISA/",
+            "year": "2026",
+            "title": "Information Security Assessment (ISA)",
+            "publisher": "ENX Association"
+        },
+        {
+            "url": "https://enx.com/news/isa2027",
+            "year": "2026",
+            "title": "VDA ISA2027 published",
+            "publisher": "ENX Association"
+        }
+    ],
+    "seo_title": "TISAX Explained: Assessment Levels, Labels, Validity",
+    "legal_class": "voluntary",
+    "legal_label": "Voluntary standard or framework: adopted by choice, with no legal force or penalties of its own",
+    "focus_keyword": "TISAX",
+    "standard_meta": {
+        "kind": "voluntary programme",
+        "issuer": "ENX Association (catalogue published by the VDA as VDA ISA)",
+        "edition": "VDA ISA 6 (released October 2023, for assessments ordered from 1 April 2024); VDA ISA2027 published (ENX announcement 1 July 2026), applies to assessments ordered from 1 January 2027",
+        "issuer_url": "https://enx.com/en-US/TISAX/"
+    },
+    "instrument_class": "standard",
+    "meta_description": "What TISAX is, the VDA ISA catalogue, assessment levels AL1 to AL3, labels, 3-year validity, and why a TISAX label is not an ISO-style certificate."
+}
