@@ -1,0 +1,60 @@
+{
+    "slug": "iso-27701",
+    "short": "ISO/IEC 27701 is the ISO and IEC requirements standard for a privacy information management system; the current edition, ISO/IEC 27701:2025, specifies PIMS requirements in its own right rather than as an extension of ISO/IEC 27001, and it is a certifiable management system standard.",
+    "title": "ISO/IEC 27701, Privacy Information Management Systems",
+    "parent": "standards-and-frameworks",
+    "children": [
+    ],
+    "subtitle": "The ISO/IEC requirements standard for a privacy information management system (PIMS)",
+    "body_html": "<h2 id=\"what-it-is\">What ISO/IEC 27701 is</h2><p>ISO/IEC 27701 is the ISO and IEC standard for a privacy information management system (PIMS). It is owned by committee ISO/IEC JTC 1/SC 27. The current edition is ISO/IEC 27701:2025, the second edition, published on 14 October 2025. It replaces ISO/IEC 27701:2019, which ISO lists as withdrawn.</p><p>The two editions are framed differently. ISO described the 2019 edition as an extension to ISO/IEC 27001 and ISO/IEC 27002, applicable to organisations processing PII within an information security management system. ISO's scope for the 2025 edition says it specifies requirements for establishing, implementing, maintaining and continually improving a PIMS, with guidance on implementing them. The 2025 title and scope no longer describe it as an extension of ISO/IEC 27001.</p><h2 id=\"what-it-covers\">What it covers</h2><ul><li>Requirements for a privacy information management system: establishing it, implementing it, maintaining it and improving it over time.</li><li>Guidance to help implement those requirements.</li><li>Organisations that are PII controllers, PII processors, or both, and hold responsibility and accountability for processing PII.</li><li>Organisations of every type and size, including companies, government bodies and not-for-profits.</li></ul><h2 id=\"how-conformity-is-shown\">How a claim is made and checked</h2><p>ISO/IEC 27701 contains requirements, so an organisation can be audited and certified against it.</p><p>ISO/IEC 17021-1 describes management system certification as a third-party conformity assessment activity carried out by certification bodies. For privacy management systems, ISO published ISO/IEC 27706:2025 on the same day as ISO/IEC 27701:2025. It sets requirements for bodies that audit and certify a PIMS according to ISO/IEC 27701, in addition to ISO/IEC 17021-1, and can serve as a criteria document for accrediting those bodies.</p><p>It replaced ISO/IEC TS 27006-2:2021, whose scope covered certification of a PIMS according to ISO/IEC 27701 in combination with ISO/IEC 27001. The 2025 certification-body standard drops that combination wording. Read together, ISO's records describe a PIMS that is certified against ISO/IEC 27701 itself, where the 2019 arrangement certified it as an addition to an ISO/IEC 27001 system.</p><h2 id=\"what-a-claim-does-not-mean\">What a claim does not mean</h2><ul><li>It is a management system certificate. It shows that a privacy management system was audited within a stated scope, not that every processing activity is lawful.</li><li>It is not a certificate of compliance with GDPR or any other data protection law.</li><li>A certificate to the 2019 edition was issued as an extension to an ISO/IEC 27001 system. Check which edition a certificate names, because the two are structured differently.</li><li>Any certificate has a scope, an issuing body and an expiry.</li></ul><h2 id=\"in-data-centers\">ISO/IEC 27701 in data centers</h2><p>For a data center operator, the personal data in scope is often the operator's own: customer contacts, visitor and access records, CCTV, staff data. Where the operator also runs hosted or managed services, it may act as a PII processor for customers. When an operator publishes an ISO/IEC 27701 certificate, check:</p><ul><li>The scope statement: which sites, which services, and whether the organisation is certified as a PII controller, a processor, or both.</li><li>The edition, 2019 or 2025, and for a 2019 certificate, the linked ISO/IEC 27001 certificate.</li><li>The certificate number, certifying body, accreditation body, issue date and expiry.</li></ul><h2 id=\"related-standards\">Related standards</h2><p>ISO/IEC 27701 is most often seen next to <a href=\"/ai-compliance/iso-27001-ai/\">ISO/IEC 27001</a>. For cloud-specific guidance see <a href=\"/ai-compliance/iso-27017/\">ISO/IEC 27017</a> and <a href=\"/ai-compliance/iso-27018/\">ISO/IEC 27018</a>. All are listed in the <a href=\"/ai-compliance/standards-and-frameworks/\">standards hub</a>.</p><h2 id=\"primary-sources\">Primary sources</h2><ul><li><a href=\"https://www.iso.org/standard/85819.html\" rel=\"noopener\">ISO/IEC 27701:2025 Privacy information management systems, requirements and guidance (ISO Open Data, deliverables metadata)</a></li><li><a href=\"https://www.iso.org/standard/71670.html\" rel=\"noopener\">ISO/IEC 27701:2019 Extension to ISO/IEC 27001 and ISO/IEC 27002 for privacy information management (withdrawn) (ISO Open Data, deliverables metadata)</a></li><li><a href=\"https://www.iso.org/standard/82894.html\" rel=\"noopener\">ISO/IEC 27706:2025 Requirements for bodies providing audit and certification of privacy information management systems (ISO Open Data, deliverables metadata)</a></li><li><a href=\"https://www.iso.org/standard/71676.html\" rel=\"noopener\">ISO/IEC TS 27006-2:2021 Requirements for bodies providing audit and certification of ISMS, Part 2: Privacy information management systems (withdrawn) (ISO Open Data, deliverables metadata)</a></li><li><a href=\"https://www.iso.org/standard/61651.html\" rel=\"noopener\">ISO/IEC 17021-1:2015 Conformity assessment, requirements for bodies providing audit and certification of management systems, Part 1 (ISO Open Data, deliverables metadata)</a></li><li><a href=\"https://www.iso.org/standard/82875.html\" rel=\"noopener\">ISO/IEC 27001:2022 Information security management systems, requirements (ISO Open Data, deliverables metadata)</a></li></ul>",
+    "citations": [
+        {
+            "url": "https://www.iso.org/standard/85819.html",
+            "year": "2025",
+            "title": "ISO/IEC 27701:2025 Privacy information management systems, requirements and guidance (ISO Open Data, deliverables metadata)",
+            "publisher": "ISO (ISO Open Data, deliverables metadata)"
+        },
+        {
+            "url": "https://www.iso.org/standard/71670.html",
+            "year": "2019",
+            "title": "ISO/IEC 27701:2019 Extension to ISO/IEC 27001 and ISO/IEC 27002 for privacy information management (withdrawn) (ISO Open Data, deliverables metadata)",
+            "publisher": "ISO (ISO Open Data, deliverables metadata)"
+        },
+        {
+            "url": "https://www.iso.org/standard/82894.html",
+            "year": "2025",
+            "title": "ISO/IEC 27706:2025 Requirements for bodies providing audit and certification of privacy information management systems (ISO Open Data, deliverables metadata)",
+            "publisher": "ISO (ISO Open Data, deliverables metadata)"
+        },
+        {
+            "url": "https://www.iso.org/standard/71676.html",
+            "year": "2021",
+            "title": "ISO/IEC TS 27006-2:2021 Requirements for bodies providing audit and certification of ISMS, Part 2: Privacy information management systems (withdrawn) (ISO Open Data, deliverables metadata)",
+            "publisher": "ISO (ISO Open Data, deliverables metadata)"
+        },
+        {
+            "url": "https://www.iso.org/standard/61651.html",
+            "year": "2015",
+            "title": "ISO/IEC 17021-1:2015 Conformity assessment, requirements for bodies providing audit and certification of management systems, Part 1 (ISO Open Data, deliverables metadata)",
+            "publisher": "ISO (ISO Open Data, deliverables metadata)"
+        },
+        {
+            "url": "https://www.iso.org/standard/82875.html",
+            "year": "2022",
+            "title": "ISO/IEC 27001:2022 Information security management systems, requirements (ISO Open Data, deliverables metadata)",
+            "publisher": "ISO (ISO Open Data, deliverables metadata)"
+        }
+    ],
+    "seo_title": "ISO/IEC 27701:2025 privacy management explained",
+    "legal_class": "voluntary",
+    "legal_label": "Voluntary standard or framework: adopted by choice, with no legal force or penalties of its own",
+    "focus_keyword": "ISO/IEC 27701",
+    "standard_meta": {
+        "kind": "certifiable management system standard",
+        "issuer": "International Organization for Standardization (ISO) and International Electrotechnical Commission (IEC), committee ISO/IEC JTC 1/SC 27",
+        "edition": "ISO/IEC 27701:2025 (edition 2, published 2025-10-14; replaces ISO/IEC 27701:2019, withdrawn)",
+        "issuer_url": "https://www.iso.org/standard/85819.html"
+    },
+    "instrument_class": "standard",
+    "meta_description": "What ISO/IEC 27701:2025 requires, how it changed from the 2019 extension to ISO/IEC 27001, and what to check on a data center's PIMS certificate."
+}
