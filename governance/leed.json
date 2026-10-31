@@ -1,0 +1,48 @@
+{
+    "slug": "leed",
+    "short": "LEED is the U.S. Green Building Council's green building rating system, now at LEED v5 (with v4 and v4.1 still open); a project is rated Certified, Silver, Gold or Platinum after review by GBCI, and the rating applies to that one building or project, not to the operator.",
+    "title": "LEED, Green Building Rating System",
+    "parent": "standards-and-frameworks",
+    "children": [
+    ],
+    "subtitle": "USGBC's green building rating for a single building or project",
+    "body_html": "<h2 id=\"what-it-is\">What LEED is</h2><p>LEED (Leadership in Energy and Environmental Design) is a green building rating system run by the U.S. Green Building Council (USGBC). It rates projects: a building, an interior fit-out, a building in operation, a neighbourhood or a city. It does not rate a company. USGBC describes LEED v5 as the latest version, available for Building Design and Construction (BD+C), Interior Design and Construction (ID+C) and Building Operations and Maintenance (O+M). LEED v4 and v4.1 remain in use: USGBC lists 30 June 2027 as the registration close for v4 and v4.1 projects and 30 June 2033 as their certification sunset.</p><h2 id=\"what-it-covers\">What it covers</h2><p>USGBC lists these rating system families:</p><ul><li>Building Design and Construction (BD+C), for new construction and major renovation</li><li>Interior Design and Construction (ID+C)</li><li>Building Operations and Maintenance (O+M), for existing buildings in operation</li><li>Neighborhood Development (ND), Residential and Cities</li></ul><h3>Data center options</h3><p>USGBC defines a data center in LEED as a building specifically designed and equipped for high-density computing equipment. Its guidance on applying LEED to data centers says:</p><ul><li>Under v4 and v4.1, a whole-building data center with more than 60% of its floor area complete at certification uses the BD+C: Data Centers adaptation.</li><li>Under v5, a new whole-building data center with at least 60% of its floor area complete uses BD+C: New Construction.</li><li>Where more than 40% of the floor area is incomplete at certification, often in phased delivery, BD+C: Core and Shell applies.</li><li>O+M suits existing data centers that have been fully operational and occupied for at least one year, and the project must cover the whole building's floor area. Under O+M, projects can use the U.S. Department of Energy's DC Pro profiling tool for a preliminary energy assessment.</li><li>Colocation does not change the choice of rating system; project scope does.</li></ul><h2 id=\"how-conformity-is-shown\">How a claim is made and checked</h2><p>A project registers with USGBC, completes every prerequisite, then earns points by meeting credit requirements. The project then goes through verification and review by GBCI (Green Business Certification Inc.). The points total sets the level:</p><ul><li>LEED Certified: 40 to 49 points</li><li>LEED Silver: 50 to 59 points</li><li>LEED Gold: 60 to 79 points</li><li>LEED Platinum: 80 points or more</li></ul><h2 id=\"what-a-claim-does-not-mean\">What a claim does not mean</h2><ul><li>A LEED level attaches to one project, usually one building. It is not a rating of the operator, its other sites or its whole portfolio.</li><li>A design and construction rating (BD+C) describes the building as designed and built. It is not a rating of how the building is run today; that is what O+M covers.</li><li>A level means a points total under a named rating system and version. Gold under v4 and Gold under v5 are earned against different requirements.</li><li>LEED is a green building rating. It says nothing about availability, redundancy or information security.</li></ul><h2 id=\"in-data-centers\">In data centers</h2><p>When an operator says a data center is LEED certified, the claim should name a specific building. A reader should check which building or campus phase it covers, the rating system (BD+C: Data Centers, BD+C: New Construction, Core and Shell, or O+M), the version (v4, v4.1 or v5), the level, and the year of certification. A statement that an operator \"builds to LEED standards\" or that a site is \"LEED registered\" is not a certification: the project has not yet been through GBCI review, or the claim is about intent.</p><h2 id=\"related-standards\">Related standards</h2><p>For energy management of a site in operation, see <a href=\"/ai-compliance/iso-50001/\">ISO 50001</a> and the <a href=\"/ai-compliance/eu-code-of-conduct-data-centres/\">EU Code of Conduct for Data Centres</a>. Other data center schemes are collected on the <a href=\"/ai-compliance/standards-and-frameworks/\">standards and frameworks hub</a>.</p><h2 id=\"primary-sources\">Primary sources</h2><ul><li><a href=\"https://www.usgbc.org/leed\" rel=\"noopener\">USGBC: LEED rating system</a></li><li><a href=\"https://www.usgbc.org/leed/v41\" rel=\"noopener\">USGBC: LEED v4.1</a></li><li><a href=\"https://support.usgbc.org/hc/en-us/articles/12154267763987-Applying-LEED-to-data-center-projects\" rel=\"noopener\">USGBC support: Applying LEED to data center projects</a></li><li><a href=\"https://www.usgbc.org/tools/leed-certification/deadlines\" rel=\"noopener\">USGBC: LEED certification deadlines</a></li></ul>",
+    "citations": [
+        {
+            "url": "https://www.usgbc.org/leed",
+            "year": "2026",
+            "title": "LEED rating system",
+            "publisher": "USGBC"
+        },
+        {
+            "url": "https://www.usgbc.org/leed/v41",
+            "year": "",
+            "title": "LEED v4.1",
+            "publisher": "USGBC"
+        },
+        {
+            "url": "https://support.usgbc.org/hc/en-us/articles/12154267763987-Applying-LEED-to-data-center-projects",
+            "year": "2026",
+            "title": "Applying LEED to data center projects",
+            "publisher": "USGBC"
+        },
+        {
+            "url": "https://www.usgbc.org/tools/leed-certification/deadlines",
+            "year": "2026",
+            "title": "LEED certification deadlines",
+            "publisher": "USGBC"
+        }
+    ],
+    "seo_title": "LEED for Data Centers: What a LEED Rating Means",
+    "legal_class": "voluntary",
+    "legal_label": "Building rating: awarded to one building or project, not to an operator. Voluntary",
+    "focus_keyword": "LEED data center",
+    "standard_meta": {
+        "kind": "building rating",
+        "issuer": "U.S. Green Building Council (USGBC); certification review by Green Business Certification Inc. (GBCI)",
+        "edition": "LEED v5 (current; BD+C, ID+C, O+M). LEED v4 and v4.1 registration closes 30 June 2027, certification sunset 30 June 2033.",
+        "issuer_url": "https://www.usgbc.org/leed"
+    },
+    "instrument_class": "standard",
+    "meta_description": "LEED rates one building or project, not an operator. Rating systems for data centers, LEED v5 and v4.1, the four levels and GBCI review."
+}
