@@ -1,5 +1,5 @@
 {
-    "count": 809,
+    "count": 834,
     "terms": [
         {
             "slug": "agent",
@@ -9056,6 +9056,281 @@
             "related_slugs": [
                 "dual-use-ai"
             ]
+        },
+        {
+            "slug": "hitrust",
+            "term": "HITRUST",
+            "example": "A hospital asking an AI vendor whether its HITRUST certificate includes the AI Security Certification, and which system that certification covers.",
+            "category": "AI Security & Assurance",
+            "definition": "Short for the HITRUST CSF, also called the HITRUST Framework: a certifiable set of security controls published by HITRUST, a private standards body. It underlies three certifications of rising depth, e1, i1 and r2, and since late 2024 an AI Security Certification for deployed AI systems. It is not a law, and HIPAA does not require it. Organizations pursue it because the certificate is widely accepted as evidence in vendor risk reviews, above all in healthcare.",
+            "author_note": "Written 2026-09-18 from HITRUST's own published pages, with the compliance page at /ai-compliance/hitrust-csf/. Added because 64 pages on this site named HITRUST and none explained it. Filed under the short name HITRUST, not HITRUST CSF, because that is how the 59 data center pages that list it write it, and the term linker matches the words on the page.",
+            "authored_on": "2026-09-18",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 123631"
+        },
+        {
+            "slug": "fedramp",
+            "term": "FedRAMP",
+            "example": "An agency checking the FedRAMP Marketplace to confirm that a conversational AI service is FedRAMP Certified before staff are allowed to use it.",
+            "category": "AI Security & Assurance",
+            "definition": "The Federal Risk and Authorization Management Program, run by the General Services Administration. It sets one standard way to assess the security of cloud services used by federal agencies, so an agency can adopt a service that has already been assessed. Since June 2026 the program says a service is FedRAMP Certified, and it is moving from its older Rev5 process to FedRAMP 20x, which relies on measured outcomes more than documented plans.",
+            "author_note": "Written 2026-09-18 from fedramp.gov, with the compliance page at /ai-compliance/fedramp/.",
+            "authored_on": "2026-09-18",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 123632"
+        },
+        {
+            "slug": "pci-dss",
+            "term": "PCI DSS",
+            "example": "A retailer adding a customer service chatbot and confirming that it never receives full card numbers, so that it stays out of the cardholder data environment.",
+            "category": "AI Security & Assurance",
+            "definition": "The Payment Card Industry Data Security Standard, maintained by the PCI Security Standards Council. It sets the security requirements for any organization that stores, processes or transmits payment card data. The Council says an AI system in that environment is in scope like any other technology, and that using AI does not remove or bypass any requirement.",
+            "author_note": "Written 2026-09-18 from the PCI Security Standards Council's own AI guidance, with the compliance page at /ai-compliance/pci-dss-ai/.",
+            "authored_on": "2026-09-18",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 123633"
+        },
+        {
+            "slug": "bounded-autonomy",
+            "term": "Bounded Autonomy",
+            "example": "A security team lets its AI agent isolate an ordinary employee laptop infected with known ransomware without asking, but requires an analyst's approval before the agent may act on a production server. CrowdStrike describes its Charlotte AI as operating with customer defined bounded autonomy, and states that Charlotte AI does not take automated response actions by default.",
+            "category": "Agents",
+            "definition": "A design approach for agentic AI in which the system may act on its own only inside limits that people set in advance: which systems it may touch, which actions it may take, how serious a threat must be, and when it must stop and ask a human. Inside those bounds it works at machine speed without waiting for approval; outside them it recommends and a person decides. Every action is logged for later review. The term is common in security operations, where vendors use it for AI that may triage alerts or contain a threat automatically only when the customer's policy allows. Bounded autonomy sits between human in the loop, where a person approves each action, and human out of the loop, where the system acts with no oversight.",
+            "author_note": "Added on Stephen's request 2026-10-24, from the newsletter issue Stop It. Let AI Defend Our Machines. Sources: CrowdStrike Charlotte AI Detection Triage press release 2025-02-12 (https://www.crowdstrike.com/en-us/press-releases/crowdstrike-delivers-next-breakthrough-in-ai-powered-agentic-cybersecurity-with-charlotte-ai-detection-triage/) and Charlotte AI product page (https://www.crowdstrike.com/en-us/products/charlotte-ai/). Related terms: human-in-the-loop-hitl, human-on-the-loop, human-out-of-the-loop, agentic-autonomy-levels, guardrails.",
+            "authored_on": "2026-10-24",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 231716"
+        },
+        {
+            "slug": "demographic-parity",
+            "term": "Demographic Parity",
+            "example": "An audit compares the share of women and men a screening tool advances to interview; a gap between the two rates is a demographic parity gap.",
+            "category": "Safety & Governance",
+            "definition": "A fairness criterion that asks whether a system gives a positive outcome, such as being shortlisted or approved, at the same rate to every group. Also called statistical parity or independence. It ignores whether the people in each group were in fact qualified, so a system can meet it while making more errors for one group, and it can conflict with other criteria such as equalized odds.",
+            "author_note": "Added on Stephen's request for The Ethics of AI hub (bridge row 1420, hub 9f61fb6d; domain 1 and sub-topic ETH-08-01), as an ordinary A to Z entry (row 1423). Sources: Dwork, Hardt, Pitassi, Reingold and Zemel, Fairness Through Awareness, 2012 (https://arxiv.org/abs/1104.3913); Barocas, Hardt and Narayanan, Fairness and Machine Learning, MIT Press, 2023 (https://fairmlbook.org/). Related terms: equalized-odds, fairness-metric, disparate-impact, algorithmic-bias.",
+            "authored_on": "2026-10-24",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 232492"
+        },
+        {
+            "slug": "equalized-odds",
+            "term": "Equalized Odds",
+            "example": "A lender checks that applicants who would repay are approved at the same rate in each group, and that applicants who would default are wrongly approved at the same rate too.",
+            "category": "Safety & Governance",
+            "definition": "A fairness criterion that asks whether a system's error rates are the same across groups: equal true positive rates and equal false positive rates. Hardt, Price and Srebro proposed it in 2016, with a weaker version, equal opportunity, that equalizes only true positive rates. It allows outcome rates to differ when groups differ in the underlying outcome, which is where it parts from demographic parity.",
+            "author_note": "Added on Stephen's request for The Ethics of AI hub (bridge row 1420, hub 9f61fb6d; domain 1), as an ordinary A to Z entry (row 1423). Sources: Hardt, Price and Srebro, Equality of Opportunity in Supervised Learning, NeurIPS 2016 (https://arxiv.org/abs/1610.02413); Kleinberg, Mullainathan and Raghavan, Inherent Trade-Offs in the Fair Determination of Risk Scores, 2016 (https://doi.org/10.48550/arXiv.1609.05807, research library r0000360), on why fairness criteria conflict. Related terms: demographic-parity, fairness-metric, algorithmic-bias.",
+            "authored_on": "2026-10-24",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 232493"
+        },
+        {
+            "slug": "shap",
+            "term": "SHAP",
+            "example": "A credit model's SHAP output shows that income raised an applicant's score and a short credit history lowered it.",
+            "category": "Safety & Governance",
+            "definition": "SHapley Additive exPlanations, a method that explains one prediction of a machine learning model by giving each input feature a share of the result, using Shapley values from cooperative game theory. Lundberg and Lee introduced it in 2017. It is a post hoc explanation: it describes how the model behaved for that prediction, not the model's internal reasoning, and critics such as Rudin argue that explanations of this kind can mislead in high stakes decisions.",
+            "author_note": "Added on Stephen's request for The Ethics of AI hub (bridge row 1420, hub 9f61fb6d; domain 2), as an ordinary A to Z entry (row 1423). Sources: Lundberg and Lee, A Unified Approach to Interpreting Model Predictions, NeurIPS 2017 (https://arxiv.org/abs/1705.07874); Rudin, Stop Explaining Black Box Machine Learning Models for High Stakes Decisions, 2018 (https://doi.org/10.48550/arXiv.1811.10154, research library r0000347). Related terms: lime, explainable-ai-xai, interpretability.",
+            "authored_on": "2026-10-24",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 232494"
+        },
+        {
+            "slug": "lime",
+            "term": "LIME",
+            "example": "LIME highlights the words in an email that pushed a spam filter towards its verdict.",
+            "category": "Safety & Governance",
+            "definition": "Local Interpretable Model-agnostic Explanations, a method that explains a single prediction by fitting a simple, interpretable model to the black box model's behaviour on slightly altered copies of that input. Ribeiro, Singh and Guestrin introduced it in 2016. Like SHAP it is post hoc and local: the explanation holds near one input, can change with how the altered copies are drawn, and does not show how the model works overall.",
+            "author_note": "Added on Stephen's request for The Ethics of AI hub (bridge row 1420, hub 9f61fb6d; domain 2), as an ordinary A to Z entry (row 1423). Sources: Ribeiro, Singh and Guestrin, Why Should I Trust You? Explaining the Predictions of Any Classifier, KDD 2016 (https://doi.org/10.1145/2939672.2939778; https://arxiv.org/abs/1602.04938). Related terms: shap, explainable-ai-xai, interpretability.",
+            "authored_on": "2026-10-24",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 232495"
+        },
+        {
+            "slug": "machine-unlearning",
+            "term": "Machine Unlearning",
+            "example": "After a user asks for their records to be deleted, a company retrains only the data shard that held them and checks that the model no longer reflects them.",
+            "category": "Training & Mechanics",
+            "definition": "Removing the influence of specific training data from a trained model, so that it behaves as if it had never seen that data, without retraining from scratch. It matters for requests to erase personal data and for removing copyrighted or harmful material. Exact methods, such as training on separate shards so that only one part has to be retrained, are costly; approximate methods are cheaper but hard to verify.",
+            "author_note": "Added on Stephen's request for The Ethics of AI hub (bridge row 1420, hub 9f61fb6d; domain 4), as an ordinary A to Z entry (row 1423). Sources: Bourtoule et al., Machine Unlearning, IEEE Symposium on Security and Privacy 2021 (https://arxiv.org/abs/1912.03817); Carlini et al., Extracting Training Data from Large Language Models, 2020 (https://doi.org/10.48550/arXiv.2012.07805, research library r0000350), on what models memorise. Related terms: differential-privacy, federated-learning.",
+            "authored_on": "2026-10-24",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 232496"
+        },
+        {
+            "slug": "liars-dividend",
+            "term": "Liar's Dividend",
+            "example": "A politician caught on a genuine recording says the clip is an AI fake, and some supporters believe the denial.",
+            "category": "Safety & Governance",
+            "definition": "The advantage a person gains by dismissing real evidence as fake, made more believable because people know convincing deepfakes exist. The term comes from Chesney and Citron (2019). Studies disagree on how well it works: Schiff, Schiff and Bueno found it helped politicians against text evidence but largely failed against video, while Grohmann, Halle and Appel found it worked for video.",
+            "author_note": "Added on Stephen's request for The Ethics of AI hub (bridge row 1420, hub 9f61fb6d; domain 6), as an ordinary A to Z entry (row 1423). Sources: Chesney and Citron, Deep Fakes: A Looming Challenge for Privacy, Democracy, and National Security, California Law Review 107 (2019), 1753 (https://doi.org/10.2139/ssrn.3213954); Schiff, Schiff and Bueno, American Political Science Review 119(1), 71-90 (https://doi.org/10.1017/S0003055423001454, research library r0000356, abstract only); Grohmann, Halle and Appel, Psychology of Popular Media, 2026 (https://doi.org/10.1037/ppm0000665, research library r0000357, abstract only). Related terms: deepfake, content-provenance-c2pa.",
+            "authored_on": "2026-10-24",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 232497"
+        },
+        {
+            "slug": "jevons-paradox",
+            "term": "Jevons Paradox",
+            "example": "A model that answers a query with half the energy is built into ten times as many products, and the data centre's total demand rises.",
+            "category": "Data Centres & Infrastructure",
+            "definition": "The observation that making a resource more efficient to use can increase total consumption of it, because a lower cost per use leads to more use. It is named after William Stanley Jevons, who made the argument about coal in The Coal Question (1865). In AI it is the question of whether cheaper, more efficient models cut total energy and water use or raise it as demand grows.",
+            "author_note": "Added on Stephen's request for The Ethics of AI hub (bridge row 1420, hub 9f61fb6d; domain 7), as an ordinary A to Z entry (row 1423). Sources: W. S. Jevons, The Coal Question, Macmillan, 1865; Luccioni, Strubell and Crawford, From Efficiency Gains to Rebound Effects: The Problem of Jevons' Paradox in AI's Polarized Environmental Debate, 2025 (https://arxiv.org/abs/2501.16548). Related terms: carbon-aware-computing.",
+            "authored_on": "2026-10-24",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 232498"
+        },
+        {
+            "slug": "carbon-aware-computing",
+            "term": "Carbon-Aware Computing",
+            "example": "A training job that can wait is queued for the afternoon, when solar power lowers the grid's carbon intensity.",
+            "category": "Data Centres & Infrastructure",
+            "definition": "Scheduling or placing computing work according to how much carbon the electricity supplying it emits, for example by moving flexible jobs to hours or regions where the grid is cleaner. Google has described a system that shifts flexible data centre workloads in time using day-ahead forecasts of grid carbon intensity. It lowers emissions per job without lowering the amount of computing.",
+            "author_note": "Added on Stephen's request for The Ethics of AI hub (bridge row 1420, hub 9f61fb6d; domain 7), as an ordinary A to Z entry (row 1423). Sources: Radovanović et al., Carbon-Aware Computing for Datacenters, Google, 2021 (https://arxiv.org/abs/2106.11750). Related terms: jevons-paradox.",
+            "authored_on": "2026-10-24",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 232499"
+        },
+        {
+            "slug": "ghost-work",
+            "term": "Ghost Work",
+            "example": "Contract workers tag thousands of images a day so that a vision model can learn to recognise objects, and are never mentioned when the product launches.",
+            "category": "Business & Adoption",
+            "definition": "The hidden human labour behind AI and online services: people paid by the task, often through online platforms, to label data, moderate content and check machine output. Mary L. Gray and Siddharth Suri popularised the term in their 2019 book Ghost Work. The work is often precarious and invisible to the people who use the finished product.",
+            "author_note": "Added on Stephen's request for The Ethics of AI hub (bridge row 1420, hub 9f61fb6d; domain 8), as an ordinary A to Z entry (row 1423). Source: Gray and Suri, Ghost Work: How to Stop Silicon Valley from Building a New Global Underclass, Houghton Mifflin Harcourt, 2019. Related terms: human-in-the-loop-hitl.",
+            "authored_on": "2026-10-24",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 232500"
+        },
+        {
+            "slug": "lean-proof-assistant",
+            "term": "Lean (proof assistant)",
+            "example": "An AI model proposes a proof of a conjecture; Lean either accepts every step or rejects the proof, with no reviewer needed.",
+            "category": "AI Security & Assurance",
+            "definition": "A functional programming language and interactive theorem prover in which mathematical statements, programs and proofs are written together and checked by a small trusted kernel. Launched by Leonardo de Moura at Microsoft Research in 2013 and now developed by the nonprofit Lean FRO, it has become the standard language in which AI systems write proofs that do not have to be taken on trust.",
+            "author_note": "Written by theworldofai editor 2026-10-29. Not the manufacturing discipline also called Lean (see the Lean entry).",
+            "authored_on": "2026-10-29",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 235672"
+        },
+        {
+            "slug": "formal-verification",
+            "term": "Formal Verification",
+            "example": "Proving that a cryptography library can never read past the end of a buffer, instead of fuzzing it and hoping.",
+            "category": "AI Security & Assurance",
+            "definition": "Using mathematical proof to show that a system, such as a program, a chip design or a neural network, behaves exactly as its formal specification says, for every possible input. Unlike testing, which checks the cases someone tried, a completed proof covers all of them, but only for the properties written into the specification.",
+            "author_note": "Written by theworldofai editor 2026-10-29.",
+            "authored_on": "2026-10-29",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 235673"
+        },
+        {
+            "slug": "software-verification",
+            "term": "Software Verification",
+            "example": "&Truth's stated goal of reading code in any language and producing proofs anyone can check independently.",
+            "category": "AI Security & Assurance",
+            "definition": "Formal verification applied to computer programs: writing a precise specification of what code should do, then proving the code meets it. Done by hand it takes experts months or years; in 2026 startups and AI labs began using AI models to write the proofs and tools such as Lean to check them, aiming to remove whole classes of security bugs.",
+            "author_note": "Written by theworldofai editor 2026-10-29.",
+            "authored_on": "2026-10-29",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 235674"
+        },
+        {
+            "slug": "deterministic-simulation-testing",
+            "term": "Deterministic Simulation Testing",
+            "example": "Antithesis runs a client's whole software stack on a deterministic hypervisor and replays the exact sequence that triggered a rare crash.",
+            "category": "AI Security & Assurance",
+            "definition": "A way of testing software by running it inside a fully controlled simulation where every source of randomness, timing and network behavior is fixed, so any failure can be replayed exactly. Months of real-world conditions can be compressed into hours of simulated runs.",
+            "author_note": "Written by theworldofai editor 2026-10-29.",
+            "authored_on": "2026-10-29",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 235675"
+        },
+        {
+            "slug": "jagged-intelligence",
+            "term": "Jagged Intelligence",
+            "example": "A model that proves research-level theorems in Lean still struggling to verify a messy production codebase.",
+            "category": "Core Concepts",
+            "definition": "A description of AI capability as uneven: a model can outperform experts on one task and fail at a neighboring task that looks easier. Training a system to excel in one domain, such as mathematical proof, does not guarantee similar gains in a related one, such as verifying real software. Closely related to the jagged frontier.",
+            "author_note": "Written by theworldofai editor 2026-10-29, from usage by Cade Metz, The New York Times, 2026-10-29. See also Jagged Frontier.",
+            "authored_on": "2026-10-29",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 235676"
+        },
+        {
+            "slug": "long-term-benefit-trust",
+            "term": "Long-Term Benefit Trust (LTBT)",
+            "example": "When a board seat held by a trust-appointed director falls vacant, the trust, not public shareholders, chooses the replacement.",
+            "category": "Safety & Governance",
+            "definition": "An independent body of financially disinterested trustees that holds a special class of Anthropic stock with the power to elect and remove directors who together make up a majority of the board. It has no other voting rights. The trust is meant to keep Anthropic, a public benefit corporation, balancing its mission against profit, and Anthropic's S-1 describes keeping it in place after listing alongside a founder share class with 50.1% of general voting power.",
+            "author_note": "Written by theworldofai editor 2026-10-30 from the definitions section of Anthropic PBC's Form S-1 (filed 2026-10-26), in our own words.",
+            "authored_on": "2026-10-30",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 239713"
+        },
+        {
+            "slug": "run-rate-revenue",
+            "term": "Run-Rate Revenue",
+            "example": "If customers spent $1 billion on usage in the last 28 days and subscriptions bring in $100 million a month, run-rate revenue is $14.2 billion.",
+            "category": "Business & Adoption",
+            "definition": "An estimate of a company's annual revenue based on its current pace of business rather than on a completed year. Anthropic defines it as consumption-based fees from the trailing 28 days multiplied by 13, plus current monthly subscription fees multiplied by 12. It is an operating metric, not revenue under accounting rules, and it can swing with a single large customer or a short spike in usage.",
+            "author_note": "Written by theworldofai editor 2026-10-30 from the definitions section of Anthropic PBC's Form S-1 (filed 2026-10-26), in our own words.",
+            "authored_on": "2026-10-30",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 239714"
+        },
+        {
+            "slug": "net-revenue-retention",
+            "term": "Net Revenue Retention (NRR)",
+            "example": "A group of customers paid $10 million in the base quarter and $25 million in the same quarter a year later, an NRR of 250%.",
+            "category": "Business & Adoption",
+            "definition": "A measure of how much more or less existing customers spend over a year, counting expansion, cutbacks and churn but not new customers. It is calculated by dividing what a fixed group of customers paid in the latest period by what the same customers paid a year earlier. A figure above 100% means the customer base is growing its spending on its own. Anthropic's version excludes fixed-price Claude Pro and Max subscribers.",
+            "author_note": "Written by theworldofai editor 2026-10-30 from the definitions section of Anthropic PBC's Form S-1 (filed 2026-10-26), in our own words.",
+            "authored_on": "2026-10-30",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 239715"
+        },
+        {
+            "slug": "virtual-collaborator",
+            "term": "Virtual Collaborator",
+            "example": "A developer describes a feature; the agent plans it, writes and tests the code across several files and opens a pull request for review.",
+            "category": "Agents",
+            "definition": "An AI system that completes substantial professional work on its own, tasks that might take a skilled person hours or days, rather than answering one prompt at a time. It combines sustained reasoning, a harness that turns intent into actions, a persistent working environment and access to the user's tools. Anthropic uses the term in its S-1 to describe Claude Code and Claude Cowork.",
+            "author_note": "Written by theworldofai editor 2026-10-30 from the definitions section of Anthropic PBC's Form S-1 (filed 2026-10-26), in our own words.",
+            "authored_on": "2026-10-30",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 239716"
+        },
+        {
+            "slug": "compute-multipliers",
+            "term": "Compute Multipliers",
+            "example": "A new attention technique lets a lab reach the same benchmark score with half the training compute, a 2x compute multiplier.",
+            "category": "Training & Mechanics",
+            "definition": "Algorithmic and methodological improvements in training and inference that raise the useful output of a fixed amount of computing power. A better training recipe, data mix or serving technique can act like buying more chips without buying them. Labs track compute multipliers because they decide how far a given hardware budget goes and how fast a capability can spread to rivals with less compute.",
+            "author_note": "Written by theworldofai editor 2026-10-30 from the definitions section of Anthropic PBC's Form S-1 (filed 2026-10-26), in our own words.",
+            "authored_on": "2026-10-30",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 239717"
+        },
+        {
+            "slug": "public-benefit-corporation",
+            "term": "Public Benefit Corporation (PBC)",
+            "example": "A PBC's board declines a lucrative contract because it conflicts with the purpose in the charter, a decision its directors are allowed to make.",
+            "category": "Safety & Governance",
+            "definition": "A for-profit company that is legally required to balance shareholder returns with a specific public benefit written into its charter, and with the interests of people affected by its conduct. Directors cannot be faulted for weighing the stated purpose against profit. Anthropic is a Delaware PBC whose purpose is the responsible development and maintenance of advanced AI for the long-term benefit of humanity.",
+            "author_note": "Written by theworldofai editor 2026-10-30 from the definitions section of Anthropic PBC's Form S-1 (filed 2026-10-26), in our own words.",
+            "authored_on": "2026-10-30",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 239718"
+        },
+        {
+            "slug": "closing-the-loop",
+            "term": "Closing the Loop",
+            "example": "A lab uses its current model to write most of the training infrastructure and evaluation code for the next model, shortening the release cycle.",
+            "category": "Core Concepts",
+            "definition": "A development cycle in which each new version of an AI model helps build the next one, so that gains in capability compound over time. In practice the model writes code, runs experiments and assists with research on its own successor while people set direction and check results. Anthropic's 2026 S-1 names closing the loop as a goal, and it is the industry term closest to what safety researchers call recursive self-improvement.",
+            "author_note": "Written by theworldofai editor 2026-10-30 from the definitions section of Anthropic PBC's Form S-1 (filed 2026-10-26), in our own words.",
+            "authored_on": "2026-10-30",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 239719"
         }
     ],
     "source": {
