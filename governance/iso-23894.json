@@ -1,0 +1,35 @@
+{
+    "slug": "iso-23894",
+    "short": "ISO/IEC 23894:2023 is guidance on managing risk from the development and use of AI. It takes the ISO 31000 risk process and adds the sources of risk that are specific to AI. It is not certifiable.",
+    "title": "ISO/IEC 23894, AI Risk Management",
+    "parent": "standards-and-frameworks",
+    "children": [
+    ],
+    "subtitle": "The guidance standard that applies ISO 31000 risk management to AI, published 2023",
+    "body_html": "<h2 id=\"what-it-is\">What ISO/IEC 23894 is</h2><p>ISO/IEC 23894 is the international guidance standard on AI risk management, published in 2023 by ISO/IEC JTC 1/SC 42. It does not invent a new risk process. It takes ISO 31000, the general risk management standard, and explains how its principles, framework and process apply when the thing being managed is an AI system. It is guidance, so there is no certificate.</p><h2 id=\"what-it-covers\">What it covers</h2><ul><li>Objectives specific to AI, such as fairness, transparency, explainability, safety, security, privacy and robustness, which a general risk program may not list.</li><li>Sources of risk specific to AI: the level of automation, lack of transparency, complexity of the environment, system life cycle issues, technology readiness, hardware, and the data the system learns from.</li><li>The ISO 31000 process, step by step, with AI examples: scope and context, risk assessment, risk treatment, monitoring, recording and reporting.</li><li>Integration with the organization's existing risk management, so AI risk is not run as a parallel program.</li></ul><h2 id=\"how-conformity-is-shown\">How conformity is shown</h2><p>It is not certified. An organization shows alignment by having a risk management process that covers the AI-specific objectives and sources the standard lists, and by producing the records that process generates. An <a href=\"/ai-compliance/iso-42001/\">ISO/IEC 42001</a> audit treats those records as evidence for the risk management control.</p><h2 id=\"why-it-matters\">Why it matters</h2><p>Most organizations already run risk management under ISO 31000 or COSO ERM. The question a board asks is whether AI fits that program or needs its own. ISO/IEC 23894 answers: it fits, with additions. That makes it the standard a risk officer reaches for first, before the management system standard, because it changes what the existing risk register contains rather than how the organization is structured.</p><h2 id=\"what-a-claim-does-not-mean\">What a claim does not mean</h2><p>Following ISO/IEC 23894 does not mean an AI system is low risk. It means the organization has a process for identifying and treating risk. The treatment can be to accept a risk, and the record will say so.</p><h2 id=\"related-standards\">Related standards</h2><p><a href=\"/ai-compliance/iso-42001/\">ISO/IEC 42001</a> requires risk management and points here for how. <a href=\"/ai-compliance/iso-42005/\">ISO/IEC 42005</a> covers impact assessment, which feeds risk identification. <a href=\"/ai-compliance/nist-ai-rmf/\">NIST AI RMF</a> is the U.S. framework covering the same ground with its Govern, Map, Measure, Manage functions. <a href=\"/ai-compliance/coso-erm-ai/\">COSO ERM and AI</a> covers the enterprise risk side. See the <a href=\"/ai-compliance/standards-and-frameworks/\">Standards and Frameworks hub</a>.</p><h2 id=\"primary-sources\">Primary sources</h2><ul><li><a href=\"https://www.iso.org/standard/77304.html\" rel=\"noopener\">ISO/IEC 23894:2023</a>, ISO standard page</li><li><a href=\"https://isopublicstorageprod.blob.core.windows.net/opendata/_latest/iso_deliverables_metadata/json/iso_deliverables_metadata.jsonl\" rel=\"noopener\">ISO Open Data, deliverables metadata</a>: edition, committee and scope</li></ul>",
+    "citations": [
+        {
+            "url": "https://www.iso.org/standard/77304.html",
+            "year": "2023",
+            "title": "ISO/IEC 23894:2023, Information technology, Artificial intelligence, Guidance on risk management",
+            "publisher": "ISO"
+        },
+        {
+            "url": "https://isopublicstorageprod.blob.core.windows.net/opendata/_latest/iso_deliverables_metadata/json/iso_deliverables_metadata.jsonl",
+            "title": "ISO Open Data, deliverables metadata",
+            "publisher": "ISO"
+        }
+    ],
+    "seo_title": "ISO/IEC 23894:2023 AI Risk Management Explained",
+    "legal_class": "voluntary",
+    "legal_label": "Voluntary standard or framework: adopted by choice, with no legal force or penalties of its own",
+    "focus_keyword": "ISO/IEC 23894",
+    "standard_meta": {
+        "kind": "guidance standard (not certifiable)",
+        "issuer": "ISO/IEC JTC 1/SC 42, Artificial intelligence",
+        "edition": "2023 (first edition)",
+        "issuer_url": "https://www.iso.org/standard/77304.html"
+    },
+    "instrument_class": "standard",
+    "meta_description": "ISO/IEC 23894:2023 applies ISO 31000 risk management to AI: AI-specific risk sources, objectives, and the process. How it fits with ISO 42001 and NIST AI RMF."
+}
