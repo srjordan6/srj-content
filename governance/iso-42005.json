@@ -1,0 +1,35 @@
+{
+    "slug": "iso-42005",
+    "short": "ISO/IEC 42005:2025 is guidance, not a certifiable standard. It tells an organization how to run and document an AI system impact assessment, the assessment that ISO/IEC 42001 requires but does not describe.",
+    "title": "ISO/IEC 42005, AI System Impact Assessment",
+    "parent": "standards-and-frameworks",
+    "children": [
+    ],
+    "subtitle": "The guidance standard for assessing how an AI system affects people and society, published 2025",
+    "body_html": "<h2 id=\"what-it-is\">What ISO/IEC 42005 is</h2><p>ISO/IEC 42005 is the international guidance standard for AI system impact assessment. It was published in 2025 by ISO/IEC JTC 1/SC 42, the joint committee that also writes ISO/IEC 42001 and ISO/IEC 22989. It is guidance, so nobody is certified against it. Its job is to describe how an organization assesses the effects an AI system may have on individuals, groups and society, and how it writes that assessment down.</p><p>The reason it exists is a gap in <a href=\"/ai-compliance/iso-42001/\">ISO/IEC 42001</a>. The management system standard requires an AI system impact assessment as one of its controls, but says little about what one contains. ISO/IEC 42005 is the answer to that question.</p><h2 id=\"what-it-covers\">What it covers</h2><ul><li>When to run an assessment: at design, before deployment, and after a material change to the system, its data or its use.</li><li>Scope: the system, its intended uses, foreseeable misuse, and the life cycle stage being assessed.</li><li>Who is affected: individuals, groups and society, including people who never use the system but are subject to its decisions.</li><li>Benefits and harms: the standard asks for both, with harms assessed for likelihood and severity.</li><li>Documentation: the assessment is a record that can be reviewed, updated and shown to an auditor or regulator.</li><li>Integration: how the assessment feeds the organization's risk management under <a href=\"/ai-compliance/iso-23894/\">ISO/IEC 23894</a> and its management system under ISO/IEC 42001.</li></ul><h2 id=\"how-conformity-is-shown\">How conformity is shown</h2><p>It is not. A guidance standard has no certificate. An organization shows it followed ISO/IEC 42005 by producing an impact assessment that has the elements the standard describes, and an ISO/IEC 42001 auditor will look for that assessment as evidence of the control. A claim that a company is certified to 42005 is a misstatement.</p><h2 id=\"why-it-matters\">Why it matters now</h2><p>Impact assessments stopped being optional in several jurisdictions. The EU AI Act requires a fundamental rights impact assessment from certain deployers of high-risk systems. Colorado's original AI act required impact assessments from deployers, and its 2026 replacement dropped that duty, which is a reminder that the legal requirement moves while the method stays. ISO/IEC 42005 is the method that survives the legal churn, and it is the document most likely to be accepted across jurisdictions as evidence that an assessment was done properly.</p><h2 id=\"what-a-claim-does-not-mean\">What a claim does not mean</h2><p>An impact assessment is not a finding that a system is safe or fair. It is a record of what the organization expected, examined and decided. A thorough assessment can conclude that a system should not ship. A thin one can be worse than none, because it creates a record that the organization looked and saw nothing.</p><h2 id=\"related-standards\">Related standards</h2><p><a href=\"/ai-compliance/iso-42001/\">ISO/IEC 42001</a> requires the assessment. <a href=\"/ai-compliance/iso-23894/\">ISO/IEC 23894</a> covers AI risk management, which the assessment feeds. <a href=\"/ai-compliance/iso-22989/\">ISO/IEC 22989</a> supplies the vocabulary. <a href=\"/ai-compliance/nist-ai-rmf/\">NIST AI RMF</a> covers the same ground in its Map function. See the <a href=\"/ai-compliance/standards-and-frameworks/\">Standards and Frameworks hub</a>.</p><h2 id=\"primary-sources\">Primary sources</h2><ul><li><a href=\"https://www.iso.org/standard/44545.html\" rel=\"noopener\">ISO/IEC 42005:2025</a>, ISO standard page</li><li><a href=\"https://isopublicstorageprod.blob.core.windows.net/opendata/_latest/iso_deliverables_metadata/json/iso_deliverables_metadata.jsonl\" rel=\"noopener\">ISO Open Data, deliverables metadata</a>: edition, committee and scope</li></ul>",
+    "citations": [
+        {
+            "url": "https://www.iso.org/standard/44545.html",
+            "year": "2025",
+            "title": "ISO/IEC 42005:2025, Information technology, Artificial intelligence, AI system impact assessment",
+            "publisher": "ISO"
+        },
+        {
+            "url": "https://isopublicstorageprod.blob.core.windows.net/opendata/_latest/iso_deliverables_metadata/json/iso_deliverables_metadata.jsonl",
+            "title": "ISO Open Data, deliverables metadata",
+            "publisher": "ISO"
+        }
+    ],
+    "seo_title": "ISO/IEC 42005:2025 AI Impact Assessment Explained",
+    "legal_class": "voluntary",
+    "legal_label": "Voluntary standard or framework: adopted by choice, with no legal force or penalties of its own",
+    "focus_keyword": "ISO/IEC 42005",
+    "standard_meta": {
+        "kind": "guidance standard (not certifiable)",
+        "issuer": "ISO/IEC JTC 1/SC 42, Artificial intelligence",
+        "edition": "2025 (first edition)",
+        "issuer_url": "https://www.iso.org/standard/44545.html"
+    },
+    "instrument_class": "standard",
+    "meta_description": "ISO/IEC 42005:2025 guides AI system impact assessments: scope, who is affected, benefits and harms, documentation. How it fits with ISO 42001 and the EU AI Act."
+}
