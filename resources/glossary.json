@@ -1,5 +1,5 @@
 {
-    "count": 834,
+    "count": 841,
     "terms": [
         {
             "slug": "agent",
@@ -47,7 +47,11 @@
             "origin": "Industry usage from roughly 2024 onward, as tool-using LLM systems reached production.",
             "example": "A procurement workflow where the AI requests quotes, compares them, and drafts the purchase order.",
             "category": "Agents",
-            "definition": "AI capable of planning and acting autonomously toward a goal, using tools and adjusting course based on results. The term marks the shift from AI that answers to AI that does, which is also the shift that creates most new governance exposure."
+            "definition": "AI capable of planning and acting autonomously toward a goal, using tools and adjusting course based on results. The term marks the shift from AI that answers to AI that does, which is also the shift that creates most new governance exposure.",
+            "related_slugs": [
+                "traditional-ai"
+            ],
+            "related_slugs_source": "bridge rows 1984 and 1985 (Stephen 2026-11-04)"
         },
         {
             "slug": "ai-workflow",
@@ -1588,7 +1592,11 @@
             "origin": "Dominant AI paradigm of the 1970s and 1980s.",
             "example": "MYCIN recommending antibiotics from encoded clinical rules in the 1970s.",
             "category": "Core Concepts",
-            "definition": "Early AI that encoded human expert rules into if-then logic for a narrow domain. Its rise and stall carry the field's founding lesson: hand-written rules do not scale to the messiness of the real world."
+            "definition": "Early AI that encoded human expert rules into if-then logic for a narrow domain. Its rise and stall carry the field's founding lesson: hand-written rules do not scale to the messiness of the real world.",
+            "related_slugs": [
+                "traditional-ai"
+            ],
+            "related_slugs_source": "bridge rows 1984 and 1985 (Stephen 2026-11-04)"
         },
         {
             "slug": "federated-learning",
@@ -1620,7 +1628,11 @@
             "origin": "",
             "example": "ChatGPT, Midjourney, and Claude producing drafts, images, and code on request.",
             "category": "Core Concepts",
-            "definition": "Models that create new content, text, images, video, audio, code, from patterns learned in training data. The 2022 shift from AI that classifies to AI that produces is what put this glossary on your reading list."
+            "definition": "Models that create new content, text, images, video, audio, code, from patterns learned in training data. The 2022 shift from AI that classifies to AI that produces is what put this glossary on your reading list.",
+            "related_slugs": [
+                "traditional-ai"
+            ],
+            "related_slugs_source": "bridge rows 1984 and 1985 (Stephen 2026-11-04)"
         },
         {
             "slug": "machine-learning-ml",
@@ -1692,7 +1704,11 @@
             "origin": "",
             "example": "Churn and demand forecasting driving retention and inventory decisions.",
             "category": "Core Concepts",
-            "definition": "AI that forecasts outcomes from historical data rather than generating content. It ran the enterprise quietly for a decade before generative AI took the spotlight, and it still makes most of the money."
+            "definition": "AI that forecasts outcomes from historical data rather than generating content. It ran the enterprise quietly for a decade before generative AI took the spotlight, and it still makes most of the money.",
+            "related_slugs": [
+                "traditional-ai"
+            ],
+            "related_slugs_source": "bridge rows 1984 and 1985 (Stephen 2026-11-04)"
         },
         {
             "slug": "reasoning-model",
@@ -1756,7 +1772,11 @@
             "origin": "",
             "example": "Expert systems of the 1980s encoding knowledge as rules.",
             "category": "Core Concepts",
-            "definition": "Rule-based AI that manipulates explicit symbols and logic rather than learning statistical patterns. The field's first paradigm, and the source of properties neural methods still lack: transparency and guarantees."
+            "definition": "Rule-based AI that manipulates explicit symbols and logic rather than learning statistical patterns. The field's first paradigm, and the source of properties neural methods still lack: transparency and guarantees.",
+            "related_slugs": [
+                "traditional-ai"
+            ],
+            "related_slugs_source": "bridge rows 1984 and 1985 (Stephen 2026-11-04)"
         },
         {
             "slug": "text-to-speech-tts",
@@ -9331,6 +9351,187 @@
             "authored_on": "2026-10-30",
             "authored_here": true,
             "promoted_from": "synced_glossary_terms id 239719"
+        },
+        {
+            "slug": "traditional-ai",
+            "term": "Traditional AI",
+            "example": "A bank scores each card transaction with a fraud model trained on past transactions and blocks the high scores; it never writes anything, it only flags. An older rule-based version would block any foreign transaction over a fixed amount.",
+            "category": "Core Concepts",
+            "comparison": {
+                "rows": [
+                    [
+                        "Primary function",
+                        "Analyze, classify, predict",
+                        "Create new content",
+                        "Plan and carry out multi step tasks toward a goal"
+                    ],
+                    [
+                        "Method",
+                        "Rules, or classical machine learning",
+                        "Deep learning and large transformer models",
+                        "A generative model, usually a large language model, plus tools, memory and planning"
+                    ],
+                    [
+                        "Data",
+                        "Smaller or structured datasets",
+                        "Very large, broad datasets",
+                        ""
+                    ],
+                    [
+                        "Output",
+                        "A decision, score, label or forecast",
+                        "New text, images, video or code",
+                        "Actions taken, such as calls made, files changed or messages sent"
+                    ]
+                ],
+                "source": "bridge rows 1984 and 1985 (Stephen 2026-11-04); the Agentic AI column follows the Agentic AI and AI Agent entries",
+                "caption": "Traditional, generative and agentic AI compared",
+                "columns": [
+                    "",
+                    "Traditional AI",
+                    "Generative AI",
+                    "Agentic AI"
+                ]
+            },
+            "definition": "A loose label for AI that analyzes, classifies or predicts rather than generating new content. It is used in two senses. In the older sense, used by Stanford HAI, it means systems built on rules, logic and human-encoded knowledge, such as expert systems and symbolic reasoning, where programmers write the decision trees and if-then rules themselves instead of the system learning from data. In the business sense, used by Google Cloud, it means conventional machine learning models trained on historical data, often tabular data, for classification, regression, forecasting and clustering, as distinct from generative AI. What both senses share is a narrow task, an output that is a label, score, decision or forecast rather than new text, images or code, and usually lower computing cost and easier explanation than large deep learning models. Generative and traditional AI are often combined, for example a churn model's predictions explored through a chatbot.",
+            "also_called": [
+                "Classical AI",
+                "Conventional AI"
+            ],
+            "author_note": "Written by theworldofai editor 2026-11-04 at Stephen's request, in our own words. Checked against Stanford HAI (rules and symbolic sense, not learning from data) and Google Cloud, When to use generative AI or traditional AI, last updated 2026-10-20 (trained classification and predictive models sense). The two sources define the term differently, so the entry names both. Second source: https://docs.cloud.google.com/docs/ai-ml/generative-ai/generative-ai-or-traditional-ai. Instagram and YouTube citations from the submitted draft not used. See also Symbolic AI, Expert System, Predictive AI, Generative AI (GenAI). Also see Agentic AI (agentic-ai), added 2026-11-04 at Stephen's request.",
+            "authored_on": "2026-11-04",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 243057",
+            "related_slugs": [
+                "symbolic-ai",
+                "expert-system",
+                "predictive-ai",
+                "generative-ai-genai",
+                "agentic-ai"
+            ],
+            "also_called_notes": {
+                "Classical AI": {
+                    "evidence": "editor alias for both senses of the term (bridge row 1984); GOFAI and rule-based AI are not aliases, they match only the Stanford rules-and-symbols sense, which Symbolic AI and Expert System cover",
+                    "evidence_id": "bridge:1984"
+                },
+                "Conventional AI": {
+                    "evidence": "editor alias for both senses of the term (bridge row 1984)",
+                    "evidence_id": "bridge:1984"
+                }
+            },
+            "also_called_source": "bridge row 1984 (Stephen 2026-11-04)",
+            "related_slugs_source": "bridge rows 1984 and 1985 (Stephen 2026-11-04)"
+        },
+        {
+            "slug": "chief-ai-officer",
+            "term": "Chief AI Officer (CAIO)",
+            "example": "A hospital system names its chief medical information officer as Chief AI Officer; she signs off every clinical AI deployment and reports quarterly to the board on the AI inventory and incidents.",
+            "category": "Safety & Governance",
+            "definition": "The executive accountable for how an organization adopts, governs and gets value from AI. The role became common in U.S. federal agencies after a March 2024 OMB memorandum (M-24-10, since replaced by M-25-21) required each agency to designate one, and large companies adopted the title in the same period. In practice the CAIO owns the AI strategy, the AI inventory, the governance policies and the risk process, and chairs or reports to the AI governance board. The role differs from a Chief Data Officer, who owns data assets, and a CISO, who owns security, though in smaller organizations one person may hold two of the three. A CAIO without authority to stop a deployment is a coordinator, not an accountable officer.",
+            "author_note": "Written by theworldofai editor 2026-11-04 to close a gap found against a published AI governance frameworks map. Federal origin from OMB M-24-10 (March 2024) and its replacement M-25-21 (April 2025), both of which require agency CAIOs. See also AI Governance Board, Model Owner, AI Inventory.",
+            "authored_on": "2026-11-04",
+            "linked_from": "twoai_editor_links rows placed 2026-11-04 (bridge row 2019): ISO 42001, NIST AI RMF, DAMA-DMBOK, DCAM and the agents pages",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 243058",
+            "related_slugs": [
+                "ai-governance-board",
+                "model-owner",
+                "ai-inventory"
+            ],
+            "related_slugs_source": "the See also list in the editor's author note (bridge row 2019), kept to terms the library holds"
+        },
+        {
+            "slug": "ai-governance-board",
+            "term": "AI Governance Board",
+            "example": "A retailer's AI governance board meets monthly, approves a demand-forecasting model, defers a hiring-screen tool pending a bias test, and records both decisions in the inventory.",
+            "category": "Safety & Governance",
+            "definition": "A standing committee that decides which AI systems an organization may build, buy and deploy, under what controls, and who is accountable for each. Membership usually spans legal, privacy, security, risk, the business units that use AI, and a technical lead, with the Chief AI Officer chairing or reporting to it. Its instruments are an AI policy, an approval gate for new systems, the AI inventory, and a review cadence for systems already running. ISO/IEC 42001 and the NIST AI RMF both expect a body of this kind under their governance requirements without naming it; the EU AI Act requires deployers of high-risk systems to assign human oversight, which the board allocates. The common failure is a board that reviews but cannot refuse: governance that cannot say no is documentation.",
+            "author_note": "Written by theworldofai editor 2026-11-04 to close a gap found against a published AI governance frameworks map. Grounded in ISO/IEC 42001 clause 5 (leadership) and NIST AI RMF Govern function. See also Chief AI Officer, Model Owner, AI Inventory, Risk Tiering.",
+            "authored_on": "2026-11-04",
+            "linked_from": "twoai_editor_links rows placed 2026-11-04 (bridge row 2019): ISO 42001, NIST AI RMF, DAMA-DMBOK, DCAM and the agents pages",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 243059",
+            "related_slugs": [
+                "chief-ai-officer",
+                "model-owner",
+                "ai-inventory",
+                "risk-tiering"
+            ],
+            "related_slugs_source": "the See also list in the editor's author note (bridge row 2019), kept to terms the library holds"
+        },
+        {
+            "slug": "ai-inventory",
+            "term": "AI Inventory",
+            "example": "A bank's first inventory lists 14 models it built and 61 AI features inside vendor products, including a chatbot in its HR platform that no one had reviewed.",
+            "category": "Safety & Governance",
+            "definition": "The register of every AI system an organization builds, buys or uses, with its purpose, owner, data, risk tier and status. It is the first control in every governance framework because nothing else can be done for a system nobody has listed: the NIST AI RMF Map function, ISO/IEC 42001 and the EU AI Act all assume one exists, and U.S. federal agencies publish theirs each year under OMB rules as AI use case inventories. A useful inventory records the model or vendor, the decision the system influences, the people affected, the data it was trained on and reads, the accountable owner, the risk tier, the date of the last review, and any incidents. Most organizations that build their first inventory find more AI in use than leadership believed, mainly inside purchased software.",
+            "author_note": "Written by theworldofai editor 2026-11-04 to close a gap found against a published AI governance frameworks map. Federal practice from OMB AI use case inventories (see the DOJ AI use case inventory page under /ai-compliance/). See also AI Governance Board, Model Owner, Risk Tiering, Data Lineage.",
+            "authored_on": "2026-11-04",
+            "linked_from": "twoai_editor_links rows placed 2026-11-04 (bridge row 2019): ISO 42001, NIST AI RMF, DAMA-DMBOK, DCAM and the agents pages",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 243060",
+            "related_slugs": [
+                "ai-governance-board",
+                "model-owner",
+                "risk-tiering",
+                "data-lineage"
+            ],
+            "related_slugs_source": "the See also list in the editor's author note (bridge row 2019), kept to terms the library holds"
+        },
+        {
+            "slug": "risk-tiering",
+            "term": "Risk Tiering",
+            "example": "An insurer puts its claims-triage model in the top tier because it affects payouts to individuals, and its internal document-search assistant in the bottom tier because it decides nothing.",
+            "category": "Safety & Governance",
+            "definition": "Sorting AI systems into a small number of risk levels so that controls scale with potential harm instead of applying equally to everything. The EU AI Act is the best-known example: prohibited, high-risk, limited-risk (transparency duties) and minimal-risk, plus separate rules for general-purpose models. Organizations build their own tiers for the same reason, usually three or four, keyed to whether the system makes or shapes a consequential decision about a person, how much autonomy it has, and how many people it reaches. The tier decides what the system must pass before deployment: a low tier needs an inventory entry, a high tier needs an impact assessment, bias testing, human oversight and periodic review. Tiering is only as good as the criteria, and a system placed in a low tier to avoid the work is the usual way the control fails.",
+            "author_note": "Written by theworldofai editor 2026-11-04 to close a gap found against a published AI governance frameworks map. EU AI Act tiers from Regulation (EU) 2024/1689. See also AI Inventory, Impact Assessment, Human Oversight, EU AI Act.",
+            "authored_on": "2026-11-04",
+            "linked_from": "twoai_editor_links rows placed 2026-11-04 (bridge row 2019): ISO 42001, NIST AI RMF, DAMA-DMBOK, DCAM and the agents pages",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 243061",
+            "related_slugs": [
+                "ai-inventory",
+                "impact-assessment",
+                "human-oversight",
+                "eu-ai-act"
+            ],
+            "related_slugs_source": "the See also list in the editor's author note (bridge row 2019), kept to terms the library holds"
+        },
+        {
+            "slug": "data-lineage",
+            "term": "Data Lineage",
+            "example": "A publisher asks a model vendor whether its articles were in the training set; the vendor's lineage records show the crawl date, the dedup step that dropped half the pages, and the model checkpoint trained on the rest.",
+            "category": "Operations",
+            "definition": "The recorded path of data from its source through every transformation, copy and model that used it, so that any output can be traced back to the inputs that produced it. For AI it answers four questions regulators and auditors ask: where the training data came from and under what license, what was done to it before training, which model version was trained on which data version, and which downstream outputs a bad input could have affected. Lineage is what makes a data-provenance claim checkable, and it is the mechanism behind content provenance, dataset documentation and the EU AI Act's training-data summary duty for general-purpose models. It is kept by data catalogs and pipeline tools rather than by hand, and it is useless when it is partial.",
+            "author_note": "Written by theworldofai editor 2026-11-04 to close a gap found against a published AI governance frameworks map. Lineage is a DAMA-DMBOK data management concept; see the DAMA-DMBOK and DCAM pages under /ai-compliance/. See also AI Inventory, Training Data, Data Provenance.",
+            "authored_on": "2026-11-04",
+            "linked_from": "twoai_editor_links rows placed 2026-11-04 (bridge row 2019): ISO 42001, NIST AI RMF, DAMA-DMBOK, DCAM and the agents pages",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 243062",
+            "related_slugs": [
+                "ai-inventory",
+                "data-provenance"
+            ],
+            "related_slugs_source": "the See also list in the editor's author note (bridge row 2019), kept to terms the library holds"
+        },
+        {
+            "slug": "tool-permissions",
+            "term": "Tool Permissions",
+            "example": "A support agent may read the ticket system and draft replies but cannot send them; a human clicks send. A separate finance agent can read invoices but has no tool that moves money.",
+            "category": "Agents",
+            "definition": "The set of actions an AI agent is allowed to take through the tools it is given, and the limits on each: which tools, which operations, on which resources, with what approval. An agent that can call a tool can do whatever that tool can do, so permissions on the tool are the real control on the agent. Good practice gives each agent its own identity, grants read before write, scopes write actions to named resources, requires a human approval step for irreversible or costly actions such as payments, deletions and sending messages, and logs every call. The Model Context Protocol and the major agent frameworks expose permission settings for this purpose. Prompt injection turns over-broad tool permissions into the attack surface: the agent is tricked into using a permission it should never have had.",
+            "author_note": "Written by theworldofai editor 2026-11-04 to close a gap found against a published AI governance frameworks map. See also Least Privilege, Agent Identity, Prompt Injection, Model Context Protocol (MCP), Human-in-the-Loop.",
+            "authored_on": "2026-11-04",
+            "linked_from": "twoai_editor_links rows placed 2026-11-04 (bridge row 2019): ISO 42001, NIST AI RMF, DAMA-DMBOK, DCAM and the agents pages",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 243063",
+            "related_slugs": [
+                "least-privilege",
+                "prompt-injection",
+                "mcp-model-context-protocol",
+                "ai-agent"
+            ],
+            "related_slugs_source": "the See also list in the editor's author note (bridge row 2019), kept to terms the library holds"
         }
     ],
     "source": {
