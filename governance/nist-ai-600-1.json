@@ -1,0 +1,35 @@
+{
+    "slug": "nist-ai-600-1",
+    "short": "NIST AI 600-1 is the Generative AI Profile of the NIST AI Risk Management Framework. It names twelve risks that generative AI creates or worsens and lists suggested actions for each, mapped to the framework's Govern, Map, Measure and Manage functions.",
+    "title": "NIST AI 600-1, Generative AI Profile",
+    "parent": "standards-and-frameworks",
+    "children": [
+    ],
+    "subtitle": "The companion to the NIST AI Risk Management Framework for generative AI, released July 2024",
+    "body_html": "<h2 id=\"what-it-is\">What NIST AI 600-1 is</h2><p>NIST AI 600-1 is a profile of the <a href=\"/ai-compliance/nist-ai-rmf/\">NIST AI Risk Management Framework</a>. The framework, released in January 2023, is written for any AI. The profile, released in July 2024, applies it to generative AI. It was produced under the October 2023 executive order on AI, which directed NIST to write it, and it is voluntary.</p><p>A profile in NIST's vocabulary is a use-case version of a framework: the same functions and categories, with the content specific to one technology or sector filled in.</p><h2 id=\"what-it-covers\">What it covers</h2><p>The profile names twelve risks that generative AI creates or makes worse:</p><ul><li>CBRN information or capabilities</li><li>Confabulation (the document's word for hallucination)</li><li>Dangerous, violent or hateful content</li><li>Data privacy</li><li>Environmental impacts</li><li>Harmful bias and homogenization</li><li>Human-AI configuration (over-reliance, automation bias)</li><li>Information integrity</li><li>Information security</li><li>Intellectual property</li><li>Obscene, degrading or abusive content</li><li>Value chain and component integration</li></ul><p>For each it supplies suggested actions, several hundred in total, organized by the framework's four functions and tagged by which of the twelve risks they address and which part of the AI life cycle they belong to.</p><h2 id=\"how-conformity-is-shown\">How conformity is shown</h2><p>There is no certification. An organization that says it follows the profile should be able to show which suggested actions it adopted, which it rejected and why, and the evidence that the adopted ones are running. The profile is written so that an organization can pick actions, not take all of them.</p><h2 id=\"why-it-matters\">Why it matters</h2><p>It is the most detailed public list of generative AI controls from any government, and it is the list auditors and procurement teams in the United States reach for. The twelve risk names have become shared vocabulary; confabulation, information integrity and human-AI configuration appear in contracts and policies because this document named them.</p><h2 id=\"what-a-claim-does-not-mean\">What a claim does not mean</h2><p>Following the profile is not a legal safe harbor and does not satisfy the EU AI Act or any state law on its own, though several state laws treat NIST alignment as evidence of reasonable care.</p><h2 id=\"related-standards\">Related standards</h2><p><a href=\"/ai-compliance/nist-ai-rmf/\">NIST AI RMF</a> is the parent framework. <a href=\"/ai-compliance/iso-42001/\">ISO/IEC 42001</a> and <a href=\"/ai-compliance/iso-23894/\">ISO/IEC 23894</a> are the ISO counterparts. <a href=\"/ai-compliance/iso-27090/\">ISO/IEC 27090</a> covers AI security threats, which overlap the information security risk here. See the <a href=\"/ai-compliance/standards-and-frameworks/\">Standards and Frameworks hub</a>.</p><h2 id=\"primary-sources\">Primary sources</h2><ul><li><a href=\"https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf\" rel=\"noopener\">NIST AI 600-1, Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile</a>, July 2024</li><li><a href=\"https://www.nist.gov/itl/ai-risk-management-framework\" rel=\"noopener\">NIST AI RMF program page</a></li></ul>",
+    "citations": [
+        {
+            "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+            "year": "2024",
+            "title": "NIST AI 600-1, AI RMF: Generative AI Profile",
+            "publisher": "NIST"
+        },
+        {
+            "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+            "title": "AI Risk Management Framework",
+            "publisher": "NIST"
+        }
+    ],
+    "seo_title": "NIST AI 600-1 Generative AI Profile Explained",
+    "legal_class": "voluntary",
+    "legal_label": "Voluntary standard or framework: adopted by choice, with no legal force or penalties of its own",
+    "focus_keyword": "NIST AI 600-1",
+    "standard_meta": {
+        "kind": "framework profile (voluntary, U.S. federal)",
+        "issuer": "National Institute of Standards and Technology (NIST)",
+        "edition": "July 2024",
+        "issuer_url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf"
+    },
+    "instrument_class": "standard",
+    "meta_description": "NIST AI 600-1, the Generative AI Profile of the AI RMF: the twelve generative AI risks, the suggested actions, and how to use it with ISO 42001 and the EU AI Act."
+}
