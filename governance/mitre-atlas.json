@@ -1,0 +1,34 @@
+{
+    "slug": "mitre-atlas",
+    "short": "MITRE ATLAS, the Adversarial Threat Landscape for Artificial-Intelligence Systems, is a public knowledge base of the tactics and techniques attackers use against machine learning and AI systems, modeled on MITRE ATT&CK and backed by documented case studies.",
+    "title": "MITRE ATLAS",
+    "parent": "standards-and-frameworks",
+    "children": [
+    ],
+    "subtitle": "The adversary tactics and techniques knowledge base for attacks on AI systems",
+    "body_html": "<h2 id=\"what-it-is\">What MITRE ATLAS is</h2><p>MITRE ATLAS is a knowledge base of adversary behavior against AI and machine learning systems. MITRE published it in 2021 as a companion to ATT&CK, its widely used catalog of attacks on conventional IT. ATLAS uses the same structure: tactics are the attacker's goals, techniques are how each goal is reached, and case studies are real incidents that show the techniques in use. It is free, public and maintained with contributions from industry and government.</p><h2 id=\"what-it-covers\">What it covers</h2><ul><li><b>Tactics</b> spanning the attack life cycle: reconnaissance, resource development, initial access, ML model access, execution, persistence, privilege escalation, defense evasion, credential access, discovery, collection, ML attack staging, exfiltration and impact.</li><li><b>Techniques</b> specific to AI, such as poisoning training data, evading a model with crafted inputs, extracting a model or its training data through queries, and, since 2023, prompt injection and jailbreaks against large language models and attacks on LLM plugins and agents.</li><li><b>Case studies</b> contributed by researchers and companies, each mapped to the techniques it used.</li><li><b>Mitigations</b> mapped to techniques, added as the project matured.</li></ul><h2 id=\"how-it-is-used\">How it is used</h2><p>Security teams use ATLAS the way they use ATT&CK: to build threat models for an AI system, to design red-team exercises, to map detections to known techniques, and to describe an incident in shared vocabulary. Several AI security products label their findings with ATLAS technique identifiers.</p><h2 id=\"what-a-claim-does-not-mean\">What a claim does not mean</h2><p>ATLAS is not a standard and nobody is compliant with it. A vendor that says its product covers ATLAS techniques is making a coverage claim that can be checked technique by technique; it is not a certification.</p><h2 id=\"related-standards\">Related frameworks</h2><p>The <a href=\"/ai-ecosystem/enterprise-applications-governance-and-tools/0ff57218/#owasp-agentic\">OWASP agentic security list</a> and the OWASP Top 10 for LLM applications are the developer-facing counterparts, listing weaknesses rather than attacker behavior. <a href=\"/ai-compliance/iso-27090/\">ISO/IEC 27090</a> is the ISO standard on AI security threats. <a href=\"/ai-compliance/nist-ai-600-1/\">NIST AI 600-1</a> lists information security among its twelve generative AI risks. See the <a href=\"/ai-compliance/standards-and-frameworks/\">Standards and Frameworks hub</a>.</p><h2 id=\"primary-sources\">Primary sources</h2><ul><li><a href=\"https://atlas.mitre.org/\" rel=\"noopener\">MITRE ATLAS</a>, tactics, techniques, case studies and mitigations</li><li><a href=\"https://attack.mitre.org/\" rel=\"noopener\">MITRE ATT&CK</a>, the parent framework</li></ul>",
+    "citations": [
+        {
+            "url": "https://atlas.mitre.org/",
+            "title": "MITRE ATLAS, Adversarial Threat Landscape for Artificial-Intelligence Systems",
+            "publisher": "MITRE"
+        },
+        {
+            "url": "https://attack.mitre.org/",
+            "title": "MITRE ATT&CK",
+            "publisher": "MITRE"
+        }
+    ],
+    "seo_title": "MITRE ATLAS Explained: AI Attack Tactics and Techniques",
+    "legal_class": "voluntary",
+    "legal_label": "Voluntary standard or framework: adopted by choice, with no legal force or penalties of its own",
+    "focus_keyword": "MITRE ATLAS",
+    "standard_meta": {
+        "kind": "threat knowledge base (free, public)",
+        "issuer": "MITRE Corporation",
+        "edition": "launched 2021, updated continuously",
+        "issuer_url": "https://atlas.mitre.org/"
+    },
+    "instrument_class": "standard",
+    "meta_description": "MITRE ATLAS, the ATT&CK-style knowledge base of attacks on AI systems: tactics, techniques, case studies, and how security teams use it with OWASP and ISO 27090."
+}
