@@ -1,6 +1,6 @@
 {
  "access_note": "arena.ai publishes no API. Boards are read from LMArena's own dataset on Hugging Face (lmarena-ai/leaderboard-dataset) or from the daily public snapshot mirror at github.com/oolong-tea-2026/arena-ai-leaderboards, whichever carries the newer board; each board names its route in via and the date it carries in as_of.",
- "as_of": "2026-11-06",
+ "as_of": "2026-11-08",
  "boards": [
   {
    "key": "text",
@@ -8,7 +8,7 @@
    "note": "Head-to-head human preference on general conversation. The closest thing the field has to a general-purpose ranking.",
    "scored": true,
    "source_url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset/viewer/text_style_control/latest",
-   "fetched_at": "2026-11-08T18:18:21Z",
+   "fetched_at": "2026-11-10T04:00:58Z",
    "count": 100,
    "models": [
     {
@@ -16,36 +16,36 @@
      "model": "Gemini 4 Carbon (High)",
      "vendor": "google",
      "license": "Proprietary",
-     "score": 1526,
-     "ci": 9,
-     "votes": 4483
+     "score": 1527,
+     "ci": 10,
+     "votes": 4281
     },
     {
      "rank": 2,
      "model": "Gemini 4 Argon (High)",
      "vendor": "google",
      "license": "Proprietary",
-     "score": 1523,
-     "ci": 6,
-     "votes": 18399
+     "score": 1522,
+     "ci": 5,
+     "votes": 18850
     },
     {
      "rank": 3,
      "model": "Muse Wonder (Max)",
      "vendor": "meta",
      "license": "Proprietary",
-     "score": 1513,
-     "ci": 7,
-     "votes": 11229
+     "score": 1512,
+     "ci": 6,
+     "votes": 11483
     },
     {
      "rank": 4,
      "model": "Claude Opus 5.5 (High)",
      "vendor": "anthropic",
      "license": "Proprietary",
-     "score": 1505,
+     "score": 1506,
      "ci": 6,
-     "votes": 14849
+     "votes": 14815
     },
     {
      "rank": 5,
@@ -54,16 +54,16 @@
      "license": "Proprietary",
      "score": 1504,
      "ci": 4,
-     "votes": 46601
+     "votes": 45562
     },
     {
      "rank": 6,
      "model": "Claude Fable 5.1 (Max)",
      "vendor": "anthropic",
      "license": "Proprietary",
-     "score": 1504,
+     "score": 1503,
      "ci": 6,
-     "votes": 19892
+     "votes": 19755
     },
     {
      "rank": 7,
@@ -72,7 +72,7 @@
      "license": "Proprietary",
      "score": 1503,
      "ci": 3,
-     "votes": 85548
+     "votes": 84428
     },
     {
      "rank": 8,
@@ -81,7 +81,7 @@
      "license": "Proprietary",
      "score": 1501,
      "ci": 4,
-     "votes": 65007
+     "votes": 64295
     },
     {
      "rank": 9,
@@ -90,7 +90,7 @@
      "license": "Proprietary",
      "score": 1498,
      "ci": 4,
-     "votes": 59680
+     "votes": 59624
     },
     {
      "rank": 10,
@@ -99,28 +99,28 @@
      "license": "Proprietary",
      "score": 1496,
      "ci": 3,
-     "votes": 90487
+     "votes": 89224
     },
     {
      "rank": 11,
      "model": "Muse Spark 1.3 (Max)",
      "vendor": "meta",
      "license": "Proprietary",
-     "score": 1495,
+     "score": 1496,
      "ci": 5,
-     "votes": 25672
+     "votes": 25563
     },
     {
      "rank": 12,
-     "model": "Claude Opus 4.7",
-     "vendor": "anthropic",
+     "model": "Muse Spark 1.2 (xHigh)",
+     "vendor": "meta",
      "license": "Proprietary",
      "score": 1494,
-     "ci": 4,
-     "votes": 66092
+     "ci": 6,
+     "votes": 14561
     }
    ],
-   "as_of": "2026-11-06",
+   "as_of": "2026-11-08",
    "via": "LMArena dataset lmarena-ai/leaderboard-dataset, config text_style_control"
   },
   {
@@ -129,7 +129,7 @@
    "note": "The same vote mechanic restricted to coding prompts. Ranks differ sharply from the text board, which is the reason to read both.",
    "scored": true,
    "source_url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset/viewer/webdev/latest",
-   "fetched_at": "2026-11-08T18:18:21Z",
+   "fetched_at": "2026-11-10T04:00:58Z",
    "count": 100,
    "models": [
     {
@@ -137,72 +137,72 @@
      "model": "Claude Opus 5.5 (Max)",
      "vendor": "anthropic",
      "license": "Proprietary",
-     "score": 1814,
+     "score": 1818,
      "ci": 12,
-     "votes": 4132
+     "votes": 4034
     },
     {
      "rank": 2,
      "model": "Claude Sonnet 5.5 (xHigh)",
      "vendor": "anthropic",
      "license": "Proprietary",
-     "score": 1772,
+     "score": 1773,
      "ci": 10,
-     "votes": 5648
+     "votes": 5536
     },
     {
      "rank": 3,
-     "model": "GPT-6 Astra (Max)",
-     "vendor": "openai",
-     "license": "Proprietary",
-     "score": 1770,
-     "ci": 9,
-     "votes": 8364
-    },
-    {
-     "rank": 4,
      "model": "Gemini 4 Carbon (High)",
      "vendor": "google",
      "license": "Proprietary",
-     "score": 1767,
+     "score": 1768,
      "ci": 15,
-     "votes": 2240
+     "votes": 2130
+    },
+    {
+     "rank": 4,
+     "model": "GPT-6 Astra (Max)",
+     "vendor": "openai",
+     "license": "Proprietary",
+     "score": 1767,
+     "ci": 9,
+     "votes": 8161
     },
     {
      "rank": 5,
      "model": "Claude Fable 5.1 (Max)",
      "vendor": "anthropic",
      "license": "Proprietary",
-     "score": 1746,
+     "score": 1744,
      "ci": 8,
-     "votes": 9764
+     "votes": 9507
     },
     {
      "rank": 6,
      "model": "GPT-6.1 Sol (Max)",
      "vendor": "openai",
      "license": "Proprietary",
-     "score": 1742,
+     "score": 1743,
      "ci": 10,
-     "votes": 5342
+     "votes": 5283
     },
     {
      "rank": 7,
      "model": "Muse Wonder Full (Max)",
      "vendor": "meta",
      "license": "Proprietary",
-     "score": 1726,
+     "score": 1724,
      "ci": 14,
-     "votes": 2280
+     "votes": 2080
     },
     {
      "rank": 8,
      "model": "Claude Sonnet 5.5 (High)",
      "vendor": "anthropic",
      "license": "Proprietary",
-     "score": 1711,
+     "score": 1713,
      "ci": 9,
-     "votes": 7777
+     "votes": 7582
     },
     {
      "rank": 9,
@@ -211,16 +211,16 @@
      "license": "Proprietary",
      "score": 1691,
      "ci": 6,
-     "votes": 20288
+     "votes": 19583
     },
     {
      "rank": 10,
      "model": "Kimi K3.1 Pro (Max)",
      "vendor": "moonshot",
      "license": "Kimi K3.1 Pro License",
-     "score": 1684,
+     "score": 1687,
      "ci": 10,
-     "votes": 4595
+     "votes": 4651
     },
     {
      "rank": 11,
@@ -229,19 +229,19 @@
      "license": "Proprietary",
      "score": 1683,
      "ci": 10,
-     "votes": 4702
+     "votes": 4677
     },
     {
      "rank": 12,
      "model": "GPT-6.1 Terra (Max)",
      "vendor": "openai",
      "license": "Proprietary",
-     "score": 1680,
+     "score": 1678,
      "ci": 11,
-     "votes": 3603
+     "votes": 3626
     }
    ],
-   "as_of": "2026-11-06",
+   "as_of": "2026-11-08",
    "via": "LMArena dataset lmarena-ai/leaderboard-dataset, config webdev"
   },
   {
@@ -250,7 +250,7 @@
    "note": "Image understanding and mixed text-image prompts.",
    "scored": true,
    "source_url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset/viewer/vision_style_control/latest",
-   "fetched_at": "2026-11-08T18:18:21Z",
+   "fetched_at": "2026-11-10T04:00:58Z",
    "count": 100,
    "models": [
     {
@@ -260,25 +260,25 @@
      "license": "Proprietary",
      "score": 1309,
      "ci": 7,
-     "votes": 15749
+     "votes": 15527
     },
     {
      "rank": 2,
-     "model": "Qwen3.8-Max",
-     "vendor": "alibaba",
-     "license": "Proprietary",
-     "score": 1300,
-     "ci": 7,
-     "votes": 9958
-    },
-    {
-     "rank": 3,
      "model": "Claude Opus 4.7",
      "vendor": "anthropic",
      "license": "Proprietary",
+     "score": 1300,
+     "ci": 7,
+     "votes": 23826
+    },
+    {
+     "rank": 3,
+     "model": "Qwen3.8-Max",
+     "vendor": "alibaba",
+     "license": "Proprietary",
      "score": 1299,
      "ci": 7,
-     "votes": 23806
+     "votes": 9839
     },
     {
      "rank": 4,
@@ -287,7 +287,7 @@
      "license": "Proprietary",
      "score": 1299,
      "ci": 6,
-     "votes": 22250
+     "votes": 22109
     },
     {
      "rank": 5,
@@ -296,73 +296,73 @@
      "license": "Proprietary",
      "score": 1298,
      "ci": 7,
-     "votes": 22718
+     "votes": 22590
     },
     {
      "rank": 6,
      "model": "Claude Opus 5.5 (High)",
      "vendor": "anthropic",
      "license": "Proprietary",
-     "score": 1296,
+     "score": 1295,
      "ci": 10,
-     "votes": 4826
+     "votes": 4829
     },
     {
      "rank": 7,
-     "model": "Gemini 3.7 Flash (High)",
-     "vendor": "google",
-     "license": "Proprietary",
-     "score": 1294,
-     "ci": 8,
-     "votes": 7062
-    },
-    {
-     "rank": 8,
      "model": "Muse Spark",
      "vendor": "meta",
      "license": "Proprietary",
      "score": 1294,
      "ci": 9,
-     "votes": 5866
+     "votes": 5841
+    },
+    {
+     "rank": 8,
+     "model": "Gemini 3.7 Flash (High)",
+     "vendor": "google",
+     "license": "Proprietary",
+     "score": 1294,
+     "ci": 9,
+     "votes": 6839
     },
     {
      "rank": 9,
-     "model": "Claude Opus 4.6",
-     "vendor": "anthropic",
+     "model": "Muse Spark 1.2 (xHigh)",
+     "vendor": "meta",
      "license": "Proprietary",
-     "score": 1293,
-     "ci": 6,
-     "votes": 26784
+     "score": 1294,
+     "ci": 14,
+     "votes": 1929
     },
     {
      "rank": 10,
-     "model": "GPT-6.1 Sol (Max)",
-     "vendor": "openai",
-     "license": "Proprietary",
-     "score": 1293,
-     "ci": 11,
-     "votes": 3994
-    },
-    {
-     "rank": 11,
      "model": "Gemini 3.8 Flash (High)",
      "vendor": "google",
      "license": "Proprietary",
      "score": 1293,
      "ci": 8,
-     "votes": 7683
+     "votes": 7682
+    },
+    {
+     "rank": 11,
+     "model": "Claude Opus 4.6",
+     "vendor": "anthropic",
+     "license": "Proprietary",
+     "score": 1293,
+     "ci": 6,
+     "votes": 26605
     },
     {
      "rank": 12,
-     "model": "Muse Spark 1.2 (xHigh)",
-     "vendor": "meta",
+     "model": "GPT-6.1 Sol (Max)",
+     "vendor": "openai",
      "license": "Proprietary",
      "score": 1292,
-     "ci": 14,
-     "votes": 1945
+     "ci": 10,
+     "votes": 4034
     }
    ],
-   "as_of": "2026-11-06",
+   "as_of": "2026-11-08",
    "via": "LMArena dataset lmarena-ai/leaderboard-dataset, config vision_style_control"
   },
   {
@@ -371,7 +371,7 @@
    "note": "Models answering with live retrieval, where citation quality matters as much as fluency.",
    "scored": true,
    "source_url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset/viewer/search_style_control/latest",
-   "fetched_at": "2026-11-08T18:18:21Z",
+   "fetched_at": "2026-11-10T04:00:58Z",
    "count": 42,
    "models": [
     {
@@ -379,18 +379,18 @@
      "model": "GPT-5.6 Sol (xHigh)",
      "vendor": "openai",
      "license": "Proprietary",
-     "score": 1255,
+     "score": 1256,
      "ci": 7,
-     "votes": 65771
+     "votes": 62627
     },
     {
      "rank": 2,
      "model": "GPT-6.1 Sol (Max)",
      "vendor": "openai",
      "license": "Proprietary",
-     "score": 1247,
+     "score": 1249,
      "ci": 8,
-     "votes": 28386
+     "votes": 26802
     },
     {
      "rank": 3,
@@ -399,16 +399,16 @@
      "license": "Proprietary",
      "score": 1245,
      "ci": 8,
-     "votes": 19011
+     "votes": 17457
     },
     {
      "rank": 4,
      "model": "GPT-6 Sol (Max)",
      "vendor": "openai",
      "license": "Proprietary",
-     "score": 1230,
+     "score": 1229,
      "ci": 8,
-     "votes": 14833
+     "votes": 13508
     },
     {
      "rank": 5,
@@ -417,34 +417,34 @@
      "license": "Proprietary",
      "score": 1229,
      "ci": 7,
-     "votes": 73418
+     "votes": 69533
     },
     {
      "rank": 6,
-     "model": "Qwen3.8-Max",
-     "vendor": "alibaba",
-     "license": "Proprietary",
-     "score": 1228,
-     "ci": 14,
-     "votes": 1922
-    },
-    {
-     "rank": 7,
      "model": "Claude Fable 5.1 (High)",
      "vendor": "anthropic",
      "license": "Proprietary",
-     "score": 1227,
+     "score": 1228,
      "ci": 7,
-     "votes": 36045
+     "votes": 34006
+    },
+    {
+     "rank": 7,
+     "model": "Qwen3.8-Max",
+     "vendor": "alibaba",
+     "license": "Proprietary",
+     "score": 1226,
+     "ci": 14,
+     "votes": 2059
     },
     {
      "rank": 8,
      "model": "GPT-5.5 (Search)",
      "vendor": "openai",
      "license": "Proprietary",
-     "score": 1227,
+     "score": 1225,
      "ci": 5,
-     "votes": 125866
+     "votes": 121707
     },
     {
      "rank": 9,
@@ -453,45 +453,45 @@
      "license": "Proprietary",
      "score": 1222,
      "ci": 5,
-     "votes": 172545
+     "votes": 166748
     },
     {
      "rank": 10,
-     "model": "Claude Opus 5 (High)",
-     "vendor": "anthropic",
-     "license": "Proprietary",
-     "score": 1213,
-     "ci": 7,
-     "votes": 36480
-    },
-    {
-     "rank": 11,
      "model": "Claude Opus 5.5 (Medium)",
      "vendor": "anthropic",
      "license": "Proprietary",
-     "score": 1213,
+     "score": 1214,
      "ci": 7,
-     "votes": 33971
+     "votes": 32009
+    },
+    {
+     "rank": 11,
+     "model": "Claude Opus 5 (High)",
+     "vendor": "anthropic",
+     "license": "Proprietary",
+     "score": 1214,
+     "ci": 7,
+     "votes": 34226
     },
     {
      "rank": 12,
-     "model": "Claude Opus 4.7",
-     "vendor": "anthropic",
+     "model": "GPT-6 Luna (Max)",
+     "vendor": "openai",
      "license": "Proprietary",
-     "score": 1210,
-     "ci": 5,
-     "votes": 126869
+     "score": 1211,
+     "ci": 7,
+     "votes": 47488
     }
    ],
-   "as_of": "2026-11-06",
+   "as_of": "2026-11-08",
    "via": "LMArena dataset lmarena-ai/leaderboard-dataset, config search_style_control"
   }
  ],
- "date": "2026-11-06",
- "generated": "2026-11-08T18:18:21Z",
+ "date": "2026-11-08",
+ "generated": "2026-11-10T04:00:58Z",
  "method": "Crowdsourced blind pairwise voting, scored with a Bradley-Terry model and reported as an Elo-style rating with a 95 percent confidence interval. Gaps under roughly 10 points sit inside the noise floor and should not be read as a ranking.",
- "mirror_latest": "2026-11-08",
- "oldest_board_as_of": "2026-11-06",
+ "mirror_latest": "2026-11-09",
+ "oldest_board_as_of": "2026-11-08",
  "source": "arena.ai (formerly LMSYS Chatbot Arena)",
  "source_url": "https://arena.ai/leaderboard/"
 }
