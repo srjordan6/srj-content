@@ -1,5 +1,5 @@
 {
-    "count": 842,
+    "count": 847,
     "terms": [
         {
             "slug": "agent",
@@ -9543,6 +9543,61 @@
             "authored_on": "2026-11-04",
             "authored_here": true,
             "promoted_from": "synced_glossary_terms id 243056"
+        },
+        {
+            "slug": "800-vdc-800-volt-direct-current",
+            "term": "800 VDC (800 volt direct current)",
+            "example": "NVIDIA times full-scale production of 800 VDC data centers to its Kyber rack-scale systems in 2027. In November 2026 SOLUM showed a 26 kW-class battery backup DC/DC converter for 800 Vdc racks built with Infineon parts.",
+            "category": "Data Centres & Infrastructure",
+            "definition": "A way of feeding power to AI data center racks as direct current at 800 volts instead of alternating current. In NVIDIA's architecture, developed with Google and Microsoft through the Open Compute Project, grid power at 13.8 kV AC is converted once to 800 VDC at the edge of the facility and carried to the racks, where DC/DC converters step it down to 12 V for the GPUs. It replaces 415 V AC distribution and the 54 V DC busbars inside today's racks, which NVIDIA says hit physical limits above about 200 kW per rack. NVIDIA states that 800 V busways carry 85 percent more power than 415 VAC through the same conductor size.",
+            "author_note": "PROPOSAL from the srj session for bridge row 2153 (2026-11-08), held with is_active false for the theworldofai editor to review and switch on; glossary_promote publishes it on the run after that. Defined from NVIDIA's technical blog (May 20, 2025, updated July 31) and https://blogs.nvidia.com/blog/800-vdc-power-architecture-ai-factory/ (August 11, 2026: OCP joint white paper March 2026, LVDC Solid-State Transformer Specification v0.3 July 2026, more than 80 companies), both read 2026-11-08. Example from SOLUM's release https://www.solum-group.com/solum/press-release-detail.infineon-mou. Site examples: Infineon /companies/a5367de1/, story /ai-news/8a61b0ab/, the 800 VDC power distribution entry on Data Centers. See also High voltage direct current (HVDC) in data centers, Battery backup unit (BBU), Rack Density.",
+            "authored_on": "2026-11-08",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 247268"
+        },
+        {
+            "slug": "high-voltage-direct-current-hvdc-in-data-centers",
+            "term": "High voltage direct current (HVDC) in data centers",
+            "example": "SOLUM and Infineon signed a memorandum of understanding on 5 November 2026 to develop HVDC power supply units, battery backup units and intermediate bus converters for AI data centers.",
+            "category": "Data Centres & Infrastructure",
+            "definition": "Distributing electricity inside a data center as direct current at several hundred volts, rather than as alternating current that each power supply must rectify. Fewer AC to DC conversion stages mean lower losses, fewer power supplies and less copper. Two forms are being built for AI racks: the Open Compute Project's Open Rack V3 power supply fed at plus or minus 400 V DC that delivers 50 V to the rack at up to 18 kW (specification 1.0, February 2026), and NVIDIA's 800 VDC architecture. On the power grid HVDC usually means long-distance transmission lines; this entry is the data center sense.",
+            "author_note": "PROPOSAL from the srj session for bridge row 2153 (2026-11-08), held with is_active false for the theworldofai editor to review and switch on. Defined from the OCP Open Rack V3 +/- 400V to 50V 18kW PSU Design Specification 1.0 (2026-02-20, contributed by Meta; its acronym list expands HVDC as High Voltage Direct Current) and NVIDIA's 800 VDC technical blog, both read 2026-11-08. Example from SOLUM's release https://www.solum-group.com/solum/press-release-detail.infineon-mou. Site examples: Infineon /companies/a5367de1/, story /ai-news/8a61b0ab/. See also 800 VDC (800 volt direct current), Battery backup unit (BBU).",
+            "authored_on": "2026-11-08",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 247269"
+        },
+        {
+            "slug": "battery-backup-unit-bbu",
+            "term": "Battery backup unit (BBU)",
+            "example": "SOLUM is developing a 26 kW-class BBU DC/DC converter for 800 Vdc rack power, built with Infineon CoolSiC MOSFETs and targeted for mass production in 2027.",
+            "category": "Data Centres & Infrastructure",
+            "definition": "A battery module that sits in a server rack and keeps the rack's DC power bus up when utility power fails. In the Open Compute Project's Open Rack V3 specification (revision 1.4, September 2023), six BBUs with 5+1 redundancy fill a shelf on the rack's 48 V busbar; a BBU starts discharging when the bus falls below 48.5 V for 2 milliseconds, must deliver 3 kW for 4 minutes after four years of service, and tests its own capacity every 90 days. It protects one rack, where a battery energy storage system (BESS) serves a whole site.",
+            "author_note": "PROPOSAL from the srj session for bridge row 2153 (2026-11-08), held with is_active false for the theworldofai editor to review and switch on. Defined from the OCP Open Rack V3 48V BBU specification Rev 1.4 (2023-09-12, Meta and Delta Electronics), sections 2, 4.1 and 4.2.1, read 2026-11-08. Example from SOLUM's release https://www.solum-group.com/solum/press-release-detail.infineon-mou. Site examples: Infineon /companies/a5367de1/, story /ai-news/8a61b0ab/. See also Battery Energy Storage System (BESS), 800 VDC (800 volt direct current).",
+            "authored_on": "2026-11-08",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 247270"
+        },
+        {
+            "slug": "gallium-nitride-gan-power-semiconductors",
+            "term": "Gallium nitride (GaN) power semiconductors",
+            "example": "Infineon supplies silicon, silicon carbide and gallium nitride power semiconductors to SOLUM for AI data center power supplies under the two companies' November 2026 agreement.",
+            "category": "Data Centres & Infrastructure",
+            "definition": "Power transistors made from gallium nitride, a wide bandgap semiconductor with a bandgap of 3.4 electron volts against 1.1 for silicon. The U.S. Department of Energy describes wide bandgap devices as able to run at higher voltages, higher temperatures and switching frequencies at least ten times those of silicon devices, which allows smaller, cheaper and more efficient power converters. Gallium nitride is also the material behind high-efficiency LEDs. In AI data centers, GaN and silicon carbide parts go into server power supplies and rack power converters.",
+            "author_note": "PROPOSAL from the srj session for bridge row 2153 (2026-11-08), held with is_active false for the theworldofai editor to review and switch on. Defined from the U.S. DOE Advanced Manufacturing Office fact sheet Wide Bandgap Semiconductors: Pursuing the Promise (DOE/EE-0910, April 2013; bandgap table and device benefits), read 2026-11-08; the fact sheet is old but its material properties are not dated. Data center use from SOLUM's release https://www.solum-group.com/solum/press-release-detail.infineon-mou. Site examples: Infineon /companies/a5367de1/, story /ai-news/8a61b0ab/. See also Silicon carbide (SiC) power semiconductors.",
+            "authored_on": "2026-11-08",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 247271"
+        },
+        {
+            "slug": "silicon-carbide-sic-power-semiconductors",
+            "term": "Silicon carbide (SiC) power semiconductors",
+            "example": "SOLUM's 26 kW-class battery backup DC/DC converter for 800 Vdc racks uses Infineon CoolSiC MOSFETs, which are silicon carbide transistors.",
+            "category": "Data Centres & Infrastructure",
+            "definition": "Power devices made from silicon carbide, a wide bandgap semiconductor with a bandgap of 3.3 electron volts against 1.1 for silicon. The U.S. Department of Energy credits wide bandgap devices with handling voltages more than ten times higher than silicon devices, operating above 300 degrees Celsius and removing up to 90 percent of the losses in AC to DC and DC to AC conversion. That suits silicon carbide to power conversion at high voltage, from electric vehicles to 800 V DC data center equipment.",
+            "author_note": "PROPOSAL from the srj session for bridge row 2153 (2026-11-08), held with is_active false for the theworldofai editor to review and switch on. Defined from the U.S. DOE Advanced Manufacturing Office fact sheet Wide Bandgap Semiconductors: Pursuing the Promise (DOE/EE-0910, April 2013), read 2026-11-08. Example from SOLUM's release https://www.solum-group.com/solum/press-release-detail.infineon-mou. Site examples: Infineon /companies/a5367de1/, story /ai-news/8a61b0ab/. See also Gallium nitride (GaN) power semiconductors, 800 VDC (800 volt direct current).",
+            "authored_on": "2026-11-08",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 247272"
         }
     ],
     "source": {
