@@ -1,0 +1,67 @@
+{
+    "slug": "ai-governance-standards",
+    "intro": "These are the standards and frameworks written for artificial intelligence itself. Some are management systems an organisation can be certified against, such as ISO/IEC 42001. Some are risk frameworks it can adopt voluntarily, such as the NIST AI Risk Management Framework and its generative AI profile. Others define the vocabulary, catalogue the attacks on AI systems, or set out principles that governments have agreed to. None of them has legal force on its own, but laws, regulators and contracts increasingly point to them, and the EU AI Act relies on harmonised standards such as EN 18286 to show conformity. Each page says what the standard covers, who issues it, how a claim to follow it is checked, and what a claim does not mean.",
+    "short": "These are the standards and frameworks written for artificial intelligence itself.",
+    "title": "AI Governance and Assurance",
+    "groups": [
+        {
+            "id": "management-systems-and-risk",
+            "title": "Management systems and risk",
+            "members": [
+                "iso-42001",
+                "nist-ai-rmf",
+                "nist-ai-600-1",
+                "iso-23894",
+                "iso-42005",
+                "ieee-2863",
+                "en-18286"
+            ]
+        },
+        {
+            "id": "vocabulary-threats-and-testing",
+            "title": "Vocabulary, threats and testing",
+            "members": [
+                "iso-22989",
+                "iso-27090",
+                "mitre-atlas",
+                "ai-assurance-standards"
+            ]
+        },
+        {
+            "id": "intergovernmental-principles",
+            "title": "Intergovernmental principles",
+            "members": [
+                "oecd-ai-principles",
+                "unesco-ai-ethics",
+                "g7-hiroshima-code"
+            ]
+        }
+    ],
+    "parent": "standards-and-frameworks",
+    "children": [
+        "iso-42001",
+        "nist-ai-rmf",
+        "nist-ai-600-1",
+        "iso-23894",
+        "iso-42005",
+        "ieee-2863",
+        "en-18286",
+        "iso-22989",
+        "iso-27090",
+        "mitre-atlas",
+        "ai-assurance-standards",
+        "oecd-ai-principles",
+        "unesco-ai-ethics",
+        "g7-hiroshima-code"
+    ],
+    "subtitle": "Standards and frameworks written for artificial intelligence itself",
+    "body_html": "<p>These are the standards and frameworks written for artificial intelligence itself. Some are management systems an organisation can be certified against, such as ISO/IEC 42001. Some are risk frameworks it can adopt voluntarily, such as the NIST AI Risk Management Framework and its generative AI profile. Others define the vocabulary, catalogue the attacks on AI systems, or set out principles that governments have agreed to. None of them has legal force on its own, but laws, regulators and contracts increasingly point to them, and the EU AI Act relies on harmonised standards such as EN 18286 to show conformity. Each page says what the standard covers, who issues it, how a claim to follow it is checked, and what a claim does not mean.</p><h2 id=\"management-systems-and-risk\">Management systems and risk</h2><ul><li><a href=\"/ai-compliance/iso-42001/\" title=\"ISO/IEC 42001\">ISO/IEC 42001</a><br>The AI Management System Standard</li><li><a href=\"/ai-compliance/nist-ai-rmf/\" title=\"NIST AI Risk Management Framework\">NIST AI Risk Management Framework</a><br>Govern, Map, Measure, Manage</li><li><a href=\"/ai-compliance/nist-ai-600-1/\" title=\"NIST AI 600-1, Generative AI Profile\">NIST AI 600-1</a><br>The companion to the NIST AI Risk Management Framework for generative AI, released July 2024</li><li><a href=\"/ai-compliance/iso-23894/\" title=\"ISO/IEC 23894, AI Risk Management\">ISO/IEC 23894</a><br>The guidance standard that applies ISO 31000 risk management to AI, published 2023</li><li><a href=\"/ai-compliance/iso-42005/\" title=\"ISO/IEC 42005, AI System Impact Assessment\">ISO/IEC 42005</a><br>The guidance standard for assessing how an AI system affects people and society, published 2025</li><li><a href=\"/ai-compliance/ieee-2863/\" title=\"IEEE 2863-2026, Organizational Governance of AI\">IEEE 2863-2026</a><br>IEEE's recommended practice for how a governing body directs and oversees AI</li><li><a href=\"/ai-compliance/en-18286/\" title=\"EN 18286:2026, AI Quality Management for the EU AI Act\">EN 18286:2026</a><br>The first harmonised standard under the EU AI Act, for the Article 17 quality management system</li></ul><h2 id=\"vocabulary-threats-and-testing\">Vocabulary, threats and testing</h2><ul><li><a href=\"/ai-compliance/iso-22989/\" title=\"ISO/IEC 22989\">ISO/IEC 22989</a><br>AI Vocabulary Standard</li><li><a href=\"/ai-compliance/iso-27090/\" title=\"ISO/IEC 27090:2026, AI Security Threats\">ISO/IEC 27090:2026</a><br>Guidance on security threats and compromises to AI systems</li><li><a href=\"/ai-compliance/mitre-atlas/\" title=\"MITRE ATLAS\">MITRE ATLAS</a><br>The adversary tactics and techniques knowledge base for attacks on AI systems</li><li><a href=\"/ai-compliance/ai-assurance-standards/\" title=\"AI Assurance Standards\">AI Assurance Standards</a><br>Which kind of assurance proves what</li></ul><h2 id=\"intergovernmental-principles\">Intergovernmental principles</h2><ul><li><a href=\"/ai-compliance/oecd-ai-principles/\" title=\"OECD AI Principles\">OECD AI Principles</a><br>The 2019 intergovernmental standard on trustworthy AI, revised in 2024, adopted by 47 jurisdictions</li><li><a href=\"/ai-compliance/unesco-ai-ethics/\" title=\"UNESCO Recommendation on the Ethics of Artificial Intelligence\">UNESCO Recommendation on the Ethics of Artificial Intelligence</a><br>The 2021 global standard adopted by all 193 UNESCO member states</li><li><a href=\"/ai-compliance/g7-hiroshima-code/\" title=\"G7 Hiroshima AI Process Code of Conduct\">G7 Hiroshima AI Process Code of Conduct</a><br>The 2023 G7 guiding principles and code of conduct for organizations developing advanced AI</li></ul>",
+    "citations": [
+    ],
+    "seo_title": "AI Governance and Assurance Standards and Frameworks",
+    "editor_note": "Sub-hub of Standards and Frameworks, bridge row 2340 (Stephen 2026-11-13). Intro is the editor's text; the listing is composed from the members' own titles and subtitles, and twoai_dc_standards.go recomposes it each run.",
+    "focus_keyword": "ai governance and assurance",
+    "instrument_class": "standard",
+    "meta_description": "Standards and frameworks written for artificial intelligence itself, grouped, with what each covers and who issues it.",
+    "body_lists_children": true
+}
