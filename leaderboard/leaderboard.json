@@ -1,6 +1,6 @@
 {
  "access_note": "arena.ai publishes no API. Boards are read from LMArena's own dataset on Hugging Face (lmarena-ai/leaderboard-dataset) or from the daily public snapshot mirror at github.com/oolong-tea-2026/arena-ai-leaderboards, whichever carries the newer board; each board names its route in via and the date it carries in as_of.",
- "as_of": "2026-11-11",
+ "as_of": "2026-11-15",
  "boards": [
   {
    "key": "text",
@@ -8,7 +8,7 @@
    "note": "Head-to-head human preference on general conversation. The closest thing the field has to a general-purpose ranking.",
    "scored": true,
    "source_url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset/viewer/text_style_control/latest",
-   "fetched_at": "2026-11-15T23:42:15Z",
+   "fetched_at": "2026-11-17T03:44:50Z",
    "count": 100,
    "models": [
     {
@@ -129,7 +129,7 @@
    "note": "The same vote mechanic restricted to coding prompts. Ranks differ sharply from the text board, which is the reason to read both.",
    "scored": true,
    "source_url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset/viewer/webdev/latest",
-   "fetched_at": "2026-11-15T23:42:15Z",
+   "fetched_at": "2026-11-17T03:44:51Z",
    "count": 100,
    "models": [
     {
@@ -137,18 +137,18 @@
      "model": "Claude Fable 5.2 (xHigh)",
      "vendor": "anthropic",
      "license": "Proprietary",
-     "score": 1838,
-     "ci": 21,
-     "votes": 1215
+     "score": 1826,
+     "ci": 19,
+     "votes": 1445
     },
     {
      "rank": 2,
      "model": "Claude Opus 5.5 (Max)",
      "vendor": "anthropic",
      "license": "Proprietary",
-     "score": 1815,
+     "score": 1816,
      "ci": 12,
-     "votes": 4208
+     "votes": 4399
     },
     {
      "rank": 3,
@@ -157,7 +157,7 @@
      "license": "Proprietary",
      "score": 1772,
      "ci": 10,
-     "votes": 5895
+     "votes": 6120
     },
     {
      "rank": 4,
@@ -166,82 +166,82 @@
      "license": "Proprietary",
      "score": 1768,
      "ci": 15,
-     "votes": 2120
+     "votes": 2105
     },
     {
      "rank": 5,
      "model": "GPT-6 Astra (Max)",
      "vendor": "openai",
      "license": "Proprietary",
-     "score": 1764,
-     "ci": 9,
-     "votes": 8470
+     "score": 1763,
+     "ci": 8,
+     "votes": 8685
     },
     {
      "rank": 6,
-     "model": "GPT-6.1 Sol (Max)",
-     "vendor": "openai",
+     "model": "Qwen4-Max (xHigh)",
+     "vendor": "alibaba",
      "license": "Proprietary",
-     "score": 1743,
-     "ci": 10,
-     "votes": 5590
+     "score": 1750,
+     "ci": 15,
+     "votes": 1814
     },
     {
      "rank": 7,
      "model": "Claude Fable 5.1 (Max)",
      "vendor": "anthropic",
      "license": "Proprietary",
-     "score": 1742,
+     "score": 1743,
      "ci": 8,
-     "votes": 9800
+     "votes": 9990
     },
     {
      "rank": 8,
-     "model": "Muse Wonder Full (Max)",
-     "vendor": "meta",
+     "model": "GPT-6.1 Sol (Max)",
+     "vendor": "openai",
      "license": "Proprietary",
-     "score": 1723,
-     "ci": 14,
-     "votes": 2068
+     "score": 1742,
+     "ci": 10,
+     "votes": 5804
     },
     {
      "rank": 9,
-     "model": "Claude Sonnet 5.5 (High)",
-     "vendor": "anthropic",
+     "model": "Muse Wonder Full (Max)",
+     "vendor": "meta",
      "license": "Proprietary",
-     "score": 1715,
-     "ci": 8,
-     "votes": 7940
+     "score": 1724,
+     "ci": 14,
+     "votes": 2064
     },
     {
      "rank": 10,
+     "model": "Claude Sonnet 5.5 (High)",
+     "vendor": "anthropic",
+     "license": "Proprietary",
+     "score": 1716,
+     "ci": 8,
+     "votes": 8154
+    },
+    {
+     "rank": 11,
      "model": "Gemini 4 Hydrogen (High)",
      "vendor": "google",
      "license": "Proprietary",
      "score": 1704,
      "ci": 14,
-     "votes": 1997
+     "votes": 2046
     },
     {
-     "rank": 11,
+     "rank": 12,
      "model": "Claude Opus 5 (Max)",
      "vendor": "anthropic",
      "license": "Proprietary",
      "score": 1691,
      "ci": 6,
-     "votes": 19559
-    },
-    {
-     "rank": 12,
-     "model": "Kimi K3.1 Pro (Max)",
-     "vendor": "moonshot",
-     "license": "Kimi K3.1 Pro License",
-     "score": 1687,
-     "ci": 10,
-     "votes": 4977
+     "votes": 19515
     }
    ],
-   "as_of": "2026-11-11",
+   "as_of": "2026-11-15",
    "via": "LMArena dataset lmarena-ai/leaderboard-dataset, config webdev"
   },
   {
@@ -250,7 +250,7 @@
    "note": "Image understanding and mixed text-image prompts.",
    "scored": true,
    "source_url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset/viewer/vision_style_control/latest",
-   "fetched_at": "2026-11-15T23:42:15Z",
+   "fetched_at": "2026-11-17T03:44:51Z",
    "count": 100,
    "models": [
     {
@@ -371,7 +371,7 @@
    "note": "Models answering with live retrieval, where citation quality matters as much as fluency.",
    "scored": true,
    "source_url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset/viewer/search_style_control/latest",
-   "fetched_at": "2026-11-15T23:42:16Z",
+   "fetched_at": "2026-11-17T03:44:51Z",
    "count": 42,
    "models": [
     {
@@ -487,10 +487,10 @@
    "via": "LMArena dataset lmarena-ai/leaderboard-dataset, config search_style_control"
   }
  ],
- "date": "2026-11-11",
- "generated": "2026-11-15T23:42:16Z",
+ "date": "2026-11-15",
+ "generated": "2026-11-17T03:44:51Z",
  "method": "Crowdsourced blind pairwise voting, scored with a Bradley-Terry model and reported as an Elo-style rating with a 95 percent confidence interval. Gaps under roughly 10 points sit inside the noise floor and should not be read as a ranking.",
- "mirror_latest": "2026-11-15",
+ "mirror_latest": "2026-11-16",
  "oldest_board_as_of": "2026-11-09",
  "source": "arena.ai (formerly LMSYS Chatbot Arena)",
  "source_url": "https://arena.ai/leaderboard/"
