@@ -1,5 +1,5 @@
 {
-    "count": 847,
+    "count": 853,
     "terms": [
         {
             "slug": "agent",
@@ -9638,6 +9638,72 @@
                 }
             ],
             "promoted_from": "synced_glossary_terms id 247272"
+        },
+        {
+            "slug": "n-gram",
+            "term": "N-gram",
+            "example": "\"New York\" is a bigram and \"New York City\" is a trigram.",
+            "category": "Core Concepts",
+            "definition": "A run of n items in a row, usually words or tokens, such as a pair (a bigram) or a triple (a trigram). Counting how often such runs occur was a basis of language modelling before neural networks, and the idea has returned inside large models as lookup tables for short token sequences.",
+            "author_note": "Written by the theworldofai editor, bridge row 2492 (Stephen, 2026-11-16: \"do all of them\"). Definition, origin and example are the editor's words, unchanged.\nOrigin: A long standing term in computational linguistics. Its recent use inside large language models is described in Chung and Du, \"Low-Bit N-Gram Embeddings for Language Models\", arXiv 2610.31646, 22 October 2026.\nRelated: n-gram-embedding, token, embedding\nThe editor marked the first sentence and the \"before neural networks\" clause as general knowledge, not drawn from the row's sources. The srj session read Wikipedia's summary of \"N-gram\" on 2026-11-16 (\"a sequence of n adjacent symbols in a particular order\") for the first sentence, and the arXiv abstract for the last clause. The \"before neural networks\" clause was not checked against a source.",
+            "authored_on": "2026-11-16",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 254891"
+        },
+        {
+            "slug": "n-gram-embedding",
+            "term": "N-gram Embedding",
+            "example": "Alibaba says Qwen4-Max carries 328 billion N-gram Embedding parameters beside a 2.4 trillion parameter backbone, with the lookups feeding its second layer.",
+            "category": "Architecture",
+            "definition": "A learned lookup table that stores a vector for short runs of consecutive tokens, so a model can fetch what it has learned about a common phrase with a memory read and little extra computation. Recent large models use very large tables of this kind to add capacity without raising the compute spent on each token.",
+            "author_note": "Written by the theworldofai editor, bridge row 2492 (Stephen, 2026-11-16: \"do all of them\"). Definition, origin and example are the editor's words, unchanged.\nOrigin: Described for Qwen3.8-Flash-Next in Qiu et al., arXiv 2608.30320 (August 2026), which reports 51 billion parameters in n-gram embedding tables held off the accelerator. Chung and Du, arXiv 2610.31646 (October 2026), say many recent open weight models use such tables and cite DeepSeek's Engram memory.\nRelated: n-gram, embedding, mixture-of-experts-moe, sparse-model\nSynonyms the editor gave: n-gram embedding table, n-gram memory.\nThe srj session read both arXiv abstracts on 2026-11-16 and they say what the origin says. The example is from Alibaba's post https://qwen.ai/blog?id=qwen4-max, read by the editor in a browser; the srj session could not read that page (it is drawn by script).",
+            "authored_on": "2026-11-16",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 254892"
+        },
+        {
+            "slug": "gated-deltanet-gdn",
+            "term": "Gated DeltaNet (GDN)",
+            "example": "Alibaba says Qwen4-Max places three Gated DeltaNet layers before each sparse attention layer, so history is compressed into fixed size states.",
+            "category": "Architecture",
+            "definition": "A sequence layer that keeps a fixed size memory of what it has read and updates it with a gated delta rule, in which a gate can quickly erase memory and a delta update makes targeted changes. It is a linear alternative to full attention, and long context models pair it with attention layers.",
+            "author_note": "Written by the theworldofai editor, bridge row 2492 (Stephen, 2026-11-16: \"do all of them\"). Definition, origin and example are the editor's words, unchanged.\nOrigin: Yang, Kautz and Hatamizadeh, \"Gated Delta Networks: Improving Mamba2 with Delta Rule\", arXiv 2412.06464, December 2024; ICLR 2025.\nRelated: mamba, state-space-model-ssm, recurrent-neural-network-rnn, attention-mechanism, sparse-attention\nSynonyms the editor gave: GDN, Gated Delta Network.\nThe srj session read the arXiv abstract on 2026-11-16: title, authors and \"ICLR 2025 camera ready\" are as cited, and it describes gating for rapid memory erasure and the delta rule for targeted updates. The example is from Alibaba's post https://qwen.ai/blog?id=qwen4-max, read by the editor in a browser; the srj session could not read that page.",
+            "authored_on": "2026-11-16",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 254893"
+        },
+        {
+            "slug": "sparse-attention",
+            "term": "Sparse Attention",
+            "example": "Qwen Sparse Attention selects up to 512 blocks of four tokens, a budget of 2,048 tokens, plus the current partial block.",
+            "category": "Architecture",
+            "definition": "Attention in which each token looks at a selected subset of the earlier tokens and not at all of them, which cuts the cost of long inputs. Designs differ in how the subset is chosen, for example with a small learned indexer that scores candidates against the current query.",
+            "author_note": "Written by the theworldofai editor, bridge row 2492 (Stephen, 2026-11-16: \"do all of them\"). Definition, origin and example are the editor's words, unchanged.\nOrigin: A general term. Two 2026 examples are DeepSeek Sparse Attention, which ranks individual token positions, and Qwen Sparse Attention, which selects blocks of four tokens, as compared in Sebastian Raschka's LLM architecture gallery.\nRelated: attention-mechanism, flash-attention, context-window, qwen-sparse-attention-qsa, gated-deltanet-gdn\nThe srj session read the gallery page on 2026-11-16: it gives \"Up to 512 blocks, or 2,048 selected tokens, plus the current tail\", four-token micro-blocks, and the contrast with DeepSeek Sparse Attention ranking individual token positions.",
+            "authored_on": "2026-11-16",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 254894"
+        },
+        {
+            "slug": "qwen-sparse-attention-qsa",
+            "term": "Qwen Sparse Attention (QSA)",
+            "example": "Sebastian Raschka's gallery describes a schedule of three Gated DeltaNet layers to one QSA layer, with QSA selecting up to 512 blocks.",
+            "category": "Architecture",
+            "definition": "Alibaba's sparse attention design, in which a lightweight indexer picks the most relevant blocks of four tokens from the earlier context and attention runs only over those. It was introduced with Qwen3.8-Flash-Next and is used in Qwen4-Max alongside Gated DeltaNet layers.",
+            "author_note": "Written by the theworldofai editor, bridge row 2492 (Stephen, 2026-11-16: \"do all of them\"). Definition, origin and example are the editor's words, unchanged.\nOrigin: The Qwen team at Alibaba; Qiu et al., arXiv 2608.30320, August 2026. It is one vendor's name for its own design.\nRelated: sparse-attention, gated-deltanet-gdn, attention-mechanism, context-window\nSynonyms the editor gave: QSA.\nThe srj session read the arXiv abstract and the gallery page https://sebastianraschka.com/llm-architecture-gallery/qwen-sparse-attention/ on 2026-11-16: the abstract names Qwen Sparse Attention (QSA) with a compressed lightweight indexer; the gallery gives three Gated DeltaNet layers followed by one QSA layer and up to 512 blocks, and says the design was first introduced in Qwen3.8-Flash-Next. That Qwen4-Max uses it is from Alibaba's post https://qwen.ai/blog?id=qwen4-max, read by the editor in a browser; the srj session could not read that page.",
+            "authored_on": "2026-11-16",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 254895"
+        },
+        {
+            "slug": "gated-residual-gr",
+            "term": "Gated Residual (GR)",
+            "example": "Alibaba's Qwen4-Max post describes four parallel residual branches with dynamic read and write gates, which it says strengthen information flow across layers and training stability.",
+            "category": "Architecture",
+            "definition": "A residual connection in which a learned gate controls how much of each path is passed on, in place of a plain addition. In Alibaba's Qwen design the residual stream is widened to four parallel branches that the model reads through an elementwise gate.",
+            "author_note": "Written by the theworldofai editor, bridge row 2492 (Stephen, 2026-11-16: \"do all of them\"). Definition, origin and example are the editor's words, unchanged.\nOrigin: The name Gated Residual (GR) for the four branch design comes from the Qwen3.8-Next design paper, Qiu et al., arXiv 2608.30320, August 2026.\nRelated: residual-connection, mixture-of-experts-moe, gated-deltanet-gdn\nSynonyms the editor gave: GR.\nThe editor's note: the paper's abstract mentions an elementwise read gate only; \"read and write gates\" is the wording of the Qwen4-Max post. The srj session read the arXiv abstract on 2026-11-16: \"The residual stream is widened to four branches and read through an elementwise gate, a design we call the Gated Residual (GR).\" The example is from Alibaba's post https://qwen.ai/blog?id=qwen4-max, read by the editor in a browser; the srj session could not read that page.",
+            "authored_on": "2026-11-16",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 254896"
         }
     ],
     "source": {
