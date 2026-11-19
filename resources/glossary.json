@@ -1,5 +1,5 @@
 {
-    "count": 853,
+    "count": 861,
     "terms": [
         {
             "slug": "agent",
@@ -9642,68 +9642,343 @@
         {
             "slug": "n-gram",
             "term": "N-gram",
+            "origin": "A long standing term in computational linguistics. Its recent use inside large language models is described in Chung and Du, \"Low-Bit N-Gram Embeddings for Language Models\", arXiv 2610.31646, 22 October 2026.",
             "example": "\"New York\" is a bigram and \"New York City\" is a trigram.",
             "category": "Core Concepts",
             "definition": "A run of n items in a row, usually words or tokens, such as a pair (a bigram) or a triple (a trigram). Counting how often such runs occur was a basis of language modelling before neural networks, and the idea has returned inside large models as lookup tables for short token sequences.",
             "author_note": "Written by the theworldofai editor, bridge row 2492 (Stephen, 2026-11-16: \"do all of them\"). Definition, origin and example are the editor's words, unchanged.\nOrigin: A long standing term in computational linguistics. Its recent use inside large language models is described in Chung and Du, \"Low-Bit N-Gram Embeddings for Language Models\", arXiv 2610.31646, 22 October 2026.\nRelated: n-gram-embedding, token, embedding\nThe editor marked the first sentence and the \"before neural networks\" clause as general knowledge, not drawn from the row's sources. The srj session read Wikipedia's summary of \"N-gram\" on 2026-11-16 (\"a sequence of n adjacent symbols in a particular order\") for the first sentence, and the arXiv abstract for the last clause. The \"before neural networks\" clause was not checked against a source.",
             "authored_on": "2026-11-16",
             "authored_here": true,
-            "promoted_from": "synced_glossary_terms id 254891"
+            "promoted_from": "synced_glossary_terms id 254891",
+            "related_slugs": [
+                "n-gram-embedding",
+                "token",
+                "embedding"
+            ],
+            "related_slugs_source": "the editor's note on synced_glossary_terms id 254891"
         },
         {
             "slug": "n-gram-embedding",
             "term": "N-gram Embedding",
+            "origin": "Described for Qwen3.8-Flash-Next in Qiu et al., arXiv 2608.30320 (August 2026), which reports 51 billion parameters in n-gram embedding tables held off the accelerator. Chung and Du, arXiv 2610.31646 (October 2026), say many recent open weight models use such tables and cite DeepSeek's Engram memory.",
             "example": "Alibaba says Qwen4-Max carries 328 billion N-gram Embedding parameters beside a 2.4 trillion parameter backbone, with the lookups feeding its second layer.",
             "category": "Architecture",
             "definition": "A learned lookup table that stores a vector for short runs of consecutive tokens, so a model can fetch what it has learned about a common phrase with a memory read and little extra computation. Recent large models use very large tables of this kind to add capacity without raising the compute spent on each token.",
             "author_note": "Written by the theworldofai editor, bridge row 2492 (Stephen, 2026-11-16: \"do all of them\"). Definition, origin and example are the editor's words, unchanged.\nOrigin: Described for Qwen3.8-Flash-Next in Qiu et al., arXiv 2608.30320 (August 2026), which reports 51 billion parameters in n-gram embedding tables held off the accelerator. Chung and Du, arXiv 2610.31646 (October 2026), say many recent open weight models use such tables and cite DeepSeek's Engram memory.\nRelated: n-gram, embedding, mixture-of-experts-moe, sparse-model\nSynonyms the editor gave: n-gram embedding table, n-gram memory.\nThe srj session read both arXiv abstracts on 2026-11-16 and they say what the origin says. The example is from Alibaba's post https://qwen.ai/blog?id=qwen4-max, read by the editor in a browser; the srj session could not read that page (it is drawn by script).",
             "authored_on": "2026-11-16",
             "authored_here": true,
-            "promoted_from": "synced_glossary_terms id 254892"
+            "promoted_from": "synced_glossary_terms id 254892",
+            "related_slugs": [
+                "n-gram",
+                "embedding",
+                "mixture-of-experts-moe",
+                "sparse-model"
+            ],
+            "related_slugs_source": "the editor's note on synced_glossary_terms id 254892"
         },
         {
             "slug": "gated-deltanet-gdn",
             "term": "Gated DeltaNet (GDN)",
+            "origin": "Yang, Kautz and Hatamizadeh, \"Gated Delta Networks: Improving Mamba2 with Delta Rule\", arXiv 2412.06464, December 2024; ICLR 2025.",
             "example": "Alibaba says Qwen4-Max places three Gated DeltaNet layers before each sparse attention layer, so history is compressed into fixed size states.",
             "category": "Architecture",
             "definition": "A sequence layer that keeps a fixed size memory of what it has read and updates it with a gated delta rule, in which a gate can quickly erase memory and a delta update makes targeted changes. It is a linear alternative to full attention, and long context models pair it with attention layers.",
             "author_note": "Written by the theworldofai editor, bridge row 2492 (Stephen, 2026-11-16: \"do all of them\"). Definition, origin and example are the editor's words, unchanged.\nOrigin: Yang, Kautz and Hatamizadeh, \"Gated Delta Networks: Improving Mamba2 with Delta Rule\", arXiv 2412.06464, December 2024; ICLR 2025.\nRelated: mamba, state-space-model-ssm, recurrent-neural-network-rnn, attention-mechanism, sparse-attention\nSynonyms the editor gave: GDN, Gated Delta Network.\nThe srj session read the arXiv abstract on 2026-11-16: title, authors and \"ICLR 2025 camera ready\" are as cited, and it describes gating for rapid memory erasure and the delta rule for targeted updates. The example is from Alibaba's post https://qwen.ai/blog?id=qwen4-max, read by the editor in a browser; the srj session could not read that page.",
             "authored_on": "2026-11-16",
             "authored_here": true,
-            "promoted_from": "synced_glossary_terms id 254893"
+            "promoted_from": "synced_glossary_terms id 254893",
+            "related_slugs": [
+                "mamba",
+                "state-space-model-ssm",
+                "recurrent-neural-network-rnn",
+                "attention-mechanism",
+                "sparse-attention"
+            ],
+            "related_slugs_source": "the editor's note on synced_glossary_terms id 254893"
         },
         {
             "slug": "sparse-attention",
             "term": "Sparse Attention",
+            "origin": "A general term. Two 2026 examples are DeepSeek Sparse Attention, which ranks individual token positions, and Qwen Sparse Attention, which selects blocks of four tokens, as compared in Sebastian Raschka's LLM architecture gallery.",
             "example": "Qwen Sparse Attention selects up to 512 blocks of four tokens, a budget of 2,048 tokens, plus the current partial block.",
             "category": "Architecture",
             "definition": "Attention in which each token looks at a selected subset of the earlier tokens and not at all of them, which cuts the cost of long inputs. Designs differ in how the subset is chosen, for example with a small learned indexer that scores candidates against the current query.",
             "author_note": "Written by the theworldofai editor, bridge row 2492 (Stephen, 2026-11-16: \"do all of them\"). Definition, origin and example are the editor's words, unchanged.\nOrigin: A general term. Two 2026 examples are DeepSeek Sparse Attention, which ranks individual token positions, and Qwen Sparse Attention, which selects blocks of four tokens, as compared in Sebastian Raschka's LLM architecture gallery.\nRelated: attention-mechanism, flash-attention, context-window, qwen-sparse-attention-qsa, gated-deltanet-gdn\nThe srj session read the gallery page on 2026-11-16: it gives \"Up to 512 blocks, or 2,048 selected tokens, plus the current tail\", four-token micro-blocks, and the contrast with DeepSeek Sparse Attention ranking individual token positions.",
             "authored_on": "2026-11-16",
             "authored_here": true,
-            "promoted_from": "synced_glossary_terms id 254894"
+            "promoted_from": "synced_glossary_terms id 254894",
+            "related_slugs": [
+                "attention-mechanism",
+                "flash-attention",
+                "context-window",
+                "qwen-sparse-attention-qsa",
+                "gated-deltanet-gdn"
+            ],
+            "related_slugs_source": "the editor's note on synced_glossary_terms id 254894"
         },
         {
             "slug": "qwen-sparse-attention-qsa",
             "term": "Qwen Sparse Attention (QSA)",
+            "origin": "The Qwen team at Alibaba; Qiu et al., arXiv 2608.30320, August 2026. It is one vendor's name for its own design.",
             "example": "Sebastian Raschka's gallery describes a schedule of three Gated DeltaNet layers to one QSA layer, with QSA selecting up to 512 blocks.",
             "category": "Architecture",
             "definition": "Alibaba's sparse attention design, in which a lightweight indexer picks the most relevant blocks of four tokens from the earlier context and attention runs only over those. It was introduced with Qwen3.8-Flash-Next and is used in Qwen4-Max alongside Gated DeltaNet layers.",
             "author_note": "Written by the theworldofai editor, bridge row 2492 (Stephen, 2026-11-16: \"do all of them\"). Definition, origin and example are the editor's words, unchanged.\nOrigin: The Qwen team at Alibaba; Qiu et al., arXiv 2608.30320, August 2026. It is one vendor's name for its own design.\nRelated: sparse-attention, gated-deltanet-gdn, attention-mechanism, context-window\nSynonyms the editor gave: QSA.\nThe srj session read the arXiv abstract and the gallery page https://sebastianraschka.com/llm-architecture-gallery/qwen-sparse-attention/ on 2026-11-16: the abstract names Qwen Sparse Attention (QSA) with a compressed lightweight indexer; the gallery gives three Gated DeltaNet layers followed by one QSA layer and up to 512 blocks, and says the design was first introduced in Qwen3.8-Flash-Next. That Qwen4-Max uses it is from Alibaba's post https://qwen.ai/blog?id=qwen4-max, read by the editor in a browser; the srj session could not read that page.",
             "authored_on": "2026-11-16",
             "authored_here": true,
-            "promoted_from": "synced_glossary_terms id 254895"
+            "promoted_from": "synced_glossary_terms id 254895",
+            "related_slugs": [
+                "sparse-attention",
+                "gated-deltanet-gdn",
+                "attention-mechanism",
+                "context-window"
+            ],
+            "related_slugs_source": "the editor's note on synced_glossary_terms id 254895"
         },
         {
             "slug": "gated-residual-gr",
             "term": "Gated Residual (GR)",
+            "origin": "The name Gated Residual (GR) for the four branch design comes from the Qwen3.8-Next design paper, Qiu et al., arXiv 2608.30320, August 2026.",
             "example": "Alibaba's Qwen4-Max post describes four parallel residual branches with dynamic read and write gates, which it says strengthen information flow across layers and training stability.",
             "category": "Architecture",
             "definition": "A residual connection in which a learned gate controls how much of each path is passed on, in place of a plain addition. In Alibaba's Qwen design the residual stream is widened to four parallel branches that the model reads through an elementwise gate.",
             "author_note": "Written by the theworldofai editor, bridge row 2492 (Stephen, 2026-11-16: \"do all of them\"). Definition, origin and example are the editor's words, unchanged.\nOrigin: The name Gated Residual (GR) for the four branch design comes from the Qwen3.8-Next design paper, Qiu et al., arXiv 2608.30320, August 2026.\nRelated: residual-connection, mixture-of-experts-moe, gated-deltanet-gdn\nSynonyms the editor gave: GR.\nThe editor's note: the paper's abstract mentions an elementwise read gate only; \"read and write gates\" is the wording of the Qwen4-Max post. The srj session read the arXiv abstract on 2026-11-16: \"The residual stream is widened to four branches and read through an elementwise gate, a design we call the Gated Residual (GR).\" The example is from Alibaba's post https://qwen.ai/blog?id=qwen4-max, read by the editor in a browser; the srj session could not read that page.",
             "authored_on": "2026-11-16",
             "authored_here": true,
-            "promoted_from": "synced_glossary_terms id 254896"
+            "promoted_from": "synced_glossary_terms id 254896",
+            "related_slugs": [
+                "residual-connection",
+                "mixture-of-experts-moe",
+                "gated-deltanet-gdn"
+            ],
+            "related_slugs_source": "the editor's note on synced_glossary_terms id 254896"
+        },
+        {
+            "slug": "immersive-reality",
+            "term": "Immersive Reality",
+            "origin": "The grouping and the description of the shift are McKinsey's, in the McKinsey Technology Trends Outlook 2026.",
+            "example": "A technician wears glasses that recognize the machine in front of her and show the next repair step in her field of view.",
+            "category": "Core Concepts",
+            "definition": "A family of technologies that blend digital experiences with the physical world, covering augmented reality, virtual reality, mixed reality, haptics and smart glasses. The category is moving from headsets that show content toward wearable devices that sense their surroundings and feed what they see and hear to AI systems.",
+            "also_called": [
+                "immersive technologies",
+                "immersive tech"
+            ],
+            "author_note": "Written by the theworldofai editor, bridge row 2535 (Stephen, 2026-11-17: \"go\"). Definition, origin and example are the editor's words, unchanged except that the row's source mark [A] is written out as the report's name. [A] is Chui, Roberts and Catlin, McKinsey Technology Trends Outlook 2026, 15 September 2026, chapter 8, \"Immersive-reality technologies\", read by the editor from the PDF Stephen supplied.\nOrigin: The grouping and the description of the shift are McKinsey's, in the McKinsey Technology Trends Outlook 2026.\nRelated: augmented-reality, virtual-reality, mixed-reality, extended-reality, smart-glasses, haptics, spatial-computing, digital-twin.\nSynonyms: immersive technologies, immersive tech\nThe srj session did not read the McKinsey report; what the origin and example say the report states is the editor's reading.",
+            "authored_on": "2026-11-17",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 255750",
+            "related_slugs": [
+                "augmented-reality",
+                "virtual-reality",
+                "mixed-reality",
+                "extended-reality",
+                "smart-glasses",
+                "haptics",
+                "spatial-computing",
+                "digital-twin"
+            ],
+            "also_called_notes": {
+                "immersive tech": {
+                    "evidence": "the editor's Synonyms line on synced_glossary_terms id 255750",
+                    "evidence_id": "bridge:2535"
+                },
+                "immersive technologies": {
+                    "evidence": "the editor's Synonyms line on synced_glossary_terms id 255750",
+                    "evidence_id": "bridge:2535"
+                }
+            },
+            "related_slugs_source": "the editor's note on synced_glossary_terms id 255750"
+        },
+        {
+            "slug": "augmented-reality",
+            "term": "Augmented Reality",
+            "origin": "The McKinsey Technology Trends Outlook 2026 describes AR, VR and MR together as interfaces that range from overlays in the physical world to fully virtual environments.",
+            "example": "The McKinsey Technology Trends Outlook 2026 cites Medivis, whose FDA cleared system maps a patient's imaging onto the operative field to guide a surgeon.",
+            "category": "Core Concepts",
+            "definition": "Technology that places digital content, such as labels, instructions or images, over a person's view of the real world. The real surroundings stay visible and the digital layer adds to them.",
+            "also_called": [
+                "AR"
+            ],
+            "author_note": "Written by the theworldofai editor, bridge row 2535 (Stephen, 2026-11-17: \"go\"). Definition, origin and example are the editor's words, unchanged except that the row's source mark [A] is written out as the report's name. [A] is Chui, Roberts and Catlin, McKinsey Technology Trends Outlook 2026, 15 September 2026, chapter 8, \"Immersive-reality technologies\", read by the editor from the PDF Stephen supplied.\nOrigin: The McKinsey Technology Trends Outlook 2026 describes AR, VR and MR together as interfaces that range from overlays in the physical world to fully virtual environments.\nRelated: immersive-reality, mixed-reality, smart-glasses.\nSynonyms: AR\nThe editor's note: the first two sentences are the standard meaning of the term; the McKinsey report uses it without a one line definition.\nThe srj session read Wikipedia's summary of \"Augmented reality\" on 2026-11-17: it describes overlaying real-time computer graphics onto the real world through a display, which agrees with the first sentence.\nThe srj session did not read the McKinsey report; what the origin and example say the report states is the editor's reading.",
+            "authored_on": "2026-11-17",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 255751",
+            "related_slugs": [
+                "immersive-reality",
+                "mixed-reality",
+                "smart-glasses"
+            ],
+            "also_called_notes": {
+                "AR": {
+                    "evidence": "the editor's Synonyms line on synced_glossary_terms id 255751",
+                    "evidence_id": "bridge:2535"
+                }
+            },
+            "related_slugs_source": "the editor's note on synced_glossary_terms id 255751"
+        },
+        {
+            "slug": "virtual-reality",
+            "term": "Virtual Reality",
+            "origin": "The McKinsey Technology Trends Outlook 2026, which describes the range from overlays to fully virtual environments.",
+            "example": "The McKinsey Technology Trends Outlook 2026 cites Aena's pilot that trains airport firefighters and maintenance staff with VR headsets and haptic gloves.",
+            "category": "Core Concepts",
+            "definition": "Technology that replaces a person's view of the real world with a fully computer generated environment, usually through a headset. It is used where a realistic, repeatable setting matters, such as training.",
+            "also_called": [
+                "VR"
+            ],
+            "author_note": "Written by the theworldofai editor, bridge row 2535 (Stephen, 2026-11-17: \"go\"). Definition, origin and example are the editor's words, unchanged except that the row's source mark [A] is written out as the report's name. [A] is Chui, Roberts and Catlin, McKinsey Technology Trends Outlook 2026, 15 September 2026, chapter 8, \"Immersive-reality technologies\", read by the editor from the PDF Stephen supplied.\nOrigin: The McKinsey Technology Trends Outlook 2026, which describes the range from overlays to fully virtual environments.\nRelated: immersive-reality, haptics, mixed-reality.\nSynonyms: VR\nThe editor's note: the first sentence is the standard meaning of the term.\nThe srj session read Wikipedia's summary of \"Virtual reality\" on 2026-11-17 (\"a simulated experience that employs 3D head-mounted displays and pose tracking to give the user an immersive feel of a virtual world\"), which agrees with the first sentence.\nThe srj session did not read the McKinsey report; what the origin and example say the report states is the editor's reading.",
+            "authored_on": "2026-11-17",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 255752",
+            "related_slugs": [
+                "immersive-reality",
+                "haptics",
+                "mixed-reality"
+            ],
+            "also_called_notes": {
+                "VR": {
+                    "evidence": "the editor's Synonyms line on synced_glossary_terms id 255752",
+                    "evidence_id": "bridge:2535"
+                }
+            },
+            "related_slugs_source": "the editor's note on synced_glossary_terms id 255752"
+        },
+        {
+            "slug": "mixed-reality",
+            "term": "Mixed Reality",
+            "origin": "Named alongside AR and VR in the McKinsey Technology Trends Outlook 2026.",
+            "example": "A headset shows a virtual control panel fixed to a real wall, and the wearer presses its buttons by hand.",
+            "category": "Core Concepts",
+            "definition": "Technology in which digital objects are placed in a person's real surroundings and respond to them, so the real and the digital can be used together. It sits between augmented reality and virtual reality.",
+            "also_called": [
+                "MR"
+            ],
+            "author_note": "Written by the theworldofai editor, bridge row 2535 (Stephen, 2026-11-17: \"go\"). Definition, origin and example are the editor's words, unchanged except that the row's source mark [A] is written out as the report's name. [A] is Chui, Roberts and Catlin, McKinsey Technology Trends Outlook 2026, 15 September 2026, chapter 8, \"Immersive-reality technologies\", read by the editor from the PDF Stephen supplied.\nOrigin: Named alongside AR and VR in the McKinsey Technology Trends Outlook 2026.\nRelated: augmented-reality, virtual-reality, extended-reality.\nSynonyms: MR\nThe editor's note: the definition and example are the standard meaning of the term, not drawn from the McKinsey report.\nThe srj session asked Wikipedia for \"Mixed reality\" on 2026-11-17 and was given the \"Augmented reality\" article, which calls augmented reality \"also known as mixed reality\". That page does not support the sentence that mixed reality sits between augmented reality and virtual reality; that sentence was not checked against a source.\nThe srj session did not read the McKinsey report; what the origin and example say the report states is the editor's reading.",
+            "authored_on": "2026-11-17",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 255753",
+            "related_slugs": [
+                "augmented-reality",
+                "virtual-reality",
+                "extended-reality"
+            ],
+            "also_called_notes": {
+                "MR": {
+                    "evidence": "the editor's Synonyms line on synced_glossary_terms id 255753",
+                    "evidence_id": "bridge:2535"
+                }
+            },
+            "related_slugs_source": "the editor's note on synced_glossary_terms id 255753"
+        },
+        {
+            "slug": "extended-reality",
+            "term": "Extended Reality",
+            "origin": "A general industry term. The McKinsey Technology Trends Outlook 2026 uses it only in product names, Samsung's Galaxy XR headset and Google's Android XR platform, launched in October 2025.",
+            "example": "Android XR is a single platform meant to run on both headsets and glasses from several makers.",
+            "category": "Core Concepts",
+            "definition": "An umbrella term for augmented, virtual and mixed reality taken together.",
+            "also_called": [
+                "XR"
+            ],
+            "author_note": "Written by the theworldofai editor, bridge row 2535 (Stephen, 2026-11-17: \"go\"). Definition, origin and example are the editor's words, unchanged except that the row's source mark [A] is written out as the report's name. [A] is Chui, Roberts and Catlin, McKinsey Technology Trends Outlook 2026, 15 September 2026, chapter 8, \"Immersive-reality technologies\", read by the editor from the PDF Stephen supplied.\nOrigin: A general industry term. The McKinsey Technology Trends Outlook 2026 uses it only in product names, Samsung's Galaxy XR headset and Google's Android XR platform, launched in October 2025.\nRelated: immersive-reality, augmented-reality, virtual-reality, mixed-reality.\nSynonyms: XR\nThe editor's note: the definition is general knowledge, not drawn from the McKinsey report.\nThe srj session read Wikipedia's summary of \"Extended reality\" on 2026-11-17 (\"an umbrella term for various immersive technologies, including augmented reality (AR) and virtual reality (VR)\"), which agrees with the definition.\nThe srj session did not read the McKinsey report; what the origin and example say the report states is the editor's reading.",
+            "authored_on": "2026-11-17",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 255754",
+            "related_slugs": [
+                "immersive-reality",
+                "augmented-reality",
+                "virtual-reality",
+                "mixed-reality"
+            ],
+            "also_called_notes": {
+                "XR": {
+                    "evidence": "the editor's Synonyms line on synced_glossary_terms id 255754",
+                    "evidence_id": "bridge:2535"
+                }
+            },
+            "related_slugs_source": "the editor's note on synced_glossary_terms id 255754"
+        },
+        {
+            "slug": "smart-glasses",
+            "term": "Smart Glasses",
+            "origin": "The McKinsey Technology Trends Outlook 2026, which calls smart glasses the clearest growth area in immersive reality.",
+            "example": "The McKinsey Technology Trends Outlook 2026 reports that Ray-Ban Meta glasses weigh about 50 grams, against 750 to 800 grams for Apple Vision Pro, and that Meta sold more than seven million AI powered smart glasses in 2025.",
+            "category": "Core Concepts",
+            "definition": "Eyewear with built in cameras, microphones, speakers and sometimes a display in the lens, often paired with an AI assistant. Because they are light enough to wear all day, they can act as an input for AI, seeing and hearing what the wearer does.",
+            "also_called": [
+                "AI glasses",
+                "intelligent eyewear"
+            ],
+            "author_note": "Written by the theworldofai editor, bridge row 2535 (Stephen, 2026-11-17: \"go\"). Definition, origin and example are the editor's words, unchanged except that the row's source mark [A] is written out as the report's name. [A] is Chui, Roberts and Catlin, McKinsey Technology Trends Outlook 2026, 15 September 2026, chapter 8, \"Immersive-reality technologies\", read by the editor from the PDF Stephen supplied.\nOrigin: The McKinsey Technology Trends Outlook 2026, which calls smart glasses the clearest growth area in immersive reality.\nRelated: immersive-reality, augmented-reality, on-device-inference.\nSynonyms: AI glasses, intelligent eyewear\nThe srj session did not read the McKinsey report; what the origin and example say the report states is the editor's reading.",
+            "authored_on": "2026-11-17",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 255755",
+            "related_slugs": [
+                "immersive-reality",
+                "augmented-reality",
+                "on-device-inference"
+            ],
+            "also_called_notes": {
+                "AI glasses": {
+                    "evidence": "the editor's Synonyms line on synced_glossary_terms id 255755",
+                    "evidence_id": "bridge:2535"
+                },
+                "intelligent eyewear": {
+                    "evidence": "the editor's Synonyms line on synced_glossary_terms id 255755",
+                    "evidence_id": "bridge:2535"
+                }
+            },
+            "related_slugs_source": "the editor's note on synced_glossary_terms id 255755"
+        },
+        {
+            "slug": "haptics",
+            "term": "Haptics",
+            "origin": "Defined in the McKinsey Technology Trends Outlook 2026 among the underlying technologies of immersive reality.",
+            "example": "Haptic gloves that let a trainee feel resistance when gripping a virtual tool.",
+            "category": "Core Concepts",
+            "definition": "Systems that add touch, vibration and other physical cues to a digital experience, so a user can feel as well as see and hear it.",
+            "also_called": [
+                "haptic feedback",
+                "haptic technology"
+            ],
+            "author_note": "Written by the theworldofai editor, bridge row 2535 (Stephen, 2026-11-17: \"go\"). Definition, origin and example are the editor's words, unchanged except that the row's source mark [A] is written out as the report's name. [A] is Chui, Roberts and Catlin, McKinsey Technology Trends Outlook 2026, 15 September 2026, chapter 8, \"Immersive-reality technologies\", read by the editor from the PDF Stephen supplied.\nOrigin: Defined in the McKinsey Technology Trends Outlook 2026 among the underlying technologies of immersive reality.\nRelated: immersive-reality, virtual-reality.\nSynonyms: haptic feedback, haptic technology\nThe srj session did not read the McKinsey report; what the origin and example say the report states is the editor's reading.",
+            "authored_on": "2026-11-17",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 255756",
+            "related_slugs": [
+                "immersive-reality",
+                "virtual-reality"
+            ],
+            "also_called_notes": {
+                "haptic feedback": {
+                    "evidence": "the editor's Synonyms line on synced_glossary_terms id 255756",
+                    "evidence_id": "bridge:2535"
+                },
+                "haptic technology": {
+                    "evidence": "the editor's Synonyms line on synced_glossary_terms id 255756",
+                    "evidence_id": "bridge:2535"
+                }
+            },
+            "related_slugs_source": "the editor's note on synced_glossary_terms id 255756"
+        },
+        {
+            "slug": "spatial-computing",
+            "term": "Spatial Computing",
+            "origin": "A general industry term. The McKinsey Technology Trends Outlook 2026 does not define it; it refers to \"spatial devices\" with spatial mapping capabilities that feed real time data to AI systems.",
+            "example": "A headset that pins several virtual screens around a desk and keeps them in place as the wearer turns.",
+            "category": "Core Concepts",
+            "definition": "Computing in which a device maps the space around the user and places digital content in it, so the user works with that content by looking, gesturing and moving instead of using a flat screen.",
+            "author_note": "Written by the theworldofai editor, bridge row 2535 (Stephen, 2026-11-17: \"go\"). Definition, origin and example are the editor's words, unchanged except that the row's source mark [A] is written out as the report's name. [A] is Chui, Roberts and Catlin, McKinsey Technology Trends Outlook 2026, 15 September 2026, chapter 8, \"Immersive-reality technologies\", read by the editor from the PDF Stephen supplied.\nOrigin: A general industry term. The McKinsey Technology Trends Outlook 2026 does not define it; it refers to \"spatial devices\" with spatial mapping capabilities that feed real time data to AI systems.\nRelated: immersive-reality, mixed-reality, smart-glasses.\nThe editor's note: the definition and example are general knowledge, not drawn from the McKinsey report.\nThe srj session read Wikipedia's summary of \"Spatial computing\" on 2026-11-17: interaction \"perceived by users as taking place in the real world, in and around their bodies and physical environments\", not behind a computer screen, which agrees with the definition in substance.\nThe srj session did not read the McKinsey report; what the origin and example say the report states is the editor's reading.",
+            "authored_on": "2026-11-17",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 255757",
+            "related_slugs": [
+                "immersive-reality",
+                "mixed-reality",
+                "smart-glasses"
+            ],
+            "related_slugs_source": "the editor's note on synced_glossary_terms id 255757"
         }
     ],
     "source": {
