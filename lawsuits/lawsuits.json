@@ -6063,6 +6063,42 @@
       "verified_date": "2026-07-30"
     },
     {
+      "slug": "irreplaceable-education-fund-v-anthropic",
+      "case_name": "Irreplaceable Education Fund v. Anthropic PBC",
+      "court": "Superior Court of California, County of San Francisco (state court)",
+      "docket": null,
+      "judge": null,
+      "filed_date": "2026-11-12",
+      "plaintiffs": "Irreplaceable Education Fund; Public Citizen, Inc.; Heat Initiative, Inc.; Future Tech Insights Inc. d/b/a The Alliance for Secure AI",
+      "defendants": "Anthropic PBC; Google LLC; Meta Platforms, Inc.; OpenAI Group PBC; OpenAI Foundation; SpaceX Super Intelligence LLC; SpaceX Super Intelligence Corp.",
+      "category": "consumer protection",
+      "status": "Filed 12 November 2026; case number not yet read on the court's site",
+      "status_badge": "Active Litigation",
+      "latest_development": "Complaint filed in San Francisco Superior Court",
+      "latest_development_date": "2026-11-12",
+      "courtlistener_url": null,
+      "executive_summary": "Four nonprofits sued Anthropic, Google, Meta, OpenAI and SpaceX Super Intelligence in San Francisco Superior Court on 12 November 2026 under California's Unfair Competition Law, asking the court to freeze development of their most advanced AI models.",
+      "why_it_matters": "It is the first suit to ask a court to halt frontier model development outright, and it rests on an existing state consumer protection statute rather than any AI-specific law.",
+      "target_models": [],
+      "disputed_datasets": [],
+      "materials_at_issue": null,
+      "plaintiff_counsel": "Matthew J. Platkin (Platkin LLP); Tyler Whitmer (Legal Advocates for Safe Science and Technology); Jason Harrow (Gerstein Harrow LLP)",
+      "defendant_counsel": null,
+      "claims": [],
+      "timeline": [],
+      "tags": [
+        "frontier-ai",
+        "ai-safety",
+        "unfair-competition",
+        "injunction"
+      ],
+      "related_slugs": [
+        "office-of-v-openai-global"
+      ],
+      "display_order": 100,
+      "verified_date": "2026-11-13"
+    },
+    {
       "slug": "labels-v-suno",
       "case_name": "UMG Recordings, Sony Music et al. v. Suno, Inc.",
       "court": "U.S. District Court, D. Massachusetts",
@@ -6435,42 +6471,6 @@
       ],
       "display_order": 100,
       "verified_date": "2026-07-30"
-    },
-    {
-      "slug": "irreplaceable-education-fund-v-anthropic",
-      "case_name": "Irreplaceable Education Fund v. Anthropic PBC",
-      "court": "Superior Court of California, County of San Francisco (state court)",
-      "docket": null,
-      "judge": null,
-      "filed_date": "2026-11-12",
-      "plaintiffs": "Irreplaceable Education Fund; Public Citizen, Inc.; Heat Initiative, Inc.; Future Tech Insights Inc. d/b/a The Alliance for Secure AI",
-      "defendants": "Anthropic PBC; Google LLC; Meta Platforms, Inc.; OpenAI Group PBC; OpenAI Foundation; SpaceX Super Intelligence LLC; SpaceX Super Intelligence Corp.",
-      "category": "consumer protection",
-      "status": "Filed 12 November 2026; case number not yet read on the court's site",
-      "status_badge": "Active Litigation",
-      "latest_development": "Complaint filed in San Francisco Superior Court",
-      "latest_development_date": "2026-11-12",
-      "courtlistener_url": null,
-      "executive_summary": "Four nonprofits sued Anthropic, Google, Meta, OpenAI and SpaceX Super Intelligence in San Francisco Superior Court on 12 November 2026 under California's Unfair Competition Law, asking the court to freeze development of their most advanced AI models.",
-      "why_it_matters": "It is the first suit to ask a court to halt frontier model development outright, and it rests on an existing state consumer protection statute rather than any AI-specific law.",
-      "target_models": [],
-      "disputed_datasets": [],
-      "materials_at_issue": null,
-      "plaintiff_counsel": "Matthew J. Platkin (Platkin LLP); Tyler Whitmer (Legal Advocates for Safe Science and Technology); Jason Harrow (Gerstein Harrow LLP)",
-      "defendant_counsel": null,
-      "claims": [],
-      "timeline": [],
-      "tags": [
-        "frontier-ai",
-        "ai-safety",
-        "unfair-competition",
-        "injunction"
-      ],
-      "related_slugs": [
-        "office-of-v-openai-global"
-      ],
-      "display_order": 100,
-      "verified_date": "2026-11-13"
     },
     {
       "slug": "umg-v-uncharted-labs-udio",
@@ -10651,8 +10651,8 @@
       "category": "intellectual property",
       "status": "Filed; docket monitoring active",
       "status_badge": "Active Litigation",
-      "latest_development": "Order Referring Case to Magistrate Judge for Settlement",
-      "latest_development_date": "2026-11-13",
+      "latest_development": "CASE REFERRED to Magistrate Judge Sallie Kim for Settlement. (shy, COURT STAFF) (Filed on 11/18/2026) (Entered: 11/18/2026)",
+      "latest_development_date": "2026-11-18",
       "courtlistener_url": "https://www.courtlistener.com/docket/73566709/anthropic-pbc-v-abnormal-ai-inc/",
       "executive_summary": "Anthropic, PBC sued Abnormal AI, Inc. in the District Court, N.D. California on July 1, 2026. The docket entries indicate claims for trademark infringement, unfair competition, and false designation of origin. As of the newest entry dated August 24, 2026, Abnormal AI, Inc. filed an answer to the complaint with a jury demand.",
       "why_it_matters": "Training data copyright suits decide whether building a model on protected work without a licence is infringement or fair use, which sets the cost of every future model and the licensing market around it.",
@@ -10663,6 +10663,18 @@
       "defendant_counsel": null,
       "claims": [],
       "timeline": [
+        {
+          "url": "https://www.courtlistener.com/docket/73566709/anthropic-pbc-v-abnormal-ai-inc/",
+          "date": "2026-11-18",
+          "title": "CASE REFERRED to Magistrate Judge Sallie Kim for Settlement. (shy, COURT STAFF) (Filed on 11/18/2026) (Entered: 11/18/2026)",
+          "doc_no": "33"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/73566709/anthropic-pbc-v-abnormal-ai-inc/",
+          "date": "2026-11-18",
+          "title": "Case Referred to Magistrate Judge for Settlement",
+          "doc_no": ""
+        },
         {
           "url": "https://www.courtlistener.com/docket/73566709/anthropic-pbc-v-abnormal-ai-inc/",
           "date": "2026-11-13",
@@ -11135,8 +11147,8 @@
       "category": "intellectual property",
       "status": "Filed; docket monitoring active",
       "status_badge": "Active Litigation",
-      "latest_development": "Stipulation and Proposed Order selecting Private ADR",
-      "latest_development_date": "2026-11-12",
+      "latest_development": "ORDER Granting 72 Stipulation Selecting Private ADR. Signed by Judge P. Casey Pitts on 11/18/2026. (nmc, COURT STAFF) (Filed on 11/18/2026) (Entered: 11/18/2026)",
+      "latest_development_date": "2026-11-18",
       "courtlistener_url": "https://www.courtlistener.com/docket/73494355/shakespeare-v-anthropic-pbc/",
       "executive_summary": "The docket caption lists Shakespeare v. Anthropic PBC, filed in the U.S. District Court for the Northern District of California on June 17, 2026, and the entries show multiple plaintiffs, including Tiffany Aliche, Bert Bates, Vince Beiser, and others, suing Anthropic PBC; Dario Amodei and Benjamin Mann also appear through counsel. The docket entries do not state the nature of the claims, only procedural matters such as stipulations to extend time to respond to the complaint, ADR certifications, and appearances. As of the newest entry on August 25, 2026, counsel filed notices of appearance for Dario Amodei and Benjamin Mann, and ADR certifications were filed; the initial case management conference is reset for October 15, 2026.",
       "why_it_matters": "Training data copyright suits decide whether building a model on protected work without a licence is infringement or fair use, which sets the cost of every future model and the licensing market around it.",
@@ -11147,6 +11159,18 @@
       "defendant_counsel": null,
       "claims": [],
       "timeline": [
+        {
+          "url": "https://www.courtlistener.com/docket/73494355/shakespeare-v-anthropic-pbc/",
+          "date": "2026-11-18",
+          "title": "ORDER Granting 72 Stipulation Selecting Private ADR. Signed by Judge P. Casey Pitts on 11/18/2026. (nmc, COURT STAFF) (Filed on 11/18/2026) (Entered: 11/18/2026)",
+          "doc_no": "73"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/73494355/shakespeare-v-anthropic-pbc/",
+          "date": "2026-11-18",
+          "title": "Case Referred to Private ADR",
+          "doc_no": ""
+        },
         {
           "url": "https://www.courtlistener.com/docket/73494355/shakespeare-v-anthropic-pbc/",
           "date": "2026-11-12",
@@ -17643,8 +17667,8 @@
       "category": "intellectual property",
       "status": "Filed; docket monitoring active",
       "status_badge": "Active Litigation",
-      "latest_development": "Answer to Amended Complaint",
-      "latest_development_date": "2026-11-13",
+      "latest_development": "Conference",
+      "latest_development_date": "2026-11-18",
       "courtlistener_url": "https://www.courtlistener.com/docket/72291526/ace-cam-inc-v-runway-ai-inc/",
       "executive_summary": "Ace Cam, Inc. and Businessing LLC sued Runway AI Inc. in the United States District Court for the Southern District of New York on February 18, 2026. The docket entries show a consolidated class action complaint with a jury demand, but the record does not state the specific claims. Runway AI Inc. moved to dismiss the consolidated class action complaint on May 27, 2026, and briefing was completed by July 13, 2026. As of the newest entry on August 25, 2026, the parties are filing supplemental authority letters to Judge Lewis A. Kaplan, and the motion to dismiss remains pending.",
       "why_it_matters": "Training data copyright suits decide whether building a model on protected work without a licence is infringement or fair use, which sets the cost of every future model and the licensing market around it.",
@@ -17655,6 +17679,12 @@
       "defendant_counsel": null,
       "claims": [],
       "timeline": [
+        {
+          "url": "https://www.courtlistener.com/docket/72291526/ace-cam-inc-v-runway-ai-inc/",
+          "date": "2026-11-18",
+          "title": "Conference",
+          "doc_no": "64"
+        },
         {
           "url": "https://www.courtlistener.com/docket/72291526/ace-cam-inc-v-runway-ai-inc/",
           "date": "2026-11-13",
@@ -22951,8 +22981,8 @@
       "category": "intellectual property",
       "status": "Filed; docket monitoring active",
       "status_badge": "Active Litigation",
-      "latest_development": "Case Assigned/Reassigned",
-      "latest_development_date": "2026-11-05",
+      "latest_development": "Order on Motion for Pro Hac Vice",
+      "latest_development_date": "2026-11-18",
       "courtlistener_url": "https://www.courtlistener.com/docket/74800416/vredenburgh-v-openai-opco-llc/",
       "executive_summary": "Alexandra Vredenburgh and Paul Coutu sued OpenAI OpCo, LLC in the U.S. District Court for the Northern District of California on September 16, 2026. The docket entries do not state the nature of the claims. The case was assigned to Magistrate Judge Alex G. Tse, and OpenAI OpCo, LLC was served on September 21, 2026, with an answer due October 13, 2026. As of the newest entry on October 14, 2026, the docket shows a certificate of interested entities, corporate disclosure statement, or Rule 7.1 disclosures, along with a stipulation and proposed order and a notice of attorney appearance or change filed two days earlier. An initial case management conference is set for December 18, 2026.",
       "why_it_matters": "Intellectual property suits over AI decide who owns what a model learned from and what it produces, whether copyrighted training data, patented methods or a protected name, which sets the licensing cost of every future model.",
@@ -22963,6 +22993,36 @@
       "defendant_counsel": null,
       "claims": [],
       "timeline": [
+        {
+          "url": "https://www.courtlistener.com/docket/74800416/vredenburgh-v-openai-opco-llc/",
+          "date": "2026-11-18",
+          "title": "Order on Motion for Pro Hac Vice",
+          "doc_no": "24"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74800416/vredenburgh-v-openai-opco-llc/",
+          "date": "2026-11-18",
+          "title": "Order on Motion for Pro Hac Vice",
+          "doc_no": "25"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74800416/vredenburgh-v-openai-opco-llc/",
+          "date": "2026-11-17",
+          "title": "Dismiss",
+          "doc_no": "21"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74800416/vredenburgh-v-openai-opco-llc/",
+          "date": "2026-11-17",
+          "title": "Pro Hac Vice",
+          "doc_no": "22"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74800416/vredenburgh-v-openai-opco-llc/",
+          "date": "2026-11-17",
+          "title": "Pro Hac Vice",
+          "doc_no": "23"
+        },
         {
           "url": "https://www.courtlistener.com/docket/74800416/vredenburgh-v-openai-opco-llc/",
           "date": "2026-11-05",
@@ -24593,8 +24653,8 @@
       "category": "intellectual property",
       "status": "Filed; docket monitoring active",
       "status_badge": "Active Litigation",
-      "latest_development": "Amended Complaint",
-      "latest_development_date": "2026-10-19",
+      "latest_development": "ADR Certification (ADR L.R. 3-5 b) of discussion of ADR options",
+      "latest_development_date": "2026-11-18",
       "courtlistener_url": "https://www.courtlistener.com/docket/74658569/round-hill-music-lp-v-suno-inc/",
       "executive_summary": "Round Hill Music LP, GFP Co-Invest, LP, RH Carlin Holdings LLC, Round Hill Music Royalty Fund II, LP, Round Hill Music Royalty Fund III Plus, LP, and Round Hill Music Royalty Fund sued Suno, Inc. in the District Court, N.D. California, filed on 2026-08-17. The docket entries do not state the claims. As of the newest entry on 2026-08-26, Judge Rita F. Lin granted the motion for pro hac vice for David M. Niemierzycki. Suno, Inc. waived service on 8/21/2026, with an answer due 10/2/2026, and the parties have filed notices related to an administrative motion to consider whether cases should be related.",
       "why_it_matters": null,
@@ -24605,6 +24665,18 @@
       "defendant_counsel": null,
       "claims": [],
       "timeline": [
+        {
+          "url": "https://www.courtlistener.com/docket/74658569/round-hill-music-lp-v-suno-inc/",
+          "date": "2026-11-18",
+          "title": "ADR Certification (ADR L.R. 3-5 b) of discussion of ADR options",
+          "doc_no": "47"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74658569/round-hill-music-lp-v-suno-inc/",
+          "date": "2026-11-18",
+          "title": "ADR Certification (ADR L.R. 3-5 b) of discussion of ADR options",
+          "doc_no": "48"
+        },
         {
           "url": "https://www.courtlistener.com/docket/74658569/round-hill-music-lp-v-suno-inc/",
           "date": "2026-10-19",
@@ -25265,8 +25337,8 @@
       "category": "contract \u0026 business disputes",
       "status": "Filed; docket monitoring active",
       "status_badge": "Active Litigation",
-      "latest_development": "Reply to Response to Motion",
-      "latest_development_date": "2026-11-12",
+      "latest_development": "Amend/Correct",
+      "latest_development_date": "2026-11-18",
       "courtlistener_url": "https://www.courtlistener.com/docket/73720190/xai-llc-v-darana-hybrid-inc/",
       "executive_summary": "The caption names x.AI LLC as plaintiff and Darana Hybrid, Inc as defendant in the District Court for the Western District of Tennessee, filed on August 4, 2026. Docket entries also identify Darryl Cuttell and Cuttell Motorsports LLC as defendants, and a motion to consolidate was filed by CTC Property LLC, MZX Tech LLC, and x.AI LLC. The entries do not state the claims, but the newest entry, dated August 27, 2026, is a motion to dismiss for failure to state a claim by all defendants. As of that newest entry, the case remains pending on that motion to dismiss, with earlier pro hac vice admissions and a response opposing consolidation also on the docket.",
       "why_it_matters": null,
@@ -25277,6 +25349,12 @@
       "defendant_counsel": null,
       "claims": [],
       "timeline": [
+        {
+          "url": "https://www.courtlistener.com/docket/73720190/xai-llc-v-darana-hybrid-inc/",
+          "date": "2026-11-18",
+          "title": "Amend/Correct",
+          "doc_no": "64"
+        },
         {
           "url": "https://www.courtlistener.com/docket/73720190/xai-llc-v-darana-hybrid-inc/",
           "date": "2026-11-12",
@@ -25493,8 +25571,8 @@
       "category": "unclassified",
       "status": "Filed; docket monitoring active",
       "status_badge": "Active Litigation",
-      "latest_development": "NOTICE of Appearance filed by Laura Elizabeth Vartain Horn on behalf of SpaceXAI Corp, SpaceXAI LLC, X. AI Corp., X.AI LLC (Vartain Horn, Laura) (Filed on 11/17/2026) (Entered: 11/17/2026)",
-      "latest_development_date": "2026-11-17",
+      "latest_development": "Order on Motion for Pro Hac Vice",
+      "latest_development_date": "2026-11-18",
       "courtlistener_url": "https://www.courtlistener.com/docket/72185111/doe-v-xai-corp/",
       "executive_summary": "Jane Doe, New Jersey Doe, Ohio Doe, and South Carolina Roe sued X.AI Corp. and related entities in the United States District Court for the Northern District of California, filed on July 30, 2026. The docket entries do not state the specific claims. As of the newest entry on October 2, 2026, the case has proceeded through motions to stay and transfer, which were denied on September 28, 2026, and a notice of appearance was filed for the plaintiffs.",
       "why_it_matters": null,
@@ -25505,6 +25583,12 @@
       "defendant_counsel": null,
       "claims": [],
       "timeline": [
+        {
+          "url": "https://www.courtlistener.com/docket/72185111/doe-v-xai-corp/",
+          "date": "2026-11-18",
+          "title": "Order on Motion for Pro Hac Vice",
+          "doc_no": "105"
+        },
         {
           "url": "https://www.courtlistener.com/docket/72185111/doe-v-xai-corp/",
           "date": "2026-11-17",
@@ -27869,8 +27953,8 @@
       "category": "intellectual property",
       "status": "Filed; docket monitoring active",
       "status_badge": "Active Litigation",
-      "latest_development": "Amended Complaint",
-      "latest_development_date": "2026-10-19",
+      "latest_development": "ADR Certification (ADR L.R. 3-5 b) of discussion of ADR options",
+      "latest_development_date": "2026-11-18",
       "courtlistener_url": "https://www.courtlistener.com/docket/74725556/gerencia-360-music-inc-v-suno-inc/",
       "executive_summary": "Gerencia 360 Music, Inc. sued Suno, Inc. in District Court, N.D. California on August 31, 2026. The docket entries indicate a copyright claim, as shown by the September 1, 2026 report on the filing or determination of an action regarding copyright. The case was reassigned to Judge Charles R. Breyer, and the court set an initial case management conference for December 4, 2026. As of the newest entry on September 4, 2026, Suno, Inc. waived service, and its answer is due November 2, 2026.",
       "why_it_matters": "Training data copyright suits decide whether building a model on protected work without a licence is infringement or fair use, which sets the cost of every future model and the licensing market around it.",
@@ -27881,6 +27965,18 @@
       "defendant_counsel": null,
       "claims": [],
       "timeline": [
+        {
+          "url": "https://www.courtlistener.com/docket/74725556/gerencia-360-music-inc-v-suno-inc/",
+          "date": "2026-11-18",
+          "title": "ADR Certification (ADR L.R. 3-5 b) of discussion of ADR options",
+          "doc_no": "43"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74725556/gerencia-360-music-inc-v-suno-inc/",
+          "date": "2026-11-18",
+          "title": "ADR Certification (ADR L.R. 3-5 b) of discussion of ADR options",
+          "doc_no": "42"
+        },
         {
           "url": "https://www.courtlistener.com/docket/74725556/gerencia-360-music-inc-v-suno-inc/",
           "date": "2026-10-19",
@@ -28555,8 +28651,8 @@
       "category": "consumer protection",
       "status": "Filed; docket monitoring active",
       "status_badge": "Active Litigation",
-      "latest_development": "Proposed Agreed Order",
-      "latest_development_date": "2026-11-17",
+      "latest_development": "Order on Motion for Miscellaneous Relief",
+      "latest_development_date": "2026-11-18",
       "courtlistener_url": "https://www.courtlistener.com/docket/68084618/barrows-v-humana-inc/",
       "executive_summary": "Dolly Balani, JoAnne Barrows, the Estate of JoAnne Barrows, Susan Hagood, Lorraine Kohl, and Sharon Merkley sued Humana, Inc. in the District Court, W.D. Kentucky, filed December 12, 2023. The docket entries reference an amended complaint and amended answer but do not state the specific claims. As of the newest entry on September 17, 2026, Judge Rebecca Grady Jennings granted a motion for Margaret Eve Grabau to appear pro hac vice for the plaintiffs. The case remains pending, with prior entries showing an agreed order accepting Humana’s amended answer, a granted motion to amend scheduling deadlines, and joint status reports.",
       "why_it_matters": "Consumer protection suits apply existing deception law to AI products, which lets a state attorney general act without waiting for an AI statute.",
@@ -28567,6 +28663,12 @@
       "defendant_counsel": null,
       "claims": [],
       "timeline": [
+        {
+          "url": "https://www.courtlistener.com/docket/68084618/barrows-v-humana-inc/",
+          "date": "2026-11-18",
+          "title": "Order on Motion for Miscellaneous Relief",
+          "doc_no": "179"
+        },
         {
           "url": "https://www.courtlistener.com/docket/68084618/barrows-v-humana-inc/",
           "date": "2026-11-17",
@@ -28849,7 +28951,7 @@
       "category": "unclassified",
       "status": "Filed; docket monitoring active",
       "status_badge": "Active Litigation",
-      "latest_development": "Stipulation and Proposed Order",
+      "latest_development": "Order on Stipulation",
       "latest_development_date": "2026-11-17",
       "courtlistener_url": "https://www.courtlistener.com/docket/74849434/sytemllabs-v-perplexity-ai-inc/",
       "executive_summary": "SyteMLLabs sued Perplexity AI, Inc. in the District Court, N.D. California, filed 2026-09-24. The docket entries do not yet show what the claims are. As of the newest entry on 2026-10-08, a Certificate/Proof of Service was filed, after a Case Management Scheduling Order and a Case Assigned/Reassigned entry on 2026-10-07.",
@@ -28861,6 +28963,12 @@
       "defendant_counsel": null,
       "claims": [],
       "timeline": [
+        {
+          "url": "https://www.courtlistener.com/docket/74849434/sytemllabs-v-perplexity-ai-inc/",
+          "date": "2026-11-17",
+          "title": "Order on Stipulation",
+          "doc_no": "31"
+        },
         {
           "url": "https://www.courtlistener.com/docket/74849434/sytemllabs-v-perplexity-ai-inc/",
           "date": "2026-11-17",
@@ -30027,8 +30135,8 @@
       "category": "antitrust",
       "status": "Filed October 2, 2026; proposed class action; docket monitoring active",
       "status_badge": "Active Litigation",
-      "latest_development": "Briefing Schedule",
-      "latest_development_date": "2026-11-17",
+      "latest_development": "Order on Motion to Appear Pro Hac Vice",
+      "latest_development_date": "2026-11-18",
       "courtlistener_url": "https://www.courtlistener.com/docket/74913771/thomas-v-mcdonalds-usa-llc/",
       "executive_summary": "Michael Thomas, an Illinois consumer, filed a proposed class action against McDonald's USA in the Northern District of Illinois on October 2, 2026, assigned to Judge Thomas M. Durkin. The complaint alleges that McDonald's pricing technology uses machine learning on millions of daily transactions pooled from independently owned franchise restaurants to recommend menu prices, and that the recommendations function as coordination among competitors rather than independent pricing. It says the system is used at roughly 14,000 US restaurants, covers items including the Big Mac, Quarter Pounder and French fries, and that franchisees can face consequences for not following the recommendations. The plaintiff seeks damages for consumers nationwide and dates the alleged conduct to 2019. McDonald's denies the allegations and says franchisees set their own prices, that AI does not set the price of any menu item, and that its tools offer optional information. Nine docket entries were filed between October 2 and October 8, 2026; the claims have not been tested in court.",
       "why_it_matters": "The case asks whether an algorithm that pools competitors' sales data and recommends prices to each of them is price fixing under the Sherman Act, the same question raised against RealPage in rental housing and in the hotel rate cases. A franchise system is a harder test because the franchisor and franchisees share a brand but are separate businesses that are supposed to price independently. If the theory survives a motion to dismiss, every company that offers pricing recommendations to independent dealers, agents or franchisees will need to look at what data flows through the model and who is bound by its output.",
@@ -30042,6 +30150,78 @@
         "Consumer overcharge damages on behalf of a nationwide class"
       ],
       "timeline": [
+        {
+          "url": "https://www.courtlistener.com/docket/74913771/thomas-v-mcdonalds-usa-llc/",
+          "date": "2026-11-18",
+          "title": "Order on Motion to Appear Pro Hac Vice",
+          "doc_no": "38"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74913771/thomas-v-mcdonalds-usa-llc/",
+          "date": "2026-11-18",
+          "title": "ATTORNEY Appearance for Defendant Deloitte Consulting LLP by Brittany Paige Cramer (Cramer, Brittany) (Entered: 11/18/2026)",
+          "doc_no": "32"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74913771/thomas-v-mcdonalds-usa-llc/",
+          "date": "2026-11-18",
+          "title": "ATTORNEY Appearance for Defendant Deloitte Consulting LLP by Daniel E. Laytin (Laytin, Daniel) (Entered: 11/18/2026)",
+          "doc_no": "33"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74913771/thomas-v-mcdonalds-usa-llc/",
+          "date": "2026-11-18",
+          "title": "ATTORNEY Appearance for Defendant Deloitte Consulting LLP by Cameron Ginder (Ginder, Cameron) (Entered: 11/18/2026)",
+          "doc_no": "34"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74913771/thomas-v-mcdonalds-usa-llc/",
+          "date": "2026-11-18",
+          "title": "ATTORNEY Appearance for Defendant Deloitte Consulting LLP by Christa Cynthia Cottrell (Cottrell, Christa) (Entered: 11/18/2026)",
+          "doc_no": "35"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74913771/thomas-v-mcdonalds-usa-llc/",
+          "date": "2026-11-18",
+          "title": "MOTION for Leave to Appear Pro Hac Vice on behalf of Brian Allaire by Michael Srodoski; Filing fee $ 150, receipt number AILNDC-25965215. Presented before District Judge (Srodoski, Michael) (Entered: 11/18/2026)",
+          "doc_no": "36"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74913771/thomas-v-mcdonalds-usa-llc/",
+          "date": "2026-11-18",
+          "title": "Rule 7.1 Corporate Disclosure STATEMENT by Deloitte Consulting LLP (Cottrell, Christa) (Entered: 11/18/2026)",
+          "doc_no": "37"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74913771/thomas-v-mcdonalds-usa-llc/",
+          "date": "2026-11-18",
+          "title": "Order AND Order on Motion to Set a Briefing Schedule",
+          "doc_no": "29"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74913771/thomas-v-mcdonalds-usa-llc/",
+          "date": "2026-11-18",
+          "title": "Appear Pro Hac Vice",
+          "doc_no": "30"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74913771/thomas-v-mcdonalds-usa-llc/",
+          "date": "2026-11-18",
+          "title": "Order on Motion to Appear Pro Hac Vice",
+          "doc_no": "31"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74913771/thomas-v-mcdonalds-usa-llc/",
+          "date": "2026-11-17",
+          "title": "ATTORNEY Appearance for Plaintiff Timothy Worthington by Derrick Loving Attorney Appearance for Plaintiffs Plaintiffs Timothy Worthington, William Schenden, Monet Reid, Josh Boesch, Cathie Haglund, Lindsey Hughes, Patricia Smith, Ami Bubica, Alexis Bronson, Stefanie Angelico, Cody Kirchoff, Robert B",
+          "doc_no": "26"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74913771/thomas-v-mcdonalds-usa-llc/",
+          "date": "2026-11-17",
+          "title": "ATTORNEY Appearance for Plaintiff Timothy Worthington by Megan Shannon Attorney Appearance for Plaintiffs Timothy Worthington, William Schenden, Monet Reid, Josh Boesch, Cathie Haglund, Lindsey Hughes, Patricia Smith, Ami Bubica, Alexis Bronson, Stefanie Angelico, Cody Kirchoff, Robert Banach, Rober",
+          "doc_no": "27"
+        },
         {
           "url": "https://www.courtlistener.com/docket/74913771/thomas-v-mcdonalds-usa-llc/",
           "date": "2026-11-17",
@@ -30439,8 +30619,8 @@
       "category": "constitutional challenges",
       "status": "Appeal from the denial of a preliminary injunction; oral argument noticed for 2026-11-18 (Dkt. 51)",
       "status_badge": "Active Litigation",
-      "latest_development": "ACKNOWLEDGMENT of hearing notice filed by Joseph Henry Meeker for Appellee Rob Bonta. Hearing in Pasadena - Courtroom 1 in Pasadena, on 11/18/2026 9:30:00 AM. Filer argument time: By myself. (Argument minutes: [-]). Special accommodations: No. Filer admission status:  I certify that I am admitted",
-      "latest_development_date": "2026-10-21",
+      "latest_development": "RESPONSE to Citation of Supplemental Authorities (28j Letter) (DE 57) filed by Appellant X.AI LLC. [Court edit to replace PDF]  [Entered: 11/17/2026 09:39 AM] [Edited: 11/17/2026 04:11 PM]",
+      "latest_development_date": "2026-11-17",
       "courtlistener_url": "https://www.courtlistener.com/docket/72518947/xai-llc-v-bonta/",
       "executive_summary": "X.AI LLC appealed to the Court of Appeals for the Ninth Circuit on March 17, 2026, in a case against Rob Bonta. The docket entries show an appeal from a district court order denying a preliminary injunction, with briefing by the appellant and appellee and multiple amicus briefs. As of the newest entry on September 10, 2026, the court granted a motion for leave to file an amicus brief by the Minderoo Centre for Technology and Democracy at the University of Cambridge, and oral argument is scheduled for November 18, 2026, in Pasadena.",
       "why_it_matters": null,
@@ -30451,6 +30631,18 @@
       "defendant_counsel": null,
       "claims": [],
       "timeline": [
+        {
+          "url": "https://www.courtlistener.com/docket/72518947/xai-llc-v-bonta/",
+          "date": "2026-11-17",
+          "title": "RESPONSE to Citation of Supplemental Authorities (28j Letter) (DE 57) filed by Appellant X.AI LLC. [Court edit to replace PDF]  [Entered: 11/17/2026 09:39 AM] [Edited: 11/17/2026 04:11 PM]",
+          "doc_no": "58"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/72518947/xai-llc-v-bonta/",
+          "date": "2026-11-13",
+          "title": "CITATION of Supplemental Authorities (28j Letter) filed by Appellee Rob Bonta. [Entered: 11/13/2026 02:22 PM]",
+          "doc_no": "57"
+        },
         {
           "url": "https://www.courtlistener.com/docket/72518947/xai-llc-v-bonta/",
           "date": "2026-10-21",
@@ -30944,8 +31136,8 @@
       "category": "intellectual property",
       "status": "Filed October 23, 2026; assigned to Judge William H. Orrick",
       "status_badge": "Active Litigation",
-      "latest_development": "Order Relating Case AND ~Util - Terminate Motions",
-      "latest_development_date": "2026-11-16",
+      "latest_development": "Case Assigned/Reassigned",
+      "latest_development_date": "2026-11-18",
       "courtlistener_url": "https://www.courtlistener.com/docket/75016087/abg-epe-ip-llc-v-anthropic-pbc/",
       "executive_summary": "ABG EPE IP LLC and a group of music publishing companies and family trusts sued Anthropic PBC for copyright infringement in the Northern District of California on October 23, 2026. It is one of the music publisher suits filed against Anthropic between January and October 2026 that Anthropic's S-1 groups as the Music Publisher Matters, which allege copying of song lyrics and compositions to train Claude and in its outputs, and removal of copyright management information.",
       "why_it_matters": "The music publisher suits test whether training on and reproducing song lyrics is infringement, and some name Anthropic executives personally. Their number keeps growing after the first Concord case.",
@@ -30956,6 +31148,12 @@
       "defendant_counsel": null,
       "claims": [],
       "timeline": [
+        {
+          "url": "https://www.courtlistener.com/docket/75016087/abg-epe-ip-llc-v-anthropic-pbc/",
+          "date": "2026-11-18",
+          "title": "Case Assigned/Reassigned",
+          "doc_no": ""
+        },
         {
           "url": "https://www.courtlistener.com/docket/75016087/abg-epe-ip-llc-v-anthropic-pbc/",
           "date": "2026-11-16",
@@ -31045,8 +31243,8 @@
       "category": "intellectual property",
       "status": "Filed October 21, 2026; assigned to Magistrate Judge Alex G. Tse",
       "status_badge": "Active Litigation",
-      "latest_development": "Case Assigned/Reassigned",
-      "latest_development_date": "2026-11-17",
+      "latest_development": "Clerk's Notice AND Clerk's Notice Setting Zoom Hearing",
+      "latest_development_date": "2026-11-18",
       "courtlistener_url": "https://www.courtlistener.com/docket/75002159/reservoir-media-management-inc-v-anthropic-pbc/",
       "executive_summary": "Reservoir Media Management and two affiliated publishers sued Anthropic PBC for copyright infringement in the Northern District of California on October 21, 2026. It is one of the music publisher suits filed against Anthropic between January and October 2026 that Anthropic's S-1 groups as the Music Publisher Matters, which allege copying of song lyrics and compositions to train Claude and in its outputs, and removal of copyright management information.",
       "why_it_matters": "The music publisher suits test whether training on and reproducing song lyrics is infringement. Each new filing adds catalog owners to the same core dispute.",
@@ -31057,6 +31255,18 @@
       "defendant_counsel": null,
       "claims": [],
       "timeline": [
+        {
+          "url": "https://www.courtlistener.com/docket/75002159/reservoir-media-management-inc-v-anthropic-pbc/",
+          "date": "2026-11-18",
+          "title": "Clerk's Notice AND Clerk's Notice Setting Zoom Hearing",
+          "doc_no": ""
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/75002159/reservoir-media-management-inc-v-anthropic-pbc/",
+          "date": "2026-11-18",
+          "title": "Certificate of Interested Entities, Corporate Disclosure Statement, or Rule 7.1 Disclosures",
+          "doc_no": "20"
+        },
         {
           "url": "https://www.courtlistener.com/docket/75002159/reservoir-media-management-inc-v-anthropic-pbc/",
           "date": "2026-11-17",
@@ -31545,8 +31755,8 @@
       "category": "unclassified",
       "status": "Filed; docket monitoring active",
       "status_badge": "Active Litigation",
-      "latest_development": "UNOPPOSED MOTION [2202778] For Leave to File a Brief as Amicus Curiae Opposing Petitioner's Petition for Rehearing En Banc filed by Mr. Joel Thayer [Service Date: 11/10/2026 ] Length Certification: 646 words. [26-1049] (Thayer, Joel)",
-      "latest_development_date": "2026-11-10",
+      "latest_development": "RESPONSE [2204024] to petition for rehearing en banc [2197902-2], petition for rehearing [2197902-3] filed by Peter B. Hegseth and United States Department of War in 26-1049, 26-1162 [Service Date: 11/18/2026 by CM/ECF NDA] Length Certification: 3898 words. [26-1049, 26-1162] (Janda, Sean)",
+      "latest_development_date": "2026-11-18",
       "courtlistener_url": "https://www.courtlistener.com/docket/72380208/anthropic-pbc-v-united-states-department-of-war/",
       "executive_summary": "Anthropic PBC sued the U.S. Department of War in the Court of Appeals for the D.C. Circuit, in case numbers 26-1049 and 26-1162. The docket entries do not state what the claims are; they show only that a petition for panel rehearing is pending and that numerous parties have moved or lodged briefs as amici for the petitioner. The newest entry, dated October 23, 2026, is a per curiam order by Judges Henderson, Katsas and Rao granting the respondents' motion to extend time to respond to the petition for panel rehearing, with the response now due no later than November 13, 2026.",
       "why_it_matters": null,
@@ -31557,6 +31767,12 @@
       "defendant_counsel": null,
       "claims": [],
       "timeline": [
+        {
+          "url": "https://www.courtlistener.com/docket/72380208/anthropic-pbc-v-united-states-department-of-war/",
+          "date": "2026-11-18",
+          "title": "RESPONSE [2204024] to petition for rehearing en banc [2197902-2], petition for rehearing [2197902-3] filed by Peter B. Hegseth and United States Department of War in 26-1049, 26-1162 [Service Date: 11/18/2026 by CM/ECF NDA] Length Certification: 3898 words. [26-1049, 26-1162] (Janda, Sean)",
+          "doc_no": "1208909414"
+        },
         {
           "url": "https://www.courtlistener.com/docket/72380208/anthropic-pbc-v-united-states-department-of-war/",
           "date": "2026-11-10",
@@ -32581,8 +32797,8 @@
       "category": "intellectual property",
       "status": "Filed; docket monitoring active",
       "status_badge": "Active Litigation",
-      "latest_development": "Notice of Appearance/Substitution/Change/Withdrawal of Attorney",
-      "latest_development_date": "2026-11-11",
+      "latest_development": "Declaration in Support",
+      "latest_development_date": "2026-11-18",
       "courtlistener_url": "https://www.courtlistener.com/docket/71171217/ex-populus-inc-v-spacexai-corp/",
       "executive_summary": "Ex Populus, Inc. sued SpaceXAI Corp. and others in the District Court, N.D. California, filed 2025-08-21. The docket entries show motions to dismiss the Second Amended Complaint and a motion to strike, but the record does not state what the claims are. As of the newest entry, 2026-10-16, Daniel N. Cohen filed a notice of withdrawal of appearance for Space Exploration Technologies Corp., SpaceXAI Corp., SpaceXAI LLC, and X Corp.",
       "why_it_matters": "Intellectual property suits over AI decide who owns what a model learned from and what it produces, whether copyrighted training data, patented methods or a protected name, which sets the licensing cost of every future model.",
@@ -32593,6 +32809,18 @@
       "defendant_counsel": null,
       "claims": [],
       "timeline": [
+        {
+          "url": "https://www.courtlistener.com/docket/71171217/ex-populus-inc-v-spacexai-corp/",
+          "date": "2026-11-18",
+          "title": "Declaration in Support",
+          "doc_no": "183"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/71171217/ex-populus-inc-v-spacexai-corp/",
+          "date": "2026-11-18",
+          "title": "Sanctions",
+          "doc_no": "182"
+        },
         {
           "url": "https://www.courtlistener.com/docket/71171217/ex-populus-inc-v-spacexai-corp/",
           "date": "2026-11-11",
@@ -32715,8 +32943,8 @@
       "category": "consumer protection",
       "status": "Filed; docket monitoring active",
       "status_badge": "Active Litigation",
-      "latest_development": "Order",
-      "latest_development_date": "2026-11-17",
+      "latest_development": "Objection",
+      "latest_development_date": "2026-11-18",
       "courtlistener_url": "https://www.courtlistener.com/docket/74951888/character-technologies-inc/",
       "executive_summary": "Character Technologies, Inc. filed a case in the United States Bankruptcy Court for the District of Delaware on 2026-10-12. The docket entries do not state the claims or the relief sought. The newest entries, dated 2026-10-30, are orders approving motions for admission pro hac vice of Darren Azman, Gregg A. Steinman, and Kristin K. Going, an amended notice of appearance by NAAG Client States, and a notice of filing of a revised exhibit to a proposed bidding procedures order. As of the newest entry, the case remains pending in the bankruptcy court.",
       "why_it_matters": "Consumer protection suits apply existing deception law to AI products, which lets a state attorney general act without waiting for an AI statute.",
@@ -32727,6 +32955,90 @@
       "defendant_counsel": null,
       "claims": [],
       "timeline": [
+        {
+          "url": "https://www.courtlistener.com/docket/74951888/character-technologies-inc/",
+          "date": "2026-11-18",
+          "title": "Objection",
+          "doc_no": "194"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74951888/character-technologies-inc/",
+          "date": "2026-11-18",
+          "title": "Objection",
+          "doc_no": "195"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74951888/character-technologies-inc/",
+          "date": "2026-11-18",
+          "title": "Affidavit/Declaration of Service",
+          "doc_no": "190"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74951888/character-technologies-inc/",
+          "date": "2026-11-18",
+          "title": "Affidavit/Declaration of Service",
+          "doc_no": "191"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74951888/character-technologies-inc/",
+          "date": "2026-11-18",
+          "title": "Affidavit/Declaration of Service",
+          "doc_no": "192"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74951888/character-technologies-inc/",
+          "date": "2026-11-18",
+          "title": "Objection",
+          "doc_no": "193"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74951888/character-technologies-inc/",
+          "date": "2026-11-18",
+          "title": "Deposition - Notice",
+          "doc_no": "187"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74951888/character-technologies-inc/",
+          "date": "2026-11-18",
+          "title": "Deposition - Notice",
+          "doc_no": "188"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74951888/character-technologies-inc/",
+          "date": "2026-11-18",
+          "title": "Declaration in Support",
+          "doc_no": "189"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74951888/character-technologies-inc/",
+          "date": "2026-11-18",
+          "title": "Notice of Service",
+          "doc_no": "183"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74951888/character-technologies-inc/",
+          "date": "2026-11-18",
+          "title": "Deposition - Notice",
+          "doc_no": "184"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74951888/character-technologies-inc/",
+          "date": "2026-11-18",
+          "title": "Deposition - Notice",
+          "doc_no": "185"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74951888/character-technologies-inc/",
+          "date": "2026-11-18",
+          "title": "Deposition - Notice",
+          "doc_no": "186"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74951888/character-technologies-inc/",
+          "date": "2026-11-18",
+          "title": "Appointment of Ombudsman",
+          "doc_no": "182"
+        },
         {
           "url": "https://www.courtlistener.com/docket/74951888/character-technologies-inc/",
           "date": "2026-11-17",
@@ -33251,8 +33563,8 @@
       "category": "intellectual property",
       "status": "Filed; docket monitoring active",
       "status_badge": "Active Litigation",
-      "latest_development": "Clerk's Notice of Impending Reassignment - Text Only",
-      "latest_development_date": "2026-11-17",
+      "latest_development": "ORDER REASSIGNING CASE IT IS ORDERED that this case is reassigned using a proportionate, random and blind system pursuant to General Order No. 44 to Judge Beth Labson Freeman. Magistrate Judge Joseph C. Spero no longer assigned to the case. Counsel are instructed that all future filings shall bear t",
+      "latest_development_date": "2026-11-18",
       "courtlistener_url": "https://www.courtlistener.com/docket/75087621/elvis-presley-enterprises-llc-v-suno-inc/",
       "executive_summary": null,
       "why_it_matters": null,
@@ -33263,6 +33575,24 @@
       "defendant_counsel": null,
       "claims": [],
       "timeline": [
+        {
+          "url": "https://www.courtlistener.com/docket/75087621/elvis-presley-enterprises-llc-v-suno-inc/",
+          "date": "2026-11-18",
+          "title": "ORDER REASSIGNING CASE IT IS ORDERED that this case is reassigned using a proportionate, random and blind system pursuant to General Order No. 44 to Judge Beth Labson Freeman. Magistrate Judge Joseph C. Spero no longer assigned to the case. Counsel are instructed that all future filings shall bear t",
+          "doc_no": "10"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/75087621/elvis-presley-enterprises-llc-v-suno-inc/",
+          "date": "2026-11-18",
+          "title": "Case Assigned/Reassigned",
+          "doc_no": ""
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/75087621/elvis-presley-enterprises-llc-v-suno-inc/",
+          "date": "2026-11-17",
+          "title": "CLERK'S NOTICE OF IMPENDING REASSIGNMENT TO A U.S. DISTRICT COURT JUDGE: The Clerk of this Court will now randomly reassign this case to a District Judge because either (1) a party has not consented to the jurisdiction of a Magistrate Judge, or (2) time is of the essence in deciding a pending judici",
+          "doc_no": "9"
+        },
         {
           "url": "https://www.courtlistener.com/docket/75087621/elvis-presley-enterprises-llc-v-suno-inc/",
           "date": "2026-11-17",
@@ -33331,8 +33661,8 @@
       "category": "intellectual property",
       "status": "Filed; docket monitoring active",
       "status_badge": "Active Litigation",
-      "latest_development": "MOTION for leave to appear in Pro Hac Vice for Andrew Hunt Davis ( Filing fee $ 328, receipt number ACANDC-22733576.) filed by Eight Mile Style, LLC, Martin Affliated LLC. (Davis, Andrew) (Filed on 11/17/2026) (Entered: 11/17/2026)",
-      "latest_development_date": "2026-11-17",
+      "latest_development": "REPORT on the filing or determination of an action regarding Copyright (cc: form mailed to register). (Busch, Richard) (Filed on 11/18/2026) (Entered: 11/18/2026)",
+      "latest_development_date": "2026-11-18",
       "courtlistener_url": "https://www.courtlistener.com/docket/75087642/eight-mile-style-llc-v-suno-inc/",
       "executive_summary": null,
       "why_it_matters": null,
@@ -33343,6 +33673,30 @@
       "defendant_counsel": null,
       "claims": [],
       "timeline": [
+        {
+          "url": "https://www.courtlistener.com/docket/75087642/eight-mile-style-llc-v-suno-inc/",
+          "date": "2026-11-18",
+          "title": "REPORT on the filing or determination of an action regarding Copyright (cc: form mailed to register). (Busch, Richard) (Filed on 11/18/2026) (Entered: 11/18/2026)",
+          "doc_no": "6"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/75087642/eight-mile-style-llc-v-suno-inc/",
+          "date": "2026-11-18",
+          "title": "CONSENT/DECLINATION to Proceed Before a US Magistrate Judge by Eight Mile Style, LLC, Martin Affliated LLC.. (Busch, Richard) (Filed on 11/18/2026) (Entered: 11/18/2026)",
+          "doc_no": "7"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/75087642/eight-mile-style-llc-v-suno-inc/",
+          "date": "2026-11-18",
+          "title": "Case Assigned/Reassigned",
+          "doc_no": ""
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/75087642/eight-mile-style-llc-v-suno-inc/",
+          "date": "2026-11-18",
+          "title": "CLERK'S NOTICE OF IMPENDING REASSIGNMENT TO A U.S. DISTRICT COURT JUDGE: The Clerk of this Court will now randomly reassign this case to a District Judge because either (1) a party has not consented to the jurisdiction of a Magistrate Judge, or (2) time is of the essence in deciding a pending judici",
+          "doc_no": "8"
+        },
         {
           "url": "https://www.courtlistener.com/docket/75087642/eight-mile-style-llc-v-suno-inc/",
           "date": "2026-11-17",
@@ -33453,8 +33807,8 @@
       "category": "intellectual property",
       "status": "Filed; docket monitoring active",
       "status_badge": "Active Litigation",
-      "latest_development": "Remark: The Clerk's Office reached out to counsel to verify if civil actions 26cv1454-UNA and 26cv1455-UNA are related. Counsel's office has confirmed they are. Relationships have been established. Associated Cases: 1:26-cv-01454-UNA, 1:26-cv-01455-UNA(nms)",
-      "latest_development_date": "2026-11-12",
+      "latest_development": "Appear Pro Hac Vice",
+      "latest_development_date": "2026-11-18",
       "courtlistener_url": "https://www.courtlistener.com/docket/75109515/flinn-artificial-intelligence-ai-technologies-llc-v-openai-opco-llc/",
       "executive_summary": null,
       "why_it_matters": null,
@@ -33465,6 +33819,18 @@
       "defendant_counsel": null,
       "claims": [],
       "timeline": [
+        {
+          "url": "https://www.courtlistener.com/docket/75109515/flinn-artificial-intelligence-ai-technologies-llc-v-openai-opco-llc/",
+          "date": "2026-11-18",
+          "title": "Appear Pro Hac Vice",
+          "doc_no": "7"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/75109515/flinn-artificial-intelligence-ai-technologies-llc-v-openai-opco-llc/",
+          "date": "2026-11-18",
+          "title": "Case Assigned/Reassigned",
+          "doc_no": ""
+        },
         {
           "url": "https://www.courtlistener.com/docket/75109515/flinn-artificial-intelligence-ai-technologies-llc-v-openai-opco-llc/",
           "date": "2026-11-12",
@@ -33521,8 +33887,8 @@
       "category": "intellectual property",
       "status": "Filed; docket monitoring active",
       "status_badge": "Active Litigation",
-      "latest_development": "SUMMONS Returned Executed by Flinn Artificial Intelligence (AI) Technologies, LLC.Anthropic, PBC served on 11/12/2026, answer due 12/3/2026. (Mayo, Andrew) (Entered: 11/13/2026)",
-      "latest_development_date": "2026-11-13",
+      "latest_development": "Appear Pro Hac Vice",
+      "latest_development_date": "2026-11-18",
       "courtlistener_url": "https://www.courtlistener.com/docket/75107003/flinn-artificial-intelligence-ai-technologies-llc-v-anthropic-pbc/",
       "executive_summary": null,
       "why_it_matters": null,
@@ -33533,6 +33899,18 @@
       "defendant_counsel": null,
       "claims": [],
       "timeline": [
+        {
+          "url": "https://www.courtlistener.com/docket/75107003/flinn-artificial-intelligence-ai-technologies-llc-v-anthropic-pbc/",
+          "date": "2026-11-18",
+          "title": "Appear Pro Hac Vice",
+          "doc_no": "7"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/75107003/flinn-artificial-intelligence-ai-technologies-llc-v-anthropic-pbc/",
+          "date": "2026-11-18",
+          "title": "Case Assigned/Reassigned",
+          "doc_no": ""
+        },
         {
           "url": "https://www.courtlistener.com/docket/75107003/flinn-artificial-intelligence-ai-technologies-llc-v-anthropic-pbc/",
           "date": "2026-11-13",
@@ -34469,8 +34847,8 @@
       "category": "intellectual property",
       "status": "Filed; docket monitoring active",
       "status_badge": "Active Litigation",
-      "latest_development": "Administrative Motion per Civil Local Rule 7-11",
-      "latest_development_date": "2026-11-17",
+      "latest_development": "Extension of Time to File Response/Reply",
+      "latest_development_date": "2026-11-18",
       "courtlistener_url": "https://www.courtlistener.com/docket/72116364/gholami-v-openai-inc/",
       "executive_summary": null,
       "why_it_matters": null,
@@ -34481,6 +34859,12 @@
       "defendant_counsel": null,
       "claims": [],
       "timeline": [
+        {
+          "url": "https://www.courtlistener.com/docket/72116364/gholami-v-openai-inc/",
+          "date": "2026-11-18",
+          "title": "Extension of Time to File Response/Reply",
+          "doc_no": "44"
+        },
         {
           "url": "https://www.courtlistener.com/docket/72116364/gholami-v-openai-inc/",
           "date": "2026-11-17",
@@ -35670,8 +36054,8 @@
       "category": "unclassified",
       "status": "Filed; docket monitoring active",
       "status_badge": "Active Litigation",
-      "latest_development": "ORDER Granting 99 Stipulation to Sever Stability and Consolidate and Coordinate Actions as to X.AI. Signed by Judge P. Casey Pitts on 10/23/2026. ***Originally filed in case 5:26-cv-00772-PCP*** (bjw, COURT STAFF) (Filed on 10/23/2026) (Entered: 11/05/2026)",
-      "latest_development_date": "2026-10-23",
+      "latest_development": "Order on Stipulation",
+      "latest_development_date": "2026-11-18",
       "courtlistener_url": "https://www.courtlistener.com/docket/75079330/jane-doe-1-v-stability-ai-inc/",
       "executive_summary": null,
       "why_it_matters": null,
@@ -35682,6 +36066,12 @@
       "defendant_counsel": null,
       "claims": [],
       "timeline": [
+        {
+          "url": "https://www.courtlistener.com/docket/75079330/jane-doe-1-v-stability-ai-inc/",
+          "date": "2026-11-18",
+          "title": "Order on Stipulation",
+          "doc_no": "8"
+        },
         {
           "url": "https://www.courtlistener.com/docket/75079330/jane-doe-1-v-stability-ai-inc/",
           "date": "2026-10-23",
@@ -35722,7 +36112,129 @@
       "related_slugs": [],
       "display_order": 2832,
       "verified_date": "2026-11-17"
+    },
+    {
+      "slug": "umg-recordings-v-suno-inc-2",
+      "case_name": "UMG Recordings, Inc. v. Suno, Inc.",
+      "court": "District Court, D. Massachusetts",
+      "docket": "1:26-mc-91602",
+      "judge": null,
+      "filed_date": "2026-11-06",
+      "plaintiffs": "UMG Recordings, Inc.",
+      "defendants": "Suno, Inc.",
+      "category": "intellectual property",
+      "status": "Filed; docket monitoring active, no development recorded yet by this tracker",
+      "status_badge": "Active Litigation",
+      "latest_development": null,
+      "latest_development_date": null,
+      "courtlistener_url": "https://www.courtlistener.com/docket/75083547/umg-recordings-inc-v-suno-inc/",
+      "executive_summary": null,
+      "why_it_matters": null,
+      "target_models": [],
+      "disputed_datasets": [],
+      "materials_at_issue": null,
+      "plaintiff_counsel": null,
+      "defendant_counsel": null,
+      "claims": [],
+      "timeline": [],
+      "tags": [
+        "copyright"
+      ],
+      "related_slugs": [],
+      "display_order": 2842,
+      "verified_date": "2026-11-18"
+    },
+    {
+      "slug": "reservoir-media-v-suno-inc",
+      "case_name": "Reservoir Media Management, Inc. v. Suno, Inc.",
+      "court": "District Court, N.D. California",
+      "docket": "3:26-cv-12305",
+      "judge": null,
+      "filed_date": "2026-10-21",
+      "plaintiffs": "Reservoir Media Management, Inc.",
+      "defendants": "Suno, Inc.",
+      "category": "intellectual property",
+      "status": "Filed; docket monitoring active, no development recorded yet by this tracker",
+      "status_badge": "Active Litigation",
+      "latest_development": null,
+      "latest_development_date": null,
+      "courtlistener_url": "https://www.courtlistener.com/docket/75002053/reservoir-media-management-inc-v-suno-inc/",
+      "executive_summary": null,
+      "why_it_matters": null,
+      "target_models": [],
+      "disputed_datasets": [],
+      "materials_at_issue": null,
+      "plaintiff_counsel": null,
+      "defendant_counsel": null,
+      "claims": [],
+      "timeline": [],
+      "tags": [
+        "copyright"
+      ],
+      "related_slugs": [],
+      "display_order": 2852,
+      "verified_date": "2026-11-18"
+    },
+    {
+      "slug": "suno-inc-v-mechanical-licensing",
+      "case_name": "Suno, Inc. v. Mechanical Licensing Collective",
+      "court": "District Court, M.D. Tennessee",
+      "docket": "3:26-mc-00021",
+      "judge": null,
+      "filed_date": "2026-10-15",
+      "plaintiffs": "Suno, Inc.",
+      "defendants": "Mechanical Licensing Collective",
+      "category": "unclassified",
+      "status": "Filed; docket monitoring active, no development recorded yet by this tracker",
+      "status_badge": "Active Litigation",
+      "latest_development": null,
+      "latest_development_date": null,
+      "courtlistener_url": "https://www.courtlistener.com/docket/74967809/suno-inc-v-mechanical-licensing-collective/",
+      "executive_summary": null,
+      "why_it_matters": null,
+      "target_models": [],
+      "disputed_datasets": [],
+      "materials_at_issue": null,
+      "plaintiff_counsel": null,
+      "defendant_counsel": null,
+      "claims": [],
+      "timeline": [],
+      "tags": [],
+      "related_slugs": [],
+      "display_order": 2862,
+      "verified_date": "2026-11-18"
+    },
+    {
+      "slug": "umg-recordings-v-suno-inc-3",
+      "case_name": "UMG Recordings, Inc. v. Suno, Inc.",
+      "court": "District Court, N.D. California",
+      "docket": "5:26-mc-80303",
+      "judge": null,
+      "filed_date": "2026-10-13",
+      "plaintiffs": "UMG Recordings, Inc.",
+      "defendants": "Suno, Inc.",
+      "category": "intellectual property",
+      "status": "Filed; docket monitoring active, no development recorded yet by this tracker",
+      "status_badge": "Active Litigation",
+      "latest_development": null,
+      "latest_development_date": null,
+      "courtlistener_url": "https://www.courtlistener.com/docket/74958474/umg-recordings-inc-v-suno-inc/",
+      "executive_summary": null,
+      "why_it_matters": null,
+      "target_models": [],
+      "disputed_datasets": [],
+      "materials_at_issue": null,
+      "plaintiff_counsel": null,
+      "defendant_counsel": null,
+      "claims": [],
+      "timeline": [],
+      "tags": [
+        "copyright"
+      ],
+      "related_slugs": [],
+      "display_order": 2872,
+      "verified_date": "2026-11-18"
     }
   ],
-  "generated": "2026-11-18T04:03:04Z"
+  "generated": "2026-11-19T04:02:01Z"
 }
