@@ -1716,7 +1716,21 @@
             "origin": "Class established by OpenAI's o1, September 2024.",
             "example": "A reasoning model taking thirty seconds on a proof a chat model fumbles instantly.",
             "category": "Core Concepts",
-            "definition": "A model optimized to work through multi-step problems before answering, spending extra inference compute on deliberate chains of reasoning. The design trade is latency and cost for accuracy on hard problems."
+            "definition": "A model optimized to work through multi-step problems before answering, spending extra inference compute on deliberate chains of reasoning. The design trade is latency and cost for accuracy on hard problems.",
+            "also_called": [
+                "RLM",
+                "Large Reasoning Model"
+            ],
+            "also_called_notes": {
+                "RLM": {
+                    "evidence": "Named by the theworldofai editor from the Think Scale AI list \"20 AI Concepts to Know Before 2027\", approved by Stephen 2026-11-20 12:31 CST; written by the srj session",
+                    "evidence_id": "bridge:2646"
+                },
+                "Large Reasoning Model": {
+                    "evidence": "Named by the theworldofai editor from the Think Scale AI list \"20 AI Concepts to Know Before 2027\", approved by Stephen 2026-11-20 12:31 CST; written by the srj session",
+                    "evidence_id": "bridge:2646"
+                }
+            }
         },
         {
             "slug": "recommender-system",
@@ -3568,7 +3582,21 @@
             "origin": "",
             "example": "A hard problem allocated thirty seconds of reasoning instead of two.",
             "category": "Systems & Infrastructure",
-            "definition": "Spending extra computation at inference to improve answer quality: longer reasoning chains, multiple samples, search. The scaling axis that reasoning models opened, capability bought per query rather than per training run."
+            "definition": "Spending extra computation at inference to improve answer quality: longer reasoning chains, multiple samples, search. The scaling axis that reasoning models opened, capability bought per query rather than per training run.",
+            "also_called": [
+                "Test-Time Scaling",
+                "Inference-Time Scaling"
+            ],
+            "also_called_notes": {
+                "Test-Time Scaling": {
+                    "evidence": "Named by the theworldofai editor from the Think Scale AI list \"20 AI Concepts to Know Before 2027\", approved by Stephen 2026-11-20 12:31 CST; written by the srj session",
+                    "evidence_id": "bridge:2646"
+                },
+                "Inference-Time Scaling": {
+                    "evidence": "Named by the theworldofai editor from the Think Scale AI list \"20 AI Concepts to Know Before 2027\", approved by Stephen 2026-11-20 12:31 CST; written by the srj session",
+                    "evidence_id": "bridge:2646"
+                }
+            }
         },
         {
             "slug": "throughput",
