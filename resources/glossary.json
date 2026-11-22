@@ -1,5 +1,5 @@
 {
-    "count": 887,
+    "count": 888,
     "terms": [
         {
             "slug": "agent",
@@ -289,7 +289,11 @@
             "origin": "EU product-safety law; central to the EU AI Act's high-risk regime.",
             "example": "A high-risk AI system routed through a notified body instead of a self-declaration.",
             "category": "AI Security & Assurance",
-            "definition": "The formal process of demonstrating a product meets regulatory requirements before it goes to market. Depending on classification it is self-assessed or third-party assessed, and the difference determines cost, timeline, and who signs."
+            "definition": "The formal process of demonstrating a product meets regulatory requirements before it goes to market. Depending on classification it is self-assessed or third-party assessed, and the difference determines cost, timeline, and who signs.",
+            "related_slugs": [
+                "independent-verification-organization"
+            ],
+            "related_slugs_source": "bridge row 2783 (editor for Stephen, 2026-11-22)"
         },
         {
             "slug": "context-isolation",
@@ -6261,7 +6265,11 @@
             "definition": "An AI auditor is a person or company that independently checks whether an artificial intelligence system follows state laws and safety rules. In California, AI auditors must register with a state agency and meet standards for independence, technical skill, and transparency.",
             "author_note": "Seeded by ollama:deepseek-v4-pro from this site's own usage of the term; reviewed by Stephen on publication.",
             "authored_on": "2026-09-17",
-            "authored_here": true
+            "authored_here": true,
+            "related_slugs": [
+                "independent-verification-organization"
+            ],
+            "related_slugs_source": "bridge row 2783 (editor for Stephen, 2026-11-22)"
         },
         {
             "slug": "duty-of-care",
@@ -10330,6 +10338,22 @@
             "authored_on": "2026-11-20",
             "authored_here": true,
             "promoted_from": "synced_glossary_terms id 258367"
+        },
+        {
+            "slug": "independent-verification-organization",
+            "term": "Independent Verification Organization (IVO)",
+            "example": "A developer hires a state designated IVO to test its hiring model against a risk standard before release, so it can show the audit if the model is later challenged in court.",
+            "category": "AI Law",
+            "definition": "An expert third party, approved by a government body, that checks whether an AI system or a company's AI controls meet a set safety or risk standard, much as an outside auditor checks financial statements. California's SB 813, signed September 9, 2026, lets the Government Operations Agency designate IVOs to carry out voluntary AI audits; an audit is relevant to, but not conclusive of, a later lawsuit over harm. Connecticut created an IVO pilot program, and Virginia's SB 384 and HB 797 directed a state commission to study the framework. On November 18, 2026, California's report AI Safety in 2026 and Beyond recommended going further: licensed IVOs with ongoing, mandatory oversight of large frontier developers, a step that would need new legislation.",
+            "author_note": "Written by theworldofai editor 2026-11-22 at Stephen's request. Sources: Crowell & Moring on CA SB 813 and AB 1405; Fathom on Virginia SB 384 and HB 797; this site's law-ct-hb05222 page. Related terms: AI Auditor, Conformity Assessment. Updated 2026-11-22 with the Nov 18, 2026 California report (gov.ca.gov release; summary at casrai.org) after Stephen pointed to story 58f0bf94.",
+            "authored_on": "2026-11-22",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 261029",
+            "related_slugs": [
+                "ai-auditor",
+                "conformity-assessment"
+            ],
+            "related_slugs_source": "bridge row 2783 (editor for Stephen, 2026-11-22)"
         }
     ],
     "source": {
