@@ -1,5 +1,5 @@
 {
-    "count": 861,
+    "count": 887,
     "terms": [
         {
             "slug": "agent",
@@ -1508,7 +1508,26 @@
             "origin": "Popularized by Nick Bostrom's \"Superintelligence,\" 2014.",
             "example": "The endpoint scenario debated in existential-risk literature.",
             "category": "Core Concepts",
-            "definition": "A hypothetical form of AI far surpassing human intelligence in every field, including creativity, wisdom, and social skill. It matters less as a forecast than as the scenario that motivates much of long-horizon safety research."
+            "definition": "A hypothetical form of AI far surpassing human intelligence in every field, including creativity, wisdom, and social skill. It matters less as a forecast than as the scenario that motivates much of long-horizon safety research.",
+            "also_called": [
+                "Super Intelligence",
+                "Superintelligence",
+                "SI (super intelligence)"
+            ],
+            "also_called_notes": {
+                "superintelligence": {
+                    "evidence": "U.S. Commerce uses \"super intelligence (SI)\" for AI chips and servers in export control text from November 2026: BIS, \"BIS Issues Rule Addressing Remote Access to American Super Intelligence Technology\", 16 Nov 2026, https://bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology; asked for by Stephen 2026-11-21; written by the srj session",
+                    "evidence_id": "bridge:2684"
+                },
+                "super intelligence": {
+                    "evidence": "U.S. Commerce uses \"super intelligence (SI)\" for AI chips and servers in export control text from November 2026: BIS, \"BIS Issues Rule Addressing Remote Access to American Super Intelligence Technology\", 16 Nov 2026, https://bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology; asked for by Stephen 2026-11-21; written by the srj session",
+                    "evidence_id": "bridge:2684"
+                },
+                "si super intelligence": {
+                    "evidence": "SI is the abbreviation U.S. Commerce uses for super intelligence in export control text from November 2026: BIS, \"BIS Issues Rule Addressing Remote Access to American Super Intelligence Technology\", 16 Nov 2026, https://bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology (\"super intelligence (SI) chips and servers\"); asked for by Stephen 2026-11-21; written by the srj session",
+                    "evidence_id": "bridge:2684"
+                }
+            }
         },
         {
             "slug": "automatic-speech-recognition-asr",
@@ -10007,6 +10026,310 @@
                 "smart-glasses"
             ],
             "related_slugs_source": "the editor's note on synced_glossary_terms id 255757"
+        },
+        {
+            "slug": "jepa-joint-embedding-predictive-architecture",
+            "term": "JEPA (Joint Embedding Predictive Architecture)",
+            "example": "",
+            "category": "Architecture",
+            "definition": "A self-supervised training approach proposed by Yann LeCun in which a model learns by predicting the abstract representation of a hidden part of its input, such as a masked region of an image, rather than predicting the raw pixels or words. Meta's I-JEPA and V-JEPA models are built this way, as a step toward world models.",
+            "author_note": "Written by the theworldofai editor, bridge row 2646 (Stephen, 2026-11-20 12:31 CST: \"yes\"). Definition is the editor's words, unchanged. The gap was found by checking a Think Scale AI graphic, \"20 AI Concepts to Know Before 2027\" (83 terms), against this glossary.\nThe srj session fetched the source on 2026-11-20 with its own agent: HTTP 200, page title \"The first AI model based on Yann LeCun's vision for more human-like AI\".\nThe page describes I-JEPA; it does not name V-JEPA, which is the editor's addition.",
+            "authored_on": "2026-11-20",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 258342"
+        },
+        {
+            "slug": "compaction",
+            "term": "Compaction",
+            "example": "",
+            "category": "Prompting & Interaction",
+            "definition": "Summarizing a long conversation or agent history and starting a fresh context window from that summary, so an agent can keep working on a long task without running out of context or losing track of earlier decisions.",
+            "author_note": "Written by the theworldofai editor, bridge row 2646 (Stephen, 2026-11-20 12:31 CST: \"yes\"). Definition is the editor's words, unchanged. The gap was found by checking a Think Scale AI graphic, \"20 AI Concepts to Know Before 2027\" (83 terms), against this glossary.\nThe srj session fetched the source on 2026-11-20 with its own agent: HTTP 200, page title \"Effective context engineering for AI agents\". The editor gave https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents, which now redirects here; the address it lands on is stored.",
+            "authored_on": "2026-11-20",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 258343"
+        },
+        {
+            "slug": "semantic-memory",
+            "term": "Semantic Memory",
+            "example": "",
+            "category": "Agents",
+            "definition": "The part of an AI agent's memory that stores general facts and knowledge, such as facts about a user or a domain, apart from the record of specific past events. The term is borrowed from cognitive science.",
+            "author_note": "Written by the theworldofai editor, bridge row 2646 (Stephen, 2026-11-20 12:31 CST: \"yes\"). Definition is the editor's words, unchanged. The gap was found by checking a Think Scale AI graphic, \"20 AI Concepts to Know Before 2027\" (83 terms), against this glossary.\nThe srj session fetched the source on 2026-11-20 with its own agent: HTTP 200, page title \"Cognitive Architectures for Language Agents\".",
+            "authored_on": "2026-11-20",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 258344"
+        },
+        {
+            "slug": "long-term-memory-ai-agents",
+            "term": "Long-Term Memory (AI Agents)",
+            "example": "",
+            "category": "Agents",
+            "definition": "Information an AI agent keeps across sessions, usually in an external store such as a database or vector index, and retrieves when it is relevant to a new task.",
+            "author_note": "Written by the theworldofai editor, bridge row 2646 (Stephen, 2026-11-20 12:31 CST: \"yes\"). Definition is the editor's words, unchanged. The gap was found by checking a Think Scale AI graphic, \"20 AI Concepts to Know Before 2027\" (83 terms), against this glossary.\nThe srj session fetched the source on 2026-11-20 with its own agent: HTTP 200, page title \"Memory overview - Docs by LangChain\". The editor gave https://langchain-ai.github.io/langgraph/concepts/memory/, which now redirects here; the address it lands on is stored.\nThe given address now serves only a \"Redirecting...\" page whose refresh points to docs.langchain.com.",
+            "authored_on": "2026-11-20",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 258345"
+        },
+        {
+            "slug": "short-term-memory-ai-agents",
+            "term": "Short-Term Memory (AI Agents)",
+            "example": "",
+            "category": "Agents",
+            "definition": "The information an AI agent holds within a single session or task, usually the conversation and tool results inside its current context window. It is lost when the session ends unless saved to long-term memory.",
+            "author_note": "Written by the theworldofai editor, bridge row 2646 (Stephen, 2026-11-20 12:31 CST: \"yes\"). Definition is the editor's words, unchanged. The gap was found by checking a Think Scale AI graphic, \"20 AI Concepts to Know Before 2027\" (83 terms), against this glossary.\nThe srj session fetched the source on 2026-11-20 with its own agent: HTTP 200, page title \"Memory overview - Docs by LangChain\". The editor gave https://langchain-ai.github.io/langgraph/concepts/memory/, which now redirects here; the address it lands on is stored.\nThe given address now serves only a \"Redirecting...\" page whose refresh points to docs.langchain.com.",
+            "authored_on": "2026-11-20",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 258346"
+        },
+        {
+            "slug": "google-adk-agent-development-kit",
+            "term": "Google ADK (Agent Development Kit)",
+            "example": "",
+            "category": "Developer Tools",
+            "definition": "Google's open source framework for building, evaluating and deploying AI agents and multi-agent systems, designed to work with Gemini models and Vertex AI but usable with other models.",
+            "author_note": "Written by the theworldofai editor, bridge row 2646 (Stephen, 2026-11-20 12:31 CST: \"yes\"). Definition is the editor's words, unchanged. The gap was found by checking a Think Scale AI graphic, \"20 AI Concepts to Know Before 2027\" (83 terms), against this glossary.\nThe srj session fetched the source on 2026-11-20 with its own agent: HTTP 200, page title \"Agent Development Kit (ADK)\". The editor gave https://google.github.io/adk-docs/, which now redirects here; the address it lands on is stored.",
+            "authored_on": "2026-11-20",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 258347"
+        },
+        {
+            "slug": "langgraph",
+            "term": "LangGraph",
+            "example": "",
+            "category": "Developer Tools",
+            "definition": "An open source framework from LangChain for building stateful AI agents as graphs of steps, with support for loops, branching, persistence and human review between steps.",
+            "author_note": "Written by the theworldofai editor, bridge row 2646 (Stephen, 2026-11-20 12:31 CST: \"yes\"). Definition is the editor's words, unchanged. The gap was found by checking a Think Scale AI graphic, \"20 AI Concepts to Know Before 2027\" (83 terms), against this glossary.\nThe srj session fetched the source on 2026-11-20 with its own agent: HTTP 200, page title \"LangGraph: Agent Orchestration Framework for Reliable AI Agents\".",
+            "authored_on": "2026-11-20",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 258348"
+        },
+        {
+            "slug": "agent-harness",
+            "term": "Agent Harness",
+            "example": "",
+            "category": "Agents",
+            "definition": "The software around a model that turns it into a working agent: the loop that calls the model, the tools it can use, how its context and memory are managed, and the checks and permissions that govern its actions. Two agents built on the same model can behave very differently because of their harness.",
+            "author_note": "Written by the theworldofai editor, bridge row 2646 (Stephen, 2026-11-20 12:31 CST: \"yes\"). Definition is the editor's words, unchanged. The gap was found by checking a Think Scale AI graphic, \"20 AI Concepts to Know Before 2027\" (83 terms), against this glossary.\nThe srj session fetched the source on 2026-11-20 with its own agent: HTTP 200, page title \"Effective harnesses for long-running agents\". The editor gave https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents, which now redirects here; the address it lands on is stored.",
+            "authored_on": "2026-11-20",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 258349"
+        },
+        {
+            "slug": "agent-loop",
+            "term": "Agent Loop",
+            "example": "",
+            "category": "Agents",
+            "definition": "The repeating cycle an AI agent runs: the model reads its context, decides on an action or tool call, the result is added back to the context, and the cycle continues until the task is done or a stop condition is reached.",
+            "author_note": "Written by the theworldofai editor, bridge row 2646 (Stephen, 2026-11-20 12:31 CST: \"yes\"). Definition is the editor's words, unchanged. The gap was found by checking a Think Scale AI graphic, \"20 AI Concepts to Know Before 2027\" (83 terms), against this glossary.\nThe srj session fetched the source on 2026-11-20 with its own agent: HTTP 200, page title \"Running agents - OpenAI Agents SDK\".",
+            "authored_on": "2026-11-20",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 258350"
+        },
+        {
+            "slug": "agent-skills",
+            "term": "Agent Skills",
+            "example": "",
+            "category": "Agents",
+            "definition": "Packaged instructions, scripts and resources that an AI agent loads only when a task needs them, so it can perform a specialized job, such as working with a file format, without carrying every instruction in its context all the time.",
+            "author_note": "Written by the theworldofai editor, bridge row 2646 (Stephen, 2026-11-20 12:31 CST: \"yes\"). Definition is the editor's words, unchanged. The gap was found by checking a Think Scale AI graphic, \"20 AI Concepts to Know Before 2027\" (83 terms), against this glossary.\nThe srj session fetched the source on 2026-11-20 with its own agent: HTTP 200, page title \"Introducing Agent Skills | Claude by Anthropic\". The editor gave https://www.anthropic.com/news/skills, which now redirects here; the address it lands on is stored.",
+            "authored_on": "2026-11-20",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 258351"
+        },
+        {
+            "slug": "amazon-bedrock",
+            "term": "Amazon Bedrock",
+            "example": "",
+            "category": "AI Platforms",
+            "definition": "Amazon Web Services' managed service for building generative AI applications with foundation models from Amazon and other providers through one API, with tools for retrieval, guardrails and agents.",
+            "author_note": "Written by the theworldofai editor, bridge row 2646 (Stephen, 2026-11-20 12:31 CST: \"yes\"). Definition is the editor's words, unchanged. The gap was found by checking a Think Scale AI graphic, \"20 AI Concepts to Know Before 2027\" (83 terms), against this glossary.\nThe srj session fetched the source on 2026-11-20 with its own agent: HTTP 200, page title \"Amazon Bedrock - AWS\".",
+            "authored_on": "2026-11-20",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 258352"
+        },
+        {
+            "slug": "amazon-bedrock-agentcore",
+            "term": "Amazon Bedrock AgentCore",
+            "example": "",
+            "category": "AI Platforms",
+            "definition": "A set of AWS services for running AI agents in production, covering the runtime, memory, identity, a gateway to tools, browser and code execution, and observability, usable with agents built in any framework.",
+            "author_note": "Written by the theworldofai editor, bridge row 2646 (Stephen, 2026-11-20 12:31 CST: \"yes\"). Definition is the editor's words, unchanged. The gap was found by checking a Think Scale AI graphic, \"20 AI Concepts to Know Before 2027\" (83 terms), against this glossary.\nThe srj session fetched the source on 2026-11-20 with its own agent: HTTP 200, page title \"Amazon Bedrock AgentCore - AWS\".",
+            "authored_on": "2026-11-20",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 258353"
+        },
+        {
+            "slug": "azure-ai-foundry",
+            "term": "Azure AI Foundry",
+            "example": "",
+            "category": "AI Platforms",
+            "definition": "Microsoft's platform for building, evaluating and deploying AI applications and agents on Azure, with access to models from OpenAI, Microsoft and other providers. Microsoft renamed it Microsoft Foundry.",
+            "also_called": [
+                "Microsoft Foundry"
+            ],
+            "author_note": "Written by the theworldofai editor, bridge row 2646 (Stephen, 2026-11-20 12:31 CST: \"yes\"). Definition is the editor's words, unchanged. The gap was found by checking a Think Scale AI graphic, \"20 AI Concepts to Know Before 2027\" (83 terms), against this glossary.\nThe srj session fetched the source on 2026-11-20 with its own agent: HTTP 200, page title \"Microsoft Foundry | Microsoft Azure\".\nThe page uses the name Microsoft Foundry throughout, which agrees with the last sentence.\nSynonyms: Microsoft Foundry",
+            "authored_on": "2026-11-20",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 258354",
+            "also_called_notes": {
+                "Microsoft Foundry": {
+                    "evidence": "the editor's Synonyms line on synced_glossary_terms id 258354",
+                    "evidence_id": "bridge:2646"
+                }
+            }
+        },
+        {
+            "slug": "kubernetes",
+            "term": "Kubernetes",
+            "example": "",
+            "category": "Systems & Infrastructure",
+            "definition": "Open source software that runs and manages containerized applications across clusters of machines, handling deployment, scaling and recovery. It is widely used to serve AI models and agents in production. Often written K8s.",
+            "also_called": [
+                "K8s"
+            ],
+            "author_note": "Written by the theworldofai editor, bridge row 2646 (Stephen, 2026-11-20 12:31 CST: \"yes\"). Definition is the editor's words, unchanged. The gap was found by checking a Think Scale AI graphic, \"20 AI Concepts to Know Before 2027\" (83 terms), against this glossary.\nThe srj session fetched the source on 2026-11-20 with its own agent: HTTP 200, page title \"Overview | Kubernetes\".\nSynonyms: K8s",
+            "authored_on": "2026-11-20",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 258355",
+            "also_called_notes": {
+                "K8s": {
+                    "evidence": "the editor's Synonyms line on synced_glossary_terms id 258355",
+                    "evidence_id": "bridge:2646"
+                }
+            }
+        },
+        {
+            "slug": "serverless-computing",
+            "term": "Serverless Computing",
+            "example": "",
+            "category": "Systems & Infrastructure",
+            "definition": "A way of running code in which the cloud provider manages the servers and charges only for the time the code runs. AWS Lambda is the best known example.",
+            "author_note": "Written by the theworldofai editor, bridge row 2646 (Stephen, 2026-11-20 12:31 CST: \"yes\"). Definition is the editor's words, unchanged. The gap was found by checking a Think Scale AI graphic, \"20 AI Concepts to Know Before 2027\" (83 terms), against this glossary.\nThe srj session fetched the source on 2026-11-20 with its own agent: HTTP 200, page title \"Serverless Computing - AWS Lambda\".",
+            "authored_on": "2026-11-20",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 258356"
+        },
+        {
+            "slug": "google-cloud-run",
+            "term": "Google Cloud Run",
+            "example": "",
+            "category": "Systems & Infrastructure",
+            "definition": "Google Cloud's managed service for running containerized applications that scale automatically with demand, including down to zero when idle.",
+            "author_note": "Written by the theworldofai editor, bridge row 2646 (Stephen, 2026-11-20 12:31 CST: \"yes\"). Definition is the editor's words, unchanged. The gap was found by checking a Think Scale AI graphic, \"20 AI Concepts to Know Before 2027\" (83 terms), against this glossary.\nThe srj session fetched the source on 2026-11-20 with its own agent: HTTP 200, page title \"Cloud Run | Google Cloud\".",
+            "authored_on": "2026-11-20",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 258357"
+        },
+        {
+            "slug": "event-driven-architecture",
+            "term": "Event-Driven Architecture",
+            "example": "",
+            "category": "Systems & Infrastructure",
+            "definition": "A software design in which components communicate by producing and reacting to events, such as a new order or a finished task, rather than calling each other directly. It suits AI workflows where steps run at different speeds.",
+            "author_note": "Written by the theworldofai editor, bridge row 2646 (Stephen, 2026-11-20 12:31 CST: \"yes\"). Definition is the editor's words, unchanged. The gap was found by checking a Think Scale AI graphic, \"20 AI Concepts to Know Before 2027\" (83 terms), against this glossary.\nThe srj session fetched the source on 2026-11-20 with its own agent: HTTP 200, page title \"Event-Driven Architecture\".",
+            "authored_on": "2026-11-20",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 258358"
+        },
+        {
+            "slug": "message-queue",
+            "term": "Message Queue",
+            "example": "",
+            "category": "Systems & Infrastructure",
+            "definition": "A service that holds messages sent between parts of a system until the receiver is ready to process them, so work can be spread out, retried and handled asynchronously.",
+            "author_note": "Written by the theworldofai editor, bridge row 2646 (Stephen, 2026-11-20 12:31 CST: \"yes\"). Definition is the editor's words, unchanged. The gap was found by checking a Think Scale AI graphic, \"20 AI Concepts to Know Before 2027\" (83 terms), against this glossary.\nThe srj session fetched the source on 2026-11-20 with its own agent: HTTP 200, page title \"What is a Message Queue?\".",
+            "authored_on": "2026-11-20",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 258359"
+        },
+        {
+            "slug": "semantic-caching",
+            "term": "Semantic Caching",
+            "example": "",
+            "category": "Systems & Infrastructure",
+            "definition": "Storing the answers to earlier AI requests and reusing an answer when a new request means the same thing, even if it is worded differently, to cut cost and response time.",
+            "author_note": "Written by the theworldofai editor, bridge row 2646 (Stephen, 2026-11-20 12:31 CST: \"yes\"). Definition is the editor's words, unchanged. The gap was found by checking a Think Scale AI graphic, \"20 AI Concepts to Know Before 2027\" (83 terms), against this glossary.\nThe srj session fetched the source on 2026-11-20 with its own agent: HTTP 200, page title \"GitHub - zilliztech/GPTCache: Semantic cache for LLMs\".",
+            "authored_on": "2026-11-20",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 258360"
+        },
+        {
+            "slug": "prompt-compression",
+            "term": "Prompt Compression",
+            "example": "",
+            "category": "Prompting & Interaction",
+            "definition": "Shortening a prompt by removing words or passages that add little meaning, so fewer tokens are sent to a model while the answer stays about the same. LLMLingua is a published method.",
+            "author_note": "Written by the theworldofai editor, bridge row 2646 (Stephen, 2026-11-20 12:31 CST: \"yes\"). Definition is the editor's words, unchanged. The gap was found by checking a Think Scale AI graphic, \"20 AI Concepts to Know Before 2027\" (83 terms), against this glossary.\nThe srj session fetched the source on 2026-11-20 with its own agent: HTTP 200, page title \"LLMLingua: Compressing Prompts for Accelerated Inference of Large Language Models\".",
+            "authored_on": "2026-11-20",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 258361"
+        },
+        {
+            "slug": "langfuse",
+            "term": "Langfuse",
+            "example": "",
+            "category": "Developer Tools",
+            "definition": "An open source platform for tracing, monitoring, evaluating and managing prompts for applications built on large language models.",
+            "author_note": "Written by the theworldofai editor, bridge row 2646 (Stephen, 2026-11-20 12:31 CST: \"yes\"). Definition is the editor's words, unchanged. The gap was found by checking a Think Scale AI graphic, \"20 AI Concepts to Know Before 2027\" (83 terms), against this glossary.\nThe srj session fetched the source on 2026-11-20 with its own agent: HTTP 200, page title \"Open Source AI Engineering Platform - Langfuse\".",
+            "authored_on": "2026-11-20",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 258362"
+        },
+        {
+            "slug": "langsmith",
+            "term": "LangSmith",
+            "example": "",
+            "category": "Developer Tools",
+            "definition": "LangChain's platform for tracing, debugging, testing and monitoring applications and agents built on large language models.",
+            "author_note": "Written by the theworldofai editor, bridge row 2646 (Stephen, 2026-11-20 12:31 CST: \"yes\"). Definition is the editor's words, unchanged. The gap was found by checking a Think Scale AI graphic, \"20 AI Concepts to Know Before 2027\" (83 terms), against this glossary.\nThe srj session fetched the source on 2026-11-20 with its own agent: HTTP 200, page title \"LangSmith: Agent & LLM Observability Platform\". The editor gave https://www.langchain.com/langsmith, which now redirects here; the address it lands on is stored.",
+            "authored_on": "2026-11-20",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 258363"
+        },
+        {
+            "slug": "ragas",
+            "term": "RAGAS",
+            "example": "",
+            "category": "Benchmarks & Evaluation",
+            "definition": "An open source framework for evaluating retrieval augmented generation systems, scoring how faithful an answer is to the retrieved text and how relevant the answer and retrieved context are, without needing human written reference answers.",
+            "author_note": "Written by the theworldofai editor, bridge row 2646 (Stephen, 2026-11-20 12:31 CST: \"yes\"). Definition is the editor's words, unchanged. The gap was found by checking a Think Scale AI graphic, \"20 AI Concepts to Know Before 2027\" (83 terms), against this glossary.\nThe srj session fetched the source on 2026-11-20 with its own agent: HTTP 200, page title \"Ragas: Automated Evaluation of Retrieval Augmented Generation\".",
+            "authored_on": "2026-11-20",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 258364"
+        },
+        {
+            "slug": "rbac-role-based-access-control",
+            "term": "RBAC (Role-Based Access Control)",
+            "example": "",
+            "category": "AI Security & Assurance",
+            "definition": "Granting access to systems and data by role, such as analyst or administrator, rather than person by person. In AI systems it limits which users and agents can call which models, tools and data.",
+            "author_note": "Written by the theworldofai editor, bridge row 2646 (Stephen, 2026-11-20 12:31 CST: \"yes\"). Definition is the editor's words, unchanged. The gap was found by checking a Think Scale AI graphic, \"20 AI Concepts to Know Before 2027\" (83 terms), against this glossary.\nThe srj session fetched the source on 2026-11-20 with its own agent: HTTP 200, page title \"Role Based Access Control | CSRC\".",
+            "authored_on": "2026-11-20",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 258365"
+        },
+        {
+            "slug": "ci-cd-continuous-integration-and-continuous-delivery",
+            "term": "CI/CD (Continuous Integration and Continuous Delivery)",
+            "example": "",
+            "category": "Systems & Infrastructure",
+            "definition": "The practice of automatically building, testing and releasing software every time code changes. For AI systems it extends to testing prompts, models and evaluations before release.",
+            "author_note": "Written by the theworldofai editor, bridge row 2646 (Stephen, 2026-11-20 12:31 CST: \"yes\"). Definition is the editor's words, unchanged. The gap was found by checking a Think Scale AI graphic, \"20 AI Concepts to Know Before 2027\" (83 terms), against this glossary.\nThe srj session fetched the source on 2026-11-20 with its own agent: HTTP 200, page title \"What is CI/CD?\".",
+            "authored_on": "2026-11-20",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 258366"
+        },
+        {
+            "slug": "model-versioning",
+            "term": "Model Versioning",
+            "example": "",
+            "category": "Systems & Infrastructure",
+            "definition": "Keeping a record of every version of a trained model, with the data, code and settings that produced it, so teams can compare, roll back and audit models in production. A model registry is the usual tool.",
+            "author_note": "Written by the theworldofai editor, bridge row 2646 (Stephen, 2026-11-20 12:31 CST: \"yes\"). Definition is the editor's words, unchanged. The gap was found by checking a Think Scale AI graphic, \"20 AI Concepts to Know Before 2027\" (83 terms), against this glossary.\nThe srj session fetched the source on 2026-11-20 with its own agent: HTTP 200, page title \"MLflow Model Registry\". The editor gave https://mlflow.org/docs/latest/model-registry.html, which now redirects here; the address it lands on is stored.",
+            "authored_on": "2026-11-20",
+            "authored_here": true,
+            "promoted_from": "synced_glossary_terms id 258367"
         }
     ],
     "source": {
