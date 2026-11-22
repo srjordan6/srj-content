@@ -3847,8 +3847,8 @@
       "category": "intellectual property",
       "status": "Pleadings stage; runs in parallel with the 2023 case, which it does not replace",
       "status_badge": "Active Litigation",
-      "latest_development": "Joint Status Report and Order re: Schedule for amending Publishers' complaint and briefing any subsequent motions to dismiss. Signed by Judge Eumi K. Lee on 11/16/2026. (lrt, COURT STAFF) (Filed on 11/16/2026) (Entered: 11/16/2026)",
-      "latest_development_date": "2026-11-16",
+      "latest_development": "Transcript Order",
+      "latest_development_date": "2026-11-22",
       "courtlistener_url": "https://www.courtlistener.com/docket/72199828/concord-music-group-inc-v-anthropic-pbc/",
       "executive_summary": "The publishers' second action expands the works at issue to more than 20,000 songs and seeks approximately $3 billion, alleging continued training on and reproduction of lyrics after the first suit, and naming company leadership personally.",
       "why_it_matters": "Escalation pattern matters: repeat litigation with individual-officer claims signals how rights holders pressure AI companies that keep training during litigation.",
@@ -3863,6 +3863,12 @@
       "defendant_counsel": null,
       "claims": [],
       "timeline": [
+        {
+          "url": "https://www.courtlistener.com/docket/72199828/concord-music-group-inc-v-anthropic-pbc/",
+          "date": "2026-11-22",
+          "title": "Transcript Order",
+          "doc_no": "145"
+        },
         {
           "url": "https://www.courtlistener.com/docket/72199828/concord-music-group-inc-v-anthropic-pbc/",
           "date": "2026-11-16",
@@ -4995,8 +5001,8 @@
       "category": "intellectual property",
       "status": "Summary judgment granted for Meta on fair use (June 2025); plaintiffs seek interlocutory appeal certification",
       "status_badge": "Active Litigation",
-      "latest_development": "Order on Stipulation",
-      "latest_development_date": "2026-11-20",
+      "latest_development": "Transcript",
+      "latest_development_date": "2026-11-22",
       "courtlistener_url": "https://www.courtlistener.com/docket/67569326/kadrey-v-meta-platforms-inc/",
       "executive_summary": "Authors allege Meta trained Llama on pirated book datasets. Judge Chhabria granted Meta summary judgment on fair use but pointedly limited the ruling to this record, writing that training-market harm could defeat fair use on better evidence.",
       "why_it_matters": "The most-cited pro-defendant U.S. training ruling, and its own caveats are the roadmap plaintiffs in every other case now follow.",
@@ -5014,6 +5020,12 @@
       "defendant_counsel": null,
       "claims": [],
       "timeline": [
+        {
+          "url": "https://www.courtlistener.com/docket/67569326/kadrey-v-meta-platforms-inc/",
+          "date": "2026-11-22",
+          "title": "Transcript",
+          "doc_no": "888"
+        },
         {
           "url": "https://www.courtlistener.com/docket/67569326/kadrey-v-meta-platforms-inc/",
           "date": "2026-11-20",
@@ -6628,42 +6640,6 @@
       "verified_date": "2026-07-30"
     },
     {
-      "slug": "irreplaceable-education-fund-v-anthropic",
-      "case_name": "Irreplaceable Education Fund v. Anthropic PBC",
-      "court": "Superior Court of California, County of San Francisco (state court)",
-      "docket": null,
-      "judge": null,
-      "filed_date": "2026-11-12",
-      "plaintiffs": "Irreplaceable Education Fund; Public Citizen, Inc.; Heat Initiative, Inc.; Future Tech Insights Inc. d/b/a The Alliance for Secure AI",
-      "defendants": "Anthropic PBC; Google LLC; Meta Platforms, Inc.; OpenAI Group PBC; OpenAI Foundation; SpaceX Super Intelligence LLC; SpaceX Super Intelligence Corp.",
-      "category": "consumer protection",
-      "status": "Filed 12 November 2026; case number not yet read on the court's site",
-      "status_badge": "Active Litigation",
-      "latest_development": "Complaint filed in San Francisco Superior Court",
-      "latest_development_date": "2026-11-12",
-      "courtlistener_url": null,
-      "executive_summary": "Four nonprofits sued Anthropic, Google, Meta, OpenAI and SpaceX Super Intelligence in San Francisco Superior Court on 12 November 2026 under California's Unfair Competition Law, asking the court to freeze development of their most advanced AI models.",
-      "why_it_matters": "It is the first suit to ask a court to halt frontier model development outright, and it rests on an existing state consumer protection statute rather than any AI-specific law.",
-      "target_models": [],
-      "disputed_datasets": [],
-      "materials_at_issue": null,
-      "plaintiff_counsel": "Matthew J. Platkin (Platkin LLP); Tyler Whitmer (Legal Advocates for Safe Science and Technology); Jason Harrow (Gerstein Harrow LLP)",
-      "defendant_counsel": null,
-      "claims": [],
-      "timeline": [],
-      "tags": [
-        "frontier-ai",
-        "ai-safety",
-        "unfair-competition",
-        "injunction"
-      ],
-      "related_slugs": [
-        "office-of-v-openai-global"
-      ],
-      "display_order": 100,
-      "verified_date": "2026-11-13"
-    },
-    {
       "slug": "labels-v-suno",
       "case_name": "UMG Recordings, Sony Music et al. v. Suno, Inc.",
       "court": "U.S. District Court, D. Massachusetts",
@@ -7036,6 +7012,42 @@
       ],
       "display_order": 100,
       "verified_date": "2026-07-30"
+    },
+    {
+      "slug": "irreplaceable-education-fund-v-anthropic",
+      "case_name": "Irreplaceable Education Fund v. Anthropic PBC",
+      "court": "Superior Court of California, County of San Francisco (state court)",
+      "docket": null,
+      "judge": null,
+      "filed_date": "2026-11-12",
+      "plaintiffs": "Irreplaceable Education Fund; Public Citizen, Inc.; Heat Initiative, Inc.; Future Tech Insights Inc. d/b/a The Alliance for Secure AI",
+      "defendants": "Anthropic PBC; Google LLC; Meta Platforms, Inc.; OpenAI Group PBC; OpenAI Foundation; SpaceX Super Intelligence LLC; SpaceX Super Intelligence Corp.",
+      "category": "consumer protection",
+      "status": "Filed 12 November 2026; case number not yet read on the court's site",
+      "status_badge": "Active Litigation",
+      "latest_development": "Complaint filed in San Francisco Superior Court",
+      "latest_development_date": "2026-11-12",
+      "courtlistener_url": null,
+      "executive_summary": "Four nonprofits sued Anthropic, Google, Meta, OpenAI and SpaceX Super Intelligence in San Francisco Superior Court on 12 November 2026 under California's Unfair Competition Law, asking the court to freeze development of their most advanced AI models.",
+      "why_it_matters": "It is the first suit to ask a court to halt frontier model development outright, and it rests on an existing state consumer protection statute rather than any AI-specific law.",
+      "target_models": [],
+      "disputed_datasets": [],
+      "materials_at_issue": null,
+      "plaintiff_counsel": "Matthew J. Platkin (Platkin LLP); Tyler Whitmer (Legal Advocates for Safe Science and Technology); Jason Harrow (Gerstein Harrow LLP)",
+      "defendant_counsel": null,
+      "claims": [],
+      "timeline": [],
+      "tags": [
+        "frontier-ai",
+        "ai-safety",
+        "unfair-competition",
+        "injunction"
+      ],
+      "related_slugs": [
+        "office-of-v-openai-global"
+      ],
+      "display_order": 100,
+      "verified_date": "2026-11-13"
     },
     {
       "slug": "umg-v-uncharted-labs-udio",
@@ -38197,5 +38209,5 @@
       "verified_date": "2026-11-20"
     }
   ],
-  "generated": "2026-11-22T08:58:28Z"
+  "generated": "2026-11-22T20:41:22Z"
 }
