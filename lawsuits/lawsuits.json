@@ -7000,42 +7000,6 @@
       "verified_date": "2026-07-30"
     },
     {
-      "slug": "irreplaceable-education-fund-v-anthropic",
-      "case_name": "Irreplaceable Education Fund v. Anthropic PBC",
-      "court": "Superior Court of California, County of San Francisco (state court)",
-      "docket": null,
-      "judge": null,
-      "filed_date": "2026-11-12",
-      "plaintiffs": "Irreplaceable Education Fund; Public Citizen, Inc.; Heat Initiative, Inc.; Future Tech Insights Inc. d/b/a The Alliance for Secure AI",
-      "defendants": "Anthropic PBC; Google LLC; Meta Platforms, Inc.; OpenAI Group PBC; OpenAI Foundation; SpaceX Super Intelligence LLC; SpaceX Super Intelligence Corp.",
-      "category": "consumer protection",
-      "status": "Filed 12 November 2026; case number not yet read on the court's site",
-      "status_badge": "Active Litigation",
-      "latest_development": "Complaint filed in San Francisco Superior Court",
-      "latest_development_date": "2026-11-12",
-      "courtlistener_url": null,
-      "executive_summary": "Four nonprofits sued Anthropic, Google, Meta, OpenAI and SpaceX Super Intelligence in San Francisco Superior Court on 12 November 2026 under California's Unfair Competition Law, asking the court to freeze development of their most advanced AI models.",
-      "why_it_matters": "It is the first suit to ask a court to halt frontier model development outright, and it rests on an existing state consumer protection statute rather than any AI-specific law.",
-      "target_models": [],
-      "disputed_datasets": [],
-      "materials_at_issue": null,
-      "plaintiff_counsel": "Matthew J. Platkin (Platkin LLP); Tyler Whitmer (Legal Advocates for Safe Science and Technology); Jason Harrow (Gerstein Harrow LLP)",
-      "defendant_counsel": null,
-      "claims": [],
-      "timeline": [],
-      "tags": [
-        "frontier-ai",
-        "ai-safety",
-        "unfair-competition",
-        "injunction"
-      ],
-      "related_slugs": [
-        "office-of-v-openai-global"
-      ],
-      "display_order": 100,
-      "verified_date": "2026-11-13"
-    },
-    {
       "slug": "labels-v-suno",
       "case_name": "UMG Recordings, Sony Music et al. v. Suno, Inc.",
       "court": "U.S. District Court, D. Massachusetts",
@@ -7450,6 +7414,42 @@
       ],
       "display_order": 100,
       "verified_date": "2026-07-30"
+    },
+    {
+      "slug": "irreplaceable-education-fund-v-anthropic",
+      "case_name": "Irreplaceable Education Fund v. Anthropic PBC",
+      "court": "Superior Court of California, County of San Francisco (state court)",
+      "docket": null,
+      "judge": null,
+      "filed_date": "2026-11-12",
+      "plaintiffs": "Irreplaceable Education Fund; Public Citizen, Inc.; Heat Initiative, Inc.; Future Tech Insights Inc. d/b/a The Alliance for Secure AI",
+      "defendants": "Anthropic PBC; Google LLC; Meta Platforms, Inc.; OpenAI Group PBC; OpenAI Foundation; SpaceX Super Intelligence LLC; SpaceX Super Intelligence Corp.",
+      "category": "consumer protection",
+      "status": "Filed 12 November 2026; case number not yet read on the court's site",
+      "status_badge": "Active Litigation",
+      "latest_development": "Complaint filed in San Francisco Superior Court",
+      "latest_development_date": "2026-11-12",
+      "courtlistener_url": null,
+      "executive_summary": "Four nonprofits sued Anthropic, Google, Meta, OpenAI and SpaceX Super Intelligence in San Francisco Superior Court on 12 November 2026 under California's Unfair Competition Law, asking the court to freeze development of their most advanced AI models.",
+      "why_it_matters": "It is the first suit to ask a court to halt frontier model development outright, and it rests on an existing state consumer protection statute rather than any AI-specific law.",
+      "target_models": [],
+      "disputed_datasets": [],
+      "materials_at_issue": null,
+      "plaintiff_counsel": "Matthew J. Platkin (Platkin LLP); Tyler Whitmer (Legal Advocates for Safe Science and Technology); Jason Harrow (Gerstein Harrow LLP)",
+      "defendant_counsel": null,
+      "claims": [],
+      "timeline": [],
+      "tags": [
+        "frontier-ai",
+        "ai-safety",
+        "unfair-competition",
+        "injunction"
+      ],
+      "related_slugs": [
+        "office-of-v-openai-global"
+      ],
+      "display_order": 100,
+      "verified_date": "2026-11-13"
     },
     {
       "slug": "umg-v-uncharted-labs-udio",
@@ -8766,8 +8766,8 @@
       "category": "intellectual property",
       "status": "Filed; docket monitoring active",
       "status_badge": "Active Litigation",
-      "latest_development": "Order AND ~Util - Set/Reset Deadlines/Hearings",
-      "latest_development_date": "2026-11-20",
+      "latest_development": "Joint Report Rule 26(f) Discovery Plan",
+      "latest_development_date": "2026-11-27",
       "courtlistener_url": "https://www.courtlistener.com/docket/73698332/evox-productions-llc-v-midjourney-inc/",
       "executive_summary": "EVOX Production LLC sued Midjourney, Inc. in the United States District Court for the Central District of California on July 30, 2026. The docket entries indicate a copyright claim, as shown by the initial notification regarding a copyright filed that day. Midjourney, Inc. waived service on August 18, 2026, with an answer due September 28, 2026. As of the newest entry on September 15, 2026, the court granted Charity E. Lee's application to appear pro hac vice for Midjourney, Inc., and no answer appears in the docket yet.",
       "why_it_matters": "Training data copyright suits decide whether building a model on protected work without a licence is infringement or fair use, which sets the cost of every future model and the licensing market around it.",
@@ -8778,6 +8778,12 @@
       "defendant_counsel": null,
       "claims": [],
       "timeline": [
+        {
+          "url": "https://www.courtlistener.com/docket/73698332/evox-productions-llc-v-midjourney-inc/",
+          "date": "2026-11-27",
+          "title": "Joint Report Rule 26(f) Discovery Plan",
+          "doc_no": "36"
+        },
         {
           "url": "https://www.courtlistener.com/docket/73698332/evox-productions-llc-v-midjourney-inc/",
           "date": "2026-11-20",
@@ -9959,8 +9965,8 @@
       "category": "intellectual property",
       "status": "Filed; docket monitoring active",
       "status_badge": "Active Litigation",
-      "latest_development": "MOTION to Appear Pro Hac Vice for David I. Mizrahi (Fee Paid: $100, receipt number ATXSDC-36530636) by Nick Gawronski, filed. Motion Docket Date 8/27/2026. (Mizrahi, David) (Entered: 08/06/2026)",
-      "latest_development_date": "2026-08-06",
+      "latest_development": "Summons Issued as to Suno Inc. Issued summons delivered to plaintiff by NEF, filed. (amp4) (Entered: 08/17/2026)",
+      "latest_development_date": "2026-08-17",
       "courtlistener_url": "https://www.courtlistener.com/docket/73701949/gawronski-v-suno-inc/",
       "executive_summary": "Nick Gawronski sued Suno Inc. in the District Court, S.D. Texas, with a complaint filed on July 31, 2026. The docket entries do not state the nature of the claim. As of the newest entry on August 6, 2026, Nick Gawronski filed a motion for David I. Mizrahi to appear pro hac vice, and an initial pretrial and scheduling conference is set for December 4, 2026 before Judge Ewing Werlein Jr.",
       "why_it_matters": "Training data copyright suits decide whether building a model on protected work without a licence is infringement or fair use, which sets the cost of every future model and the licensing market around it.",
@@ -9971,6 +9977,24 @@
       "defendant_counsel": null,
       "claims": [],
       "timeline": [
+        {
+          "url": "https://www.courtlistener.com/docket/73701949/gawronski-v-suno-inc/",
+          "date": "2026-08-17",
+          "title": "Summons Issued as to Suno Inc. Issued summons delivered to plaintiff by NEF, filed. (amp4) (Entered: 08/17/2026)",
+          "doc_no": "7"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/73701949/gawronski-v-suno-inc/",
+          "date": "2026-08-12",
+          "title": "Request for Issuance of Summons as to Suno Inc., filed. (Mizrahi, David) (Entered: 08/12/2026)",
+          "doc_no": "6"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/73701949/gawronski-v-suno-inc/",
+          "date": "2026-08-07",
+          "title": "ORDER granting 4 Motion for David Mizrahi to Appear Pro Hac Vice Note: Instructions to request Texas Southern CM/ECF registration through PACER are found here.(Signed by Judge Ewing Werlein, Jr) Parties notified. (mf4) (Entered: 08/07/2026)",
+          "doc_no": "5"
+        },
         {
           "url": "https://www.courtlistener.com/docket/73701949/gawronski-v-suno-inc/",
           "date": "2026-08-06",
@@ -14594,8 +14618,8 @@
       "category": "intellectual property",
       "status": "Filed; docket monitoring active",
       "status_badge": "Active Litigation",
-      "latest_development": "ORDER GRANTING 73 MOTION FOR LEAVE TO EXCEED WORD LIMIT AND EXTEND TIME FOR REPLY. The 73 motion is GRANTED. Defendants may file a consolidated memorandum in support of their motion to dismiss, which does not exceed 14,000 words, on or before 11/24/2026. Defendants reply is due on or before 12/22/20",
-      "latest_development_date": "2026-11-17",
+      "latest_development": "MOTION to Dismiss Mall, Askins, Gourley, Morales, and Grant First Amended Complaints by AESTAS LLC, AESTAS MANAGEMENT COMPANY LLC, OAI CORPORATION, OPENAI FOUNDATION, OPENAI GLOBAL HOLDCO INC, OPENAI GLOBAL LLC, OPENAI GP LLC, OPENAI GROUP PBC, OPENAI HOLDINGS LLC, OPENAI LLC, OPENAI OPCO LLC. (Inte",
+      "latest_development_date": "2026-11-24",
       "courtlistener_url": "https://www.courtlistener.com/docket/73320881/joshi-v-openai-foundation/",
       "executive_summary": "Vandana Joshi sued OpenAI Foundation and other OpenAI and Aestas entities, including OpenAI Global LLC, OpenAI LLC, and Aestas LLC, in the United States District Court for the Northern District of Florida on May 10, 2026. The docket entries do not state the specific claims. The court entered an initial scheduling order on May 26, 2026, setting discovery due by September 23, 2026, and a May 22, 2026 order extended the defendants' deadline to answer or otherwise respond to July 13, 2026. As of the newest entry on July 2, 2026, the parties filed a Rule 26(f) planning meeting report.",
       "why_it_matters": "Training data copyright suits decide whether building a model on protected work without a licence is infringement or fair use, which sets the cost of every future model and the licensing market around it.",
@@ -14606,6 +14630,18 @@
       "defendant_counsel": null,
       "claims": [],
       "timeline": [
+        {
+          "url": "https://www.courtlistener.com/docket/73320881/joshi-v-openai-foundation/",
+          "date": "2026-11-24",
+          "title": "MOTION to Dismiss Mall, Askins, Gourley, Morales, and Grant First Amended Complaints by AESTAS LLC, AESTAS MANAGEMENT COMPANY LLC, OAI CORPORATION, OPENAI FOUNDATION, OPENAI GLOBAL HOLDCO INC, OPENAI GLOBAL LLC, OPENAI GP LLC, OPENAI GROUP PBC, OPENAI HOLDINGS LLC, OPENAI LLC, OPENAI OPCO LLC. (Inte",
+          "doc_no": "75"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/73320881/joshi-v-openai-foundation/",
+          "date": "2026-11-23",
+          "title": "ACTION REQUIRED BY DISTRICT JUDGE: Chambers of JUDGE MARK E WALKER notified that action is needed Re: 40 Initial Scheduling Order. (rcb)**Rule 26 Planning Meeting Report no received by 11/19/2026**",
+          "doc_no": ""
+        },
         {
           "url": "https://www.courtlistener.com/docket/73320881/joshi-v-openai-foundation/",
           "date": "2026-11-17",
@@ -29499,8 +29535,38 @@
         {
           "url": "https://www.courtlistener.com/docket/74783623/woulard-v-uncharted-labs-inc/",
           "date": "2026-10-07",
+          "title": "MOTION for Jon Isaac Loevy to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33572975. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Attack the Sound LLC, James Burjek, Stan Burjek, Berk Ergoz, Magnus Fiennes, Hamza Jilani, Michael Mell, Arj",
+          "doc_no": "44"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74783623/woulard-v-uncharted-labs-inc/",
+          "date": "2026-10-07",
+          "title": "MOTION for Ross Edward Kimbarovsky to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33572824. Motion and supporting papers to be reviewed by Clerk's Office staff. Document filed by Attack the Sound LLC, James Burjek, Stan Burjek, Berk Ergoz, Magnus Fiennes, Hamza Jilani, Michael M",
+          "doc_no": "43"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74783623/woulard-v-uncharted-labs-inc/",
+          "date": "2026-10-07",
           "title": "\u003e\u003e\u003eNOTICE REGARDING PRO HAC VICE MOTION. Regarding Document No. 44 MOTION for Jon Isaac Loevy to Appear Pro Hac Vice . Filing fee $ 200.00, receipt number ANYSDC-33572975. Motion and supporting papers to be reviewed by Clerk's Office staff.. The document has been reviewed and there are no deficienci",
           "doc_no": ""
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74783623/woulard-v-uncharted-labs-inc/",
+          "date": "2026-09-17",
+          "title": "NOTICE OF APPEARANCE by Stephen Stich Match on behalf of Attack the Sound LLC, James Burjek, Stan Burjek, Berk Ergoz, Magnus Fiennes, Hamza Jilani, Michael Mell, Arjun Singh, Maatkara Wilson, David Woulard..(Match, Stephen) (Entered: 09/17/2026)",
+          "doc_no": "42"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74783623/woulard-v-uncharted-labs-inc/",
+          "date": "2026-09-17",
+          "title": "LETTER addressed to Judge Loretta A. Preska from Andrew H. Schapiro dated 09/17/2026 re: Request to Relate Case. Document filed by Uncharted Labs, Inc...(Schapiro, Andrew) (Entered: 09/17/2026)",
+          "doc_no": "41"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/74783623/woulard-v-uncharted-labs-inc/",
+          "date": "2026-09-12",
+          "title": "CASE TRANSFERRED IN from the United States District Court - District of Illinois Northern; Case Number: 1:25-cv-12613. Original file certified copy of transfer order and docket entries received. (Entered: 09/12/2026)",
+          "doc_no": "40"
         },
         {
           "url": "https://www.courtlistener.com/docket/74783623/woulard-v-uncharted-labs-inc/",
@@ -35110,8 +35176,8 @@
       "category": "consumer protection",
       "status": "Filed; docket monitoring active",
       "status_badge": "Active Litigation",
-      "latest_development": "Declaration in Support",
-      "latest_development_date": "2026-11-25",
+      "latest_development": "Subpoena",
+      "latest_development_date": "2026-11-27",
       "courtlistener_url": "https://www.courtlistener.com/docket/74951888/character-technologies-inc/",
       "executive_summary": "Character Technologies, Inc. filed a case in the United States Bankruptcy Court for the District of Delaware on 2026-10-12. The docket entries do not state the claims or the relief sought. The newest entries, dated 2026-10-30, are orders approving motions for admission pro hac vice of Darren Azman, Gregg A. Steinman, and Kristin K. Going, an amended notice of appearance by NAAG Client States, and a notice of filing of a revised exhibit to a proposed bidding procedures order. As of the newest entry, the case remains pending in the bankruptcy court.",
       "why_it_matters": "Consumer protection suits apply existing deception law to AI products, which lets a state attorney general act without waiting for an AI statute.",
@@ -35122,6 +35188,12 @@
       "defendant_counsel": null,
       "claims": [],
       "timeline": [
+        {
+          "url": "https://www.courtlistener.com/docket/74951888/character-technologies-inc/",
+          "date": "2026-11-27",
+          "title": "Subpoena",
+          "doc_no": "258"
+        },
         {
           "url": "https://www.courtlistener.com/docket/74951888/character-technologies-inc/",
           "date": "2026-11-25",
@@ -36108,8 +36180,8 @@
       "category": "intellectual property",
       "status": "Filed; docket monitoring active",
       "status_badge": "Active Litigation",
-      "latest_development": "Order Relating Case",
-      "latest_development_date": "2026-11-25",
+      "latest_development": "Initial Case Management Scheduling Order with ADR Deadlines",
+      "latest_development_date": "2026-11-27",
       "courtlistener_url": "https://www.courtlistener.com/docket/75087621/elvis-presley-enterprises-llc-v-suno-inc/",
       "executive_summary": null,
       "why_it_matters": null,
@@ -36120,6 +36192,12 @@
       "defendant_counsel": null,
       "claims": [],
       "timeline": [
+        {
+          "url": "https://www.courtlistener.com/docket/75087621/elvis-presley-enterprises-llc-v-suno-inc/",
+          "date": "2026-11-27",
+          "title": "Initial Case Management Scheduling Order with ADR Deadlines",
+          "doc_no": "17"
+        },
         {
           "url": "https://www.courtlistener.com/docket/75087621/elvis-presley-enterprises-llc-v-suno-inc/",
           "date": "2026-11-25",
@@ -36388,8 +36466,8 @@
       "category": "unclassified",
       "status": "Filed; docket monitoring active",
       "status_badge": "Active Litigation",
-      "latest_development": "Administrative Motion per Civil Local Rule 7-11",
-      "latest_development_date": "2026-11-26",
+      "latest_development": "Reply to Opposition/Response",
+      "latest_development_date": "2026-11-27",
       "courtlistener_url": "https://www.courtlistener.com/docket/75045088/wallace-v-scale-ai-inc/",
       "executive_summary": null,
       "why_it_matters": null,
@@ -36400,6 +36478,12 @@
       "defendant_counsel": null,
       "claims": [],
       "timeline": [
+        {
+          "url": "https://www.courtlistener.com/docket/75045088/wallace-v-scale-ai-inc/",
+          "date": "2026-11-27",
+          "title": "Reply to Opposition/Response",
+          "doc_no": "30"
+        },
         {
           "url": "https://www.courtlistener.com/docket/75045088/wallace-v-scale-ai-inc/",
           "date": "2026-11-26",
@@ -36642,8 +36726,8 @@
       "category": "intellectual property",
       "status": "Filed; docket monitoring active",
       "status_badge": "Active Litigation",
-      "latest_development": "Add Attorneys - PHV only",
-      "latest_development_date": "2026-11-20",
+      "latest_development": "Stipulation to EXTEND Time",
+      "latest_development_date": "2026-11-27",
       "courtlistener_url": "https://www.courtlistener.com/docket/75107003/flinn-artificial-intelligence-ai-technologies-llc-v-anthropic-pbc/",
       "executive_summary": null,
       "why_it_matters": null,
@@ -36654,6 +36738,12 @@
       "defendant_counsel": null,
       "claims": [],
       "timeline": [
+        {
+          "url": "https://www.courtlistener.com/docket/75107003/flinn-artificial-intelligence-ai-technologies-llc-v-anthropic-pbc/",
+          "date": "2026-11-27",
+          "title": "Stipulation to EXTEND Time",
+          "doc_no": "10"
+        },
         {
           "url": "https://www.courtlistener.com/docket/75107003/flinn-artificial-intelligence-ai-technologies-llc-v-anthropic-pbc/",
           "date": "2026-11-20",
@@ -39620,5 +39710,5 @@
       "verified_date": "2026-11-20"
     }
   ],
-  "generated": "2026-11-27T03:59:39Z"
+  "generated": "2026-11-28T03:10:52Z"
 }
